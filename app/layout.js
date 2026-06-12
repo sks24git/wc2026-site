@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
           <div className="masthead-in">
             <span className="logo" translate="no">
               <span className="logo-num">ЧМ·26</span>
-              <span className="logo-sub">Паша × Влад</span>
+              <span className="logo-sub">Паша vs AI</span>
             </span>
             <Nav variant="top" />
           </div>

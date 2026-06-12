@@ -5,6 +5,7 @@ import { matches, getMatch } from '@/data/matches';
 import { bets } from '@/data/bets';
 import { formatDay } from '@/lib/calc';
 import Ticket from '@/components/Ticket';
+import Flags from '@/components/Flags';
 
 export function generateStaticParams() {
   return matches.map((m) => ({ id: m.id }));
@@ -24,9 +25,12 @@ export default function MatchPage({ params }) {
     <div>
       <div className="hero" style={{ paddingTop: 20, paddingBottom: 18 }}>
         <div className="fixture-meta">{m.stage} · {formatDay(m.date)} · {m.timeMsk}{' '}МСК</div>
-        <h1 style={{ margin: '6px 0 2px' }}>{m.title}</h1>
+        <div className="fixture-head" style={{ marginTop: 6 }}>
+          <Flags cc={m.cc} size={30} />
+          <h1 style={{ margin: 0 }}>{m.title}</h1>
+        </div>
         {m.result && <div className="fixture-result num">{m.result}</div>}
-        <div className="fixture-venue">{m.venue}</div>
+        <div className="fixture-venue">{m.venue}{m.weather ? ' · ' + m.weather : ''}</div>
       </div>
 
       {linked.length > 0 && (
