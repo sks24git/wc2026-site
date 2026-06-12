@@ -19,4 +19,9 @@ export const bets = [
   { id: 11, date: '2026-06-12', match: 'США — Парагвай', matchId: 'usa-paraguay', bet: '1Т 0:0', type: '1Т-рынок', odds: 2.0, stake: 1, side: 'AI', status: 'pending' },
   { id: 12, date: '2026-06-12', match: 'США — Парагвай', matchId: 'usa-paraguay', bet: 'ТС 1:0 США', type: 'ТС', odds: 7.0, stake: 0.5, side: 'AI', status: 'pending' },
   { id: 13, date: '2026-06-12', match: 'Канада ТМ 2.5 + США ТМ 2.5', bet: 'Экспресс ТМ × ТМ', type: 'Экспресс', odds: 2.85, stake: 1, side: 'AI', status: 'pending' },
+
+  // Паша: «обе сегодняшние ничьи» + пенальти в матче США (личные ставки, вне конкурса)
+  { id: 14, date: '2026-06-12', match: 'Канада — Босния', matchId: 'canada-bosnia', bet: 'Х (ничья)', type: 'Х', odds: 3.50, stake: 1, side: 'Паша', status: 'win' },
+  { id: 15, date: '2026-06-12', match: 'США — Парагвай', matchId: 'usa-paraguay', bet: 'Х (ничья)', type: 'Х', odds: 3.20, stake: 1, side: 'Паша', status: 'pending' },
+  { id: 16, date: '2026-06-12', match: 'США — Парагвай', matchId: 'usa-paraguay', bet: 'Пенальти в матче — да', type: 'Другое', odds: 2.60, stake: 1, side: 'Паша', status: 'pending' },
 ];
