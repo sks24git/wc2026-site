@@ -30,17 +30,17 @@ export default function HomePage() {
           </div>
           <div className="hero-stat">
             <div className="lbl">На кону</div>
-            <div className="v gold">{atStake.toFixed(1).replace(/\.0$/, '')}{' '}ед</div>
+            <div className="v">{atStake.toFixed(1).replace(/\.0$/, '')}{' '}ед</div>
           </div>
           <div className="hero-stat">
             <div className="lbl">В игре</div>
-            <div className="v gold">{agg.pending}</div>
+            <div className="v">{agg.pending}</div>
           </div>
         </div>
       </section>
 
+      <div className="sect"><span className="sect-label">Ближайшие матчи</span></div>
       <section aria-label="Ближайшие матчи">
-        <div className="kicker">Ближайшие матчи</div>
         {upcoming.length === 0 ? (
           <p className="empty">Карточек пока нет — скоро добавим</p>
         ) : (
@@ -48,18 +48,20 @@ export default function HomePage() {
             const picks = bets.filter((b) => b.matchId === m.id && b.status === 'pending');
             return (
               <Link key={m.id} className="fixture" href={'/matches/' + m.id + '/'}>
-                <div className="fixture-top">
-                  <span className="fixture-stage">{m.stage}</span>
-                  <span className="fixture-time num">{formatDay(m.date)} · {m.timeMsk}{' '}МСК</span>
-                </div>
-                <div className="fixture-title">{m.flags} {m.title}</div>
+                <div className="fixture-meta">{m.stage} · {formatDay(m.date)} · {m.timeMsk}{' '}МСК</div>
+                <div className="fixture-title">{m.title}</div>
                 <div className="fixture-venue">{m.venue}</div>
                 {picks.length > 0 && (
                   <div className="fixture-picks">
                     {picks.map((p) => (
-                      <span key={p.id} className={'pick' + (p.book === 'Конкурс ЛС' ? ' contest' : '')}>
-                        {p.bet} <span className="odds">{fmtOdds(p.odds)}</span>
-                      </span>
+                      <div key={p.id} className={'pick-line' + (p.book === 'Конкурс ЛС' ? ' contest' : '')}>
+                        <span className="pick-name">
+                          {p.bet}
+                          {p.book === 'Конкурс ЛС' && <span className="pick-tag">конкурс</span>}
+                        </span>
+                        <span className="leader" aria-hidden="true" />
+                        <span className="pick-odds">{fmtOdds(p.odds)}</span>
+                      </div>
                     ))}
                   </div>
                 )}
@@ -70,10 +72,12 @@ export default function HomePage() {
       </section>
 
       {otherPending.length > 0 && (
-        <section aria-label="Прочие ставки в игре" style={{ marginTop: 24 }}>
-          <div className="kicker">Также в игре</div>
-          {otherPending.map((b) => <Ticket key={b.id} bet={b} />)}
-        </section>
+        <>
+          <div className="sect"><span className="sect-label">Также в игре</span></div>
+          <section aria-label="Прочие ставки в игре">
+            {otherPending.map((b) => <Ticket key={b.id} bet={b} />)}
+          </section>
+        </>
       )}
       <p className="foot-note">Все ставки и история — во вкладке «Ставки»</p>
     </div>

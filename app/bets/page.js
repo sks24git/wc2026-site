@@ -23,8 +23,9 @@ export default function BetsPage() {
           <section key={d} className="day-group" aria-label={formatDay(d)}>
             <div className="day-head">
               <span className="day-title">{formatDay(d)}</span>
+              <span className="leader" aria-hidden="true" />
               <span className={'day-pl ' + (settled.length === 0 ? '' : dayPl > 0 ? 'pos' : dayPl < 0 ? 'neg' : '')}>
-                {settled.length === 0 ? 'в игре' : fmt(dayPl) + ' ед'}
+                {settled.length === 0 ? 'в игре' : fmt(dayPl) + ' ед'}
               </span>
             </div>
             {list.map((b) => <Ticket key={b.id} bet={b} />)}

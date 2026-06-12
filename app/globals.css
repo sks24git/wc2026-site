@@ -1,204 +1,167 @@
-/* ЧМ-26 · «ночной стадион»: почти чёрный с зелёным подтоном, лаймовый акцент, моно-цифры */
+/* ЧМ-26 · «купон и терминал»: ноль коробок — линейки, типографика, dotted-leaders, статусные точки.
+   Газон — только как едва заметные полосы на фоне страницы. */
 
 :root{
-  --bg:#0a0e0b;
-  --surface:#10150f;
-  --card:#141a13;
-  --card-hover:#181f16;
-  --border:#222b1f;
-  --border-strong:#2e3a29;
-  --text:#eef3ea;
-  --muted:#93a48c;
-  --faint:#5c6b56;
+  --bg:#0b0f0c;
+  --ink:#e9efe6;
+  --muted:#8da08a;
+  --faint:#5d6e57;
+  --hair:rgba(163,230,53,.13);            /* линейка с зелёным подтоном */
+  --hair-dot:rgba(233,239,230,.28);       /* пунктир чека */
   --lime:#a3e635;
-  --lime-dim:#84cc16;
-  --gold:#d9a93f;          /* только для Конкурса ЛС */
-  --win:#a3e635;           /* один зелёный на весь сайт — деньги и победы */
+  --gold:#d9a93f;                          /* только Конкурс ЛС */
+  --win:#a3e635;
   --lose:#e0654f;
-  --void:#7d8c98;
-  --pending:#8a9aa8;
-  --radius:14px;
-  --pad:clamp(14px,3vw,22px);
+  --void:#76838f;
+  --pending:#93a48c;
+  --pad:clamp(16px,4vw,24px);
 }
 
 *{box-sizing:border-box;margin:0;padding:0}
 html{color-scheme:dark;scroll-behavior:smooth}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 body{
-  background:var(--bg);
-  color:var(--text);
+  background:
+    repeating-linear-gradient(90deg,transparent 0 96px,rgba(163,230,53,.02) 96px 192px),
+    var(--bg);
+  color:var(--ink);
   font-family:var(--font-ui),system-ui,sans-serif;
   font-size:15px;line-height:1.5;
   touch-action:manipulation;
   -webkit-font-smoothing:antialiased;
 }
 a{color:inherit;text-decoration:none}
-:focus-visible{outline:2px solid var(--lime);outline-offset:2px;border-radius:4px}
+:focus-visible{outline:2px solid var(--lime);outline-offset:3px}
 
-.skip-link{position:absolute;left:-9999px;top:0;background:var(--lime);color:#0a0e0b;padding:8px 14px;z-index:100;border-radius:0 0 8px 0;font-weight:700}
+.skip-link{position:absolute;left:-9999px;top:0;background:var(--lime);color:#0b0f0c;padding:8px 14px;z-index:100;font-weight:700}
 .skip-link:focus{left:0}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
+.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums}
+.pos{color:var(--win)} .neg{color:var(--lose)} .gold{color:var(--gold)}
+
 /* ── Шапка ── */
-.masthead{
-  border-bottom:1px solid var(--border);
-  background:linear-gradient(180deg,#0e130d 0%,var(--bg) 100%);
-}
-.masthead-in{
-  max-width:980px;margin:0 auto;padding:14px var(--pad);
-  display:flex;align-items:center;justify-content:space-between;gap:16px;
-}
-.logo{display:flex;flex-direction:column;line-height:1.1}
-.logo-num{font-family:var(--font-num),monospace;font-weight:700;font-size:20px;letter-spacing:.04em;color:var(--lime)}
-.logo-sub{font-size:11px;color:var(--faint);letter-spacing:.14em;text-transform:uppercase;margin-top:2px}
+.masthead{border-bottom:1px solid var(--hair)}
+.masthead-in{max-width:920px;margin:0 auto;padding:16px var(--pad);display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;align-items:baseline;gap:10px}
+.logo-num{font-family:var(--font-num),monospace;font-weight:700;font-size:19px;letter-spacing:.04em;color:var(--lime)}
+.logo-sub{font-size:10px;color:var(--faint);letter-spacing:.22em;text-transform:uppercase}
 
 /* ── Навигация ── */
 .nav-top{display:none}
 .nav-bottom{
   position:fixed;bottom:0;left:0;right:0;z-index:50;
   display:flex;justify-content:space-around;
-  background:rgba(13,18,12,.92);
-  -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
-  border-top:1px solid var(--border);
-  padding:6px calc(4px + env(safe-area-inset-right)) calc(6px + env(safe-area-inset-bottom)) calc(4px + env(safe-area-inset-left));
+  background:rgba(11,15,12,.93);
+  -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+  border-top:1px solid var(--hair);
+  padding:7px calc(4px + env(safe-area-inset-right)) calc(7px + env(safe-area-inset-bottom)) calc(4px + env(safe-area-inset-left));
 }
 .nav-item{
-  position:relative;
-  display:flex;flex-direction:column;align-items:center;gap:3px;
-  font-size:10.5px;letter-spacing:.02em;color:var(--faint);
-  padding:6px 14px;border-radius:10px;min-width:64px;
+  position:relative;display:flex;flex-direction:column;align-items:center;gap:3px;
+  font-size:10.5px;letter-spacing:.04em;color:var(--faint);padding:5px 14px;min-width:60px;
 }
 .nav-item.active{color:var(--lime)}
-.nav-bottom .nav-item.active::before{
-  content:'';position:absolute;top:-7px;left:28%;right:28%;
-  height:2px;background:var(--lime);border-radius:2px;
-}
-.nav-item:active{background:var(--card)}
-main{max-width:980px;margin:0 auto;padding:var(--pad) var(--pad) 96px}
+.nav-bottom .nav-item.active::before{content:'';position:absolute;top:-8px;left:30%;right:30%;height:2px;background:var(--lime)}
+main{max-width:920px;margin:0 auto;padding:6px var(--pad) 96px}
 
 @media (min-width:768px){
   .nav-bottom{display:none}
-  .nav-top{display:flex;gap:4px}
-  .nav-top .nav-item{flex-direction:row;gap:7px;font-size:13.5px;font-weight:500;padding:8px 14px;color:var(--muted)}
-  .nav-top .nav-item svg{width:16px;height:16px}
-  .nav-top .nav-item.active{color:var(--lime);background:var(--card)}
-  .nav-top .nav-item:hover{color:var(--text);background:var(--card)}
-  main{padding-bottom:var(--pad)}
+  .nav-top{display:flex;gap:2px}
+  .nav-top .nav-item{flex-direction:row;gap:7px;font-size:13.5px;font-weight:600;padding:6px 12px;color:var(--muted);min-width:0}
+  .nav-top .nav-item svg{width:15px;height:15px}
+  .nav-top .nav-item.active{color:var(--lime)}
+  .nav-top .nav-item.active::after{content:'';position:absolute;bottom:-2px;left:12px;right:12px;height:2px;background:var(--lime)}
+  main{padding-bottom:48px}
 }
 
 /* ── Типографика ── */
-h1{font-size:clamp(20px,4vw,26px);font-weight:800;letter-spacing:-.01em;text-wrap:balance;margin:6px 0 16px}
-h2{font-size:16px;font-weight:700;margin-bottom:12px}
-.kicker{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin-bottom:6px}
-.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums}
+h1{font-size:clamp(22px,5vw,30px);font-weight:800;letter-spacing:-.02em;text-wrap:balance;margin:20px 0 6px}
+.sect{display:flex;align-items:center;gap:14px;margin:34px 0 2px}
+.sect-label{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);white-space:nowrap}
+.sect::after{content:'';flex:1;height:1px;background:var(--hair)}
 
-/* ── Hero-сводка ── */
-.hero{
-  background:
-    repeating-linear-gradient(90deg,transparent 0 44px,rgba(163,230,53,.03) 44px 88px), /* полосы газона */
-    radial-gradient(110% 160% at 100% 0%,rgba(163,230,53,.07) 0%,transparent 50%),
-    var(--surface);
-  border:1px solid var(--border);border-radius:var(--radius);
-  padding:var(--pad);margin-bottom:18px;
-  position:relative;overflow:hidden;
-}
-.hero::after{ /* центральная линия поля */
-  content:'';position:absolute;right:-60px;top:50%;transform:translateY(-50%);
-  width:160px;height:160px;border:1px solid rgba(163,230,53,.12);border-radius:50%;
-  pointer-events:none;
-}
-.hero-balance{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:clamp(34px,8vw,46px);font-weight:700;line-height:1.05}
-.hero-balance small{font-size:.42em;font-weight:500;color:var(--muted);margin-left:6px}
-.hero-row{display:flex;gap:22px;flex-wrap:wrap;margin-top:14px}
-.hero-stat .lbl{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
-.hero-stat .v{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:17px;font-weight:700;margin-top:2px}
+/* ── Hero: голая типографика ── */
+.hero{padding:26px 0 22px;border-bottom:1px solid var(--hair)}
+.kicker{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--faint)}
+.hero-balance{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:clamp(46px,13vw,76px);font-weight:700;line-height:1.02;letter-spacing:-.02em;margin-top:8px}
+.hero-balance small{font-size:.3em;font-weight:500;color:var(--faint);margin-left:8px;letter-spacing:0}
+.hero-row{display:flex;flex-wrap:wrap;margin-top:18px}
+.hero-stat{padding:2px 20px}
+.hero-stat:first-child{padding-left:0}
+.hero-stat + .hero-stat{border-left:1px solid var(--hair)}
+.hero-stat .lbl{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}
+.hero-stat .v{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:17px;font-weight:700;margin-top:3px}
 
-.pos{color:var(--win)} .neg{color:var(--lose)} .gold{color:var(--gold)}
+/* ── Матчи: редакционные блоки ── */
+.fixture{display:block;padding:20px 0;border-bottom:1px solid var(--hair)}
+.fixture-meta{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:12px;letter-spacing:.06em;color:var(--lime)}
+.fixture-title{font-size:clamp(24px,6vw,34px);font-weight:800;letter-spacing:-.02em;line-height:1.15;margin:6px 0 2px;text-wrap:balance}
+.fixture-title:hover{color:var(--lime)}
+.fixture-venue{font-size:13px;color:var(--faint)}
+.fixture-result{font-family:var(--font-num),monospace;font-size:clamp(22px,5vw,28px);font-weight:700;margin-top:4px}
+.fixture-picks{margin-top:14px;max-width:480px}
 
-/* ── Карточка матча ── */
-.fixture{
-  display:block;background:var(--card);border:1px solid var(--border);
-  border-radius:var(--radius);padding:16px var(--pad);margin-bottom:12px;
-  transition:border-color .15s,background .15s;
-  content-visibility:auto;contain-intrinsic-size:auto 120px;
-}
-.fixture:hover{border-color:var(--border-strong);background:var(--card-hover)}
-.fixture-top{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
-.fixture-stage{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);min-width:0}
-.fixture-time{font-family:var(--font-num),monospace;font-size:13px;color:var(--lime);white-space:nowrap}
-.fixture-title{font-size:19px;font-weight:800;letter-spacing:-.01em;margin:6px 0 2px;text-wrap:balance}
-.fixture-venue{font-size:12.5px;color:var(--muted)}
-.fixture-picks{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
-.pick{
-  display:inline-flex;align-items:center;gap:7px;
-  background:var(--surface);border:1px solid var(--border);border-radius:8px;
-  padding:5px 10px;font-size:12.5px;
-}
-.pick .odds{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;color:var(--lime);font-weight:700}
-.pick.contest{border-color:rgba(251,191,36,.35)}
-.pick.contest .odds{color:var(--gold)}
-.fixture-result{font-family:var(--font-num),monospace;font-size:19px;font-weight:700;color:var(--text)}
+/* строка-чек: название ..... кэф */
+.pick-line{display:flex;align-items:baseline;gap:10px;padding:3.5px 0;font-size:14px;color:var(--ink)}
+.pick-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pick-tag{font-size:9.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-left:8px}
+.leader{flex:1;min-width:24px;border-bottom:1px dotted var(--hair-dot);position:relative;top:-4px}
+.pick-odds{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-weight:700;color:var(--lime)}
+.pick-line.contest .pick-odds{color:var(--gold)}
 
-/* ── Тикеты ставок ── */
-.day-group{margin-bottom:22px}
-.day-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:10px}
-.day-title{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.day-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:13px;font-weight:700}
+/* ── Ставки: леджер ── */
+.day-group{margin-bottom:8px}
+.day-head{display:flex;align-items:baseline;gap:14px;margin:30px 0 4px}
+.day-title{font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);white-space:nowrap}
+.day-head .leader{top:-2px}
+.day-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:13px;font-weight:700;white-space:nowrap}
+
 .ticket{
-  position:relative;
-  display:grid;grid-template-columns:1fr minmax(56px,auto);gap:4px 24px;align-items:center;
-  background:var(--card);border:1px solid var(--border);border-radius:12px;
-  border-left:3px solid var(--faint);
-  padding:12px 14px;margin-bottom:8px;min-width:0;
-  content-visibility:auto;contain-intrinsic-size:auto 88px;
+  display:grid;grid-template-columns:14px minmax(0,1fr) auto;gap:0 10px;
+  padding:14px 0;border-bottom:1px solid var(--hair);
+  content-visibility:auto;contain-intrinsic-size:auto 84px;
 }
-.ticket::after{ /* перфорация бет-слипа */
-  content:'';position:absolute;top:8px;bottom:8px;right:84px;
-  border-left:2px dashed var(--border-strong);
-}
-.ticket.win{border-left-color:var(--win)}
-.ticket.lose{border-left-color:var(--lose)}
-.ticket.void{border-left-color:var(--void);opacity:.65}
-.ticket.void .ticket-pl{color:var(--void)}
-.ticket.pending{border-left-color:var(--pending)}
-.ticket-match{font-size:12.5px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
-.ticket-bet{font-weight:700;font-size:14.5px}
-.ticket-meta{font-size:11.5px;color:var(--faint);margin-top:2px;display:flex;gap:8px;flex-wrap:wrap}
-.ticket-odds{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:15px;font-weight:700;text-align:right}
-.ticket-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:14.5px;font-weight:700;text-align:right}
-.badge{
-  display:inline-block;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
-  border:1px solid var(--border-strong);border-radius:5px;padding:1px 6px;color:var(--muted);
-}
-.badge.contest{border-color:rgba(251,191,36,.4);color:var(--gold)}
+.dot{width:8px;height:8px;border-radius:50%;margin-top:7px;background:var(--pending)}
+.ticket.win .dot{background:var(--win)}
+.ticket.lose .dot{background:var(--lose)}
+.ticket.void .dot{background:var(--void)}
+.ticket.pending .dot{background:transparent;border:1.5px solid var(--pending)} /* пустая точка = ещё в игре */
+.ticket.void{opacity:.6}
+.ticket-match{font-size:12.5px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ticket-bet{font-weight:700;font-size:15px;margin-top:1px}
+.ticket-meta{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;letter-spacing:.06em;color:var(--faint);margin-top:3px;text-transform:uppercase}
+.ticket-meta .contest{color:var(--gold)}
+.ticket-right{text-align:right}
+.ticket-odds{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:15px;font-weight:700;color:var(--muted)}
+.ticket-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:15px;font-weight:700;margin-top:2px}
+.ticket-pl.idle{color:var(--faint);font-weight:500}
 
-/* ── Панели и таблицы ── */
-.panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:var(--pad);margin-bottom:16px}
-.table-wrap{overflow-x:auto;margin:0 -4px;-webkit-overflow-scrolling:touch}
-.table-wrap th:first-child,.table-wrap td:first-child{position:sticky;left:0;background:var(--card)}
+/* ── Таблицы: леджер без коробок ── */
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:10px}
+.table-wrap th:first-child,.table-wrap td:first-child{position:sticky;left:0;background:var(--bg)}
 table{width:100%;border-collapse:collapse;font-size:13.5px}
-th{color:var(--faint);text-align:left;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;padding:8px 8px;border-bottom:1px solid var(--border)}
-td{padding:9px 8px;border-bottom:1px solid var(--border)}
+th{color:var(--faint);text-align:left;font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:8px 10px 6px 0;border-bottom:1px solid var(--hair-dot)}
+td{padding:9px 10px 9px 0;border-bottom:1px solid var(--hair)}
 tr:last-child td{border-bottom:none}
 td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;text-align:right}
 
-.empty{color:var(--faint);font-size:13.5px;padding:14px 0;text-align:center}
+.block{margin-top:10px}
+.empty{color:var(--faint);font-size:13.5px;padding:18px 0}
 
 /* ── Markdown ── */
-.md{line-height:1.6;font-size:14.5px}
-.md h2{font-size:16px;margin:18px 0 8px;color:var(--lime)}
+.md{line-height:1.62;font-size:14.5px;margin-top:14px;max-width:680px}
+.md h2{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--lime);margin:24px 0 8px}
 .md h3{font-size:14.5px;margin:14px 0 6px}
 .md p{margin:8px 0}
 .md ul,.md ol{margin:8px 0 8px 20px}
 .md li{margin:3px 0}
 .md table{margin:12px 0;font-size:13px}
 .md strong{color:#fff}
-.md code{font-family:var(--font-num),monospace;background:var(--surface);padding:1px 5px;border-radius:4px;font-size:12.5px}
+.md code{font-family:var(--font-num),monospace;font-size:12.5px;color:var(--lime)}
 
-.back-link{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);margin-bottom:12px}
+.back-link{display:inline-block;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-top:18px}
 .back-link:hover{color:var(--lime)}
+.foot-note{color:var(--faint);font-size:11.5px;margin-top:34px}
 
-.foot-note{color:var(--faint);font-size:11.5px;text-align:center;margin-top:26px}
-
-/* ── График ── */
-.chart-svg{width:100%;height:auto;display:block}
+.chart-svg{width:100%;height:auto;display:block;margin-top:12px}

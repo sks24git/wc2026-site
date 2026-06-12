@@ -22,22 +22,28 @@ export default function MatchPage({ params }) {
 
   return (
     <div>
-      <Link className="back-link" href="/matches/">← Все матчи</Link>
-      <div className="kicker">{m.stage} · {formatDay(m.date)} · {m.timeMsk}{' '}МСК</div>
-      <h1>{m.flags} {m.title}</h1>
-      {m.result && <p className="fixture-result num" style={{ marginBottom: 12 }}>Итог: {m.result}</p>}
-      <p className="fixture-venue" style={{ marginBottom: 16 }}>{m.venue}</p>
+      <div className="hero" style={{ paddingTop: 20, paddingBottom: 18 }}>
+        <div className="fixture-meta">{m.stage} · {formatDay(m.date)} · {m.timeMsk}{' '}МСК</div>
+        <h1 style={{ margin: '6px 0 2px' }}>{m.title}</h1>
+        {m.result && <div className="fixture-result num">{m.result}</div>}
+        <div className="fixture-venue">{m.venue}</div>
+      </div>
 
       {linked.length > 0 && (
-        <section aria-label="Ставки на матч" style={{ marginBottom: 18 }}>
-          <div className="kicker">Наши ставки на матч</div>
-          {linked.map((b) => <Ticket key={b.id} bet={b} />)}
-        </section>
+        <>
+          <div className="sect"><span className="sect-label">Ставки на матч</span></div>
+          <section aria-label="Ставки на матч">
+            {linked.map((b) => <Ticket key={b.id} bet={b} />)}
+          </section>
+        </>
       )}
 
-      <article className="panel md">
+      <div className="sect"><span className="sect-label">Разбор</span></div>
+      <article className="md">
         <ReactMarkdown remarkPlugins={[remarkGfm]}>{m.analysis}</ReactMarkdown>
       </article>
+
+      <Link className="back-link" href="/matches/">← Все матчи</Link>
     </div>
   );
 }

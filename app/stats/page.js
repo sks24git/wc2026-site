@@ -6,29 +6,31 @@ export const metadata = { title: 'Статистика · ЧМ-26' };
 function Breakdown({ title, data }) {
   const entries = Object.entries(data).sort((a, b) => b[1].n - a[1].n);
   return (
-    <section className="panel" aria-label={title}>
-      <h2>{title}</h2>
-      {entries.length === 0 ? <p className="empty">Пока нет рассчитанных ставок</p> : (
-        <div className="table-wrap">
-          <table>
-            <thead>
-              <tr><th>Категория</th><th className="num">Ставок</th><th className="num">Зашло</th><th className="num">%</th><th className="num">P/L</th></tr>
-            </thead>
-            <tbody>
-              {entries.map(([k, v]) => (
-                <tr key={k}>
-                  <td>{k}</td>
-                  <td className="num">{v.n}</td>
-                  <td className="num">{v.w}</td>
-                  <td className="num">{Math.round((v.w / v.n) * 100)}%</td>
-                  <td className={'num ' + (v.pl > 0 ? 'pos' : v.pl < 0 ? 'neg' : '')}>{fmt(v.pl)}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      )}
-    </section>
+    <>
+      <div className="sect"><span className="sect-label">{title}</span></div>
+      <section className="block" aria-label={title}>
+        {entries.length === 0 ? <p className="empty">Пока нет рассчитанных ставок</p> : (
+          <div className="table-wrap">
+            <table>
+              <thead>
+                <tr><th>Категория</th><th className="num">Ставок</th><th className="num">Зашло</th><th className="num">%</th><th className="num">P/L</th></tr>
+              </thead>
+              <tbody>
+                {entries.map(([k, v]) => (
+                  <tr key={k}>
+                    <td>{k}</td>
+                    <td className="num">{v.n}</td>
+                    <td className="num">{v.w}</td>
+                    <td className="num">{Math.round((v.w / v.n) * 100)}%</td>
+                    <td className={'num ' + (v.pl > 0 ? 'pos' : v.pl < 0 ? 'neg' : '')}>{fmt(v.pl)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </section>
+    </>
   );
 }
 
@@ -52,15 +54,15 @@ function BalanceChart({ list }) {
     <svg className="chart-svg" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={'График баланса, текущее значение ' + fmt(cum) + ' единиц'}>
       <defs>
         <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#a3e635" stopOpacity="0.22" />
+          <stop offset="0%" stopColor="#a3e635" stopOpacity="0.18" />
           <stop offset="100%" stopColor="#a3e635" stopOpacity="0" />
         </linearGradient>
       </defs>
-      <line x1={P} y1={y(0)} x2={W - P} y2={y(0)} stroke="#222b1f" strokeWidth="1" />
+      <line x1={P} y1={y(0)} x2={W - P} y2={y(0)} stroke="rgba(233,239,230,.18)" strokeWidth="1" strokeDasharray="2 4" />
       <path d={area} fill="url(#fill)" />
-      <path d={line} fill="none" stroke={cum >= 0 ? '#a3e635' : '#f87171'} strokeWidth="2.5" strokeLinejoin="round" />
-      <circle cx={x(pts.length - 1)} cy={y(cum)} r="4" fill={cum >= 0 ? '#a3e635' : '#f87171'} />
-      <text x={Math.min(x(pts.length - 1) + 8, W - 64)} y={y(cum) - 10} fill="#eef3ea" fontSize="13" fontFamily="var(--font-num)">{fmt(cum)}</text>
+      <path d={line} fill="none" stroke={cum >= 0 ? '#a3e635' : '#e0654f'} strokeWidth="2.5" strokeLinejoin="round" />
+      <circle cx={x(pts.length - 1)} cy={y(cum)} r="4" fill={cum >= 0 ? '#a3e635' : '#e0654f'} />
+      <text x={Math.min(x(pts.length - 1) + 8, W - 64)} y={y(cum) - 10} fill="#e9efe6" fontSize="13" fontFamily="monospace">{fmt(cum)}</text>
     </svg>
   );
 }
@@ -70,17 +72,17 @@ export default function StatsPage() {
   return (
     <div>
       <h1>Статистика</h1>
-      <section className="hero" aria-label="Сводка">
-        <div className="hero-row" style={{ marginTop: 0 }}>
-          <div className="hero-stat"><div className="lbl">Баланс</div><div className={'v ' + (agg.bal > 0 ? 'pos' : agg.bal < 0 ? 'neg' : '')}>{fmt(agg.bal)}{' '}ед</div></div>
+      <section className="hero" style={{ paddingTop: 4 }} aria-label="Сводка">
+        <div className="hero-row" style={{ marginTop: 6 }}>
+          <div className="hero-stat"><div className="lbl">Баланс</div><div className={'v ' + (agg.bal > 0 ? 'pos' : agg.bal < 0 ? 'neg' : '')}>{fmt(agg.bal)}{' '}ед</div></div>
           <div className="hero-stat"><div className="lbl">ROI</div><div className={'v ' + (agg.bal > 0 ? 'pos' : agg.bal < 0 ? 'neg' : '')}>{agg.roi === null ? '—' : fmt(agg.roi) + '%'}</div></div>
           <div className="hero-stat"><div className="lbl">Заход</div><div className="v">{agg.hit === null ? '—' : agg.hit + '% (' + agg.wins + '/' + agg.settled + ')'}</div></div>
-          <div className="hero-stat"><div className="lbl">В игре</div><div className="v gold">{agg.pending}</div></div>
+          <div className="hero-stat"><div className="lbl">В игре</div><div className="v">{agg.pending}</div></div>
         </div>
       </section>
 
-      <section className="panel" aria-label="Динамика баланса">
-        <h2>Динамика баланса</h2>
+      <div className="sect"><span className="sect-label">Динамика баланса</span></div>
+      <section className="block" aria-label="Динамика баланса">
         <BalanceChart list={bets} />
       </section>
 
