@@ -3,9 +3,10 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { matches, getMatch } from '@/data/matches';
 import { bets } from '@/data/bets';
-import { formatDay } from '@/lib/calc';
+import { formatDay, sideTally } from '@/lib/calc';
 import Ticket from '@/components/Ticket';
 import Flags from '@/components/Flags';
+import SideTally from '@/components/SideTally';
 
 export function generateStaticParams() {
   return matches.map((m) => ({ id: m.id }));
@@ -36,6 +37,10 @@ export default function MatchPage({ params }) {
       {linked.length > 0 && (
         <>
           <div className="sect"><span className="sect-label">Ставки на матч</span></div>
+          <div className="fixture-tally onmatch">
+            <SideTally side="Паша" t={sideTally(linked.filter((b) => b.side === 'Паша'))} />
+            <SideTally side="AI" t={sideTally(linked.filter((b) => b.side === 'AI'))} />
+          </div>
           <section aria-label="Ставки на матч">
             {linked.map((b) => <Ticket key={b.id} bet={b} />)}
           </section>

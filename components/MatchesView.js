@@ -2,6 +2,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import Flags from '@/components/Flags';
+import SideTally from '@/components/SideTally';
 import { formatDay } from '@/lib/calc';
 
 const WINDOW = 24 * 3600 * 1000; // 24 часа
@@ -46,6 +47,12 @@ function Fixture({ m, live }) {
       </div>
       {m.lede && <p className="fixture-lede">{m.lede}</p>}
       {!m.result && <div className="fixture-venue">{m.venue}</div>}
+      {m.tally && (
+        <div className="fixture-tally">
+          <SideTally side="Паша" t={m.tally.pasha} />
+          <SideTally side="AI" t={m.tally.ai} />
+        </div>
+      )}
     </Link>
   );
 }
