@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { matches, getMatch } from '@/data/matches';
-import { bets } from '@/data/bets';
+import { matches, getMatch, betsForMatch } from '@/lib/content';
+import { readAnalysis } from '@/lib/analysis';
 import { formatDay, sideTally } from '@/lib/calc';
 import Ticket from '@/components/Ticket';
 import Flags from '@/components/Flags';
@@ -20,7 +20,8 @@ export function generateMetadata({ params }) {
 export default function MatchPage({ params }) {
   const m = getMatch(params.id);
   if (!m) return null; // при static export несуществующий id отдаёт 404 от хостинга
-  const linked = bets.filter((b) => b.matchId === m.id);
+  const linked = betsForMatch(m.id);
+  const analysis = readAnalysis(m.id);
 
   return (
     <div>
@@ -47,10 +48,14 @@ export default function MatchPage({ params }) {
         </>
       )}
 
-      <div className="sect"><span className="sect-label">Разбор</span></div>
-      <article className="md">
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{m.analysis}</ReactMarkdown>
-      </article>
+      {analysis && (
+        <>
+          <div className="sect"><span className="sect-label">Разбор</span></div>
+          <article className="md">
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{analysis}</ReactMarkdown>
+          </article>
+        </>
+      )}
 
       <Link className="back-link" href="/matches/">← Все матчи</Link>
     </div>

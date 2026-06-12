@@ -1,4 +1,11 @@
-import { news, NEWS_TAGS } from '@/data/news';
+import { news } from '@/lib/content';
+
+const NEWS_TAGS = {
+  lineup: { label: 'Состав', cls: 'lineup' },
+  insight: { label: 'Инсайд', cls: 'insight' },
+  pasha: { label: 'Паша', cls: 'pasha' },
+  result: { label: 'Итог', cls: 'result' },
+};
 
 export default function NewsRail() {
   return (

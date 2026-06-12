@@ -1,4 +1,4 @@
-import { bets } from '@/data/bets';
+import { bets } from '@/lib/content';
 import { aggregate, money, rubFmt } from '@/lib/calc';
 
 function pct(x) {

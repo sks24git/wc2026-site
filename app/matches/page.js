@@ -1,5 +1,5 @@
-import { matches } from '@/data/matches';
-import { bets } from '@/data/bets';
+import { matches } from '@/lib/content';
+import { bets } from '@/lib/content';
 import { sideTally } from '@/lib/calc';
 import MatchesView from '@/components/MatchesView';
 

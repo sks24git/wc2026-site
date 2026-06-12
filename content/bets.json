@@ -1,0 +1,20 @@
+[
+  { "id": 1, "date": "2026-06-11", "match": "Мексика — ЮАР", "bet": "1Х + ТМ 2.5", "type": "Экспресс", "odds": 1.73, "tier": "green", "side": "Паша", "contest": true, "status": "win" },
+  { "id": 2, "date": "2026-06-11", "match": "Южная Корея — Чехия", "bet": "Обе забьют", "type": "ОЗ", "odds": 1.83, "tier": "green", "side": "Паша", "contest": true, "status": "win" },
+  { "id": 3, "date": "2026-06-11", "match": "Южная Корея — Чехия", "bet": "Волевая победа Кореи (хедж)", "type": "Другое", "odds": 17, "tier": "red", "side": "Паша", "status": "win" },
+
+  { "id": 4, "date": "2026-06-12", "match": "Канада — Босния", "matchId": "canada-bosnia", "bet": "Обе забьют", "type": "ОЗ", "odds": 2.10, "tier": "green", "side": "Паша", "contest": true, "status": "win" },
+  { "id": 14, "date": "2026-06-12", "match": "Канада — Босния", "matchId": "canada-bosnia", "bet": "Ничья", "type": "Х", "odds": 3.50, "tier": "yellow", "side": "Паша", "status": "win" },
+  { "id": 6, "date": "2026-06-12", "match": "Канада — Босния", "matchId": "canada-bosnia", "bet": "ТМ 2.5", "type": "ТМ", "odds": 1.63, "tier": "green", "side": "AI", "status": "win" },
+  { "id": 7, "date": "2026-06-12", "match": "Канада — Босния", "matchId": "canada-bosnia", "bet": "Победа Канады", "type": "П1", "odds": 1.80, "tier": "green", "side": "AI", "status": "lose" },
+  { "id": 8, "date": "2026-06-12", "match": "Канада — Босния", "matchId": "canada-bosnia", "bet": "Точный счёт 1:0 (Канада)", "type": "ТС", "odds": 6.0, "tier": "red", "side": "AI", "status": "lose" },
+  { "id": 9, "date": "2026-06-12", "match": "Канада — Босния", "matchId": "canada-bosnia", "bet": "1-й тайм 0:0", "type": "1Т-рынок", "odds": 2.2, "tier": "red", "side": "AI", "status": "lose" },
+
+  { "id": 5, "date": "2026-06-12", "match": "США — Парагвай", "matchId": "usa-paraguay", "bet": "Обе забьют", "type": "ОЗ", "odds": 2.14, "tier": "green", "side": "Паша", "contest": true, "status": "pending" },
+  { "id": 15, "date": "2026-06-12", "match": "США — Парагвай", "matchId": "usa-paraguay", "bet": "Ничья", "type": "Х", "odds": 3.20, "tier": "yellow", "side": "Паша", "status": "pending" },
+  { "id": 16, "date": "2026-06-12", "match": "США — Парагвай", "matchId": "usa-paraguay", "bet": "Пенальти в матче — да", "type": "Другое", "odds": 2.60, "tier": "yellow", "side": "Паша", "status": "pending" },
+  { "id": 10, "date": "2026-06-12", "match": "США — Парагвай", "matchId": "usa-paraguay", "bet": "ТМ 2.5", "type": "ТМ", "odds": 1.75, "tier": "green", "side": "AI", "status": "pending" },
+  { "id": 11, "date": "2026-06-12", "match": "США — Парагвай", "matchId": "usa-paraguay", "bet": "1-й тайм 0:0", "type": "1Т-рынок", "odds": 2.0, "tier": "red", "side": "AI", "status": "pending" },
+  { "id": 12, "date": "2026-06-12", "match": "США — Парагвай", "matchId": "usa-paraguay", "bet": "Точный счёт 1:0 (США)", "type": "ТС", "odds": 7.0, "tier": "red", "side": "AI", "status": "pending" },
+  { "id": 13, "date": "2026-06-12", "match": "Канада + США", "bet": "Экспресс: ТМ 2.5 + ТМ 2.5", "type": "Экспресс", "odds": 2.85, "tier": "green", "side": "AI", "status": "pending" }
+]

@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { bets } from '@/data/bets';
+import { bets } from '@/lib/content';
 import { pl, money, formatDay } from '@/lib/calc';
 import Ticket from '@/components/Ticket';
 import Legend from '@/components/Legend';

@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { bets } from '@/data/bets';
-import { matches } from '@/data/matches';
-import { facts } from '@/data/facts';
+import { bets } from '@/lib/content';
+import { matches } from '@/lib/content';
+import { facts } from '@/lib/content';
 import { fmtOdds, formatDay } from '@/lib/calc';
 import { hintFor } from '@/lib/glossary';
 import BattleBoard from '@/components/BattleBoard';
@@ -26,7 +26,7 @@ export default function HomePage() {
           {facts.map((f, i) => (
             <div key={i} className="fact">
               <span className="fact-bullet" aria-hidden="true" />
-              <span>{f.t}</span>
+              <span>{f}</span>
             </div>
           ))}
         </section>

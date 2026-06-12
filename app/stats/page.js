@@ -1,4 +1,4 @@
-import { bets } from '@/data/bets';
+import { bets } from '@/lib/content';
 import { money, rubFmt, groupBy, pl, stakeOf, TIERS, TIER_ORDER } from '@/lib/calc';
 import { TYPE_HINTS, hintFor } from '@/lib/glossary';
 import BattleBoard from '@/components/BattleBoard';
