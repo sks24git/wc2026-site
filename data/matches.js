@@ -62,6 +62,7 @@ export const matches = [
     flags: '🇺🇸🇵🇾',
     stage: 'Группа D · тур 1',
     venue: 'SoFi Stadium, Лос-Анджелес',
+    weather: 'Крыша закрыта, климат-контроль — погода не фактор',
     result: null,
     analysis: `
 ## Ключевое

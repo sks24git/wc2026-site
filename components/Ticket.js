@@ -10,7 +10,8 @@ export default function Ticket({ bet }) {
         <div className="ticket-match">{bet.match}</div>
         <div className="ticket-bet">{bet.bet}</div>
         <div className="ticket-meta">
-          <span className={bet.book === 'Конкурс ЛС' ? 'contest' : undefined}>{bet.book}</span>
+          <span className={bet.side === 'Паша' ? 'pasha' : 'ai'}>{bet.side}</span>
+          {bet.contest && <span className="contest">Конкурс ЛС</span>}
           <span>{bet.stake}{' '}ед</span>
           <span>{STATUS_LABELS[bet.status]}</span>
         </div>

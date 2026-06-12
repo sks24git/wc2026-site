@@ -54,15 +54,15 @@ function BalanceChart({ list }) {
     <svg className="chart-svg" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={'График баланса, текущее значение ' + fmt(cum) + ' единиц'}>
       <defs>
         <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#a3e635" stopOpacity="0.18" />
-          <stop offset="100%" stopColor="#a3e635" stopOpacity="0" />
+          <stop offset="0%" stopColor="#15803d" stopOpacity="0.12" />
+          <stop offset="100%" stopColor="#15803d" stopOpacity="0" />
         </linearGradient>
       </defs>
-      <line x1={P} y1={y(0)} x2={W - P} y2={y(0)} stroke="rgba(233,239,230,.18)" strokeWidth="1" strokeDasharray="2 4" />
+      <line x1={P} y1={y(0)} x2={W - P} y2={y(0)} stroke="#d6dade" strokeWidth="1" strokeDasharray="2 4" />
       <path d={area} fill="url(#fill)" />
-      <path d={line} fill="none" stroke={cum >= 0 ? '#a3e635' : '#e0654f'} strokeWidth="2.5" strokeLinejoin="round" />
-      <circle cx={x(pts.length - 1)} cy={y(cum)} r="4" fill={cum >= 0 ? '#a3e635' : '#e0654f'} />
-      <text x={Math.min(x(pts.length - 1) + 8, W - 64)} y={y(cum) - 10} fill="#e9efe6" fontSize="13" fontFamily="monospace">{fmt(cum)}</text>
+      <path d={line} fill="none" stroke={cum >= 0 ? '#15803d' : '#d2402c'} strokeWidth="2.5" strokeLinejoin="round" />
+      <circle cx={x(pts.length - 1)} cy={y(cum)} r="4" fill={cum >= 0 ? '#15803d' : '#d2402c'} />
+      <text x={Math.min(x(pts.length - 1) + 8, W - 64)} y={y(cum) - 10} fill="#15181c" fontSize="13" fontFamily="monospace">{fmt(cum)}</text>
     </svg>
   );
 }
@@ -86,8 +86,9 @@ export default function StatsPage() {
         <BalanceChart list={bets} />
       </section>
 
+      <Breakdown title="Паша vs AI" data={groupBy(bets, (b) => b.side)} />
       <Breakdown title="По типам рынков" data={groupBy(bets, (b) => b.type)} />
-      <Breakdown title="По книгам" data={groupBy(bets, (b) => b.book)} />
+      <Breakdown title="Конкурс Лиги Ставок" data={groupBy(bets.filter((b) => b.contest), () => 'Конкурс ЛС')} />
     </div>
   );
 }
