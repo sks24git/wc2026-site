@@ -8,6 +8,7 @@ import BattleBoard from '@/components/BattleBoard';
 import NewsRail from '@/components/NewsRail';
 import Flags from '@/components/Flags';
 import Ticket from '@/components/Ticket';
+import Tip from '@/components/Tip';
 
 export default function HomePage() {
   const upcoming = matches.filter((m) => !m.result);
@@ -51,8 +52,8 @@ export default function HomePage() {
                       {picks.map((p) => (
                         <div key={p.id} className="pick-line">
                           <span className={'tdot tier-' + p.tier} aria-hidden="true" />
-                          <span className="pick-name" title={hintFor(p)}>
-                            {p.bet}
+                          <span className="pick-name">
+                            <Tip hint={hintFor(p)} hoverOnly>{p.bet}</Tip>
                             <span className={'pick-side ' + (p.contest ? 'contest' : p.side === 'Паша' ? 'pasha' : 'ai')}>
                               {p.contest ? 'Конкурс' : p.side}
                             </span>

@@ -1,6 +1,8 @@
 import { bets } from '@/data/bets';
 import { money, rubFmt, groupBy, pl, stakeOf, TIERS, TIER_ORDER } from '@/lib/calc';
+import { TYPE_HINTS, hintFor } from '@/lib/glossary';
 import BattleBoard from '@/components/BattleBoard';
+import Tip from '@/components/Tip';
 
 export const metadata = { title: 'Статистика · ЧМ-26' };
 
@@ -59,7 +61,7 @@ function Tiers() {
           <div key={k} className="tier-col">
             <div className="tier-top">
               <span className={'tdot tier-' + k} aria-hidden="true" />
-              <span className="tier-nm">{TIERS[k].label}</span>
+              <Tip className="tier-nm" hint={'Светофор · кф ' + TIERS[k].odds + ' · ' + TIERS[k].note}>{TIERS[k].label}</Tip>
               <span className="tier-sum num">{rubFmt(TIERS[k].sum)}</span>
             </div>
             <div className={'tier-pl num ' + (v.pl > 0 ? 'pos' : v.pl < 0 ? 'neg' : '')}>{v.n ? money(v.pl) : '—'}</div>
@@ -83,7 +85,7 @@ function MarketBars() {
         const wr = Math.round((v.w / v.n) * 100);
         return (
           <div key={k} className="market-row">
-            <div className="market-name">{k} <small>· {v.n}</small></div>
+            <div className="market-name"><Tip hint={TYPE_HINTS[k]}>{k}</Tip> <small>· {v.n}</small></div>
             <div className="market-bar"><i style={{ left: 0, width: Math.max(wr, 3) + '%', background: wr >= 50 ? '#22a559' : '#e0473a' }} /></div>
             <div className={'market-pl num ' + (v.pl > 0 ? 'pos' : v.pl < 0 ? 'neg' : '')}>{money(v.pl)}</div>
           </div>
@@ -103,7 +105,7 @@ function Records() {
     <div className="rec">
       <div className="rec-lbl">{lbl}</div>
       <div className={'rec-v num ' + (pl(b) > 0 ? 'pos' : 'neg')}>{money(pl(b))}</div>
-      <div className="rec-d">{b.bet} — {b.match}</div>
+      <div className="rec-d"><Tip hint={hintFor(b)}>{b.bet}</Tip> — {b.match}</div>
       <div className="rec-sub">{b.side} · кф {b.odds} · {rubFmt(stakeOf(b))}</div>
     </div>
   );

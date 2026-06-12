@@ -157,8 +157,7 @@ a.fixture:hover .fixture-title{color:var(--green)}
 /* строка-чек: точка · название ..... кэф */
 .pick-line{display:flex;align-items:baseline;gap:9px;padding:4px 0;font-size:14px}
 .pick-line .tdot{margin-top:5px;width:9px;height:9px}
-.pick-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.pick-name[title]{cursor:help}
+.pick-name{white-space:nowrap}
 .pick-side{font-size:9.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-left:8px}
 .pick-side.pasha{color:var(--pasha)}
 .pick-side.ai{color:var(--ai)}
