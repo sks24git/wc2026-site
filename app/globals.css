@@ -106,9 +106,12 @@ h1{font-size:clamp(22px,5vw,30px);font-weight:800;letter-spacing:-.02em;text-wra
 .b-name{font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}
 .b-side.pasha .b-name{color:var(--pasha)}
 .b-side.ai .b-name{color:var(--ai)}
-.b-bal{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:clamp(34px,9vw,52px);font-weight:700;letter-spacing:-.02em;line-height:1.05;margin-top:4px}
-.b-sub{font-size:12.5px;color:var(--muted);margin-top:4px}
-.b-sub .num{font-weight:700}
+.b-bal{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:clamp(26px,7vw,42px);font-weight:700;letter-spacing:-.02em;line-height:1.05;margin-top:4px}
+.b-sub{font-size:12.5px;color:var(--muted);margin-top:5px}
+.b-sub .num{font-weight:700;color:var(--ink)}
+.b-sub2{font-size:11.5px;color:var(--faint);margin-top:2px}
+.b-sub2 .num{font-weight:700}
+.b-bank0{color:var(--faint)}
 .b-vs{font-family:var(--font-num),monospace;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);background:var(--bg);padding:6px 8px;border-radius:999px;border:1px solid var(--hair-strong)}
 .b-lead{font-size:12.5px;color:var(--muted);padding-bottom:18px;border-bottom:1px solid var(--hair)}
 .b-lead strong{font-weight:800}
@@ -140,15 +143,25 @@ a.fixture:hover .fixture-title{color:var(--green)}
 .fixture-result{font-family:var(--font-num),monospace;font-size:clamp(20px,5vw,26px);font-weight:700;margin-top:4px}
 .fixture-picks{margin-top:12px;max-width:460px}
 
-/* строка-чек: название ..... кэф */
-.pick-line{display:flex;align-items:baseline;gap:10px;padding:3.5px 0;font-size:14px}
+/* строка-чек: точка · название ..... кэф */
+.pick-line{display:flex;align-items:baseline;gap:9px;padding:4px 0;font-size:14px}
+.pick-line .tdot{margin-top:5px;width:9px;height:9px}
 .pick-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pick-name[title]{cursor:help}
 .pick-side{font-size:9.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-left:8px}
 .pick-side.pasha{color:var(--pasha)}
 .pick-side.ai{color:var(--ai)}
 .pick-side.contest{color:var(--gold)}
 .leader{flex:1;min-width:24px;border-bottom:1px dotted var(--hair-dot);position:relative;top:-4px}
 .pick-odds{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-weight:700;color:var(--green)}
+
+/* ── Легенда Светофор ── */
+.legend{background:#fff;border:1px solid var(--hair);border-radius:14px;padding:14px 16px;margin:6px 0 4px}
+.legend-row{display:flex;align-items:baseline;gap:11px;padding:5px 0}
+.legend-row .tdot{margin-top:4px}
+.legend-sum{font-weight:800;font-size:14px;min-width:74px}
+.legend-note{font-size:12.5px;color:var(--muted)}
+.legend-cap{font-size:11.5px;color:var(--faint);margin-top:8px;padding-top:8px;border-top:1px solid var(--hair)}
 
 /* ── Фильтры (чипы) ── */
 .chips{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 4px}
@@ -168,18 +181,21 @@ a.fixture:hover .fixture-title{color:var(--green)}
 .day-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:13px;font-weight:700;white-space:nowrap}
 
 .ticket{
-  display:grid;grid-template-columns:14px minmax(0,1fr) auto;gap:0 10px;
+  display:grid;grid-template-columns:16px minmax(0,1fr) auto;gap:0 11px;
   padding:13px 0;border-bottom:1px solid var(--hair);
   content-visibility:auto;contain-intrinsic-size:auto 80px;
 }
-.dot{width:8px;height:8px;border-radius:50%;margin-top:7px;background:var(--pending)}
-.ticket.win .dot{background:var(--win)}
-.ticket.lose .dot{background:var(--lose)}
-.ticket.void .dot{background:var(--void)}
-.ticket.pending .dot{background:#fff;border:1.5px solid var(--faint)}
-.ticket.void{opacity:.6}
+.ticket.void{opacity:.55}
+.ticket.lose .ticket-bet{color:var(--muted)}
+
+/* светофорная точка размера */
+.tdot{width:11px;height:11px;border-radius:50%;flex:none;margin-top:5px;box-shadow:0 0 0 3px rgba(0,0,0,.03)}
+.tier-green{background:#22a559}
+.tier-yellow{background:#eab308}
+.tier-red{background:#e0473a}
 .ticket-match{font-size:12.5px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ticket-bet{font-weight:700;font-size:15px;margin-top:1px}
+.ticket-bet[title]{cursor:help;text-decoration:underline dotted var(--hair-dot);text-underline-offset:3px}
 .ticket-meta{display:flex;gap:12px;flex-wrap:wrap;font-size:10.5px;letter-spacing:.08em;color:var(--faint);margin-top:3px;text-transform:uppercase;font-weight:700}
 .ticket-meta .pasha{color:var(--pasha)}
 .ticket-meta .ai{color:var(--ai)}

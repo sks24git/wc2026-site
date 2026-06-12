@@ -1,9 +1,9 @@
 import { bets } from '@/data/bets';
-import { aggregate, fmt, groupBy, pl } from '@/lib/calc';
+import { aggregate, money, rubFmt, groupBy, pl, TIERS } from '@/lib/calc';
 
 export const metadata = { title: 'Статистика · ЧМ-26' };
 
-function Breakdown({ title, data }) {
+function Breakdown({ title, data, labelMap }) {
   const entries = Object.entries(data).sort((a, b) => b[1].n - a[1].n);
   return (
     <>
@@ -18,11 +18,11 @@ function Breakdown({ title, data }) {
               <tbody>
                 {entries.map(([k, v]) => (
                   <tr key={k}>
-                    <td>{k}</td>
+                    <td>{labelMap ? labelMap(k) : k}</td>
                     <td className="num">{v.n}</td>
                     <td className="num">{v.w}</td>
                     <td className="num">{Math.round((v.w / v.n) * 100)}%</td>
-                    <td className={'num ' + (v.pl > 0 ? 'pos' : v.pl < 0 ? 'neg' : '')}>{fmt(v.pl)}</td>
+                    <td className={'num ' + (v.pl > 0 ? 'pos' : v.pl < 0 ? 'neg' : '')}>{money(v.pl)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -51,7 +51,7 @@ function BalanceChart({ list }) {
   const area = line + ` L ${x(pts.length - 1).toFixed(1)} ${y(0).toFixed(1)} L ${x(0).toFixed(1)} ${y(0).toFixed(1)} Z`;
 
   return (
-    <svg className="chart-svg" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={'График баланса, текущее значение ' + fmt(cum) + ' единиц'}>
+    <svg className="chart-svg" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={'График баланса, текущее значение ' + money(cum)}>
       <defs>
         <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor="#15803d" stopOpacity="0.12" />
@@ -62,7 +62,7 @@ function BalanceChart({ list }) {
       <path d={area} fill="url(#fill)" />
       <path d={line} fill="none" stroke={cum >= 0 ? '#15803d' : '#d2402c'} strokeWidth="2.5" strokeLinejoin="round" />
       <circle cx={x(pts.length - 1)} cy={y(cum)} r="4" fill={cum >= 0 ? '#15803d' : '#d2402c'} />
-      <text x={Math.min(x(pts.length - 1) + 8, W - 64)} y={y(cum) - 10} fill="#15181c" fontSize="13" fontFamily="monospace">{fmt(cum)}</text>
+      <text x={Math.min(x(pts.length - 1) + 8, W - 96)} y={y(cum) - 10} fill="#15181c" fontSize="13" fontFamily="monospace">{money(cum)}</text>
     </svg>
   );
 }
@@ -74,21 +74,21 @@ export default function StatsPage() {
       <h1>Статистика</h1>
       <section className="hero" style={{ paddingTop: 4 }} aria-label="Сводка">
         <div className="hero-row" style={{ marginTop: 6 }}>
-          <div className="hero-stat"><div className="lbl">Баланс</div><div className={'v ' + (agg.bal > 0 ? 'pos' : agg.bal < 0 ? 'neg' : '')}>{fmt(agg.bal)}{' '}ед</div></div>
-          <div className="hero-stat"><div className="lbl">ROI</div><div className={'v ' + (agg.bal > 0 ? 'pos' : agg.bal < 0 ? 'neg' : '')}>{agg.roi === null ? '—' : fmt(agg.roi) + '%'}</div></div>
+          <div className="hero-stat"><div className="lbl">Итог</div><div className={'v ' + (agg.bal > 0 ? 'pos' : agg.bal < 0 ? 'neg' : '')}>{money(agg.bal)}</div></div>
+          <div className="hero-stat"><div className="lbl">Оборот</div><div className="v">{rubFmt(agg.atStake)}{' '}в игре</div></div>
+          <div className="hero-stat"><div className="lbl">ROI</div><div className={'v ' + (agg.bal > 0 ? 'pos' : agg.bal < 0 ? 'neg' : '')}>{agg.roi === null ? '—' : (agg.roi > 0 ? '+' : '') + agg.roi.toFixed(0) + '%'}</div></div>
           <div className="hero-stat"><div className="lbl">Заход</div><div className="v">{agg.hit === null ? '—' : agg.hit + '% (' + agg.wins + '/' + agg.settled + ')'}</div></div>
-          <div className="hero-stat"><div className="lbl">В игре</div><div className="v">{agg.pending}</div></div>
         </div>
       </section>
 
-      <div className="sect"><span className="sect-label">Динамика баланса</span></div>
-      <section className="block" aria-label="Динамика баланса">
+      <div className="sect"><span className="sect-label">Динамика банка</span></div>
+      <section className="block" aria-label="Динамика банка">
         <BalanceChart list={bets} />
       </section>
 
       <Breakdown title="Паша vs AI" data={groupBy(bets, (b) => b.side)} />
+      <Breakdown title="Светофор" data={groupBy(bets, (b) => b.tier)} labelMap={(k) => (TIERS[k] ? TIERS[k].label : k)} />
       <Breakdown title="По типам рынков" data={groupBy(bets, (b) => b.type)} />
-      <Breakdown title="Конкурс Лиги Ставок" data={groupBy(bets.filter((b) => b.contest), () => 'Конкурс ЛС')} />
     </div>
   );
 }

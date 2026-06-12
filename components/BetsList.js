@@ -1,22 +1,25 @@
 'use client';
 import { useState } from 'react';
 import { bets } from '@/data/bets';
-import { pl, fmt, formatDay } from '@/lib/calc';
+import { pl, money, formatDay } from '@/lib/calc';
 import Ticket from '@/components/Ticket';
+import Legend from '@/components/Legend';
 
 const FILTERS = [
   { key: 'all', label: 'Все' },
   { key: 'pasha', label: 'Паша' },
   { key: 'ai', label: 'AI' },
-  { key: 'contest', label: 'Конкурс ЛС' },
+  { key: 'green', label: '🟢 Зелёные' },
+  { key: 'yellow', label: '🟡 Жёлтые' },
+  { key: 'red', label: '🔴 Красные' },
   { key: 'pending', label: 'В игре' },
 ];
 
 function matchFilter(b, f) {
   if (f === 'pasha') return b.side === 'Паша';
   if (f === 'ai') return b.side === 'AI';
-  if (f === 'contest') return Boolean(b.contest);
   if (f === 'pending') return b.status === 'pending';
+  if (f === 'green' || f === 'yellow' || f === 'red') return b.tier === f;
   return true;
 }
 
@@ -32,6 +35,8 @@ export default function BetsList() {
 
   return (
     <div>
+      <Legend />
+
       <div className="chips" role="group" aria-label="Фильтр ставок">
         {FILTERS.map((f) => (
           <button
@@ -56,14 +61,17 @@ export default function BetsList() {
             <div className="day-head">
               <span className="day-title">{formatDay(d)}</span>
               <span className="leader" aria-hidden="true" />
-              <span className={'day-pl ' + (settled.length === 0 ? '' : dayPl > 0 ? 'pos' : dayPl < 0 ? 'neg' : '')}>
-                {settled.length === 0 ? 'в игре' : fmt(dayPl) + ' ед'}
+              <span className={'day-pl num ' + (settled.length === 0 ? '' : dayPl > 0 ? 'pos' : dayPl < 0 ? 'neg' : '')}>
+                {settled.length === 0 ? 'в игре' : money(dayPl)}
               </span>
             </div>
             {list.map((b) => <Ticket key={b.id} bet={b} />)}
           </section>
         );
       })}
+      <p className="foot-note">
+        Новые ставки добавляются через чат с Владом — сайт обновляется в течение пары минут
+      </p>
     </div>
   );
 }

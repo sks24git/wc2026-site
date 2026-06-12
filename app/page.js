@@ -3,6 +3,7 @@ import { bets } from '@/data/bets';
 import { matches } from '@/data/matches';
 import { facts } from '@/data/facts';
 import { fmtOdds, formatDay } from '@/lib/calc';
+import { hintFor } from '@/lib/glossary';
 import BattleBoard from '@/components/BattleBoard';
 import NewsRail from '@/components/NewsRail';
 import Flags from '@/components/Flags';
@@ -49,14 +50,15 @@ export default function HomePage() {
                     <div className="fixture-picks">
                       {picks.map((p) => (
                         <div key={p.id} className="pick-line">
-                          <span className="pick-name">
+                          <span className={'tdot tier-' + p.tier} aria-hidden="true" />
+                          <span className="pick-name" title={hintFor(p)}>
                             {p.bet}
                             <span className={'pick-side ' + (p.contest ? 'contest' : p.side === 'Паша' ? 'pasha' : 'ai')}>
                               {p.contest ? 'Конкурс' : p.side}
                             </span>
                           </span>
                           <span className="leader" aria-hidden="true" />
-                          <span className="pick-odds">{fmtOdds(p.odds)}</span>
+                          <span className="pick-odds num">{fmtOdds(p.odds)}</span>
                         </div>
                       ))}
                     </div>
