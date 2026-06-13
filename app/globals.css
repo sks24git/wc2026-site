@@ -333,6 +333,15 @@ td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular
 .la-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:14px;font-weight:700}
 .la-pl.idle{color:var(--faint);font-weight:500}
 
+/* D: антенка цветами светофора */
+.ld-ant{display:inline-flex;align-items:flex-end;gap:2px;height:14px;margin-top:3px}
+.ld-ant i{width:3.5px;border-radius:1px;background:var(--hair-strong)}
+.ld-ant i:nth-child(1){height:6px}
+.ld-ant i:nth-child(2){height:10px}
+.ld-ant i:nth-child(3){height:14px}
+.ld.lose .la-bet{color:var(--muted)}
+.ld.void{opacity:.55}
+
 /* A: полоски риска */
 .la-meter{display:inline-flex;align-items:flex-end;gap:2px;height:13px;margin-top:3px}
 .la-meter i{width:3px;height:7px;background:var(--hair-strong);border-radius:1px}

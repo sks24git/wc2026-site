@@ -82,6 +82,33 @@ function TicketC({ bet }) {
   );
 }
 
+/* ── Вариант D: антенка ЦВЕТАМИ светофора (тир) + цвет = результат ── */
+function TicketD({ bet }) {
+  const settled = bet.status === 'win' || bet.status === 'lose';
+  const p = pl(bet);
+  const fill = TIER_FILL[bet.tier];
+  const col = TIER_COLOR[bet.tier];
+  return (
+    <article className={'la ld ' + bet.status}>
+      <span className="ld-ant" title={TIERS[bet.tier].label} aria-hidden="true">
+        {[0, 1, 2].map((i) => <i key={i} style={i < fill ? { background: col } : undefined} />)}
+      </span>
+      <div className="la-body">
+        <div className="la-top">
+          <span className="la-bet">{bet.bet}</span>
+          <span className="la-odds num">{fmtOdds(bet.odds)}</span>
+        </div>
+        <div className="la-bot">
+          <span className="la-sub">{rubFmt(stakeOf(bet))}{bet.contest ? ' · конкурс' : ''} · {STATUS_LABELS[bet.status]}</span>
+          <span className={'la-pl num ' + (settled ? (p > 0 ? 'pos' : 'neg') : 'idle')}>
+            {bet.status === 'pending' ? 'в игре' : money(p)}
+          </span>
+        </div>
+      </div>
+    </article>
+  );
+}
+
 function Cols({ T }) {
   return (
     <div className="lab-cols">
@@ -103,8 +130,12 @@ export default function LabPage() {
       <h1>Варианты цветовой системы</h1>
       <p className="lab-note">Один и тот же матч (Канада 1:1 Босния). Выбери, какой вариант делаем везде.</p>
 
-      <div className="sect"><span className="sect-label">Вариант A — цвет = результат, надёжность = полоски</span></div>
-      <p className="lab-hint">Полоски <b>▮▮▮ / ▮▮▯ / ▮▯▯</b> (нейтральные) = тир. Зелёный/красный = только результат. Самый чистый.</p>
+      <div className="sect"><span className="sect-label">Вариант D — антенка ЦВЕТАМИ светофора + цвет = результат ⭐</span></div>
+      <p className="lab-hint">Твоя идея: антенка (3/2/1 деления) окрашена в светофор (🟢🟡🔴) = тир. Форма + цвет = надёжность. Результат — цвет денег. Антенка по форме не путается с результатом.</p>
+      <Cols T={TicketD} />
+
+      <div className="sect"><span className="sect-label">Вариант A — цвет = результат, надёжность = серые полоски</span></div>
+      <p className="lab-hint">Полоски нейтральные (без цвета) = тир. Зелёный/красный = только результат. Максимально чисто, но светофор теряет цвет.</p>
       <Cols T={TicketA} />
 
       <div className="sect"><span className="sect-label">Вариант B — цвет = тир (светофор), результат = ✓/✗</span></div>
