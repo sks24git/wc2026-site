@@ -68,12 +68,23 @@ a{color:inherit;text-decoration:none}
 .nav-bottom .nav-item.active::before{content:'';position:absolute;top:-8px;left:30%;right:30%;height:2px;background:var(--ink)}
 main{max-width:1080px;margin:0 auto;padding:6px var(--pad) 96px}
 
-/* ── Двухколоночная главная (контент + лента) ── */
-.home-grid{display:block}
-.home-rail{margin-top:8px}
+/* ── Главная: на мобиле колонка (батл → факты → ЛЕНТА → матчи), на десктопе лента справа ── */
+.home-grid{display:flex;flex-direction:column}
+.g-rail{margin-top:6px}
 @media (min-width:1000px){
-  .home-grid{display:grid;grid-template-columns:minmax(0,1fr) 312px;gap:40px;align-items:start}
-  .home-rail{position:sticky;top:18px;margin-top:24px}
+  .home-grid{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) 312px;
+    grid-template-areas:
+      "battle  rail"
+      "facts   rail"
+      "matches rail";
+    column-gap:40px;align-items:start;
+  }
+  .g-battle{grid-area:battle}
+  .g-facts{grid-area:facts}
+  .g-matches{grid-area:matches}
+  .g-rail{grid-area:rail;position:sticky;top:18px;margin-top:24px}
 }
 
 @media (min-width:768px){
