@@ -9,6 +9,7 @@ import NewsRail from '@/components/NewsRail';
 import Flags from '@/components/Flags';
 import Ticket from '@/components/Ticket';
 import Tip from '@/components/Tip';
+import TierIcon from '@/components/TierIcon';
 
 export default function HomePage() {
   const upcoming = matches.filter((m) => !m.result);
@@ -55,7 +56,7 @@ export default function HomePage() {
                   <div className="fixture-picks">
                     {picks.map((p) => (
                       <div key={p.id} className="pick-line">
-                        <span className={'tdot tier-' + p.tier} aria-hidden="true" />
+                        <TierIcon tier={p.tier} size={15} />
                         <span className="pick-name">
                           <Tip hint={hintFor(p)} hoverOnly>{p.bet}</Tip>
                           <span className={'pick-side ' + (p.contest ? 'contest' : p.side === 'Паша' ? 'pasha' : 'ai')}>

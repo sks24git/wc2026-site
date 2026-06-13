@@ -3,6 +3,7 @@ import { money, rubFmt, groupBy, pl, stakeOf, TIERS, TIER_ORDER } from '@/lib/ca
 import { TYPE_HINTS, hintFor } from '@/lib/glossary';
 import BattleBoard from '@/components/BattleBoard';
 import Tip from '@/components/Tip';
+import TierIcon from '@/components/TierIcon';
 
 export const metadata = { title: 'Статистика · ЧМ-26' };
 
@@ -60,7 +61,7 @@ function Tiers() {
         return (
           <div key={k} className="tier-col">
             <div className="tier-top">
-              <span className={'tdot tier-' + k} aria-hidden="true" />
+              <TierIcon tier={k} />
               <Tip className="tier-nm" hint={'Светофор · кф ' + TIERS[k].odds + ' · ' + TIERS[k].note}>{TIERS[k].label}</Tip>
               <span className="tier-sum num">{rubFmt(TIERS[k].sum)}</span>
             </div>

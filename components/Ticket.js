@@ -1,32 +1,26 @@
-import { pl, money, fmtOdds, stakeOf, rubFmt, STATUS_LABELS, TIERS } from '@/lib/calc';
+import { fmtOdds, stakeOf, rubFmt } from '@/lib/calc';
 import { hintFor } from '@/lib/glossary';
+import Tip from '@/components/Tip';
+import TierIcon from '@/components/TierIcon';
+import Result from '@/components/Result';
 
+// Полный тикет (с названием матча) — для главной, карточки матча, одиночных лент.
 export default function Ticket({ bet }) {
-  const settled = bet.status === 'win' || bet.status === 'lose';
-  const p = pl(bet);
-  const tier = TIERS[bet.tier];
-  const hint = hintFor(bet);
   return (
-    <article className={'ticket ' + bet.status}>
-      <span className={'tdot tier-' + bet.tier} aria-hidden="true" title={tier ? tier.label + ' · ' + rubFmt(tier.sum) : ''} />
-      <div style={{ minWidth: 0 }}>
-        <div className="ticket-match">{bet.match}</div>
-        {hint ? (
-          <div className="ticket-bet tip" tabIndex={0} data-tip={hint} role="note">{bet.bet}</div>
-        ) : (
-          <div className="ticket-bet">{bet.bet}</div>
-        )}
-        <div className="ticket-meta">
-          <span className={bet.side === 'Паша' ? 'pasha' : 'ai'}>{bet.side}</span>
-          {bet.contest && <span className="contest">Конкурс</span>}
-          <span className="num">{rubFmt(stakeOf(bet))}</span>
-          <span>{STATUS_LABELS[bet.status]}</span>
+    <article className={'vt with-match ' + bet.status}>
+      <TierIcon tier={bet.tier} />
+      <div className="vt-body">
+        <div className="vt-match">{bet.match}</div>
+        <div className="vt-top">
+          <Tip className="vt-bet" hint={hintFor(bet)}>{bet.bet}</Tip>
+          <span className="vt-odds num">{fmtOdds(bet.odds)}</span>
         </div>
-      </div>
-      <div className="ticket-right">
-        <div className="ticket-odds num">{fmtOdds(bet.odds)}</div>
-        <div className={'ticket-pl num ' + (settled ? (p > 0 ? 'pos' : 'neg') : 'idle')}>
-          {bet.status === 'pending' ? '—' : bet.status === 'void' ? '0 ₽' : money(p)}
+        <div className="vt-bot">
+          <span className="vt-stake">
+            <span className={bet.side === 'Паша' ? 'side-pasha' : 'side-ai'}>{bet.side}</span>
+            {bet.contest ? ' · конкурс' : ''} · {rubFmt(stakeOf(bet))}
+          </span>
+          <Result bet={bet} />
         </div>
       </div>
     </article>
