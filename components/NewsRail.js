@@ -19,11 +19,9 @@ function Avatar({ pasha }) {
   if (pasha) return <span className="news-av pasha" aria-hidden="true">П</span>;
   return (
     <span className="news-av staff" aria-hidden="true">
-      <svg viewBox="0 0 24 24" width="14" height="14">
-        <path d="M12 6.4l3.2 2.3-1.2 3.8h-4L8.8 8.7 12 6.4z" fill="#fff" />
-        <g stroke="#fff" strokeWidth="1.2" strokeLinecap="round">
-          <path d="M12 6.4V3.6" /><path d="M15.2 8.7l2.6-.8" /><path d="M14 12.5l1.6 2.2" /><path d="M10 12.5l-1.6 2.2" /><path d="M8.8 8.7l-2.6-.8" />
-        </g>
+      <svg viewBox="0 0 100 100" width="15" height="15">
+        <polygon points="50,24 67.1,36.44 60.58,56.56 39.42,56.56 32.9,36.44" fill="#fff" stroke="#fff" strokeWidth="8" strokeLinejoin="round" />
+        <path d="M 34 66 Q 50 80 66 66" fill="none" stroke="#fff" strokeWidth="7.5" strokeLinecap="round" />
       </svg>
     </span>
   );

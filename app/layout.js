@@ -37,12 +37,10 @@ export default function RootLayout({ children }) {
           <div className="masthead-in">
             <Link className="logo" href="/" translate="no" aria-label="ЧМ-26 · на главную">
               <span className="logo-mark" aria-hidden="true">
-                <svg viewBox="0 0 24 24" width="24" height="24">
-                  <rect width="24" height="24" rx="6" fill="#15803d" />
-                  <path d="M12 6.4l3.2 2.3-1.2 3.8h-4L8.8 8.7 12 6.4z" fill="#fff" />
-                  <g stroke="#fff" strokeWidth="1.25" strokeLinecap="round">
-                    <path d="M12 6.4V3.3" /><path d="M15.2 8.7l2.9-.9" /><path d="M14 12.5l1.8 2.5" /><path d="M10 12.5l-1.8 2.5" /><path d="M8.8 8.7l-2.9-.9" />
-                  </g>
+                <svg viewBox="0 0 100 100" width="28" height="28">
+                  <rect width="100" height="100" rx="24" fill="#10131A" />
+                  <polygon points="50,30 61.42,38.30 57.06,51.72 42.94,51.72 38.58,38.30" fill="#fff" stroke="#fff" strokeWidth="6.5" strokeLinejoin="round" />
+                  <path d="M 37 65 Q 50 76 63 65" fill="none" stroke="#fff" strokeWidth="6" strokeLinecap="round" />
                 </svg>
               </span>
               <span className="logo-text">
