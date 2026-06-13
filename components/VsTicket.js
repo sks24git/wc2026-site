@@ -15,7 +15,7 @@ export default function VsTicket({ bet }) {
           <span className="vt-odds num">{fmtOdds(bet.odds)}</span>
         </div>
         <div className="vt-bot">
-          <span className="vt-stake">{rubFmt(stakeOf(bet))}{bet.contest ? ' · конкурс' : ''}</span>
+          <span className="vt-stake">{rubFmt(stakeOf(bet))}</span>
           <Result bet={bet} />
         </div>
         {bet.note && <p className="vt-note">{bet.note}</p>}

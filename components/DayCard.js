@@ -1,5 +1,6 @@
 import { matches } from '@/lib/content';
 import { fmtOdds, money, formatDay } from '@/lib/calc';
+import { STATUS_LABEL } from '@/lib/cards';
 import TierIcon from '@/components/TierIcon';
 import Result from '@/components/Result';
 
@@ -13,16 +14,16 @@ export default function DayCard({ card }) {
   const plClass = card.settled === 0 ? '' : card.pl > 0 ? 'pos' : card.pl < 0 ? 'neg' : '';
 
   return (
-    <article className={'daycard ' + cls}>
+    <article className={'daycard ' + cls + ' st-' + card.status}>
       <header className="dc-head">
         <span className={'dc-av ' + cls} aria-hidden="true">{card.side === 'AI' ? 'AI' : 'П'}</span>
         <div className="dc-hl">
-          <div className="dc-who">{card.side}</div>
+          <div className="dc-who">{card.side} <span className={'dc-chip ' + card.status}>{STATUS_LABEL[card.status]}</span></div>
           <div className="dc-date">{formatDay(card.date)}</div>
         </div>
         <div className="dc-total">
-          <div className="dc-total-lbl">{card.settled === 0 ? 'в игре' : 'итог дня'}</div>
-          <div className={'dc-total-v num ' + plClass}>{card.settled === 0 ? card.pending + ' ст.' : money(card.pl)}</div>
+          <div className="dc-total-lbl">{card.status === 'soon' ? 'на кону' : card.status === 'live' ? 'пока' : 'итог дня'}</div>
+          <div className={'dc-total-v num ' + plClass}>{card.status === 'soon' ? card.pending + ' ст.' : money(card.pl)}</div>
         </div>
       </header>
 

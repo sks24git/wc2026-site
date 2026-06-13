@@ -17,8 +17,7 @@ export default function Ticket({ bet }) {
         </div>
         <div className="vt-bot">
           <span className="vt-stake">
-            <span className={bet.side === 'Паша' ? 'side-pasha' : 'side-ai'}>{bet.side}</span>
-            {bet.contest ? ' · конкурс' : ''} · {rubFmt(stakeOf(bet))}
+            <span className={bet.side === 'Паша' ? 'side-pasha' : 'side-ai'}>{bet.side}</span> · {rubFmt(stakeOf(bet))}
           </span>
           <Result bet={bet} />
         </div>

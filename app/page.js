@@ -63,9 +63,7 @@ export default function HomePage() {
                         <TierIcon tier={p.tier} size={15} />
                         <span className="pick-name">
                           <Tip hint={hintFor(p)} hoverOnly>{p.bet}</Tip>
-                          <span className={'pick-side ' + (p.contest ? 'contest' : p.side === 'Паша' ? 'pasha' : 'ai')}>
-                            {p.contest ? 'Конкурс' : p.side}
-                          </span>
+                          <span className={'pick-side ' + (p.side === 'Паша' ? 'pasha' : 'ai')}>{p.side}</span>
                         </span>
                         <span className="leader" aria-hidden="true" />
                         <span className="pick-odds num">{fmtOdds(p.odds)}</span>

@@ -8,9 +8,14 @@ const SIDES = [
   { key: 'AI', label: 'AI' },
 ];
 
+function defaultIdx(list) {
+  const i = list.findIndex((c) => c.status !== 'done');
+  return i >= 0 ? i : list.length - 1;
+}
+
 export default function CardsDeck({ cards }) {
   const [side, setSide] = useState('all');
-  const [i, setI] = useState(0);
+  const [i, setI] = useState(() => defaultIdx(cards));
 
   const deck = side === 'all' ? cards : cards.filter((c) => c.side === side);
   const idx = Math.min(i, Math.max(0, deck.length - 1));
@@ -30,7 +35,11 @@ export default function CardsDeck({ cards }) {
       return n;
     });
   }
-  function pick(k) { setSide(k); setI(0); }
+  function pick(k) {
+    const nd = k === 'all' ? cards : cards.filter((c) => c.side === k);
+    setSide(k);
+    setI(defaultIdx(nd));
+  }
 
   if (!card) return <p className="empty">Карт пока нет</p>;
 
