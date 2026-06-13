@@ -345,19 +345,21 @@ td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular
 @keyframes pulse{0%{transform:scale(.6);opacity:.6}100%{transform:scale(1.6);opacity:0}}
 @media (prefers-reduced-motion:reduce){.news-live::after{animation:none}}
 .news-list{list-style:none;margin:0;padding:0}
-.news-item{position:relative;padding:14px 0 14px 18px;border-bottom:1px solid var(--hair)}
-.news-item::before{content:'';position:absolute;left:0;top:19px;width:7px;height:7px;border-radius:50%;background:var(--hair-dot)}
-.news-item::after{content:'';position:absolute;left:3px;top:26px;bottom:-1px;width:1px;background:var(--hair)}
+.news-item{display:grid;grid-template-columns:30px 1fr;gap:11px;padding:13px 0;border-bottom:1px solid var(--hair)}
 .news-item:last-child{border-bottom:none}
-.news-item:last-child::after{display:none}
-.news-meta{display:flex;align-items:center;gap:8px;margin-bottom:5px}
-.news-tag{font-size:9.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:2px 7px;border-radius:5px;color:#fff}
+.news-av{width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;flex:none}
+.news-av.pasha{background:var(--pasha);color:#fff}
+.news-av.staff{background:var(--green)}
+.news-main{min-width:0}
+.news-meta{display:flex;align-items:center;gap:8px;margin-bottom:4px;flex-wrap:wrap}
+.news-author{font-size:12px;font-weight:800;color:var(--ink)}
+.news-tag{font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;border-radius:5px;color:#fff}
 .news-tag.lineup{background:var(--ai)}
 .news-tag.insight{background:var(--green)}
 .news-tag.pasha{background:var(--pasha)}
 .news-tag.result{background:var(--ink)}
-.news-time{font-size:11px;color:var(--faint)}
-.news-text{font-size:13px;line-height:1.5;color:var(--ink)}
+.news-time{font-size:11px;color:var(--faint);margin-left:auto}
+.news-text{font-size:13px;line-height:1.5;color:var(--muted)}
 
 .chart-svg{width:100%;height:auto;display:block;margin-top:12px}
 .chart-legend{display:flex;gap:20px;margin-top:8px;font-size:13px;color:var(--muted)}
