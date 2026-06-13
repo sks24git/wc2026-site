@@ -57,3 +57,24 @@ export default function DayCard({ card }) {
     </article>
   );
 }
+
+export function EmptyDayCard({ side }) {
+  const cls = side === 'AI' ? 'ai' : 'pasha';
+  return (
+    <article className={'daycard ' + cls + ' st-empty'}>
+      <header className="dc-head">
+        <span className={'dc-av ' + cls} aria-hidden="true">{side === 'AI' ? 'AI' : 'П'}</span>
+        <div className="dc-hl">
+          <div className="dc-who">{side}</div>
+          <div className="dc-date">пока без ставок</div>
+        </div>
+      </header>
+      <div className="dc-empty">
+        <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <path d="M5 22h14M5 2h14M6 2v5a6 6 0 0 0 12 0V2M6 22v-5a6 6 0 0 1 12 0v5" />
+        </svg>
+        <span>ждём ставку</span>
+      </div>
+    </article>
+  );
+}

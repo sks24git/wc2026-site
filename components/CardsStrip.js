@@ -1,12 +1,13 @@
 'use client';
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { buildCards, currentIndex, STATUS_LABEL } from '@/lib/cards';
+import { buildCards, buildDays, currentDayIndex, STATUS_LABEL } from '@/lib/cards';
 import { money, formatDay } from '@/lib/calc';
 
 export default function CardsStrip() {
   const cards = buildCards();
-  const cur = currentIndex(cards);
+  const days = buildDays();
+  const curDate = days[currentDayIndex(days)]?.date;
   const ref = useRef(null);
 
   // прокрутить к текущей карте по центру
@@ -17,11 +18,11 @@ export default function CardsStrip() {
 
   return (
     <div className="strip" ref={ref}>
-      {cards.map((c, n) => {
+      {cards.map((c) => {
         const cls = c.side === 'AI' ? 'ai' : 'pasha';
         const plClass = c.status === 'soon' ? '' : c.pl > 0 ? 'pos' : c.pl < 0 ? 'neg' : '';
         return (
-          <Link key={c.key} data-cur={n === cur ? '1' : undefined} className={'minicard ' + cls + ' st-' + c.status} href={'/cards/#' + c.key}>
+          <Link key={c.key} data-cur={c.date === curDate ? '1' : undefined} className={'minicard ' + cls + ' st-' + c.status} href={'/cards/#' + c.date}>
             <div className="mc-top">
               <span className={'mc-av ' + cls} aria-hidden="true">{c.side === 'AI' ? 'AI' : 'П'}</span>
               <span className="mc-date">{formatDay(c.date)}</span>

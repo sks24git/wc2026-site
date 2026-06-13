@@ -1,70 +1,41 @@
 'use client';
 import { useEffect, useState } from 'react';
-import DayCard from '@/components/DayCard';
+import DayCard, { EmptyDayCard } from '@/components/DayCard';
+import { formatDay } from '@/lib/calc';
+import { currentDayIndex } from '@/lib/cards';
 
-const SIDES = [
-  { key: 'all', label: 'Все' },
-  { key: 'Паша', label: 'Паша' },
-  { key: 'AI', label: 'AI' },
-];
+export default function CardsDeck({ days }) {
+  const [i, setI] = useState(() => currentDayIndex(days));
+  const idx = Math.min(i, Math.max(0, days.length - 1));
+  const day = days[idx];
 
-function defaultIdx(list) {
-  const i = list.findIndex((c) => c.status !== 'done');
-  return i >= 0 ? i : list.length - 1;
-}
-
-export default function CardsDeck({ cards }) {
-  const [side, setSide] = useState('all');
-  const [i, setI] = useState(() => defaultIdx(cards));
-
-  const deck = side === 'all' ? cards : cards.filter((c) => c.side === side);
-  const idx = Math.min(i, Math.max(0, deck.length - 1));
-  const card = deck[idx];
-
-  // открыть нужную карту по hash (#2026-06-14-ai), напр. с миниатюры на главной
+  // открыть нужный день по hash (#2026-06-14) с миниатюры на главной
   useEffect(() => {
-    const h = decodeURIComponent((window.location.hash || '').replace('#', ''));
+    const h = decodeURIComponent((window.location.hash || '').replace('#', '')).slice(0, 10);
     if (!h) return;
-    const pos = cards.findIndex((c) => c.key === h);
-    if (pos >= 0) { setSide('all'); setI(pos); }
-  }, [cards]);
+    const pos = days.findIndex((d) => d.date === h);
+    if (pos >= 0) setI(pos);
+  }, [days]);
 
-  function go(d) {
-    setI((v) => {
-      const n = (idx + d + deck.length) % deck.length;
-      return n;
-    });
-  }
-  function pick(k) {
-    const nd = k === 'all' ? cards : cards.filter((c) => c.side === k);
-    setSide(k);
-    setI(defaultIdx(nd));
-  }
-
-  if (!card) return <p className="empty">Карт пока нет</p>;
+  if (!day) return <p className="empty">Карт пока нет</p>;
+  const go = (d) => setI((v) => (idx + d + days.length) % days.length);
 
   return (
     <div className="deck">
       <div className="deck-top">
-        <div className="seg" role="group" aria-label="Сторона">
-          {SIDES.map((s) => (
-            <button key={s.key} className={'seg-btn' + (side === s.key ? ' on' : '') + (s.key === 'Паша' ? ' t-pasha' : s.key === 'AI' ? ' t-ai' : '')} aria-pressed={side === s.key} onClick={() => pick(s.key)}>
-              {s.label}
-            </button>
-          ))}
-        </div>
-        <div className="deck-count num">{idx + 1} / {deck.length}</div>
+        <button className="deck-arrow" aria-label="Прошлый день" onClick={() => go(-1)} disabled={days.length < 2}>‹</button>
+        <div className="deck-day">{formatDay(day.date)}</div>
+        <button className="deck-arrow" aria-label="Следующий день" onClick={() => go(1)} disabled={days.length < 2}>›</button>
       </div>
 
-      <div className="deck-stage">
-        <button className="deck-arrow" aria-label="Предыдущая" onClick={() => go(-1)} disabled={deck.length < 2}>‹</button>
-        <DayCard card={card} />
-        <button className="deck-arrow" aria-label="Следующая" onClick={() => go(1)} disabled={deck.length < 2}>›</button>
+      <div className="deck-pair">
+        {day.ai ? <DayCard card={day.ai} /> : <EmptyDayCard side="AI" />}
+        {day.pasha ? <DayCard card={day.pasha} /> : <EmptyDayCard side="Паша" />}
       </div>
 
       <div className="deck-dots" role="tablist">
-        {deck.map((c, n) => (
-          <button key={c.key} className={'dot' + (n === idx ? ' on' : '')} aria-label={c.key} aria-selected={n === idx} onClick={() => setI(n)} />
+        {days.map((d, n) => (
+          <button key={d.date} className={'dot' + (n === idx ? ' on' : '')} aria-label={formatDay(d.date)} aria-selected={n === idx} onClick={() => setI(n)} />
         ))}
       </div>
     </div>

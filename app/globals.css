@@ -345,13 +345,21 @@ td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular
 .dc-brand{font-family:var(--font-num),monospace;font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--faint)}
 .dc-meta{font-size:11px;color:var(--faint)}
 
-/* ── Листалка ── */
-.deck-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:14px 0 12px}
-.deck-count{font-family:var(--font-num),monospace;font-size:13px;color:var(--faint)}
-.deck-stage{display:flex;align-items:center;gap:8px}
+/* ── Листалка (разворот дня) ── */
+.deck-top{display:flex;align-items:center;justify-content:center;gap:16px;margin:14px 0 14px}
+.deck-day{font-size:15px;font-weight:800;text-transform:capitalize;min-width:140px;text-align:center}
+.deck-pair{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
+.deck-pair .daycard{max-width:none;margin:0}
+@media (max-width:640px){.deck-pair{grid-template-columns:1fr;gap:14px}}
 .deck-arrow{flex:none;width:38px;height:38px;border-radius:50%;border:1px solid var(--hair-strong);background:#fff;font-size:20px;line-height:1;color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center}
 .deck-arrow:hover{border-color:var(--ink)}
 .deck-arrow:disabled{opacity:.3;cursor:default}
+
+/* пустая карта (сторона ещё не ставила) */
+.daycard.st-empty{border-style:dashed}
+.dc-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:40px 0;color:var(--faint)}
+.dc-empty svg{opacity:.5}
+.dc-empty span{font-size:11px;letter-spacing:.08em;text-transform:uppercase}
 .deck-dots{display:flex;justify-content:center;gap:7px;margin-top:16px;flex-wrap:wrap}
 .deck-dots .dot{width:8px;height:8px;border-radius:50%;border:none;background:var(--hair-strong);cursor:pointer;padding:0}
 .deck-dots .dot.on{background:var(--ink);transform:scale(1.25)}
