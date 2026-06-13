@@ -16,5 +16,6 @@
   { "id": 10, "date": "2026-06-12", "match": "США — Парагвай", "matchId": "usa-paraguay", "bet": "ТМ 2.5", "type": "ТМ", "odds": 1.75, "tier": "green", "side": "AI", "status": "pending" },
   { "id": 11, "date": "2026-06-12", "match": "США — Парагвай", "matchId": "usa-paraguay", "bet": "1-й тайм 0:0", "type": "1Т-рынок", "odds": 2.0, "tier": "red", "side": "AI", "status": "pending" },
   { "id": 12, "date": "2026-06-12", "match": "США — Парагвай", "matchId": "usa-paraguay", "bet": "Точный счёт 1:0 (США)", "type": "ТС", "odds": 7.0, "tier": "red", "side": "AI", "status": "pending" },
+  { "id": 17, "date": "2026-06-13", "match": "США — Парагвай", "matchId": "usa-paraguay", "bet": "Балогун забьёт (в любое время)", "type": "Игрок", "odds": 3.15, "tier": "yellow", "side": "AI", "status": "pending" },
   { "id": 13, "date": "2026-06-12", "match": "Канада + США", "bet": "Экспресс: ТМ 2.5 + ТМ 2.5", "type": "Экспресс", "odds": 2.85, "tier": "green", "side": "AI", "status": "pending" }
 ]
