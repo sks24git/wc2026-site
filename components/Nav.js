@@ -16,6 +16,10 @@ const TABS = [
     icon: <path d="M4 20V10M10 20V4M16 20v-8M22 20H2" />,
   },
   {
+    href: '/cards/', label: 'Карты',
+    icon: <><rect x="3" y="5" width="13" height="15" rx="2" /><path d="M19 8v11a2 2 0 0 1-2 2H8" /></>,
+  },
+  {
     href: '/matches/', label: 'Матчи',
     icon: <circle cx="12" cy="12" r="9" />,
   },

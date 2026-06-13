@@ -10,6 +10,7 @@ import Flags from '@/components/Flags';
 import Ticket from '@/components/Ticket';
 import Tip from '@/components/Tip';
 import TierIcon from '@/components/TierIcon';
+import CardsStrip from '@/components/CardsStrip';
 
 export default function HomePage() {
   const upcoming = matches.filter((m) => !m.result);
@@ -37,6 +38,9 @@ export default function HomePage() {
       <aside className="g-rail"><NewsRail /></aside>
 
       <section className="g-matches" aria-label="Матчи и ставки">
+        <div className="sect"><span className="sect-label">Карты дня</span></div>
+        <CardsStrip />
+
         <div className="sect"><span className="sect-label">Ближайшие матчи</span></div>
         {upcoming.length === 0 ? (
           <p className="empty">Карточек пока нет — скоро добавим</p>
