@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { bets, matches } from '@/lib/content';
 import { pl, money, formatDay, sideTally } from '@/lib/calc';
 import { TYPE_HINTS } from '@/lib/glossary';
+import VsTicket from '@/components/VsTicket';
 import Ticket from '@/components/Ticket';
 import Legend from '@/components/Legend';
 import Flags from '@/components/Flags';
@@ -15,37 +16,51 @@ const GROUPS = [
   { key: 'type', label: 'По рынкам' },
 ];
 const SIDES = [
-  { key: 'all', label: 'Все' },
+  { key: 'all', label: 'Батл' },
   { key: 'Паша', label: 'Паша' },
   { key: 'AI', label: 'AI' },
 ];
 
-function matchMeta(id) {
-  return matches.find((m) => m.id === id) || null;
+const matchMeta = (id) => matches.find((m) => m.id === id) || null;
+
+function plClass(v) { return v > 0 ? 'pos' : v < 0 ? 'neg' : ''; }
+
+// итог стороны коротким значением
+function sideValue(t) {
+  if (!t || t.n === 0) return null;
+  if (t.pendingN && !t.anySettled) return { txt: 'в игре', cls: 'idle' };
+  return { txt: money(t.pl), cls: plClass(t.pl) };
 }
 
-// строка «Паша +X · AI −Y» по списку ставок
-function VsLine({ list }) {
-  const p = sideTally(list.filter((b) => b.side === 'Паша'));
-  const a = sideTally(list.filter((b) => b.side === 'AI'));
-  const Part = ({ side, t }) => {
-    if (!t || t.n === 0) return null;
-    const settled = !t.pendingN || t.anySettled;
-    return (
-      <span className={'vs-part ' + (side === 'Паша' ? 'pasha' : 'ai')}>
-        <span className="vs-who">{side}</span>
-        <span className={'vs-val num ' + (settled ? (t.pl > 0 ? 'pos' : t.pl < 0 ? 'neg' : '') : 'idle')}>
-          {t.pendingN && !t.anySettled ? 'в игре' : money(t.pl)}
-        </span>
-      </span>
-    );
-  };
+/* ── Колонка одной стороны ── */
+function Column({ side, list }) {
+  const t = sideTally(list);
+  const v = sideValue(t);
   return (
-    <span className="vs-line">
-      <Part side="Паша" t={p} />
-      {p.n > 0 && a.n > 0 && <span className="vs-x">vs</span>}
-      <Part side="AI" t={a} />
-    </span>
+    <div className={'vs-col ' + (side === 'Паша' ? 'pasha' : 'ai')}>
+      <div className="vs-col-head">
+        <span className="vs-col-who">{side}</span>
+        {v && <span className={'vs-col-pl num ' + v.cls}>{v.txt}</span>}
+      </div>
+      {list.length === 0
+        ? <div className="vs-col-empty">не ставил</div>
+        : list.map((b) => <VsTicket key={b.id} bet={b} />)}
+    </div>
+  );
+}
+
+/* ── Карточка группы с двумя колонками (Паша | AI) ── */
+function VsCard({ head, list }) {
+  const pasha = list.filter((b) => b.side === 'Паша');
+  const ai = list.filter((b) => b.side === 'AI');
+  return (
+    <section className="vs-card">
+      {head}
+      <div className="vs-cols">
+        <Column side="Паша" list={pasha} />
+        <Column side="AI" list={ai} />
+      </div>
+    </section>
   );
 }
 
@@ -54,6 +69,7 @@ export default function BetsList() {
   const [side, setSide] = useState('all');
 
   const view = side === 'all' ? bets : bets.filter((b) => b.side === side);
+  const single = side !== 'all';
 
   return (
     <div>
@@ -77,73 +93,57 @@ export default function BetsList() {
       </div>
 
       {view.length === 0 ? <p className="empty">По этому фильтру ставок нет</p> :
-        group === 'match' ? <ByMatch list={view} /> :
-        group === 'day' ? <ByDay list={view} /> :
-        <ByType list={view} />}
+        group === 'match' ? <ByMatch list={view} single={single} /> :
+        group === 'day' ? <ByDay list={view} single={single} /> :
+        <ByType list={view} single={single} />}
 
-      <p className="foot-note">Ставки обновляются Владом по ходу турнира — сайт пересобирается за пару минут</p>
+      <p className="foot-note">Ставки обновляются по ходу турнира — сайт пересобирается за пару минут</p>
     </div>
   );
 }
 
+/* список одной стороны (когда выбран фильтр Паша/AI) */
+function SingleList({ list }) {
+  return <>{list.map((b) => <Ticket key={b.id} bet={b} />)}</>;
+}
+
 /* ── По матчам ── */
-function ByMatch({ list }) {
+function ByMatch({ list, single }) {
   const groups = {};
-  for (const b of list) {
-    const key = b.matchId || ('_' + b.match);
-    (groups[key] = groups[key] || []).push(b);
-  }
-  // сортировка по дате (свежие сверху)
-  const keys = Object.keys(groups).sort((a, b) => {
-    const da = groups[a][0].date, db = groups[b][0].date;
-    return db.localeCompare(da);
+  for (const b of list) (groups[b.matchId || ('_' + b.match)] = groups[b.matchId || ('_' + b.match)] || []).push(b);
+  const keys = Object.keys(groups).sort((a, b) => groups[b][0].date.localeCompare(groups[a][0].date));
+  return keys.map((key) => {
+    const g = groups[key];
+    const m = key.startsWith('_') ? null : matchMeta(key);
+    const title = m ? m.title : g[0].match;
+    const headInner = (
+      <div className="mg-head">
+        {m && <Flags cc={m.cc} />}
+        <span className="mg-title">{title}</span>
+        {m && m.result && <span className="mg-score num">{m.result}</span>}
+      </div>
+    );
+    const head = m ? <Link className="mg-head-link" href={'/matches/' + m.id + '/'}>{headInner}</Link> : headInner;
+    return single
+      ? <section key={key} className="vs-card">{head}<SingleList list={g} /></section>
+      : <VsCard key={key} head={head} list={g} />;
   });
-  return (
-    <>
-      {keys.map((key) => {
-        const g = groups[key];
-        const m = key.startsWith('_') ? null : matchMeta(key);
-        const title = m ? m.title : g[0].match;
-        const inner = (
-          <div className="mg-head">
-            {m && <Flags cc={m.cc} />}
-            <span className="mg-title">{title}</span>
-            {m && m.result && <span className="mg-score num">{m.result}</span>}
-            <span className="mg-vs"><VsLine list={g} /></span>
-          </div>
-        );
-        return (
-          <section key={key} className="mg" aria-label={title}>
-            {m ? <Link className="mg-head-link" href={'/matches/' + m.id + '/'}>{inner}</Link> : inner}
-            {g.map((b) => <Ticket key={b.id} bet={b} />)}
-          </section>
-        );
-      })}
-    </>
-  );
 }
 
 /* ── По дням ── */
-function ByDay({ list }) {
+function ByDay({ list, single }) {
   const groups = {};
   for (const b of list) (groups[b.date] = groups[b.date] || []).push(b);
   const days = Object.keys(groups).sort().reverse();
-  return (
-    <>
-      {days.map((d) => (
-        <section key={d} className="mg" aria-label={formatDay(d)}>
-          <div className="mg-head">
-            <span className="mg-title cap">{formatDay(d)}</span>
-            <span className="mg-vs"><VsLine list={groups[d]} /></span>
-          </div>
-          {groups[d].map((b) => <Ticket key={b.id} bet={b} />)}
-        </section>
-      ))}
-    </>
-  );
+  return days.map((d) => {
+    const head = <div className="mg-head"><span className="mg-title cap">{formatDay(d)}</span></div>;
+    return single
+      ? <section key={d} className="vs-card">{head}<SingleList list={groups[d]} /></section>
+      : <VsCard key={d} head={head} list={groups[d]} />;
+  });
 }
 
-/* ── По рынкам ── */
+/* ── По рынкам (анализ заходимости — простой список) ── */
 function ByType({ list }) {
   const groups = {};
   for (const b of list) (groups[b.type] = groups[b.type] || []).push(b);
@@ -151,24 +151,21 @@ function ByType({ list }) {
     const sp = (k) => groups[k].reduce((s, x) => s + pl(x), 0);
     return sp(b) - sp(a);
   });
-  return (
-    <>
-      {keys.map((t) => {
-        const g = groups[t];
-        const settled = g.filter((b) => b.status === 'win' || b.status === 'lose');
-        const wins = settled.filter((b) => b.status === 'win').length;
-        const sum = g.reduce((s, b) => s + pl(b), 0);
-        return (
-          <section key={t} className="mg" aria-label={t}>
-            <div className="mg-head">
-              <Tip className="mg-title" hint={TYPE_HINTS[t]}>{t}</Tip>
-              <span className="mg-meta">{settled.length ? `${wins}/${settled.length}` : 'в игре'}</span>
-              <span className={'mg-score num ' + (sum > 0 ? 'pos' : sum < 0 ? 'neg' : '')}>{settled.length ? money(sum) : ''}</span>
-            </div>
-            {g.map((b) => <Ticket key={b.id} bet={b} />)}
-          </section>
-        );
-      })}
-    </>
-  );
+  return keys.map((t) => {
+    const g = groups[t];
+    const settled = g.filter((b) => b.status === 'win' || b.status === 'lose');
+    const wins = settled.filter((b) => b.status === 'win').length;
+    const sum = g.reduce((s, b) => s + pl(b), 0);
+    const wr = settled.length ? Math.round((wins / settled.length) * 100) : 0;
+    return (
+      <section key={t} className="vs-card">
+        <div className="mg-head">
+          <Tip className="mg-title" hint={TYPE_HINTS[t]}>{t}</Tip>
+          {settled.length > 0 && <span className="mg-meta">{wins}/{settled.length} · {wr}%</span>}
+          <span className={'mg-score num ' + plClass(sum)}>{settled.length ? money(sum) : 'в игре'}</span>
+        </div>
+        {g.map((b) => <Ticket key={b.id} bet={b} />)}
+      </section>
+    );
+  });
 }

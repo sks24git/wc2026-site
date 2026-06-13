@@ -201,26 +201,54 @@ a.fixture:hover .fixture-title{color:var(--green)}
 .seg-btn.on.t-ai{color:var(--ai)}
 @media (max-width:520px){.controls{flex-direction:column;gap:8px}.seg{width:100%}.seg-btn{flex:1;text-align:center;padding:8px 4px}}
 
-/* ── Группы ставок (по матчам / дням / рынкам) ── */
-.mg{margin-bottom:6px}
-.mg-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:22px 0 8px;border-bottom:1px solid var(--hair);margin-bottom:2px}
+/* ── Заголовок группы ── */
+.vs-card{margin-bottom:30px}
+.mg-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-bottom:10px}
 a.mg-head-link{display:block}
 a.mg-head-link:hover .mg-title{color:var(--green)}
-.mg-title{font-size:17px;font-weight:800;letter-spacing:-.01em}
+.mg-title{font-size:18px;font-weight:800;letter-spacing:-.01em}
 .mg-title.cap{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
-.mg-score{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:16px;font-weight:700}
+.mg-score{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:16px;font-weight:700;color:var(--muted)}
 .mg-meta{font-size:12px;color:var(--faint);font-family:var(--font-num),monospace}
-.mg-vs{margin-left:auto}
+.mg-head .mg-meta,.mg-head .mg-score:last-child{margin-left:auto}
 
-/* строка Паша vs AI */
-.vs-line{display:inline-flex;align-items:center;gap:10px;font-size:13px}
-.vs-part{display:inline-flex;align-items:baseline;gap:6px}
-.vs-who{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
-.vs-part.pasha .vs-who{color:var(--pasha)}
-.vs-part.ai .vs-who{color:var(--ai)}
-.vs-val{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-weight:700}
-.vs-val.idle{color:var(--faint);font-weight:500}
-.vs-x{font-size:10px;color:var(--faint);font-weight:700}
+/* ── Две колонки Паша | AI (с центральной линией поля) ── */
+.vs-cols{display:grid;grid-template-columns:1fr 1fr;position:relative}
+.vs-cols::before{content:'';position:absolute;top:34px;bottom:8px;left:50%;width:1px;background:var(--hair);transform:translateX(-.5px)}
+.vs-col{min-width:0}
+.vs-col.pasha{padding-right:18px}
+.vs-col.ai{padding-left:18px}
+.vs-col-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding-bottom:8px;border-bottom:2px solid var(--hair);margin-bottom:4px}
+.vs-col.pasha .vs-col-head{border-bottom-color:var(--pasha)}
+.vs-col.ai .vs-col-head{border-bottom-color:var(--ai)}
+.vs-col-who{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.vs-col.pasha .vs-col-who{color:var(--pasha)}
+.vs-col.ai .vs-col-who{color:var(--ai)}
+.vs-col-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:14px;font-weight:700}
+.vs-col-pl.idle{color:var(--faint);font-weight:500}
+.vs-col-empty{font-size:12.5px;color:var(--faint);padding:14px 0}
+
+/* компактный тикет в колонке */
+.vt{display:grid;grid-template-columns:11px 1fr;gap:9px;padding:11px 0;border-bottom:1px solid var(--hair)}
+.vt:last-child{border-bottom:none}
+.vt .tdot{margin-top:4px}
+.vt.void{opacity:.55}
+.vt.lose .vt-bet{color:var(--muted)}
+.vt-body{min-width:0}
+.vt-top{display:flex;align-items:baseline;gap:8px}
+.vt-bet{font-weight:700;font-size:14px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vt-odds{margin-left:auto;font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:13.5px;font-weight:700;color:var(--muted)}
+.vt-bot{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-top:3px}
+.vt-stake{font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--faint)}
+.vt-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:14px;font-weight:700}
+.vt-pl.idle{color:var(--faint);font-weight:500}
+
+@media (max-width:560px){
+  .vs-cols{grid-template-columns:1fr}
+  .vs-cols::before{display:none}
+  .vs-col.pasha{padding-right:0}
+  .vs-col.ai{padding-left:0;margin-top:18px}
+}
 
 /* ── Ставки: леджер ── */
 .day-group{margin-bottom:8px}
