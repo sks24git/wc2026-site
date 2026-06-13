@@ -322,53 +322,38 @@ td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular
 .lab-col-head.ai{color:var(--ai);border-bottom-color:var(--ai)}
 @media (max-width:560px){.lab-cols{grid-template-columns:1fr;gap:0}.lab-cols::before{display:none}.lab-col + .lab-col{margin-top:16px}}
 
-/* общий каркас демо-тикета */
-.la,.lb,.lc{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:11px 0;border-bottom:1px solid var(--hair)}
-.la-body{min-width:0}
-.la-top{display:flex;align-items:baseline;gap:8px}
-.la-bet{font-weight:700;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.la-odds{margin-left:auto;font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:13.5px;font-weight:700;color:var(--muted)}
-.la-bot{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-top:3px}
-.la-sub{font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--faint)}
-.la-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:14px;font-weight:700}
-.la-pl.idle{color:var(--faint);font-weight:500}
+/* каркас демо-строки */
+.lr{display:grid;grid-template-columns:20px 1fr;gap:11px;padding:11px 0;border-bottom:1px solid var(--hair)}
+.lr.lose .lr-bet{color:var(--muted)}
+.lr.void{opacity:.6}
+.lr-body{min-width:0}
+.lr-top{display:flex;align-items:baseline;gap:8px}
+.lr-bet{font-weight:700;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lr-odds{margin-left:auto;font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:13.5px;font-weight:700;color:var(--muted)}
+.lr-bot{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:4px}
+.lr-sub{font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--faint)}
 
-/* D: антенка цветами светофора */
-.ld-ant{display:inline-flex;align-items:flex-end;gap:2px;height:14px;margin-top:3px}
-.ld-ant i{width:3.5px;border-radius:1px;background:var(--hair-strong)}
-.ld-ant i:nth-child(1){height:6px}
-.ld-ant i:nth-child(2){height:10px}
-.ld-ant i:nth-child(3){height:14px}
-.ld.lose .la-bet{color:var(--muted)}
-.ld.void{opacity:.55}
+/* правый блок результата — выровнен: иконка в фикс-боксе + сумма справа */
+.res{display:inline-grid;grid-template-columns:18px auto;align-items:center;gap:7px}
+.res-ic{width:18px;height:18px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;font-size:12px;font-weight:800;line-height:1}
+.res-ic.win{color:#15803d;background:rgba(34,165,89,.15)}
+.res-ic.lose{color:#c2402c;background:rgba(224,71,58,.15)}
+.res-ic.void{color:#5b6b76;background:rgba(120,130,140,.14)}
+.res-ic.pending{color:var(--faint)}
+.res-sum{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:14px;font-weight:700;text-align:right}
+.res-sum.win{color:#15803d}
+.res-sum.lose{color:#c2402c}
+.res-sum.void,.res-sum.pending{color:var(--faint);font-weight:500}
 
-/* A: полоски риска */
-.la-meter{display:inline-flex;align-items:flex-end;gap:2px;height:13px;margin-top:3px}
-.la-meter i{width:3px;height:7px;background:var(--hair-strong);border-radius:1px}
-.la-meter i.on{background:var(--ink)}
-.la-meter i.on:nth-child(2){height:10px}
-.la-meter i:nth-child(2){height:10px}
-.la-meter i:nth-child(3){height:13px}
-.la.lose .la-bet{color:var(--muted)}
-.la.void{opacity:.55}
+/* индикатор D: антенка */
+.ind-ant{display:inline-flex;align-items:flex-end;gap:2px;height:14px;margin-top:3px}
+.ind-ant i{width:3.5px;border-radius:1px;background:var(--hair-strong)}
+.ind-ant i:nth-child(1){height:6px}
+.ind-ant i:nth-child(2){height:10px}
+.ind-ant i:nth-child(3){height:14px}
 
-/* B: иконка результата */
-.lb .tdot{margin-top:4px}
-.lb-res{display:inline-flex;align-items:center;gap:7px}
-.lb-ic{font-size:13px;font-weight:800;width:17px;height:17px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%}
-.lb-ic.win{color:#15803d;background:rgba(34,165,89,.14)}
-.lb-ic.lose{color:#c2402c;background:rgba(224,71,58,.14)}
-.lb-ic.pending{color:var(--faint)}
-.lb-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:14px;font-weight:700;color:var(--ink)}
-.lb.pending .lb-pl{color:var(--faint);font-weight:500}
-
-/* C: левая полоса результата */
-.lc{position:relative;padding-left:11px}
-.lc .tdot{margin-top:4px}
-.lc::before{content:'';position:absolute;left:0;top:9px;bottom:9px;width:3px;border-radius:2px;background:var(--faint)}
-.lc.win::before{background:#22a559}
-.lc.lose::before{background:#e0473a}
-.lc.void::before{background:#94a3b8}
+/* индикатор E: иконка тира */
+.ind-icon{display:inline-flex;margin-top:2px}
 
 /* ── Markdown ── */
 .md{line-height:1.62;font-size:14.5px;margin-top:12px;max-width:680px}
