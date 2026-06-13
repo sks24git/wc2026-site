@@ -23,6 +23,14 @@ const SIDES = [
 
 const matchMeta = (id) => matches.find((m) => m.id === id) || null;
 
+function startMs(m, fallbackDate) {
+  const date = m ? m.date : fallbackDate;
+  const time = m && m.timeMsk ? m.timeMsk : '12:00';
+  const [Y, M, D] = date.split('-').map(Number);
+  const [h, mn] = time.split(':').map(Number);
+  return Date.UTC(Y, M - 1, D, h - 3, mn); // МСК → UTC
+}
+
 function plClass(v) { return v > 0 ? 'pos' : v < 0 ? 'neg' : ''; }
 
 // итог стороны коротким значением
@@ -118,23 +126,48 @@ function SingleList({ list }) {
 function ByMatch({ list, single }) {
   const groups = {};
   for (const b of list) (groups[b.matchId || ('_' + b.match)] = groups[b.matchId || ('_' + b.match)] || []).push(b);
-  const keys = Object.keys(groups).sort((a, b) => groups[b][0].date.localeCompare(groups[a][0].date));
-  return keys.map((key) => {
+
+  const entries = Object.keys(groups).map((key) => {
     const g = groups[key];
     const m = key.startsWith('_') ? null : matchMeta(key);
-    const title = m ? m.title : g[0].match;
+    return {
+      key, g, m,
+      title: m ? m.title : g[0].match,
+      date: m ? m.date : g[0].date,
+      time: m ? m.timeMsk : null,
+      stage: m ? m.stage : null,
+      start: startMs(m, g[0].date),
+      active: g.some((b) => b.status === 'pending'),
+    };
+  });
+  const active = entries.filter((e) => e.active).sort((a, b) => a.start - b.start); // скоро → позже
+  const done = entries.filter((e) => !e.active).sort((a, b) => b.start - a.start);   // свежие → старые
+
+  const renderCard = (e) => {
     const headInner = (
       <div className="mg-head">
-        {m && <Flags cc={m.cc} />}
-        <span className="mg-title">{title}</span>
-        {m && m.result && <span className="mg-score num">{m.result}</span>}
+        <div className="mg-when">{[e.stage, formatDay(e.date), e.time ? e.time + ' МСК' : null].filter(Boolean).join(' · ')}</div>
+        <div className="mg-headline">
+          {e.m && <Flags cc={e.m.cc} />}
+          <span className="mg-title">{e.title}</span>
+          {e.m && e.m.result && <span className="mg-score num">{e.m.result}</span>}
+        </div>
       </div>
     );
-    const head = m ? <Link className="mg-head-link" href={'/matches/' + m.id + '/'}>{headInner}</Link> : headInner;
+    const head = e.m ? <Link className="mg-head-link" href={'/matches/' + e.m.id + '/'}>{headInner}</Link> : headInner;
     return single
-      ? <section key={key} className="vs-card">{head}<SingleList list={g} /></section>
-      : <VsCard key={key} head={head} list={g} />;
-  });
+      ? <section key={e.key} className="vs-card">{head}<SingleList list={e.g} /></section>
+      : <VsCard key={e.key} head={head} list={e.g} />;
+  };
+
+  return (
+    <>
+      {active.length > 0 && <div className="sect live"><span className="sect-label">В игре · {active.length}</span></div>}
+      {active.map(renderCard)}
+      {done.length > 0 && <div className="sect"><span className="sect-label">Сыграно · {done.length}</span></div>}
+      {done.map(renderCard)}
+    </>
+  );
 }
 
 /* ── По дням ── */
