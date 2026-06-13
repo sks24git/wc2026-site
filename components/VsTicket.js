@@ -18,6 +18,7 @@ export default function VsTicket({ bet }) {
           <span className="vt-stake">{rubFmt(stakeOf(bet))}{bet.contest ? ' · конкурс' : ''}</span>
           <Result bet={bet} />
         </div>
+        {bet.note && <p className="vt-note">{bet.note}</p>}
       </div>
     </article>
   );

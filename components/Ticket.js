@@ -22,6 +22,7 @@ export default function Ticket({ bet }) {
           </span>
           <Result bet={bet} />
         </div>
+        {bet.note && <p className="vt-note">{bet.note}</p>}
       </div>
     </article>
   );

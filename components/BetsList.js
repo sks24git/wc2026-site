@@ -43,7 +43,14 @@ function Column({ side, list }) {
         {v && <span className={'vs-col-pl num ' + v.cls}>{v.txt}</span>}
       </div>
       {list.length === 0
-        ? <div className="vs-col-empty">не ставил</div>
+        ? (
+          <div className="vs-col-empty">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M5 22h14M5 2h14M6 2v5a6 6 0 0 0 12 0V2M6 22v-5a6 6 0 0 1 12 0v5" />
+            </svg>
+            <span>ждём ставку</span>
+          </div>
+        )
         : list.map((b) => <VsTicket key={b.id} bet={b} />)}
     </div>
   );
