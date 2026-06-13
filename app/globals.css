@@ -246,6 +246,13 @@ a.mg-head-link:hover .mg-title{color:var(--green)}
 .vt-stake .side-ai{color:var(--ai);font-weight:700}
 .vt-note{font-size:11.5px;line-height:1.45;color:var(--faint);margin-top:5px}
 
+/* мини-таблица ног системы/экспресса: матч слева, выбор справа */
+.vt-legs{margin:6px 0 2px;border-top:1px solid var(--hair)}
+.vt-leg{display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:4px 0;border-bottom:1px solid var(--hair);font-size:13px}
+.vt-leg:last-child{border-bottom:none}
+.vt-leg-m{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vt-leg-p{font-weight:700;color:var(--ink);white-space:nowrap}
+
 /* иконка тира (общий компонент) */
 .tier-ic{display:inline-flex;margin-top:2px;flex:none}
 

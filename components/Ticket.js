@@ -15,6 +15,16 @@ export default function Ticket({ bet }) {
           <Tip className="vt-bet" hint={hintFor(bet)}>{bet.bet}</Tip>
           <span className="vt-odds num">{fmtOdds(bet.odds)}</span>
         </div>
+        {bet.legs && (
+          <div className="vt-legs">
+            {bet.legs.map((l, i) => (
+              <div key={i} className="vt-leg">
+                <span className="vt-leg-m">{l.m}</span>
+                <span className="vt-leg-p num">{l.p}</span>
+              </div>
+            ))}
+          </div>
+        )}
         <div className="vt-bot">
           <span className="vt-stake">
             <span className={bet.side === 'Паша' ? 'side-pasha' : 'side-ai'}>{bet.side}</span> · {rubFmt(stakeOf(bet))}
