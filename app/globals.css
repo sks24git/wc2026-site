@@ -312,6 +312,55 @@ td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular
 .block{margin-top:8px}
 .empty{color:var(--faint);font-size:13.5px;padding:18px 0}
 
+/* ── LAB: демо вариантов (временная страница) ── */
+.lab-note{color:var(--muted);font-size:14px;margin-bottom:4px}
+.lab-hint{color:var(--faint);font-size:12.5px;margin:6px 0 10px;max-width:640px}
+.lab-cols{display:grid;grid-template-columns:1fr 1fr;gap:0 28px;position:relative;margin-bottom:18px}
+.lab-cols::before{content:'';position:absolute;top:30px;bottom:6px;left:50%;width:1px;background:var(--hair)}
+.lab-col-head{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding-bottom:7px;border-bottom:2px solid var(--hair);margin-bottom:2px}
+.lab-col-head.pasha{color:var(--pasha);border-bottom-color:var(--pasha)}
+.lab-col-head.ai{color:var(--ai);border-bottom-color:var(--ai)}
+@media (max-width:560px){.lab-cols{grid-template-columns:1fr;gap:0}.lab-cols::before{display:none}.lab-col + .lab-col{margin-top:16px}}
+
+/* общий каркас демо-тикета */
+.la,.lb,.lc{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:11px 0;border-bottom:1px solid var(--hair)}
+.la-body{min-width:0}
+.la-top{display:flex;align-items:baseline;gap:8px}
+.la-bet{font-weight:700;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.la-odds{margin-left:auto;font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:13.5px;font-weight:700;color:var(--muted)}
+.la-bot{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-top:3px}
+.la-sub{font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--faint)}
+.la-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:14px;font-weight:700}
+.la-pl.idle{color:var(--faint);font-weight:500}
+
+/* A: полоски риска */
+.la-meter{display:inline-flex;align-items:flex-end;gap:2px;height:13px;margin-top:3px}
+.la-meter i{width:3px;height:7px;background:var(--hair-strong);border-radius:1px}
+.la-meter i.on{background:var(--ink)}
+.la-meter i.on:nth-child(2){height:10px}
+.la-meter i:nth-child(2){height:10px}
+.la-meter i:nth-child(3){height:13px}
+.la.lose .la-bet{color:var(--muted)}
+.la.void{opacity:.55}
+
+/* B: иконка результата */
+.lb .tdot{margin-top:4px}
+.lb-res{display:inline-flex;align-items:center;gap:7px}
+.lb-ic{font-size:13px;font-weight:800;width:17px;height:17px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%}
+.lb-ic.win{color:#15803d;background:rgba(34,165,89,.14)}
+.lb-ic.lose{color:#c2402c;background:rgba(224,71,58,.14)}
+.lb-ic.pending{color:var(--faint)}
+.lb-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:14px;font-weight:700;color:var(--ink)}
+.lb.pending .lb-pl{color:var(--faint);font-weight:500}
+
+/* C: левая полоса результата */
+.lc{position:relative;padding-left:11px}
+.lc .tdot{margin-top:4px}
+.lc::before{content:'';position:absolute;left:0;top:9px;bottom:9px;width:3px;border-radius:2px;background:var(--faint)}
+.lc.win::before{background:#22a559}
+.lc.lose::before{background:#e0473a}
+.lc.void::before{background:#94a3b8}
+
 /* ── Markdown ── */
 .md{line-height:1.62;font-size:14.5px;margin-top:12px;max-width:680px}
 .md h2{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin:24px 0 8px}
