@@ -1,4 +1,5 @@
 import './globals.css';
+import Link from 'next/link';
 import { Manrope, JetBrains_Mono } from 'next/font/google';
 import Nav from '@/components/Nav';
 
@@ -17,8 +18,8 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: 'ЧМ-26 · Паша × Влад',
-  description: 'Прогнозы, ставки и статистика чемпионата мира 2026',
+  title: { default: 'ЧМ-26 · Паша vs AI', template: '%s' },
+  description: 'Прогнозы, ставки и статистика чемпионата мира 2026 — батл Паша vs AI',
 };
 
 export const viewport = {
@@ -34,10 +35,21 @@ export default function RootLayout({ children }) {
         <a className="skip-link" href="#content">К содержимому</a>
         <header className="masthead">
           <div className="masthead-in">
-            <span className="logo" translate="no">
-              <span className="logo-num">ЧМ·26</span>
-              <span className="logo-sub">Паша vs AI</span>
-            </span>
+            <Link className="logo" href="/" translate="no" aria-label="ЧМ-26 · на главную">
+              <span className="logo-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <rect width="24" height="24" rx="6" fill="#15803d" />
+                  <path d="M12 6.4l3.2 2.3-1.2 3.8h-4L8.8 8.7 12 6.4z" fill="#fff" />
+                  <g stroke="#fff" strokeWidth="1.25" strokeLinecap="round">
+                    <path d="M12 6.4V3.3" /><path d="M15.2 8.7l2.9-.9" /><path d="M14 12.5l1.8 2.5" /><path d="M10 12.5l-1.8 2.5" /><path d="M8.8 8.7l-2.9-.9" />
+                  </g>
+                </svg>
+              </span>
+              <span className="logo-text">
+                <span className="logo-num">ЧМ·26</span>
+                <span className="logo-sub">Паша vs AI</span>
+              </span>
+            </Link>
             <Nav variant="top" />
           </div>
         </header>

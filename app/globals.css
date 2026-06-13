@@ -46,9 +46,12 @@ a{color:inherit;text-decoration:none}
 /* ── Шапка ── */
 .masthead{background:#fff;border-bottom:1px solid var(--hair)}
 .masthead-in{max-width:1080px;margin:0 auto;padding:14px var(--pad);display:flex;align-items:center;justify-content:space-between;gap:16px}
-.logo{display:flex;align-items:baseline;gap:10px}
-.logo-num{font-family:var(--font-num),monospace;font-weight:700;font-size:19px;letter-spacing:.02em;color:var(--ink)}
-.logo-sub{font-size:10px;color:var(--faint);letter-spacing:.22em;text-transform:uppercase}
+.logo{display:flex;align-items:center;gap:10px;border-radius:10px;padding:2px 4px;margin:-2px -4px}
+.logo-mark{display:flex;flex:none}
+.logo-text{display:flex;flex-direction:column;line-height:1.05}
+.logo-num{font-family:var(--font-num),monospace;font-weight:700;font-size:19px;letter-spacing:.02em;color:var(--ink);transition:color .15s}
+.logo:hover .logo-num{color:var(--green)}
+.logo-sub{font-size:10px;color:var(--faint);letter-spacing:.18em;text-transform:uppercase;margin-top:2px}
 
 /* ── Навигация ── */
 .nav-top{display:none}
