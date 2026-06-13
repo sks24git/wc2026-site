@@ -187,15 +187,40 @@ a.fixture:hover .fixture-title{color:var(--green)}
 .legend-note{font-size:12.5px;color:var(--muted)}
 .legend-cap{font-size:11.5px;color:var(--faint);margin-top:8px}
 
-/* ── Фильтры (чипы) ── */
-.chips{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 4px}
-.chip{
-  font-size:13px;font-weight:600;color:var(--muted);
-  background:#fff;border:1px solid var(--hair-strong);border-radius:999px;
-  padding:6px 14px;cursor:pointer;
+/* ── Переключатели (сегменты) ── */
+.controls{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;margin:16px 0 4px}
+.seg{display:inline-flex;background:var(--surface);border:1px solid var(--hair);border-radius:11px;padding:3px;gap:2px}
+.seg-btn{
+  font-size:13px;font-weight:700;color:var(--muted);
+  background:transparent;border:none;border-radius:8px;
+  padding:7px 14px;cursor:pointer;white-space:nowrap;transition:background .12s,color .12s;
 }
-.chip:hover{border-color:var(--faint)}
-.chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.seg-btn:hover{color:var(--ink)}
+.seg-btn.on{background:#fff;color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.06)}
+.seg-btn.on.t-pasha{color:var(--pasha)}
+.seg-btn.on.t-ai{color:var(--ai)}
+@media (max-width:520px){.controls{flex-direction:column;gap:8px}.seg{width:100%}.seg-btn{flex:1;text-align:center;padding:8px 4px}}
+
+/* ── Группы ставок (по матчам / дням / рынкам) ── */
+.mg{margin-bottom:6px}
+.mg-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:22px 0 8px;border-bottom:1px solid var(--hair);margin-bottom:2px}
+a.mg-head-link{display:block}
+a.mg-head-link:hover .mg-title{color:var(--green)}
+.mg-title{font-size:17px;font-weight:800;letter-spacing:-.01em}
+.mg-title.cap{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.mg-score{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:16px;font-weight:700}
+.mg-meta{font-size:12px;color:var(--faint);font-family:var(--font-num),monospace}
+.mg-vs{margin-left:auto}
+
+/* строка Паша vs AI */
+.vs-line{display:inline-flex;align-items:center;gap:10px;font-size:13px}
+.vs-part{display:inline-flex;align-items:baseline;gap:6px}
+.vs-who{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.vs-part.pasha .vs-who{color:var(--pasha)}
+.vs-part.ai .vs-who{color:var(--ai)}
+.vs-val{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-weight:700}
+.vs-val.idle{color:var(--faint);font-weight:500}
+.vs-x{font-size:10px;color:var(--faint);font-weight:700}
 
 /* ── Ставки: леджер ── */
 .day-group{margin-bottom:8px}
