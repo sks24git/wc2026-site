@@ -1,41 +1,59 @@
 'use client';
-import { useEffect, useRef } from 'react';
+import { Fragment, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { buildCards, buildDays, currentDayIndex, STATUS_LABEL } from '@/lib/cards';
+import { buildDays, currentDayIndex, STATUS_LABEL } from '@/lib/cards';
 import { money, formatDay } from '@/lib/calc';
 
+function Cell({ card, cur }) {
+  if (!card) return <div className="cmp-cell empty" aria-hidden="true">—</div>;
+  const cls = card.side === 'AI' ? 'ai' : 'pasha';
+  const plClass = card.status === 'soon' ? '' : card.pl > 0 ? 'pos' : card.pl < 0 ? 'neg' : '';
+  return (
+    <Link
+      data-cur={cur ? '1' : undefined}
+      className={'cmp-cell ' + cls + ' st-' + card.status + (cur ? ' cur' : '')}
+      href={'/cards/#' + card.date}
+    >
+      <span className={'cmp-pl num ' + plClass}>{card.status === 'soon' ? '—' : money(card.pl)}</span>
+      <span className="cmp-meta">
+        <span className={'cmp-st ' + card.status}>{STATUS_LABEL[card.status]}</span>
+        {' · '}{card.status === 'done' ? `${card.wins}/${card.settled}` : `${card.pending} ст.`}
+      </span>
+    </Link>
+  );
+}
+
 export default function CardsStrip() {
-  const cards = buildCards();
   const days = buildDays();
   const curDate = days[currentDayIndex(days)]?.date;
   const ref = useRef(null);
 
-  // прокрутить к текущей карте по центру
+  // прокрутить к текущему дню по центру
   useEffect(() => {
     const el = ref.current?.querySelector('[data-cur="1"]');
     if (el) el.scrollIntoView({ inline: 'center', block: 'nearest' });
   }, []);
 
   return (
-    <div className="strip" ref={ref}>
-      {cards.map((c) => {
-        const cls = c.side === 'AI' ? 'ai' : 'pasha';
-        const plClass = c.status === 'soon' ? '' : c.pl > 0 ? 'pos' : c.pl < 0 ? 'neg' : '';
-        return (
-          <Link key={c.key} data-cur={c.date === curDate ? '1' : undefined} className={'minicard ' + cls + ' st-' + c.status} href={'/cards/#' + c.date}>
-            <div className="mc-top">
-              <span className={'mc-av ' + cls} aria-hidden="true">{c.side === 'AI' ? 'AI' : 'П'}</span>
-              <span className="mc-date">{formatDay(c.date)}</span>
-            </div>
-            <div className={'mc-pl num ' + plClass}>{c.status === 'soon' ? money(0).replace('0 ₽', '—') : money(c.pl)}</div>
-            <div className="mc-meta">
-              <span className={'mc-st ' + c.status}>{STATUS_LABEL[c.status]}</span>
-              {' · '}{c.status === 'done' ? `${c.wins}/${c.settled}` : `${c.pending} ст.`}
-            </div>
-          </Link>
-        );
-      })}
-      <Link className="minicard more" href="/cards/"><span className="mc-more">Все →</span></Link>
+    <div className="cmp-wrap">
+      <div className="cmp" ref={ref}>
+        <div className="cmp-grid">
+          {/* липкий столбец-подпись строк */}
+          <div className="cmp-lbl corner" aria-hidden="true" />
+          <div className="cmp-lbl"><span className="mc-av pasha" aria-hidden="true">П</span></div>
+          <div className="cmp-lbl"><span className="mc-av ai" aria-hidden="true">AI</span></div>
+
+          {/* колонка на каждый день: дата · Паша · AI */}
+          {days.map((d) => (
+            <Fragment key={d.date}>
+              <div className={'cmp-date' + (d.date === curDate ? ' cur' : '')}>{formatDay(d.date)}</div>
+              <Cell card={d.pasha} cur={d.date === curDate} />
+              <Cell card={d.ai} cur={d.date === curDate} />
+            </Fragment>
+          ))}
+        </div>
+      </div>
+      <Link className="cmp-all" href="/cards/">Все карты дня по матчам →</Link>
     </div>
   );
 }

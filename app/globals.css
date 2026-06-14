@@ -380,27 +380,31 @@ td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular
 @media (max-width:560px){.deck-arrow{width:32px;height:32px;font-size:17px}}
 
 /* ── Мини-лента карт на главной ── */
-.strip{display:flex;gap:10px;overflow-x:auto;-webkit-overflow-scrolling:touch;padding:2px 0 8px;scroll-snap-type:x mandatory}
-.minicard{flex:none;width:130px;scroll-snap-align:start;background:#fff;border:1px solid var(--hair);border-radius:14px;padding:12px;transition:border-color .15s,transform .12s}
-.minicard:hover{border-color:var(--hair-strong);transform:translateY(-2px)}
-.minicard.pasha{border-top:3px solid var(--pasha)}
-.minicard.ai{border-top:3px solid var(--ai)}
-.mc-top{display:flex;align-items:center;gap:7px;margin-bottom:9px}
+/* ── Карты дня: мини-батл — 2 синхронные строки (Паша сверху, AI снизу), колонки = дни ── */
+.cmp-wrap{margin-top:6px}
+.cmp{overflow-x:auto;-webkit-overflow-scrolling:touch;padding:4px 0 8px}
+.cmp-grid{display:grid;grid-auto-flow:column;grid-template-columns:40px;grid-auto-columns:150px;grid-template-rows:auto auto auto;column-gap:8px;row-gap:8px;width:max-content}
+.cmp-lbl{position:sticky;left:0;z-index:2;background:var(--bg);display:flex;align-items:center;justify-content:center}
 .mc-av{width:24px;height:24px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-size:11px;color:#fff;flex:none}
 .mc-av.pasha{background:var(--pasha)}
 .mc-av.ai{background:var(--ai)}
-.mc-date{font-size:11px;color:var(--muted);text-transform:capitalize;line-height:1.2}
-.mc-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:17px;font-weight:700}
-.mc-meta{font-size:11px;color:var(--faint);margin-top:3px}
-.mc-st{font-weight:700}
-.mc-st.done{color:var(--faint)}
-.mc-st.live{color:var(--green)}
-.mc-st.soon{color:var(--ai)}
-.minicard.st-done{opacity:.62}
-.minicard.st-done:hover{opacity:1}
-.minicard[data-cur="1"]{box-shadow:0 0 0 2px var(--ink);border-color:var(--ink)}
-.minicard.more{display:flex;align-items:center;justify-content:center;width:96px;border-style:dashed}
-.mc-more{font-size:12px;font-weight:700;color:var(--green);text-align:center}
+.cmp-date{display:flex;align-items:flex-end;justify-content:center;padding-bottom:1px;font-size:11px;font-weight:700;color:var(--muted);text-transform:capitalize;white-space:nowrap}
+.cmp-date.cur{color:var(--ink)}
+.cmp-cell{display:flex;flex-direction:column;gap:3px;background:#fff;border:1px solid var(--hair);border-radius:12px;padding:10px 12px;min-width:0;transition:border-color .15s,transform .12s}
+.cmp-cell:hover{border-color:var(--hair-strong);transform:translateY(-2px)}
+.cmp-cell.pasha{border-top:3px solid var(--pasha)}
+.cmp-cell.ai{border-top:3px solid var(--ai)}
+.cmp-cell.st-done{opacity:.66}
+.cmp-cell.st-done:hover{opacity:1}
+.cmp-cell.cur{box-shadow:0 0 0 2px var(--ink);border-color:var(--ink)}
+.cmp-cell.empty{align-items:center;justify-content:center;color:var(--faint);font-size:16px;background:transparent;border-style:dashed}
+.cmp-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:17px;font-weight:700;line-height:1.1}
+.cmp-meta{font-size:11px;color:var(--faint)}
+.cmp-st{font-weight:700}
+.cmp-st.done{color:var(--faint)}
+.cmp-st.live{color:var(--green)}
+.cmp-st.soon{color:var(--ai)}
+.cmp-all{display:inline-block;font-size:12px;font-weight:700;color:var(--green);padding:8px 0 2px}
 
 /* ── Markdown ── */
 .md{line-height:1.62;font-size:14.5px;margin-top:12px;max-width:680px}
