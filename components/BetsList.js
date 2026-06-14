@@ -41,7 +41,7 @@ function sideValue(t) {
 }
 
 /* ── Колонка одной стороны ── */
-function Column({ side, list }) {
+function Column({ side, list, past }) {
   const t = sideTally(list);
   const v = sideValue(t);
   return (
@@ -56,7 +56,7 @@ function Column({ side, list }) {
             <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M5 22h14M5 2h14M6 2v5a6 6 0 0 0 12 0V2M6 22v-5a6 6 0 0 1 12 0v5" />
             </svg>
-            <span>ждём ставку</span>
+            <span>{past ? 'без прогноза' : 'ждём ставку'}</span>
           </div>
         )
         : list.map((b) => <VsTicket key={b.id} bet={b} />)}
@@ -65,15 +65,15 @@ function Column({ side, list }) {
 }
 
 /* ── Карточка группы с двумя колонками (Паша | AI) ── */
-function VsCard({ head, list }) {
+function VsCard({ head, list, past }) {
   const pasha = list.filter((b) => b.side === 'Паша');
   const ai = list.filter((b) => b.side === 'AI');
   return (
     <section className="vs-card">
       {head}
       <div className="vs-cols">
-        <Column side="Паша" list={pasha} />
-        <Column side="AI" list={ai} />
+        <Column side="Паша" list={pasha} past={past} />
+        <Column side="AI" list={ai} past={past} />
       </div>
     </section>
   );
@@ -157,7 +157,7 @@ function ByMatch({ list, single }) {
     const head = e.m ? <Link className="mg-head-link" href={'/matches/' + e.m.id + '/'}>{headInner}</Link> : headInner;
     return single
       ? <section key={e.key} className="vs-card">{head}<SingleList list={e.g} /></section>
-      : <VsCard key={e.key} head={head} list={e.g} />;
+      : <VsCard key={e.key} head={head} list={e.g} past={!e.active} />;
   };
 
   return (
@@ -177,9 +177,10 @@ function ByDay({ list, single }) {
   const days = Object.keys(groups).sort().reverse();
   return days.map((d) => {
     const head = <div className="mg-head"><span className="mg-title cap">{formatDay(d)}</span></div>;
+    const past = groups[d].every((b) => b.status !== 'pending');
     return single
       ? <section key={d} className="vs-card">{head}<SingleList list={groups[d]} /></section>
-      : <VsCard key={d} head={head} list={groups[d]} />;
+      : <VsCard key={d} head={head} list={groups[d]} past={past} />;
   });
 }
 

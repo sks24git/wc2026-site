@@ -19,6 +19,7 @@ export default function CardsDeck({ days }) {
 
   if (!day) return <p className="empty">Карт пока нет</p>;
   const go = (d) => setI((v) => (idx + d + days.length) % days.length);
+  const past = idx < currentDayIndex(days); // день раньше текущего активного → не «ждём», а «без прогноза»
 
   return (
     <div className="deck">
@@ -29,8 +30,8 @@ export default function CardsDeck({ days }) {
       </div>
 
       <div className="deck-pair">
-        {day.ai ? <DayCard card={day.ai} /> : <EmptyDayCard side="AI" />}
-        {day.pasha ? <DayCard card={day.pasha} /> : <EmptyDayCard side="Паша" />}
+        {day.ai ? <DayCard card={day.ai} /> : <EmptyDayCard side="AI" past={past} />}
+        {day.pasha ? <DayCard card={day.pasha} /> : <EmptyDayCard side="Паша" past={past} />}
       </div>
 
       <div className="deck-dots" role="tablist">
