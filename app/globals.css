@@ -71,23 +71,26 @@ a{color:inherit;text-decoration:none}
 .nav-bottom .nav-item.active::before{content:'';position:absolute;top:-8px;left:30%;right:30%;height:2px;background:var(--ink)}
 main{max-width:1080px;margin:0 auto;padding:6px var(--pad) 96px}
 
-/* ── Главная: на мобиле колонка (батл → факты → ЛЕНТА → матчи), на десктопе лента справа ── */
+/* ── Главная: мобиле — колонка (батл → карты → матчи → факты → ЛЕНТА); десктоп — контент слева, липкая лента-сайдбар справа ── */
 .home-grid{display:flex;flex-direction:column}
 .g-rail{margin-top:6px}
 @media (min-width:1000px){
   .home-grid{
     display:grid;
-    grid-template-columns:minmax(0,1fr) 312px;
-    grid-template-areas:
-      "battle  rail"
-      "facts   rail"
-      "matches rail";
-    column-gap:40px;align-items:start;
+    grid-template-columns:minmax(0,1fr) 320px;
+    column-gap:44px;align-items:start;
   }
-  .g-battle{grid-area:battle}
-  .g-facts{grid-area:facts}
-  .g-matches{grid-area:matches}
-  .g-rail{grid-area:rail;position:sticky;top:18px;margin-top:24px}
+  .g-main{min-width:0}
+  .g-rail{
+    position:sticky;top:18px;margin-top:0;
+    max-height:calc(100vh - 36px);overflow-y:auto;overscroll-behavior:contain;
+    padding-right:4px;
+    scrollbar-width:thin;scrollbar-color:var(--hair) transparent;
+  }
+  .g-rail::-webkit-scrollbar{width:6px}
+  .g-rail::-webkit-scrollbar-thumb{background:var(--hair);border-radius:3px}
+  .g-rail::-webkit-scrollbar-track{background:transparent}
+  .g-rail .news-head{position:sticky;top:0;background:var(--bg);padding-top:2px;z-index:1}
 }
 
 @media (min-width:768px){
