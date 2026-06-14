@@ -1,5 +1,5 @@
 'use client';
-import { Fragment, useEffect, useRef } from 'react';
+import { Fragment, useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { buildDays, currentDayIndex, STATUS_LABEL } from '@/lib/cards';
 import { money, formatDay } from '@/lib/calc';
@@ -16,8 +16,11 @@ function Cell({ card, cur }) {
     >
       <span className={'cmp-pl num ' + plClass}>{card.status === 'soon' ? '—' : money(card.pl)}</span>
       <span className="cmp-meta">
-        <span className={'cmp-st ' + card.status}>{STATUS_LABEL[card.status]}</span>
-        {' · '}{card.status === 'done' ? `${card.wins}/${card.settled}` : `${card.pending} ст.`}
+        {card.status === 'done' ? (
+          <>зашло <span className="num">{card.wins}/{card.settled}</span></>
+        ) : (
+          <><span className={'cmp-st ' + card.status}>{STATUS_LABEL[card.status]}</span>{' · '}{card.pending} ст.</>
+        )}
       </span>
     </Link>
   );
@@ -27,15 +30,39 @@ export default function CardsStrip() {
   const days = buildDays();
   const curDate = days[currentDayIndex(days)]?.date;
   const ref = useRef(null);
+  const [ov, setOv] = useState({ l: false, r: false });
 
-  // прокрутить к текущему дню по центру
+  const refresh = useCallback(() => {
+    const el = ref.current;
+    if (!el) return;
+    setOv({ l: el.scrollLeft > 4, r: el.scrollLeft + el.clientWidth < el.scrollWidth - 4 });
+  }, []);
+
   useEffect(() => {
     const el = ref.current?.querySelector('[data-cur="1"]');
     if (el) el.scrollIntoView({ inline: 'center', block: 'nearest' });
-  }, []);
+    refresh();
+    const c = ref.current;
+    c?.addEventListener('scroll', refresh, { passive: true });
+    window.addEventListener('resize', refresh);
+    return () => { c?.removeEventListener('scroll', refresh); window.removeEventListener('resize', refresh); };
+  }, [refresh]);
+
+  const nudge = (dir) => ref.current?.scrollBy({ left: dir * 316, behavior: 'smooth' });
 
   return (
     <div className="cmp-wrap">
+      {(ov.l || ov.r) && (
+        <div className="cmp-bar">
+          <button type="button" className="cmp-nav" disabled={!ov.l} onClick={() => nudge(-1)} aria-label="Раньше">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6" /></svg>
+          </button>
+          <button type="button" className="cmp-nav" disabled={!ov.r} onClick={() => nudge(1)} aria-label="Позже">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18l6-6-6-6" /></svg>
+          </button>
+        </div>
+      )}
+
       <div className="cmp" ref={ref}>
         <div className="cmp-grid">
           {/* липкий столбец-подпись строк */}
@@ -53,6 +80,7 @@ export default function CardsStrip() {
           ))}
         </div>
       </div>
+
       <Link className="cmp-all" href="/cards/">Все карты дня по матчам →</Link>
     </div>
   );

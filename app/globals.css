@@ -382,7 +382,14 @@ td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular
 /* ── Мини-лента карт на главной ── */
 /* ── Карты дня: мини-батл — 2 синхронные строки (Паша сверху, AI снизу), колонки = дни ── */
 .cmp-wrap{margin-top:6px}
-.cmp{overflow-x:auto;-webkit-overflow-scrolling:touch;padding:4px 0 8px}
+.cmp-bar{display:flex;justify-content:flex-end;gap:6px;margin-bottom:6px}
+.cmp-nav{width:30px;height:30px;border-radius:9px;background:#fff;border:1px solid var(--hair-strong);color:var(--ink);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;transition:border-color .15s,opacity .15s}
+.cmp-nav:hover:not(:disabled){border-color:var(--ink)}
+.cmp-nav:disabled{opacity:.3;cursor:default}
+.cmp{overflow-x:auto;-webkit-overflow-scrolling:touch;padding:4px 0 8px;scrollbar-width:thin;scrollbar-color:var(--hair) transparent}
+.cmp::-webkit-scrollbar{height:6px}
+.cmp::-webkit-scrollbar-thumb{background:var(--hair);border-radius:3px}
+.cmp::-webkit-scrollbar-track{background:transparent}
 .cmp-grid{display:grid;grid-auto-flow:column;grid-template-columns:40px;grid-auto-columns:150px;grid-template-rows:auto auto auto;column-gap:8px;row-gap:8px;width:max-content}
 .cmp-lbl{position:sticky;left:0;z-index:2;background:var(--bg);display:flex;align-items:center;justify-content:center}
 .mc-av{width:24px;height:24px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-size:11px;color:#fff;flex:none}
