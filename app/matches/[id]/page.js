@@ -3,10 +3,35 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { matches, getMatch, betsForMatch } from '@/lib/content';
 import { readAnalysis } from '@/lib/analysis';
-import { formatDay, sideTally } from '@/lib/calc';
-import Ticket from '@/components/Ticket';
+import { formatDay, sideTally, money } from '@/lib/calc';
+import VsTicket from '@/components/VsTicket';
 import Flags from '@/components/Flags';
-import SideTally from '@/components/SideTally';
+
+function ColPL({ t }) {
+  if (!t || t.n === 0) return null;
+  if (t.pendingN && !t.anySettled) return <span className="vs-col-pl num idle">в игре</span>;
+  const cls = t.pl > 0 ? 'pos' : t.pl < 0 ? 'neg' : '';
+  return <span className={'vs-col-pl num ' + cls}>{money(t.pl)}</span>;
+}
+
+function BetColumn({ side, list, past }) {
+  return (
+    <div className={'vs-col ' + (side === 'Паша' ? 'pasha' : 'ai')}>
+      <div className="vs-col-head">
+        <span className="vs-col-who">{side}</span>
+        <ColPL t={sideTally(list)} />
+      </div>
+      {list.length === 0 ? (
+        <div className="vs-col-empty">
+          <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M5 22h14M5 2h14M6 2v5a6 6 0 0 0 12 0V2M6 22v-5a6 6 0 0 1 12 0v5" />
+          </svg>
+          <span>{past ? 'без прогноза' : 'ждём ставку'}</span>
+        </div>
+      ) : list.map((b) => <VsTicket key={b.id} bet={b} />)}
+    </div>
+  );
+}
 
 export function generateStaticParams() {
   return matches.map((m) => ({ id: m.id }));
@@ -37,13 +62,12 @@ export default function MatchPage({ params }) {
 
       {linked.length > 0 && (
         <>
-          <div className="sect"><span className="sect-label">Ставки на матч</span></div>
-          <div className="fixture-tally onmatch">
-            <SideTally side="Паша" t={sideTally(linked.filter((b) => b.side === 'Паша'))} />
-            <SideTally side="AI" t={sideTally(linked.filter((b) => b.side === 'AI'))} />
-          </div>
-          <section aria-label="Ставки на матч">
-            {linked.map((b) => <Ticket key={b.id} bet={b} />)}
+          <div className="sect"><span className="sect-label">Ставки на матч · Паша vs AI</span></div>
+          <section className="vs-card" aria-label="Ставки на матч">
+            <div className="vs-cols">
+              <BetColumn side="Паша" list={linked.filter((b) => b.side === 'Паша')} past={!!m.result} />
+              <BetColumn side="AI" list={linked.filter((b) => b.side === 'AI')} past={!!m.result} />
+            </div>
           </section>
         </>
       )}
