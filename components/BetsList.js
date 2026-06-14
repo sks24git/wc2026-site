@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { Fragment, useState } from 'react';
 import Link from 'next/link';
 import { bets, matches } from '@/lib/content';
 import { pl, money, formatDay, sideTally } from '@/lib/calc';
@@ -123,9 +123,16 @@ function SingleList({ list }) {
 }
 
 /* ── По матчам ── */
+const isSystem = (b) => b.type === 'Система' || b.type === 'Экспресс';
+const normName = (s) => s.replace(/\s*\((?:Паша|AI)\)\s*$/i, '').trim();
+
 function ByMatch({ list, single }) {
+  // системы/экспрессы — отдельно (во всю ширину), остальное группируем по матчу
+  const matchBets = list.filter((b) => !isSystem(b));
+  const sysBets = list.filter(isSystem);
+
   const groups = {};
-  for (const b of list) (groups[b.matchId || ('_' + b.match)] = groups[b.matchId || ('_' + b.match)] || []).push(b);
+  for (const b of matchBets) (groups[b.matchId || ('_' + b.match)] = groups[b.matchId || ('_' + b.match)] || []).push(b);
 
   const entries = Object.keys(groups).map((key) => {
     const g = groups[key];
@@ -142,6 +149,15 @@ function ByMatch({ list, single }) {
   });
   const active = entries.filter((e) => e.active).sort((a, b) => a.start - b.start); // скоро → позже
   const done = entries.filter((e) => !e.active).sort((a, b) => b.start - a.start);   // свежие → старые
+
+  // системы: одинаковые по типу+дню AI и Паша идут ПОДРЯД (рядом 2/4 и т.д.)
+  const sysSort = (a, b) => {
+    const ka = normName(a.match) + '|' + a.date, kb = normName(b.match) + '|' + b.date;
+    if (ka !== kb) return ka < kb ? -1 : 1;
+    return a.side === b.side ? 0 : a.side === 'Паша' ? -1 : 1;
+  };
+  const sysActive = sysBets.filter((b) => b.status === 'pending').sort(sysSort);
+  const sysDone = sysBets.filter((b) => b.status !== 'pending').sort(sysSort);
 
   const renderCard = (e) => {
     const headInner = (
@@ -164,8 +180,12 @@ function ByMatch({ list, single }) {
     <>
       {active.length > 0 && <div className="sect live"><span className="sect-label">В игре · {active.length}</span></div>}
       {active.map(renderCard)}
+      {sysActive.length > 0 && <div className="sect"><span className="sect-label">Системы и экспрессы · в игре</span></div>}
+      {sysActive.length > 0 && <section className="vs-card sys-list">{sysActive.map((b) => <Ticket key={b.id} bet={b} />)}</section>}
       {done.length > 0 && <div className="sect"><span className="sect-label">Сыграно · {done.length}</span></div>}
       {done.map(renderCard)}
+      {sysDone.length > 0 && <div className="sect"><span className="sect-label">Системы и экспрессы · сыграно</span></div>}
+      {sysDone.length > 0 && <section className="vs-card sys-list">{sysDone.map((b) => <Ticket key={b.id} bet={b} />)}</section>}
     </>
   );
 }
@@ -176,11 +196,18 @@ function ByDay({ list, single }) {
   for (const b of list) (groups[b.date] = groups[b.date] || []).push(b);
   const days = Object.keys(groups).sort().reverse();
   return days.map((d) => {
+    const dayBets = groups[d];
+    const matchB = dayBets.filter((b) => !isSystem(b));
+    const sysB = dayBets.filter(isSystem);
     const head = <div className="mg-head"><span className="mg-title cap">{formatDay(d)}</span></div>;
-    const past = groups[d].every((b) => b.status !== 'pending');
-    return single
-      ? <section key={d} className="vs-card">{head}<SingleList list={groups[d]} /></section>
-      : <VsCard key={d} head={head} list={groups[d]} past={past} />;
+    const past = dayBets.every((b) => b.status !== 'pending');
+    if (single) return <section key={d} className="vs-card">{head}<SingleList list={dayBets} /></section>;
+    return (
+      <Fragment key={d}>
+        <VsCard head={head} list={matchB} past={past} />
+        {sysB.length > 0 && <section className="vs-card sys-list">{sysB.map((b) => <Ticket key={b.id} bet={b} />)}</section>}
+      </Fragment>
+    );
   });
 }
 
