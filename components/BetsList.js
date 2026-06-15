@@ -3,7 +3,7 @@ import { Fragment, useState } from 'react';
 import Link from 'next/link';
 import { bets, matches } from '@/lib/content';
 import { pl, money, formatDay, sideTally } from '@/lib/calc';
-import { TYPE_HINTS } from '@/lib/glossary';
+import { GROUP_HINTS, marketGroup } from '@/lib/glossary';
 import VsTicket from '@/components/VsTicket';
 import Ticket from '@/components/Ticket';
 import Legend from '@/components/Legend';
@@ -214,7 +214,7 @@ function ByDay({ list, single }) {
 /* ── По рынкам (анализ заходимости — простой список) ── */
 function ByType({ list }) {
   const groups = {};
-  for (const b of list) (groups[b.type] = groups[b.type] || []).push(b);
+  for (const b of list) { const k = marketGroup(b); (groups[k] = groups[k] || []).push(b); }
   const keys = Object.keys(groups).sort((a, b) => {
     const sp = (k) => groups[k].reduce((s, x) => s + pl(x), 0);
     return sp(b) - sp(a);
@@ -228,7 +228,7 @@ function ByType({ list }) {
     return (
       <section key={t} className="vs-card">
         <div className="mg-head">
-          <Tip className="mg-title" hint={TYPE_HINTS[t]}>{t}</Tip>
+          <Tip className="mg-title" hint={GROUP_HINTS[t]}>{t}</Tip>
           {settled.length > 0 && <span className="mg-meta">{wins}/{settled.length} · {wr}%</span>}
           <span className={'mg-score num ' + plClass(sum)}>{settled.length ? money(sum) : 'в игре'}</span>
         </div>
