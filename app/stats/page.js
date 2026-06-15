@@ -8,6 +8,9 @@ import TierIcon from '@/components/TierIcon';
 export const metadata = { title: 'Статистика · ЧМ-26' };
 
 const TIER_COLORS = { green: '#22a559', yellow: '#eab308', red: '#e0473a' };
+const PASHA = bets.filter((b) => b.side === 'Паша');
+const AI = bets.filter((b) => b.side === 'AI');
+const plCls = (v) => (v > 0 ? 'pos' : v < 0 ? 'neg' : '');
 
 function byDateId(a, b) {
   return a.date.localeCompare(b.date) || a.id - b.id;
@@ -29,7 +32,6 @@ function BankChart() {
   const x = (i) => PAD + ((W - 2 * PAD) * i) / (P.length - 1 || 1);
   const y = (v) => H - PAD - ((H - 2 * PAD) * (v - min)) / (max - min || 1);
   const path = (arr) => arr.map((v, i) => (i ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(v).toFixed(1)).join(' ');
-  // редкие горизонтальные ориентиры
   const ticks = [min, (min + max) / 2, max].filter((v, i, arr) => arr.indexOf(v) === i);
   return (
     <div>
@@ -50,23 +52,38 @@ function BankChart() {
   );
 }
 
-/* ── Светофор: безрамочные колонки ── */
-function Tiers() {
-  const g = groupBy(bets, (b) => b.tier);
+/* ── Две колонки: Паша | AI ── */
+function Duo({ render }) {
   return (
-    <div className="tiers">
+    <div className="duo">
+      <div className="duo-col pasha">
+        <div className="duo-hd"><span className="mc-av pasha" aria-hidden="true">П</span>Паша</div>
+        {render(PASHA)}
+      </div>
+      <div className="duo-col ai">
+        <div className="duo-hd"><span className="mc-av ai" aria-hidden="true">AI</span>AI</div>
+        {render(AI)}
+      </div>
+    </div>
+  );
+}
+
+/* ── Светофор одной стороны: компактные строки ── */
+function TiersFor({ list }) {
+  const g = groupBy(list, (b) => b.tier);
+  return (
+    <div className="tier-rows">
       {TIER_ORDER.map((k) => {
         const v = g[k] || { n: 0, w: 0, pl: 0 };
         const wr = v.n ? Math.round((v.w / v.n) * 100) : 0;
         return (
-          <div key={k} className="tier-col">
-            <div className="tier-top">
-              <TierIcon tier={k} />
-              <Tip className="tier-nm" hint={'Светофор · кф ' + TIERS[k].odds + ' · ' + TIERS[k].note}>{TIERS[k].label}</Tip>
-              <span className="tier-sum num">{rubFmt(TIERS[k].sum)}</span>
+          <div key={k} className="tr-wrap">
+            <div className="tr">
+              <TierIcon tier={k} size={15} />
+              <Tip className="tr-nm" hint={'Светофор · кф ' + TIERS[k].odds + ' · ' + TIERS[k].note}>{TIERS[k].label}</Tip>
+              <span className={'tr-pl num ' + plCls(v.pl)}>{v.n ? money(v.pl) : '—'}</span>
+              <span className="tr-wr num">{v.n ? v.w + '/' + v.n : '—'}</span>
             </div>
-            <div className={'tier-pl num ' + (v.pl > 0 ? 'pos' : v.pl < 0 ? 'neg' : '')}>{v.n ? money(v.pl) : '—'}</div>
-            <div className="tier-meta">{v.n ? `зашло ${v.w}/${v.n} · ${wr}%` : 'нет рассчитанных'}</div>
             <div className="bar"><span className="bar-fill" style={{ width: wr + '%', background: TIER_COLORS[k] }} /></div>
           </div>
         );
@@ -75,11 +92,11 @@ function Tiers() {
   );
 }
 
-/* ── Рынки: диаграмма заходимости ── */
-function MarketBars() {
-  const g = groupBy(bets, (b) => marketGroup(b));
+/* ── По рынкам одной стороны ── */
+function MarketsFor({ list }) {
+  const g = groupBy(list, (b) => marketGroup(b));
   const rows = Object.entries(g).sort((a, b) => b[1].pl - a[1].pl);
-  if (rows.length === 0) return <p className="empty">Пока нет рассчитанных ставок</p>;
+  if (rows.length === 0) return <p className="empty sm">нет рассчитанных</p>;
   return (
     <div className="market">
       {rows.map(([k, v]) => {
@@ -88,7 +105,7 @@ function MarketBars() {
           <div key={k} className="market-row">
             <div className="market-name"><Tip hint={GROUP_HINTS[k]}>{k}</Tip> <small>· {v.n}</small></div>
             <div className="market-bar"><i style={{ left: 0, width: Math.max(wr, 3) + '%', background: wr >= 50 ? '#22a559' : '#e0473a' }} /></div>
-            <div className={'market-pl num ' + (v.pl > 0 ? 'pos' : v.pl < 0 ? 'neg' : '')}>{money(v.pl)}</div>
+            <div className={'market-pl num ' + plCls(v.pl)}>{money(v.pl)}</div>
           </div>
         );
       })}
@@ -96,24 +113,24 @@ function MarketBars() {
   );
 }
 
-/* ── Рекорды: безрамочные колонки ── */
-function Records() {
-  const settled = bets.filter((b) => b.status === 'win' || b.status === 'lose');
-  if (settled.length === 0) return null;
+/* ── Рекорды одной стороны: лучшая / худшая ── */
+function RecordsFor({ list }) {
+  const settled = list.filter((b) => b.status === 'win' || b.status === 'lose');
+  if (settled.length === 0) return <p className="empty sm">нет рассчитанных</p>;
   const best = settled.reduce((m, b) => (pl(b) > pl(m) ? b : m), settled[0]);
   const worst = settled.reduce((m, b) => (pl(b) < pl(m) ? b : m), settled[0]);
   const Cell = ({ lbl, b }) => (
     <div className="rec">
       <div className="rec-lbl">{lbl}</div>
-      <div className={'rec-v num ' + (pl(b) > 0 ? 'pos' : 'neg')}>{money(pl(b))}</div>
+      <div className={'rec-v num ' + plCls(pl(b))}>{money(pl(b))}</div>
       <div className="rec-d"><Tip hint={hintFor(b)}>{b.bet}</Tip> — {b.match}</div>
-      <div className="rec-sub">{b.side} · кф {b.odds} · {rubFmt(stakeOf(b))}</div>
+      <div className="rec-sub">кф {b.odds} · {rubFmt(stakeOf(b))}</div>
     </div>
   );
   return (
-    <div className="records">
-      <Cell lbl="Лучшая ставка" b={best} />
-      <Cell lbl="Худшая ставка" b={worst} />
+    <div className="records duo-rec">
+      <Cell lbl="Лучшая" b={best} />
+      <Cell lbl="Худшая" b={worst} />
     </div>
   );
 }
@@ -131,13 +148,13 @@ export default function StatsPage() {
       <section className="block"><BankChart /></section>
 
       <div className="sect"><span className="sect-label">Светофор</span></div>
-      <section className="block"><Tiers /></section>
+      <section className="block"><Duo render={(list) => <TiersFor list={list} />} /></section>
 
       <div className="sect"><span className="sect-label">По рынкам</span></div>
-      <section className="block"><MarketBars /></section>
+      <section className="block"><Duo render={(list) => <MarketsFor list={list} />} /></section>
 
       <div className="sect"><span className="sect-label">Рекорды</span></div>
-      <section className="block"><Records /></section>
+      <section className="block"><Duo render={(list) => <RecordsFor list={list} />} /></section>
 
       <p className="foot-note">Всего ставок: {bets.length} · рассчитано: {settled} · в игре: {pending}</p>
     </div>
