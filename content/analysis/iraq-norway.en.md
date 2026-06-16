@@ -20,5 +20,5 @@
 ## Bets
 
 - **AI:** 🟢 **Iraq +2 @1.74** — a prudent underdog handicap on the "favourite doesn't run riot on opening day" rule (Spain 0:0, Iran 2:2 — ×4 over the tournament). Covers a one-goal Norway win, pushes at two, only loses on a 3+ blowout. We do NOT take Norway −1.5. ⚠️ Risk: Norway's attack is genuinely powerful — hence +2, not +1.5.
-- **Cards for Pasha (suggestions):** 🟢 Over 2.5 @1.66 (firepower Norway against a loose block) · 🔴 punt Correct score 3:1 Norway. (Haaland "to score" @1.44 — NOT playing it, below the 1.6 floor.)
-- **Divergence:** AI backs the grind/under-blowout (Iraq handicap), Pasha may back firepower Norway (Over). A head-to-head argument over the total.
+- **Pasha:** 🟢 **Norway −2 @2.08** — ⚔️ a head-on clash with our Iraq +2! "Norway are favourites, top attack; they come out firing immediately (goal = max in the group), not a title side. Goal difference will decide 2nd place (the fight with Senegal). A round handicap with the push safety net." + correct-score 2/4 punt system (Norway 3:0).
+- **Divergence:** a direct clinch on the blowout — AI fades it (Iraq +2), Pasha backs it (Norway −2). Norway by 3+ → Pasha; by ≤1 → AI; exactly 2 → both push.

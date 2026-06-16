@@ -2326,5 +2326,162 @@
         }
       }
     ]
+  },
+  {
+    "matchId": "france-senegal",
+    "date": "2026-06-16",
+    "match": {
+      "ru": "Франция — Сенегал",
+      "en": "France — Senegal"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.9,
+    "note": {
+      "ru": "Пашин любимый ОЗ. «Гол Франции неоспорим (Олисе — луч света), но оборона французов дырявая — пропускали почти во всех матчах 25-26. Сенегал — финалист и по факту победитель КАН, физика под жару, скорость выше многих. Исход трёхсторонний — не удивлюсь и поражению французов».",
+      "en": "Pasha’s beloved BTTS. “A France goal is undeniable (Olise — the ray of light), but France’s defence is leaky — conceded in almost every match in 25-26. Senegal are AFCON finalists and effectively champions, built for the heat, faster than most. Three-way outcome — I wouldn’t be surprised by a France loss either.”"
+    },
+    "id": 89,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending"
+  },
+  {
+    "matchId": "iraq-norway",
+    "date": "2026-06-17",
+    "match": {
+      "ru": "Ирак — Норвегия",
+      "en": "Iraq — Norway"
+    },
+    "bet": {
+      "ru": "Фора Норвегии −2",
+      "en": "Norway −2 handicap"
+    },
+    "type": "АФ",
+    "odds": 2.08,
+    "note": {
+      "ru": "«Норвегия — фаворит, топ-нападение. Группа тяжёлая, 2-е место не гарантировано — битва с Сенегалом, и разница мячей решит (а делать её можно только на Ираке). У Ирака нет опыта с европейцами. Уверенная победа Норвегии надёжна, как была у шведов; круглая фора под возврат. Норвегия из тех, кто вкатывается СРАЗУ, а не из титул-команд».",
+      "en": "“Norway are favourites, top attack. Tough group, 2nd place isn’t guaranteed — a fight with Senegal, and goal difference decides it (and you can only build it vs Iraq). Iraq have no experience vs Europeans. A confident Norway win is as solid as Sweden’s was; round handicap with the push safety net. Norway are the type that come out firing immediately, not a title side that eases in.”"
+    },
+    "id": 90,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending"
+  },
+  {
+    "matchId": "argentina-algeria",
+    "date": "2026-06-17",
+    "match": {
+      "ru": "Аргентина — Алжир",
+      "en": "Argentina — Algeria"
+    },
+    "bet": {
+      "ru": "1-й тайм — победа Аргентины",
+      "en": "1st half — Argentina win"
+    },
+    "type": "1Т-рынок",
+    "odds": 1.92,
+    "note": {
+      "ru": "«Арги уверенно прошли отбор, в товарняках разнесли аналогов соперников, сохраняя ворота. Лаутаро в форме и любит забивать в 1-м тайме. Жду победу Аргентины в 1Т и низовой матч. Но проклятие чемпиона не снято — не удивлюсь ничьей 1:1».",
+      "en": "“Argentina cruised through qualifying, dismantled mirror-images of their rivals in friendlies while keeping clean sheets. Lautaro is in form and loves scoring in the first half. I expect an Argentina 1st-half lead and a low-scoring game. But the champions’ curse isn’t lifted — a 1:1 draw wouldn’t shock me.”"
+    },
+    "id": 91,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending"
+  },
+  {
+    "matchId": "austria-jordan",
+    "date": "2026-06-17",
+    "match": {
+      "ru": "Австрия — Иордания",
+      "en": "Austria — Jordan"
+    },
+    "bet": {
+      "ru": "Фора Австрии −1.5",
+      "en": "Austria −1.5 handicap"
+    },
+    "type": "АФ",
+    "odds": 2.03,
+    "note": {
+      "ru": "«Матч без интриги. Иордания при старом формате на ЧМ бы не попала; нервы первого в истории матча доконают и без того дырявую оборону. Австрия дисциплинированна, Рангник, погода отменная (в отличие от подкошенной жарой Швейцарии). Аккуратная фора 1.5, кэф более чем приемлемый».",
+      "en": "“A match with no intrigue. Jordan would never have reached a World Cup under the old format; first-ever-match nerves will finish off their already-leaky defence. Austria are disciplined, Rangnick, and the weather is excellent (unlike heat-sapped Switzerland). A careful 1.5 handicap, more than acceptable odds.”"
+    },
+    "id": 92,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending"
+  },
+  {
+    "id": 93,
+    "date": "2026-06-17",
+    "match": {
+      "ru": "Система 3/4 · ординары Паши",
+      "en": "System 3/4 · Pasha singles"
+    },
+    "bet": {
+      "ru": "Система 3/4 (ординары)",
+      "en": "System 3/4 (singles)"
+    },
+    "type": "Система",
+    "odds": 7.78,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "stake": 500,
+    "status": "pending",
+    "note": {
+      "ru": "Система 3/4 из 4 ординаров Паши. Все ноги ≥1.9 (правило систем соблюдено). Кэф при всех 4 ≈ ×7.78; при 3 из 4 — около возврата+. Коррелирует с его точными счетами.",
+      "en": "System 3/4 from Pasha’s four singles. All legs ≥1.9 (system rule met). Odds if all 4 land ≈ ×7.78; 3 of 4 ≈ around stake-back+. Correlates with his correct scores."
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Франция — Сенегал",
+          "en": "France — Senegal"
+        },
+        "p": {
+          "ru": "Обе забьют — да @1.90",
+          "en": "BTTS — yes @1.90"
+        }
+      },
+      {
+        "m": {
+          "ru": "Ирак — Норвегия",
+          "en": "Iraq — Norway"
+        },
+        "p": {
+          "ru": "Фора Норвегии −2 @2.08",
+          "en": "Norway −2 @2.08"
+        }
+      },
+      {
+        "m": {
+          "ru": "Аргентина — Алжир",
+          "en": "Argentina — Algeria"
+        },
+        "p": {
+          "ru": "1Т победа Аргентины @1.92",
+          "en": "1st-half Argentina win @1.92"
+        }
+      },
+      {
+        "m": {
+          "ru": "Австрия — Иордания",
+          "en": "Austria — Jordan"
+        },
+        "p": {
+          "ru": "Фора Австрии −1.5 @2.03",
+          "en": "Austria −1.5 @2.03"
+        }
+      }
+    ]
   }
 ]
