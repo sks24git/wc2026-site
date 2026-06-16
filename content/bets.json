@@ -2198,5 +2198,93 @@
     },
     "id": 86,
     "status": "pending"
+  },
+  {
+    "match": {
+      "ru": "Франция — Сенегал",
+      "en": "France — Senegal"
+    },
+    "matchId": "france-senegal",
+    "date": "2026-06-16",
+    "bet": {
+      "ru": "Точный счёт 2:1 (Франция)",
+      "en": "Correct score 2:1 (France)"
+    },
+    "type": "ТС",
+    "odds": 8.5,
+    "tier": "red",
+    "side": "Паша",
+    "note": {
+      "ru": "Пашин азарт-ТС на слейт I/J. Основной прогноз готовит — «будет коррелировать с этими счетами, опять в риск лезу». Кэф ориентировочный (Паша счёта прислал без кэфов).",
+      "en": "Pasha’s gamble correct-scores for the I/J slate. His main forecast is in the works — “it’ll correlate with these scorelines, diving into risk again.” Odds indicative (Pasha sent scores without prices)."
+    },
+    "id": 87,
+    "status": "pending"
+  },
+  {
+    "match": {
+      "ru": "Ирак — Норвегия",
+      "en": "Iraq — Norway"
+    },
+    "matchId": "iraq-norway",
+    "date": "2026-06-17",
+    "bet": {
+      "ru": "Точный счёт 0:3 (Норвегия)",
+      "en": "Correct score 0:3 (Norway)"
+    },
+    "type": "ТС",
+    "odds": 8,
+    "tier": "red",
+    "side": "Паша",
+    "note": {
+      "ru": "Пашин азарт-ТС на слейт I/J. Основной прогноз готовит — «будет коррелировать с этими счетами, опять в риск лезу». Кэф ориентировочный (Паша счёта прислал без кэфов).",
+      "en": "Pasha’s gamble correct-scores for the I/J slate. His main forecast is in the works — “it’ll correlate with these scorelines, diving into risk again.” Odds indicative (Pasha sent scores without prices)."
+    },
+    "id": 88,
+    "status": "pending"
+  },
+  {
+    "match": {
+      "ru": "Аргентина — Алжир",
+      "en": "Argentina — Algeria"
+    },
+    "matchId": "argentina-algeria",
+    "date": "2026-06-17",
+    "bet": {
+      "ru": "Точный счёт 1:0 (Аргентина)",
+      "en": "Correct score 1:0 (Argentina)"
+    },
+    "type": "ТС",
+    "odds": 7,
+    "tier": "red",
+    "side": "Паша",
+    "note": {
+      "ru": "Пашин азарт-ТС на слейт I/J. Основной прогноз готовит — «будет коррелировать с этими счетами, опять в риск лезу». Кэф ориентировочный (Паша счёта прислал без кэфов).",
+      "en": "Pasha’s gamble correct-scores for the I/J slate. His main forecast is in the works — “it’ll correlate with these scorelines, diving into risk again.” Odds indicative (Pasha sent scores without prices)."
+    },
+    "id": 89,
+    "status": "pending"
+  },
+  {
+    "match": {
+      "ru": "Австрия — Иордания",
+      "en": "Austria — Jordan"
+    },
+    "matchId": "austria-jordan",
+    "date": "2026-06-17",
+    "bet": {
+      "ru": "Точный счёт 2:0 (Австрия)",
+      "en": "Correct score 2:0 (Austria)"
+    },
+    "type": "ТС",
+    "odds": 7.5,
+    "tier": "red",
+    "side": "Паша",
+    "note": {
+      "ru": "Пашин азарт-ТС на слейт I/J. Основной прогноз готовит — «будет коррелировать с этими счетами, опять в риск лезу». Кэф ориентировочный (Паша счёта прислал без кэфов).",
+      "en": "Pasha’s gamble correct-scores for the I/J slate. His main forecast is in the works — “it’ll correlate with these scorelines, diving into risk again.” Odds indicative (Pasha sent scores without prices)."
+    },
+    "id": 90,
+    "status": "pending"
   }
 ]
