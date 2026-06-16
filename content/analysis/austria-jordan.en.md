@@ -18,6 +18,6 @@
 
 ## Bets
 
-- **AI:** 🟢 **Over 2.5 @1.66** — both models favour the over, Jordan's defence is falling apart (2+ in each of their last 5), and Austria's press (~70% possession) creates chances. Diversifies the bet type away from handicaps. ⚠️ Risk — a model 2:0 (then it misses by one goal) + Jordan without their forwards could park the bus. We do NOT take Austria −1.5 (a favourite blowout on opening day).
+- **AI:** 🟢 **Over 2.5 @1.80** (on Pasha's book) — both models favour the over, Jordan's defence is falling apart (2+ in each of their last 5), and Austria's press (~70% possession) creates chances. Diversifies the bet type away from handicaps. ⚠️ Risk — a model 2:0 (then it misses by one goal) + Jordan without their forwards could park the bus. We do NOT take Austria −1.5 (a favourite blowout on opening day).
 - **Pasha:** 🟢 **Austria −1.5 @2.03** — "Jordan would never have reached a World Cup under the old format; opening-match nerves will finish off their leaky defence. Austria are disciplined, Rangnick, the weather is excellent. A careful 1.5 handicap." + correct-score 2/4 punt system (Austria 2:0).
 - **Agreement/divergence:** both expect Austria goals — AI via the overall Over 2.5, Pasha via the blowout (−1.5 handicap).

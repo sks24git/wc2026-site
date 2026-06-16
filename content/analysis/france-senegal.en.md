@@ -18,6 +18,6 @@
 
 ## Bets
 
-- **AI:** 🟢 **Senegal +1.25 @1.83** — the slate's main value under our rule No. 1 (a favourite getting thrashed at the World Cup opener = death). Daytime heat + France's raw form + Senegal's class (not debutants!) + the 2002 echo. We do NOT take the France −1.5 handicap.
+- **AI:** 🟢 **Senegal +1 @2.13** (on Pasha's book) — value under rule No. 1 (a favourite thrashed at the WC opener = death). Daytime heat + France's raw form + Senegal's class (not debutants!) + the 2002 echo. Push on a one-goal France win, win on a draw/Senegal win. We do NOT take France −1.
 - **Pasha:** 🟢 **BTTS yes @1.90** — his favourite market. "A France goal is undeniable (Olise — the ray of light), but France's defence is leaky; Senegal are AFCON finalists and effectively champions, built for the heat, fast. I wouldn't be surprised by a France loss." + correct-score 2/4 punt system (France 2:1).
 - **Agreement/divergence:** both doubt a France blowout. AI via the underdog handicap, Pasha via BTTS (and a three-way outcome).

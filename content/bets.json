@@ -2119,16 +2119,16 @@
     "matchId": "france-senegal",
     "date": "2026-06-16",
     "bet": {
-      "ru": "Сенегал +1.25",
-      "en": "Senegal +1.25"
+      "ru": "Сенегал +1",
+      "en": "Senegal +1"
     },
     "type": "АФ",
-    "odds": 1.83,
+    "odds": 2.13,
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Главный value слейта по правилу №1 (разгром фаворита на старте ЧМ = смерть). Рынок сам недооценивает: Сенегал +1.25 даёт 54.9% против справедливых ~60%. Дневная жара MetLife + рваная форма Франции (1:2 Кот-д’Ивуар) + класс Сенегала (чемпион КАН, №14, не дебютант) + эхо-2002. Фору Франции −1.5 не берём. Линия на момент ресёрча.",
-      "en": "The slate's top value by rule №1 (thrashing a favorite at the WC opener = death). The market itself underrates it: Senegal +1.25 gives 54.9% against a fair ~60%. MetLife daytime heat + France's patchy form (1:2 Ivory Coast) + Senegal's class (AFCON champion, №14, no debutant) + the echo of 2002. We don't take the France −1.5 handicap. Line as of research time."
+      "ru": "На книге Паши (Лига Ставок) — Сенегал +1 @2.13 (вместо +1.25 с ресёрч-книги). Тезис тот же: фаворит не разгромит на старте ЧМ, рынок недооценивает аутсайдера. Пуш при победе Франции в 1 мяч, выигрыш при ничьей/победе Сенегала. Фору Франции −1 не берём.",
+      "en": "On Pasha’s book (Liga Stavok) — Senegal +1 @2.13 (instead of +1.25 from the research book). Same thesis: the favourite won’t run riot at the WC opener, the market underrates the underdog. Push on a one-goal France win, win on a draw/Senegal win. We don’t take France −1."
     },
     "id": 83,
     "status": "pending"
@@ -2141,16 +2141,16 @@
     "matchId": "iraq-norway",
     "date": "2026-06-17",
     "bet": {
-      "ru": "Ирак +2",
-      "en": "Iraq +2"
+      "ru": "Ирак +1.5",
+      "en": "Iraq +1.5"
     },
     "type": "АФ",
-    "odds": 1.74,
+    "odds": 2.25,
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Прудентная фора аутсайдера: фаворит не разгромляет на старте ЧМ (×4: Швейцария/Испания/Саудовская/Иран). Покрывает победу Норвегии в 1 мяч, пуш при 2, горит только при разгроме 3+. Ирак — низкий блок Арнольда (держали Испанию 1:1). ⚠️ Риск: атака Норвегии реально мощная (37 голов в отборе) — потому +2, а не +1.5. Фору Норвегии −1.5 не берём.",
-      "en": "Prudent underdog handicap: the favorite doesn't run riot at a WC opener (×4: Switzerland/Spain/Saudi Arabia/Iran). Covers a one-goal Norway win, pushes at 2, only burns on a 3+ blowout. Iraq — Arnold's low block (held Spain 1:1). ⚠️ Risk: Norway's attack is genuinely powerful (37 goals in qualifying) — that's why +2, not +1.5. We don't take the Norway −1.5 handicap."
+      "ru": "На книге Паши — Ирак +1.5 @2.25 (вместо прудентного +2). Фора аутсайдера по правилу «фаворит не разгромляет на старте» (×4 за турнир). ⚠️ Риск выше, чем у +2: горит при победе Норвегии в 2+ (консенсус 3:0/2:0); заходит при Норвегии ≤1 / ничьей / победе Ирака. Прямой клинч с пашиной Норвегия −2. Фору Норвегии −1.5 не берём.",
+      "en": "On Pasha’s book — Iraq +1.5 @2.25 (instead of the prudent +2). Underdog handicap per the ‘favourite doesn’t run riot at the opener’ rule (×4 this tournament). ⚠️ Riskier than +2: loses on a Norway win by 2+ (consensus 3:0/2:0); wins on Norway ≤1 / draw / Iraq win. Direct clash with Pasha’s Norway −2. We don’t take Norway −1.5."
     },
     "id": 84,
     "status": "pending"
@@ -2163,16 +2163,16 @@
     "matchId": "argentina-algeria",
     "date": "2026-06-17",
     "bet": {
-      "ru": "Алжир +1.5",
-      "en": "Algeria +1.5"
+      "ru": "Алжир +1",
+      "en": "Algeria +1"
     },
     "type": "АФ",
-    "odds": 1.74,
+    "odds": 2.18,
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Фора аутсайдера + прямое эхо «Аргентина 1:2 Саудовская на старте ЧМ-2022». Жара/грозы Канзаса, Месси не на 90 мин, возрастная оборона (Отаменди 38), быстрый Алжир (Махрез/Амура). Заходит при победе Аргентины в 1 мяч / ничьей / победе Алжира. ⚠️ Риск — модельный 2:0 (Opta). Фору Аргентины −1.5 не берём.",
-      "en": "Underdog handicap + a direct echo of 'Argentina 1:2 Saudi Arabia at the WC 2022 opener'. Kansas City heat/storms, Messi not for the full 90, an aging defense (Otamendi 38), a fast Algeria (Mahrez/Amoura). Wins on a one-goal Argentina win / a draw / an Algeria win. ⚠️ Risk — the model 2:0 (Opta). We don't take the Argentina −1.5 handicap."
+      "ru": "На книге Паши — Алжир +1 @2.18 (вместо +1.5). Фора аутсайдера + эхо «Саудовская 2022». Пуш при победе Аргентины в 1 мяч (1:0), выигрыш при ничьей/победе Алжира. ⚠️ Горит при 2:0+ (модель Opta). Жара/грозы Канзаса, Месси не на 90, возрастная оборона. Фору Аргентины −1 не берём.",
+      "en": "On Pasha’s book — Algeria +1 @2.18 (instead of +1.5). Underdog handicap + the ‘Saudi Arabia 2022’ echo. Push on a one-goal Argentina win (1:0), win on a draw/Algeria win. ⚠️ Loses on 2:0+ (Opta model). Kansas heat/storms, Messi not for 90, ageing defence. We don’t take Argentina −1."
     },
     "id": 85,
     "status": "pending"
@@ -2189,12 +2189,12 @@
       "en": "Over 2.5"
     },
     "type": "ТБ",
-    "odds": 1.66,
+    "odds": 1.8,
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Обе модели за верх (Dimers ТБ 57%); оборона Иордании рассыпается (2+ пропускала в каждом из 5 последних), прессинг Австрии ~70% владения. Диверсификация типа от фор. ⚠️ Риск — модельный 2:0 (мимо на 1 гол) + Иордания без обоих форвардов может сесть в автобус. Фору Австрии −1.5 не берём.",
-      "en": "Both models lean over (Dimers Over 57%); Jordan's defense is falling apart (2+ conceded in each of the last 5), Austria's press ~70% possession. Diversifies away from handicaps. ⚠️ Risk — the model 2:0 (off by one goal) + Jordan, without both strikers, could park the bus. We don't take the Austria −1.5 handicap."
+      "ru": "На книге Паши — ТБ 2.5 @1.80. Обе модели за верх (Dimers ТБ 57%); оборона Иордании рассыпается (2+ в каждом из 5), прессинг Австрии ~70% владения. Диверсификация типа от фор. ⚠️ Риск — модельный 2:0 (мимо на 1 гол) + Иордания без форвардов может сесть в автобус. Фору Австрии −1.5 не берём.",
+      "en": "On Pasha’s book — Over 2.5 @1.80. Both models favour the over (Dimers Over 57%); Jordan’s defence is crumbling (2+ in each of their last 5), Austria press ~70% possession. Diversifies type away from handicaps. ⚠️ Risk — a model 2:0 (misses by one) + a forward-less Jordan could park the bus. We don’t take Austria −1.5."
     },
     "id": 86,
     "status": "pending"

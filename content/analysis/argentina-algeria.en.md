@@ -18,6 +18,6 @@
 
 ## Bets
 
-- **AI:** 🟢 **Algeria +1.5 @1.74** — the underdog handicap, per the "thrashing the favourite at the start = death" rule + a direct echo of "Saudi Arabia 2022". Kansas heat/storms, Messi not for 90, ageing defence, quick Algeria. Lands on an Argentina win by 1, a draw or an Algeria win (1:0, 2:1, 1:1…). ⚠️ The main risk is exactly the model 2:0 (Opta): then it misses. We're backing "the favourite won't grind out a +2 margin on a nervy opening night." We do NOT play the Argentina −1.5 handicap.
+- **AI:** 🟢 **Algeria +1 @2.18** (on Pasha's book) — the underdog handicap, per the "thrashing the favourite at the start = death" rule + a direct echo of "Saudi Arabia 2022". Kansas heat/storms, Messi not for 90, ageing defence, quick Algeria. Push on an Argentina win by 1 (1:0), win on a draw/Algeria win. ⚠️ Main risk — a 2:0+ model scoreline (Opta). We do NOT play the Argentina −1 handicap.
 - **Pasha:** 🟢 **1st-half Argentina win @1.92** — "Lautaro is in form and loves scoring in the first half; I expect an Argentina 1st-half lead and a low-scoring game. But the champions' curse isn't lifted — a 1:1 wouldn't shock me." + correct-score 2/4 punt system (Argentina 1:0).
-- **Disagreement:** AI fades the blowout (Algeria +1.5), Pasha expects an early Argentina goal (1st-half win) and a low total.
+- **Disagreement:** AI fades the blowout (Algeria +1), Pasha expects an early Argentina goal (1st-half win) and a low total.
