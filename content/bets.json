@@ -2203,8 +2203,8 @@
     "id": 87,
     "date": "2026-06-17",
     "match": {
-      "ru": "Система 2/4 · точные счета (А)",
-      "en": "System 2/4 · correct scores (A)"
+      "ru": "Система 2/4 · точные счета",
+      "en": "System 2/4 · correct scores"
     },
     "bet": {
       "ru": "Система 2/4 (точные счета)",
@@ -2217,8 +2217,8 @@
     "stake": 500,
     "status": "pending",
     "note": {
-      "ru": "Пашин 🔴 азарт: система 2/4 из точных счетов (6 даблов, ставка 500 делится ~по 83₽). Выплата только если зайдут ≥2 счёта. Кэф номинальный — пересчёт по факту резолва. Вариант А: Аргентина 1:0, Ирак—Норвегия 0:3.",
-      "en": "Pasha’s 🔴 gamble: 2/4 system of correct scores (6 doubles, 500 stake split ~83₽ each). Pays only if ≥2 scores land. Odds nominal — recomputed on resolve. Variant A: Argentina 1:0, Iraq—Norway 0:3."
+      "ru": "🔴 Система 2/4 из точных счетов ПАШИ (его выбор 16:50): Аргентина 1:0, Ирак—Норвегия 0:3, Франция 2:1, Австрия 2:0. Очной азарт-спор с системой AI. Выплата только если зайдут ≥2 счёта (6 даблов, ставка 500 делится). Кэф номинальный — пересчёт по факту резолва.",
+      "en": "🔴 2/4 system of PASHA’s correct scores (his 16:50 picks): Argentina 1:0, Iraq—Norway 0:3, France 2:1, Austria 2:0. Head-to-head gamble vs the AI system. Pays only if ≥2 scores land (6 doubles, 500 stake split). Odds nominal — recomputed on resolve."
     },
     "legs": [
       {
@@ -2267,8 +2267,8 @@
     "id": 88,
     "date": "2026-06-17",
     "match": {
-      "ru": "Система 2/4 · точные счета (Б)",
-      "en": "System 2/4 · correct scores (B)"
+      "ru": "Система 2/4 · точные счета",
+      "en": "System 2/4 · correct scores"
     },
     "bet": {
       "ru": "Система 2/4 (точные счета)",
@@ -2277,12 +2277,12 @@
     "type": "Система",
     "odds": 7.5,
     "tier": "red",
-    "side": "Паша",
+    "side": "AI",
     "stake": 500,
     "status": "pending",
     "note": {
-      "ru": "Пашин 🔴 азарт: вторая система 2/4 (вариант Б). Отличия от А: Аргентина 2:0, Ирак—Норвегия 1:3 @11.0. 6 даблов, ставка 500. Кэф номинальный — пересчёт по факту.",
-      "en": "Pasha’s 🔴 gamble: second 2/4 system (variant B). Differs from A: Argentina 2:0, Iraq—Norway 1:3 @11.0. 6 doubles, 500 stake. Odds nominal — recomputed on resolve."
+      "ru": "🔴 Система 2/4 из точных счетов AI (по нашим разборам): Аргентина 2:0, Ирак—Норвегия 1:3 (Норвегия 3:1), Франция 2:1, Австрия 2:0. Очной азарт-спор с системой Паши; общие ноги — Франция 2:1 и Австрия 2:0. Осознанное исключение из «AI режет красные ТС» — по запросу Влада, ради дуэли. Выплата только если зайдут ≥2 счёта (6 даблов, 500). Кэф номинальный.",
+      "en": "🔴 2/4 system of AI correct scores (from our previews): Argentina 2:0, Iraq—Norway 1:3 (Norway 3:1), France 2:1, Austria 2:0. Head-to-head gamble vs Pasha’s system; shared legs — France 2:1 and Austria 2:0. Conscious exception to ‘AI cuts red correct-score systems’ — per Vlad, for the duel. Pays only if ≥2 scores land (6 doubles, 500). Odds nominal."
     },
     "legs": [
       {
