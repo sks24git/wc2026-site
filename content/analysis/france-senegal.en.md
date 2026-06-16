@@ -1,3 +1,16 @@
+## Result: 3:1 — France broke through late, Mbappé passed Messi
+
+- 🥅 **0:0 at the break** (disciplined Senegal), then it opened up: **Mbappé 66'** (Olise assist), **Barcola 82'** (Rabiot), **I. Mbaye 90+5'** (Senegal, I. Ndiaye), **Mbappé 90+6'** (Olise again). France 58% possession. ⚡ Mbappé moved past Messi on the all-time WC scoring list and became France's record scorer.
+
+**Settlement:**
+- ❌ **AI Senegal +1 @2.13 (🟢)** — France won by two, the underdog handicap didn't cover. The fade-the-blowout missed: the favourite ran riot, but late (0:0 until the 65th nearly saved it).
+- ✅ **Pasha BTTS yes @1.90 (🟢)** — both scored, his favourite market lands. 'A France goal is undeniable, but Senegal bite back too' — exactly that.
+- ⏳ Systems: the 'France 2:1' correct-score legs ✗ for both (actual 3:1); Pasha's 3/4 'BTTS' leg ✓.
+
+**Note:** the fade-the-blowout (rule No. 1) didn't pay here — but it was 0:0 until the 65th, decided by a late surge + Mbappé's class. We'll finish recalibrating the rule after the rest of the slate.
+
+---
+
 ## France — Senegal · 16.06, 22:00 MSK · MetLife Stadium, East Rutherford (New Jersey)
 
 **Group I opener and a rerun of the 2002 shock. France are heavy favourites (Opta 64.8%), but this is a DAYTIME match under the sun, Deschamps' form in friendlies is raw, and Senegal are no debutants — they're the African champions (No. 14). The market itself is flagging the Senegal handicap as value.**
