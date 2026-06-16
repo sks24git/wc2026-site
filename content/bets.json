@@ -2200,91 +2200,131 @@
     "status": "pending"
   },
   {
-    "match": {
-      "ru": "Франция — Сенегал",
-      "en": "France — Senegal"
-    },
-    "matchId": "france-senegal",
-    "date": "2026-06-16",
-    "bet": {
-      "ru": "Точный счёт 2:1 (Франция)",
-      "en": "Correct score 2:1 (France)"
-    },
-    "type": "ТС",
-    "odds": 8.5,
-    "tier": "red",
-    "side": "Паша",
-    "note": {
-      "ru": "Пашин азарт-ТС на слейт I/J. Основной прогноз готовит — «будет коррелировать с этими счетами, опять в риск лезу». Кэф ориентировочный (Паша счёта прислал без кэфов).",
-      "en": "Pasha’s gamble correct-scores for the I/J slate. His main forecast is in the works — “it’ll correlate with these scorelines, diving into risk again.” Odds indicative (Pasha sent scores without prices)."
-    },
     "id": 87,
-    "status": "pending"
-  },
-  {
-    "match": {
-      "ru": "Ирак — Норвегия",
-      "en": "Iraq — Norway"
-    },
-    "matchId": "iraq-norway",
     "date": "2026-06-17",
-    "bet": {
-      "ru": "Точный счёт 0:3 (Норвегия)",
-      "en": "Correct score 0:3 (Norway)"
-    },
-    "type": "ТС",
-    "odds": 8,
-    "tier": "red",
-    "side": "Паша",
-    "note": {
-      "ru": "Пашин азарт-ТС на слейт I/J. Основной прогноз готовит — «будет коррелировать с этими счетами, опять в риск лезу». Кэф ориентировочный (Паша счёта прислал без кэфов).",
-      "en": "Pasha’s gamble correct-scores for the I/J slate. His main forecast is in the works — “it’ll correlate with these scorelines, diving into risk again.” Odds indicative (Pasha sent scores without prices)."
-    },
-    "id": 88,
-    "status": "pending"
-  },
-  {
     "match": {
-      "ru": "Аргентина — Алжир",
-      "en": "Argentina — Algeria"
+      "ru": "Система 2/4 · точные счета (А)",
+      "en": "System 2/4 · correct scores (A)"
     },
-    "matchId": "argentina-algeria",
-    "date": "2026-06-17",
     "bet": {
-      "ru": "Точный счёт 1:0 (Аргентина)",
-      "en": "Correct score 1:0 (Argentina)"
+      "ru": "Система 2/4 (точные счета)",
+      "en": "System 2/4 (correct scores)"
     },
-    "type": "ТС",
+    "type": "Система",
     "odds": 7,
     "tier": "red",
     "side": "Паша",
+    "stake": 500,
+    "status": "pending",
     "note": {
-      "ru": "Пашин азарт-ТС на слейт I/J. Основной прогноз готовит — «будет коррелировать с этими счетами, опять в риск лезу». Кэф ориентировочный (Паша счёта прислал без кэфов).",
-      "en": "Pasha’s gamble correct-scores for the I/J slate. His main forecast is in the works — “it’ll correlate with these scorelines, diving into risk again.” Odds indicative (Pasha sent scores without prices)."
+      "ru": "Пашин 🔴 азарт: система 2/4 из точных счетов (6 даблов, ставка 500 делится ~по 83₽). Выплата только если зайдут ≥2 счёта. Кэф номинальный — пересчёт по факту резолва. Вариант А: Аргентина 1:0, Ирак—Норвегия 0:3.",
+      "en": "Pasha’s 🔴 gamble: 2/4 system of correct scores (6 doubles, 500 stake split ~83₽ each). Pays only if ≥2 scores land. Odds nominal — recomputed on resolve. Variant A: Argentina 1:0, Iraq—Norway 0:3."
     },
-    "id": 89,
-    "status": "pending"
+    "legs": [
+      {
+        "m": {
+          "ru": "Аргентина — Алжир",
+          "en": "Argentina — Algeria"
+        },
+        "p": {
+          "ru": "Счёт 1:0 @6.0",
+          "en": "Score 1:0 @6.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Ирак — Норвегия",
+          "en": "Iraq — Norway"
+        },
+        "p": {
+          "ru": "Счёт 0:3 @6.5",
+          "en": "Score 0:3 @6.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Франция — Сенегал",
+          "en": "France — Senegal"
+        },
+        "p": {
+          "ru": "Счёт 2:1 @8.5",
+          "en": "Score 2:1 @8.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Австрия — Иордания",
+          "en": "Austria — Jordan"
+        },
+        "p": {
+          "ru": "Счёт 2:0 @6.0",
+          "en": "Score 2:0 @6.0"
+        }
+      }
+    ]
   },
   {
-    "match": {
-      "ru": "Австрия — Иордания",
-      "en": "Austria — Jordan"
-    },
-    "matchId": "austria-jordan",
+    "id": 88,
     "date": "2026-06-17",
-    "bet": {
-      "ru": "Точный счёт 2:0 (Австрия)",
-      "en": "Correct score 2:0 (Austria)"
+    "match": {
+      "ru": "Система 2/4 · точные счета (Б)",
+      "en": "System 2/4 · correct scores (B)"
     },
-    "type": "ТС",
+    "bet": {
+      "ru": "Система 2/4 (точные счета)",
+      "en": "System 2/4 (correct scores)"
+    },
+    "type": "Система",
     "odds": 7.5,
     "tier": "red",
     "side": "Паша",
+    "stake": 500,
+    "status": "pending",
     "note": {
-      "ru": "Пашин азарт-ТС на слейт I/J. Основной прогноз готовит — «будет коррелировать с этими счетами, опять в риск лезу». Кэф ориентировочный (Паша счёта прислал без кэфов).",
-      "en": "Pasha’s gamble correct-scores for the I/J slate. His main forecast is in the works — “it’ll correlate with these scorelines, diving into risk again.” Odds indicative (Pasha sent scores without prices)."
+      "ru": "Пашин 🔴 азарт: вторая система 2/4 (вариант Б). Отличия от А: Аргентина 2:0, Ирак—Норвегия 1:3 @11.0. 6 даблов, ставка 500. Кэф номинальный — пересчёт по факту.",
+      "en": "Pasha’s 🔴 gamble: second 2/4 system (variant B). Differs from A: Argentina 2:0, Iraq—Norway 1:3 @11.0. 6 doubles, 500 stake. Odds nominal — recomputed on resolve."
     },
-    "id": 90,
-    "status": "pending"
+    "legs": [
+      {
+        "m": {
+          "ru": "Аргентина — Алжир",
+          "en": "Argentina — Algeria"
+        },
+        "p": {
+          "ru": "Счёт 2:0 @6.0",
+          "en": "Score 2:0 @6.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Ирак — Норвегия",
+          "en": "Iraq — Norway"
+        },
+        "p": {
+          "ru": "Счёт 1:3 @11.0",
+          "en": "Score 1:3 @11.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Франция — Сенегал",
+          "en": "France — Senegal"
+        },
+        "p": {
+          "ru": "Счёт 2:1 @8.5",
+          "en": "Score 2:1 @8.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Австрия — Иордания",
+          "en": "Austria — Jordan"
+        },
+        "p": {
+          "ru": "Счёт 2:0 @6.0",
+          "en": "Score 2:0 @6.0"
+        }
+      }
+    ]
   }
 ]
