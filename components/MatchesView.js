@@ -4,14 +4,13 @@ import Link from 'next/link';
 import Flags from '@/components/Flags';
 import SideTally from '@/components/SideTally';
 import { formatDay } from '@/lib/calc';
+import { L } from '@/lib/i18n';
+import { kickoffInstant } from '@/lib/datetime';
+import { useLang, useT, useTimeFmt } from '@/app/providers';
 
 const WINDOW = 24 * 3600 * 1000; // 24 часа
 
-function startMs(m) {
-  const [Y, M, D] = m.date.split('-').map(Number);
-  const [h, mn] = m.timeMsk.split(':').map(Number);
-  return Date.UTC(Y, M - 1, D, h - 3, mn); // timeMsk (МСК = UTC+3) → UTC
-}
+const startMs = (m) => kickoffInstant(m.date, m.timeMsk);
 const byAsc = (a, b) => startMs(a) - startMs(b);
 const byDesc = (a, b) => startMs(b) - startMs(a);
 
@@ -34,19 +33,21 @@ function bucketize(matches, now) {
   return { soon, recent, later, older };
 }
 
-function Fixture({ m, live }) {
+function Fixture({ m, live, lang, tf }) {
+  const inst = kickoffInstant(m.date, m.timeMsk);
+  const when = `${tf.time(inst)} ${tf.zoneShort(inst)}`;
   return (
     <Link className="fixture" href={'/matches/' + m.id + '/'}>
       <div className="fixture-meta">
-        {m.stage} · {formatDay(m.date)} · {live ? <span className="hot">{m.timeMsk} МСК</span> : m.timeMsk + ' МСК'}
+        {L(m.stage, lang)} · {formatDay(m.date, lang)} · {live ? <span className="hot">{when}</span> : when}
       </div>
       <div className="fixture-head">
         <Flags cc={m.cc} />
-        <span className="fixture-title">{m.title}</span>
+        <span className="fixture-title">{L(m.title, lang)}</span>
         {m.result && <span className="fixture-score num">{m.result}</span>}
       </div>
-      {m.lede && <p className="fixture-lede">{m.lede}</p>}
-      {!m.result && <div className="fixture-venue">{m.venue}</div>}
+      {m.lede && <p className="fixture-lede">{L(m.lede, lang)}</p>}
+      {!m.result && <div className="fixture-venue">{L(m.venue, lang)}</div>}
       {m.tally && (
         <div className="fixture-tally">
           <SideTally side="Паша" t={m.tally.pasha} />
@@ -58,6 +59,9 @@ function Fixture({ m, live }) {
 }
 
 export default function MatchesView({ matches }) {
+  const lang = useLang();
+  const T = useT();
+  const tf = useTimeFmt();
   const [now, setNow] = useState(null);
   useEffect(() => {
     setNow(Date.now());
@@ -71,34 +75,34 @@ export default function MatchesView({ matches }) {
     <div>
       {soon.length > 0 && (
         <>
-          <div className="sect"><span className="sect-label">Скоро · ближайшие 24 ч</span></div>
-          <section aria-label="Ближайшие матчи">
-            {soon.map((m) => <Fixture key={m.id} m={m} live />)}
+          <div className="sect"><span className="sect-label">{T('matches.soon')}</span></div>
+          <section aria-label={T('a11y.soonMatches')}>
+            {soon.map((m) => <Fixture key={m.id} m={m} live lang={lang} tf={tf} />)}
           </section>
         </>
       )}
 
       {recent.length > 0 && (
         <>
-          <div className="sect"><span className="sect-label">Недавние · последние 24 ч</span></div>
-          <section aria-label="Недавние матчи">
-            {recent.map((m) => <Fixture key={m.id} m={m} />)}
+          <div className="sect"><span className="sect-label">{T('matches.recent')}</span></div>
+          <section aria-label={T('a11y.recentMatches')}>
+            {recent.map((m) => <Fixture key={m.id} m={m} lang={lang} tf={tf} />)}
           </section>
         </>
       )}
 
       {soon.length === 0 && recent.length === 0 && (
-        <p className="empty">В ближайшие сутки матчей нет — смотри афишу ниже</p>
+        <p className="empty">{T('matches.none24')}</p>
       )}
 
       {later.length > 0 && (
         <details className="disclosure">
           <summary>
-            Дальше в афише <span className="count">{later.length}</span>
+            {T('matches.moreAhead')} <span className="count">{later.length}</span>
             <Chevron />
           </summary>
-          <section aria-label="Будущие матчи">
-            {later.map((m) => <Fixture key={m.id} m={m} />)}
+          <section aria-label={T('a11y.futureMatches')}>
+            {later.map((m) => <Fixture key={m.id} m={m} lang={lang} tf={tf} />)}
           </section>
         </details>
       )}
@@ -106,11 +110,11 @@ export default function MatchesView({ matches }) {
       {older.length > 0 && (
         <details className="disclosure">
           <summary>
-            Прошедшие матчи <span className="count">{older.length}</span>
+            {T('matches.past')} <span className="count">{older.length}</span>
             <Chevron />
           </summary>
-          <section aria-label="Сыгранные матчи">
-            {older.map((m) => <Fixture key={m.id} m={m} />)}
+          <section aria-label={T('a11y.pastMatches')}>
+            {older.map((m) => <Fixture key={m.id} m={m} lang={lang} tf={tf} />)}
           </section>
         </details>
       )}

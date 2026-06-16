@@ -3,293 +3,572 @@
     "id": "mexico-southafrica",
     "date": "2026-06-11",
     "timeMsk": "03:00",
-    "title": "Мексика — ЮАР",
+    "title": {
+      "ru": "Мексика — ЮАР",
+      "en": "Mexico — South Africa"
+    },
     "cc": [
       "mx",
       "za"
     ],
-    "stage": "Группа A · тур 1",
-    "venue": "Эстадио Ацтека, Мехико",
+    "stage": {
+      "ru": "Группа A · тур 1",
+      "en": "Group A · MD 1"
+    },
+    "venue": {
+      "ru": "Эстадио Ацтека, Мехико",
+      "en": "Estadio Azteca, Mexico City"
+    },
     "result": "2:0 (1:0)",
-    "lede": "Матч открытия с тремя удалениями — рекордом за всю историю чемпионатов мира."
+    "lede": {
+      "ru": "Матч открытия с тремя удалениями — рекордом за всю историю чемпионатов мира.",
+      "en": "The opening match with three red cards — a record in World Cup history."
+    }
   },
   {
     "id": "korea-czechia",
     "date": "2026-06-11",
     "timeMsk": "23:00",
-    "title": "Южная Корея — Чехия",
+    "title": {
+      "ru": "Южная Корея — Чехия",
+      "en": "South Korea — Czechia"
+    },
     "cc": [
       "kr",
       "cz"
     ],
-    "stage": "Группа F · тур 1",
-    "venue": "Эстадио Акрон, Гвадалахара",
+    "stage": {
+      "ru": "Группа F · тур 1",
+      "en": "Group F · MD 1"
+    },
+    "venue": {
+      "ru": "Эстадио Акрон, Гвадалахара",
+      "en": "Estadio Akron, Guadalajara"
+    },
     "result": "2:1 (0:0)",
-    "lede": "Корея отыгралась после гола Крейчи — камбэк на классе во втором тайме."
+    "lede": {
+      "ru": "Корея отыгралась после гола Крейчи — камбэк на классе во втором тайме.",
+      "en": "South Korea hit back after Krejčí's goal — a second-half comeback on pure class."
+    }
   },
   {
     "id": "canada-bosnia",
     "date": "2026-06-12",
     "timeMsk": "22:00",
-    "title": "Канада — Босния",
+    "title": {
+      "ru": "Канада — Босния",
+      "en": "Canada — Bosnia"
+    },
     "cc": [
       "ca",
       "ba"
     ],
-    "stage": "Группа B · тур 1",
-    "venue": "BMO Field, Торонто",
+    "stage": {
+      "ru": "Группа B · тур 1",
+      "en": "Group B · MD 1"
+    },
+    "venue": {
+      "ru": "BMO Field, Торонто",
+      "en": "BMO Field, Toronto"
+    },
     "result": "1:1 (0:1)",
-    "lede": "Босния забила со стандарта и села в блок — Канада вскрыла её только после двойной замены на 76-й."
+    "lede": {
+      "ru": "Босния забила со стандарта и села в блок — Канада вскрыла её только после двойной замены на 76-й.",
+      "en": "Bosnia scored from a set piece and parked the bus — Canada only cracked them open after a double substitution on 76 minutes."
+    }
   },
   {
     "id": "usa-paraguay",
     "date": "2026-06-13",
     "timeMsk": "04:00",
-    "title": "США — Парагвай",
+    "title": {
+      "ru": "США — Парагвай",
+      "en": "USA — Paraguay"
+    },
     "cc": [
       "us",
       "py"
     ],
-    "stage": "Группа D · тур 1",
-    "venue": "SoFi Stadium, Лос-Анджелес",
-    "weather": "Крыша закрыта, климат-контроль — погода не фактор",
+    "stage": {
+      "ru": "Группа D · тур 1",
+      "en": "Group D · MD 1"
+    },
+    "venue": {
+      "ru": "SoFi Stadium, Лос-Анджелес",
+      "en": "SoFi Stadium, Los Angeles"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, климат-контроль — погода не фактор",
+      "en": "Roof closed, climate control — weather not a factor"
+    },
     "result": "4:1 (2:0)",
-    "lede": "Балогун оформил дубль на дебюте ЧМ, Рейна добил в концовке. Парагвай отыграл один и развалился — в концовке драка с красной."
+    "lede": {
+      "ru": "Балогун оформил дубль на дебюте ЧМ, Рейна добил в концовке. Парагвай отыграл один и развалился — в концовке драка с красной.",
+      "en": "Balogun bagged a brace on his World Cup debut, Reyna added the finishing touch late on. Paraguay pulled one back then fell apart — a brawl and a red card at the death."
+    }
   },
   {
     "id": "qatar-switzerland",
     "date": "2026-06-13",
     "timeMsk": "22:00",
-    "title": "Катар — Швейцария",
+    "title": {
+      "ru": "Катар — Швейцария",
+      "en": "Qatar — Switzerland"
+    },
     "cc": [
       "qa",
       "ch"
     ],
-    "stage": "Группа B · тур 1",
-    "venue": "Levi's Stadium, Санта-Клара",
-    "weather": "Солнечно, 29–31°C, открытый стадион — дневная жара",
+    "stage": {
+      "ru": "Группа B · тур 1",
+      "en": "Group B · MD 1"
+    },
+    "venue": {
+      "ru": "Levi's Stadium, Санта-Клара",
+      "en": "Levi's Stadium, Santa Clara"
+    },
+    "weather": {
+      "ru": "Солнечно, 29–31°C, открытый стадион — дневная жара",
+      "en": "Sunny, 29–31°C, open-air stadium — daytime heat"
+    },
     "result": "1:1 (0:1)",
-    "lede": "Швейцария наклепала 3+ xG, но Катар вырвал историческую ничью на 90+4 — первое очко на ЧМ. Фаворит транжирил, аутсайдер наказал навесом."
+    "lede": {
+      "ru": "Швейцария наклепала 3+ xG, но Катар вырвал историческую ничью на 90+4 — первое очко на ЧМ. Фаворит транжирил, аутсайдер наказал навесом.",
+      "en": "Switzerland racked up 3+ xG, but Qatar snatched a historic draw at 90+4 — their first ever World Cup point. The favourite squandered, the underdog punished from a cross."
+    }
   },
   {
     "id": "brazil-morocco",
     "date": "2026-06-14",
     "timeMsk": "01:00",
-    "title": "Бразилия — Марокко",
+    "title": {
+      "ru": "Бразилия — Марокко",
+      "en": "Brazil — Morocco"
+    },
     "cc": [
       "br",
       "ma"
     ],
-    "stage": "Группа C · тур 1",
-    "venue": "MetLife Stadium, Нью-Джерси",
-    "weather": "Ясно, 29–33°C, без крыши",
+    "stage": {
+      "ru": "Группа C · тур 1",
+      "en": "Group C · MD 1"
+    },
+    "venue": {
+      "ru": "MetLife Stadium, Нью-Джерси",
+      "en": "MetLife Stadium, New Jersey"
+    },
+    "weather": {
+      "ru": "Ясно, 29–33°C, без крыши",
+      "en": "Clear, 29–33°C, no roof"
+    },
     "result": "1:1 (1:1)",
-    "lede": "Марокко выиграло последнюю очную 2:1 и едет как чемпион Африки; Бразилия без Родриго, Милитана и Неймара на старте."
+    "lede": {
+      "ru": "Марокко выиграло последнюю очную 2:1 и едет как чемпион Африки; Бразилия без Родриго, Милитана и Неймара на старте.",
+      "en": "Morocco won the last meeting 2:1 and arrive as African champions; Brazil start without Rodrygo, Militão and Neymar."
+    }
   },
   {
     "id": "haiti-scotland",
     "date": "2026-06-14",
     "timeMsk": "04:00",
-    "title": "Гаити — Шотландия",
+    "title": {
+      "ru": "Гаити — Шотландия",
+      "en": "Haiti — Scotland"
+    },
     "cc": [
       "ht",
       "gb-sct"
     ],
-    "stage": "Группа C · тур 1",
-    "venue": "Gillette Stadium, Фоксборо",
-    "weather": "Ясно, ~16–17°C — самый комфортный матч уикенда",
+    "stage": {
+      "ru": "Группа C · тур 1",
+      "en": "Group C · MD 1"
+    },
+    "venue": {
+      "ru": "Gillette Stadium, Фоксборо",
+      "en": "Gillette Stadium, Foxborough"
+    },
+    "weather": {
+      "ru": "Ясно, ~16–17°C — самый комфортный матч уикенда",
+      "en": "Clear, ~16–17°C — the most comfortable match of the weekend"
+    },
     "result": "0:1 (0:1)",
-    "lede": "Первая встреча в истории. Шотландия проиграла 3 последних стартовых матча ЧМ; Гаити — впервые за 52 года."
+    "lede": {
+      "ru": "Первая встреча в истории. Шотландия проиграла 3 последних стартовых матча ЧМ; Гаити — впервые за 52 года.",
+      "en": "The first ever meeting. Scotland have lost their last 3 World Cup openers; Haiti are here for the first time in 52 years."
+    }
   },
   {
     "id": "australia-turkey",
     "date": "2026-06-14",
     "timeMsk": "07:00",
-    "title": "Австралия — Турция",
+    "title": {
+      "ru": "Австралия — Турция",
+      "en": "Australia — Turkey"
+    },
     "cc": [
       "au",
       "tr"
     ],
-    "stage": "Группа D · тур 1",
-    "venue": "BC Place, Ванкувер",
-    "weather": "Крыша закрыта, климат-контроль",
+    "stage": {
+      "ru": "Группа D · тур 1",
+      "en": "Group D · MD 1"
+    },
+    "venue": {
+      "ru": "BC Place, Ванкувер",
+      "en": "BC Place, Vancouver"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, климат-контроль",
+      "en": "Roof closed, climate control"
+    },
     "result": "2:0 (1:0)",
-    "lede": "Наша группа D: победитель почти оформляет выход. Турция 5 матчей без поражений, Австралия пропустила 1 гол в 3 последних."
+    "lede": {
+      "ru": "Наша группа D: победитель почти оформляет выход. Турция 5 матчей без поражений, Австралия пропустила 1 гол в 3 последних.",
+      "en": "Our Group D: the winner all but books a spot in the next round. Turkey are 5 matches unbeaten, Australia have conceded just 1 goal in their last 3."
+    }
   },
   {
     "id": "germany-curacao",
     "date": "2026-06-14",
     "timeMsk": "20:00",
-    "title": "Германия — Кюрасао",
+    "title": {
+      "ru": "Германия — Кюрасао",
+      "en": "Germany — Curaçao"
+    },
     "cc": [
       "de",
       "cw"
     ],
-    "stage": "Группа E · тур 1",
-    "venue": "NRG Stadium, Хьюстон",
-    "weather": "Снаружи 33°C и грозы — но крыша и кондиционер",
+    "stage": {
+      "ru": "Группа E · тур 1",
+      "en": "Group E · MD 1"
+    },
+    "venue": {
+      "ru": "NRG Stadium, Хьюстон",
+      "en": "NRG Stadium, Houston"
+    },
+    "weather": {
+      "ru": "Снаружи 33°C и грозы — но крыша и кондиционер",
+      "en": "33°C and thunderstorms outside — but roof closed and AC on"
+    },
     "result": "7:1 (3:1)",
-    "lede": "Кюрасао — самая маленькая страна турнира. Германия вылетала в группе два ЧМ подряд; тотал-линия 4.5."
+    "lede": {
+      "ru": "Кюрасао — самая маленькая страна турнира. Германия вылетала в группе два ЧМ подряд; тотал-линия 4.5.",
+      "en": "Curaçao are the smallest nation at the tournament. Germany have gone out in the group stage at two World Cups running; the total line sits at 4.5."
+    }
   },
   {
     "id": "netherlands-japan",
     "date": "2026-06-14",
     "timeMsk": "23:00",
-    "title": "Нидерланды — Япония",
+    "title": {
+      "ru": "Нидерланды — Япония",
+      "en": "Netherlands — Japan"
+    },
     "cc": [
       "nl",
       "jp"
     ],
-    "stage": "Группа F · тур 1",
-    "venue": "AT&T Stadium, Арлингтон",
-    "weather": "Снаружи 34°C — крыша и кондиционер",
+    "stage": {
+      "ru": "Группа F · тур 1",
+      "en": "Group F · MD 1"
+    },
+    "venue": {
+      "ru": "AT&T Stadium, Арлингтон",
+      "en": "AT&T Stadium, Arlington"
+    },
+    "weather": {
+      "ru": "Снаружи 34°C — крыша и кондиционер",
+      "en": "34°C outside — roof closed and AC on"
+    },
     "result": "2:2 (0:0)",
-    "lede": "Глухой 0:0 к перерыву взорвался 4 мячами во втором тайме. Камада сравнял на 88' после углового. AI взял ничью @3.65, Паша слил гол-в-каждом-тайме на японском сухом первом тайме."
+    "lede": {
+      "ru": "Глухой 0:0 к перерыву взорвался 4 мячами во втором тайме. Камада сравнял на 88' после углового. AI взял ничью @3.65, Паша слил гол-в-каждом-тайме на японском сухом первом тайме.",
+      "en": "A goalless first half exploded into four goals after the break. Kamada levelled on 88' off a corner. AI took the draw @3.65; Pasha lost his goal-in-each-half bet on Japan's clean-sheet first half."
+    }
   },
   {
     "id": "ivorycoast-ecuador",
     "date": "2026-06-15",
     "timeMsk": "02:00",
-    "title": "Кот-д’Ивуар — Эквадор",
+    "title": {
+      "ru": "Кот-д’Ивуар — Эквадор",
+      "en": "Ivory Coast — Ecuador"
+    },
     "cc": [
       "ci",
       "ec"
     ],
-    "stage": "Группа E · тур 1",
-    "venue": "Lincoln Financial Field, Филадельфия",
-    "weather": "~32°C к старту, открытый стадион",
+    "stage": {
+      "ru": "Группа E · тур 1",
+      "en": "Group E · MD 1"
+    },
+    "venue": {
+      "ru": "Lincoln Financial Field, Филадельфия",
+      "en": "Lincoln Financial Field, Philadelphia"
+    },
+    "weather": {
+      "ru": "~32°C к старту, открытый стадион",
+      "en": "~32°C at kickoff, open stadium"
+    },
     "result": "1:0 (0:0)",
-    "lede": "Амад Диалло вышел с замены и вырвал победу на 90-й (89:32) — самый поздний победный гол джокера в матче ЧМ 1:0 со времён Тотти-2006. Эквадор трижды попал в каркас и оборвал свою 19-матчевую беспроигрышную серию."
+    "lede": {
+      "ru": "Амад Диалло вышел с замены и вырвал победу на 90-й (89:32) — самый поздний победный гол джокера в матче ЧМ 1:0 со времён Тотти-2006. Эквадор трижды попал в каркас и оборвал свою 19-матчевую беспроигрышную серию.",
+      "en": "Amad Diallo came off the bench and snatched it on 90' (89:32) — the latest super-sub winner in a 1-0 World Cup match since Totti in 2006. Ecuador hit the woodwork three times and saw their 19-match unbeaten run snapped."
+    }
   },
   {
     "id": "sweden-tunisia",
     "date": "2026-06-15",
     "timeMsk": "05:00",
-    "title": "Швеция — Тунис",
+    "title": {
+      "ru": "Швеция — Тунис",
+      "en": "Sweden — Tunisia"
+    },
     "cc": [
       "se",
       "tn"
     ],
-    "stage": "Группа F · тур 1",
-    "venue": "Estadio BBVA, Монтеррей",
-    "weather": "К вечеру ~30°C, открытый, высота ~540 м",
+    "stage": {
+      "ru": "Группа F · тур 1",
+      "en": "Group F · MD 1"
+    },
+    "venue": {
+      "ru": "Estadio BBVA, Монтеррей",
+      "en": "Estadio BBVA, Monterrey"
+    },
+    "weather": {
+      "ru": "К вечеру ~30°C, открытый, высота ~540 м",
+      "en": "~30°C by evening, open stadium, altitude ~540 m"
+    },
     "result": "5:1 (2:1)",
-    "lede": "Разнос: Аяри оформил дубль (7' и 90+6'), Исак, Гьёкереш и Сванберг добавили. Гол Сванберга — самый быстрый в истории ЧМ от вышедшего на замену (13 секунд). Тунис ответил лишь голом Рекика в раздевалку."
+    "lede": {
+      "ru": "Разнос: Аяри оформил дубль (7' и 90+6'), Исак, Гьёкереш и Сванберг добавили. Гол Сванберга — самый быстрый в истории ЧМ от вышедшего на замену (13 секунд). Тунис ответил лишь голом Рекика в раздевалку.",
+      "en": "A rout: Ayari bagged a brace (7' and 90+6'), with Isak, Gyökeres and Svanberg adding more. Svanberg's goal was the fastest by a substitute in World Cup history (13 seconds). Tunisia's only reply came from Rekik's goal on the stroke of half-time."
+    }
   },
   {
     "id": "spain-capeverde",
     "date": "2026-06-15",
     "timeMsk": "19:00",
-    "title": "Испания — Кабо-Верде",
+    "title": {
+      "ru": "Испания — Кабо-Верде",
+      "en": "Spain — Cape Verde"
+    },
     "cc": [
       "es",
       "cv"
     ],
-    "stage": "Группа H · тур 1",
-    "venue": "Mercedes-Benz Stadium, Атланта",
-    "weather": "Крыша закрыта, климат-контроль — погода не фактор",
+    "stage": {
+      "ru": "Группа H · тур 1",
+      "en": "Group H · MD 1"
+    },
+    "venue": {
+      "ru": "Mercedes-Benz Stadium, Атланта",
+      "en": "Mercedes-Benz Stadium, Atlanta"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, климат-контроль — погода не фактор",
+      "en": "Roof closed, climate-controlled — weather not a factor"
+    },
     "result": "0:0 (0:0)",
-    "lede": "ШОК ТУРА: чемпионы Европы не пробили дебютанта. Испания — 27 ударов, 74% владения, 11 угловых, перекладина Феррана и сейв по добиванию Ойярсабаля — и 0:0. Вратарь Возинья затащил всё. Первый матч Кабо-Верде на ЧМ — сухая ничья с Испанией. Ямаль дебютировал на ЧМ с 71-й."
+    "lede": {
+      "ru": "ШОК ТУРА: чемпионы Европы не пробили дебютанта. Испания — 27 ударов, 74% владения, 11 угловых, перекладина Феррана и сейв по добиванию Ойярсабаля — и 0:0. Вратарь Возинья затащил всё. Первый матч Кабо-Верде на ЧМ — сухая ничья с Испанией. Ямаль дебютировал на ЧМ с 71-й.",
+      "en": "SHOCK OF THE ROUND: the European champions couldn't break down the debutants. Spain — 27 shots, 74% possession, 11 corners, a Ferran effort off the bar and a save on Oyarzabal's rebound — and 0:0. Keeper Vozinha dragged the whole thing out. Cape Verde's first-ever World Cup match: a goalless draw with Spain. Yamal made his World Cup debut on 71'."
+    }
   },
   {
     "id": "belgium-egypt",
     "date": "2026-06-15",
     "timeMsk": "22:00",
-    "title": "Бельгия — Египет",
+    "title": {
+      "ru": "Бельгия — Египет",
+      "en": "Belgium — Egypt"
+    },
     "cc": [
       "be",
       "eg"
     ],
-    "stage": "Группа G · тур 1",
-    "venue": "Lumen Field, Сиэтл",
-    "weather": "Открытый стадион, ~16–18°C, возможна морось — мягко",
+    "stage": {
+      "ru": "Группа G · тур 1",
+      "en": "Group G · MD 1"
+    },
+    "venue": {
+      "ru": "Lumen Field, Сиэтл",
+      "en": "Lumen Field, Seattle"
+    },
+    "weather": {
+      "ru": "Открытый стадион, ~16–18°C, возможна морось — мягко",
+      "en": "Open stadium, ~16–18°C, drizzle possible — mild"
+    },
     "result": "1:1 (0:1)",
-    "lede": "Египет добыл ИСТОРИЧЕСКОЕ первое очко на ЧМ! Ашур забил с паса Салаха на 19-й, Бельгия отыгралась лишь автоголом Хани на 66-й — и за весь 1-й тайм не нанесла ни одного удара в створ. Аномалия Opta (Египет недооценён) подтвердилась в точку."
+    "lede": {
+      "ru": "Египет добыл ИСТОРИЧЕСКОЕ первое очко на ЧМ! Ашур забил с паса Салаха на 19-й, Бельгия отыгралась лишь автоголом Хани на 66-й — и за весь 1-й тайм не нанесла ни одного удара в створ. Аномалия Opta (Египет недооценён) подтвердилась в точку.",
+      "en": "Egypt earned a HISTORIC first World Cup point! Ashour scored off a Salah assist on 19', and Belgium only drew level through Hany's own goal on 66' — failing to register a single shot on target across the entire first half. The Opta anomaly (Egypt underrated) landed dead on."
+    }
   },
   {
     "id": "saudiarabia-uruguay",
     "date": "2026-06-16",
     "timeMsk": "01:00",
-    "title": "Саудовская Аравия — Уругвай",
+    "title": {
+      "ru": "Саудовская Аравия — Уругвай",
+      "en": "Saudi Arabia — Uruguay"
+    },
     "cc": [
       "sa",
       "uy"
     ],
-    "stage": "Группа H · тур 1",
-    "venue": "Hard Rock Stadium, Майами",
-    "weather": "Открытый, ~31°C (ощущается 36°), влажность ~73%, риск гроз 52%",
+    "stage": {
+      "ru": "Группа H · тур 1",
+      "en": "Group H · MD 1"
+    },
+    "venue": {
+      "ru": "Hard Rock Stadium, Майами",
+      "en": "Hard Rock Stadium, Miami"
+    },
+    "weather": {
+      "ru": "Открытый, ~31°C (ощущается 36°), влажность ~73%, риск гроз 52%",
+      "en": "Open, ~31°C (feels like 36°), humidity ~73%, 52% storm risk"
+    },
     "result": "1:1 (1:0)",
-    "lede": "Уругвай Бьелсы — крупный фаворит, но жара и влажность Майами бьют по его прессингу, который сам тренер называет «съедающим энергию». Без Суареса и, вероятно, без Араухо."
+    "lede": {
+      "ru": "Уругвай Бьелсы — крупный фаворит, но жара и влажность Майами бьют по его прессингу, который сам тренер называет «съедающим энергию». Без Суареса и, вероятно, без Араухо.",
+      "en": "Bielsa's Uruguay are heavy favourites, but Miami's heat and humidity hit the press the coach himself calls \"energy-draining.\" Without Suárez and probably without Araújo."
+    }
   },
   {
     "id": "iran-newzealand",
     "date": "2026-06-16",
     "timeMsk": "04:00",
-    "title": "Иран — Новая Зеландия",
+    "title": {
+      "ru": "Иран — Новая Зеландия",
+      "en": "Iran — New Zealand"
+    },
     "cc": [
       "ir",
       "nz"
     ],
-    "stage": "Группа G · тур 1",
-    "venue": "SoFi Stadium, Лос-Анджелес",
-    "weather": "Фиксированная крыша, мягкий климат — погода не фактор",
+    "stage": {
+      "ru": "Группа G · тур 1",
+      "en": "Group G · MD 1"
+    },
+    "venue": {
+      "ru": "SoFi Stadium, Лос-Анджелес",
+      "en": "SoFi Stadium, Los Angeles"
+    },
+    "weather": {
+      "ru": "Фиксированная крыша, мягкий климат — погода не фактор",
+      "en": "Fixed roof, mild climate — weather not a factor"
+    },
     "result": "2:2 (1:1)",
-    "lede": "Два прагматика за «выигрываемый» матч группы. Иран (№20) в атакующей форме против самой низкорейтинговой сборной турнира (№85), у которой 1 победа в 11 и разгром 0:4 от Гаити."
+    "lede": {
+      "ru": "Два прагматика за «выигрываемый» матч группы. Иран (№20) в атакующей форме против самой низкорейтинговой сборной турнира (№85), у которой 1 победа в 11 и разгром 0:4 от Гаити.",
+      "en": "Two pragmatists in a \"winnable\" group game. Iran (No. 20), in attacking form, against the lowest-ranked side of the tournament (No. 85) — one win in 11 and a 0:4 thrashing by Haiti."
+    }
   },
   {
     "id": "france-senegal",
     "date": "2026-06-16",
     "timeMsk": "22:00",
-    "title": "Франция — Сенегал",
+    "title": {
+      "ru": "Франция — Сенегал",
+      "en": "France — Senegal"
+    },
     "cc": [
       "fr",
       "sn"
     ],
-    "stage": "Группа I · тур 1",
-    "venue": "MetLife Stadium, Ист-Резерфорд (Нью-Джерси)",
+    "stage": {
+      "ru": "Группа I · тур 1",
+      "en": "Group I · MD 1"
+    },
+    "venue": {
+      "ru": "MetLife Stadium, Ист-Резерфорд (Нью-Джерси)",
+      "en": "MetLife Stadium, East Rutherford (New Jersey)"
+    },
     "result": null,
-    "lede": "Финалист ЧМ-2022 против чемпиона Африки. Франция — крупный фаворит, но Сенегал — самый зубастый из «аутсайдеров» дня."
+    "lede": {
+      "ru": "Финалист ЧМ-2022 против чемпиона Африки. Франция — крупный фаворит, но Сенегал — самый зубастый из «аутсайдеров» дня.",
+      "en": "The 2022 World Cup finalist against the African champion. France are heavy favourites, but Senegal are the most dangerous of the day's \"underdogs.\""
+    }
   },
   {
     "id": "iraq-norway",
     "date": "2026-06-17",
     "timeMsk": "01:00",
-    "title": "Ирак — Норвегия",
+    "title": {
+      "ru": "Ирак — Норвегия",
+      "en": "Iraq — Norway"
+    },
     "cc": [
       "iq",
       "no"
     ],
-    "stage": "Группа I · тур 1",
-    "venue": "Gillette Stadium, Фоксборо (Массачусетс)",
+    "stage": {
+      "ru": "Группа I · тур 1",
+      "en": "Group I · MD 1"
+    },
+    "venue": {
+      "ru": "Gillette Stadium, Фоксборо (Массачусетс)",
+      "en": "Gillette Stadium, Foxborough (Massachusetts)"
+    },
     "result": null,
-    "lede": "Норвегия Холанда/Эдегора против дисциплинированного Ирака. Огневая мощь скандинавов против организованного блока."
+    "lede": {
+      "ru": "Норвегия Холанда/Эдегора против дисциплинированного Ирака. Огневая мощь скандинавов против организованного блока.",
+      "en": "Haaland and Ødegaard's Norway against a disciplined Iraq. Scandinavian firepower versus an organised block."
+    }
   },
   {
     "id": "argentina-algeria",
     "date": "2026-06-17",
     "timeMsk": "04:00",
-    "title": "Аргентина — Алжир",
+    "title": {
+      "ru": "Аргентина — Алжир",
+      "en": "Argentina — Algeria"
+    },
     "cc": [
       "ar",
       "dz"
     ],
-    "stage": "Группа J · тур 1",
-    "venue": "Arrowhead Stadium, Канзас-Сити",
+    "stage": {
+      "ru": "Группа J · тур 1",
+      "en": "Group J · MD 1"
+    },
+    "venue": {
+      "ru": "Arrowhead Stadium, Канзас-Сити",
+      "en": "Arrowhead Stadium, Kansas City"
+    },
     "result": null,
-    "lede": "Действующие чемпионы мира начинают защиту титула. Аргентина — мощный фаворит против африканского Алжира."
+    "lede": {
+      "ru": "Действующие чемпионы мира начинают защиту титула. Аргентина — мощный фаворит против африканского Алжира.",
+      "en": "The reigning world champions begin their title defense. Argentina are heavy favorites against Africa's Algeria."
+    }
   },
   {
     "id": "austria-jordan",
     "date": "2026-06-17",
     "timeMsk": "07:00",
-    "title": "Австрия — Иордания",
+    "title": {
+      "ru": "Австрия — Иордания",
+      "en": "Austria — Jordan"
+    },
     "cc": [
       "at",
       "jo"
     ],
-    "stage": "Группа J · тур 1",
-    "venue": "Levi's Stadium, Санта-Клара (Калифорния)",
+    "stage": {
+      "ru": "Группа J · тур 1",
+      "en": "Group J · MD 1"
+    },
+    "venue": {
+      "ru": "Levi's Stadium, Санта-Клара (Калифорния)",
+      "en": "Levi's Stadium, Santa Clara (California)"
+    },
     "result": null,
-    "lede": "Крепкая Австрия с костяком из Бундеслиги против дебютанта ЧМ Иордании."
+    "lede": {
+      "ru": "Крепкая Австрия с костяком из Бундеслиги против дебютанта ЧМ Иордании.",
+      "en": "A solid Austria built around a Bundesliga core take on World Cup debutants Jordan."
+    }
   }
 ]

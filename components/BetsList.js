@@ -3,7 +3,10 @@ import { Fragment, useState } from 'react';
 import Link from 'next/link';
 import { bets, matches } from '@/lib/content';
 import { pl, money, formatDay, sideTally } from '@/lib/calc';
-import { GROUP_HINTS, marketGroup } from '@/lib/glossary';
+import { marketGroup, groupLabel, groupHint } from '@/lib/glossary';
+import { L, sideLabel } from '@/lib/i18n';
+import { kickoffInstant } from '@/lib/datetime';
+import { useLang, useT, useTimeFmt } from '@/app/providers';
 import VsTicket from '@/components/VsTicket';
 import Ticket from '@/components/Ticket';
 import Legend from '@/components/Legend';
@@ -11,43 +14,33 @@ import Flags from '@/components/Flags';
 import Tip from '@/components/Tip';
 
 const GROUPS = [
-  { key: 'match', label: 'По матчам' },
-  { key: 'day', label: 'По дням' },
-  { key: 'type', label: 'По рынкам' },
+  { key: 'match', tkey: 'bets.group.match' },
+  { key: 'day', tkey: 'bets.group.day' },
+  { key: 'type', tkey: 'bets.group.type' },
 ];
-const SIDES = [
-  { key: 'all', label: 'Батл' },
-  { key: 'Паша', label: 'Паша' },
-  { key: 'AI', label: 'AI' },
-];
+const SIDES = ['all', 'Паша', 'AI'];
 
 const matchMeta = (id) => matches.find((m) => m.id === id) || null;
-
-function startMs(m, fallbackDate) {
-  const date = m ? m.date : fallbackDate;
-  const time = m && m.timeMsk ? m.timeMsk : '12:00';
-  const [Y, M, D] = date.split('-').map(Number);
-  const [h, mn] = time.split(':').map(Number);
-  return Date.UTC(Y, M - 1, D, h - 3, mn); // МСК → UTC
-}
 
 function plClass(v) { return v > 0 ? 'pos' : v < 0 ? 'neg' : ''; }
 
 // итог стороны коротким значением
-function sideValue(t) {
+function sideValue(t, lang, inPlayTxt) {
   if (!t || t.n === 0) return null;
-  if (t.pendingN && !t.anySettled) return { txt: 'в игре', cls: 'idle' };
-  return { txt: money(t.pl), cls: plClass(t.pl) };
+  if (t.pendingN && !t.anySettled) return { txt: inPlayTxt, cls: 'idle' };
+  return { txt: money(t.pl, lang), cls: plClass(t.pl) };
 }
 
 /* ── Колонка одной стороны ── */
 function Column({ side, list, past }) {
+  const lang = useLang();
+  const T = useT();
   const t = sideTally(list);
-  const v = sideValue(t);
+  const v = sideValue(t, lang, T('common.inPlay'));
   return (
     <div className={'vs-col ' + (side === 'Паша' ? 'pasha' : 'ai')}>
       <div className="vs-col-head">
-        <span className="vs-col-who">{side}</span>
+        <span className="vs-col-who">{sideLabel(side, lang)}</span>
         {v && <span className={'vs-col-pl num ' + v.cls}>{v.txt}</span>}
       </div>
       {list.length === 0
@@ -56,7 +49,7 @@ function Column({ side, list, past }) {
             <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M5 22h14M5 2h14M6 2v5a6 6 0 0 0 12 0V2M6 22v-5a6 6 0 0 1 12 0v5" />
             </svg>
-            <span>{past ? 'без прогноза' : 'ждём ставку'}</span>
+            <span>{past ? T('bets.noPick') : T('bets.waiting')}</span>
           </div>
         )
         : list.map((b) => <VsTicket key={b.id} bet={b} />)}
@@ -80,39 +73,43 @@ function VsCard({ head, list, past }) {
 }
 
 export default function BetsList() {
+  const T = useT();
+  const lang = useLang();
   const [group, setGroup] = useState('match');
   const [side, setSide] = useState('all');
 
   const view = side === 'all' ? bets : bets.filter((b) => b.side === side);
   const single = side !== 'all';
 
+  const sideBtnLabel = (k) => (k === 'all' ? T('bets.side.all') : sideLabel(k, lang));
+
   return (
     <div>
       <Legend />
 
       <div className="controls">
-        <div className="seg" role="group" aria-label="Группировка">
+        <div className="seg" role="group" aria-label={T('a11y.grouping')}>
           {GROUPS.map((g) => (
             <button key={g.key} className={'seg-btn' + (group === g.key ? ' on' : '')} aria-pressed={group === g.key} onClick={() => setGroup(g.key)}>
-              {g.label}
+              {T(g.tkey)}
             </button>
           ))}
         </div>
-        <div className="seg sides" role="group" aria-label="Сторона">
-          {SIDES.map((s) => (
-            <button key={s.key} className={'seg-btn' + (side === s.key ? ' on' : '') + (s.key === 'Паша' ? ' t-pasha' : s.key === 'AI' ? ' t-ai' : '')} aria-pressed={side === s.key} onClick={() => setSide(s.key)}>
-              {s.label}
+        <div className="seg sides" role="group" aria-label={T('a11y.side')}>
+          {SIDES.map((k) => (
+            <button key={k} className={'seg-btn' + (side === k ? ' on' : '') + (k === 'Паша' ? ' t-pasha' : k === 'AI' ? ' t-ai' : '')} aria-pressed={side === k} onClick={() => setSide(k)}>
+              {sideBtnLabel(k)}
             </button>
           ))}
         </div>
       </div>
 
-      {view.length === 0 ? <p className="empty">По этому фильтру ставок нет</p> :
+      {view.length === 0 ? <p className="empty">{T('bets.none')}</p> :
         group === 'match' ? <ByMatch list={view} single={single} /> :
         group === 'day' ? <ByDay list={view} single={single} /> :
         <ByType list={view} single={single} />}
 
-      <p className="foot-note">Ставки обновляются по ходу турнира — сайт пересобирается за пару минут</p>
+      <p className="foot-note">{T('bets.footNote')}</p>
     </div>
   );
 }
@@ -127,32 +124,39 @@ const isSystem = (b) => b.type === 'Система' || b.type === 'Экспре�
 const normName = (s) => s.replace(/\s*\((?:Паша|AI)\)\s*$/i, '').trim();
 
 function ByMatch({ list, single }) {
+  const lang = useLang();
+  const T = useT();
+  const tf = useTimeFmt();
+
   // системы/экспрессы — отдельно (во всю ширину), остальное группируем по матчу
   const matchBets = list.filter((b) => !isSystem(b));
   const sysBets = list.filter(isSystem);
 
   const groups = {};
-  for (const b of matchBets) (groups[b.matchId || ('_' + b.match)] = groups[b.matchId || ('_' + b.match)] || []).push(b);
+  for (const b of matchBets) {
+    const key = b.matchId || ('_' + L(b.match, 'ru'));
+    (groups[key] = groups[key] || []).push(b);
+  }
 
   const entries = Object.keys(groups).map((key) => {
     const g = groups[key];
     const m = key.startsWith('_') ? null : matchMeta(key);
     return {
       key, g, m,
-      title: m ? m.title : g[0].match,
+      title: m ? L(m.title, lang) : L(g[0].match, lang),
+      stage: m ? m.stage : null,
       date: m ? m.date : g[0].date,
       time: m ? m.timeMsk : null,
-      stage: m ? m.stage : null,
-      start: startMs(m, g[0].date),
+      start: kickoffInstant(m ? m.date : g[0].date, (m && m.timeMsk) || '12:00'),
       active: g.some((b) => b.status === 'pending'),
     };
   });
-  const active = entries.filter((e) => e.active).sort((a, b) => a.start - b.start); // скоро → позже
-  const done = entries.filter((e) => !e.active).sort((a, b) => b.start - a.start);   // свежие → старые
+  const active = entries.filter((e) => e.active).sort((a, b) => a.start - b.start);
+  const done = entries.filter((e) => !e.active).sort((a, b) => b.start - a.start);
 
-  // системы: одинаковые по типу+дню AI и Паша идут ПОДРЯД (рядом 2/4 и т.д.)
+  // системы: одинаковые по типу+дню AI и Паша идут ПОДРЯД
   const sysSort = (a, b) => {
-    const ka = normName(a.match) + '|' + a.date, kb = normName(b.match) + '|' + b.date;
+    const ka = normName(L(a.match, 'ru')) + '|' + a.date, kb = normName(L(b.match, 'ru')) + '|' + b.date;
     if (ka !== kb) return ka < kb ? -1 : 1;
     return a.side === b.side ? 0 : a.side === 'Паша' ? -1 : 1;
   };
@@ -160,9 +164,10 @@ function ByMatch({ list, single }) {
   const sysDone = sysBets.filter((b) => b.status !== 'pending').sort(sysSort);
 
   const renderCard = (e) => {
+    const when = e.time ? `${tf.time(e.start)} ${tf.zoneShort(e.start)}` : null;
     const headInner = (
       <div className="mg-head">
-        <div className="mg-when">{[e.stage, formatDay(e.date), e.time ? e.time + ' МСК' : null].filter(Boolean).join(' · ')}</div>
+        <div className="mg-when">{[e.stage ? L(e.stage, lang) : null, formatDay(e.date, lang), when].filter(Boolean).join(' · ')}</div>
         <div className="mg-headline">
           {e.m && <Flags cc={e.m.cc} />}
           <span className="mg-title">{e.title}</span>
@@ -178,13 +183,13 @@ function ByMatch({ list, single }) {
 
   return (
     <>
-      {active.length > 0 && <div className="sect live"><span className="sect-label">В игре · {active.length}</span></div>}
+      {active.length > 0 && <div className="sect live"><span className="sect-label">{T('bets.inPlayCount', { n: active.length })}</span></div>}
       {active.map(renderCard)}
-      {sysActive.length > 0 && <div className="sect"><span className="sect-label">Системы и экспрессы · в игре</span></div>}
+      {sysActive.length > 0 && <div className="sect"><span className="sect-label">{T('bets.sysInPlay')}</span></div>}
       {sysActive.length > 0 && <section className="vs-card sys-list">{sysActive.map((b) => <Ticket key={b.id} bet={b} />)}</section>}
-      {done.length > 0 && <div className="sect"><span className="sect-label">Сыграно · {done.length}</span></div>}
+      {done.length > 0 && <div className="sect"><span className="sect-label">{T('bets.settledCount', { n: done.length })}</span></div>}
       {done.map(renderCard)}
-      {sysDone.length > 0 && <div className="sect"><span className="sect-label">Системы и экспрессы · сыграно</span></div>}
+      {sysDone.length > 0 && <div className="sect"><span className="sect-label">{T('bets.sysSettled')}</span></div>}
       {sysDone.length > 0 && <section className="vs-card sys-list">{sysDone.map((b) => <Ticket key={b.id} bet={b} />)}</section>}
     </>
   );
@@ -192,6 +197,7 @@ function ByMatch({ list, single }) {
 
 /* ── По дням ── */
 function ByDay({ list, single }) {
+  const lang = useLang();
   const groups = {};
   for (const b of list) (groups[b.date] = groups[b.date] || []).push(b);
   const days = Object.keys(groups).sort().reverse();
@@ -199,7 +205,7 @@ function ByDay({ list, single }) {
     const dayBets = groups[d];
     const matchB = dayBets.filter((b) => !isSystem(b));
     const sysB = dayBets.filter(isSystem);
-    const head = <div className="mg-head"><span className="mg-title cap">{formatDay(d)}</span></div>;
+    const head = <div className="mg-head"><span className="mg-title cap">{formatDay(d, lang)}</span></div>;
     const past = dayBets.every((b) => b.status !== 'pending');
     if (single) return <section key={d} className="vs-card">{head}<SingleList list={dayBets} /></section>;
     return (
@@ -213,24 +219,26 @@ function ByDay({ list, single }) {
 
 /* ── По рынкам (анализ заходимости — простой список) ── */
 function ByType({ list }) {
+  const lang = useLang();
+  const T = useT();
   const groups = {};
   for (const b of list) { const k = marketGroup(b); (groups[k] = groups[k] || []).push(b); }
   const keys = Object.keys(groups).sort((a, b) => {
     const sp = (k) => groups[k].reduce((s, x) => s + pl(x), 0);
     return sp(b) - sp(a);
   });
-  return keys.map((t) => {
-    const g = groups[t];
+  return keys.map((key) => {
+    const g = groups[key];
     const settled = g.filter((b) => b.status === 'win' || b.status === 'lose');
     const wins = settled.filter((b) => b.status === 'win').length;
     const sum = g.reduce((s, b) => s + pl(b), 0);
     const wr = settled.length ? Math.round((wins / settled.length) * 100) : 0;
     return (
-      <section key={t} className="vs-card">
+      <section key={key} className="vs-card">
         <div className="mg-head">
-          <Tip className="mg-title" hint={GROUP_HINTS[t]}>{t}</Tip>
+          <Tip className="mg-title" hint={groupHint(key, lang)}>{groupLabel(key, lang)}</Tip>
           {settled.length > 0 && <span className="mg-meta">{wins}/{settled.length} · {wr}%</span>}
-          <span className={'mg-score num ' + plClass(sum)}>{settled.length ? money(sum) : 'в игре'}</span>
+          <span className={'mg-score num ' + plClass(sum)}>{settled.length ? money(sum, lang) : T('common.inPlay')}</span>
         </div>
         {g.map((b) => <Ticket key={b.id} bet={b} />)}
       </section>

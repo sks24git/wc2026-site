@@ -3,8 +3,11 @@ import { useEffect, useState } from 'react';
 import DayCard, { EmptyDayCard } from '@/components/DayCard';
 import { formatDay } from '@/lib/calc';
 import { currentDayIndex } from '@/lib/cards';
+import { useLang, useT } from '@/app/providers';
 
 export default function CardsDeck({ days }) {
+  const lang = useLang();
+  const T = useT();
   const [i, setI] = useState(() => currentDayIndex(days));
   const idx = Math.min(i, Math.max(0, days.length - 1));
   const day = days[idx];
@@ -17,16 +20,16 @@ export default function CardsDeck({ days }) {
     if (pos >= 0) setI(pos);
   }, [days]);
 
-  if (!day) return <p className="empty">Карт пока нет</p>;
-  const go = (d) => setI((v) => (idx + d + days.length) % days.length);
+  if (!day) return <p className="empty">{T('cards.none')}</p>;
+  const go = (d) => setI(() => (idx + d + days.length) % days.length);
   const past = idx < currentDayIndex(days); // день раньше текущего активного → не «ждём», а «без прогноза»
 
   return (
     <div className="deck">
       <div className="deck-top">
-        <button className="deck-arrow" aria-label="Прошлый день" onClick={() => go(-1)} disabled={days.length < 2}>‹</button>
-        <div className="deck-day">{formatDay(day.date)}</div>
-        <button className="deck-arrow" aria-label="Следующий день" onClick={() => go(1)} disabled={days.length < 2}>›</button>
+        <button className="deck-arrow" aria-label={T('cards.prevDay')} onClick={() => go(-1)} disabled={days.length < 2}>‹</button>
+        <div className="deck-day">{formatDay(day.date, lang)}</div>
+        <button className="deck-arrow" aria-label={T('cards.nextDay')} onClick={() => go(1)} disabled={days.length < 2}>›</button>
       </div>
 
       <div className="deck-pair">
@@ -36,7 +39,7 @@ export default function CardsDeck({ days }) {
 
       <div className="deck-dots" role="tablist">
         {days.map((d, n) => (
-          <button key={d.date} className={'dot' + (n === idx ? ' on' : '')} aria-label={formatDay(d.date)} aria-selected={n === idx} onClick={() => setI(n)} />
+          <button key={d.date} className={'dot' + (n === idx ? ' on' : '')} aria-label={formatDay(d.date, lang)} aria-selected={n === idx} onClick={() => setI(n)} />
         ))}
       </div>
     </div>

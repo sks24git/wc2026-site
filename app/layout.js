@@ -1,6 +1,7 @@
 import './globals.css';
-import Link from 'next/link';
 import { Manrope, JetBrains_Mono } from 'next/font/google';
+import { Providers } from '@/app/providers';
+import Masthead from '@/components/Masthead';
 import Nav from '@/components/Nav';
 
 const manrope = Manrope({
@@ -28,31 +29,22 @@ export const viewport = {
   initialScale: 1,
 };
 
+// Пред-гидрационно ставим <html lang> из сохранённого выбора (только атрибут, без подмены текста).
+const langScript =
+  "(function(){try{var l=localStorage.getItem('wc2026_lang');if(l==='ru'||l==='en')document.documentElement.lang=l;}catch(e){}})();";
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="ru" className={`${manrope.variable} ${mono.variable}`}>
+    <html lang="ru" suppressHydrationWarning className={`${manrope.variable} ${mono.variable}`}>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: langScript }} />
+      </head>
       <body>
-        <a className="skip-link" href="#content">К содержимому</a>
-        <header className="masthead">
-          <div className="masthead-in">
-            <Link className="logo" href="/" translate="no" aria-label="ЧМ-26 · на главную">
-              <span className="logo-mark" aria-hidden="true">
-                <svg viewBox="0 0 100 100" width="28" height="28">
-                  <rect width="100" height="100" rx="24" fill="#10131A" />
-                  <polygon points="50,30 61.42,38.30 57.06,51.72 42.94,51.72 38.58,38.30" fill="#fff" stroke="#fff" strokeWidth="6.5" strokeLinejoin="round" />
-                  <path d="M 37 65 Q 50 76 63 65" fill="none" stroke="#fff" strokeWidth="6" strokeLinecap="round" />
-                </svg>
-              </span>
-              <span className="logo-text">
-                <span className="logo-num">ЧМ·26</span>
-                <span className="logo-sub">Паша vs AI</span>
-              </span>
-            </Link>
-            <Nav variant="top" />
-          </div>
-        </header>
-        <main id="content">{children}</main>
-        <Nav variant="bottom" />
+        <Providers>
+          <Masthead />
+          <main id="content">{children}</main>
+          <Nav variant="bottom" />
+        </Providers>
       </body>
     </html>
   );

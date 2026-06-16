@@ -53,6 +53,36 @@ a{color:inherit;text-decoration:none}
 .logo:hover .logo-num{color:var(--green)}
 .logo-sub{font-size:10px;color:var(--faint);letter-spacing:.18em;text-transform:uppercase;margin-top:2px}
 
+/* ── Шапка: правый блок (навигация + переключатели языка/зоны) ── */
+.masthead-right{display:flex;align-items:center;gap:10px;margin-left:auto}
+.settings-bar{display:flex;align-items:center;gap:2px}
+.dd{position:relative}
+.dd-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:34px;height:34px;border-radius:9px;border:1px solid transparent;
+  background:transparent;color:var(--muted);cursor:pointer;transition:color .15s,border-color .15s,background .15s;
+}
+.dd-btn:hover{color:var(--ink);background:var(--bg)}
+.dd-btn[aria-expanded="true"]{color:var(--ink);border-color:var(--hair-strong);background:#fff}
+.dd-menu{
+  position:absolute;right:0;top:calc(100% + 6px);z-index:60;min-width:184px;
+  background:#fff;border:1px solid var(--hair-strong);border-radius:12px;
+  box-shadow:0 10px 30px rgba(16,19,26,.12);padding:5px;
+  max-height:min(70vh,360px);overflow-y:auto;
+}
+.dd-menu-tz{min-width:212px}
+.dd-head{padding:6px 9px 5px;font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+.dd-item{
+  display:flex;align-items:center;gap:9px;width:100%;
+  padding:8px 9px;border:0;background:transparent;cursor:pointer;
+  font-family:inherit;font-size:13.5px;color:var(--ink);text-align:left;border-radius:8px;
+}
+.dd-item:hover{background:var(--bg)}
+.dd-item.on{font-weight:700}
+.dd-flag{font-size:16px;line-height:1;flex:none}
+.dd-label{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dd-check{flex:none;color:var(--ai)}
+
 /* ── Навигация ── */
 .nav-top{display:none}
 .nav-bottom{

@@ -1,44 +1,49 @@
+'use client';
 import { bets } from '@/lib/content';
 import { aggregate, money, rubFmt } from '@/lib/calc';
+import { sideLabel } from '@/lib/i18n';
+import { useLang, useT } from '@/app/providers';
 
 function pct(x) {
   return x === null ? '—' : (x > 0 ? '+' : '') + x.toFixed(0) + '%';
 }
 
 export default function BattleBoard() {
+  const lang = useLang();
+  const t = useT();
   const pasha = aggregate(bets.filter((b) => b.side === 'Паша'));
   const ai = aggregate(bets.filter((b) => b.side === 'AI'));
-  const leader = pasha.bal === ai.bal ? null : pasha.bal > ai.bal ? 'Паша' : 'AI';
+  const leaderSide = pasha.bal === ai.bal ? null : pasha.bal > ai.bal ? 'Паша' : 'AI';
   const gap = Math.abs(pasha.bal - ai.bal);
 
   const Side = ({ name, agg, cls }) => (
     <div className={'b-side ' + cls}>
       <div className="b-name">{name}</div>
-      <div className={'b-bal ' + (agg.bal > 0 ? 'pos' : agg.bal < 0 ? 'neg' : '')}>{money(agg.bal)}</div>
+      <div className={'b-bal ' + (agg.bal > 0 ? 'pos' : agg.bal < 0 ? 'neg' : '')}>{money(agg.bal, lang)}</div>
       <div className="b-sub">
-        банк <span className="num">{rubFmt(agg.bank)}</span>
+        {t('common.bank')} <span className="num">{rubFmt(agg.bank, lang)}</span>
       </div>
       <div className="b-sub2">
-        ROI <span className="num">{pct(agg.roi)}</span> · <span className="num">{agg.wins}/{agg.settled}</span>
-        {agg.pending > 0 && <> · в игре <span className="num">{agg.pending}</span></>}
+        {t('common.roi')} <span className="num">{pct(agg.roi)}</span> · <span className="num">{agg.wins}/{agg.settled}</span>
+        {agg.pending > 0 && <> · {t('common.inPlay')} <span className="num">{agg.pending}</span></>}
       </div>
     </div>
   );
 
   return (
-    <section aria-label="Батл Паша против AI">
+    <section aria-label={t('a11y.battle')}>
       <div className="battle">
-        <Side name="Паша" agg={pasha} cls="pasha" />
-        <div className="b-vs">vs</div>
-        <Side name="AI" agg={ai} cls="ai" />
+        <Side name={sideLabel('Паша', lang)} agg={pasha} cls="pasha" />
+        <div className="b-vs">{t('common.vs')}</div>
+        <Side name={sideLabel('AI', lang)} agg={ai} cls="ai" />
       </div>
       <div className="b-lead">
-        {leader ? (
-          <><span className="crown" aria-hidden="true">👑</span><strong>{leader}</strong> впереди на <strong>{money(gap)}</strong></>
+        {leaderSide ? (
+          <><span className="crown" aria-hidden="true">👑</span><strong>{sideLabel(leaderSide, lang)}</strong> {t('battle.aheadMid')} <strong>{money(gap, lang)}</strong></>
         ) : (
-          <>Счёт равный — всё решат ближайшие матчи</>
+          <>{t('battle.even')}</>
         )}
-        <span className="b-bank0"> · старт у каждого 100 000 ₽</span>
+        <span className="b-bank0">{t('battle.start')}</span>
       </div>
     </section>
   );

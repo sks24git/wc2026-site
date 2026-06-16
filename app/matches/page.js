@@ -2,11 +2,12 @@ import { matches } from '@/lib/content';
 import { bets } from '@/lib/content';
 import { sideTally } from '@/lib/calc';
 import MatchesView from '@/components/MatchesView';
+import Heading from '@/components/Heading';
 
 export const metadata = { title: 'Матчи · ЧМ-26' };
 
 export default function MatchesPage() {
-  // только сериализуемые поля для клиентского компонента (без markdown-разбора)
+  // только сериализуемые поля для клиентского компонента (двуязычные поля идут как {ru,en})
   const slim = matches.map((m) => {
     const linked = bets.filter((b) => b.matchId === m.id);
     const tally = linked.length
@@ -20,7 +21,7 @@ export default function MatchesPage() {
   });
   return (
     <div>
-      <h1>Матчи</h1>
+      <Heading tkey="matches.title" />
       <MatchesView matches={slim} />
     </div>
   );

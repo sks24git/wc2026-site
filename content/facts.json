@@ -1,12 +1,42 @@
 [
-  "4 ничьи за один игровой день ЧМ-2026 (Испания 0:0 Кабо-Верде, Бельгия 1:1 Египет, Саудовская 1:1 Уругвай, Иран 2:2 Новая Зеландия) — такого не было с 1958 года.",
-  "Новая Зеландия (№85 FIFA, без побед с июня 2025) дважды вела против Ирана и упустила первую в истории победу на ЧМ — дубль Элайджи Джаста, 2:2.",
-  "Сванберг забил через 13 секунд после выхода на замену — самый быстрый гол джокера в истории чемпионатов мира (Швеция 5:1 Тунис)",
-  "Амад Диалло вырвал победу Кот-д’Ивуару на 89:32 — самый поздний победный гол запасного в матче ЧМ 1:0 со времён пенальти Тотти в 2006-м",
-  "Кюрасао — самая маленькая страна в истории ЧМ — забила свой первый мяч на турнире, но пропустила семь: Германия 7:1",
-  "Эквадор шёл на серии 19 матчей без поражений — и оборвал её в дебютной игре турнира (0:1 от Кот-д’Ивуара)",
-  "Япония 16 матчей отбора подряд не пропускала в первом тайме — и снова ушла на перерыв всухую с Нидерландами (0:0), прежде чем матч взорвался на 4 гола",
-  "3 красные карточки в матче открытия Мексика — ЮАР — рекорд одного матча за всю историю чемпионатов мира",
-  "Жара: в Филадельфии рекордные +36°C — FIFA ввела обязательные водопаузы на 22-й минуте каждого тайма",
-  "Балогун оформил дубль на дебютном матче ЧМ — США разнесли 4:1 лучшую оборону отбора КОНМЕБОЛ"
+  {
+    "ru": "4 ничьи за один игровой день ЧМ-2026 (Испания 0:0 Кабо-Верде, Бельгия 1:1 Египет, Саудовская 1:1 Уругвай, Иран 2:2 Новая Зеландия) — такого не было с 1958 года.",
+    "en": "4 draws in a single matchday of WC2026 (Spain 0:0 Cape Verde, Belgium 1:1 Egypt, Saudi Arabia 1:1 Uruguay, Iran 2:2 New Zealand) — hasn't happened since 1958."
+  },
+  {
+    "ru": "Новая Зеландия (№85 FIFA, без побед с июня 2025) дважды вела против Ирана и упустила первую в истории победу на ЧМ — дубль Элайджи Джаста, 2:2.",
+    "en": "New Zealand (FIFA #85, no wins since June 2025) led Iran twice and missed out on their first-ever World Cup win — an Elijah Just brace, 2:2."
+  },
+  {
+    "ru": "Сванберг забил через 13 секунд после выхода на замену — самый быстрый гол джокера в истории чемпионатов мира (Швеция 5:1 Тунис)",
+    "en": "Svanberg scored 13 seconds after coming on as a substitute — the fastest goal by a substitute in World Cup history (Sweden 5:1 Tunisia)"
+  },
+  {
+    "ru": "Амад Диалло вырвал победу Кот-д’Ивуару на 89:32 — самый поздний победный гол запасного в матче ЧМ 1:0 со времён пенальти Тотти в 2006-м",
+    "en": "Amad Diallo snatched the win for Ivory Coast at 89:32 — the latest winning goal by a substitute in a 1:0 World Cup match since Totti's penalty in 2006"
+  },
+  {
+    "ru": "Кюрасао — самая маленькая страна в истории ЧМ — забила свой первый мяч на турнире, но пропустила семь: Германия 7:1",
+    "en": "Curaçao — the smallest country in World Cup history — scored their first-ever goal at the tournament, but conceded seven: Germany 7:1"
+  },
+  {
+    "ru": "Эквадор шёл на серии 19 матчей без поражений — и оборвал её в дебютной игре турнира (0:1 от Кот-д’Ивуара)",
+    "en": "Ecuador were on a 19-match unbeaten run — and ended it in their opening game of the tournament (0:1 to Ivory Coast)"
+  },
+  {
+    "ru": "Япония 16 матчей отбора подряд не пропускала в первом тайме — и снова ушла на перерыв всухую с Нидерландами (0:0), прежде чем матч взорвался на 4 гола",
+    "en": "Japan had gone 16 straight qualifying matches without conceding in the first half — and again went into the break with a clean sheet against the Netherlands (0:0), before the match exploded into 4 goals"
+  },
+  {
+    "ru": "3 красные карточки в матче открытия Мексика — ЮАР — рекорд одного матча за всю историю чемпионатов мира",
+    "en": "3 red cards in the opening match Mexico — South Africa — a single-match record in the entire history of the World Cup"
+  },
+  {
+    "ru": "Жара: в Филадельфии рекордные +36°C — FIFA ввела обязательные водопаузы на 22-й минуте каждого тайма",
+    "en": "Heat: a record +36°C in Philadelphia — FIFA introduced mandatory water breaks in the 22nd minute of each half"
+  },
+  {
+    "ru": "Балогун оформил дубль на дебютном матче ЧМ — США разнесли 4:1 лучшую оборону отбора КОНМЕБОЛ",
+    "en": "Balogun bagged a brace on his World Cup debut — the USA smashed 4:1 the best defence in CONMEBOL qualifying"
+  }
 ]

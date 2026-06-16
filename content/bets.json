@@ -2,8 +2,14 @@
   {
     "id": 1,
     "date": "2026-06-11",
-    "match": "Мексика — ЮАР",
-    "bet": "1Х + ТМ 2.5",
+    "match": {
+      "ru": "Мексика — ЮАР",
+      "en": "Mexico — South Africa"
+    },
+    "bet": {
+      "ru": "1Х + ТМ 2.5",
+      "en": "1X (home or draw) + Under 2.5"
+    },
     "type": "Экспресс",
     "odds": 1.73,
     "tier": "green",
@@ -14,8 +20,14 @@
   {
     "id": 2,
     "date": "2026-06-11",
-    "match": "Южная Корея — Чехия",
-    "bet": "Обе забьют",
+    "match": {
+      "ru": "Южная Корея — Чехия",
+      "en": "South Korea — Czechia"
+    },
+    "bet": {
+      "ru": "Обе забьют",
+      "en": "Both teams to score"
+    },
     "type": "ОЗ",
     "odds": 1.83,
     "tier": "green",
@@ -26,8 +38,14 @@
   {
     "id": 3,
     "date": "2026-06-11",
-    "match": "Южная Корея — Чехия",
-    "bet": "Волевая победа Кореи (хедж)",
+    "match": {
+      "ru": "Южная Корея — Чехия",
+      "en": "South Korea — Czechia"
+    },
+    "bet": {
+      "ru": "Волевая победа Кореи (хедж)",
+      "en": "South Korea comeback win (hedge)"
+    },
     "type": "Другое",
     "odds": 17,
     "tier": "red",
@@ -37,9 +55,15 @@
   {
     "id": 4,
     "date": "2026-06-12",
-    "match": "Канада — Босния",
+    "match": {
+      "ru": "Канада — Босния",
+      "en": "Canada — Bosnia"
+    },
     "matchId": "canada-bosnia",
-    "bet": "Обе забьют",
+    "bet": {
+      "ru": "Обе забьют",
+      "en": "Both teams to score"
+    },
     "type": "ОЗ",
     "odds": 2.1,
     "tier": "green",
@@ -50,9 +74,15 @@
   {
     "id": 14,
     "date": "2026-06-12",
-    "match": "Канада — Босния",
+    "match": {
+      "ru": "Канада — Босния",
+      "en": "Canada — Bosnia"
+    },
     "matchId": "canada-bosnia",
-    "bet": "Ничья",
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
     "type": "Х",
     "odds": 3.5,
     "tier": "yellow",
@@ -62,9 +92,15 @@
   {
     "id": 6,
     "date": "2026-06-12",
-    "match": "Канада — Босния",
+    "match": {
+      "ru": "Канада — Босния",
+      "en": "Canada — Bosnia"
+    },
     "matchId": "canada-bosnia",
-    "bet": "ТМ 2.5",
+    "bet": {
+      "ru": "ТМ 2.5",
+      "en": "Under 2.5"
+    },
     "type": "ТМ",
     "odds": 1.63,
     "tier": "green",
@@ -74,9 +110,15 @@
   {
     "id": 7,
     "date": "2026-06-12",
-    "match": "Канада — Босния",
+    "match": {
+      "ru": "Канада — Босния",
+      "en": "Canada — Bosnia"
+    },
     "matchId": "canada-bosnia",
-    "bet": "Победа Канады",
+    "bet": {
+      "ru": "Победа Канады",
+      "en": "Canada win"
+    },
     "type": "П1",
     "odds": 1.8,
     "tier": "green",
@@ -86,9 +128,15 @@
   {
     "id": 8,
     "date": "2026-06-12",
-    "match": "Канада — Босния",
+    "match": {
+      "ru": "Канада — Босния",
+      "en": "Canada — Bosnia"
+    },
     "matchId": "canada-bosnia",
-    "bet": "Точный счёт 1:0 (Канада)",
+    "bet": {
+      "ru": "Точный счёт 1:0 (Канада)",
+      "en": "Correct score 1:0 (Canada)"
+    },
     "type": "ТС",
     "odds": 6,
     "tier": "red",
@@ -98,9 +146,15 @@
   {
     "id": 9,
     "date": "2026-06-12",
-    "match": "Канада — Босния",
+    "match": {
+      "ru": "Канада — Босния",
+      "en": "Canada — Bosnia"
+    },
     "matchId": "canada-bosnia",
-    "bet": "1-й тайм 0:0",
+    "bet": {
+      "ru": "1-й тайм 0:0",
+      "en": "1st half 0:0"
+    },
     "type": "1Т-рынок",
     "odds": 2.2,
     "tier": "green",
@@ -110,9 +164,15 @@
   {
     "id": 5,
     "date": "2026-06-12",
-    "match": "США — Парагвай",
+    "match": {
+      "ru": "США — Парагвай",
+      "en": "USA — Paraguay"
+    },
     "matchId": "usa-paraguay",
-    "bet": "Обе забьют",
+    "bet": {
+      "ru": "Обе забьют",
+      "en": "Both teams to score"
+    },
     "type": "ОЗ",
     "odds": 2.14,
     "tier": "green",
@@ -123,9 +183,15 @@
   {
     "id": 15,
     "date": "2026-06-12",
-    "match": "США — Парагвай",
+    "match": {
+      "ru": "США — Парагвай",
+      "en": "USA — Paraguay"
+    },
     "matchId": "usa-paraguay",
-    "bet": "Ничья",
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
     "type": "Х",
     "odds": 3.2,
     "tier": "yellow",
@@ -135,9 +201,15 @@
   {
     "id": 16,
     "date": "2026-06-12",
-    "match": "США — Парагвай",
+    "match": {
+      "ru": "США — Парагвай",
+      "en": "USA — Paraguay"
+    },
     "matchId": "usa-paraguay",
-    "bet": "Пенальти в матче — да",
+    "bet": {
+      "ru": "Пенальти в матче — да",
+      "en": "Penalty in the match — yes"
+    },
     "type": "Другое",
     "odds": 2.6,
     "tier": "yellow",
@@ -147,9 +219,15 @@
   {
     "id": 10,
     "date": "2026-06-12",
-    "match": "США — Парагвай",
+    "match": {
+      "ru": "США — Парагвай",
+      "en": "USA — Paraguay"
+    },
     "matchId": "usa-paraguay",
-    "bet": "ТМ 2.5",
+    "bet": {
+      "ru": "ТМ 2.5",
+      "en": "Under 2.5"
+    },
     "type": "ТМ",
     "odds": 1.75,
     "tier": "green",
@@ -159,9 +237,15 @@
   {
     "id": 11,
     "date": "2026-06-12",
-    "match": "США — Парагвай",
+    "match": {
+      "ru": "США — Парагвай",
+      "en": "USA — Paraguay"
+    },
     "matchId": "usa-paraguay",
-    "bet": "1-й тайм 0:0",
+    "bet": {
+      "ru": "1-й тайм 0:0",
+      "en": "1st half 0:0"
+    },
     "type": "1Т-рынок",
     "odds": 2,
     "tier": "green",
@@ -171,9 +255,15 @@
   {
     "id": 12,
     "date": "2026-06-12",
-    "match": "США — Парагвай",
+    "match": {
+      "ru": "США — Парагвай",
+      "en": "USA — Paraguay"
+    },
     "matchId": "usa-paraguay",
-    "bet": "Точный счёт 1:0 (США)",
+    "bet": {
+      "ru": "Точный счёт 1:0 (США)",
+      "en": "Correct score 1:0 (USA)"
+    },
     "type": "ТС",
     "odds": 7,
     "tier": "red",
@@ -183,9 +273,15 @@
   {
     "id": 17,
     "date": "2026-06-12",
-    "match": "США — Парагвай",
+    "match": {
+      "ru": "США — Парагвай",
+      "en": "USA — Paraguay"
+    },
     "matchId": "usa-paraguay",
-    "bet": "Балогун забьёт (в любое время)",
+    "bet": {
+      "ru": "Балогун забьёт (в любое время)",
+      "en": "Balogun to score (anytime)"
+    },
     "type": "Игрок",
     "odds": 3.15,
     "tier": "yellow",
@@ -195,8 +291,14 @@
   {
     "id": 13,
     "date": "2026-06-12",
-    "match": "Канада + США",
-    "bet": "Экспресс · оба ТМ 2.5",
+    "match": {
+      "ru": "Канада + США",
+      "en": "Canada + USA"
+    },
+    "bet": {
+      "ru": "Экспресс · оба ТМ 2.5",
+      "en": "Accumulator (acca) · both Under 2.5"
+    },
     "type": "Экспресс",
     "odds": 2.85,
     "tier": "green",
@@ -204,1062 +306,1896 @@
     "status": "lose",
     "legs": [
       {
-        "m": "Канада — Босния",
-        "p": "ТМ 2.5"
+        "m": {
+          "ru": "Канада — Босния",
+          "en": "Canada — Bosnia"
+        },
+        "p": {
+          "ru": "ТМ 2.5",
+          "en": "Under 2.5"
+        }
       },
       {
-        "m": "США — Парагвай",
-        "p": "ТМ 2.5"
+        "m": {
+          "ru": "США — Парагвай",
+          "en": "USA — Paraguay"
+        },
+        "p": {
+          "ru": "ТМ 2.5",
+          "en": "Under 2.5"
+        }
       }
     ]
   },
   {
     "id": 18,
     "date": "2026-06-13",
-    "match": "Катар — Швейцария",
+    "match": {
+      "ru": "Катар — Швейцария",
+      "en": "Qatar — Switzerland"
+    },
     "matchId": "qatar-switzerland",
-    "bet": "Фора Швейцария −1",
+    "bet": {
+      "ru": "Фора Швейцария −1",
+      "en": "Handicap Switzerland −1"
+    },
     "type": "АФ",
     "odds": 1.7,
     "tier": "green",
     "side": "AI",
     "status": "lose",
-    "note": "Беззубый Катар (0 голов в 4 из 5) против обороны Аканджи-Эльведи: вопрос не кто, а на сколько."
+    "note": {
+      "ru": "Беззубый Катар (0 голов в 4 из 5) против обороны Аканджи-Эльведи: вопрос не кто, а на сколько.",
+      "en": "Toothless Qatar (0 goals in 4 of 5) against the Akanji-Elvedi defence: not a question of who, but by how many."
+    }
   },
   {
     "id": 19,
     "date": "2026-06-13",
-    "match": "Катар — Швейцария",
+    "match": {
+      "ru": "Катар — Швейцария",
+      "en": "Qatar — Switzerland"
+    },
     "matchId": "qatar-switzerland",
-    "bet": "Фора Швейцария −2",
+    "bet": {
+      "ru": "Фора Швейцария −2",
+      "en": "Handicap Switzerland −2"
+    },
     "type": "АФ",
     "odds": 2.9,
     "tier": "yellow",
     "side": "AI",
     "status": "lose",
-    "note": "Класс 14:2 vs 0 побед; Катар сядет и поплывёт во 2-й половине, как все слабые здесь."
+    "note": {
+      "ru": "Класс 14:2 vs 0 побед; Катар сядет и поплывёт во 2-й половине, как все слабые здесь.",
+      "en": "Class gap 14:2 vs 0 wins; Qatar will sit deep and fold in the second half, like every weak side here."
+    }
   },
   {
     "id": 20,
     "date": "2026-06-13",
-    "match": "Катар — Швейцария",
+    "match": {
+      "ru": "Катар — Швейцария",
+      "en": "Qatar — Switzerland"
+    },
     "matchId": "qatar-switzerland",
-    "bet": "Точный счёт 0:2 (Швейцария)",
+    "bet": {
+      "ru": "Точный счёт 0:2 (Швейцария)",
+      "en": "Correct score 0:2 (Switzerland)"
+    },
     "type": "ТС",
     "odds": 6.5,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": "Перемалывающий Якин редко даёт больше двух, а Катар в ответ молчит."
+    "note": {
+      "ru": "Перемалывающий Якин редко даёт больше двух, а Катар в ответ молчит.",
+      "en": "Yakin's grinding side rarely puts up more than two, and Qatar stay silent in reply."
+    }
   },
   {
     "id": 21,
     "date": "2026-06-14",
-    "match": "Бразилия — Марокко",
+    "match": {
+      "ru": "Бразилия — Марокко",
+      "en": "Brazil — Morocco"
+    },
     "matchId": "brazil-morocco",
-    "bet": "ТМ 2.5",
+    "bet": {
+      "ru": "ТМ 2.5",
+      "en": "Under 2.5"
+    },
     "type": "ТМ",
     "odds": 1.67,
     "tier": "green",
     "side": "AI",
     "status": "win",
-    "note": "✓ 1:1, всего 2 гола. Разворот на низ по составам сработал — тотал взяли."
+    "note": {
+      "ru": "✓ 1:1, всего 2 гола. Разворот на низ по составам сработал — тотал взяли.",
+      "en": "✓ 1:1, just 2 goals. The pivot to the under on the lineups paid off — total landed."
+    }
   },
   {
     "id": 22,
     "date": "2026-06-14",
-    "match": "Бразилия — Марокко",
+    "match": {
+      "ru": "Бразилия — Марокко",
+      "en": "Brazil — Morocco"
+    },
     "matchId": "brazil-morocco",
-    "bet": "Марокко не проиграет (X2)",
+    "bet": {
+      "ru": "Марокко не проиграет (X2)",
+      "en": "Morocco not to lose (X2)"
+    },
     "type": "Х2",
     "odds": 2.3,
     "tier": "green",
     "side": "AI",
     "status": "win",
-    "note": "✓ Ничья 1:1 — Марокко не проиграло. Чемпион Африки 22 матча без поражений, держит."
+    "note": {
+      "ru": "✓ Ничья 1:1 — Марокко не проиграло. Чемпион Африки 22 матча без поражений, держит.",
+      "en": "✓ Draw 1:1 — Morocco didn't lose. The African champions, 22 matches unbeaten, held firm."
+    }
   },
   {
     "id": 23,
     "date": "2026-06-14",
-    "match": "Бразилия — Марокко",
+    "match": {
+      "ru": "Бразилия — Марокко",
+      "en": "Brazil — Morocco"
+    },
     "matchId": "brazil-morocco",
-    "bet": "Точный счёт 1:0 (Бразилия)",
+    "bet": {
+      "ru": "Точный счёт 1:0 (Бразилия)",
+      "en": "Correct score 1:0 (Brazil)"
+    },
     "type": "ТС",
     "odds": 6.5,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": "Мимо уже к перерыву: Марокко забило (Сайбари), 1:0 невозможно. Сомнение «без форварда не ответят» наказано."
+    "note": {
+      "ru": "Мимо уже к перерыву: Марокко забило (Сайбари), 1:0 невозможно. Сомнение «без форварда не ответят» наказано.",
+      "en": "Dead by half-time: Morocco scored (Saibari), 1:0 impossible. The doubt that \"they won't reply without a striker\" got punished."
+    }
   },
   {
     "id": 24,
     "date": "2026-06-14",
-    "match": "Гаити — Шотландия",
+    "match": {
+      "ru": "Гаити — Шотландия",
+      "en": "Haiti — Scotland"
+    },
     "matchId": "haiti-scotland",
-    "bet": "Победа Шотландии",
+    "bet": {
+      "ru": "Победа Шотландии",
+      "en": "Scotland win"
+    },
     "type": "П2",
     "odds": 1.6,
     "tier": "green",
     "side": "AI",
     "status": "win",
-    "note": "✓ 0:1, Шотландия на классе (Макгинн 28'). Два форварда + МакТоминай дожали."
+    "note": {
+      "ru": "✓ 0:1, Шотландия на классе (Макгинн 28'). Два форварда + МакТоминай дожали.",
+      "en": "✓ 0:1, Scotland on class (McGinn 28'). Two strikers + McTominay saw it through."
+    }
   },
   {
     "id": 25,
     "date": "2026-06-14",
-    "match": "Гаити — Шотландия",
+    "match": {
+      "ru": "Гаити — Шотландия",
+      "en": "Haiti — Scotland"
+    },
     "matchId": "haiti-scotland",
-    "bet": "Фора Шотландия −1.5",
+    "bet": {
+      "ru": "Фора Шотландия −1.5",
+      "en": "Handicap Scotland −1.5"
+    },
     "type": "АФ",
     "odds": 2.6,
     "tier": "yellow",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 0:1 — выиграли в один мяч. Правильно держали жёлтой и НЕ возвели в зелёный: на старте ЧМ фавориты не возят."
+    "note": {
+      "ru": "✗ 0:1 — выиграли в один мяч. Правильно держали жёлтой и НЕ возвели в зелёный: на старте ЧМ фавориты не возят.",
+      "en": "✗ 0:1 — won by a single goal. Right call to keep it yellow and NOT bump it to green: favourites don't run up the score on opening day of a World Cup."
+    }
   },
   {
     "id": 26,
     "date": "2026-06-14",
-    "match": "Гаити — Шотландия",
+    "match": {
+      "ru": "Гаити — Шотландия",
+      "en": "Haiti — Scotland"
+    },
     "matchId": "haiti-scotland",
-    "bet": "Точный счёт 0:2 (Шотландия)",
+    "bet": {
+      "ru": "Точный счёт 0:2 (Шотландия)",
+      "en": "Correct score 0:2 (Scotland)"
+    },
     "type": "ТС",
     "odds": 7,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 0:1 — настрелять не смогли, МакТоминай в штангу."
+    "note": {
+      "ru": "✗ 0:1 — настрелять не смогли, МакТоминай в штангу.",
+      "en": "✗ 0:1 — couldn't pile them on, McTominay hit the post."
+    }
   },
   {
     "id": 27,
     "date": "2026-06-14",
-    "match": "Австралия — Турция",
+    "match": {
+      "ru": "Австралия — Турция",
+      "en": "Australia — Turkey"
+    },
     "matchId": "australia-turkey",
-    "bet": "ТМ 2.5",
+    "bet": {
+      "ru": "ТМ 2.5",
+      "en": "Under 2.5"
+    },
     "type": "ТМ",
     "odds": 1.85,
     "tier": "green",
     "side": "AI",
     "status": "win",
-    "note": "✓ 2:0, всего 2 гола. Без Йылдыза креатива не хватило — низовой матч, как и ждали."
+    "note": {
+      "ru": "✓ 2:0, всего 2 гола. Без Йылдыза креатива не хватило — низовой матч, как и ждали.",
+      "en": "✓ 2:0, just 2 goals. Without Yıldız there wasn't enough creativity — a low-scoring match, exactly as expected."
+    }
   },
   {
     "id": 28,
     "date": "2026-06-14",
-    "match": "Австралия — Турция",
+    "match": {
+      "ru": "Австралия — Турция",
+      "en": "Australia — Turkey"
+    },
     "matchId": "australia-turkey",
-    "bet": "Ничья",
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
     "type": "Х",
     "odds": 3.3,
     "tier": "yellow",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 2:0 Австралия — поймали Турцию на контратаках (Иранкунда), ничьей не вышло."
+    "note": {
+      "ru": "✗ 2:0 Австралия — поймали Турцию на контратаках (Иранкунда), ничьей не вышло.",
+      "en": "✗ 2:0 Australia — they caught Turkey on the counter (Irankunda), no draw materialised."
+    }
   },
   {
     "id": 29,
     "date": "2026-06-14",
-    "match": "Австралия — Турция",
+    "match": {
+      "ru": "Австралия — Турция",
+      "en": "Australia — Turkey"
+    },
     "matchId": "australia-turkey",
-    "bet": "Точный счёт 1:1",
+    "bet": {
+      "ru": "Точный счёт 1:1",
+      "en": "Correct score 1:1"
+    },
     "type": "ТС",
     "odds": 6.5,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 2:0 — Турция вообще не забила."
+    "note": {
+      "ru": "✗ 2:0 — Турция вообще не забила.",
+      "en": "✗ 2:0 — Turkey didn't even score."
+    }
   },
   {
     "id": 30,
     "date": "2026-06-14",
-    "match": "Система · ТС 1-х таймов 2/4",
-    "bet": "1-й тайм 0:0 · все 4 матча",
+    "match": {
+      "ru": "Система · ТС 1-х таймов 2/4",
+      "en": "System · first-half correct scores 2/4"
+    },
+    "bet": {
+      "ru": "1-й тайм 0:0 · все 4 матча",
+      "en": "1st half 0:0 · all 4 matches"
+    },
     "type": "Система",
     "odds": 6,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 0 из 4: ни одного 1Т 0:0 (Катар 0:1, Бразилия 1:1, Гаити 0:1, Австралия 1:0). Нужно было ≥2.",
+    "note": {
+      "ru": "✗ 0 из 4: ни одного 1Т 0:0 (Катар 0:1, Бразилия 1:1, Гаити 0:1, Австралия 1:0). Нужно было ≥2.",
+      "en": "✗ 0 of 4: not a single 1st-half 0:0 (Qatar 0:1, Brazil 1:1, Haiti 0:1, Australia 1:0). Needed ≥2."
+    },
     "legs": [
       {
-        "m": "Катар — Швейцария",
-        "p": "0:0"
+        "m": {
+          "ru": "Катар — Швейцария",
+          "en": "Qatar — Switzerland"
+        },
+        "p": {
+          "ru": "0:0",
+          "en": "0:0"
+        }
       },
       {
-        "m": "Бразилия — Марокко",
-        "p": "0:0"
+        "m": {
+          "ru": "Бразилия — Марокко",
+          "en": "Brazil — Morocco"
+        },
+        "p": {
+          "ru": "0:0",
+          "en": "0:0"
+        }
       },
       {
-        "m": "Гаити — Шотландия",
-        "p": "0:0"
+        "m": {
+          "ru": "Гаити — Шотландия",
+          "en": "Haiti — Scotland"
+        },
+        "p": {
+          "ru": "0:0",
+          "en": "0:0"
+        }
       },
       {
-        "m": "Австралия — Турция",
-        "p": "0:0"
+        "m": {
+          "ru": "Австралия — Турция",
+          "en": "Australia — Turkey"
+        },
+        "p": {
+          "ru": "0:0",
+          "en": "0:0"
+        }
       }
     ]
   },
   {
     "id": 31,
     "date": "2026-06-14",
-    "match": "Система · точные счета 2/4",
-    "bet": "точные счета",
+    "match": {
+      "ru": "Система · точные счета 2/4",
+      "en": "System · correct scores 2/4"
+    },
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
     "type": "Система",
     "odds": 48,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 0 из 4 точных (0:2/2:1/0:2/1:1 — все мимо). Точные счета снова −EV.",
+    "note": {
+      "ru": "✗ 0 из 4 точных (0:2/2:1/0:2/1:1 — все мимо). Точные счета снова −EV.",
+      "en": "✗ 0 of 4 correct (0:2/2:1/0:2/1:1 — all missed). Correct scores −EV again."
+    },
     "legs": [
       {
-        "m": "Катар — Швейцария",
-        "p": "0:2"
+        "m": {
+          "ru": "Катар — Швейцария",
+          "en": "Qatar — Switzerland"
+        },
+        "p": {
+          "ru": "0:2",
+          "en": "0:2"
+        }
       },
       {
-        "m": "Бразилия — Марокко",
-        "p": "2:1"
+        "m": {
+          "ru": "Бразилия — Марокко",
+          "en": "Brazil — Morocco"
+        },
+        "p": {
+          "ru": "2:1",
+          "en": "2:1"
+        }
       },
       {
-        "m": "Гаити — Шотландия",
-        "p": "0:2"
+        "m": {
+          "ru": "Гаити — Шотландия",
+          "en": "Haiti — Scotland"
+        },
+        "p": {
+          "ru": "0:2",
+          "en": "0:2"
+        }
       },
       {
-        "m": "Австралия — Турция",
-        "p": "1:1"
+        "m": {
+          "ru": "Австралия — Турция",
+          "en": "Australia — Turkey"
+        },
+        "p": {
+          "ru": "1:1",
+          "en": "1:1"
+        }
       }
     ]
   },
   {
     "id": 32,
     "date": "2026-06-13",
-    "match": "Катар — Швейцария",
+    "match": {
+      "ru": "Катар — Швейцария",
+      "en": "Qatar — Switzerland"
+    },
     "matchId": "qatar-switzerland",
-    "bet": "Швейцария победит всухую",
+    "bet": {
+      "ru": "Швейцария победит всухую",
+      "en": "Switzerland to win and keep a clean sheet"
+    },
     "type": "Другое",
     "odds": 1.82,
     "tier": "green",
     "side": "Паша",
     "status": "lose",
-    "note": "Ловушка буков с раскруткой тотала. Первый матч где водопой оправдан — утро, 30°, открытый стадион. Голов не будет."
+    "note": {
+      "ru": "Ловушка буков с раскруткой тотала. Первый матч где водопой оправдан — утро, 30°, открытый стадион. Голов не будет.",
+      "en": "A bookmaker trap with the total juiced up. The first match where a low-scorer is justified — morning, 30°, open stadium. There won't be goals."
+    }
   },
   {
     "id": 33,
     "date": "2026-06-13",
-    "match": "Катар — Швейцария",
+    "match": {
+      "ru": "Катар — Швейцария",
+      "en": "Qatar — Switzerland"
+    },
     "matchId": "qatar-switzerland",
-    "bet": "Точный счёт 0:2 (Швейцария)",
+    "bet": {
+      "ru": "Точный счёт 0:2 (Швейцария)",
+      "en": "Correct score 0:2 (Switzerland)"
+    },
     "type": "ТС",
     "odds": 6.5,
     "tier": "red",
     "side": "Паша",
     "status": "lose",
-    "note": "Жду 0:2 — совпало с AI, взял одинаром."
+    "note": {
+      "ru": "Жду 0:2 — совпало с AI, взял одинаром.",
+      "en": "Expecting 0:2 — lined up with AI, took it as a single."
+    }
   },
   {
     "id": 34,
     "date": "2026-06-14",
-    "match": "Бразилия — Марокко",
+    "match": {
+      "ru": "Бразилия — Марокко",
+      "en": "Brazil — Morocco"
+    },
     "matchId": "brazil-morocco",
-    "bet": "Обе забьют",
+    "bet": {
+      "ru": "Обе забьют",
+      "en": "Both teams to score"
+    },
     "type": "ОЗ",
     "odds": 2.1,
     "tier": "green",
     "side": "Паша",
     "status": "win",
-    "note": "✓ Зашло к перерыву: Сайбари + Винисиус. «Креатив важнее состава» — Марокко забило и без чистого форварда. Прямой выигрыш узкого спора с AI."
+    "note": {
+      "ru": "✓ Зашло к перерыву: Сайбари + Винисиус. «Креатив важнее состава» — Марокко забило и без чистого форварда. Прямой выигрыш узкого спора с AI.",
+      "en": "✓ Landed by the break: Saïbari + Vinícius. \"Creativity over the lineup\" — Morocco scored even without an out-and-out striker. A straight win in the narrow head-to-head with AI."
+    }
   },
   {
     "id": 35,
     "date": "2026-06-14",
-    "match": "Гаити — Шотландия",
+    "match": {
+      "ru": "Гаити — Шотландия",
+      "en": "Haiti — Scotland"
+    },
     "matchId": "haiti-scotland",
-    "bet": "Победа Шотландии",
+    "bet": {
+      "ru": "Победа Шотландии",
+      "en": "Scotland win"
+    },
     "type": "П2",
     "odds": 1.55,
     "tier": "green",
     "side": "Паша",
     "status": "win",
-    "note": "✓ 0:1 — ровно «скучная победа на классе», как и говорил."
+    "note": {
+      "ru": "✓ 0:1 — ровно «скучная победа на классе», как и говорил.",
+      "en": "✓ 0:1 — exactly the \"dull win on class\" called for."
+    }
   },
   {
     "id": 36,
     "date": "2026-06-14",
-    "match": "Австралия — Турция",
+    "match": {
+      "ru": "Австралия — Турция",
+      "en": "Australia — Turkey"
+    },
     "matchId": "australia-turkey",
-    "bet": "Победа Турции",
+    "bet": {
+      "ru": "Победа Турции",
+      "en": "Turkey win"
+    },
     "type": "П2",
     "odds": 1.72,
     "tier": "green",
     "side": "Паша",
     "status": "lose",
-    "note": "✗ Турция проиграла 0:2. Ставка на разгром 0:3 не зашла — AI забрал очной спор на ТМ."
+    "note": {
+      "ru": "✗ Турция проиграла 0:2. Ставка на разгром 0:3 не зашла — AI забрал очной спор на ТМ.",
+      "en": "✗ Turkey lost 0:2. The bet on a 0:3 rout didn't land — AI took the head-to-head on the Under."
+    }
   },
   {
     "id": 37,
     "date": "2026-06-14",
-    "match": "Бразилия — Марокко",
+    "match": {
+      "ru": "Бразилия — Марокко",
+      "en": "Brazil — Morocco"
+    },
     "matchId": "brazil-morocco",
-    "bet": "Точный счёт 1:1",
+    "bet": {
+      "ru": "Точный счёт 1:1",
+      "en": "Correct score 1:1"
+    },
     "type": "ТС",
     "odds": 6,
     "tier": "red",
     "side": "Паша",
     "status": "win",
-    "note": "✓ В точку! 1:1 — Паша держал этот счёт «от смысла матча» с самого начала. И нога зашла в его систему 2/4."
+    "note": {
+      "ru": "✓ В точку! 1:1 — Паша держал этот счёт «от смысла матча» с самого начала. И нога зашла в его систему 2/4.",
+      "en": "✓ Bang on! 1:1 — Pasha held this score \"off the feel of the match\" from the very start. And the leg landed in his system 3/4."
+    }
   },
   {
     "id": 38,
     "date": "2026-06-14",
-    "match": "Гаити — Шотландия",
+    "match": {
+      "ru": "Гаити — Шотландия",
+      "en": "Haiti — Scotland"
+    },
     "matchId": "haiti-scotland",
-    "bet": "Точный счёт 0:1 (Шотландия)",
+    "bet": {
+      "ru": "Точный счёт 0:1 (Шотландия)",
+      "en": "Correct score 0:1 (Scotland)"
+    },
     "type": "ТС",
     "odds": 5.5,
     "tier": "red",
     "side": "Паша",
     "status": "win",
-    "note": "✓ В ТОЧКУ 0:1! Третий точный счёт Паши на турнире (1:1 Бразилия, 0:1 Гаити). Нога в систему 2/4."
+    "note": {
+      "ru": "✓ В ТОЧКУ 0:1! Третий точный счёт Паши на турнире (1:1 Бразилия, 0:1 Гаити). Нога в систему 2/4.",
+      "en": "✓ BANG ON 0:1! Pasha's third correct score of the tournament (1:1 Brazil, 0:1 Haiti). A leg into the system 3/4."
+    }
   },
   {
     "id": 39,
     "date": "2026-06-14",
-    "match": "Австралия — Турция",
+    "match": {
+      "ru": "Австралия — Турция",
+      "en": "Australia — Turkey"
+    },
     "matchId": "australia-turkey",
-    "bet": "Точный счёт 0:3 (Турция)",
+    "bet": {
+      "ru": "Точный счёт 0:3 (Турция)",
+      "en": "Correct score 0:3 (Turkey)"
+    },
     "type": "ТС",
     "odds": 15,
     "tier": "red",
     "side": "Паша",
     "status": "lose",
-    "note": "✗ 2:0 Австралия — Турция не раскатала, а проиграла."
+    "note": {
+      "ru": "✗ 2:0 Австралия — Турция не раскатала, а проиграла.",
+      "en": "✗ 2:0 Australia — Turkey didn't run riot, they lost."
+    }
   },
   {
     "id": 40,
     "date": "2026-06-14",
-    "match": "Система · точные счета 2/4",
-    "bet": "точные счета",
+    "match": {
+      "ru": "Система · точные счета 2/4",
+      "en": "System · correct scores 2/4"
+    },
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
     "type": "Система",
     "odds": 5.5,
     "stake": 500,
     "tier": "red",
     "side": "Паша",
     "status": "win",
-    "note": "✓ ЗАШЛА 2/4! Угаданы Бразилия 1:1 и Гаити 0:1. Реальная выплата системы: из 6 даблов сыграл один — 6.0×5.5=33; ставка 500 на 6 даблов → возврат ~2750, профит +2250 (эфф. кэф 5.5, не «×55»).",
+    "note": {
+      "ru": "✓ ЗАШЛА 2/4! Угаданы Бразилия 1:1 и Гаити 0:1. Реальная выплата системы: из 6 даблов сыграл один — 6.0×5.5=33; ставка 500 на 6 даблов → возврат ~2750, профит +2250 (эфф. кэф 5.5, не «×55»).",
+      "en": "✓ LANDED 2/4! Brazil 1:1 and Haiti 0:1 nailed. Actual system payout: of 6 doubles, one came in — 6.0×5.5=33; stake of 500 across 6 doubles → return ~2750, profit +2250 (effective odds 5.5, not \"×55\")."
+    },
     "legs": [
       {
-        "m": "Катар — Швейцария",
-        "p": "0:2"
+        "m": {
+          "ru": "Катар — Швейцария",
+          "en": "Qatar — Switzerland"
+        },
+        "p": {
+          "ru": "0:2",
+          "en": "0:2"
+        }
       },
       {
-        "m": "Бразилия — Марокко",
-        "p": "1:1"
+        "m": {
+          "ru": "Бразилия — Марокко",
+          "en": "Brazil — Morocco"
+        },
+        "p": {
+          "ru": "1:1",
+          "en": "1:1"
+        }
       },
       {
-        "m": "Гаити — Шотландия",
-        "p": "0:1"
+        "m": {
+          "ru": "Гаити — Шотландия",
+          "en": "Haiti — Scotland"
+        },
+        "p": {
+          "ru": "0:1",
+          "en": "0:1"
+        }
       },
       {
-        "m": "Австралия — Турция",
-        "p": "0:3"
+        "m": {
+          "ru": "Австралия — Турция",
+          "en": "Australia — Turkey"
+        },
+        "p": {
+          "ru": "0:3",
+          "en": "0:3"
+        }
       }
     ]
   },
   {
     "id": 41,
     "date": "2026-06-14",
-    "match": "Германия — Кюрасао",
+    "match": {
+      "ru": "Германия — Кюрасао",
+      "en": "Germany — Curaçao"
+    },
     "matchId": "germany-curacao",
-    "bet": "Обе забьют — нет",
+    "bet": {
+      "ru": "Обе забьют — нет",
+      "en": "Both teams to score — no"
+    },
     "type": "ОЗ",
     "odds": 1.43,
     "tier": "green",
     "side": "AI",
     "status": "lose",
-    "note": "✗ Кюрасао забило первый гол на ЧМ в истории (Коменсия 21'), потом пропустило 6 (7:1). Урок: в матче, где сами ждём разгром, зелёный надо ставить НА разгром (фора), а не на ОЗ-нет — Кюрасао забивало и в спаррингах (1:5, 1:4)."
+    "note": {
+      "ru": "✗ Кюрасао забило первый гол на ЧМ в истории (Коменсия 21'), потом пропустило 6 (7:1). Урок: в матче, где сами ждём разгром, зелёный надо ставить НА разгром (фора), а не на ОЗ-нет — Кюрасао забивало и в спаррингах (1:5, 1:4).",
+      "en": "✗ Curaçao scored their first ever World Cup goal (Comenencia 21'), then conceded 6 (7:1). Lesson: in a match where we ourselves expect a rout, the green should go ON the rout (handicap), not on BTTS-no — Curaçao were scoring in friendlies too (1:5, 1:4)."
+    }
   },
   {
     "id": 42,
     "date": "2026-06-14",
-    "match": "Германия — Кюрасао",
+    "match": {
+      "ru": "Германия — Кюрасао",
+      "en": "Germany — Curaçao"
+    },
     "matchId": "germany-curacao",
-    "bet": "Фора Германия −2.5",
+    "bet": {
+      "ru": "Фора Германия −2.5",
+      "en": "Handicap Germany −2.5"
+    },
     "type": "АФ",
     "odds": 1.47,
     "tier": "yellow",
     "side": "AI",
     "status": "win",
-    "note": "✓ 7:1 — блоковый дебютант рассыпался ровно как в спаррингах. Разгром-лин был верным чтением (жаль, не зелёным)."
+    "note": {
+      "ru": "✓ 7:1 — блоковый дебютант рассыпался ровно как в спаррингах. Разгром-лин был верным чтением (жаль, не зелёным).",
+      "en": "✓ 7:1 — the low-block debutant collapsed exactly like in the friendlies. The blowout line was the right read (a shame we didn't make it green)."
+    }
   },
   {
     "id": 43,
     "date": "2026-06-14",
-    "match": "Германия — Кюрасао",
+    "match": {
+      "ru": "Германия — Кюрасао",
+      "en": "Germany — Curaçao"
+    },
     "matchId": "germany-curacao",
-    "bet": "Точный счёт 3:0 (Германия)",
+    "bet": {
+      "ru": "Точный счёт 3:0 (Германия)",
+      "en": "Correct score 3:0 (Germany)"
+    },
     "type": "ТС",
     "odds": 6.4,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 7:1 — недооценили масштаб разгрома (анти-блоуаут-дисциплина тут сыграла против нас). Точные счета снова −EV."
+    "note": {
+      "ru": "✗ 7:1 — недооценили масштаб разгрома (анти-блоуаут-дисциплина тут сыграла против нас). Точные счета снова −EV.",
+      "en": "✗ 7:1 — we underestimated the scale of the rout (the anti-blowout discipline worked against us here). Correct scores −EV yet again."
+    }
   },
   {
     "id": 44,
     "date": "2026-06-14",
-    "match": "Нидерланды — Япония",
+    "match": {
+      "ru": "Нидерланды — Япония",
+      "en": "Netherlands — Japan"
+    },
     "matchId": "netherlands-japan",
-    "bet": "ТМ 2.5",
+    "bet": {
+      "ru": "ТМ 2.5",
+      "en": "Under 2.5"
+    },
     "type": "ТМ",
     "odds": 1.89,
     "tier": "green",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 2:2 — 4 гола. 1Т 0:0, но во 2-м тайме обе «обескровленные» атаки взорвались на 4 мяча за 38 минут. Урок: на ЧМ даже урезанный состав раскрывается, когда матч поехал."
+    "note": {
+      "ru": "✗ 2:2 — 4 гола. 1Т 0:0, но во 2-м тайме обе «обескровленные» атаки взорвались на 4 мяча за 38 минут. Урок: на ЧМ даже урезанный состав раскрывается, когда матч поехал.",
+      "en": "✗ 2:2 — 4 goals. 0:0 at the break, but in the second half both \"bled-dry\" attacks exploded for 4 goals in 38 minutes. Lesson: at the World Cup even a trimmed-down side opens up once the match gets going."
+    }
   },
   {
     "id": 45,
     "date": "2026-06-14",
-    "match": "Нидерланды — Япония",
+    "match": {
+      "ru": "Нидерланды — Япония",
+      "en": "Netherlands — Japan"
+    },
     "matchId": "netherlands-japan",
-    "bet": "Ничья",
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
     "type": "Х",
     "odds": 3.65,
     "tier": "yellow",
     "side": "AI",
     "status": "win",
-    "note": "✓ 2:2! Холодный read «вязкий старт Кумана + железная оборона Японии → ничья как value» лёг в десятку. Главный исход «развязки» — наш."
+    "note": {
+      "ru": "✓ 2:2! Холодный read «вязкий старт Кумана + железная оборона Японии → ничья как value» лёг в десятку. Главный исход «развязки» — наш.",
+      "en": "✓ 2:2! The cool read — \"Koeman's sluggish start + Japan's iron defence → draw as value\" — landed dead-on. The headline outcome of the swing was ours."
+    }
   },
   {
     "id": 46,
     "date": "2026-06-14",
-    "match": "Нидерланды — Япония",
+    "match": {
+      "ru": "Нидерланды — Япония",
+      "en": "Netherlands — Japan"
+    },
     "matchId": "netherlands-japan",
-    "bet": "Точный счёт 1:1",
+    "bet": {
+      "ru": "Точный счёт 1:1",
+      "en": "Correct score 1:1"
+    },
     "type": "ТС",
     "odds": 6,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 2:2 — направление (ничья) угадали, счёт мимо на один обмен голами."
+    "note": {
+      "ru": "✗ 2:2 — направление (ничья) угадали, счёт мимо на один обмен голами.",
+      "en": "✗ 2:2 — got the direction right (draw), missed the score by one exchange of goals."
+    }
   },
   {
     "id": 47,
     "date": "2026-06-15",
-    "match": "Кот-д’Ивуар — Эквадор",
+    "match": {
+      "ru": "Кот-д’Ивуар — Эквадор",
+      "en": "Ivory Coast — Ecuador"
+    },
     "matchId": "ivorycoast-ecuador",
-    "bet": "Обе забьют — нет",
+    "bet": {
+      "ru": "Обе забьют — нет",
+      "en": "Both teams to score — no"
+    },
     "type": "ОЗ",
     "odds": 1.62,
     "tier": "green",
     "side": "AI",
     "status": "win",
-    "note": "✓ 1:0 — обе НЕ забили. Две топ-обороны + у хозяев нет чистой девятки сошлись в точку: Эквадор трижды попал в каркас (Йебоа, Минда, Вали), но не пробил, КИ дожали на 90' (Амад Диалло). ОЗ-нет — прямое выражение тезиса, главный зелёный матча взят."
+    "note": {
+      "ru": "✓ 1:0 — обе НЕ забили. Две топ-обороны + у хозяев нет чистой девятки сошлись в точку: Эквадор трижды попал в каркас (Йебоа, Минда, Вали), но не пробил, КИ дожали на 90' (Амад Диалло). ОЗ-нет — прямое выражение тезиса, главный зелёный матча взят.",
+      "en": "✓ 1:0 — both did NOT score. Two top defences + no genuine No. 9 for the hosts met exactly as projected: Ecuador hit the woodwork three times (Yeboah, Minda, Valle) but couldn't break through, and Ivory Coast nicked it on the 90th (Amad Diallo). BTTS-no was the direct expression of the thesis — the headline green of the match landed."
+    }
   },
   {
     "id": 48,
     "date": "2026-06-15",
-    "match": "Кот-д’Ивуар — Эквадор",
+    "match": {
+      "ru": "Кот-д’Ивуар — Эквадор",
+      "en": "Ivory Coast — Ecuador"
+    },
     "matchId": "ivorycoast-ecuador",
-    "bet": "Ничья",
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
     "type": "Х",
     "odds": 2.75,
     "tier": "yellow",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 1:0 — ничья держалась до 89:32, и тут Амад Диалло вышел с замены и вырвал победу. Эквадор (11 ничьих в серии) был в одном свистке от очка, но супер-поздний гол на ЧМ (тренд +7-10 мин) снёс нашу X. Близко, но мимо."
+    "note": {
+      "ru": "✗ 1:0 — ничья держалась до 89:32, и тут Амад Диалло вышел с замены и вырвал победу. Эквадор (11 ничьих в серии) был в одном свистке от очка, но супер-поздний гол на ЧМ (тренд +7-10 мин) снёс нашу X. Близко, но мимо.",
+      "en": "✗ 1:0 — the draw held until 89:32, then Amad Diallo came off the bench and snatched the win. Ecuador (11 draws in a row) were one whistle away from a point, but a super-late World Cup goal (the +7–10 min trend) wiped out our X. Close, but no."
+    }
   },
   {
     "id": 49,
     "date": "2026-06-15",
-    "match": "Кот-д’Ивуар — Эквадор",
+    "match": {
+      "ru": "Кот-д’Ивуар — Эквадор",
+      "en": "Ivory Coast — Ecuador"
+    },
     "matchId": "ivorycoast-ecuador",
-    "bet": "Точный счёт 0:0",
+    "bet": {
+      "ru": "Точный счёт 0:0",
+      "en": "Correct score 0:0"
+    },
     "type": "ТС",
     "odds": 6.1,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 1:0 — 0:0 продержался 89 минут (1Т 0:0 был), но Диалло на 90' сорвал чистый ноль. Направление (низ, ноль до концовки) угадали, точный счёт мимо на один поздний гол."
+    "note": {
+      "ru": "✗ 1:0 — 0:0 продержался 89 минут (1Т 0:0 был), но Диалло на 90' сорвал чистый ноль. Направление (низ, ноль до концовки) угадали, точный счёт мимо на один поздний гол.",
+      "en": "✗ 1:0 — the 0:0 held for 89 minutes (first half was 0:0), but Diallo on the 90th broke the clean sheet. We got the direction right (low, scoreless until the death), missed the exact score by one late goal."
+    }
   },
   {
     "id": 50,
     "date": "2026-06-15",
-    "match": "Швеция — Тунис",
+    "match": {
+      "ru": "Швеция — Тунис",
+      "en": "Sweden — Tunisia"
+    },
     "matchId": "sweden-tunisia",
-    "bet": "ТМ 2.5",
+    "bet": {
+      "ru": "ТМ 2.5",
+      "en": "Under 2.5"
+    },
     "type": "ТМ",
     "odds": 1.61,
     "tier": "green",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 5:1 — шесть голов, разнос. Кризис атаки Туниса не подтвердился (Рекик в раздевалку), а главное — дырявая оборона шведов (пропускают весь год) при их же огневой мощи Исак+Гьёкереш+Аяри взорвала тотал. Урок повторно: ТМ-зелёный на команде, которая сама много забивает И пропускает, — мина."
+    "note": {
+      "ru": "✗ 5:1 — шесть голов, разнос. Кризис атаки Туниса не подтвердился (Рекик в раздевалку), а главное — дырявая оборона шведов (пропускают весь год) при их же огневой мощи Исак+Гьёкереш+Аяри взорвала тотал. Урок повторно: ТМ-зелёный на команде, которая сама много забивает И пропускает, — мина.",
+      "en": "✗ 5:1 — six goals, a rout. Tunisia's attacking crisis didn't hold up (Rekik just before the break), and crucially the Swedes' leaky defence (conceding all year long) combined with their own firepower in Isak+Gyökeres+Ayari blew the total wide open. Lesson, again: an Under green on a side that both scores AND concedes heavily is a landmine."
+    }
   },
   {
     "id": 51,
     "date": "2026-06-15",
-    "match": "Швеция — Тунис",
+    "match": {
+      "ru": "Швеция — Тунис",
+      "en": "Sweden — Tunisia"
+    },
     "matchId": "sweden-tunisia",
-    "bet": "Победа Швеции",
+    "bet": {
+      "ru": "Победа Швеции",
+      "en": "Sweden win"
+    },
     "type": "П1",
     "odds": 1.95,
     "tier": "green",
     "side": "AI",
     "status": "win",
-    "note": "✓ 5:1 — Исак, Гьёкереш, Аяри (дубль) и Сванберг разнесли Тунис. Пара форвардов отработала ровно по тезису. ПЕРЕРАЗМЕЧЕНО в 🟢 по правилу «тир = диапазон кэфа»: @1.95 — зелёный диапазон (Паша прав). Сумма 1500→3000."
+    "note": {
+      "ru": "✓ 5:1 — Исак, Гьёкереш, Аяри (дубль) и Сванберг разнесли Тунис. Пара форвардов отработала ровно по тезису. ПЕРЕРАЗМЕЧЕНО в 🟢 по правилу «тир = диапазон кэфа»: @1.95 — зелёный диапазон (Паша прав). Сумма 1500→3000.",
+      "en": "✓ 5:1 — Isak, Gyökeres, Ayari (brace) and Svanberg tore Tunisia apart. The strike pairing delivered exactly per the thesis. RE-GRADED to 🟢 under the \"tier = odds range\" rule: @1.95 is the green range (Pasha is right). Stake 1500→3000."
+    }
   },
   {
     "id": 52,
     "date": "2026-06-15",
-    "match": "Швеция — Тунис",
+    "match": {
+      "ru": "Швеция — Тунис",
+      "en": "Sweden — Tunisia"
+    },
     "matchId": "sweden-tunisia",
-    "bet": "Точный счёт 1:0 (Швеция)",
+    "bet": {
+      "ru": "Точный счёт 1:0 (Швеция)",
+      "en": "Correct score 1:0 (Sweden)"
+    },
     "type": "ТС",
     "odds": 6.5,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 5:1 — мимо на пять голов. Ставка на низовой 1:0 против команды с обеими пробитыми штрафными зонами — наивно. Точные счета снова −EV."
+    "note": {
+      "ru": "✗ 5:1 — мимо на пять голов. Ставка на низовой 1:0 против команды с обеими пробитыми штрафными зонами — наивно. Точные счета снова −EV.",
+      "en": "✗ 5:1 — missed by five goals. Betting a low-scoring 1:0 against a side with both penalty boxes wide open was naive. Correct scores −EV again."
+    }
   },
   {
     "id": 53,
     "date": "2026-06-15",
-    "match": "Система · точные счета 2/4",
-    "bet": "точные счета",
+    "match": {
+      "ru": "Система · точные счета 2/4",
+      "en": "System · correct scores 2/4"
+    },
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
     "type": "Система",
     "odds": 45,
     "stake": 500,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 0/4: Германия 3:0 (7:1), Нидерланды 1:1 (2:2), Кот-д'Ивуар 0:0 (1:0), Швеция 1:0 (5:1). Ни одного точного. Точные счета подтверждают −EV четвёртый день подряд.",
+    "note": {
+      "ru": "✗ 0/4: Германия 3:0 (7:1), Нидерланды 1:1 (2:2), Кот-д'Ивуар 0:0 (1:0), Швеция 1:0 (5:1). Ни одного точного. Точные счета подтверждают −EV четвёртый день подряд.",
+      "en": "✗ 0/4: Germany 3:0 (7:1), Netherlands 1:1 (2:2), Ivory Coast 0:0 (1:0), Sweden 1:0 (5:1). Not a single exact score. Correct scores confirm −EV for the fourth day running."
+    },
     "legs": [
       {
-        "m": "Германия — Кюрасао",
-        "p": "3:0"
+        "m": {
+          "ru": "Германия — Кюрасао",
+          "en": "Germany — Curaçao"
+        },
+        "p": {
+          "ru": "3:0",
+          "en": "3:0"
+        }
       },
       {
-        "m": "Нидерланды — Япония",
-        "p": "1:1"
+        "m": {
+          "ru": "Нидерланды — Япония",
+          "en": "Netherlands — Japan"
+        },
+        "p": {
+          "ru": "1:1",
+          "en": "1:1"
+        }
       },
       {
-        "m": "Кот-д’Ивуар — Эквадор",
-        "p": "0:0"
+        "m": {
+          "ru": "Кот-д’Ивуар — Эквадор",
+          "en": "Ivory Coast — Ecuador"
+        },
+        "p": {
+          "ru": "0:0",
+          "en": "0:0"
+        }
       },
       {
-        "m": "Швеция — Тунис",
-        "p": "1:0"
+        "m": {
+          "ru": "Швеция — Тунис",
+          "en": "Sweden — Tunisia"
+        },
+        "p": {
+          "ru": "1:0",
+          "en": "1:0"
+        }
       }
     ]
   },
   {
     "id": 55,
     "date": "2026-06-14",
-    "match": "Германия — Кюрасао",
+    "match": {
+      "ru": "Германия — Кюрасао",
+      "en": "Germany — Curaçao"
+    },
     "matchId": "germany-curacao",
-    "bet": "Хаверц забьёт (в любое время)",
+    "bet": {
+      "ru": "Хаверц забьёт (в любое время)",
+      "en": "Havertz to score (anytime)"
+    },
     "type": "Игрок",
     "odds": 1.43,
     "tier": "yellow",
     "side": "AI",
     "status": "win",
-    "note": "✓ Дубль (пенальти 45+5' и черпачок 88'). Lineup-триггер сработал."
+    "note": {
+      "ru": "✓ Дубль (пенальти 45+5' и черпачок 88'). Lineup-триггер сработал.",
+      "en": "✓ Brace (penalty 45+5' and a chip 88'). The lineup trigger paid off."
+    }
   },
   {
     "id": 56,
     "date": "2026-06-14",
-    "match": "Германия — Кюрасао",
+    "match": {
+      "ru": "Германия — Кюрасао",
+      "en": "Germany — Curaçao"
+    },
     "matchId": "germany-curacao",
-    "bet": "Наиболее результативный тайм — 2-й",
+    "bet": {
+      "ru": "Наиболее результативный тайм — 2-й",
+      "en": "Highest-scoring half — 2nd"
+    },
     "type": "1Т-рынок",
     "odds": 1.97,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "lose",
-    "note": "✗ Не повезло в стык: 4 гола в 1Т и 4 во 2Т — равенство таймов, ставка на 2-й проиграла. Логика была почти идеальной (счёт 7:1), подвёл ровно один гол распределения."
+    "note": {
+      "ru": "✗ Не повезло в стык: 4 гола в 1Т и 4 во 2Т — равенство таймов, ставка на 2-й проиграла. Логика была почти идеальной (счёт 7:1), подвёл ровно один гол распределения.",
+      "en": "✗ Unlucky on the edge: 4 goals in the 1st half and 4 in the 2nd — halves level, so the bet on the 2nd lost. The logic was nearly perfect (7:1 final), undone by exactly one goal of distribution."
+    }
   },
   {
     "id": 57,
     "date": "2026-06-14",
-    "match": "Нидерланды — Япония",
+    "match": {
+      "ru": "Нидерланды — Япония",
+      "en": "Netherlands — Japan"
+    },
     "matchId": "netherlands-japan",
-    "bet": "Гол в каждом тайме — да",
+    "bet": {
+      "ru": "Гол в каждом тайме — да",
+      "en": "Goal in each half — yes"
+    },
     "type": "1Т-рынок",
     "odds": 1.84,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "lose",
-    "note": "✗ 1Т 0:0! Японская оборона снова не пустила к перерыву (трэк отбора 16/16 на ноль в 1Т) — собственный тезис Паши «Япония = надёжность» убил его же ставку. Резерв ОЗ-да зашёл бы (@1.81), но играла основная нога."
+    "note": {
+      "ru": "✗ 1Т 0:0! Японская оборона снова не пустила к перерыву (трэк отбора 16/16 на ноль в 1Т) — собственный тезис Паши «Япония = надёжность» убил его же ставку. Резерв ОЗ-да зашёл бы (@1.81), но играла основная нога.",
+      "en": "✗ 1st half 0:0! The Japanese defence again kept it clean to the break (16/16 clean first halves in qualifying) — Pasha's own thesis \"Japan = reliability\" killed his own bet. The BTTS-yes backup would have landed (@1.81), but the main leg was in play."
+    }
   },
   {
     "id": 58,
     "date": "2026-06-15",
-    "match": "Кот-д’Ивуар — Эквадор",
+    "match": {
+      "ru": "Кот-д’Ивуар — Эквадор",
+      "en": "Ivory Coast — Ecuador"
+    },
     "matchId": "ivorycoast-ecuador",
-    "bet": "Фолы — больше 25.5",
+    "bet": {
+      "ru": "Фолы — больше 25.5",
+      "en": "Fouls — over 25.5"
+    },
     "type": "Другое",
     "odds": 1.85,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "lose",
-    "note": "✗ 23 фола (КИ 10, Эквадор 13) — ниже 25.5. Летексье охотно карточил (5 ЖК), но мало свистел: техничный матч без грубой грызни. «Тренд чемпа ~30» не сработал — фолы-проекция оказалась завышенной. Прямой проигрыш очного спора AI на этом матче."
+    "note": {
+      "ru": "✗ 23 фола (КИ 10, Эквадор 13) — ниже 25.5. Летексье охотно карточил (5 ЖК), но мало свистел: техничный матч без грубой грызни. «Тренд чемпа ~30» не сработал — фолы-проекция оказалась завышенной. Прямой проигрыш очного спора AI на этом матче.",
+      "en": "✗ 23 fouls (Ivory Coast 10, Ecuador 13) — under 25.5. Letexier was happy to book (5 yellows) but blew up little: a technical match with no real scrapping. The \"World Cup trend ~30\" didn't hold — the fouls projection was inflated. A straight head-to-head loss to AI on this match."
+    }
   },
   {
     "id": 59,
     "date": "2026-06-15",
-    "match": "Швеция — Тунис",
+    "match": {
+      "ru": "Швеция — Тунис",
+      "en": "Sweden — Tunisia"
+    },
     "matchId": "sweden-tunisia",
-    "bet": "Победа Швеции",
+    "bet": {
+      "ru": "Победа Швеции",
+      "en": "Sweden win"
+    },
     "type": "П1",
     "odds": 1.99,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "win",
-    "note": "✓ 5:1 — «единственный надёжный исход дня» отработал в точку. Паша уверенно взял зелёным то, что мы перестраховали жёлтым. Чистый плюс."
+    "note": {
+      "ru": "✓ 5:1 — «единственный надёжный исход дня» отработал в точку. Паша уверенно взял зелёным то, что мы перестраховали жёлтым. Чистый плюс.",
+      "en": "✓ 5:1 — \"the only reliable outcome of the day\" delivered to the letter. Pasha confidently took green what we hedged with yellow. Clean profit."
+    }
   },
   {
     "id": 60,
     "date": "2026-06-15",
-    "match": "Система · 3 из 4 (истинные фавориты)",
-    "bet": "истинные фавориты + результативный тайм",
+    "match": {
+      "ru": "Система · 3 из 4 (истинные фавориты)",
+      "en": "System · 3 of 4 (true favourites)"
+    },
+    "bet": {
+      "ru": "истинные фавориты + результативный тайм",
+      "en": "true favourites + scoring half"
+    },
     "type": "Система",
     "odds": 18.93,
     "stake": 350,
     "tier": "red",
     "side": "Паша",
     "status": "lose",
-    "note": "✗ Мертва: 2 ноги из 4 пробиты (Германия рез.тайм 4:4 + Япония не выиграла 2:2). Для системы 3/4 нужно ≥3 — невозможно.",
+    "note": {
+      "ru": "✗ Мертва: 2 ноги из 4 пробиты (Германия рез.тайм 4:4 + Япония не выиграла 2:2). Для системы 3/4 нужно ≥3 — невозможно.",
+      "en": "✗ Dead: 2 of the 4 legs busted (Germany scoring-half 4:4 + Japan failed to win 2:2). A 3/4 system needs ≥3 — impossible."
+    },
     "legs": [
       {
-        "m": "Нидерланды — Япония",
-        "p": "Победа Японии @3.75"
+        "m": {
+          "ru": "Нидерланды — Япония",
+          "en": "Netherlands — Japan"
+        },
+        "p": {
+          "ru": "Победа Японии @3.75",
+          "en": "Japan win @3.75"
+        }
       },
       {
-        "m": "Кот-д’Ивуар — Эквадор",
-        "p": "Победа Кот-д'Ивуара @3.25"
+        "m": {
+          "ru": "Кот-д’Ивуар — Эквадор",
+          "en": "Ivory Coast — Ecuador"
+        },
+        "p": {
+          "ru": "Победа Кот-д'Ивуара @3.25",
+          "en": "Ivory Coast win @3.25"
+        }
       },
       {
-        "m": "Германия — Кюрасао",
-        "p": "Результативный тайм 2-й @1.97"
+        "m": {
+          "ru": "Германия — Кюрасао",
+          "en": "Germany — Curaçao"
+        },
+        "p": {
+          "ru": "Результативный тайм 2-й @1.97",
+          "en": "Scoring half — 2nd @1.97"
+        }
       },
       {
-        "m": "Швеция — Тунис",
-        "p": "Победа Швеции @1.99"
+        "m": {
+          "ru": "Швеция — Тунис",
+          "en": "Sweden — Tunisia"
+        },
+        "p": {
+          "ru": "Победа Швеции @1.99",
+          "en": "Sweden win @1.99"
+        }
       }
     ]
   },
   {
     "id": 61,
     "date": "2026-06-15",
-    "match": "Экспресс · Япония + Кот-д'Ивуар",
-    "bet": "Япония + Кот-д'Ивуар победят",
+    "match": {
+      "ru": "Экспресс · Япония + Кот-д'Ивуар",
+      "en": "Accumulator (acca) · Japan + Ivory Coast"
+    },
+    "bet": {
+      "ru": "Япония + Кот-д'Ивуар победят",
+      "en": "Japan + Ivory Coast to win"
+    },
     "type": "Экспресс",
     "odds": 12.19,
     "stake": 500,
     "tier": "red",
     "side": "Паша",
     "status": "lose",
-    "note": "✗ Нога Японии сгорела сразу (2:2) — экспресс мёртв, ждать Кот-д'Ивуар уже незачем.",
+    "note": {
+      "ru": "✗ Нога Японии сгорела сразу (2:2) — экспресс мёртв, ждать Кот-д'Ивуар уже незачем.",
+      "en": "✗ The Japan leg went up in smoke right away (2:2) — the acca is dead, no point waiting on Ivory Coast."
+    },
     "legs": [
       {
-        "m": "Нидерланды — Япония",
-        "p": "Победа Японии"
+        "m": {
+          "ru": "Нидерланды — Япония",
+          "en": "Netherlands — Japan"
+        },
+        "p": {
+          "ru": "Победа Японии",
+          "en": "Japan win"
+        }
       },
       {
-        "m": "Кот-д’Ивуар — Эквадор",
-        "p": "Победа Кот-д'Ивуара"
+        "m": {
+          "ru": "Кот-д’Ивуар — Эквадор",
+          "en": "Ivory Coast — Ecuador"
+        },
+        "p": {
+          "ru": "Победа Кот-д'Ивуара",
+          "en": "Ivory Coast win"
+        }
       }
     ]
   },
   {
     "id": 62,
     "date": "2026-06-15",
-    "match": "Система · точные счета 2/4",
-    "bet": "точные счета",
+    "match": {
+      "ru": "Система · точные счета 2/4",
+      "en": "System · correct scores 2/4"
+    },
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
     "type": "Система",
     "odds": 13,
     "stake": 500,
     "tier": "red",
     "side": "Паша",
     "status": "lose",
-    "note": "✗ 1/4 — мало для 2/4. Кот-д'Ивуар 1:0 УГАДАН (Амад Диалло 90' — четвёртый точный счёт Паши на турнире!), но Германия 3:0 (7:1), Нидерланды 1:1 (2:2) и Швеция 2:0 (5:1) мимо. Чутьё на счёт у Паши феноменальное, но система требует двух — система мертва.",
+    "note": {
+      "ru": "✗ 1/4 — мало для 2/4. Кот-д'Ивуар 1:0 УГАДАН (Амад Диалло 90' — четвёртый точный счёт Паши на турнире!), но Германия 3:0 (7:1), Нидерланды 1:1 (2:2) и Швеция 2:0 (5:1) мимо. Чутьё на счёт у Паши феноменальное, но система требует двух — система мертва.",
+      "en": "✗ 1/4 — not enough for 2/4. Ivory Coast 1:0 NAILED (Amad Diallo 90' — Pasha's fourth correct score of the tournament!), but Germany 3:0 (7:1), Netherlands 1:1 (2:2) and Sweden 2:0 (5:1) all missed. Pasha's feel for scorelines is phenomenal, but the system needs two — system dead."
+    },
     "legs": [
       {
-        "m": "Германия — Кюрасао",
-        "p": "3:0"
+        "m": {
+          "ru": "Германия — Кюрасао",
+          "en": "Germany — Curaçao"
+        },
+        "p": {
+          "ru": "3:0",
+          "en": "3:0"
+        }
       },
       {
-        "m": "Нидерланды — Япония",
-        "p": "1:1"
+        "m": {
+          "ru": "Нидерланды — Япония",
+          "en": "Netherlands — Japan"
+        },
+        "p": {
+          "ru": "1:1",
+          "en": "1:1"
+        }
       },
       {
-        "m": "Кот-д’Ивуар — Эквадор",
-        "p": "1:0"
+        "m": {
+          "ru": "Кот-д’Ивуар — Эквадор",
+          "en": "Ivory Coast — Ecuador"
+        },
+        "p": {
+          "ru": "1:0",
+          "en": "1:0"
+        }
       },
       {
-        "m": "Швеция — Тунис",
-        "p": "2:0"
+        "m": {
+          "ru": "Швеция — Тунис",
+          "en": "Sweden — Tunisia"
+        },
+        "p": {
+          "ru": "2:0",
+          "en": "2:0"
+        }
       }
     ]
   },
   {
     "id": 63,
     "date": "2026-06-15",
-    "match": "Экспресс · дисциплина ночи",
-    "bet": "Фолы ТБ 26.5 + Швеция не проиграет/ТМ3.5",
+    "match": {
+      "ru": "Экспресс · дисциплина ночи",
+      "en": "Accumulator · discipline of the night"
+    },
+    "bet": {
+      "ru": "Фолы ТБ 26.5 + Швеция не проиграет/ТМ3.5",
+      "en": "Fouls Over 26.5 + Sweden not to lose/Under 3.5"
+    },
     "type": "Экспресс",
     "odds": 2.75,
     "stake": 1500,
     "tier": "yellow",
     "side": "AI",
     "status": "lose",
-    "note": "✗ Убила нога фолов: 23 фола в Кот-д'Ивуар-Эквадор (< 26.5). Вторая нога тоже мимо — Швеция не проиграла (5:1 ✓), но тотал 6 голов снёс «ТМ 3.5». Глубокий разбор фолов/угловых дал завышенную проекцию: оба ночных матча оказались техничнее и чище ожиданий.",
+    "note": {
+      "ru": "✗ Убила нога фолов: 23 фола в Кот-д'Ивуар-Эквадор (< 26.5). Вторая нога тоже мимо — Швеция не проиграла (5:1 ✓), но тотал 6 голов снёс «ТМ 3.5». Глубокий разбор фолов/угловых дал завышенную проекцию: оба ночных матча оказались техничнее и чище ожиданий.",
+      "en": "✗ The fouls leg killed it: 23 fouls in Ivory Coast–Ecuador (< 26.5). The second leg missed too — Sweden didn't lose (5:1 ✓), but a 6-goal total blew up the \"Under 3.5\". The deep dive on fouls/corners produced an inflated projection: both night matches turned out more technical and cleaner than expected."
+    },
     "legs": [
       {
-        "m": "Кот-д’Ивуар — Эквадор",
-        "p": "Фолы — больше 26.5 @1.80"
+        "m": {
+          "ru": "Кот-д’Ивуар — Эквадор",
+          "en": "Ivory Coast — Ecuador"
+        },
+        "p": {
+          "ru": "Фолы — больше 26.5 @1.80",
+          "en": "Fouls — Over 26.5 @1.80"
+        }
       },
       {
-        "m": "Швеция — Тунис",
-        "p": "Швеция не проиграет + ТМ 3.5 @1.53"
+        "m": {
+          "ru": "Швеция — Тунис",
+          "en": "Sweden — Tunisia"
+        },
+        "p": {
+          "ru": "Швеция не проиграет + ТМ 3.5 @1.53",
+          "en": "Sweden not to lose + Under 3.5 @1.53"
+        }
       }
     ]
   },
   {
     "id": 64,
     "date": "2026-06-15",
-    "match": "Экспресс · контроль + грызня",
-    "bet": "ОЗ-нет + П1 Швеция + угловые Швеции ТБ",
+    "match": {
+      "ru": "Экспресс · контроль + грызня",
+      "en": "Accumulator · control + scrap"
+    },
+    "bet": {
+      "ru": "ОЗ-нет + П1 Швеция + угловые Швеции ТБ",
+      "en": "BTTS No + Sweden win + Sweden corners Over"
+    },
     "type": "Экспресс",
     "odds": 6,
     "stake": 500,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": "✗ Обидно: 2 ноги из 3 зашли (ОЗ-нет КИ-Эквадор ✓ + П1 Швеция 5:1 ✓), но угловые Швеция-Тунис ТБ9.5 — всего 6 (Швеция 4, Тунис 2). Проекция ~10-11 завышена: шведы забивали из игры, а не с навала, Тунис вообще не шёл вперёд. Та же ошибка, что в жёлтом — set-piece/grind-рынки переоценены.",
+    "note": {
+      "ru": "✗ Обидно: 2 ноги из 3 зашли (ОЗ-нет КИ-Эквадор ✓ + П1 Швеция 5:1 ✓), но угловые Швеция-Тунис ТБ9.5 — всего 6 (Швеция 4, Тунис 2). Проекция ~10-11 завышена: шведы забивали из игры, а не с навала, Тунис вообще не шёл вперёд. Та же ошибка, что в жёлтом — set-piece/grind-рынки переоценены.",
+      "en": "✗ Gutting: 2 of 3 legs landed (BTTS No in Ivory Coast–Ecuador ✓ + Sweden win 5:1 ✓), but Sweden–Tunisia corners Over 9.5 — only 6 (Sweden 4, Tunisia 2). The ~10-11 projection was inflated: Sweden scored from open play, not from crosses, and Tunisia never pushed forward at all. Same mistake as in the yellow tier — set-piece/grind markets overrated."
+    },
     "legs": [
       {
-        "m": "Кот-д’Ивуар — Эквадор",
-        "p": "Обе забьют — нет @1.62"
+        "m": {
+          "ru": "Кот-д’Ивуар — Эквадор",
+          "en": "Ivory Coast — Ecuador"
+        },
+        "p": {
+          "ru": "Обе забьют — нет @1.62",
+          "en": "Both teams to score — No @1.62"
+        }
       },
       {
-        "m": "Швеция — Тунис",
-        "p": "Победа Швеции @1.95"
+        "m": {
+          "ru": "Швеция — Тунис",
+          "en": "Sweden — Tunisia"
+        },
+        "p": {
+          "ru": "Победа Швеции @1.95",
+          "en": "Sweden win @1.95"
+        }
       },
       {
-        "m": "Швеция — Тунис",
-        "p": "Угловые матча — больше 9.5 @1.90"
+        "m": {
+          "ru": "Швеция — Тунис",
+          "en": "Sweden — Tunisia"
+        },
+        "p": {
+          "ru": "Угловые матча — больше 9.5 @1.90",
+          "en": "Match corners — Over 9.5 @1.90"
+        }
       }
     ]
   },
   {
     "id": 65,
     "date": "2026-06-15",
-    "match": "Испания — Кабо-Верде",
+    "match": {
+      "ru": "Испания — Кабо-Верде",
+      "en": "Spain — Cape Verde"
+    },
     "matchId": "spain-capeverde",
-    "bet": "Фора Испания −2.5",
+    "bet": {
+      "ru": "Фора Испания −2.5",
+      "en": "Handicap Spain −2.5"
+    },
     "type": "АФ",
     "odds": 1.77,
     "tier": "green",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 0:0 — РАЗГРОМ НЕ СОСТОЯЛСЯ. Испания 27 ударов, 74% владения, 11 угловых, перекладина Феррана — и НОЛЬ. Вратарь Возинья вытащил всё. Фора на тяжёлого фаворита в стартовом туре ЧМ снова мертва."
+    "note": {
+      "ru": "✗ 0:0 — РАЗГРОМ НЕ СОСТОЯЛСЯ. Испания 27 ударов, 74% владения, 11 угловых, перекладина Феррана — и НОЛЬ. Вратарь Возинья вытащил всё. Фора на тяжёлого фаворита в стартовом туре ЧМ снова мертва.",
+      "en": "✗ 0:0 — THE ROUT NEVER CAME. Spain: 27 shots, 74% possession, 11 corners, a Ferran crossbar — and a BLANK. Keeper Vozinha saved everything. The handicap on a heavy favourite in a WC opener is dead once again."
+    }
   },
   {
     "id": 66,
     "date": "2026-06-15",
-    "match": "Испания — Кабо-Верде",
+    "match": {
+      "ru": "Испания — Кабо-Верде",
+      "en": "Spain — Cape Verde"
+    },
     "matchId": "spain-capeverde",
-    "bet": "Фора Испания −3.5",
+    "bet": {
+      "ru": "Фора Испания −3.5",
+      "en": "Handicap Spain −3.5"
+    },
     "type": "АФ",
     "odds": 2.65,
     "tier": "yellow",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 0:0 — какой −3.5, когда 0 голов за 90 минут при 27 ударах. Урок разгромных фор на старте ЧМ подтверждён в максимально жёсткой форме."
+    "note": {
+      "ru": "✗ 0:0 — какой −3.5, когда 0 голов за 90 минут при 27 ударах. Урок разгромных фор на старте ЧМ подтверждён в максимально жёсткой форме.",
+      "en": "✗ 0:0 — what −3.5, when there were 0 goals in 90 minutes off 27 shots. The lesson on blowout handicaps at a WC opener confirmed in the harshest possible way."
+    }
   },
   {
     "id": 67,
     "date": "2026-06-15",
-    "match": "Бельгия — Египет",
+    "match": {
+      "ru": "Бельгия — Египет",
+      "en": "Belgium — Egypt"
+    },
     "matchId": "belgium-egypt",
-    "bet": "Египет не проиграет (Х2)",
+    "bet": {
+      "ru": "Египет не проиграет (Х2)",
+      "en": "Egypt not to lose (X2)"
+    },
     "type": "Х2",
     "odds": 2.15,
     "tier": "green",
     "side": "AI",
     "status": "win",
-    "note": "✓ 1:1 — ЕГИПЕТ ВЗЯЛ ОЧКО! Ашур 19' (с паса Салаха), Бельгия сравняла лишь автоголом Хани 66'. Аномалия Opta (Египет 35.5% против рынка ~17%) сработала в точку — наш главный value слейта зашёл. Глубокая аналитика бьёт рынок."
+    "note": {
+      "ru": "✓ 1:1 — ЕГИПЕТ ВЗЯЛ ОЧКО! Ашур 19' (с паса Салаха), Бельгия сравняла лишь автоголом Хани 66'. Аномалия Opta (Египет 35.5% против рынка ~17%) сработала в точку — наш главный value слейта зашёл. Глубокая аналитика бьёт рынок.",
+      "en": "✓ 1:1 — EGYPT GRABBED A POINT! Ashour 19' (assisted by Salah), Belgium levelled only via a Hany own goal 66'. The Opta anomaly (Egypt 35.5% vs the market's ~17%) hit the mark — our top value of the slate landed. Deep analytics beat the market."
+    }
   },
   {
     "id": 68,
     "date": "2026-06-15",
-    "match": "Бельгия — Египет",
+    "match": {
+      "ru": "Бельгия — Египет",
+      "en": "Belgium — Egypt"
+    },
     "matchId": "belgium-egypt",
-    "bet": "Ничья",
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
     "type": "Х",
     "odds": 3.8,
     "tier": "yellow",
     "side": "AI",
     "status": "win",
-    "note": "✓ 1:1 — НИЧЬЯ! Opta давала 27.3% (дают 3.80) — value подтверждён. Бельгия за весь 1-й тайм ни одного удара в створ. Второй наш зелёно-жёлтый дубль на матче — оба исхода Opta зашли."
+    "note": {
+      "ru": "✓ 1:1 — НИЧЬЯ! Opta давала 27.3% (дают 3.80) — value подтверждён. Бельгия за весь 1-й тайм ни одного удара в створ. Второй наш зелёно-жёлтый дубль на матче — оба исхода Opta зашли.",
+      "en": "✓ 1:1 — DRAW! Opta gave it 27.3% (priced at 3.80) — value confirmed. Belgium didn't register a single shot on target in the entire first half. Our second green-yellow double on one match — both Opta-backed outcomes landed."
+    }
   },
   {
     "id": 69,
     "date": "2026-06-16",
-    "match": "Саудовская Аравия — Уругвай",
+    "match": {
+      "ru": "Саудовская Аравия — Уругвай",
+      "en": "Saudi Arabia — Uruguay"
+    },
     "matchId": "saudiarabia-uruguay",
-    "bet": "ТМ 2.5",
+    "bet": {
+      "ru": "ТМ 2.5",
+      "en": "Under 2.5"
+    },
     "type": "ТМ",
     "odds": 1.73,
     "tier": "green",
     "side": "AI",
     "status": "win",
-    "note": "✓ 1:1 (2 гола < 2.5). Аль-Амри 41 (защитник, со стандарта), Араухо 80 сравнял. Уругвай 59% владения, но жара Майами + слабое завершение обеих — ровно по тезису ТМ."
+    "note": {
+      "ru": "✓ 1:1 (2 гола < 2.5). Аль-Амри 41 (защитник, со стандарта), Араухо 80 сравнял. Уругвай 59% владения, но жара Майами + слабое завершение обеих — ровно по тезису ТМ.",
+      "en": "✓ 1:1 (2 goals < 2.5). Al-Amri 41' (defender, off a set piece), Araújo equalised 80'. Uruguay 59% possession, but Miami heat + weak finishing from both — exactly the Under thesis."
+    }
   },
   {
     "id": 70,
     "date": "2026-06-16",
-    "match": "Саудовская Аравия — Уругвай",
+    "match": {
+      "ru": "Саудовская Аравия — Уругвай",
+      "en": "Saudi Arabia — Uruguay"
+    },
     "matchId": "saudiarabia-uruguay",
-    "bet": "Победа Уругвая + ТМ 2.5",
+    "bet": {
+      "ru": "Победа Уругвая + ТМ 2.5",
+      "en": "Uruguay win + Under 2.5"
+    },
     "type": "Другое",
     "odds": 2.5,
     "tier": "yellow",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 1:1 — Уругвай не выиграл. Низ угадан (ТМ зашёл), но контролируемой победы не вышло: Аль-Амри огорошил со стандарта, Уругвай еле спас ничью на 80."
+    "note": {
+      "ru": "✗ 1:1 — Уругвай не выиграл. Низ угадан (ТМ зашёл), но контролируемой победы не вышло: Аль-Амри огорошил со стандарта, Уругвай еле спас ничью на 80.",
+      "en": "✗ 1:1 — Uruguay didn't win. The Under landed, but no controlled win: Al-Amri stunned them off a set piece, Uruguay barely rescued a draw on 80'."
+    }
   },
   {
     "id": 71,
     "date": "2026-06-16",
-    "match": "Иран — Новая Зеландия",
+    "match": {
+      "ru": "Иран — Новая Зеландия",
+      "en": "Iran — New Zealand"
+    },
     "matchId": "iran-newzealand",
-    "bet": "Победа Ирана",
+    "bet": {
+      "ru": "Победа Ирана",
+      "en": "Iran win"
+    },
     "type": "П1",
     "odds": 1.83,
     "tier": "green",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 2:2 — Иран НЕ победил. Фаворит снова споткнулся на старте ЧМ: NZ (без побед с июня 2025) дважды повела (Джаст дубль с пасов Вуда), Иран лишь догонял (Резаян 32, Мохеби 64). Урезанная атака без Джаханбахша/Азмуна не дожала."
+    "note": {
+      "ru": "✗ 2:2 — Иран НЕ победил. Фаворит снова споткнулся на старте ЧМ: NZ (без побед с июня 2025) дважды повела (Джаст дубль с пасов Вуда), Иран лишь догонял (Резаян 32, Мохеби 64). Урезанная атака без Джаханбахша/Азмуна не дожала.",
+      "en": "✗ 2:2 — Iran did NOT win. The favourite stumbled again at the World Cup start: NZ (winless since June 2025) led twice (Just brace assisted by Wood), Iran only chased (Rezaeian 32', Mohebi 64'). A blunted attack without Jahanbakhsh/Azmoun couldn't finish it off."
+    }
   },
   {
     "id": 72,
     "date": "2026-06-16",
-    "match": "Иран — Новая Зеландия",
+    "match": {
+      "ru": "Иран — Новая Зеландия",
+      "en": "Iran — New Zealand"
+    },
     "matchId": "iran-newzealand",
-    "bet": "Фора Иран −1",
+    "bet": {
+      "ru": "Фора Иран −1",
+      "en": "Handicap Iran −1"
+    },
     "type": "АФ",
     "odds": 2.6,
     "tier": "yellow",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 2:2 — какая фора −1, Иран еле спас ничью. Капкан «разгром фаворита на старте» сработал ровно по нашему же предупреждению по составам."
+    "note": {
+      "ru": "✗ 2:2 — какая фора −1, Иран еле спас ничью. Капкан «разгром фаворита на старте» сработал ровно по нашему же предупреждению по составам.",
+      "en": "✗ 2:2 — handicap −1, really? Iran barely rescued a draw. The 'favourite thrashed at the start' trap sprang exactly as our lineup note warned."
+    }
   },
   {
     "id": 73,
     "date": "2026-06-15",
-    "match": "Испания — Кабо-Верде",
+    "match": {
+      "ru": "Испания — Кабо-Верде",
+      "en": "Spain — Cape Verde"
+    },
     "matchId": "spain-capeverde",
-    "bet": "1-й тайм ТБ 1.5",
+    "bet": {
+      "ru": "1-й тайм ТБ 1.5",
+      "en": "First half Over 1.5"
+    },
     "type": "1Т-рынок",
     "odds": 1.8,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "lose",
-    "note": "✗ 1Т 0:0 — «команда первого тайма» не пробила автобус дебютанта. Ирония: его же осторожность сбылась («гол аутсайдера возможен, форы пальцем в небо»), но 1Т-тотал тоже требовал 2 голов — и сгорел на 0:0."
+    "note": {
+      "ru": "✗ 1Т 0:0 — «команда первого тайма» не пробила автобус дебютанта. Ирония: его же осторожность сбылась («гол аутсайдера возможен, форы пальцем в небо»), но 1Т-тотал тоже требовал 2 голов — и сгорел на 0:0.",
+      "en": "✗ HT 0:0 — the 'first-half team' couldn't break the debutant's bus. Irony: his own caution came true ('an underdog goal is possible, handicaps are a shot in the dark'), but the 1H total also needed 2 goals — and died at 0:0."
+    }
   },
   {
     "id": 74,
     "date": "2026-06-15",
-    "match": "Испания — Кабо-Верде",
+    "match": {
+      "ru": "Испания — Кабо-Верде",
+      "en": "Spain — Cape Verde"
+    },
     "matchId": "spain-capeverde",
-    "bet": "Точный счёт 4:0 (Испания)",
+    "bet": {
+      "ru": "Точный счёт 4:0 (Испания)",
+      "en": "Correct score 4:0 (Spain)"
+    },
     "type": "ТС",
     "odds": 9,
     "tier": "red",
     "side": "Паша",
     "status": "lose",
-    "note": "✗ 0:0 — мимо на четыре гола. «В счёте отражаю разгром» не сбылось — разгрома не было вовсе."
+    "note": {
+      "ru": "✗ 0:0 — мимо на четыре гола. «В счёте отражаю разгром» не сбылось — разгрома не было вовсе.",
+      "en": "✗ 0:0 — off by four goals. 'I reflect a rout in the score' didn't happen — there was no rout at all."
+    }
   },
   {
     "id": 75,
     "date": "2026-06-15",
-    "match": "Бельгия — Египет",
+    "match": {
+      "ru": "Бельгия — Египет",
+      "en": "Belgium — Egypt"
+    },
     "matchId": "belgium-egypt",
-    "bet": "Обе забьют — да",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
     "type": "ОЗ",
     "odds": 1.95,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "win",
-    "note": "✓ 1:1 — обе забили (Ашур + автогол Бельгии). Пашин любимый ОЗ зашёл: Египет огрызнулся ровно как он ждал. Зелёный плюс."
+    "note": {
+      "ru": "✓ 1:1 — обе забили (Ашур + автогол Бельгии). Пашин любимый ОЗ зашёл: Египет огрызнулся ровно как он ждал. Зелёный плюс.",
+      "en": "✓ 1:1 — both scored (Ashour + a Belgium own goal). Pasha's favourite BTTS landed: Egypt bit back exactly as he expected. Green plus."
+    }
   },
   {
     "id": 76,
     "date": "2026-06-15",
-    "match": "Бельгия — Египет",
+    "match": {
+      "ru": "Бельгия — Египет",
+      "en": "Belgium — Egypt"
+    },
     "matchId": "belgium-egypt",
-    "bet": "Точный счёт 2:1 (Бельгия)",
+    "bet": {
+      "ru": "Точный счёт 2:1 (Бельгия)",
+      "en": "Correct score 2:1 (Belgium)"
+    },
     "type": "ТС",
     "odds": 9,
     "tier": "red",
     "side": "Паша",
     "status": "lose",
-    "note": "✗ 1:1 — Бельгия не выиграла, 2:1 мимо. Паша угадал ОЗ-да, но в точном счёте отдал победу не той команде."
+    "note": {
+      "ru": "✗ 1:1 — Бельгия не выиграла, 2:1 мимо. Паша угадал ОЗ-да, но в точном счёте отдал победу не той команде.",
+      "en": "✗ 1:1 — Belgium didn't win, 2:1 missed. Pasha nailed BTTS-yes but handed the win to the wrong side in the correct score."
+    }
   },
   {
     "id": 77,
     "date": "2026-06-16",
-    "match": "Саудовская Аравия — Уругвай",
+    "match": {
+      "ru": "Саудовская Аравия — Уругвай",
+      "en": "Saudi Arabia — Uruguay"
+    },
     "matchId": "saudiarabia-uruguay",
-    "bet": "ТМ 2.5",
+    "bet": {
+      "ru": "ТМ 2.5",
+      "en": "Under 2.5"
+    },
     "type": "ТМ",
     "odds": 1.75,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "win",
-    "note": "✓ 1:1 — «Бьелса в непонятной ситуации играет низ». 2 гола. Совпало с зелёным ТМ AI."
+    "note": {
+      "ru": "✓ 1:1 — «Бьелса в непонятной ситуации играет низ». 2 гола. Совпало с зелёным ТМ AI.",
+      "en": "✓ 1:1 — 'Bielsa plays it low in a murky situation'. 2 goals. Matched AI's green Under."
+    }
   },
   {
     "id": 78,
     "date": "2026-06-16",
-    "match": "Саудовская Аравия — Уругвай",
+    "match": {
+      "ru": "Саудовская Аравия — Уругвай",
+      "en": "Saudi Arabia — Uruguay"
+    },
     "matchId": "saudiarabia-uruguay",
-    "bet": "Точный счёт 0:1 (Уругвай)",
+    "bet": {
+      "ru": "Точный счёт 0:1 (Уругвай)",
+      "en": "Correct score 0:1 (Uruguay)"
+    },
     "type": "ТС",
     "odds": 6.5,
     "tier": "red",
     "side": "Паша",
     "status": "lose",
-    "note": "✗ ТС 0:1 не зашёл — итог 1:1 (Аль-Амри 41, Араухо 80). Уругвай вёл по логике игры, но довести до 0:1 не смог."
+    "note": {
+      "ru": "✗ ТС 0:1 не зашёл — итог 1:1 (Аль-Амри 41, Араухо 80). Уругвай вёл по логике игры, но довести до 0:1 не смог.",
+      "en": "✗ CS 0:1 didn't land — final 1:1 (Al-Amri 41', Araújo 80'). Uruguay led on the run of play but couldn't see out 0:1."
+    }
   },
   {
     "id": 79,
     "date": "2026-06-16",
-    "match": "Иран — Новая Зеландия",
+    "match": {
+      "ru": "Иран — Новая Зеландия",
+      "en": "Iran — New Zealand"
+    },
     "matchId": "iran-newzealand",
-    "bet": "Фора Иран −1",
+    "bet": {
+      "ru": "Фора Иран −1",
+      "en": "Handicap Iran −1"
+    },
     "type": "АФ",
     "odds": 2.51,
     "tier": "yellow",
     "side": "Паша",
     "contest": true,
     "status": "lose",
-    "note": "✗ 2:2 — то же, что у AI: разгром фаворита не состоялся."
+    "note": {
+      "ru": "✗ 2:2 — то же, что у AI: разгром фаворита не состоялся.",
+      "en": "✗ 2:2 — same as AI: the favourite's rout never came."
+    }
   },
   {
     "id": 80,
     "date": "2026-06-16",
-    "match": "Иран — Новая Зеландия",
+    "match": {
+      "ru": "Иран — Новая Зеландия",
+      "en": "Iran — New Zealand"
+    },
     "matchId": "iran-newzealand",
-    "bet": "Точный счёт 2:0 (Иран)",
+    "bet": {
+      "ru": "Точный счёт 2:0 (Иран)",
+      "en": "Correct score 2:0 (Iran)"
+    },
     "type": "ТС",
     "odds": 6.5,
     "tier": "red",
     "side": "Паша",
     "status": "lose",
-    "note": "✗ 2:2 — Паша снова мимо точным счётом (2:0). «Обе забьют» угадал бы, но не счёт."
+    "note": {
+      "ru": "✗ 2:2 — Паша снова мимо точным счётом (2:0). «Обе забьют» угадал бы, но не счёт.",
+      "en": "✗ 2:2 — Pasha misses on the correct score again (2:0). 'Both to score' would have hit, but not the scoreline."
+    }
   },
   {
     "id": 81,
     "date": "2026-06-15",
-    "match": "Система · 3 из 4 (ординары Паши)",
-    "bet": "Система 3/4",
+    "match": {
+      "ru": "Система · 3 из 4 (ординары Паши)",
+      "en": "System · 3 of 4 (Pasha singles)"
+    },
+    "bet": {
+      "ru": "Система 3/4",
+      "en": "System 3/4"
+    },
     "type": "Система",
     "odds": 7.86,
     "stake": 500,
     "tier": "red",
     "side": "Паша",
     "status": "lose",
-    "note": "✗ Система мертва: Испания 1Т ТБ1.5 ✗ + Иран фора −1 ✗ — две ноги выбиты, прошло лишь 2/4 (Бельгия ОЗ-да ✓, Саудовская ТМ2.5 ✓). Для 3/4 не хватило.",
+    "note": {
+      "ru": "✗ Система мертва: Испания 1Т ТБ1.5 ✗ + Иран фора −1 ✗ — две ноги выбиты, прошло лишь 2/4 (Бельгия ОЗ-да ✓, Саудовская ТМ2.5 ✓). Для 3/4 не хватило.",
+      "en": "✗ System dead: Spain 1H Over 1.5 ✗ + Iran handicap −1 ✗ — two legs knocked out, only 2/4 landed (Belgium BTTS yes ✓, Saudi Arabia Under 2.5 ✓). Not enough for 3/4."
+    },
     "legs": [
       {
-        "m": "Испания — Кабо-Верде",
-        "p": "1-й тайм ТБ 1.5 @1.80"
+        "m": {
+          "ru": "Испания — Кабо-Верде",
+          "en": "Spain — Cape Verde"
+        },
+        "p": {
+          "ru": "1-й тайм ТБ 1.5 @1.80",
+          "en": "1st half Over 1.5 @1.80"
+        }
       },
       {
-        "m": "Бельгия — Египет",
-        "p": "Обе забьют — да @1.95"
+        "m": {
+          "ru": "Бельгия — Египет",
+          "en": "Belgium — Egypt"
+        },
+        "p": {
+          "ru": "Обе забьют — да @1.95",
+          "en": "Both teams to score — yes @1.95"
+        }
       },
       {
-        "m": "Саудовская Аравия — Уругвай",
-        "p": "ТМ 2.5 @1.75"
+        "m": {
+          "ru": "Саудовская Аравия — Уругвай",
+          "en": "Saudi Arabia — Uruguay"
+        },
+        "p": {
+          "ru": "ТМ 2.5 @1.75",
+          "en": "Under 2.5 @1.75"
+        }
       },
       {
-        "m": "Иран — Новая Зеландия",
-        "p": "Фора Иран −1 @2.51"
+        "m": {
+          "ru": "Иран — Новая Зеландия",
+          "en": "Iran — New Zealand"
+        },
+        "p": {
+          "ru": "Фора Иран −1 @2.51",
+          "en": "Handicap Iran −1 @2.51"
+        }
       }
     ]
   },
   {
     "id": 82,
     "date": "2026-06-16",
-    "match": "Иран — Новая Зеландия",
+    "match": {
+      "ru": "Иран — Новая Зеландия",
+      "en": "Iran — New Zealand"
+    },
     "matchId": "iran-newzealand",
-    "bet": "Тареми забьёт + счёт 1:0",
+    "bet": {
+      "ru": "Тареми забьёт + счёт 1:0",
+      "en": "Taremi to score + score 1:0"
+    },
     "type": "ТС",
     "odds": 20,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": "✗ 2:2, Тареми не забил (ДВАЖДЫ попал в штангу!). Вся атака через него — и не зашло: ни 1:0, ни сам гол. Фокус-форвард простил."
+    "note": {
+      "ru": "✗ 2:2, Тареми не забил (ДВАЖДЫ попал в штангу!). Вся атака через него — и не зашло: ни 1:0, ни сам гол. Фокус-форвард простил.",
+      "en": "✗ 2:2, Taremi didn't score (hit the post TWICE!). The whole attack ran through him — and nothing landed: neither 1:0 nor the goal himself. The focal striker let us down."
+    }
   },
   {
-    "match": "Франция — Сенегал",
+    "match": {
+      "ru": "Франция — Сенегал",
+      "en": "France — Senegal"
+    },
     "matchId": "france-senegal",
     "date": "2026-06-16",
-    "bet": "Сенегал +1.25",
+    "bet": {
+      "ru": "Сенегал +1.25",
+      "en": "Senegal +1.25"
+    },
     "type": "АФ",
     "odds": 1.83,
     "tier": "green",
     "side": "AI",
-    "note": "Главный value слейта по правилу №1 (разгром фаворита на старте ЧМ = смерть). Рынок сам недооценивает: Сенегал +1.25 даёт 54.9% против справедливых ~60%. Дневная жара MetLife + рваная форма Франции (1:2 Кот-д’Ивуар) + класс Сенегала (чемпион КАН, №14, не дебютант) + эхо-2002. Фору Франции −1.5 не берём. Линия на момент ресёрча.",
+    "note": {
+      "ru": "Главный value слейта по правилу №1 (разгром фаворита на старте ЧМ = смерть). Рынок сам недооценивает: Сенегал +1.25 даёт 54.9% против справедливых ~60%. Дневная жара MetLife + рваная форма Франции (1:2 Кот-д’Ивуар) + класс Сенегала (чемпион КАН, №14, не дебютант) + эхо-2002. Фору Франции −1.5 не берём. Линия на момент ресёрча.",
+      "en": "The slate's top value by rule №1 (thrashing a favorite at the WC opener = death). The market itself underrates it: Senegal +1.25 gives 54.9% against a fair ~60%. MetLife daytime heat + France's patchy form (1:2 Ivory Coast) + Senegal's class (AFCON champion, №14, no debutant) + the echo of 2002. We don't take the France −1.5 handicap. Line as of research time."
+    },
     "id": 83,
     "status": "pending"
   },
   {
-    "match": "Ирак — Норвегия",
+    "match": {
+      "ru": "Ирак — Норвегия",
+      "en": "Iraq — Norway"
+    },
     "matchId": "iraq-norway",
     "date": "2026-06-17",
-    "bet": "Ирак +2",
+    "bet": {
+      "ru": "Ирак +2",
+      "en": "Iraq +2"
+    },
     "type": "АФ",
     "odds": 1.74,
     "tier": "green",
     "side": "AI",
-    "note": "Прудентная фора аутсайдера: фаворит не разгромляет на старте ЧМ (×4: Швейцария/Испания/Саудовская/Иран). Покрывает победу Норвегии в 1 мяч, пуш при 2, горит только при разгроме 3+. Ирак — низкий блок Арнольда (держали Испанию 1:1). ⚠️ Риск: атака Норвегии реально мощная (37 голов в отборе) — потому +2, а не +1.5. Фору Норвегии −1.5 не берём.",
+    "note": {
+      "ru": "Прудентная фора аутсайдера: фаворит не разгромляет на старте ЧМ (×4: Швейцария/Испания/Саудовская/Иран). Покрывает победу Норвегии в 1 мяч, пуш при 2, горит только при разгроме 3+. Ирак — низкий блок Арнольда (держали Испанию 1:1). ⚠️ Риск: атака Норвегии реально мощная (37 голов в отборе) — потому +2, а не +1.5. Фору Норвегии −1.5 не берём.",
+      "en": "Prudent underdog handicap: the favorite doesn't run riot at a WC opener (×4: Switzerland/Spain/Saudi Arabia/Iran). Covers a one-goal Norway win, pushes at 2, only burns on a 3+ blowout. Iraq — Arnold's low block (held Spain 1:1). ⚠️ Risk: Norway's attack is genuinely powerful (37 goals in qualifying) — that's why +2, not +1.5. We don't take the Norway −1.5 handicap."
+    },
     "id": 84,
     "status": "pending"
   },
   {
-    "match": "Аргентина — Алжир",
+    "match": {
+      "ru": "Аргентина — Алжир",
+      "en": "Argentina — Algeria"
+    },
     "matchId": "argentina-algeria",
     "date": "2026-06-17",
-    "bet": "Алжир +1.5",
+    "bet": {
+      "ru": "Алжир +1.5",
+      "en": "Algeria +1.5"
+    },
     "type": "АФ",
     "odds": 1.74,
     "tier": "green",
     "side": "AI",
-    "note": "Фора аутсайдера + прямое эхо «Аргентина 1:2 Саудовская на старте ЧМ-2022». Жара/грозы Канзаса, Месси не на 90 мин, возрастная оборона (Отаменди 38), быстрый Алжир (Махрез/Амура). Заходит при победе Аргентины в 1 мяч / ничьей / победе Алжира. ⚠️ Риск — модельный 2:0 (Opta). Фору Аргентины −1.5 не берём.",
+    "note": {
+      "ru": "Фора аутсайдера + прямое эхо «Аргентина 1:2 Саудовская на старте ЧМ-2022». Жара/грозы Канзаса, Месси не на 90 мин, возрастная оборона (Отаменди 38), быстрый Алжир (Махрез/Амура). Заходит при победе Аргентины в 1 мяч / ничьей / победе Алжира. ⚠️ Риск — модельный 2:0 (Opta). Фору Аргентины −1.5 не берём.",
+      "en": "Underdog handicap + a direct echo of 'Argentina 1:2 Saudi Arabia at the WC 2022 opener'. Kansas City heat/storms, Messi not for the full 90, an aging defense (Otamendi 38), a fast Algeria (Mahrez/Amoura). Wins on a one-goal Argentina win / a draw / an Algeria win. ⚠️ Risk — the model 2:0 (Opta). We don't take the Argentina −1.5 handicap."
+    },
     "id": 85,
     "status": "pending"
   },
   {
-    "match": "Австрия — Иордания",
+    "match": {
+      "ru": "Австрия — Иордания",
+      "en": "Austria — Jordan"
+    },
     "matchId": "austria-jordan",
     "date": "2026-06-17",
-    "bet": "ТБ 2.5",
+    "bet": {
+      "ru": "ТБ 2.5",
+      "en": "Over 2.5"
+    },
     "type": "ТБ",
     "odds": 1.66,
     "tier": "green",
     "side": "AI",
-    "note": "Обе модели за верх (Dimers ТБ 57%); оборона Иордании рассыпается (2+ пропускала в каждом из 5 последних), прессинг Австрии ~70% владения. Диверсификация типа от фор. ⚠️ Риск — модельный 2:0 (мимо на 1 гол) + Иордания без обоих форвардов может сесть в автобус. Фору Австрии −1.5 не берём.",
+    "note": {
+      "ru": "Обе модели за верх (Dimers ТБ 57%); оборона Иордании рассыпается (2+ пропускала в каждом из 5 последних), прессинг Австрии ~70% владения. Диверсификация типа от фор. ⚠️ Риск — модельный 2:0 (мимо на 1 гол) + Иордания без обоих форвардов может сесть в автобус. Фору Австрии −1.5 не берём.",
+      "en": "Both models lean over (Dimers Over 57%); Jordan's defense is falling apart (2+ conceded in each of the last 5), Austria's press ~70% possession. Diversifies away from handicaps. ⚠️ Risk — the model 2:0 (off by one goal) + Jordan, without both strikers, could park the bus. We don't take the Austria −1.5 handicap."
+    },
     "id": 86,
     "status": "pending"
   }
