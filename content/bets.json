@@ -2171,11 +2171,11 @@
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "На книге Паши — Алжир +1 @2.18 (вместо +1.5). Фора аутсайдера + эхо «Саудовская 2022». Пуш при победе Аргентины в 1 мяч (1:0), выигрыш при ничьей/победе Алжира. ⚠️ Горит при 2:0+ (модель Opta). Жара/грозы Канзаса, Месси не на 90, возрастная оборона. Фору Аргентины −1 не берём.",
-      "en": "On Pasha’s book — Algeria +1 @2.18 (instead of +1.5). Underdog handicap + the ‘Saudi Arabia 2022’ echo. Push on a one-goal Argentina win (1:0), win on a draw/Algeria win. ⚠️ Loses on 2:0+ (Opta model). Kansas heat/storms, Messi not for 90, ageing defence. We don’t take Argentina −1."
+      "ru": "✗ 3:0 — Аргентина в 3 мяча, Алжир +1 не покрыл. Хет-трик Месси. Фейд-разгром мимо ТРЕТИЙ раз подряд на слейте (Франция, Норвегия, Аргентина) — фавориты этого тура накатывают, не буксуют.",
+      "en": "✗ 3:0 — Argentina won by three, Algeria +1 didn’t cover. Messi hat-trick. The fade-the-blowout missed for a THIRD straight time on this slate (France, Norway, Argentina) — this round’s favourites ran riot, didn’t stall."
     },
     "id": 85,
-    "status": "pending"
+    "status": "lose"
   },
   {
     "match": {
@@ -2215,10 +2215,10 @@
     "tier": "red",
     "side": "Паша",
     "stake": 500,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "🔴 Система 2/4 из точных счетов ПАШИ (его выбор 16:50): Аргентина 1:0, Ирак—Норвегия 0:3, Франция 2:1, Австрия 2:0. Очной азарт-спор с системой AI. Выплата только если зайдут ≥2 счёта (6 даблов, ставка 500 делится). Кэф номинальный — пересчёт по факту резолва. [Франция 2:1 ✗ — фактический 3:1.] [Ирак—Норвегия 0:3 ✗ — факт 1:4.]",
-      "en": "🔴 2/4 system of PASHA’s correct scores (his 16:50 picks): Argentina 1:0, Iraq—Norway 0:3, France 2:1, Austria 2:0. Head-to-head gamble vs the AI system. Pays only if ≥2 scores land (6 doubles, 500 stake split). Odds nominal — recomputed on resolve. [France 2:1 ✗ — actual 3:1.] [Iraq—Norway 0:3 ✗ — actual 1:4.]"
+      "ru": "🔴 Система 2/4 из точных счетов ПАШИ (его выбор 16:50): Аргентина 1:0, Ирак—Норвегия 0:3, Франция 2:1, Австрия 2:0. Очной азарт-спор с системой AI. Выплата только если зайдут ≥2 счёта (6 даблов, ставка 500 делится). Кэф номинальный — пересчёт по факту резолва. [Франция 2:1 ✗ — фактический 3:1.] [Ирак—Норвегия 0:3 ✗ — факт 1:4.] [Аргентина 1:0 ✗ — факт 3:0. МЁРТВА: 3 счёта из 4 мимо, 2/4 недостижимо → проигрыш.]",
+      "en": "🔴 2/4 system of PASHA’s correct scores (his 16:50 picks): Argentina 1:0, Iraq—Norway 0:3, France 2:1, Austria 2:0. Head-to-head gamble vs the AI system. Pays only if ≥2 scores land (6 doubles, 500 stake split). Odds nominal — recomputed on resolve. [France 2:1 ✗ — actual 3:1.] [Iraq—Norway 0:3 ✗ — actual 1:4.] [Argentina 1:0 ✗ — actual 3:0. DEAD: 3 of 4 scores missed, 2/4 unreachable → loss.]"
     },
     "legs": [
       {
@@ -2279,10 +2279,10 @@
     "tier": "red",
     "side": "AI",
     "stake": 500,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "🔴 Система 2/4 из точных счетов AI (по нашим разборам): Аргентина 2:0, Ирак—Норвегия 1:3 (Норвегия 3:1), Франция 2:1, Австрия 2:0. Очной азарт-спор с системой Паши; общие ноги — Франция 2:1 и Австрия 2:0. Осознанное исключение из «AI режет красные ТС» — по запросу Влада, ради дуэли. Выплата только если зайдут ≥2 счёта (6 даблов, 500). Кэф номинальный. [Франция 2:1 ✗ — фактический 3:1.] [Ирак—Норвегия 1:3 ✗ — факт 1:4.]",
-      "en": "🔴 2/4 system of AI correct scores (from our previews): Argentina 2:0, Iraq—Norway 1:3 (Norway 3:1), France 2:1, Austria 2:0. Head-to-head gamble vs Pasha’s system; shared legs — France 2:1 and Austria 2:0. Conscious exception to ‘AI cuts red correct-score systems’ — per Vlad, for the duel. Pays only if ≥2 scores land (6 doubles, 500). Odds nominal. [France 2:1 ✗ — actual 3:1.] [Iraq—Norway 1:3 ✗ — actual 1:4.]"
+      "ru": "🔴 Система 2/4 из точных счетов AI (по нашим разборам): Аргентина 2:0, Ирак—Норвегия 1:3 (Норвегия 3:1), Франция 2:1, Австрия 2:0. Очной азарт-спор с системой Паши; общие ноги — Франция 2:1 и Австрия 2:0. Осознанное исключение из «AI режет красные ТС» — по запросу Влада, ради дуэли. Выплата только если зайдут ≥2 счёта (6 даблов, 500). Кэф номинальный. [Франция 2:1 ✗ — фактический 3:1.] [Ирак—Норвегия 1:3 ✗ — факт 1:4.] [Аргентина 2:0 ✗ — факт 3:0. МЁРТВА: 3 счёта из 4 мимо, 2/4 недостижимо → проигрыш.]",
+      "en": "🔴 2/4 system of AI correct scores (from our previews): Argentina 2:0, Iraq—Norway 1:3 (Norway 3:1), France 2:1, Austria 2:0. Head-to-head gamble vs Pasha’s system; shared legs — France 2:1 and Austria 2:0. Conscious exception to ‘AI cuts red correct-score systems’ — per Vlad, for the duel. Pays only if ≥2 scores land (6 doubles, 500). Odds nominal. [France 2:1 ✗ — actual 3:1.] [Iraq—Norway 1:3 ✗ — actual 1:4.] [Argentina 2:0 ✗ — actual 3:0. DEAD: 3 of 4 scores missed, 2/4 unreachable → loss.]"
     },
     "legs": [
       {
@@ -2387,14 +2387,14 @@
     "type": "1Т-рынок",
     "odds": 1.92,
     "note": {
-      "ru": "«Арги уверенно прошли отбор, в товарняках разнесли аналогов соперников, сохраняя ворота. Лаутаро в форме и любит забивать в 1-м тайме. Жду победу Аргентины в 1Т и низовой матч. Но проклятие чемпиона не снято — не удивлюсь ничьей 1:1».",
-      "en": "“Argentina cruised through qualifying, dismantled mirror-images of their rivals in friendlies while keeping clean sheets. Lautaro is in form and loves scoring in the first half. I expect an Argentina 1st-half lead and a low-scoring game. But the champions’ curse isn’t lifted — a 1:1 draw wouldn’t shock me.”"
+      "ru": "✓ 3:0 (1Т 1:0) — Аргентина вела к перерыву (Месси 17), 1Т П1 зашёл. Пашин тезис «Лаутаро/Месси решают рано» — в точку (хотя забил Месси, не Лаутаро).",
+      "en": "✓ 3:0 (1H 1:0) — Argentina led at the break (Messi 17), 1st-half win lands. Pasha’s ‘they decide it early’ thesis nailed (Messi rather than Lautaro)."
     },
     "id": 91,
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending"
+    "status": "win"
   },
   {
     "matchId": "austria-jordan",
@@ -2438,8 +2438,8 @@
     "stake": 500,
     "status": "pending",
     "note": {
-      "ru": "Система 3/4 из 4 ординаров Паши. Все ноги ≥1.9 (правило систем соблюдено). Кэф при всех 4 ≈ ×7.78; при 3 из 4 — около возврата+. Коррелирует с его точными счетами. [ОЗ-да Франция ✓ — 1-я нога зашла.] [Норвегия −2 ✓ — 2-я нога зашла; для 3/4 нужна ещё 1 из (1Т Аргентина, Австрия −1.5).]",
-      "en": "System 3/4 from Pasha’s four singles. All legs ≥1.9 (system rule met). Odds if all 4 land ≈ ×7.78; 3 of 4 ≈ around stake-back+. Correlates with his correct scores. [BTTS France ✓ — first leg in.] [Norway −2 ✓ — second leg in; for 3/4 need 1 more of (Argentina 1H, Austria −1.5).]"
+      "ru": "Система 3/4 из 4 ординаров Паши. Все ноги ≥1.9 (правило систем соблюдено). Кэф при всех 4 ≈ ×7.78; при 3 из 4 — около возврата+. Коррелирует с его точными счетами. [ОЗ-да Франция ✓ — 1-я нога зашла.] [Норвегия −2 ✓ — 2-я нога зашла; для 3/4 нужна ещё 1 из (1Т Аргентина, Австрия −1.5).] [1Т Аргентина ✓ — 3-я нога! СИСТЕМА 3/4 ПРОХОДИТ (ОЗ-да Франция + Норвегия −2 + 1Т Аргентина). Выплата по Австрии −1.5: зайдёт ≈×7.78 (+3390), нет ≈×1.90 (+448). Резолв после Австрии.]",
+      "en": "System 3/4 from Pasha’s four singles. All legs ≥1.9 (system rule met). Odds if all 4 land ≈ ×7.78; 3 of 4 ≈ around stake-back+. Correlates with his correct scores. [BTTS France ✓ — first leg in.] [Norway −2 ✓ — second leg in; for 3/4 need 1 more of (Argentina 1H, Austria −1.5).] [Argentina 1H ✓ — 3rd leg! 3/4 SYSTEM PASSES (BTTS France + Norway −2 + Argentina 1H). Payout depends on Austria −1.5: hits ≈×7.78 (+3390), misses ≈×1.90 (+448). Resolve after Austria.]"
     },
     "legs": [
       {

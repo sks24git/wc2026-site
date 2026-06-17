@@ -1,3 +1,17 @@
+## Result: 3:0 — Messi hat-trick, the fade-the-blowout missed for a 3rd time
+
+- 🥅 **Messi 17'** (1H 1:0), then a second-half brace (tap-in off a Mac Allister save + a third) → 3:0. ⚡ Messi matched Klose's all-time WC record (17 goals). Mahrez started on the bench; Lautaro quiet (subbed at 55'). Algeria had no answer.
+
+**Settlement:**
+- ❌ **AI Algeria +1 @2.18 (🟢)** — Argentina won by three, the underdog handicap missed. **Third straight fade-the-blowout loss on the slate** (France, Norway, Argentina).
+- ✅ **Pasha 1st-half Argentina win @1.92 (🟢)** — led 1:0 at the break. Nailed it.
+- ⚡ **Pasha's 3/4 system PASSES** — this is the 3rd winning leg (BTTS France + Norway −2 + Argentina 1H). Payout hinges on Austria −1.5.
+- ❌ Both 2/4 correct-score systems are dead (3 missed scores each, 2/4 unreachable).
+
+**Lesson (building):** this slate mirrors the previous one. There favourites stalled (Spain/Iran/Saudi all drew); here they all run riot (France 3:1, Norway 4:1, Argentina 3:0). Our mechanical 'fade the opener blowout' burned three times. Calibration required — see STRATEGY.
+
+---
+
 ## Argentina — Algeria · 17.06, 04:00 MSK · Arrowhead Stadium, Kansas City
 
 **The defending champions begin their title defence — and there's an instant red flag: this is exactly how Argentina lost to Saudi Arabia at the start of the 2022 World Cup. Kansas heat and thunderstorms, an ageing defence, Messi not for the full 90. The match-odds line = the model — value sits in the Algeria handicap and the totals.**
