@@ -2149,11 +2149,11 @@
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "На книге Паши — Ирак +1.5 @2.25 (вместо прудентного +2). Фора аутсайдера по правилу «фаворит не разгромляет на старте» (×4 за турнир). ⚠️ Риск выше, чем у +2: горит при победе Норвегии в 2+ (консенсус 3:0/2:0); заходит при Норвегии ≤1 / ничьей / победе Ирака. Прямой клинч с пашиной Норвегия −2. Фору Норвегии −1.5 не берём.",
-      "en": "On Pasha’s book — Iraq +1.5 @2.25 (instead of the prudent +2). Underdog handicap per the ‘favourite doesn’t run riot at the opener’ rule (×4 this tournament). ⚠️ Riskier than +2: loses on a Norway win by 2+ (consensus 3:0/2:0); wins on Norway ≤1 / draw / Iraq win. Direct clash with Pasha’s Norway −2. We don’t take Norway −1.5."
+      "ru": "✗ 1:4 — Норвегия в 3 мяча, Ирак +1.5 не покрыл. Полная атака Норвегии подтвердилась: Холанд дубль (дебютный), Эстигор, автогол. Наш фейд-разгром мимо — Паша был прав по этому матчу.",
+      "en": "✗ 1:4 — Norway won by three, Iraq +1.5 didn’t cover. Norway’s full attack delivered: Haaland brace (debut), Østigard, an own goal. Our fade-the-blowout missed — Pasha was right on this one."
     },
     "id": 84,
-    "status": "pending"
+    "status": "lose"
   },
   {
     "match": {
@@ -2217,8 +2217,8 @@
     "stake": 500,
     "status": "pending",
     "note": {
-      "ru": "🔴 Система 2/4 из точных счетов ПАШИ (его выбор 16:50): Аргентина 1:0, Ирак—Норвегия 0:3, Франция 2:1, Австрия 2:0. Очной азарт-спор с системой AI. Выплата только если зайдут ≥2 счёта (6 даблов, ставка 500 делится). Кэф номинальный — пересчёт по факту резолва. [Франция 2:1 ✗ — фактический 3:1.]",
-      "en": "🔴 2/4 system of PASHA’s correct scores (his 16:50 picks): Argentina 1:0, Iraq—Norway 0:3, France 2:1, Austria 2:0. Head-to-head gamble vs the AI system. Pays only if ≥2 scores land (6 doubles, 500 stake split). Odds nominal — recomputed on resolve. [France 2:1 ✗ — actual 3:1.]"
+      "ru": "🔴 Система 2/4 из точных счетов ПАШИ (его выбор 16:50): Аргентина 1:0, Ирак—Норвегия 0:3, Франция 2:1, Австрия 2:0. Очной азарт-спор с системой AI. Выплата только если зайдут ≥2 счёта (6 даблов, ставка 500 делится). Кэф номинальный — пересчёт по факту резолва. [Франция 2:1 ✗ — фактический 3:1.] [Ирак—Норвегия 0:3 ✗ — факт 1:4.]",
+      "en": "🔴 2/4 system of PASHA’s correct scores (his 16:50 picks): Argentina 1:0, Iraq—Norway 0:3, France 2:1, Austria 2:0. Head-to-head gamble vs the AI system. Pays only if ≥2 scores land (6 doubles, 500 stake split). Odds nominal — recomputed on resolve. [France 2:1 ✗ — actual 3:1.] [Iraq—Norway 0:3 ✗ — actual 1:4.]"
     },
     "legs": [
       {
@@ -2281,8 +2281,8 @@
     "stake": 500,
     "status": "pending",
     "note": {
-      "ru": "🔴 Система 2/4 из точных счетов AI (по нашим разборам): Аргентина 2:0, Ирак—Норвегия 1:3 (Норвегия 3:1), Франция 2:1, Австрия 2:0. Очной азарт-спор с системой Паши; общие ноги — Франция 2:1 и Австрия 2:0. Осознанное исключение из «AI режет красные ТС» — по запросу Влада, ради дуэли. Выплата только если зайдут ≥2 счёта (6 даблов, 500). Кэф номинальный. [Франция 2:1 ✗ — фактический 3:1.]",
-      "en": "🔴 2/4 system of AI correct scores (from our previews): Argentina 2:0, Iraq—Norway 1:3 (Norway 3:1), France 2:1, Austria 2:0. Head-to-head gamble vs Pasha’s system; shared legs — France 2:1 and Austria 2:0. Conscious exception to ‘AI cuts red correct-score systems’ — per Vlad, for the duel. Pays only if ≥2 scores land (6 doubles, 500). Odds nominal. [France 2:1 ✗ — actual 3:1.]"
+      "ru": "🔴 Система 2/4 из точных счетов AI (по нашим разборам): Аргентина 2:0, Ирак—Норвегия 1:3 (Норвегия 3:1), Франция 2:1, Австрия 2:0. Очной азарт-спор с системой Паши; общие ноги — Франция 2:1 и Австрия 2:0. Осознанное исключение из «AI режет красные ТС» — по запросу Влада, ради дуэли. Выплата только если зайдут ≥2 счёта (6 даблов, 500). Кэф номинальный. [Франция 2:1 ✗ — фактический 3:1.] [Ирак—Норвегия 1:3 ✗ — факт 1:4.]",
+      "en": "🔴 2/4 system of AI correct scores (from our previews): Argentina 2:0, Iraq—Norway 1:3 (Norway 3:1), France 2:1, Austria 2:0. Head-to-head gamble vs Pasha’s system; shared legs — France 2:1 and Austria 2:0. Conscious exception to ‘AI cuts red correct-score systems’ — per Vlad, for the duel. Pays only if ≥2 scores land (6 doubles, 500). Odds nominal. [France 2:1 ✗ — actual 3:1.] [Iraq—Norway 1:3 ✗ — actual 1:4.]"
     },
     "legs": [
       {
@@ -2364,14 +2364,14 @@
     "type": "АФ",
     "odds": 2.08,
     "note": {
-      "ru": "«Норвегия — фаворит, топ-нападение. Группа тяжёлая, 2-е место не гарантировано — битва с Сенегалом, и разница мячей решит (а делать её можно только на Ираке). У Ирака нет опыта с европейцами. Уверенная победа Норвегии надёжна, как была у шведов; круглая фора под возврат. Норвегия из тех, кто вкатывается СРАЗУ, а не из титул-команд».",
-      "en": "“Norway are favourites, top attack. Tough group, 2nd place isn’t guaranteed — a fight with Senegal, and goal difference decides it (and you can only build it vs Iraq). Iraq have no experience vs Europeans. A confident Norway win is as solid as Sweden’s was; round handicap with the push safety net. Norway are the type that come out firing immediately, not a title side that eases in.”"
+      "ru": "✓ 1:4 — Норвегия −2 зашла (победа в 3 мяча). Пашин тезис «Норвегия — заряженный фаворит, вкатывается сразу» подтвердился полностью. Холанд дубль на дебюте.",
+      "en": "✓ 1:4 — Norway −2 lands (won by three). Pasha’s thesis ‘Norway is a charged-up favourite that comes out firing’ fully vindicated. Haaland brace on debut."
     },
     "id": 90,
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending"
+    "status": "win"
   },
   {
     "matchId": "argentina-algeria",
@@ -2438,8 +2438,8 @@
     "stake": 500,
     "status": "pending",
     "note": {
-      "ru": "Система 3/4 из 4 ординаров Паши. Все ноги ≥1.9 (правило систем соблюдено). Кэф при всех 4 ≈ ×7.78; при 3 из 4 — около возврата+. Коррелирует с его точными счетами. [ОЗ-да Франция ✓ — 1-я нога зашла.]",
-      "en": "System 3/4 from Pasha’s four singles. All legs ≥1.9 (system rule met). Odds if all 4 land ≈ ×7.78; 3 of 4 ≈ around stake-back+. Correlates with his correct scores. [BTTS France ✓ — first leg in.]"
+      "ru": "Система 3/4 из 4 ординаров Паши. Все ноги ≥1.9 (правило систем соблюдено). Кэф при всех 4 ≈ ×7.78; при 3 из 4 — около возврата+. Коррелирует с его точными счетами. [ОЗ-да Франция ✓ — 1-я нога зашла.] [Норвегия −2 ✓ — 2-я нога зашла; для 3/4 нужна ещё 1 из (1Т Аргентина, Австрия −1.5).]",
+      "en": "System 3/4 from Pasha’s four singles. All legs ≥1.9 (system rule met). Odds if all 4 land ≈ ×7.78; 3 of 4 ≈ around stake-back+. Correlates with his correct scores. [BTTS France ✓ — first leg in.] [Norway −2 ✓ — second leg in; for 3/4 need 1 more of (Argentina 1H, Austria −1.5).]"
     },
     "legs": [
       {

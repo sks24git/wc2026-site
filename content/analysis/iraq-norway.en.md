@@ -1,3 +1,16 @@
+## Result: 1:4 — Norway ran riot, Haaland brace on debut; the clinch goes to Pasha
+
+- 🥅 **Haaland 29'** (1:0), **Hussein 39'** (Iraq, 1:1), **Haaland** 2nd (1H, 2:1), then **Østigard** (header off an Ødegaard corner) and a **Hussein own goal** → 1:4 (1H 1:2). xG 0.76:2.59, shots on target 1:5. Norway's full attack (Haaland+Sørloth+Nusa+Ødegaard) delivered exactly as Pasha expected.
+
+**Settlement — Pasha takes the head-to-head:**
+- ✅ **Pasha Norway −2 @2.08 (🟢)** — won by three; his thesis ‘Norway is a charged-up favourite that comes out firing’ confirmed.
+- ❌ **AI Iraq +1.5 @2.25 (🟢)** — the fade-the-blowout missed. Norway isn't the kind of side the ‘favourites stall at the opener’ rule applies to (Pasha said exactly that).
+- ⏳ Systems: the correct-score legs (0:3 / 1:3) ✗ for both (actual 1:4); the Norway −2 leg in Pasha's 3/4 ✓ (2/4 already in — BTTS France + Norway −2).
+
+**Lesson:** the ‘fade the favourite blowout at the opener’ rule is NOT universal — calibrate by team type. ‘A side whose goal is max group output (Norway) comes out charged’ — Pasha's caveat is right. It works vs title-chasing sides (who ease in), not vs these.
+
+---
+
 ## Iraq — Norway · 17.06, 01:00 MSK · Gillette Stadium, Foxborough (Massachusetts)
 
 **Haaland and Ødegaard's Norway at a World Cup for the first time in 28 years — heavy favourite (Opta 77%) against debutant bus-parkers Iraq (Graham Arnold). The match-result line is squeezed flat (no value); all the intrigue is in the totals and handicap: Norway's genuine firepower against our lesson that "the favourite doesn't run riot on opening day."**
