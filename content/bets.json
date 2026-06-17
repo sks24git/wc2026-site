@@ -2438,8 +2438,8 @@
     "stake": 500,
     "status": "win",
     "note": {
-      "ru": "✓ СИСТЕМА 3/4 ПРОШЛА ПОЛНОСТЬЮ (4/4): ОЗ-да Франция ✓ + Норвегия −2 ✓ + 1Т Аргентина ✓ + Австрия −1.5 ✓ (3:1). Все 4 ноги зашли → все 4 тройника по 125 ₽ выигрывают, эфф. кэф 7.78, профит +3390. Лучшая ставка слейта.",
-      "en": "✓ SYSTEM 3/4 LANDS IN FULL (4/4): BTTS France ✓ + Norway −2 ✓ + Argentina 1H ✓ + Austria −1.5 ✓ (3:1). All four legs in → all 4 trebles of 125₽ win, effective odds 7.78, profit +3390. Best bet of the slate."
+      "ru": "✓ СИСТЕМА 3/4 СЫГРАЛА ПОЛНОСТЬЮ (4/4): все четыре события (Франция ОЗ-да, Норвегия −2, Аргентина 1Т и Австрия −1.5) зашли. Все 4 тройника выиграли, закрыв слейт I/J с отличной прибылью. Лучшая ставка дня!",
+      "en": "✓ SYSTEM 3/4 LANDED IN FULL (4/4): all four selections (France BTTS, Norway −2, Argentina 1H, and Austria −1.5) won. All 4 trebles hit, closing the I/J slate with a great return. The best bet of the day!"
     },
     "legs": [
       {
@@ -2520,8 +2520,8 @@
     "odds": 1.75,
     "tier": "green",
     "side": "AI",
-    "status": "pending",
-    "note": { "ru": "Позиционный старт, Хорватия 5-4-1 (медленные старты: ЧМ-2022 0:0 Марокко, Евро-2020 0:1 Англии), Англия терпеливо вскрывает (гол 55–70'), крытый стадион 22°C — контролируемый темп. Рынок тоже за низ (ТМ @1.80). Кэф — книга Паши (Лига Ставок).", "en": "Positional opener, Croatia 5-4-1 (slow starters: WC-2022 0:0 Morocco, Euro-2020 0:1 to England), England patient breakdown (goal 55–70'), indoor 22°C — controlled tempo. Market also leans under (Under @1.80). Odds from Pasha's book." }
+    "status": "lose",
+    "note": { "ru": "✗ СГОРЕЛА. Итог 4:2, всего 6 голов (нужно ≤2). Матч раскрылся: дубль Кейна (пен. 12' + голова 41'), но Хорватия дважды отыгралась в 1Т (Батурина 36', Муса 45+5'), 2:2 на перерыве, во 2Т Беллингем 47' + Рэшфорд 85'. xG Англии 2.82 — атака продавила. Повтор урока «ТМ-зелёный против фаворита с сильной атакой = мина»: Хорватия и забивает (огрызнулась 2 раза), и пропускает (6 матчей без сухаря). −3 000 ₽.", "en": "✗ LOSE. Final 4:2, 6 goals total (needed ≤2). The match opened up: Kane brace (pen 12' + header 41'), but Croatia twice levelled in the 1st half (Baturina 36', Musa 45+5'), 2:2 at the break, then Bellingham 47' + Rashford 85'. England xG 2.82 — the attack overwhelmed. A repeat of the 'green Under vs a favourite with a strong attack = a mine' lesson: Croatia both score (hit back twice) and concede (6 games without a clean sheet). −3,000 ₽." }
   },
   {
     "id": 97,
@@ -2559,8 +2559,8 @@
     "odds": 3.85,
     "tier": "yellow",
     "side": "AI",
-    "status": "pending",
-    "note": { "ru": "Урок ×4 ничьих: на старте ЧМ фавориты буксуют. Два кэйджи-соперника, Хорватия выходит на пик в плей-офф, не на старте; Англия осторожна в опенерах. Кэф — книга Паши (Лига Ставок).", "en": "The ×4 draws lesson: favourites stall at the World Cup start. Two cagey sides, Croatia peak in the knockouts not the opener; England cautious in openers. Odds from Pasha's book." }
+    "status": "lose",
+    "note": { "ru": "✗ СГОРЕЛА. Англия победила 4:2 — никакого «осторожного опенера». Паттерн «×4 ничьих» не сработал: ротированная Англия всё равно разнесла стареющую Хорватию по xG (2.82 vs 0.54). Ничья как страховка паттерна не оправдалась против фаворита, который на классе вскрывает слабую оборону. −1 500 ₽.", "en": "✗ LOSE. England won 4:2 — no 'cautious opener'. The '×4 draws' pattern didn't hold: a rotated England still outclassed an ageing Croatia on xG (2.82 vs 0.54). The draw as a pattern hedge failed against a favourite that breaks down a weak defence on quality alone. −1,500 ₽." }
   },
   {
     "id": 100,
@@ -2586,7 +2586,7 @@
     "side": "AI",
     "stake": 500,
     "status": "pending",
-    "note": { "ru": "⏳ ЖИВА (1/4 сыграно). Нога Португалия 1:0 — МИМО (итог 1:1). Нужно ≥2 счёта из оставшихся 3: Колумбия 1:0, Англия—Хорватия 1:1, Гана—Панама 1:1. — Система ТС 2/4 после ревью логики: Португалия 1:0, Колумбия 1:0, Англия—Хорватия 1:1, Гана—Панама 1:1 (6 даблов, ставка 500 делится). Кэф номинальный — пересчёт по факту резолва.", "en": "⏳ ALIVE (1/4 settled). Portugal 1:0 leg — MISSED (final 1:1). Needs ≥2 scores from the remaining 3: Colombia 1:0, England-Croatia 1:1, Ghana-Panama 1:1. — 2/4 correct-score system after review: Portugal 1:0, Colombia 1:0, England-Croatia 1:1, Ghana-Panama 1:1 (6 doubles, 500 stake split). Odds nominal — recomputed on resolve." },
+    "note": { "ru": "⏳ НА ВОЛОСКЕ (2/4 сыграно). Ноги Португалия 1:0 (1:1) и Англия—Хорватия 1:1 (4:2) — МИМО. Для прохода 2/4 теперь нужны ОБА оставшихся счёта: Колумбия 1:0 И Гана—Панама 1:1. — Система ТС 2/4: Португалия 1:0, Колумбия 1:0, Англия 1:1, Гана 1:1 (6 даблов, ставка 500 делится). Кэф номинальный — пересчёт по факту резолва.", "en": "⏳ HANGING BY A THREAD (2/4 settled). Portugal 1:0 (1:1) and England-Croatia 1:1 (4:2) legs — MISSED. To land 2/4 it now needs BOTH remaining scores: Colombia 1:0 AND Ghana-Panama 1:1. — 2/4 correct-score system: Portugal 1:0, Colombia 1:0, England 1:1, Ghana 1:1 (6 doubles, 500 stake split). Odds nominal — recomputed on resolve." },
     "legs": [
       { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "Счёт 1:0 @6.5", "en": "Score 1:0 @6.5" } },
       { "m": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" }, "p": { "ru": "Счёт 0:1 Колумбия @6.0", "en": "Score 0:1 Colombia @6.0" } },
@@ -2606,7 +2606,7 @@
     "contest": true,
     "stake": 500,
     "status": "pending",
-    "note": { "ru": "⏳ ЖИВА (1/4 сыграно). Нога Португалия 2:1 — МИМО (итог 1:1). Нужно ≥2 счёта из оставшихся 3: Англия 1:0, Гана—Панама 0:0, Колумбия 0:2. — Купон Паши: система ТС 2/4 точных счетов (6 даблов по ~83 ₽, ставка 500 делится). Кэф номинальный — пересчёт по эфф. кэфу при резолве. Кэфы Англия 1:0 и Колумбия 0:2 подтверждены по рынку; Португалия 2:1 и Гана—Панама 0:0 — ориентировочные.", "en": "⏳ ALIVE (1/4 settled). Portugal 2:1 leg — MISSED (final 1:1). Needs ≥2 scores from the remaining 3: England 1:0, Ghana-Panama 0:0, Colombia 0:2. — Pasha's 2/4 correct-score system (6 doubles ~83₽ each, 500 stake split). Odds nominal — recomputed at the effective rate on resolve. England 1:0 and Colombia 0:2 confirmed on the market; Portugal 2:1 and Ghana-Panama 0:0 are approximate." },
+    "note": { "ru": "⏳ НА ВОЛОСКЕ (2/4 сыграно). Ноги Португалия 2:1 (1:1) и Англия 1:0 (4:2) — МИМО. Для прохода 2/4 теперь нужны ОБА оставшихся счёта: Гана—Панама 0:0 И Колумбия 0:2. — Купон Паши: система ТС 2/4 точных счетов (6 даблов, ставка 500 делится). Кэф номинальный — пересчёт по эфф. кэфу при резолве. Колумбия 0:2 подтверждён по рынку, Гана—Панама 0:0 — ориентировочный.", "en": "⏳ HANGING BY A THREAD (2/4 settled). Portugal 2:1 (1:1) and England 1:0 (4:2) legs — MISSED. To land 2/4 it now needs BOTH remaining scores: Ghana-Panama 0:0 AND Colombia 0:2. — Pasha's 2/4 correct-score system (6 doubles, 500 stake split). Odds nominal — recomputed at the effective rate on resolve. Colombia 0:2 confirmed on the market, Ghana-Panama 0:0 approximate." },
     "legs": [
       { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "Счёт 2:1 @8.5 (ориент.)", "en": "Score 2:1 @8.5 (approx.)" } },
       { "m": { "ru": "Англия — Хорватия", "en": "England — Croatia" }, "p": { "ru": "Счёт 1:0 @6.5", "en": "Score 1:0 @6.5" } },
@@ -2639,8 +2639,8 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
-    "note": { "ru": "🅿️ Паша: 'апофеоз антифутбола', обе боятся забить больше одного → очевидное решение ТМ. Но Хорватия стареет и слаба, ничью не удержит, а кэф на Англию за былые заслуги Хорватии приемлемый. Ждёт повтор унылого Евро-2020 (минимальная победа Англии 1:0); ТМ не взял на случай, если англичан 'прорвёт'. Кэф — Лига Ставок.", "en": "🅿️ Pasha: 'the apotheosis of anti-football', both sides afraid to score more than one → Under is the obvious call. But Croatia are ageing and weak, can't hold a draw, while England's price is generous thanks to Croatia's past reputation. Expects a rerun of the dreary Euro 2020 (a narrow England 1:0); skipped the Under in case England suddenly break loose. Odds — Liga Stavok." }
+    "status": "win",
+    "note": { "ru": "✓ ЗАШЛА. Англия победила 4:2. Паша прочитал матч точнее нас: сам ждал низ, но взял ИСХОД (П1), а ТМ сознательно не тронул «на случай, если англичан прорвёт» — именно это и случилось (6 голов). Устойчивый рынок против хрупкого: тот же матч, наш ТМ/ничья сгорели, его П1 зашёл. +2 190 ₽. Кэф — Лига Ставок.", "en": "✓ WIN. England won 4:2. Pasha read the match better than us: he too expected a low score but backed the OUTCOME (England win) and deliberately skipped the Under 'in case England break loose' — which is exactly what happened (6 goals). Robust market over fragile: same match, our Under/Draw burned, his England win landed. +2,190 ₽. Odds — Liga Stavok." }
   },
   {
     "id": 105,
@@ -2682,7 +2682,7 @@
     "contest": true,
     "stake": 3000,
     "status": "pending",
-    "note": { "ru": "⏳ ПОД УГРОЗОЙ (1/3 сыграно). Нога Португалия 2-й тайм ТБ1.5 — МИМО (0 голов во 2Т). Для прохода системы 2/3 теперь нужны ОБЕ оставшиеся ноги: Англия П1 @1.73 И Узбекистан П2+ТМ3.5 @1.83. — Система 2/3 ординаров Паши (Гана убрана), зелёная, ставка 3000 (3 двойника по ~1000). При 3/3 кэф ≈ 3.51×; теперь максимум 2/3 (около возврата/малый плюс). Пересчёт эфф. кэфа при резолве. NB: 2 ноги <1.9 — но это купон Паши, фиксируем как есть. Кэфы — Лига Ставок.", "en": "⏳ ON THE BRINK (1/3 settled). Portugal 2nd-half Over 1.5 leg — MISSED (0 second-half goals). For the 2/3 system to land it now needs BOTH remaining legs: England win @1.73 AND Uzbekistan Colombia-win+Under 3.5 @1.83. — Pasha's 2/3 singles system (Ghana dropped), green, 3000 stake (3 doubles ~1000 each). All 3 → ≈3.51×; now max 2/3 (roughly break-even/small profit). Recomputed at the effective rate on resolve. NB: 2 legs <1.9 — but it's Pasha's slip, recorded as placed. Odds — Liga Stavok." },
+    "note": { "ru": "⏳ ВСЁ РЕШИТ УЗБЕКИСТАН (2/3 сыграно). Нога Англия П1 @1.73 — ✓ ЗАШЛА (4:2); нога Португалия 2Т ТБ1.5 — ✗ мимо. Для прохода 2/3 теперь нужна последняя нога: Узбекистан—Колумбия (П2+ТМ3.5) @1.83. Зайдёт → система 2/3 ✓ (1 двойник Англия×Узб = 1.73×1.83=3.17, на 3000 за 3 двойника → возврат ~3166, профит ~+166). Не зайдёт → система ✗. — Система 2/3 ординаров Паши (Гана убрана), зелёная, ставка 3000. NB: 2 ноги <1.9 — купон Паши, как есть. Кэфы — Лига Ставок.", "en": "⏳ UZBEKISTAN DECIDES IT (2/3 settled). England win @1.73 leg — ✓ WON (4:2); Portugal 2H Over 1.5 leg — ✗ missed. For 2/3 to land it now needs the last leg: Uzbekistan-Colombia (Colombia win + Under 3.5) @1.83. If it lands → system 2/3 ✓ (one double England×Uzb = 1.73×1.83=3.17, on 3000 over 3 doubles → return ~3166, profit ~+166). If not → system ✗. — Pasha's 2/3 singles system (Ghana dropped), green, 3000 stake. NB: 2 legs <1.9 — Pasha's slip, as placed. Odds — Liga Stavok." },
     "legs": [
       { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "2-й тайм ТБ 1.5 @2.07", "en": "2nd half Over 1.5 @2.07" } },
       { "m": { "ru": "Англия — Хорватия", "en": "England — Croatia" }, "p": { "ru": "Победа Англии @1.73", "en": "England win @1.73" } },

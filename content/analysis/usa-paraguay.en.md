@@ -5,8 +5,7 @@
 - 51' VAR overturned a penalty for Paraguay (Almirón dive — yellow for simulation); no penalty in the match
 - 91' mass scuffle, red card for Alderete (Paraguay, substitute)
 
-**Settlement:** Balogun anytime ✓ (AI) · Both teams to score ✓ (Pasha) · Under 2.5 ✗ (5 goals) · accumulator ✗ · 1H 0:0 ✗ · Correct score 1:0 ✗ · Draw ✗ · penalty ✗.
-On the match: **Pasha +420 ₽ · AI −3,775 ₽** — Pasha once again rescued the day on "both teams to score."
+**Settlement:** Balogun anytime ✓ (AI) · Both teams to score ✓ (Pasha) · Under 2.5 ✗ (5 goals) · accumulator ✗ · 1H 0:0 ✗ · Correct score 1:0 ✗ · Draw ✗ · penalty ✗ — Pasha once again rescued the day with his "both teams to score" prediction.
 
 **Lesson:** our Under 2.5 was built on "the best defense in CONMEBOL," but against the hosts at their own World Cup, Paraguay were already sinking by the 31st minute. When the favorite leads 2:0 at the break and the opponent is forced to open up, Under 2.5 is a trap — better to cash out at halftime.
 

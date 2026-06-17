@@ -1,3 +1,18 @@
+## Result: 4:2 — the match opened up, Under and Draw burned
+
+**Final: England 4:2 Croatia (1st half 2:2).** Goals: **Kane 12′** (penalty, retaken — Livaković saved but came off his line) — **Baturina 36′** (open play, long-range) — **Kane 41′** (header, Rice corner) — **Musa 45+5′** (open play, Perišić flick) — **Bellingham 47′** (open play) — **Rashford 85′** (open play, Saka assist). xG: England 2.82 / Croatia 0.54 — total dominance (shots 22:10). Saka came on 72′ and assisted; Modrić subbed off on 57′.
+
+**Settlement:**
+- ❌ **AI — Under 2.5 @1.75 (🟢): LOSE.** 6 goals. A repeat of the 'green Under vs a favourite with a strong attack = a mine' lesson: Croatia both score (hit back twice) and concede (6 games without a clean sheet). **−3,000 ₽.**
+- ❌ **AI — Draw @3.85 (🟡): LOSE.** England won 4:2 — the '×4 draws' pattern didn't hold, a rotated England outclassed them. **−1,500 ₽.**
+- ✅ **Pasha — England win @1.73 (🟢): WIN.** He too expected a low score but backed the OUTCOME, deliberately skipping the Under 'in case England break loose' — which they did. **+2,190 ₽.**
+- ⏳ Systems: England 1:1 (AI) and 1:0 (Pasha CS) legs missed; both CS 2/4 now hang by a thread (need BOTH remaining scores). The England-win leg in Pasha's 2/3 system ✓ landed — Uzbekistan decides it.
+- **Head-to-head of the match: Pasha beat AI** (+2,190 vs −4,500).
+
+**Lesson:** the slate's second match confirmed §8 — we again caught the right pulse ('low / cautious opener') but with a fragile market (Under/Draw), while Pasha took the robust England win on the same read. Against a favourite with a strong attack and a weak opposing defence, the 'under' is dangerous: if it opens up the favourite still wins, and the win survives where the under burns.
+
+---
+
 ## England — Croatia · 17 Jun, 23:00 MSK · AT&T Stadium, Arlington
 
 **Two old rivals open Group L. England (FIFA #4) are the positional favourite against Croatia's (FIFA #10) trademark deep block. Roof closed, 22°C — a clinical setting with no weather equaliser. The key question: can Bellingham–Kane crack the Croatian bus before the final whistle?**

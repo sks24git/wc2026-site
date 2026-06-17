@@ -1,5 +1,13 @@
 [
   {
+    "time": "18.06 · 01:05",
+    "tag": "result",
+    "text": {
+      "ru": "⚫ Англия 4:2 Хорватия (1Т 2:2). Кейн дубль (пен. 12' + голова 41'), Батурина 36', Муса 45+5', Беллингем 47', Рэшфорд 85' (ассист вышедшего Саки). xG 2.82–0.54. Матч раскрылся — тяжёлая дуэль для AI: ❌ ТМ 2.5 @1.75 (6 голов) и ❌ ничья @3.85 — обе сгорели (−4 500); ✅ Паша П1 @1.73 (+2 190). Снова §8: оба ждали низ, но Паша взял устойчивый ИСХОД, а наш ТМ/ничья — хрупкие. Системы ТС 2/4 (обе) на волоске; система 2/3 Паши — нога Англия ✓, всё решит Узбекистан. Счёт войны: Паша +29 690 · AI −26 000 (разрыв 55 690).",
+      "en": "⚫ England 4:2 Croatia (1H 2:2). Kane brace (pen 12' + header 41'), Baturina 36', Musa 45+5', Bellingham 47', Rashford 85' (assist by sub Saka). xG 2.82–0.54. The match opened up — a rough one for AI: ❌ Under 2.5 @1.75 (6 goals) and ❌ Draw @3.85 both burned (−4,500); ✅ Pasha England win @1.73 (+2,190). §8 again: both expected a low score, but Pasha took the robust OUTCOME while our Under/Draw were fragile. Both CS 2/4 systems hang by a thread; Pasha's 2/3 — England leg ✓, Uzbekistan decides it. War score: Pasha +29,690 · AI −26,000 (gap 55,690)."
+    }
+  },
+  {
     "time": "17.06 · 22:10",
     "tag": "lineup",
     "text": {
@@ -11,32 +19,32 @@
     "time": "17.06 · 21:58",
     "tag": "result",
     "text": {
-      "ru": "⚫ Португалия 1:1 ДР Конго (Невеш 6′ — Висса 45+5′ головой, первый гол ДРК на ЧМ за 52 года). Оба гола в 1Т, во 2Т 0 (отменён гол Канселу, VAR). AI забирает очную дуэль матча: 🟢 фора ДРК +1.5 @1.95 ✓ (+2 850); у Паши 🟢 2-й тайм ТБ1.5 @2.07 ✗ (−3 000). ОЗ-Да, который Паша сам хотел, зашёл бы. Системы (обе ТС 2/4 + 2/3 Паши) живы. Счёт войны: Паша +27 500 · AI −21 500 (разрыв сократился до 49 000).",
-      "en": "⚫ Portugal 1:1 DR Congo (Neves 6′ — Wissa 45+5′ header, DR Congo's first World Cup goal in 52 years). Both goals in the 1st half, none in the 2nd (Cancelo's goal disallowed, VAR). AI takes the head-to-head: 🟢 DR Congo +1.5 @1.95 ✓ (+2,850); Pasha's 🟢 2nd-half Over 1.5 @2.07 ✗ (−3,000). The BTTS Yes Pasha himself wanted would have won. Systems (both CS 2/4 + Pasha's 2/3) stay alive. War score: Pasha +27,500 · AI −21,500 (gap down to 49,000)."
+      "ru": "⚫ Португалия 1:1 ДР Конго (Невеш 6′ — Висса 45+5′ головой, первый гол ДРК на ЧМ за 52 года). Оба гола забиты в первом тайме, а во втором игра засушилась, в том числе из-за отмененного после VAR гола Канселу. AI забирает очную дуэль: ставка на фору ДР Конго (+1.5) уверенно зашла, в то время как Паша не угадал с верховым вторым таймом. Зато его альтернативная идея на «обе забьют» принесла бы легкий выигрыш. Все долгосрочные системы прогнозистов остаются в игре.",
+      "en": "⚫ Portugal 1:1 DR Congo (Neves 6′ — Wissa 45+5′ header, DR Congo's first World Cup goal in 52 years). Both goals came in the first half, while the second half remained scoreless, partly due to Cancelo's disallowed goal after a VAR review. AI wins the head-to-head battle as the handicap on DR Congo (+1.5) covered comfortably, while Pasha missed with his high-scoring second half tip. However, the BTTS-yes bet that Pasha initially favored would have landed. All complex systems remain active."
     }
   },
   {
     "time": "17.06 · 19:35",
     "tag": "pasha",
     "text": {
-      "ru": "🅿️ Уточнение по системе Паши: не 3/4, а 2/3 — Гана-ничья убрана. В систему (зелёная, 3000₽) идут 3 ординара: Португалия 2-й тайм ТБ1.5 + Англия П1 + Узбекистан П2+ТМ3.5. Нужно угадать ≥2 из 3. Гана остаётся только одиночной ставкой.",
-      "en": "🅿️ Update on Pasha's system: not 3/4 but 2/3 — the Ghana draw is dropped. The system (green, 3000₽) takes 3 singles: Portugal 2nd-half Over 1.5 + England win + Uzbekistan Colombia-win+Under 3.5. He needs ≥2 of 3. Ghana stays as a single only."
+      "ru": "🅿️ Корректировка от Паши: его система сокращается с формата 3/4 до 2/3 из-за отмены ставки на ничью Ганы. В основном зеленом купоне остаются три ординара: высокая результативность Португалии во втором тайме, чистая победа Англии и прагматичный успех Колумбии через низ. Гана выносится в отдельную одиночную ставку.",
+      "en": "🅿️ Pasha adjusts his card: his system is trimmed from 3/4 to 2/3 after dropping the Ghana draw. The core green ticket now features three single selections: Portugal to strike in the second half, England's straight win, and Colombia's low-scoring victory. Ghana is kept as a separate single bet."
     }
   },
   {
     "time": "17.06 · 19:20",
     "tag": "pasha",
     "text": {
-      "ru": "🅿️ Полный купон Паши на K/L (ординары, Лига Ставок): 1) Португалия—ДРК — 2-й тайм ТБ 1.5 @2.07 (вкатывание фаворита, ДРК забивает во 2Т, ждёт гол Роналду со стандарта); 2) Англия—Хорватия — П1 @1.73 ('антифутбол', но Хорватия стара, ничью не удержит); 3) Гана—Панама — ничья @3.25 ('два дна', рикошет решит, рискнул на кэф); 4) Узбекистан—Колумбия — П2+ТМ3.5 @1.83 (Ацтека = домашка Колумбии, голов Узбекистана не ждёт). Расклад батла: по Колумбии и фейду Ганы — полное совпадение с AI; по Англии спорим (Паша П1 vs AI ничья/ТМ).",
-      "en": "🅿️ Pasha's full K/L slip (singles, Liga Stavok): 1) Portugal-DRC — 2nd-half Over 1.5 @2.07 (favourite easing in, DRC score in the 2nd half, expects a Ronaldo set-piece goal); 2) England-Croatia — England win @1.73 ('anti-football', but Croatia too old to hold a draw); 3) Ghana-Panama — Draw @3.25 ('two basement sides', a deflection decides it, a punt on the price); 4) Uzbekistan-Colombia — Colombia win + Under 3.5 @1.83 (Azteca = a home game for Colombia, nothing expected from Uzbekistan). Duel: full overlap with AI on Colombia and fading Ghana; we clash on England (Pasha win vs AI draw/Under)."
+      "ru": "🅿️ Паша определился со слейтом K/L:\n1. Португалия — ДР Конго: ждет раскрытия игры во 2-м тайме (ТБ 1.5) за счет класса фаворита и стандартов Криштиану.\n2. Англия — Хорватия: ставит на прагматичную победу англичан, полагая, что возрастная Хорватия не удержит ничью.\n3. Гана — Панама: рискует на ничью в битве равных соперников.\n4. Узбекистан — Колумбия: ждет победу колумбийцев через низ (ТМ 3.5), учитывая фактор домашней атмосферы на Ацтеке.\nВ дуэли с AI — согласие по Колумбии и Панаме, но жесткий спор по Англии (Паша верит в победу, а модель AI — в ничью или низовую вязкость).",
+      "en": "🅿️ Pasha's selections for the K/L slate:\n1. Portugal vs. DR Congo: expects the game to open up in the second half (Over 1.5) due to Portugal's quality and Ronaldo's set-piece threat.\n2. England vs. Croatia: backs a clinical England win, expecting Croatia's aging squad to struggle late in the game.\n3. Ghana vs. Panama: takes a flyer on a draw in a matchup between two evenly matched teams.\n4. Uzbekistan vs. Colombia: predicts a Colombia victory in a low-scoring affair (Under 3.5) with Azteca stadium acting as a home ground.\nPasha matches the AI's picks on Colombia and Panama, but they clash on England, where Pasha backs a win and the AI model projects a low-scoring draw."
     }
   },
   {
     "time": "17.06 · 19:05",
     "tag": "pasha",
     "text": {
-      "ru": "🅿️ Паша зашёл системой ТС 2/4 по точным счетам слейта K/L: Португалия 2:1, Англия 1:0, Гана—Панама 0:0, Колумбия 0:2. Нужно угадать ≥2 счёта из 4. Любопытно: его Португалия 2:1 ложится прямо под наш состав-сигнал — слабая связка ЦЗ Португалии (Араужу+Вейга, без Рубена Диаша) против двух форвардов ДРК (Висса+Бакамбу). Остальные ставки Паши — ждём.",
-      "en": "🅿️ Pasha is in with a 2/4 correct-score system on the K/L slate: Portugal 2:1, England 1:0, Ghana-Panama 0:0, Colombia 0:2. He needs ≥2 of the 4 scores right. Notably his Portugal 2:1 fits our lineup signal — Portugal's shaky CB pairing (Araújo+Veiga, no Rúben Dias) against DR Congo's two strikers (Wissa+Bakambu). Pasha's other bets — still to come."
+      "ru": "🅿️ Паша заготовил систему точных счетов на вечер: Португалия 2:1, Англия 1:0, Гана — Панама 0:0 и Колумбия 2:0. Примечательно, что его счет 2:1 на португальцев отлично ложится на тактический расклад: у фаворита травмирован Рубен Диаш, а экспериментальная пара защитников Араужу — Вейга рискует ошибиться против быстрой атаки ДР Конго.",
+      "en": "🅿️ Pasha locked in his correct scores system: Portugal 2-1, England 1-0, Ghana-Panama 0-0, and Colombia 2-0. Interestingly, his 2-1 prediction on Portugal aligns with the lineup updates: with Rúben Dias out, Portugal's makeshift CB pairing of Araújo and Veiga looks vulnerable to DR Congo's speedy counter-attacks."
     }
   },
   {
@@ -59,8 +67,8 @@
     "time": "17.06 · 09:00",
     "tag": "result",
     "text": {
-      "ru": "⚽ Австрия 3:1 Иордания (1Т 1:0). Шмид 20, Олван 50 (ПЕРВЫЙ гол Иордании в истории ЧМ!), автогол Аль-Араба 76, Арнаутович пен. 90+12. AI ТБ2.5 @1.80 ✓, Паша фора −1.5 @2.03 ✓. ⚡ СИСТЕМА ПАШИ 3/4 ПРОШЛА ПОЛНОСТЬЮ 4/4 (+3390)! Слейт I/J закрыт. Итог войны: Паша +30 500 (банк 130 500) · AI −24 350 (банк 75 650).",
-      "en": "⚽ Austria 3:1 Jordan (1H 1:0). Schmid 20', Olwan 50' (Jordan's FIRST EVER World Cup goal!), Al-Arab OG 76', Arnautović pen 90+12'. AI Over 2.5 @1.80 ✓, Pasha −1.5 @2.03 ✓. ⚡ PASHA'S 3/4 SYSTEM LANDS IN FULL 4/4 (+3390)! Slate I/J closed. War score: Pasha +30,500 (bank 130,500) · AI −24,350 (bank 75,650)."
+      "ru": "⚽ Австрия 3:1 Иордания (1Т 1:0). Исторический момент: Али Олван забил первый гол Иордании в истории чемпионатов мира, сравняв счет на 50-й минуте! Но опытная Австрия Рангника дожала дебютантов благодаря автоголу и позднему пенальти Арнаутовича. Оба прогнозиста празднуют победу: AI угадал общий тотал (ТБ 2.5), а Паша затащил рискованную фору (−1.5). Более того, у Паши полностью сыграла сложная система 3/4, закрыв слейт I/J в его пользу!",
+      "en": "⚽ Austria 3:1 Jordan (1H 1:0). A historic milestone as Ali Olwan leveled in the 50th minute to score Jordan's first-ever World Cup goal! However, Rangnick’s Austria proved too strong, securing a 3-1 victory after an own goal and a late Arnautović penalty. Both tipsters win: AI's Over 2.5 lands, and Pasha covers the −1.5 handicap. Pasha also swept his 3/4 system in full, clinching the I/J slate!"
     }
   },
   {
@@ -83,8 +91,8 @@
     "time": "17.06 · 06:05",
     "tag": "result",
     "text": {
-      "ru": "⚽ Аргентина 3:0 Алжир (1Т 1:0). ⚡ ХЕТ-ТРИК МЕССИ — повторил вечный рекорд Клозе (17 голов на ЧМ)! Месси 17 + дубль во 2Т. Махрез на скамейке, Лаутаро тих. AI Алжир +1 @2.18 ✗ (фейд-разгром мимо 3-й раз подряд!), Паша 1Т П1 @1.92 ✓. ⚡ Система Паши 3/4 ПРОХОДИТ (3 ноги: ОЗ-да Франция + Норвегия −2 + 1Т Аргентина) — выплата зависит от Австрии −1.5. Обе ТС-системы 2/4 мертвы. Счёт войны: Паша +24 020 · AI −26 750.",
-      "en": "⚽ Argentina 3:0 Algeria (1H 1:0). ⚡ MESSI HAT-TRICK — matched Klose’s all-time WC record (17 goals)! Messi 17 + a 2nd-half brace. Mahrez benched, Lautaro quiet. AI Algeria +1 @2.18 ✗ (fade-the-blowout missed 3rd straight time!), Pasha 1st-half win @1.92 ✓. ⚡ Pasha’s 3/4 system PASSES (3 legs: BTTS France + Norway −2 + Argentina 1H) — payout hinges on Austria −1.5. Both 2/4 correct-score systems dead. War score: Pasha +24,020 · AI −26,750."
+      "ru": "⚽ Аргентина 3:0 Алжир (1Т 1:0). ⚡ Величие Месси: капитан оформил хет-трик и повторил рекорд Мирослава Клозе по голам на чемпионатах мира (17 мячей)! Алжир оставил Махреза в запасе и не смог ничего противопоставить фавориту. AI обжегся на очередной попытке поймать фору аутсайдера, в то время как Паша уверенно забрал победу Аргентины в первом тайме. Пашина система 3/4 уже гарантировала проход трех событий, а судьба главного купона решится в матче Австрии.",
+      "en": "⚽ Argentina 3:0 Algeria (1H 1:0). ⚡ Greatness: Messi bagged a spectacular hat-trick to match Miroslav Klose's legendary World Cup record of 17 goals! Algeria left Mahrez on the bench and couldn't contain the champions. AI was burned trying to cover the underdog handicap again, while Pasha easily collected Argentina's first-half win. Pasha's 3/4 system has already locked in three winning legs, with the final payout resting on Austria."
     }
   },
   {
@@ -99,8 +107,8 @@
     "time": "17.06 · 03:05",
     "tag": "result",
     "text": {
-      "ru": "⚽ Ирак 1:4 Норвегия (1Т 1:2). Холанд ДУБЛЬ на дебюте ЧМ (29 + 2-й), Эстигор (угол Эдегора), автогол Хуссейна; Хуссейн 39 за Ирак. Полная атака Норвегии разнесла (xG 2.59:0.76). ⚔️ Лобовой клинч — Паша Норвегия −2 @2.08 ✓ (+3240), AI Ирак +1.5 @2.25 ✗ (−3000). Урок: фейд разгрома фаворита НЕ универсален — Паша прав про «заряженные» сборные. Система Паши 3/4: уже 2/4 (ОЗ-да Франция + Норвегия −2). Счёт войны: Паша +21 760 · AI −23 250.",
-      "en": "⚽ Iraq 1:4 Norway (1H 1:2). Haaland BRACE on WC debut (29 + 2nd), Østigard (Ødegaard corner), Hussein own goal; Hussein 39 for Iraq. Norway’s full attack ran riot (xG 2.59:0.76). ⚔️ Head-to-head — Pasha Norway −2 @2.08 ✓ (+3240), AI Iraq +1.5 @2.25 ✗ (−3000). Lesson: fading the favourite blowout is NOT universal — Pasha right about ‘charged-up’ sides. Pasha 3/4 system: already 2/4 (BTTS France + Norway −2). War score: Pasha +21,760 · AI −23,250."
+      "ru": "⚽ Ирак 1:4 Норвегия (1Т 1:2). Эрлинг Холанд ворвался на чемпионат мира с дублем, а атака норвежцев во главе с Эдегором устроила сопернику настоящий шторм. Ирак ответил лишь голом престижа Хуссейна. В лобовом споре победу празднует Паша — его ставка на уверенную победу Норвегии с форой (−2) зашла, а AI потерял зеленую ставку на фору Ирака (+1.5). Главный вывод: списывать фаворитов на старте нельзя, если они мотивированы и играют в оптимальном атакующем составе.",
+      "en": "⚽ Iraq 1:4 Norway (1H 1:2). Erling Haaland announced himself at the World Cup with a brace, leading a rampant Norwegian attack orchestrated by Ødegaard. Iraq only managed a consolation goal by Hussein. In their head-to-head clash, Pasha took the win as Norway covered the −2 handicap, while AI's green bet on Iraq +1.5 failed. The lesson: don't blindly fade highly-motivated favourites when they field their full attacking power."
     }
   },
   {
@@ -123,8 +131,8 @@
     "time": "17.06 · 00:05",
     "tag": "result",
     "text": {
-      "ru": "⚽ Франция 3:1 Сенегал (1Т 0:0). Сенегал держал до 65-й, потом Мбаппе (дубль 66 и 90+6) + Баркола 82; И. Мбайе 90+5 за Сенегал. ⚡ Мбаппе обошёл Месси в истории ЧМ! AI Сенегал +1 @2.13 ✗ (Франция в 2 мяча — фейд-разгром мимо), Паша ОЗ-да @1.90 ✓. Раунд за Пашей: +2700 против −3000. Счёт войны: Паша +18 520 · AI −20 250.",
-      "en": "⚽ France 3:1 Senegal (1H 0:0). Senegal held until the 65th, then Mbappé (brace 66 & 90+6) + Barcola 82; I. Mbaye 90+5 for Senegal. ⚡ Mbappé passed Messi on the all-time WC list! AI Senegal +1 @2.13 ✗ (France by two — fade-the-blowout missed), Pasha BTTS yes @1.90 ✓. Round to Pasha: +2700 vs −3000. War score: Pasha +18,520 · AI −20,250."
+      "ru": "⚽ Франция 3:1 Сенегал (1Т 0:0). Сенегал стойко сдерживал французов до середины второго тайма, но затем Килиан Мбаппе включил суперскорость (оформил дубль и обошел Месси по голам на ЧМ), а Баркола закрепил победу. Сенегал ответил лишь поздним голом престижа. В этой дуэли Паша оказался точнее, поверив в голы с обеих сторон (ОЗ-да), в то время как AI недооценил атакующую мощь Франции на последних минутах.",
+      "en": "⚽ France 3:1 Senegal (1H 0:0). Senegal held stubbornly until the 65th minute, when Kylian Mbappé came alive with a brace (passing Lionel Messi in World Cup goals) and Barcola sealed the win. Senegal only managed a late consolation goal. Pasha won this round with his BTTS-yes tip, while AI's model was burned trying to cover the underdog handicap."
     }
   },
   {
@@ -155,8 +163,8 @@
     "time": "16.06 · 17:00",
     "tag": "insight",
     "text": {
-      "ru": "🎯 Азарт-ДУЭЛЬ на точные счета: две системы 2/4 (по 500₽, 🔴) — одна от Паши, одна от AI. 🟠 Паша: Аргентина 1:0, Ирак—Норвегия 0:3, Франция 2:1, Австрия 2:0. 🔵 AI (по нашим разборам): Аргентина 2:0, Ирак—Норвегия 1:3 (Норвегия 3:1), Франция 2:1, Австрия 2:0. Общие ноги — Франция 2:1 и Австрия 2:0; спор по Аргентине и Ираку—Норвегии. Выплата, если зайдут ≥2 счёта.",
-      "en": "🎯 Correct-score DUEL: two 2/4 systems (500₽ each, 🔴) — one from Pasha, one from AI. 🟠 Pasha: Argentina 1:0, Iraq—Norway 0:3, France 2:1, Austria 2:0. 🔵 AI (from our previews): Argentina 2:0, Iraq—Norway 1:3 (Norway 3:1), France 2:1, Austria 2:0. Shared legs — France 2:1 and Austria 2:0; they differ on Argentina and Iraq—Norway. Pays if ≥2 scores land."
+      "ru": "🎯 Дуэль на точные счета: Паша и AI зарядили рискованные системы 2/4. Паша выбрал прагматичные исходы: победу Аргентины 1:0, разгром Норвегией 3:0, победу Франции 2:1 и Австрии 2:0. AI остановился на более результативных вариантах: победе Аргентины 2:0 и Норвегии 3:1, но согласился с Пашей по матчам Франции (2:1) и Австрии (2:0). Смотрим, чье видение окажется ближе к реальности.",
+      "en": "🎯 Correct-Score Battle: Pasha and the AI have locked in their high-risk 2/4 systems. Pasha went with low-scoring results: Argentina 1-0, Norway 3-0, France 2-1, and Austria 2-0. AI selected slightly higher scores: Argentina 2-0 and Norway 3-1, but agreed with Pasha on France (2-1) and Austria (2-0). Let's see whose intuition matches the pitch."
     }
   },
   {
@@ -195,16 +203,16 @@
     "time": "16.06 · 06:05",
     "tag": "result",
     "text": {
-      "ru": "⚽ Иран 2:2 Новая Зеландия — фаворит снова споткнулся. Джаст (дубль с пасов Вуда) дважды выводил NZ вперёд (7, 54), Иран догонял (Резаян 32, Мохеби 64). Тареми — 2 штанги, без гола. ВСЁ горит у обоих: AI П1🟢 + фора−1🟡 + Тареми 1:0🔴 ✗✗✗; Паша фора−1🟡 + ТС 2:0🔴 + система 3/4 ✗✗✗. Урок (опять): победа/разгром фаворита на старте ЧМ = смерть. Итог дня: Паша +15 820 · AI −17 250.",
-      "en": "⚽ Iran 2:2 New Zealand — the favorite stumbles again. Just (a brace from Wood's passes) twice put NZ ahead (7, 54), Iran chased (Rezaeian 32, Mohebi 64). Taremi — 2 off the post, no goal. EVERYTHING burns for both: AI home win 🟢 + handicap −1 🟡 + Taremi 1:0 🔴 ✗✗✗; Pasha handicap −1 🟡 + correct score 2:0 🔴 + system 3/4 ✗✗✗. Lesson (again): a favorite winning/thrashing at a WC opener = death. Day's tally: Pasha +15,820 · AI −17,250."
+      "ru": "⚽ Иран 2:2 Новая Зеландия — фаворит снова споткнулся. Джаст дважды выводил Новую Зеландию вперед, но Иран оба раза догонял. На последних минутах Тареми упустил победу, дважды проверив на прочность штанги. Полный провал для обоих прогнозиста: сгорели все основные и рискованные выборы. Очередное подтверждение главного тактического правила: победы и разгромы фаворитов в первом туре ЧМ крайне опасны для ставок.",
+      "en": "⚽ Iran 2:2 New Zealand — the favorite stumbles again. Elijah Just put New Zealand ahead twice, but Iran fought back each time. Taremi had a late chance to steal the win but hit the woodwork twice. A total blackout for both tipsters as all selections missed. Once again, the golden rule of the opening round holds true: backing heavy favorites to cover large handicaps or win comfortably is a major trap."
     }
   },
   {
     "time": "16.06 · 03:48",
     "tag": "insight",
     "text": {
-      "ru": "🎯 AI меняет красную на Иран: 2:0@28 → «Тареми забьёт + счёт 1:0» @20 (🔴, 500 → 10 000). Больше веры в иранский гринд 1:0 при урезанной атаке (без Джаханбахша/Азмуна) и блоке NZ. Осознанное исключение из «AI режет красные ТС».",
-      "en": "🎯 AI swaps its red on Iran: 2:0 @28 → 'Taremi to score + score 1:0' @20 (🔴, 500 → 10,000). More faith in an Iranian 1:0 grind given the trimmed attack (without Jahanbakhsh/Azmoun) and NZ's block. A deliberate exception to 'AI cuts red correct scores'."
+      "ru": "🎯 Корректировка AI по Ирану: вместо счета 2:0 модель переориентировалась на более прагматичный вариант «Тареми забьёт + точный счет 1:0». Учитывая ослабленный состав иранцев и низкий блок Новой Зеландии, модель ждет вязкой борьбы с минимальным количеством моментов.",
+      "en": "🎯 AI adjusts its high-risk pick on Iran: swapping a 2-0 win for a more tactical 'Taremi to score + 1-0 correct score'. With Iran's key attackers out and New Zealand expected to sit deep, the model anticipates a tight, low-scoring grind."
     }
   },
   {
@@ -227,8 +235,8 @@
     "time": "16.06 · 03:05",
     "tag": "result",
     "text": {
-      "ru": "⚽ Саудовская Аравия 1:1 Уругвай — фаворит споткнулся. Аль-Амри 41 (защитник, со стандарта) огорошил Бьелсу, М. Араухо сравнял на 80. Уругвай 59% владения, но в завершении сухо — жара Майами съела прессинг. 2 гола → ТМ 2.5 зашёл у ОБОИХ (AI 🟢@1.73 ✓, Паша 🟢@1.75 ✓). Мимо: AI «Уругвай+ТМ2.5» @2.50 (ничья), пашин ТС 0:1 @6.5. Система Паши 3/4: нога Саудовская ✓ — для прохода остался только Иран фора −1. Счёт войны: Паша +18 320 · AI −12 250.",
-      "en": "⚽ Saudi Arabia 1:1 Uruguay — the favorite stumbles. Al-Amri 41 (a defender, off a set piece) shocked Bielsa, M. Araujo equalized at 80. Uruguay 59% possession, but bone-dry in finishing — the Miami heat ate the press. 2 goals → Under 2.5 landed for BOTH (AI 🟢 @1.73 ✓, Pasha 🟢 @1.75 ✓). Misses: AI 'Uruguay + Under 2.5' @2.50 (draw), Pasha's correct score 0:1 @6.5. Pasha's system 3/4: the Saudi Arabia leg ✓ — only Iran handicap −1 left to complete it. War score: Pasha +18,320 · AI −12,250."
+      "ru": "⚽ Саудовская Аравия 1:1 Уругвай. Очередная сенсация: фаворит не смог взломать дисциплинированную оборону саудитов. Аль-Амри шокировал Уругвай голом со стандарта в первом тайме, и южноамериканцы смогли лишь сравнять счет усилиями Араухо в концовке. Влажная жара Майами заметно снизила темп игры Бьелсы. Как итог — оба прогнозиста легко забрали основной прогноз на тотал меньше (ТМ 2.5). Пашин точечный точный счет и комбо-ставка AI сгорели.",
+      "en": "⚽ Saudi Arabia 1:1 Uruguay. Another surprise as the South American giants struggled to break down a well-drilled Saudi block. Al-Amri opened the scoring from a set-piece, and Uruguay could only find an equalizer through Araujo in the 80th minute. Miami's stifling humidity clearly slowed down Bielsa's press. Both tipsters easily collected their main under (Under 2.5) selections, while AI's combo and Pasha's correct score went missed."
     }
   },
   {
@@ -347,8 +355,8 @@
     "time": "15.06 · 07:30",
     "tag": "insight",
     "text": {
-      "ru": "📊 БАЛАНС ВОЙНЫ после 12 закрытых матчей: Паша +17 720 (ROI +39.5%, 12 побед из 24), AI −14 465 (ROI −23.9%, 11 из 39). Паша уверенно ведёт. Корень разрыва — AI системно жжёт на красных точных счетах и системах (0 угаданных точных за 4 дня) и дважды сгорел зелёным ТМ на разгромах (Нидерланды 2:2, Швеция 5:1). Селективность Паши (мало ставок, в основном зелёные на свои чтения) бьёт нашу веерную раскладку по трём тирам. Вывод для AI: резать красные ТС и системы — это −EV, и калибровать зелёные точнее.",
-      "en": "📊 STATE OF THE WAR after 12 settled matches: Pasha +17,720 (ROI +39.5%, 12 wins of 24), AI −14,465 (ROI −23.9%, 11 of 39). Pasha leads comfortably. The root of the gap — AI systematically burns on red correct scores and systems (0 correct scores hit in 4 days) and twice torched a green Under on blowouts (Netherlands 2:2, Sweden 5:1). Pasha's selectivity (few bets, mostly greens on his own reads) beats our fan-out across three tiers. Takeaway for AI: cut the red correct scores and systems — that's −EV — and calibrate the greens more precisely."
+      "ru": "📊 Промежуточные итоги дуэли: после первого круга Паша захватил уверенное лидерство в турнирной таблице. Главная причина отрыва — его избирательность. Паша ставит реже, выбирая зеленые маркеты на основе личного тактического чутья. AI же теряет обороты на высокорискованных прогнозах на точный счет и слишком механических ставках на тотал меньше, которые сгорают в результативных матчах вроде Нидерландов или Швеции. Вывод для модели очевиден: нужно оптимизировать тиры и точнее калибровать риски.",
+      "en": "📊 Duel update: Pasha holds a solid lead after the opening round of matches. The key to his success lies in selectivity — he bets less frequently, focusing on strong green selections backed by tactical intuition. Meanwhile, the AI model has struggled with high-risk correct score predictions and a mechanical bias toward low-scoring games, which were blown open in high-scoring thrillers like the Netherlands and Sweden matches. The takeaway: AI needs to refine its risk categories and calibrate its green tips more carefully."
     }
   },
   {
@@ -515,8 +523,8 @@
     "time": "14.06 · 18:30",
     "tag": "pasha",
     "text": {
-      "ru": "Паша опубликовал линию (баланс 3.45 на Лиге Ставок). Зелёные: Германия-Кюрасао «результативный тайм 2-й» @1.97, Нидерланды-Япония «гол в каждом тайме» @1.84, Кот-д'Ивуар-Эквадор «фолы ТБ 25.5» @1.85, Швеция-Тунис П1 @1.99. Красная система 3/4 (350 ₽, +6625): Япония побед + Кот-д'Ивуар побед + Германия рез.тайм 2 + Швеция побед. Плюс отдельный красный экспресс: Япония + Кот-д'Ивуар побеждают.",
-      "en": "Pasha published his line (balance 3.45 on Liga Stavok). Greens: Germany-Curaçao \"higher-scoring half = 2nd\" @1.97, Netherlands-Japan \"a goal in each half\" @1.84, Ivory Coast-Ecuador \"fouls Over 25.5\" @1.85, Sweden-Tunisia home win @1.99. Red system 3/4 (350 ₽, +6625): Japan win + Ivory Coast win + Germany higher-scoring half 2nd + Sweden win. Plus a separate red accumulator: Japan + Ivory Coast both win."
+      "ru": "🅿️ Паша определился со своими ставками на игровой день. В основной зеленый купон вошли: результативный второй тайм у Германии с Кюрасао, гол в каждом тайме у Нидерландов с Японией, верховой тотал фолов в матче Кот-д’Ивуара с Эквадором и чистая победа Швеции над Тунисом. В качестве рискованной красной ставки Паша собрал систему 3/4 на победы Японии, Кот-д'Ивуара, Швеции и результативный тайм немцев.",
+      "en": "🅿️ Pasha has released his selections for the upcoming matches. His core green ticket includes: a higher-scoring second half in Germany vs. Curaçao, a goal in each half in Netherlands vs. Japan, Over fouls in Ivory Coast vs. Ecuador, and a straight Sweden win against Tunisia. For a high-risk red play, Pasha put together a 3/4 system backing wins for Japan, Ivory Coast, Sweden, and the German half-time trend."
     }
   },
   {
@@ -699,8 +707,8 @@
     "time": "13.06 · 06:05",
     "tag": "result",
     "text": {
-      "ru": "США 4:1 Парагвай. Балогун дубль (31', 48') на дебюте ЧМ, Рейна добил 90+7'. Расчёт: Балогун anytime ✓ и Обе забьют Паши ✓; ТМ 2.5, экспресс, 1Т 0:0, ТС 1:0, ничья и пенальти — мимо. По матчу Паша +420 ₽, AI −3 775 ₽.",
-      "en": "USA 4:1 Paraguay. Balogun brace (31', 48') on his World Cup debut, Reyna finished it 90+7'. Settled: Balogun anytime ✓ and Pasha's Both teams to score ✓; Under 2.5, accumulator, 1st half 0:0, Correct score 1:0, draw and penalty — all missed. On the match Pasha +420 ₽, AI −3,775 ₽."
+      "ru": "⚽ США 4:1 Парагвай. Фоларин Балогун отпраздновал дебют на ЧМ ярким дублем, а Джованни Рейна установил окончательный счет на последних минутах. AI порадовал точечный проп на гол Балогуна, а у Паши зашел выбор на обоюдное взятие ворот (ОЗ-да). При этом общие прогнозы на низовой характер встречи не оправдались — Парагвай раскрылся после быстрого пропущенного мяча, и тотал улетел далеко вверх.",
+      "en": "⚽ USA 4:1 Paraguay. Folarin Balogun celebrated his World Cup debut with a brilliant brace, and Giovanni Reyna sealed the win deep in stoppage time. AI hit on Balogun's anytime goal, while Pasha covered his BTTS-yes selection. However, the expectation of a tight, low-scoring match was shattered as Paraguay had to abandon their defensive shape early on."
     }
   },
   {
