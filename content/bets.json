@@ -2669,5 +2669,24 @@
     "contest": true,
     "status": "pending",
     "note": { "ru": "🅿️ Паша: матч без интриги, уверен в Колумбии — Ацтека/высота 2 км = считай домашний матч для Колумбии (как 'опустили с гор' Эквадор). Колумбия в среднем не забивает больше двух, голов Узбекистана не ждёт → складывает П2 + ТМ 3.5, слегка завышая для страховки от автогола/пенальти Узбекистану. Резолв: победа Колумбии И всего ≤3 голов. Полное совпадение с AI (ТМ 2.5 + Колумбия). Кэф — Лига Ставок.", "en": "🅿️ Pasha: no intrigue, sure of Colombia — Azteca/altitude 2km = effectively a home game for Colombia (just as Ecuador were 'brought down from the mountains'). Colombia rarely score more than two and he expects nothing from Uzbekistan → stacks Colombia win + Under 3.5, nudged up to insure against an own goal/penalty for Uzbekistan. Settles: Colombia win AND ≤3 total goals. Full overlap with AI (Under 2.5 + Colombia). Odds — Liga Stavok." }
+  },
+  {
+    "id": 107,
+    "date": "2026-06-18",
+    "match": { "ru": "Система 2/3 · ординары Паши (слейт K/L)", "en": "System 2/3 · Pasha singles (K/L slate)" },
+    "bet": { "ru": "Система 2/3 (ординары)", "en": "System 2/3 (singles)" },
+    "type": "Система",
+    "odds": 3.51,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "stake": 3000,
+    "status": "pending",
+    "note": { "ru": "🟢 Уточнение Паши: система не 3/4, а 2/3 — Гана-ничья убрана, остаются 3 ординара: Португалия 2-й тайм ТБ1.5 @2.07 + Англия П1 @1.73 + Узбекистан П2+ТМ3.5 @1.83. Нужно ≥2 из 3 (3 двойника, ставка 3000 делится по ~1000). Паша классифицирует как зелёную (уверенная). Кэф при всех 3 зашедших ≈ 3.51×; при 2 из 3 — около возврата/малый плюс. Кэф номинальный — пересчёт эфф. кэфа при резолве. NB: 2 ноги (1.73 и 1.83) ниже нашего внутреннего системного порога 1.9 — но это купон Паши, фиксируем как есть. Кэфы — Лига Ставок.", "en": "🟢 Pasha's clarification: the system is not 3/4 but 2/3 — the Ghana draw is dropped, leaving 3 singles: Portugal 2nd-half Over 1.5 @2.07 + England win @1.73 + Uzbekistan Colombia-win+Under 3.5 @1.83. Needs ≥2 of 3 (3 doubles, 3000 stake split ~1000 each). Pasha tiers it green (confident). Effective odds if all 3 land ≈ 3.51×; if exactly 2 of 3 — roughly break-even/small profit. Odds nominal — recomputed at the effective rate on resolve. NB: 2 legs (1.73 and 1.83) are below our internal 1.9 system floor — but this is Pasha's slip, recorded as placed. Odds — Liga Stavok." },
+    "legs": [
+      { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "2-й тайм ТБ 1.5 @2.07", "en": "2nd half Over 1.5 @2.07" } },
+      { "m": { "ru": "Англия — Хорватия", "en": "England — Croatia" }, "p": { "ru": "Победа Англии @1.73", "en": "England win @1.73" } },
+      { "m": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" }, "p": { "ru": "Колумбия + ТМ 3.5 @1.83", "en": "Colombia win + Under 3.5 @1.83" } }
+    ]
   }
 ]
