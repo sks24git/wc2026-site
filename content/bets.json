@@ -2528,13 +2528,13 @@
     "date": "2026-06-18",
     "matchId": "ghana-panama",
     "match": { "ru": "Гана — Панама", "en": "Ghana — Panama" },
-    "bet": { "ru": "ТМ 2.5", "en": "Under 2.5" },
-    "type": "ТМ",
-    "odds": 1.60,
+    "bet": { "ru": "Фора Панамы 0", "en": "Panama 0 handicap" },
+    "type": "АФ",
+    "odds": 2.25,
     "tier": "green",
     "side": "AI",
     "status": "pending",
-    "note": { "ru": "Суммарный xG 2.3, обе результат-ориентированы (выживание группы), Панама исторически держит низкий тотал (4 гола в 10 отбора), Polymarket 60% за низ, модельный прогноз счёта 1:1. Кэф — книга Паши (Лига Ставок).", "en": "Combined xG 2.3, both result-oriented (group survival), Panama historically keeps totals low (4 conceded in 10 qualifiers), Polymarket 60% under, model score projection 1:1. Odds from Pasha's book." }
+    "note": { "ru": "⚡ Ревью купона: главный edge матча — не ТМ @1.60 (рынок уже съел низ), а Панама против рынка. Opta даёт Панаме 45.2%, ничью 25.2%, Гане 29.6%; фора 0 @2.25 страхует ничью возвратом и бьёт модельную fair-цену. Гана без Парти/Кудуса/Салису, новый тренер, 0 побед в 7; Панама дисциплинированна и опасна стандартами/контрами. Кэф — книга Паши (Лига Ставок).", "en": "⚡ Slip review: the match edge is not Under @1.60 (the market already priced the low total), but Panama against the market. Opta gives Panama 45.2%, draw 25.2%, Ghana 29.6%; Panama 0 @2.25 protects the draw as a push and beats the model fair price. Ghana without Partey/Kudus/Salisu, new coach, 0 wins in 7; Panama are disciplined and dangerous on set pieces/counters. Odds from Pasha's book." }
   },
   {
     "id": 98,
@@ -2586,11 +2586,11 @@
     "side": "AI",
     "stake": 500,
     "status": "pending",
-    "note": { "ru": "🔴 Обязательная система ТС 2/4 из модальных счетов: Португалия 2:0, Колумбия 1:0, Англия 1:0, Гана-Панама 1:1. Нужно ≥2 счёта (6 даблов, ставка 500 делится). Кэф номинальный — пересчёт по факту резолва. Все ноги ≥1.9 ✓.", "en": "🔴 Mandatory 2/4 correct-score system from modal scores: Portugal 2:0, Colombia 1:0, England 1:0, Ghana-Panama 1:1. Needs ≥2 scores (6 doubles, 500 stake split). Odds nominal — recomputed on resolve. All legs ≥1.9 ✓." },
+    "note": { "ru": "🔴 Обязательная система ТС 2/4 после ревью логики: Португалия 1:0 (синхронно с ДРК +1.5), Колумбия 1:0, Англия—Хорватия 1:1 (синхронно с ничьей @3.85), Гана—Панама 1:1. Нужно ≥2 счёта (6 даблов, ставка 500 делится). Кэф номинальный — пересчёт по факту резолва. Все ноги ≥1.9 ✓.", "en": "🔴 Mandatory 2/4 correct-score system after logic review: Portugal 1:0 (aligned with DR Congo +1.5), Colombia 1:0, England-Croatia 1:1 (aligned with draw @3.85), Ghana-Panama 1:1. Needs ≥2 scores (6 doubles, 500 stake split). Odds nominal — recomputed on resolve. All legs ≥1.9 ✓." },
     "legs": [
-      { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "Счёт 2:0 @5.5", "en": "Score 2:0 @5.5" } },
+      { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "Счёт 1:0 @6.5", "en": "Score 1:0 @6.5" } },
       { "m": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" }, "p": { "ru": "Счёт 0:1 Колумбия @6.0", "en": "Score 0:1 Colombia @6.0" } },
-      { "m": { "ru": "Англия — Хорватия", "en": "England — Croatia" }, "p": { "ru": "Счёт 1:0 @6.0", "en": "Score 1:0 @6.0" } },
+      { "m": { "ru": "Англия — Хорватия", "en": "England — Croatia" }, "p": { "ru": "Счёт 1:1 @7.0", "en": "Score 1:1 @7.0" } },
       { "m": { "ru": "Гана — Панама", "en": "Ghana — Panama" }, "p": { "ru": "Счёт 1:1 @6.5", "en": "Score 1:1 @6.5" } }
     ]
   }

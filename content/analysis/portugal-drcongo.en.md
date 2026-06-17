@@ -38,9 +38,9 @@
 
 | Bet | Tier | Odds | Rationale |
 |---|---|---|---|
-| 🟢 **DR Congo +1.5** | Green | 1.91 | §8.4 calibration: positional favourite vs elite defence (8 clean sheets in 13 qualifying matches, 0.3 conceded/match). No Dias — Araújo starts just his 2nd World Cup game. Opta 23% DR Congo+draw — the Spain-not-Norway pattern. Covers 0:0, DR Congo win, 1:1 and even 2:1 DR Congo. |
+| 🟢 **DR Congo +1.5** | Green | 1.95 | §8.4 calibration: positional favourite vs elite defence (8 clean sheets in 13 qualifying matches, 0.3 conceded/match). No Dias — Araújo starts just his 2nd World Cup game. Opta 23% DR Congo+draw — the Spain-not-Norway pattern. Covers 0:0, DR Congo win, 1:1 and even 2:1 DR Congo. |
 
-**System TS leg (red, inside 2/4 system):** Portugal 2:0 @~5.5-6.0
+**System TS leg (red, inside 2/4 system):** Portugal 1:0 @6.5
 
 **We don't take:**
 - Portugal win (-350) — no value, implied matches model

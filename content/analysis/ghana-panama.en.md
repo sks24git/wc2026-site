@@ -32,11 +32,11 @@
 
 | Bet | Tier | Odds |
 |---|---|---|
-| Under 2.5 | 🟢 | ~1.70 |
-| ⚡ Panama Win | 🟡 | ~3.40 |
+| Panama 0 handicap | 🟢 | 2.25 |
+| ⚡ Panama Win | 🟡 | 3.30 |
 
-**Under 2.5 🟢** — combined xG 2.3, Polymarket 60% low-end, base forecast 1:1. Panama don't play open football. Ghana's attack is blunted without their top creators.
+**Panama 0 handicap 🟢** — after review this is the best primary market in the match. Under 2.5 @1.60 is already priced by the market (Polymarket 60% under); the real edge is Panama against the market. Opta: Panama 45.2%, draw 25.2%, Ghana 29.6%; Panama 0 @2.25 protects the draw as a push and beats the model fair price. Ghana are without Partey/Kudus/Salisu, have a new coach and 0 wins in 7.
 
-**⚡ Panama Win 🟡 — FLAGSHIP BET OF THE ROUND.** Opta 45.2% vs market 30% — the widest model-market gap of this matchday. Ghana are overrated by name: −4 players, 0 wins in 7, 1:5 to Austria. Panama are an organised side with the Gold Cup's top scorer and an unbeaten qualifying record. @3.40 reflects Opta's implied true probability of ~45%.
+**⚡ Panama Win 🟡 — FLAGSHIP BET OF THE ROUND.** Opta 45.2% vs market 30% — the widest model-market gap of this matchday. Ghana are overrated by name: −4 players, 0 wins in 7, 1:5 to Austria. Panama are an organised side with the Gold Cup's top scorer and an unbeaten qualifying record. @3.30 is still well above Opta fair value.
 
 *Correct-score system leg: Ghana–Panama 1:1.*

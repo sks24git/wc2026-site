@@ -14,7 +14,7 @@
 ## Total and trends
 
 - xG: England ~2.0 / Croatia 0.7–1.0. Combined xG ~2.7–3.0 — the Under/Over 2.5 border zone.
-- Market is skewed toward the low end: Under 2.5 ~1.80, implying ~55% probability.
+- Market is skewed toward the low end: Under 2.5 1.75, implying ~57% probability.
 - Croatia are a disciplined bus who haven't scored in 6 matches — their contribution to the total is minimal.
 - Positional favourite vs a deep defensive block = slow tempo, few open chances.
 - The closed stadium neutralises fatigue as a factor — Croatia can hold their shape longer.
@@ -26,22 +26,22 @@
 | Outcome | Odds | Note |
 |---|---|---|
 | England Win | 1.73–1.79 | Fair, no skew |
-| Draw | 3.50–3.70 | Interest — WC first-round historical pattern |
+| Draw | 3.85 | Interest — WC first-round historical pattern, better than expected price |
 | Croatia Win | 5.00–5.25 | No value |
-| Under 2.5 | ~1.80 | Market and models in agreement |
+| Under 2.5 | 1.75 | Market and models in agreement |
 | BTTS Yes | ~2.05 | Elevated: Croatia rarely scores |
 
-No clear ⚡ edge — the market reads the match type correctly. The main tactical interest is **Draw @3.50** as a pattern hedge on opening-day caution.
+No clear ⚡ edge — the market reads the match type correctly. The main tactical interest is **Draw @3.85** as a pattern hedge on opening-day caution.
 
 ## AI bets
 
 | Bet | Tier | Odds |
 |---|---|---|
-| Under 2.5 | 🟢 | ~1.80 |
-| Draw | 🟡 | ~3.50 |
+| Under 2.5 | 🟢 | 1.75 |
+| Draw | 🟡 | 3.85 |
 
-**Under 2.5 🟢** — positional match + defensive Croatia + the air-conditioned arena keeps the tempo low. Combined xG ~2.7 doesn't guarantee "over". Base scenario: 1:0 or 0:0.
+**Under 2.5 🟢** — positional match + defensive Croatia + the air-conditioned arena keeps the tempo low. Combined xG ~2.7 doesn't guarantee "over". Base scenario: 1:0 / 1:1 / 0:0.
 
-**Draw 🟡** — lesson from WC opening rounds (4 straight draws to start WC 2022), Tuchel cautious in a tournament opener, Croatia can grind out a draw under pressure. @3.50 is a reasonable price for the pattern.
+**Draw 🟡** — lesson from WC opening rounds (4 straight draws to start WC 2022), Tuchel cautious in a tournament opener, Croatia can grind out a draw under pressure. @3.85 is already a good price for the pattern.
 
-*Correct-score system leg: England 1:0.*
+*Correct-score system leg after review: 1:1 — aligned with the yellow draw @3.85.*
