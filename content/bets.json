@@ -2483,5 +2483,115 @@
         }
       }
     ]
+  },
+  {
+    "id": 94,
+    "date": "2026-06-17",
+    "matchId": "portugal-drcongo",
+    "match": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" },
+    "bet": { "ru": "Фора ДР Конго +1.5", "en": "DR Congo +1.5 handicap" },
+    "type": "АФ",
+    "odds": 1.91,
+    "tier": "green",
+    "side": "AI",
+    "status": "pending",
+    "note": { "ru": "⚙️ Калибровка §8.4: Португалия — ПОЗИЦИОННЫЙ фаворит против элитной обороны дебютанта (ДРК 8 сухих в 13 отбора, 0.3 проп./матч), а не вертикальный таран. Без Рубена Диаша, крытый стадион (жара не помогает ломать автобус). Opta даёт ДРК 23% на победу. Паттерн Испании 0:0/Ирана, НЕ Франции/Норвегии — фора аутсайдера тут уместна. Кэф ориентировочный (сверить с книгой Паши).", "en": "⚙️ §8.4 calibration: Portugal is a POSITIONAL favourite against the debutants' elite defence (DR Congo 8 clean sheets in 13 qualifiers, 0.3 conceded/game), not a vertical steamroller. Without Rúben Dias, indoor stadium (no heat to break the bus). Opta gives DR Congo 23% to win. The Spain 0:0/Iran pattern, NOT France/Norway — the underdog handicap fits here. Odds indicative (to verify vs Pasha's book)." }
+  },
+  {
+    "id": 95,
+    "date": "2026-06-18",
+    "matchId": "uzbekistan-colombia",
+    "match": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" },
+    "bet": { "ru": "ТМ 2.5", "en": "Under 2.5" },
+    "type": "ТМ",
+    "odds": 1.87,
+    "tier": "green",
+    "side": "AI",
+    "status": "pending",
+    "note": { "ru": "Суммарный xG 2.25 (≤2.3 по стратегии), высота Ацтеки (2250 м) давит темп во 2-м тайме, автобус Каннаваро 5-4-1, Колумбия много упускает (31 незабитый биг-чанс в отборе). Edge +3.5–7.5 п.п. к рынку. Кэф ориентировочный.", "en": "Combined xG 2.25 (≤2.3 per strategy), Azteca altitude (2250 m) suppresses second-half tempo, Cannavaro's 5-4-1 bus, Colombia wasteful (31 big chances missed in qualifying). Edge +3.5–7.5 pp vs the market. Odds indicative." }
+  },
+  {
+    "id": 96,
+    "date": "2026-06-17",
+    "matchId": "england-croatia",
+    "match": { "ru": "Англия — Хорватия", "en": "England — Croatia" },
+    "bet": { "ru": "ТМ 2.5", "en": "Under 2.5" },
+    "type": "ТМ",
+    "odds": 1.80,
+    "tier": "green",
+    "side": "AI",
+    "status": "pending",
+    "note": { "ru": "Позиционный старт, Хорватия 5-4-1 (медленные старты: ЧМ-2022 0:0 Марокко, Евро-2020 0:1 Англии), Англия терпеливо вскрывает (гол 55–70'), крытый стадион 22°C — контролируемый темп. Рынок тоже за низ (ТМ @1.80). Кэф ориентировочный.", "en": "Positional opener, Croatia 5-4-1 (slow starters: WC-2022 0:0 Morocco, Euro-2020 0:1 to England), England patient breakdown (goal 55–70'), indoor 22°C — controlled tempo. Market also leans under (Under @1.80). Odds indicative." }
+  },
+  {
+    "id": 97,
+    "date": "2026-06-18",
+    "matchId": "ghana-panama",
+    "match": { "ru": "Гана — Панама", "en": "Ghana — Panama" },
+    "bet": { "ru": "ТМ 2.5", "en": "Under 2.5" },
+    "type": "ТМ",
+    "odds": 1.70,
+    "tier": "green",
+    "side": "AI",
+    "status": "pending",
+    "note": { "ru": "Суммарный xG 2.3, обе результат-ориентированы (выживание группы), Панама исторически держит низкий тотал (4 гола в 10 отбора), Polymarket 60% за низ, модельный прогноз счёта 1:1. Кэф ориентировочный.", "en": "Combined xG 2.3, both result-oriented (group survival), Panama historically keeps totals low (4 conceded in 10 qualifiers), Polymarket 60% under, model score projection 1:1. Odds indicative." }
+  },
+  {
+    "id": 98,
+    "date": "2026-06-18",
+    "matchId": "ghana-panama",
+    "match": { "ru": "Гана — Панама", "en": "Ghana — Panama" },
+    "bet": { "ru": "Победа Панамы", "en": "Panama win" },
+    "type": "П2",
+    "odds": 3.40,
+    "tier": "yellow",
+    "side": "AI",
+    "status": "pending",
+    "note": { "ru": "⚡ ФЛАГМАН VALUE слейта: Opta даёт Панаме 45.2%, рынок лишь 30% (+15.2 п.п.). Гана без Парти (виза), Кудуса, Салису; новый тренер 2 мес; 0 побед в 7, 1:5 от Австрии. Панама не проигрывала в отборе КОНКАКАФ (4 гола в 10), дисциплина + стандарты + контратаки (Диас/Уотерман). Рынок переоценивает Гану по именам — наш главный edge модель-vs-рынок. Кэф ориентировочный.", "en": "⚡ The slate's FLAGSHIP value: Opta gives Panama 45.2%, the market only 30% (+15.2 pp). Ghana without Partey (visa), Kudus, Salisu; new coach of 2 months; 0 wins in 7, 1:5 to Austria. Panama unbeaten in CONCACAF qualifying (4 conceded in 10), discipline + set pieces + counters (Díaz/Waterman). The market overrates Ghana on names — our key model-vs-market edge. Odds indicative." }
+  },
+  {
+    "id": 99,
+    "date": "2026-06-17",
+    "matchId": "england-croatia",
+    "match": { "ru": "Англия — Хорватия", "en": "England — Croatia" },
+    "bet": { "ru": "Ничья", "en": "Draw" },
+    "type": "Х",
+    "odds": 3.50,
+    "tier": "yellow",
+    "side": "AI",
+    "status": "pending",
+    "note": { "ru": "Урок ×4 ничьих: на старте ЧМ фавориты буксуют. Два кэйджи-соперника, Хорватия выходит на пик в плей-офф, не на старте; Англия осторожна в опенерах. Кэф ориентировочный.", "en": "The ×4 draws lesson: favourites stall at the World Cup start. Two cagey sides, Croatia peak in the knockouts not the opener; England cautious in openers. Odds indicative." }
+  },
+  {
+    "id": 100,
+    "date": "2026-06-18",
+    "matchId": "uzbekistan-colombia",
+    "match": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" },
+    "bet": { "ru": "Победа Узбекистана", "en": "Uzbekistan win" },
+    "type": "П1",
+    "odds": 9.0,
+    "tier": "red",
+    "side": "AI",
+    "status": "pending",
+    "note": { "ru": "⚡ Value-лонгшот по модели: Opta даёт Узбекистану 17.5% против ~10% у рынка (+7.5 п.п.). Автобус Каннаваро + высота Ацтеки + дырявая оборона Колумбии (18 проп. в отборе) + контратака Шомуродова. Высокий риск, малый размер. Кэф ориентировочный.", "en": "⚡ Model value longshot: Opta gives Uzbekistan 17.5% vs the market's ~10% (+7.5 pp). Cannavaro's bus + Azteca altitude + Colombia's leaky defence (18 conceded in qualifying) + Shomurodov on the counter. High risk, small stake. Odds indicative." }
+  },
+  {
+    "id": 101,
+    "date": "2026-06-18",
+    "match": { "ru": "Система 2/4 · точные счета (слейт K/L)", "en": "System 2/4 · correct scores (K/L slate)" },
+    "bet": { "ru": "Система 2/4 (точные счета)", "en": "System 2/4 (correct scores)" },
+    "type": "Система",
+    "odds": 7.0,
+    "tier": "red",
+    "side": "AI",
+    "stake": 500,
+    "status": "pending",
+    "note": { "ru": "🔴 Обязательная система ТС 2/4 из модальных счетов: Португалия 2:0, Колумбия 1:0, Англия 1:0, Гана-Панама 1:1. Нужно ≥2 счёта (6 даблов, ставка 500 делится). Кэф номинальный — пересчёт по факту резолва. Все ноги ≥1.9 ✓.", "en": "🔴 Mandatory 2/4 correct-score system from modal scores: Portugal 2:0, Colombia 1:0, England 1:0, Ghana-Panama 1:1. Needs ≥2 scores (6 doubles, 500 stake split). Odds nominal — recomputed on resolve. All legs ≥1.9 ✓." },
+    "legs": [
+      { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "Счёт 2:0 @6.4", "en": "Score 2:0 @6.4" } },
+      { "m": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" }, "p": { "ru": "Счёт 0:1 Колумбия @6.0", "en": "Score 0:1 Colombia @6.0" } },
+      { "m": { "ru": "Англия — Хорватия", "en": "England — Croatia" }, "p": { "ru": "Счёт 1:0 @5.5", "en": "Score 1:0 @5.5" } },
+      { "m": { "ru": "Гана — Панама", "en": "Ghana — Panama" }, "p": { "ru": "Счёт 1:1 @8.5", "en": "Score 1:1 @8.5" } }
+    ]
   }
 ]
