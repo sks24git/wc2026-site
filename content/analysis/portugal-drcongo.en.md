@@ -1,3 +1,17 @@
+## Result: 1:1 — DR Congo snatch a historic point, the handicap lands
+
+**Final: Portugal 1:1 DR Congo (1st half 1:1).** Goals: **João Neves 6′** (header, Neto cross) — **Yoane Wissa 45+5′** (header, Masuaku delivery, DR Congo's first World Cup goal in 52 years). No second-half goals; **Cancelo's goal disallowed on 55′** (VAR, offside). xG: Portugal 0.64 / DR Congo 0.82 — DR Congo were the sharper side despite Portugal's total possession (724 passes). Ronaldo played 90′ without scoring, Leão came on 72′. Yellows: Bernardo 13′, Mbemba 32′, Semedo 88′. No penalties or red cards.
+
+**Settlement:**
+- ✅ **AI — DR Congo +1.5 @1.95 (🟢): WIN.** DR Congo didn't lose — the handicap covers the draw. The §8.4 calibration worked: a positional favourite without Rúben Dias against an elite defence (8 clean sheets in 13) = the bus held, no rout. **+2,850 ₽.**
+- ❌ **Pasha — 2nd half Over 1.5 @2.07 (🟢): LOSE.** Both goals came in the first half, zero in the second. The "DR Congo score in the 2nd half" thesis didn't land — they equalised late in the 1st half instead. **−3,000 ₽.**
+- ⏳ Systems (AI CS 2/4, Pasha CS 2/4, Pasha 2/3 singles) — this match's legs missed (Portugal 1:0 / 2:1 / 2H Over 1.5 — all off), but the systems stay alive into the next matches.
+- **Head-to-head of the match: AI beat Pasha** (+2,850 vs −3,000) — a rare one in our favour.
+
+**Lesson:** against an organised bus with two strikers, "a goal in the 2nd half" is weaker than the underdog handicap: the bus can score its one goal at any time (DR Congo did it late in the 1st half). The +1.5 on the correct favourite type (positional, missing its defensive leader) confirmed the Spain/Iran pattern. BTTS Yes would also have landed (Pasha himself regretted not taking BTTS for the price — his instinct was right, his market pick wasn't).
+
+---
+
 ## Portugal — DR Congo · 17 Jun, 20:00 MSK · NRG Stadium, Houston
 
 **A positional favourite against an elite defence: Portugal besiege the DR Congo bus without Rúben Dias (injury) inside a climate-controlled dome — value on DR Congo +1.5.**

@@ -1,6 +1,8 @@
 ## England — Croatia · 17 Jun, 23:00 MSK · AT&T Stadium, Arlington
 
-**Two old rivals open Group L. England (FIFA #4) are the positional favourite against Croatia's (FIFA #10) trademark deep block. Roof closed, 22°C — a clinical setting with no weather equaliser. The key question: can Bellingham–Kane–Saka crack the Croatian bus before the final whistle?**
+**Two old rivals open Group L. England (FIFA #4) are the positional favourite against Croatia's (FIFA #10) trademark deep block. Roof closed, 22°C — a clinical setting with no weather equaliser. The key question: can Bellingham–Kane crack the Croatian bus before the final whistle?**
+
+> ✅ **OFFICIAL LINEUPS.** England (4-2-3-1): Pickford — James, Stones, Konsa, O'Reilly — Rice, Anderson — **Madueke**, Bellingham, Gordon — Kane. ⚠️ **Saka benched** (Tuchel plays it safe with the Achilles → Madueke on the right), **Guéhi benched** (Konsa partners Stones), O'Reilly (21) on a debut start at LB. Croatia: Livaković — Stanišić, Vušković, Gvardiol, Šutalo — **Modrić**, P.Sučić, Pašalić — Perišić, **Musa**, Baturina. ⚠️ **Kovačić benched**, Kramarić/Budimir among the subs. **Read:** a cautious, rotated England plus a slow Modrić in midfield reinforce the low-tempo scenario → our 🟢 Under 2.5 and 🟡 Draw hold up. Kane is the penalty taker and a set-piece target (noted, but we skip player markets).
 
 ## Key points
 
