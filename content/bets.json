@@ -2593,5 +2593,25 @@
       { "m": { "ru": "Англия — Хорватия", "en": "England — Croatia" }, "p": { "ru": "Счёт 1:1 @7.0", "en": "Score 1:1 @7.0" } },
       { "m": { "ru": "Гана — Панама", "en": "Ghana — Panama" }, "p": { "ru": "Счёт 1:1 @6.5", "en": "Score 1:1 @6.5" } }
     ]
+  },
+  {
+    "id": 102,
+    "date": "2026-06-18",
+    "match": { "ru": "Система 2/4 · точные счета Паши (слейт K/L)", "en": "System 2/4 · Pasha correct scores (K/L slate)" },
+    "bet": { "ru": "Система 2/4 (точные счета)", "en": "System 2/4 (correct scores)" },
+    "type": "Система",
+    "odds": 8.0,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "stake": 500,
+    "status": "pending",
+    "note": { "ru": "🔴 Купон Паши: система ТС 2/4 из 4 точных счетов — Португалия 2:1, Англия 1:0, Гана—Панама 0:0, Колумбия 0:2. Нужно ≥2 счёта (6 даблов по ~83 ₽, ставка 500 делится). Кэф номинальный — пересчёт по эфф. кэфу при резолве. Кэфы 1:0 Англия и 0:2 Колумбия подтверждены по рынку; Португалия 2:1 (~8.5) и Гана—Панама 0:0 (~11.0) — ориентировочные (прямой линии ЛС на счёт не нашли). Ждём остальные ставки Паши.", "en": "🔴 Pasha's slip: 2/4 correct-score system from 4 exact scores — Portugal 2:1, England 1:0, Ghana-Panama 0:0, Colombia 0:2. Needs ≥2 scores (6 doubles ~83₽ each, 500 stake split). Odds nominal — recomputed at the effective rate on resolve. England 1:0 and Colombia 0:2 odds confirmed on the market; Portugal 2:1 (~8.5) and Ghana-Panama 0:0 (~11.0) are approximate (no direct Liga Stavok score line found). Awaiting Pasha's remaining bets." },
+    "legs": [
+      { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "Счёт 2:1 @8.5 (ориент.)", "en": "Score 2:1 @8.5 (approx.)" } },
+      { "m": { "ru": "Англия — Хорватия", "en": "England — Croatia" }, "p": { "ru": "Счёт 1:0 @6.5", "en": "Score 1:0 @6.5" } },
+      { "m": { "ru": "Гана — Панама", "en": "Ghana — Panama" }, "p": { "ru": "Счёт 0:0 @11.0 (ориент.)", "en": "Score 0:0 @11.0 (approx.)" } },
+      { "m": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" }, "p": { "ru": "Счёт 0:2 Колумбия @6.0", "en": "Score 0:2 Colombia @6.0" } }
+    ]
   }
 ]
