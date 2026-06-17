@@ -2193,11 +2193,11 @@
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "На книге Паши — ТБ 2.5 @1.80. Обе модели за верх (Dimers ТБ 57%); оборона Иордании рассыпается (2+ в каждом из 5), прессинг Австрии ~70% владения. Диверсификация типа от фор. ⚠️ Риск — модельный 2:0 (мимо на 1 гол) + Иордания без форвардов может сесть в автобус. Фору Австрии −1.5 не берём.",
-      "en": "On Pasha’s book — Over 2.5 @1.80. Both models favour the over (Dimers Over 57%); Jordan’s defence is crumbling (2+ in each of their last 5), Austria press ~70% possession. Diversifies type away from handicaps. ⚠️ Risk — a model 2:0 (misses by one) + a forward-less Jordan could park the bus. We don’t take Austria −1.5."
+      "ru": "✓ 3:1 — 4 гола, ТБ 2.5 зашёл. Шмид 20 (1Т 1:0), Олван 50 (1:1, первый гол Иордании в истории ЧМ), автогол Аль-Араба 76, Арнаутович пен. 90+12. Прессинг Австрии вскрыл 5-бэк — риск автобуса не реализовался.",
+      "en": "✓ 3:1 — 4 goals, Over 2.5 lands. Schmid 20' (1H 1:0), Olwan 50' (1:1, Jordan’s first ever WC goal), Al-Arab OG 76', Arnautović pen 90+12'. Austria’s press cracked the back five — the bus risk didn’t materialise."
     },
     "id": 86,
-    "status": "pending"
+    "status": "win"
   },
   {
     "id": 87,
@@ -2410,14 +2410,14 @@
     "type": "АФ",
     "odds": 2.03,
     "note": {
-      "ru": "«Матч без интриги. Иордания при старом формате на ЧМ бы не попала; нервы первого в истории матча доконают и без того дырявую оборону. Австрия дисциплинированна, Рангник, погода отменная (в отличие от подкошенной жарой Швейцарии). Аккуратная фора 1.5, кэф более чем приемлемый».",
-      "en": "“A match with no intrigue. Jordan would never have reached a World Cup under the old format; first-ever-match nerves will finish off their already-leaky defence. Austria are disciplined, Rangnick, and the weather is excellent (unlike heat-sapped Switzerland). A careful 1.5 handicap, more than acceptable odds.”"
+      "ru": "✓ 3:1 — Австрия победила в 2 мяча, фора −1.5 зашла. Паша прав направлением: нервы дебюта доконали оборону Иордании, разгром на старте состоялся (в отличие от позиционных фаворитов прошлого слейта).",
+      "en": "✓ 3:1 — Austria won by two, the −1.5 handicap lands. Pasha was right directionally: debut nerves finished off Jordan’s defence; the opening-day blowout did come (unlike the positional favourites of the previous slate)."
     },
     "id": 92,
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending"
+    "status": "win"
   },
   {
     "id": 93,
@@ -2436,10 +2436,10 @@
     "side": "Паша",
     "contest": true,
     "stake": 500,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Система 3/4 из 4 ординаров Паши. Все ноги ≥1.9 (правило систем соблюдено). Кэф при всех 4 ≈ ×7.78; при 3 из 4 — около возврата+. Коррелирует с его точными счетами. [ОЗ-да Франция ✓ — 1-я нога зашла.] [Норвегия −2 ✓ — 2-я нога зашла; для 3/4 нужна ещё 1 из (1Т Аргентина, Австрия −1.5).] [1Т Аргентина ✓ — 3-я нога! СИСТЕМА 3/4 ПРОХОДИТ (ОЗ-да Франция + Норвегия −2 + 1Т Аргентина). Выплата по Австрии −1.5: зайдёт ≈×7.78 (+3390), нет ≈×1.90 (+448). Резолв после Австрии.]",
-      "en": "System 3/4 from Pasha’s four singles. All legs ≥1.9 (system rule met). Odds if all 4 land ≈ ×7.78; 3 of 4 ≈ around stake-back+. Correlates with his correct scores. [BTTS France ✓ — first leg in.] [Norway −2 ✓ — second leg in; for 3/4 need 1 more of (Argentina 1H, Austria −1.5).] [Argentina 1H ✓ — 3rd leg! 3/4 SYSTEM PASSES (BTTS France + Norway −2 + Argentina 1H). Payout depends on Austria −1.5: hits ≈×7.78 (+3390), misses ≈×1.90 (+448). Resolve after Austria.]"
+      "ru": "✓ СИСТЕМА 3/4 ПРОШЛА ПОЛНОСТЬЮ (4/4): ОЗ-да Франция ✓ + Норвегия −2 ✓ + 1Т Аргентина ✓ + Австрия −1.5 ✓ (3:1). Все 4 ноги зашли → все 4 тройника по 125 ₽ выигрывают, эфф. кэф 7.78, профит +3390. Лучшая ставка слейта.",
+      "en": "✓ SYSTEM 3/4 LANDS IN FULL (4/4): BTTS France ✓ + Norway −2 ✓ + Argentina 1H ✓ + Austria −1.5 ✓ (3:1). All four legs in → all 4 trebles of 125₽ win, effective odds 7.78, profit +3390. Best bet of the slate."
     },
     "legs": [
       {
