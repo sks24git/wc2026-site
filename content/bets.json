@@ -2613,5 +2613,61 @@
       { "m": { "ru": "Гана — Панама", "en": "Ghana — Panama" }, "p": { "ru": "Счёт 0:0 @11.0 (ориент.)", "en": "Score 0:0 @11.0 (approx.)" } },
       { "m": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" }, "p": { "ru": "Счёт 0:2 Колумбия @6.0", "en": "Score 0:2 Colombia @6.0" } }
     ]
+  },
+  {
+    "id": 103,
+    "date": "2026-06-17",
+    "matchId": "portugal-drcongo",
+    "match": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" },
+    "bet": { "ru": "2-й тайм — ТБ 1.5", "en": "2nd half — Over 1.5" },
+    "type": "ТБ",
+    "odds": 2.07,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": { "ru": "🅿️ Паша: Португалия вкатывается аккуратно как фаворит турнира, атлетизм ДРК создаёт проблемы → нулевой/малый первый тайм. Но ДРК регулярно забивает, и преимущественно во 2-м тайме → сценарий ОЗ во 2Т, где он крупнее первого → ТБ 1.5 на второй тайм. Ждёт гол Роналду со стандарта (привет от хет-трика Месси). Жалеет, что ради кэфа не взял свой любимый ОЗ. Резолв по голам во 2-м тайме (≥2). Кэф — Лига Ставок.", "en": "🅿️ Pasha: Portugal ease in cautiously as a tournament favourite, DR Congo's athleticism causes problems → a goalless/low first half. But DR Congo score regularly, mostly in the second half → a both-teams-score second half that outscores the first → Over 1.5 for the 2nd half. Expects a Ronaldo goal from a set piece. Regrets not taking his beloved BTTS for the sake of a bigger price. Settles on 2nd-half goals (≥2). Odds — Liga Stavok." }
+  },
+  {
+    "id": 104,
+    "date": "2026-06-17",
+    "matchId": "england-croatia",
+    "match": { "ru": "Англия — Хорватия", "en": "England — Croatia" },
+    "bet": { "ru": "Победа Англии", "en": "England win" },
+    "type": "П1",
+    "odds": 1.73,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": { "ru": "🅿️ Паша: 'апофеоз антифутбола', обе боятся забить больше одного → очевидное решение ТМ. Но Хорватия стареет и слаба, ничью не удержит, а кэф на Англию за былые заслуги Хорватии приемлемый. Ждёт повтор унылого Евро-2020 (минимальная победа Англии 1:0); ТМ не взял на случай, если англичан 'прорвёт'. Кэф — Лига Ставок.", "en": "🅿️ Pasha: 'the apotheosis of anti-football', both sides afraid to score more than one → Under is the obvious call. But Croatia are ageing and weak, can't hold a draw, while England's price is generous thanks to Croatia's past reputation. Expects a rerun of the dreary Euro 2020 (a narrow England 1:0); skipped the Under in case England suddenly break loose. Odds — Liga Stavok." }
+  },
+  {
+    "id": 105,
+    "date": "2026-06-18",
+    "matchId": "ghana-panama",
+    "match": { "ru": "Гана — Панама", "en": "Ghana — Panama" },
+    "bet": { "ru": "Ничья", "en": "Draw" },
+    "type": "Х",
+    "odds": 3.25,
+    "tier": "yellow",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": { "ru": "🅿️ Паша: 'два дна', ни атаки ни обороны, анализировать бессмысленно — у кого рикошет случится, тот и выиграл. Формально Гана фаворит, но рискует влезть в большой кэф на ничью (хотел Х2, но кэф очень мал). Совпадает с AI по отказу от Ганы (AI: Панама 0/П2). Кэф — Лига Ставок.", "en": "🅿️ Pasha: 'two basement sides', no attack, no defence, pointless to analyse — whoever gets the lucky deflection wins. Ghana the nominal favourite, but he takes a punt on the big draw price (wanted double-chance X2, but the odds were too small). Agrees with AI in fading Ghana (AI: Panama 0 / Panama win). Odds — Liga Stavok." }
+  },
+  {
+    "id": 106,
+    "date": "2026-06-18",
+    "matchId": "uzbekistan-colombia",
+    "match": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" },
+    "bet": { "ru": "Победа Колумбии + ТМ 3.5", "en": "Colombia win + Under 3.5" },
+    "type": "Другое",
+    "odds": 1.83,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": { "ru": "🅿️ Паша: матч без интриги, уверен в Колумбии — Ацтека/высота 2 км = считай домашний матч для Колумбии (как 'опустили с гор' Эквадор). Колумбия в среднем не забивает больше двух, голов Узбекистана не ждёт → складывает П2 + ТМ 3.5, слегка завышая для страховки от автогола/пенальти Узбекистану. Резолв: победа Колумбии И всего ≤3 голов. Полное совпадение с AI (ТМ 2.5 + Колумбия). Кэф — Лига Ставок.", "en": "🅿️ Pasha: no intrigue, sure of Colombia — Azteca/altitude 2km = effectively a home game for Colombia (just as Ecuador were 'brought down from the mountains'). Colombia rarely score more than two and he expects nothing from Uzbekistan → stacks Colombia win + Under 3.5, nudged up to insure against an own goal/penalty for Uzbekistan. Settles: Colombia win AND ≤3 total goals. Full overlap with AI (Under 2.5 + Colombia). Odds — Liga Stavok." }
   }
 ]
