@@ -1791,7 +1791,7 @@
       "ru": "Победа Уругвая + ТМ 2.5",
       "en": "Uruguay win + Under 2.5"
     },
-    "type": "Другое",
+    "type": "Экспресс",
     "odds": 2.5,
     "tier": "yellow",
     "side": "AI",
@@ -2101,7 +2101,7 @@
       "ru": "Тареми забьёт + счёт 1:0",
       "en": "Taremi to score + score 1:0"
     },
-    "type": "ТС",
+    "type": "Экспресс",
     "odds": 20,
     "tier": "red",
     "side": "AI",

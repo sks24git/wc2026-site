@@ -13,6 +13,26 @@ const PASHA = bets.filter((b) => b.side === 'Паша');
 const AI = bets.filter((b) => b.side === 'AI');
 const plCls = (v) => (v > 0 ? 'pos' : v < 0 ? 'neg' : '');
 
+/* ── Кольцо заходимости (donut) с процентом в центре ── */
+function WinRing({ w, n, size = 42 }) {
+  const stroke = Math.max(4, Math.round(size / 9));
+  const pct = n ? Math.round((w / n) * 100) : 0;
+  const cx = size / 2;
+  const r = (size - stroke) / 2;
+  const c = 2 * Math.PI * r;
+  const color = !n ? '#c9ced4' : pct >= 50 ? '#22a559' : pct >= 34 ? '#eab308' : '#e0473a';
+  return (
+    <svg className="winring" width={size} height={size} viewBox={`0 0 ${size} ${size}`} role="img" aria-label={n ? pct + '%' : '—'}>
+      <circle cx={cx} cy={cx} r={r} fill="none" stroke="var(--hair)" strokeWidth={stroke} />
+      {n > 0 && (
+        <circle cx={cx} cy={cx} r={r} fill="none" stroke={color} strokeWidth={stroke} strokeLinecap="round"
+          strokeDasharray={`${((pct / 100) * c).toFixed(1)} ${c.toFixed(1)}`} transform={`rotate(-90 ${cx} ${cx})`} />
+      )}
+      <text x={cx} y={cx} textAnchor="middle" dominantBaseline="central" className="winring-t" fill={n ? color : '#c9ced4'}>{n ? pct + '%' : '—'}</text>
+    </svg>
+  );
+}
+
 function byDateId(a, b) {
   return a.date.localeCompare(b.date) || a.id - b.id;
 }
@@ -81,16 +101,13 @@ function TiersFor({ list }) {
     <div className="tier-rows">
       {TIER_ORDER.map((k) => {
         const v = g[k] || { n: 0, w: 0, pl: 0 };
-        const wr = v.n ? Math.round((v.w / v.n) * 100) : 0;
         return (
-          <div key={k} className="tr-wrap">
-            <div className="tr">
-              <TierIcon tier={k} size={15} lang={lang} />
-              <Tip className="tr-nm" hint={`${T('stats.trafficLight')} · ${T('legend.odds')} ${TIERS[k].odds} · ${tierNote(k, lang)}`}>{tierLabel(k, lang)}</Tip>
-              <span className={'tr-pl num ' + plCls(v.pl)}>{v.n ? money(v.pl, lang) : '—'}</span>
-              <span className="tr-wr num">{v.n ? v.w + '/' + v.n : '—'}</span>
-            </div>
-            <div className="bar"><span className="bar-fill" style={{ width: wr + '%', background: TIER_COLORS[k] }} /></div>
+          <div key={k} className="tr">
+            <WinRing w={v.w} n={v.n} size={44} />
+            <TierIcon tier={k} size={14} lang={lang} />
+            <Tip className="tr-nm" hint={`${T('stats.trafficLight')} · ${T('legend.odds')} ${TIERS[k].odds} · ${tierNote(k, lang)}`}>{tierLabel(k, lang)}</Tip>
+            <span className="tr-wr num">{v.n ? v.w + '/' + v.n : '—'}</span>
+            <span className={'tr-pl num ' + plCls(v.pl)}>{v.n ? money(v.pl, lang) : '—'}</span>
           </div>
         );
       })}
@@ -107,16 +124,13 @@ function MarketsFor({ list }) {
   if (rows.length === 0) return <p className="empty sm">{T('stats.noSettledShort')}</p>;
   return (
     <div className="market">
-      {rows.map(([k, v]) => {
-        const wr = Math.round((v.w / v.n) * 100);
-        return (
-          <div key={k} className="market-row">
-            <div className="market-name"><Tip hint={groupHint(k, lang)}>{groupLabel(k, lang)}</Tip> <small>· {v.n}</small></div>
-            <div className="market-bar"><i style={{ left: 0, width: Math.max(wr, 3) + '%', background: wr >= 50 ? '#22a559' : '#e0473a' }} /></div>
-            <div className={'market-pl num ' + plCls(v.pl)}>{money(v.pl, lang)}</div>
-          </div>
-        );
-      })}
+      {rows.map(([k, v]) => (
+        <div key={k} className="market-row">
+          <div className="market-name"><Tip hint={groupHint(k, lang)}>{groupLabel(k, lang)}</Tip> <small>· {v.n}</small></div>
+          <WinRing w={v.w} n={v.n} size={38} />
+          <div className={'market-pl num ' + plCls(v.pl)}>{money(v.pl, lang)}</div>
+        </div>
+      ))}
     </div>
   );
 }
