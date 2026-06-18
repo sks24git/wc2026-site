@@ -1,5 +1,29 @@
 [
   {
+    "time": "19.06 · 00:30",
+    "tag": "lineup",
+    "text": {
+      "ru": "📋 Впереди Канада—Катар (01:00) и Мексика—Корея (04:00). Канада: Марш заявил, что Альфонсо Дэвис «будет доступен» после травмы бедра — но в наброске состава он не в старте (вероятно, прибережён на Швейцарию). Официальные XI выйдут за ~30 мин. У Мексики напомним: дисквалифицирован Монтес, Эдсон Альварес опускается в ЦЗ. Player-маркеты — только после протоколов.",
+      "en": "📋 Up next: Canada—Qatar (01:00) and Mexico—Korea (04:00). Canada: Marsch says Alphonso Davies 'will be available' after a hamstring injury — but he's not in the projected XI (likely saved for Switzerland). Official XIs drop ~30 min before. Mexico reminder: Montes suspended, Edson Álvarez drops into central defence. Player markets only after the team sheets."
+    }
+  },
+  {
+    "time": "19.06 · 00:05",
+    "tag": "result",
+    "text": {
+      "ru": "⚫ Швейцария 4:1 Босния (1Т 0:0). Манзамби (дубль, супер-саб) + Варгас + пенальти Джаки; Махмич отыграл один. Красная Мухаремовичу (80'). До 73' было 0:0 — прорвало в концовке. ✅ AI Победа Швейцарии @1.62 (+1 860) — тезис §8 (3.24 xG в 1-м туре → регрессия) сработал, взяли чистый исход. ✅ Паша Швейцария+ТБ1.5 @1.80 (+2 400). Оба плюс.",
+      "en": "⚫ Switzerland 4:1 Bosnia (1H 0:0). Manzambi (brace, super-sub) + Vargas + Jaka penalty; Mahmić pulled one back. Red card Muharemović (80'). It was 0:0 until 73' — broke late. ✅ AI Switzerland win @1.62 (+1,860) — the §8 thesis (3.24 xG in MD1 → regression) worked, pure outcome. ✅ Pasha Switzerland+Over 1.5 @1.80 (+2,400). Both up."
+    }
+  },
+  {
+    "time": "18.06 · 21:10",
+    "tag": "result",
+    "text": {
+      "ru": "⚫ Чехия 1:1 ЮАР (1Т 1:0). Садилек 6' — Мокоэна 83' (пенальти). Чехия вела почти весь матч, но ЮАР спаслась с точки. ❌ AI Победа Чехии @1.80 (−3 000) + ❌ комбо Чехия+ТМ3.5 @2.45 (−1 500); ❌ Паша П1 Чехии @1.85 (−3 000). Урок: Чехия — команда стандартов без позиционной атаки, контроль ≠ голы; для фаворита-без-атаки лучше 1Х, чем чистый П1.",
+      "en": "⚫ Czechia 1:1 RSA (1H 1:0). Sadílek 6' — Mokoena 83' (penalty). Czechia led almost throughout but RSA rescued it from the spot. ❌ AI Czechia win @1.80 (−3,000) + ❌ combo Czechia+Under 3.5 @2.45 (−1,500); ❌ Pasha Czechia win @1.85 (−3,000). Lesson: Czechia is a set-piece team without a positional attack, control ≠ goals; for a favourite-without-attack, 1X beats the straight win."
+    }
+  },
+  {
     "time": "18.06 · 18:45",
     "tag": "lineup",
     "text": {

@@ -2932,10 +2932,10 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "Матч «смерти»: ЮАР показала худший футбол тура 1 (0.07 xG, 2 удаления), снова без Зване. Чехи пропускают, но верхом на стандартах надёжны; цена 3 очков для обоих максимальна, ничья никого не устраивает. Чистую П1 — в конкурс. Кэф — Лига Ставок (со слов Паши).",
-      "en": "A survival match: South Africa produced MD1’s worst football (0.07 xG, 2 reds) and are again without Zwane. Czechia concede but are reliable in the air on set-pieces; the price of 3 points is maximal for both, a draw suits neither. The clean home win goes into the contest. Odds — Liga Stavok (per Pasha)."
+      "ru": "✗ СГОРЕЛА. Паша: Чехия 1:1 ЮАР — ничья. Поздний пенальти ЮАР (83', Мокоэна) лишил Чехию победы. −3 000 ₽. Кэф — Лига Ставок.",
+      "en": "✗ LOSE. Pasha: Czechia 1:1 RSA — a draw. RSA's late penalty (83', Mokoena) denied Czechia the win. −3,000 ₽. Odds — Liga Stavok."
     },
-    "status": "pending"
+    "status": "lose"
   },
   {
     "id": 109,
@@ -2955,10 +2955,10 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "После 1:1 с Катаром Швейцарии нужна победа; в туре 1 создавала моменты, но недооценила соперника и решила доиграть малой кровью — сегодня так нельзя. Боснийцы мастера 1:1, но Паша ждёт уверенную победу хозяев с голами. Кэф — Лига Ставок (со слов Паши).",
-      "en": "After the 1:1 with Qatar Switzerland must win; in MD1 they created chances but underrated the opponent and tried to coast — not an option today. Bosnia are 1:1 specialists, but Pasha expects a confident home win with goals. Odds — Liga Stavok (per Pasha)."
+      "ru": "✓ ЗАШЛА. Паша: Швейцария победа + ТБ1.5 — 4:1 (5 голов, оба условия выполнены). Развязка в концовке (4 гола после 73'). +2 400 ₽. Кэф — Лига Ставок.",
+      "en": "✓ WIN. Pasha: Switzerland win + Over 1.5 — 4:1 (5 goals, both conditions met). Decided late (4 goals after 73'). +2,400 ₽. Odds — Liga Stavok."
     },
-    "status": "pending"
+    "status": "win"
   },
   {
     "id": 110,
@@ -3066,8 +3066,8 @@
       }
     ],
     "note": {
-      "ru": "4 тройника из ординаров Паши, нужно ≥3 из 4 ног. Диверсификация встроена (каждая ставка выпадает ровно из одного тройника). Кэф 6.64 — при 4/4; при 3/4 заходит один тройник (≈1.6× на банк). NB: 3 ноги <1.9 (1.85/1.80/1.88) — ниже системного порога, но это купон Паши. Эфф. кэф выставим при расчёте. Кэфы — Лига Ставок.",
-      "en": "4 trebles from Pasha’s singles; need ≥3 of 4 legs. Diversification is built in (each pick is excluded from exactly one treble). Odds 6.64 = at 4/4; at 3/4 one treble lands (~1.6× on stake). NB: 3 legs <1.9 (1.85/1.80/1.88) — below our system floor, but it’s Pasha’s slip. Effective odds set at settlement. Odds — Liga Stavok."
+      "ru": "⏳ ЖИВА (2/4 ног). Чехия П1 ✗ (1:1); Швейцария П1+ТБ1.5 ✓ (4:1). Для системы 3/4 нужно ≥3 побед — Чехия проиграла, значит нужны ОБЕ оставшиеся: Канада −1.5 И Мексика ОЗ-да. Зелёная, ставка 3000.",
+      "en": "⏳ ALIVE (2/4 legs). Czechia win ✗ (1:1); Switzerland win+O1.5 ✓ (4:1). A 3/4 system needs ≥3 wins — Czechia lost, so it now needs BOTH remaining: Canada −1.5 AND Mexico BTTS-yes. Green, 3000 stake."
     },
     "status": "pending"
   },
@@ -3131,8 +3131,8 @@
       }
     ],
     "note": {
-      "ru": "4 точных счёта Паши, нужно ≥2 из 4. Прогноз-счета: Чехия 2:1, Швейцария 2:1, Канада 2:0, Мексика 3:2. Красная по типу (ТС-система). Эфф. кэф выставим при расчёте. Кэфы точных счетов — ориентировочные, Лига Ставок.",
-      "en": "Pasha’s 4 correct scores; need ≥2 of 4. Predicted scores: Czechia 2:1, Switzerland 2:1, Canada 2:0, Mexico 3:2. Red by type (CS system). Effective odds set at settlement. Correct-score odds approximate, Liga Stavok."
+      "ru": "⏳ НА ВОЛОСКЕ (2/4 счетов). Чехия 2:1 ✗ (1:1), Швейцария 2:1 ✗ (4:1) — мимо. Для 2/4 нужны ОБА оставшихся: Канада 2:0 И Мексика 3:2. Ставка 500.",
+      "en": "⏳ HANGING BY A THREAD (2/4 scores). Czechia 2:1 ✗ (1:1), Switzerland 2:1 ✗ (4:1) — missed. For 2/4 it now needs BOTH remaining: Canada 2:0 AND Mexico 3:2. 500 stake."
     },
     "status": "pending"
   },
@@ -3152,10 +3152,10 @@
     "odds": 1.8,
     "tier": "green",
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "🟢 Урок §8 (устойчивый исход): Чехия структурно превосходит, ЮАР без двух удалённых. Не берём фору, забираем чистый исход.",
-      "en": "🟢 §8 lesson (robust outcome): Czechia structurally superior, RSA missing two to red cards. Taking pure ML over handicap."
+      "ru": "✗ СГОРЕЛА. Чехия 1:1 ЮАР — ничья, не победа. Чехия повела рано (Садилек 6'), но ЮАР сравняла пенальти на 83' (Мокоэна). −3 000 ₽.",
+      "en": "✗ LOSE. Czechia 1:1 RSA — a draw, not a win. Czechia led early (Sadílek 6'), but RSA equalised from an 83' penalty (Mokoena). −3,000 ₽."
     }
   },
   {
@@ -3174,10 +3174,10 @@
     "odds": 1.62,
     "tier": "green",
     "side": "AI",
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "🟢 Урок §8: Швейцария набила 3.24 xG в 1-м туре (26 ударов) — ждём регрессию в реализации против автобуса Боснии. Чистый исход надёжнее форы −1 (Босния тащит 1:1). Кэф ориентировочный — по евролинии ~1.62 (US-консенсус 1.55), на книге Паши уточнить; пол 1.6 соблюдён.",
-      "en": "🟢 §8 lesson: Switzerland hit 3.24 xG in MD1 (26 shots) — expecting finishing regression vs Bosnia's bus. Pure outcome safer than −1 (Bosnia grind 1:1 draws). Odds approximate — European line ~1.62 (US consensus 1.55), confirm on Pasha's book; clears the 1.6 floor."
+      "ru": "✓ ЗАШЛА. Швейцария 4:1 Босния. Регрессия в реализации сбылась: 0:0 до 73', затем супер-сабы Манзамби (дубль) + Варгас + пенальти Джаки, на фоне удаления Мухаремовича (80'). Чистый исход — надёжнее форы (−1 тоже зашёл бы, но не было нужно). +1 860 ₽. §8 работает в нашу пользу.",
+      "en": "✓ WIN. Switzerland 4:1 Bosnia. The finishing regression arrived: 0:0 until 73', then super-subs Manzambi (brace) + Vargas + a Jaka penalty, aided by Muharemović's red (80'). Pure outcome — safer than the handicap. +1,860 ₽. §8 works in our favour."
     }
   },
   {
@@ -3262,10 +3262,10 @@
     "odds": 2.45,
     "tier": "yellow",
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "🟡 Чехия без Соучека в старте потеряет в мощи на стандартах. ЮАР в глухой обороне. Ожидаем победу чехов, но без разгрома.",
-      "en": "🟡 Czechia without Soucek starting loses set-piece power. RSA defends deep. Expecting Czech win, but no blowout."
+      "ru": "✗ СГОРЕЛА. Комбо «Чехия победа + ТМ 3.5»: ТМ 3.5 прошёл (2 гола), но Чехия НЕ победила (1:1) → связка горит. Урок: комбо хрупче чистого исхода — половина верна, а ставка проиграла. −1 500 ₽.",
+      "en": "✗ LOSE. Combo 'Czechia win + Under 3.5': the Under 3.5 hit (2 goals), but Czechia did NOT win (1:1) → the combo loses. Lesson: a combo is more fragile than a pure outcome — half right, bet lost. −1,500 ₽."
     }
   },
   {
@@ -3308,8 +3308,8 @@
     "stake": 500,
     "status": "pending",
     "note": {
-      "ru": "🔴 Модальные счета фаворитов: Чехия 1:0, Швейцария 2:0, Канада 2:0, Мексика 1:1.",
-      "en": "🔴 Modal scores: CZE 1:0, SUI 2:0, CAN 2:0, MEX-KOR 1:1."
+      "ru": "⏳ НА ВОЛОСКЕ (2/4 счетов). Чехия 1:0 ✗ (1:1), Швейцария 2:0 ✗ (4:1) — мимо. Для 2/4 нужны ОБА оставшихся: Канада 2:0 И Мексика 1:1. Ставка 500.",
+      "en": "⏳ HANGING BY A THREAD (2/4 scores). Czechia 1:0 ✗ (1:1), Switzerland 2:0 ✗ (4:1) — missed. For 2/4 it now needs BOTH remaining: Canada 2:0 AND Mexico 1:1. 500 stake."
     },
     "legs": [
       {
