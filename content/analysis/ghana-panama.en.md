@@ -1,3 +1,17 @@
+## Result: 1:0 — Ghana snatch it 90+5', AI's flagship value burned
+
+**Final: Ghana 1:0 Panama (1st half 0:0).** Goal: **Caleb Yirenkyi 90+5′** (open play, counter; assist Thomas-Asante, started by Semenyo — Ghana's latest-ever World Cup goal). xG: Ghana 1.25 / Panama 0.75. Panama dominated possession (64%) and chances in the 1st half (Ghana had zero shots in the 1st half!), but Ghana grew into the 2nd half and won it late. GK Ati-Zigi subbed at half-time (injury) → Asare (3 saves). A Thomas-Asante goal disallowed in the 2nd half (offside). BTTS — no.
+
+**Settlement:**
+- ❌ **AI — Panama 0 handicap @2.25 (🟢): LOSE.** Panama lost — the handicap doesn't protect. **−3,000 ₽.**
+- ❌ **AI — Panama win @3.30 (🟡): LOSE (the slate's flagship value).** Opta had Panama at 45.2% vs the market's 30%, but one late goal swung it to Ghana. **−1,500 ₽.**
+- ❌ **Pasha — Draw @3.25 (🟡): LOSE.** It was heading for a 0:0 draw (his score) until 90+5', then a counter. **−1,500 ₽.**
+- ⏳→❌ Systems: Ghana 1:1 (AI/Pasha CS) and 0:0 (Pasha CS) legs missed.
+
+**Lesson:** both sides faded Ghana (AI → Panama, Pasha → draw) and both lost: the market (Ghana favourite) was right. The tournament's biggest model-vs-market edge (Opta Panama +15 pp) is a ~45% probability, NOT a guarantee; loading one outcome with 🟢+🟡 (4,500 ₽) was over-sized. The 'Panama not weaker' read held up on the run of play (possession, chances), but the 95th minute is pure variance. **Rule: size a single-model outlier as one signal, don't double up handicap+win on the same outcome.**
+
+---
+
 ## Ghana — Panama · 18 Jun, 02:00 MSK · BMO Field, Toronto
 
 **The biggest outlier of the round: Opta makes Panama the favourite at 45.2%, the market backs Ghana (~45%). A +15 percentage-point model-vs-market gap — the largest edge in the group stage so far. Ghana are missing Kudus, Partey, Salisu and another key player — 15 debutants, 0 wins in 7. Panama are a disciplined defensive block with the top scorer of Gold Cup 2024.**

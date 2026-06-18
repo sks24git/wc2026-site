@@ -604,7 +604,7 @@
     "stage": { "ru": "Группа L · тур 1", "en": "Group L · MD 1" },
     "venue": { "ru": "BMO Field, Торонто", "en": "BMO Field, Toronto" },
     "weather": { "ru": "Открытый стадион, умеренно", "en": "Open stadium, mild" },
-    "result": null,
+    "result": "1:0 (0:0)",
     "lede": { "ru": "⚡ Главный value слейта: Opta даёт Панаме 45% — рынок лишь 30%. Гана без Парти (виза), Кудуса и Салису, новый тренер; Панама не проигрывала в отборе КОНКАКАФ (4 гола в 10).", "en": "⚡ The slate's top value: Opta gives Panama 45% — the market only 30%. Ghana without Partey (visa), Kudus and Salisu, with a new coach; Panama unbeaten in CONCACAF qualifying (4 conceded in 10)." }
   },
   {
@@ -616,7 +616,7 @@
     "stage": { "ru": "Группа K · тур 1", "en": "Group K · MD 1" },
     "venue": { "ru": "Эстадио Ацтека, Мехико (высота ~2250 м)", "en": "Estadio Azteca, Mexico City (altitude ~2250 m)" },
     "weather": { "ru": "Открытый, высота 2250 м — давит на темп во 2-м тайме", "en": "Open-air, altitude 2250 m — suppresses second-half tempo" },
-    "result": null,
+    "result": "1:3 (0:1)",
     "lede": { "ru": "Дебют Узбекистана на ЧМ против Колумбии Хамеса/Диаса. Автобус Каннаваро (5-4-1) + высота Ацтеки = низкий тотал; xG-проекция 2.25 → ТМ 2.5.", "en": "Uzbekistan's World Cup debut against the Colombia of James/Díaz. Cannavaro's bus (5-4-1) + Azteca altitude = low total; xG projection 2.25 → Under 2.5." }
   }
 ]

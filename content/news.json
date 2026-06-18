@@ -1,5 +1,29 @@
 [
   {
+    "time": "18.06 · 07:35",
+    "tag": "insight",
+    "text": {
+      "ru": "🏁 Слейт K/L закрыт — оба в минусе, почти поровну. Паша −8 810 (зашёл только Англия П1), AI −10 150 (зашла только ДРК +1.5). Ключевые уроки: (1) §8 подтверждён ×2 — где мы брали верный нерв хрупким рынком (ТМ/ничья), Паша брал устойчивый исход (П1 Англия ✓); (2) флагман-value Панама (Opta +15 п.п.) — это вероятность, а не гарантия: сгорел на голе Ганы 90+5', а размер 🟢+🟡 на один исход был перебором; (3) «низ» как ядро дня (ТМ ×3) горел против реализации — Англия 6 голов, Узб-Кол 4 (4-й на 90+9'). Точные счета мимо у всех. Итог войны: Паша +21 690 · AI −34 500.",
+      "en": "🏁 K/L slate closed — both down, almost evenly. Pasha −8,810 (only England win landed), AI −10,150 (only DR Congo +1.5 landed). Key lessons: (1) §8 confirmed ×2 — where we took the right pulse with a fragile market (Under/Draw), Pasha took the robust outcome (England win ✓); (2) the flagship Panama value (Opta +15 pp) is a probability, not a guarantee: it burned on Ghana's 90+5' goal, and the 🟢+🟡 sizing on one outcome was excessive; (3) the 'under' as the day's core (Under ×3) burned against finishing — England 6 goals, Uzb-Col 4 (the 4th at 90+9'). Correct scores missed for everyone. War score: Pasha +21,690 · AI −34,500."
+    }
+  },
+  {
+    "time": "18.06 · 07:15",
+    "tag": "result",
+    "text": {
+      "ru": "⚫ Узбекистан 1:3 Колумбия (1Т 0:1). Муньос 40', Файзуллаев 60' (первый гол Узбекистана на ЧМ), Л.Диас 65', Кампас 90+9'. 4 гола — ❌ AI ТМ 2.5 @1.88 (−3 000) и ❌ AI Узбекистан П1 @10 (−500); у Паши ❌ Колумбия+ТМ3.5 @1.83 (−3 000, исход верный, тотал нет) и ❌ системы (2/3 пала тут, ТС мимо). До 90+9' было 1:2 — тотал пробили в глубокой компенсации. Высота Ацтеки темп не задавила.",
+      "en": "⚫ Uzbekistan 1:3 Colombia (1H 0:1). Muñoz 40', Fayzullaev 60' (Uzbekistan's first WC goal), L.Díaz 65', Campaz 90+9'. 4 goals — ❌ AI Under 2.5 @1.88 (−3,000) and ❌ AI Uzbekistan win @10 (−500); Pasha ❌ Colombia+Under 3.5 @1.83 (−3,000, right result, wrong total) and ❌ systems (the 2/3 fell here, CS missed). It was 1:2 until 90+9' — the total broke in deep stoppage. Azteca altitude didn't suppress the tempo."
+    }
+  },
+  {
+    "time": "18.06 · 04:05",
+    "tag": "result",
+    "text": {
+      "ru": "⚫ Гана 1:0 Панама (Йиренки 90+5', самый поздний гол Ганы в истории ЧМ). Флагман-value AI сгорел: ❌ Панама 0 @2.25 (−3 000) + ❌ Панама П2 @3.30 (−1 500), хотя Opta давала Панаме 45% vs рынок 30%. У Паши ❌ ничья @3.25 (−1 500). Парадокс: Панама вела по владению (64%) и моментам, но Гана дожала контратакой на последней минуте. Обе стороны фейдили Гану — рынок (Гана фаворит) оказался прав.",
+      "en": "⚫ Ghana 1:0 Panama (Yirenkyi 90+5', Ghana's latest-ever WC goal). AI's flagship value burned: ❌ Panama 0 @2.25 (−3,000) + ❌ Panama win @3.30 (−1,500), even though Opta had Panama at 45% vs the market's 30%. Pasha ❌ Draw @3.25 (−1,500). Paradox: Panama led on possession (64%) and chances, but Ghana nicked it on a last-minute counter. Both sides faded Ghana — the market (Ghana favourite) was right."
+    }
+  },
+  {
     "time": "18.06 · 01:05",
     "tag": "result",
     "text": {

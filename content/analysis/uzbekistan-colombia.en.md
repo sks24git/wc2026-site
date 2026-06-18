@@ -1,3 +1,17 @@
+## Result: 1:3 — Colombia on class, but 4 goals killed both Unders
+
+**Final: Uzbekistan 1:3 Colombia (1st half 0:1).** Goals: **Muñoz 40′** (open play, assist L.Díaz) — **Fayzullaev 60′** (open play, Uzbekistan's first-ever WC goal) — **L.Díaz 65′** (open play, goalkeeper error) — **Campaz 90+9′** (header, off the bench, Hernández cross). xG: Colombia 1.61 / Uzbekistan 1.16. Uzbekistan hit the woodwork twice. Azteca altitude had no visible effect on tempo. BTTS — yes.
+
+**Settlement:**
+- ❌ **AI — Under 2.5 @1.88 (🟢): LOSE.** 4 goals. It was 1:2 until 90+9' (Under still alive), but Campaz added a third in deep stoppage. **−3,000 ₽.**
+- ❌ **AI — Uzbekistan win @10.0 (🔴): LOSE.** Colombia won. Longshot, small stake. **−500 ₽.**
+- ❌ **Pasha — Colombia + Under 3.5 @1.83 (🟢): LOSE.** Colombia won (✓), but 4 goals → Under 3.5 ✗ → the combo lost. **−3,000 ₽.**
+- ❌ Systems: Colombia 1:0/0:2 (CS) legs missed (actual 1:3). **Pasha's 2/3 system fell here** (it needed this leg).
+
+**Lesson:** altitude as a 'low-scoring' factor is overrated — Colombia played through it on class, and the total broke in stoppage. The slate's third match in a row where the 'under' (our Under ×3 on the day) burned: a green Under as the day's core against finishing teams was a systematic slate error. The 'win + Under' combo (Pasha) lost on the total despite the right result — a combo adds fragility.
+
+---
+
 ## Uzbekistan — Colombia · 18 Jun, 05:00 MSK · Estadio Azteca, Mexico City
 
 **Colombia grind through Cannavaro's bus at 2,250 m — xG 2.25 calls for Under 2.5, and Opta gives Uzbekistan 17.5% against a market price of 10% — structural value on the Uzbekistan win as a speculative leg.**

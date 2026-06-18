@@ -2507,8 +2507,8 @@
     "odds": 1.88,
     "tier": "green",
     "side": "AI",
-    "status": "pending",
-    "note": { "ru": "Суммарный xG 2.25 (≤2.3 по стратегии), высота Ацтеки (2250 м) давит темп во 2-м тайме, автобус Каннаваро 5-4-1, Колумбия много упускает (31 незабитый биг-чанс в отборе). Edge +3.5–7.5 п.п. к рынку. Кэф — книга Паши (Лига Ставок).", "en": "Combined xG 2.25 (≤2.3 per strategy), Azteca altitude (2250 m) suppresses second-half tempo, Cannavaro's 5-4-1 bus, Colombia wasteful (31 big chances missed in qualifying). Edge +3.5–7.5 pp vs the market. Odds from Pasha's book." }
+    "status": "lose",
+    "note": { "ru": "✗ СГОРЕЛА. Узбекистан 1:3 Колумбия — 4 гола. Обидно: до 90+9' было 1:2 (ТМ 2.5 жил), но Кампас добил в глубокой компенсации (90+9'). Высота Ацтеки не задавила темп — класс Колумбии решил. −3 000 ₽.", "en": "✗ LOSE. Uzbekistan 1:3 Colombia — 4 goals. Painful: it was 1:2 until 90+9' (Under 2.5 still alive), but Campaz added a third in deep stoppage (90+9'). Azteca altitude didn't suppress the tempo — Colombia's quality decided it. −3,000 ₽." }
   },
   {
     "id": 96,
@@ -2533,8 +2533,8 @@
     "odds": 2.25,
     "tier": "green",
     "side": "AI",
-    "status": "pending",
-    "note": { "ru": "⚡ Ревью купона: главный edge матча — не ТМ @1.60 (рынок уже съел низ), а Панама против рынка. Opta даёт Панаме 45.2%, ничью 25.2%, Гане 29.6%; фора 0 @2.25 страхует ничью возвратом и бьёт модельную fair-цену. Гана без Парти/Кудуса/Салису, новый тренер, 0 побед в 7; Панама дисциплинированна и опасна стандартами/контрами. Кэф — книга Паши (Лига Ставок).", "en": "⚡ Slip review: the match edge is not Under @1.60 (the market already priced the low total), but Panama against the market. Opta gives Panama 45.2%, draw 25.2%, Ghana 29.6%; Panama 0 @2.25 protects the draw as a push and beats the model fair price. Ghana without Partey/Kudus/Salisu, new coach, 0 wins in 7; Panama are disciplined and dangerous on set pieces/counters. Odds from Pasha's book." }
+    "status": "lose",
+    "note": { "ru": "✗ СГОРЕЛА. Гана 1:0 Панама — Йиренки 90+5'. Панама проиграла, фора 0 не спасает (это не возврат — Панама уступила). Парадокс: Панама доминировала по владению (64%) и моментам в 1Т, но Гана дожала контратакой на последней минуте (xG Гана 1.25 vs Панама 0.75). Главный edge модель-vs-рынок проиграл одиночной 95-й минуте. −3 000 ₽.", "en": "✗ LOSE. Ghana 1:0 Panama — Yirenkyi 90+5'. Panama lost, the 0 handicap doesn't save it (not a push — Panama were beaten). Paradox: Panama dominated possession (64%) and chances in the 1st half, but Ghana nicked it on a last-minute counter (xG Ghana 1.25 vs Panama 0.75). The flagship model-vs-market edge lost to a single 95th-minute goal. −3,000 ₽." }
   },
   {
     "id": 98,
@@ -2546,8 +2546,8 @@
     "odds": 3.30,
     "tier": "yellow",
     "side": "AI",
-    "status": "pending",
-    "note": { "ru": "⚡ ФЛАГМАН VALUE слейта: Opta даёт Панаме 45.2%, рынок лишь 30% (+15.2 п.п.). Гана без Парти (виза), Кудуса, Салису; новый тренер 2 мес; 0 побед в 7, 1:5 от Австрии. Панама не проигрывала в отборе КОНКАКАФ (4 гола в 10), дисциплина + стандарты + контратаки (Диас/Уотерман). Рынок переоценивает Гану по именам — наш главный edge модель-vs-рынок. Кэф — книга Паши (Лига Ставок).", "en": "⚡ The slate's FLAGSHIP value: Opta gives Panama 45.2%, the market only 30% (+15.2 pp). Ghana without Partey (visa), Kudus, Salisu; new coach of 2 months; 0 wins in 7, 1:5 to Austria. Panama unbeaten in CONCACAF qualifying (4 conceded in 10), discipline + set pieces + counters (Díaz/Waterman). The market overrates Ghana on names — our key model-vs-market edge. Odds from Pasha's book." }
+    "status": "lose",
+    "note": { "ru": "✗ СГОРЕЛА. Гана 1:0 Панама (Йиренки 90+5'). Флагман value слейта проиграл: Opta давала Панаме 45.2% vs рынок 30%, но Гана нашла гол в концовке. Чтение было обоснованным (Панама вела по владению/моментам в 1Т), но один поздний эпизод решил — единичная дисперсия. Урок: даже большой edge одной модели — это вероятность, а не гарантия; размер (🟢+🟡 на один исход) был великоват. −1 500 ₽.", "en": "✗ LOSE. Ghana 1:0 Panama (Yirenkyi 90+5'). The slate's flagship value lost: Opta had Panama at 45.2% vs the market's 30%, but Ghana found a late goal. The read was sound (Panama led on possession/chances in the 1st half), but one late moment decided it — single-game variance. Lesson: even a big single-model edge is a probability, not a guarantee; the sizing (🟢+🟡 on one outcome) was too heavy. −1,500 ₽." }
   },
   {
     "id": 99,
@@ -2572,8 +2572,8 @@
     "odds": 10.0,
     "tier": "red",
     "side": "AI",
-    "status": "pending",
-    "note": { "ru": "⚡ Value-лонгшот по модели: Opta даёт Узбекистану 17.5% против ~10% у рынка (+7.5 п.п.). Автобус Каннаваро + высота Ацтеки + дырявая оборона Колумбии (18 проп. в отборе) + контратака Шомуродова. Высокий риск, малый размер. Кэф — книга Паши (Лига Ставок).", "en": "⚡ Model value longshot: Opta gives Uzbekistan 17.5% vs the market's ~10% (+7.5 pp). Cannavaro's bus + Azteca altitude + Colombia's leaky defence (18 conceded in qualifying) + Shomurodov on the counter. High risk, small stake. Odds from Pasha's book." }
+    "status": "lose",
+    "note": { "ru": "✗ СГОРЕЛА. Колумбия победила 3:1. Лонгшот-value не сыграл (на то и лонгшот, малый размер 500). Узбекистан сравнял (Файзуллаев 60', первый гол на ЧМ) и дважды попал в каркас, но класс Колумбии решил. −500 ₽.", "en": "✗ LOSE. Colombia won 3:1. The longshot value didn't land (it's a longshot, small 500 stake). Uzbekistan equalised (Fayzullaev 60', their first WC goal) and hit the woodwork twice, but Colombia's quality decided it. −500 ₽." }
   },
   {
     "id": 101,
@@ -2585,8 +2585,8 @@
     "tier": "red",
     "side": "AI",
     "stake": 500,
-    "status": "pending",
-    "note": { "ru": "⏳ НА ВОЛОСКЕ (2/4 сыграно). Ноги Португалия 1:0 (1:1) и Англия—Хорватия 1:1 (4:2) — МИМО. Для прохода 2/4 теперь нужны ОБА оставшихся счёта: Колумбия 1:0 И Гана—Панама 1:1. — Система ТС 2/4: Португалия 1:0, Колумбия 1:0, Англия 1:1, Гана 1:1 (6 даблов, ставка 500 делится). Кэф номинальный — пересчёт по факту резолва.", "en": "⏳ HANGING BY A THREAD (2/4 settled). Portugal 1:0 (1:1) and England-Croatia 1:1 (4:2) legs — MISSED. To land 2/4 it now needs BOTH remaining scores: Colombia 1:0 AND Ghana-Panama 1:1. — 2/4 correct-score system: Portugal 1:0, Colombia 1:0, England 1:1, Ghana 1:1 (6 doubles, 500 stake split). Odds nominal — recomputed on resolve." },
+    "status": "lose",
+    "note": { "ru": "✗ СГОРЕЛА (0/4 счетов). Все 4 ноги мимо: Португалия 1:0 (факт 1:1), Англия 1:1 (4:2), Гана 1:1 (1:0), Колумбия 1:0 (факт 1:3). Для системы 2/4 нужно было ≥2 верных счёта — ни одного. Точные счета слейта системно мимо у обеих сторон. −500 ₽.", "en": "✗ LOSE (0/4 scores). All four legs missed: Portugal 1:0 (actual 1:1), England 1:1 (4:2), Ghana 1:1 (1:0), Colombia 1:0 (actual 1:3). A 2/4 system needed ≥2 correct scores — got none. Correct scores systematically missed for both sides this slate. −500 ₽." },
     "legs": [
       { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "Счёт 1:0 @6.5", "en": "Score 1:0 @6.5" } },
       { "m": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" }, "p": { "ru": "Счёт 0:1 Колумбия @6.0", "en": "Score 0:1 Colombia @6.0" } },
@@ -2605,8 +2605,8 @@
     "side": "Паша",
     "contest": true,
     "stake": 500,
-    "status": "pending",
-    "note": { "ru": "⏳ НА ВОЛОСКЕ (2/4 сыграно). Ноги Португалия 2:1 (1:1) и Англия 1:0 (4:2) — МИМО. Для прохода 2/4 теперь нужны ОБА оставшихся счёта: Гана—Панама 0:0 И Колумбия 0:2. — Купон Паши: система ТС 2/4 точных счетов (6 даблов, ставка 500 делится). Кэф номинальный — пересчёт по эфф. кэфу при резолве. Колумбия 0:2 подтверждён по рынку, Гана—Панама 0:0 — ориентировочный.", "en": "⏳ HANGING BY A THREAD (2/4 settled). Portugal 2:1 (1:1) and England 1:0 (4:2) legs — MISSED. To land 2/4 it now needs BOTH remaining scores: Ghana-Panama 0:0 AND Colombia 0:2. — Pasha's 2/4 correct-score system (6 doubles, 500 stake split). Odds nominal — recomputed at the effective rate on resolve. Colombia 0:2 confirmed on the market, Ghana-Panama 0:0 approximate." },
+    "status": "lose",
+    "note": { "ru": "✗ СГОРЕЛА (0/4 счетов). Все 4 ноги мимо: Португалия 2:1 (факт 1:1), Англия 1:0 (4:2), Гана—Панама 0:0 (1:0), Колумбия 0:2 (факт 1:3). Нужно было ≥2 верных счёта — ни одного. −500 ₽. Кэф — Лига Ставок.", "en": "✗ LOSE (0/4 scores). All four legs missed: Portugal 2:1 (actual 1:1), England 1:0 (4:2), Ghana-Panama 0:0 (1:0), Colombia 0:2 (actual 1:3). Needed ≥2 correct scores — got none. −500 ₽. Odds — Liga Stavok." },
     "legs": [
       { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "Счёт 2:1 @8.5 (ориент.)", "en": "Score 2:1 @8.5 (approx.)" } },
       { "m": { "ru": "Англия — Хорватия", "en": "England — Croatia" }, "p": { "ru": "Счёт 1:0 @6.5", "en": "Score 1:0 @6.5" } },
@@ -2653,8 +2653,8 @@
     "tier": "yellow",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
-    "note": { "ru": "🅿️ Паша: 'два дна', ни атаки ни обороны, анализировать бессмысленно — у кого рикошет случится, тот и выиграл. Формально Гана фаворит, но рискует влезть в большой кэф на ничью (хотел Х2, но кэф очень мал). Совпадает с AI по отказу от Ганы (AI: Панама 0/П2). Кэф — Лига Ставок.", "en": "🅿️ Pasha: 'two basement sides', no attack, no defence, pointless to analyse — whoever gets the lucky deflection wins. Ghana the nominal favourite, but he takes a punt on the big draw price (wanted double-chance X2, but the odds were too small). Agrees with AI in fading Ghana (AI: Panama 0 / Panama win). Odds — Liga Stavok." }
+    "status": "lose",
+    "note": { "ru": "✗ СГОРЕЛА. Гана 1:0 — победа Ганы, не ничья (Йиренки 90+5'). Паша фейдил Гану так же, как AI (он ничья, AI Панама) — и оба проиграли: рынок (Гана фаворит) оказался прав. До 90+5' шло к ничьей 0:0 (его ставке), но контратака решила в концовке. −1 500 ₽. Кэф — Лига Ставок.", "en": "✗ LOSE. Ghana 1:0 — a Ghana win, not a draw (Yirenkyi 90+5'). Pasha faded Ghana just like AI (he took the draw, AI took Panama) — and both lost: the market (Ghana favourite) was right. It was heading for a 0:0 draw (his bet) until 90+5', but a counter decided it late. −1,500 ₽. Odds — Liga Stavok." }
   },
   {
     "id": 106,
@@ -2667,8 +2667,8 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
-    "note": { "ru": "🅿️ Паша: матч без интриги, уверен в Колумбии — Ацтека/высота 2 км = считай домашний матч для Колумбии (как 'опустили с гор' Эквадор). Колумбия в среднем не забивает больше двух, голов Узбекистана не ждёт → складывает П2 + ТМ 3.5, слегка завышая для страховки от автогола/пенальти Узбекистану. Резолв: победа Колумбии И всего ≤3 голов. Полное совпадение с AI (ТМ 2.5 + Колумбия). Кэф — Лига Ставок.", "en": "🅿️ Pasha: no intrigue, sure of Colombia — Azteca/altitude 2km = effectively a home game for Colombia (just as Ecuador were 'brought down from the mountains'). Colombia rarely score more than two and he expects nothing from Uzbekistan → stacks Colombia win + Under 3.5, nudged up to insure against an own goal/penalty for Uzbekistan. Settles: Colombia win AND ≤3 total goals. Full overlap with AI (Under 2.5 + Colombia). Odds — Liga Stavok." }
+    "status": "lose",
+    "note": { "ru": "✗ СГОРЕЛА. Колумбия победила (✓ П2), НО всего 4 гола → ТМ 3.5 ✗ → связка проиграла. Та самая страховка «слегка завышаю на случай автогола/пенальти» не помогла: 4-й гол (Кампас 90+9') пробил тотал в глубокой компенсации. Половина тезиса верна, но комбо требует обе. −3 000 ₽. Кэф — Лига Ставок.", "en": "✗ LOSE. Colombia won (✓ Colombia), BUT 4 goals total → Under 3.5 ✗ → the combo lost. The 'nudge up to insure against an OG/penalty' didn't help: the 4th goal (Campaz 90+9') broke the total in deep stoppage. Half the thesis right, but a combo needs both. −3,000 ₽. Odds — Liga Stavok." }
   },
   {
     "id": 107,
@@ -2681,8 +2681,8 @@
     "side": "Паша",
     "contest": true,
     "stake": 3000,
-    "status": "pending",
-    "note": { "ru": "⏳ ВСЁ РЕШИТ УЗБЕКИСТАН (2/3 сыграно). Нога Англия П1 @1.73 — ✓ ЗАШЛА (4:2); нога Португалия 2Т ТБ1.5 — ✗ мимо. Для прохода 2/3 теперь нужна последняя нога: Узбекистан—Колумбия (П2+ТМ3.5) @1.83. Зайдёт → система 2/3 ✓ (1 двойник Англия×Узб = 1.73×1.83=3.17, на 3000 за 3 двойника → возврат ~3166, профит ~+166). Не зайдёт → система ✗. — Система 2/3 ординаров Паши (Гана убрана), зелёная, ставка 3000. NB: 2 ноги <1.9 — купон Паши, как есть. Кэфы — Лига Ставок.", "en": "⏳ UZBEKISTAN DECIDES IT (2/3 settled). England win @1.73 leg — ✓ WON (4:2); Portugal 2H Over 1.5 leg — ✗ missed. For 2/3 to land it now needs the last leg: Uzbekistan-Colombia (Colombia win + Under 3.5) @1.83. If it lands → system 2/3 ✓ (one double England×Uzb = 1.73×1.83=3.17, on 3000 over 3 doubles → return ~3166, profit ~+166). If not → system ✗. — Pasha's 2/3 singles system (Ghana dropped), green, 3000 stake. NB: 2 legs <1.9 — Pasha's slip, as placed. Odds — Liga Stavok." },
+    "status": "lose",
+    "note": { "ru": "✗ СГОРЕЛА (1/3 ног). Зашла только Англия П1 ✓; Португалия 2Т ТБ1.5 ✗ и Узбекистан П2+ТМ3.5 ✗ (Колумбия победила, но 4 гола — ТМ3.5 не прошёл). Для системы 2/3 нужно было ≥2 ног — лишь одна. Ни один из 3 двойников не собрался. −3 000 ₽. Система держалась на Узбекистане — 4-й гол Кампаса (90+9') убил и её, и одиночную связку id106. Кэфы — Лига Ставок.", "en": "✗ LOSE (1/3 legs). Only England win ✓ landed; Portugal 2H Over 1.5 ✗ and Uzbekistan Colombia-win+Under 3.5 ✗ (Colombia won, but 4 goals — Under 3.5 failed). A 2/3 system needed ≥2 legs — only one. None of the 3 doubles completed. −3,000 ₽. The system hinged on Uzbekistan — Campaz's 4th goal (90+9') killed both it and the single combo id106. Odds — Liga Stavok." },
     "legs": [
       { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "2-й тайм ТБ 1.5 @2.07", "en": "2nd half Over 1.5 @2.07" } },
       { "m": { "ru": "Англия — Хорватия", "en": "England — Croatia" }, "p": { "ru": "Победа Англии @1.73", "en": "England win @1.73" } },
