@@ -1,15 +1,22 @@
-## Switzerland — Bosnia · 19 Jun, 21:30 MSK · Levi's Stadium, Santa Clara
+## Switzerland — Bosnia and Herzegovina · 18 Jun, 22:00 MSK · SoFi Stadium, Los Angeles
 
-**Switzerland’s wild slip against Qatar (1:1) leaves no choice — they must go for the win. A second draw could let Bosnia grab points and build goal difference, leaving the Swiss to face Canada. Despite Bosnia’s trademark ability to play out 1:1s, Pasha expects a home win.**
+**Switzerland generated 3.24 xG in MD1 (26 shots) but scored only once. Expecting positive regression in finishing against Bosnia's bus.**
 
-## Pasha’s read
+## Key points
+- Switzerland: 26 shots (10 on target) vs Qatar, but drew 1:1. Expecting regression to the mean.
+- Bosnia: absorbed 69% possession vs Canada (1:1), goal from a set piece. Deep block.
+- Climate: ETFE canopy, 22°C — perfect conditions.
+- Models give Switzerland ~61% win probability.
 
-The wild mistake by a complacent Switzerland against Qatar leaves them no choice and demands a go-for-the-win approach: with a second draw, Bosnia could then take points and build goal difference against Qatar, leaving the Swiss to play Canada.
+## AI bets
+| Bet | Tier | Odds |
+|---|---|---|
+| Switzerland Win | 🟢 | 1.62 |
 
-Switzerland actually played quite well in MD1, creating chances regularly, but they underrated the opponent and decided to coast home — they won’t allow themselves that today. Despite Bosnia’s incredible ability to play out 1:1s, I expect a Swiss win.
+**Switzerland Win 🟢** — §8 lesson: pure outcome safer than a handicap. We expect Switzerland to break the bus (3.24 xG in MD1 = finishing regression), but a blowout isn't guaranteed (−1 is dangerous, Bosnia grind 1:1 draws). Odds approximate (European line ~1.62, US ~1.55); clears the 1.6 floor.
 
-## The bet
+## Pasha's bets
+- 🟢 **Switzerland win + Over 1.5 @1.80** (contest) + a leg of his 3/4 singles system.
+- Predicted score (2/4 CS system leg): **2:1**.
 
-- 🟢 **Switzerland win + Over 1.5 @1.80** (contest pick).
-- Off-contest, Pasha also considers a Swiss win with BTTS — Bosnia already tried to “hold” a 1:0 once.
-- Predicted score (a leg of the 2/4 CS system): **2:1**.
+**Duel:** both back Switzerland. Pasha strengthens it with Over 1.5 (believes in 2+ Swiss goals), AI takes the pure outcome — a difference in bet form, not thesis.

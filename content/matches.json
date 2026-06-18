@@ -693,7 +693,7 @@
   },
   {
     "id": "czechia-southafrica",
-    "date": "2026-06-19",
+    "date": "2026-06-18",
     "timeMsk": "19:00",
     "title": {
       "ru": "Чехия — ЮАР",
@@ -708,23 +708,23 @@
       "en": "Group A · MD 2"
     },
     "venue": {
-      "ru": "Эстадио BBVA, Монтеррей",
-      "en": "Estadio BBVA, Monterrey"
+      "ru": "Mercedes-Benz Stadium, Атланта",
+      "en": "Mercedes-Benz Stadium, Atlanta"
     },
     "weather": {
-      "ru": "Ясно, жарко ~30°C, низкая высота",
-      "en": "Clear, hot ~30°C, low altitude"
+      "ru": "Крыша закрыта, кондиционер — погода не фактор",
+      "en": "Roof closed, AC — weather not a factor"
     },
     "lede": {
-      "ru": "Матч «смерти» для ЮАР: после худшего тура 1 (0.07 xG, 2 удаления) — снова без Зване (дисквал.). Чехия гарантированно пропускает, но верхом на стандартах (Шик, Соучек, Крейчи) надёжна. Паша берёт чистую П1.",
-      "en": "A survival match for South Africa: after MD1’s worst showing (0.07 xG, 2 reds) they are again without Zwane (suspended). Czechia concede regularly but are reliable in the air on set-pieces (Schick, Souček, Krejčí). Pasha backs a clean home win."
+      "ru": "Матч на выживание (обе с 0 очков). Чехия структурно сильнее; Соучек на скамейке. ЮАР без удалённых Ситоле и Зване.",
+      "en": "Survival match (both 0 pts). Czechia stronger; Souček benched. RSA without suspended Sithole and Zwane."
     },
     "result": null
   },
   {
     "id": "switzerland-bosnia",
-    "date": "2026-06-19",
-    "timeMsk": "21:30",
+    "date": "2026-06-18",
+    "timeMsk": "22:00",
     "title": {
       "ru": "Швейцария — Босния",
       "en": "Switzerland — Bosnia"
@@ -738,23 +738,23 @@
       "en": "Group B · MD 2"
     },
     "venue": {
-      "ru": "Levi's Stadium, Санта-Клара",
-      "en": "Levi's Stadium, Santa Clara"
+      "ru": "SoFi Stadium, Лос-Анджелес",
+      "en": "SoFi Stadium, Los Angeles"
     },
     "weather": {
-      "ru": "Тепло, ясно",
-      "en": "Warm, clear"
+      "ru": "Купол ETFE, комфортно ~22°C",
+      "en": "ETFE canopy, comfortable ~22°C"
     },
     "lede": {
-      "ru": "После осечки с Катаром (1:1) Швейцарии нужна победа — иначе риск, что Босния наберёт ход. Несмотря на фирменное умение боснийцев играть 1:1, Паша ждёт победу хозяев с голами (П1 + ТБ1.5).",
-      "en": "After dropping points to Qatar (1:1), Switzerland must win or risk Bosnia gaining momentum. Despite Bosnia’s trademark 1:1 grind, Pasha expects a home win with goals (win + Over 1.5)."
+      "ru": "Швейцария набила 3.24 xG в 1-м туре (26 ударов), но не выиграла. Босния глубоко защищается.",
+      "en": "Switzerland generated 3.24 xG in MD1 (26 shots) but drew. Bosnia defends deep."
     },
     "result": null
   },
   {
     "id": "canada-qatar",
     "date": "2026-06-19",
-    "timeMsk": "22:30",
+    "timeMsk": "01:00",
     "title": {
       "ru": "Канада — Катар",
       "en": "Canada — Qatar"
@@ -768,23 +768,23 @@
       "en": "Group B · MD 2"
     },
     "venue": {
-      "ru": "BMO Field, Торонто",
-      "en": "BMO Field, Toronto"
+      "ru": "BC Place, Ванкувер",
+      "en": "BC Place, Vancouver"
     },
     "weather": {
-      "ru": "Прохладно, открытый стадион",
-      "en": "Cool, open-air"
+      "ru": "Раздвижная крыша, кондиционер",
+      "en": "Retractable roof, AC"
     },
     "lede": {
-      "ru": "Катар — главный претендент на 4-е место; Канаде дома нужна не просто победа, а разница мячей. Недооценку Катара уже показала Швейцария — подсказка не повторять. Паша усиливает форой: ждёт 2:0.",
-      "en": "Qatar are the prime candidates for 4th place; at home Canada need not just a win but goal difference. Switzerland already showed how underrating Qatar bites — a hint not to repeat it. Pasha strengthens with a handicap: he expects 2:0."
+      "ru": "Канада дома ищет первую победу в истории ЧМ. Катар допустил 26 ударов от Швейцарии и спасся чудом.",
+      "en": "Canada seek their first-ever WC win at home. Qatar allowed 26 shots vs Switzerland and survived by a miracle."
     },
     "result": null
   },
   {
     "id": "mexico-southkorea",
     "date": "2026-06-19",
-    "timeMsk": "23:30",
+    "timeMsk": "04:00",
     "title": {
       "ru": "Мексика — Южная Корея",
       "en": "Mexico — South Korea"
@@ -798,16 +798,16 @@
       "en": "Group A · MD 2"
     },
     "venue": {
-      "ru": "Эстадио Акрон, Гвадалахара (~1560 м)",
-      "en": "Estadio Akron, Guadalajara (~1560 m)"
+      "ru": "Estadio Akron, Гвадалахара (~1566 м)",
+      "en": "Estadio Akron, Guadalajara (~1566 m)"
     },
     "weather": {
-      "ru": "Открытый стадион, высота ~1560 м",
-      "en": "Open-air, altitude ~1560 m"
+      "ru": "Открытый стадион, высота 1566 м",
+      "en": "Open stadium, altitude 1566 m"
     },
     "lede": {
-      "ru": "Матч за первое место в группе на высоте. По туру 1 — железобетонное ОЗ (обе атаки забивали), но высота, статус хозяев и удаление Монтеса в туре 1 добавляют шума. Паша берёт ОЗ-да.",
-      "en": "A top-of-the-group clash at altitude. MD1 form screams BTTS (both attacks scored), but the altitude, hosts’ status and Montes’s MD1 red card add noise. Pasha backs both teams to score."
+      "ru": "Оба лидера группы с 3 очками. Мексика без удалённого столпа обороны Монтеса против контратак Сон Хын Мина.",
+      "en": "Both group leaders with 3 points. Mexico missing suspended defensive rock Montes vs Son Heung-min's counters."
     },
     "result": null
   }

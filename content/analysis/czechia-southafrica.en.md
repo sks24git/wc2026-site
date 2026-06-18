@@ -1,17 +1,32 @@
-## Czechia — South Africa · 19 Jun, 19:00 MSK · Estadio BBVA, Monterrey
+## Czechia — South Africa · 18 Jun, 19:00 MSK · Mercedes-Benz Stadium, Atlanta
 
-**A MD2 survival match. South Africa produced the worst football of the entire MD1 (0.07 xG against Mexico, two red cards) and are again without the suspended Zwane. Czechia concede regularly but are concrete in the air on set-pieces. Failing to take three points off South Africa means elimination — so a draw suits no one.**
+**Survival match (both 0 points). Czechia structurally superior, but with a surprise: Souček benched. RSA missing two to red cards. Expecting a grinding Czech win.**
 
-## Pasha’s read
+> ✅ **OFFICIAL LINEUPS.** Czechia (3-5-2): Kovář — Hranáč, Holeš, Krejčí — Coufal, Sadílek, Červ, Darida, Sojka — Schick, Hložek. ⚠️ **Surprise: Souček benched** — less aerial threat on set pieces than expected. RSA (4-2-3-1): Williams — Mudau, Mbokazi, Okon, Modiba — Mokoena, Mbatha — Maseko, Adams, Appollis — Rayners. Without suspended Sithole/Zwane; relying on fast wings vs slow Czech defense. Climate: roof closed, AC 22°C (heat is not a factor).
 
-South Africa produced the worst football of anyone in MD1, and on top of that picked up two red cards. Czechia, for their part, confirmed their reputation as a team that reliably concedes — but the attack is there no matter what, and the Schick factor hasn’t fired yet. Czechia are traditionally excellent in the air on set-pieces: a header goal is almost a lock.
+## Total and trends
+- RSA generated 0.07 xG vs Mexico (worst in tournament).
+- Czechia created 0.81 xG vs Korea (goal from set piece), weak in positional attack.
+- Without Souček, Czech corners are less dangerous.
+- Low total expected, but betting Under is dangerous (§8).
 
-Czechia’s final match is against Mexico, where counting on many points is tricky — and Mexico may already be satisfied with a draw by then. In other words: fail to take three points off South Africa and you’re out of the tournament. So we’re in for a nervy survival match, the price of three points is enormous, and a draw suits neither side. Plenty of fouls, a battle — and ultimately a Czech win.
+## Model vs market (⚡)
+| Outcome | Odds | Note |
+|---|---|---|
+| Czechia Win | 1.80 | Fair, models give ~53% |
+| Draw | 3.70 | No value |
+| RSA Win | 4.40 | No value |
 
-## The bet
+## AI bets
+| Bet | Tier | Odds |
+|---|---|---|
+| Czechia Win | 🟢 | 1.80 |
+| Czechia Win + Under 3.5 | 🟡 | 2.45 |
 
-- 🟢 **Czechia win @1.85** (the contest pick — a clean home win). Important to manage the match live.
-- Off-contest, Pasha also considers a Czech win with BTTS.
-- Predicted score (a leg of the 2/4 CS system): **2:1**.
+**§8 lesson (robust outcome):** Czechia structurally superior, RSA missing two starters. Taking pure ML over handicap.
 
-**Live triggers:** if South Africa go ahead unexpectedly — hunt the Czechia team total; watch card totals and the second-half total (good value given the battle and fouls).
+## Pasha's bets
+- 🟢 **Czechia win @1.85** (contest) + a leg of his 3/4 singles system.
+- Predicted score (2/4 CS system leg): **2:1**.
+
+**Duel:** AI and Pasha AGREE on the outcome (Czechia win). AI adds a low-scoring combo hedge, Pasha loads the outcome into a system.
