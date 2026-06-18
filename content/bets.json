@@ -2488,193 +2488,388 @@
     "id": 94,
     "date": "2026-06-17",
     "matchId": "portugal-drcongo",
-    "match": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" },
-    "bet": { "ru": "Фора ДР Конго +1.5", "en": "DR Congo +1.5 handicap" },
+    "match": {
+      "ru": "Португалия — ДР Конго",
+      "en": "Portugal — DR Congo"
+    },
+    "bet": {
+      "ru": "Фора ДР Конго +1.5",
+      "en": "DR Congo +1.5 handicap"
+    },
     "type": "АФ",
     "odds": 1.95,
     "tier": "green",
     "side": "AI",
     "status": "win",
-    "note": { "ru": "✓ ЗАШЛА. Итог 1:1 — ДРК не проиграла, фора +1.5 берёт ничью. Калибровка §8.4 подтвердилась: позиционный фаворит без Рубена Диаша против элитной обороны (8 сухих/13) = автобус устоял, разгрома нет. Висса сравняла головой в концовке 1Т (45+5′). +2 850 ₽. Кэф — книга Паши (Лига Ставок).", "en": "✓ WIN. Final 1:1 — DR Congo didn't lose, the +1.5 covers the draw. The §8.4 calibration held: a positional favourite without Rúben Dias against an elite defence (8 clean sheets in 13) = the bus held, no rout. Wissa equalised with a header late in the 1st half (45+5′). +2,850 ₽. Odds from Pasha's book." }
+    "note": {
+      "ru": "✓ ЗАШЛА. Итог 1:1 — ДРК не проиграла, фора +1.5 берёт ничью. Калибровка §8.4 подтвердилась: позиционный фаворит без Рубена Диаша против элитной обороны (8 сухих/13) = автобус устоял, разгрома нет. Висса сравняла головой в концовке 1Т (45+5′). +2 850 ₽. Кэф — книга Паши (Лига Ставок).",
+      "en": "✓ WIN. Final 1:1 — DR Congo didn't lose, the +1.5 covers the draw. The §8.4 calibration held: a positional favourite without Rúben Dias against an elite defence (8 clean sheets in 13) = the bus held, no rout. Wissa equalised with a header late in the 1st half (45+5′). +2,850 ₽. Odds from Pasha's book."
+    }
   },
   {
     "id": 95,
     "date": "2026-06-18",
     "matchId": "uzbekistan-colombia",
-    "match": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" },
-    "bet": { "ru": "ТМ 2.5", "en": "Under 2.5" },
+    "match": {
+      "ru": "Узбекистан — Колумбия",
+      "en": "Uzbekistan — Colombia"
+    },
+    "bet": {
+      "ru": "ТМ 2.5",
+      "en": "Under 2.5"
+    },
     "type": "ТМ",
     "odds": 1.88,
     "tier": "green",
     "side": "AI",
     "status": "lose",
-    "note": { "ru": "✗ СГОРЕЛА. Узбекистан 1:3 Колумбия — 4 гола. Обидно: до 90+9' было 1:2 (ТМ 2.5 жил), но Кампас добил в глубокой компенсации (90+9'). Высота Ацтеки не задавила темп — класс Колумбии решил. −3 000 ₽.", "en": "✗ LOSE. Uzbekistan 1:3 Colombia — 4 goals. Painful: it was 1:2 until 90+9' (Under 2.5 still alive), but Campaz added a third in deep stoppage (90+9'). Azteca altitude didn't suppress the tempo — Colombia's quality decided it. −3,000 ₽." }
+    "note": {
+      "ru": "✗ СГОРЕЛА. Узбекистан 1:3 Колумбия — 4 гола. Обидно: до 90+9' было 1:2 (ТМ 2.5 жил), но Кампас добил в глубокой компенсации (90+9'). Высота Ацтеки не задавила темп — класс Колумбии решил. −3 000 ₽.",
+      "en": "✗ LOSE. Uzbekistan 1:3 Colombia — 4 goals. Painful: it was 1:2 until 90+9' (Under 2.5 still alive), but Campaz added a third in deep stoppage (90+9'). Azteca altitude didn't suppress the tempo — Colombia's quality decided it. −3,000 ₽."
+    }
   },
   {
     "id": 96,
     "date": "2026-06-17",
     "matchId": "england-croatia",
-    "match": { "ru": "Англия — Хорватия", "en": "England — Croatia" },
-    "bet": { "ru": "ТМ 2.5", "en": "Under 2.5" },
+    "match": {
+      "ru": "Англия — Хорватия",
+      "en": "England — Croatia"
+    },
+    "bet": {
+      "ru": "ТМ 2.5",
+      "en": "Under 2.5"
+    },
     "type": "ТМ",
     "odds": 1.75,
     "tier": "green",
     "side": "AI",
     "status": "lose",
-    "note": { "ru": "✗ СГОРЕЛА. Итог 4:2, всего 6 голов (нужно ≤2). Матч раскрылся: дубль Кейна (пен. 12' + голова 41'), но Хорватия дважды отыгралась в 1Т (Батурина 36', Муса 45+5'), 2:2 на перерыве, во 2Т Беллингем 47' + Рэшфорд 85'. xG Англии 2.82 — атака продавила. Повтор урока «ТМ-зелёный против фаворита с сильной атакой = мина»: Хорватия и забивает (огрызнулась 2 раза), и пропускает (6 матчей без сухаря). −3 000 ₽.", "en": "✗ LOSE. Final 4:2, 6 goals total (needed ≤2). The match opened up: Kane brace (pen 12' + header 41'), but Croatia twice levelled in the 1st half (Baturina 36', Musa 45+5'), 2:2 at the break, then Bellingham 47' + Rashford 85'. England xG 2.82 — the attack overwhelmed. A repeat of the 'green Under vs a favourite with a strong attack = a mine' lesson: Croatia both score (hit back twice) and concede (6 games without a clean sheet). −3,000 ₽." }
+    "note": {
+      "ru": "✗ СГОРЕЛА. Итог 4:2, всего 6 голов (нужно ≤2). Матч раскрылся: дубль Кейна (пен. 12' + голова 41'), но Хорватия дважды отыгралась в 1Т (Батурина 36', Муса 45+5'), 2:2 на перерыве, во 2Т Беллингем 47' + Рэшфорд 85'. xG Англии 2.82 — атака продавила. Повтор урока «ТМ-зелёный против фаворита с сильной атакой = мина»: Хорватия и забивает (огрызнулась 2 раза), и пропускает (6 матчей без сухаря). −3 000 ₽.",
+      "en": "✗ LOSE. Final 4:2, 6 goals total (needed ≤2). The match opened up: Kane brace (pen 12' + header 41'), but Croatia twice levelled in the 1st half (Baturina 36', Musa 45+5'), 2:2 at the break, then Bellingham 47' + Rashford 85'. England xG 2.82 — the attack overwhelmed. A repeat of the 'green Under vs a favourite with a strong attack = a mine' lesson: Croatia both score (hit back twice) and concede (6 games without a clean sheet). −3,000 ₽."
+    }
   },
   {
     "id": 97,
     "date": "2026-06-18",
     "matchId": "ghana-panama",
-    "match": { "ru": "Гана — Панама", "en": "Ghana — Panama" },
-    "bet": { "ru": "Фора Панамы 0", "en": "Panama 0 handicap" },
+    "match": {
+      "ru": "Гана — Панама",
+      "en": "Ghana — Panama"
+    },
+    "bet": {
+      "ru": "Фора Панамы 0",
+      "en": "Panama 0 handicap"
+    },
     "type": "АФ",
     "odds": 2.25,
     "tier": "green",
     "side": "AI",
     "status": "lose",
-    "note": { "ru": "✗ СГОРЕЛА. Гана 1:0 Панама — Йиренки 90+5'. Панама проиграла, фора 0 не спасает (это не возврат — Панама уступила). Парадокс: Панама доминировала по владению (64%) и моментам в 1Т, но Гана дожала контратакой на последней минуте (xG Гана 1.25 vs Панама 0.75). Главный edge модель-vs-рынок проиграл одиночной 95-й минуте. −3 000 ₽.", "en": "✗ LOSE. Ghana 1:0 Panama — Yirenkyi 90+5'. Panama lost, the 0 handicap doesn't save it (not a push — Panama were beaten). Paradox: Panama dominated possession (64%) and chances in the 1st half, but Ghana nicked it on a last-minute counter (xG Ghana 1.25 vs Panama 0.75). The flagship model-vs-market edge lost to a single 95th-minute goal. −3,000 ₽." }
+    "note": {
+      "ru": "✗ СГОРЕЛА. Гана 1:0 Панама — Йиренки 90+5'. Панама проиграла, фора 0 не спасает (это не возврат — Панама уступила). Парадокс: Панама доминировала по владению (64%) и моментам в 1Т, но Гана дожала контратакой на последней минуте (xG Гана 1.25 vs Панама 0.75). Главный edge модель-vs-рынок проиграл одиночной 95-й минуте. −3 000 ₽.",
+      "en": "✗ LOSE. Ghana 1:0 Panama — Yirenkyi 90+5'. Panama lost, the 0 handicap doesn't save it (not a push — Panama were beaten). Paradox: Panama dominated possession (64%) and chances in the 1st half, but Ghana nicked it on a last-minute counter (xG Ghana 1.25 vs Panama 0.75). The flagship model-vs-market edge lost to a single 95th-minute goal. −3,000 ₽."
+    }
   },
   {
     "id": 98,
     "date": "2026-06-18",
     "matchId": "ghana-panama",
-    "match": { "ru": "Гана — Панама", "en": "Ghana — Panama" },
-    "bet": { "ru": "Победа Панамы", "en": "Panama win" },
+    "match": {
+      "ru": "Гана — Панама",
+      "en": "Ghana — Panama"
+    },
+    "bet": {
+      "ru": "Победа Панамы",
+      "en": "Panama win"
+    },
     "type": "П2",
-    "odds": 3.30,
+    "odds": 3.3,
     "tier": "yellow",
     "side": "AI",
     "status": "lose",
-    "note": { "ru": "✗ СГОРЕЛА. Гана 1:0 Панама (Йиренки 90+5'). Флагман value слейта проиграл: Opta давала Панаме 45.2% vs рынок 30%, но Гана нашла гол в концовке. Чтение было обоснованным (Панама вела по владению/моментам в 1Т), но один поздний эпизод решил — единичная дисперсия. Урок: даже большой edge одной модели — это вероятность, а не гарантия; размер (🟢+🟡 на один исход) был великоват. −1 500 ₽.", "en": "✗ LOSE. Ghana 1:0 Panama (Yirenkyi 90+5'). The slate's flagship value lost: Opta had Panama at 45.2% vs the market's 30%, but Ghana found a late goal. The read was sound (Panama led on possession/chances in the 1st half), but one late moment decided it — single-game variance. Lesson: even a big single-model edge is a probability, not a guarantee; the sizing (🟢+🟡 on one outcome) was too heavy. −1,500 ₽." }
+    "note": {
+      "ru": "✗ СГОРЕЛА. Гана 1:0 Панама (Йиренки 90+5'). Флагман value слейта проиграл: Opta давала Панаме 45.2% vs рынок 30%, но Гана нашла гол в концовке. Чтение было обоснованным (Панама вела по владению/моментам в 1Т), но один поздний эпизод решил — единичная дисперсия. Урок: даже большой edge одной модели — это вероятность, а не гарантия; размер (🟢+🟡 на один исход) был великоват. −1 500 ₽.",
+      "en": "✗ LOSE. Ghana 1:0 Panama (Yirenkyi 90+5'). The slate's flagship value lost: Opta had Panama at 45.2% vs the market's 30%, but Ghana found a late goal. The read was sound (Panama led on possession/chances in the 1st half), but one late moment decided it — single-game variance. Lesson: even a big single-model edge is a probability, not a guarantee; the sizing (🟢+🟡 on one outcome) was too heavy. −1,500 ₽."
+    }
   },
   {
     "id": 99,
     "date": "2026-06-17",
     "matchId": "england-croatia",
-    "match": { "ru": "Англия — Хорватия", "en": "England — Croatia" },
-    "bet": { "ru": "Ничья", "en": "Draw" },
+    "match": {
+      "ru": "Англия — Хорватия",
+      "en": "England — Croatia"
+    },
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
     "type": "Х",
     "odds": 3.85,
     "tier": "yellow",
     "side": "AI",
     "status": "lose",
-    "note": { "ru": "✗ СГОРЕЛА. Англия победила 4:2 — никакого «осторожного опенера». Паттерн «×4 ничьих» не сработал: ротированная Англия всё равно разнесла стареющую Хорватию по xG (2.82 vs 0.54). Ничья как страховка паттерна не оправдалась против фаворита, который на классе вскрывает слабую оборону. −1 500 ₽.", "en": "✗ LOSE. England won 4:2 — no 'cautious opener'. The '×4 draws' pattern didn't hold: a rotated England still outclassed an ageing Croatia on xG (2.82 vs 0.54). The draw as a pattern hedge failed against a favourite that breaks down a weak defence on quality alone. −1,500 ₽." }
+    "note": {
+      "ru": "✗ СГОРЕЛА. Англия победила 4:2 — никакого «осторожного опенера». Паттерн «×4 ничьих» не сработал: ротированная Англия всё равно разнесла стареющую Хорватию по xG (2.82 vs 0.54). Ничья как страховка паттерна не оправдалась против фаворита, который на классе вскрывает слабую оборону. −1 500 ₽.",
+      "en": "✗ LOSE. England won 4:2 — no 'cautious opener'. The '×4 draws' pattern didn't hold: a rotated England still outclassed an ageing Croatia on xG (2.82 vs 0.54). The draw as a pattern hedge failed against a favourite that breaks down a weak defence on quality alone. −1,500 ₽."
+    }
   },
   {
     "id": 100,
     "date": "2026-06-18",
     "matchId": "uzbekistan-colombia",
-    "match": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" },
-    "bet": { "ru": "Победа Узбекистана", "en": "Uzbekistan win" },
+    "match": {
+      "ru": "Узбекистан — Колумбия",
+      "en": "Uzbekistan — Colombia"
+    },
+    "bet": {
+      "ru": "Победа Узбекистана",
+      "en": "Uzbekistan win"
+    },
     "type": "П1",
-    "odds": 10.0,
+    "odds": 10,
     "tier": "red",
     "side": "AI",
     "status": "lose",
-    "note": { "ru": "✗ СГОРЕЛА. Колумбия победила 3:1. Лонгшот-value не сыграл (на то и лонгшот, малый размер 500). Узбекистан сравнял (Файзуллаев 60', первый гол на ЧМ) и дважды попал в каркас, но класс Колумбии решил. −500 ₽.", "en": "✗ LOSE. Colombia won 3:1. The longshot value didn't land (it's a longshot, small 500 stake). Uzbekistan equalised (Fayzullaev 60', their first WC goal) and hit the woodwork twice, but Colombia's quality decided it. −500 ₽." }
+    "note": {
+      "ru": "✗ СГОРЕЛА. Колумбия победила 3:1. Лонгшот-value не сыграл (на то и лонгшот, малый размер 500). Узбекистан сравнял (Файзуллаев 60', первый гол на ЧМ) и дважды попал в каркас, но класс Колумбии решил. −500 ₽.",
+      "en": "✗ LOSE. Colombia won 3:1. The longshot value didn't land (it's a longshot, small 500 stake). Uzbekistan equalised (Fayzullaev 60', their first WC goal) and hit the woodwork twice, but Colombia's quality decided it. −500 ₽."
+    }
   },
   {
     "id": 101,
     "date": "2026-06-18",
-    "match": { "ru": "Система 2/4 · точные счета (слейт K/L)", "en": "System 2/4 · correct scores (K/L slate)" },
-    "bet": { "ru": "Система 2/4 (точные счета)", "en": "System 2/4 (correct scores)" },
+    "match": {
+      "ru": "Система 2/4 · точные счета (слейт K/L)",
+      "en": "System 2/4 · correct scores (K/L slate)"
+    },
+    "bet": {
+      "ru": "Система 2/4 (точные счета)",
+      "en": "System 2/4 (correct scores)"
+    },
     "type": "Система",
-    "odds": 7.0,
+    "odds": 7,
     "tier": "red",
     "side": "AI",
     "stake": 500,
     "status": "lose",
-    "note": { "ru": "✗ СГОРЕЛА (0/4 счетов). Все 4 ноги мимо: Португалия 1:0 (факт 1:1), Англия 1:1 (4:2), Гана 1:1 (1:0), Колумбия 1:0 (факт 1:3). Для системы 2/4 нужно было ≥2 верных счёта — ни одного. Точные счета слейта системно мимо у обеих сторон. −500 ₽.", "en": "✗ LOSE (0/4 scores). All four legs missed: Portugal 1:0 (actual 1:1), England 1:1 (4:2), Ghana 1:1 (1:0), Colombia 1:0 (actual 1:3). A 2/4 system needed ≥2 correct scores — got none. Correct scores systematically missed for both sides this slate. −500 ₽." },
+    "note": {
+      "ru": "✗ СГОРЕЛА (0/4 счетов). Все 4 ноги мимо: Португалия 1:0 (факт 1:1), Англия 1:1 (4:2), Гана 1:1 (1:0), Колумбия 1:0 (факт 1:3). Для системы 2/4 нужно было ≥2 верных счёта — ни одного. Точные счета слейта системно мимо у обеих сторон. −500 ₽.",
+      "en": "✗ LOSE (0/4 scores). All four legs missed: Portugal 1:0 (actual 1:1), England 1:1 (4:2), Ghana 1:1 (1:0), Colombia 1:0 (actual 1:3). A 2/4 system needed ≥2 correct scores — got none. Correct scores systematically missed for both sides this slate. −500 ₽."
+    },
     "legs": [
-      { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "Счёт 1:0 @6.5", "en": "Score 1:0 @6.5" } },
-      { "m": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" }, "p": { "ru": "Счёт 0:1 Колумбия @6.0", "en": "Score 0:1 Colombia @6.0" } },
-      { "m": { "ru": "Англия — Хорватия", "en": "England — Croatia" }, "p": { "ru": "Счёт 1:1 @7.0", "en": "Score 1:1 @7.0" } },
-      { "m": { "ru": "Гана — Панама", "en": "Ghana — Panama" }, "p": { "ru": "Счёт 1:1 @6.5", "en": "Score 1:1 @6.5" } }
+      {
+        "m": {
+          "ru": "Португалия — ДР Конго",
+          "en": "Portugal — DR Congo"
+        },
+        "p": {
+          "ru": "Счёт 1:0 @6.5",
+          "en": "Score 1:0 @6.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Узбекистан — Колумбия",
+          "en": "Uzbekistan — Colombia"
+        },
+        "p": {
+          "ru": "Счёт 0:1 Колумбия @6.0",
+          "en": "Score 0:1 Colombia @6.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Англия — Хорватия",
+          "en": "England — Croatia"
+        },
+        "p": {
+          "ru": "Счёт 1:1 @7.0",
+          "en": "Score 1:1 @7.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Гана — Панама",
+          "en": "Ghana — Panama"
+        },
+        "p": {
+          "ru": "Счёт 1:1 @6.5",
+          "en": "Score 1:1 @6.5"
+        }
+      }
     ]
   },
   {
     "id": 102,
     "date": "2026-06-18",
-    "match": { "ru": "Система 2/4 · точные счета Паши (слейт K/L)", "en": "System 2/4 · Pasha correct scores (K/L slate)" },
-    "bet": { "ru": "Система 2/4 (точные счета)", "en": "System 2/4 (correct scores)" },
+    "match": {
+      "ru": "Система 2/4 · точные счета Паши (слейт K/L)",
+      "en": "System 2/4 · Pasha correct scores (K/L slate)"
+    },
+    "bet": {
+      "ru": "Система 2/4 (точные счета)",
+      "en": "System 2/4 (correct scores)"
+    },
     "type": "Система",
-    "odds": 8.0,
+    "odds": 8,
     "tier": "red",
     "side": "Паша",
     "contest": true,
     "stake": 500,
     "status": "lose",
-    "note": { "ru": "✗ СГОРЕЛА (0/4 счетов). Все 4 ноги мимо: Португалия 2:1 (факт 1:1), Англия 1:0 (4:2), Гана—Панама 0:0 (1:0), Колумбия 0:2 (факт 1:3). Нужно было ≥2 верных счёта — ни одного. −500 ₽. Кэф — Лига Ставок.", "en": "✗ LOSE (0/4 scores). All four legs missed: Portugal 2:1 (actual 1:1), England 1:0 (4:2), Ghana-Panama 0:0 (1:0), Colombia 0:2 (actual 1:3). Needed ≥2 correct scores — got none. −500 ₽. Odds — Liga Stavok." },
+    "note": {
+      "ru": "✗ СГОРЕЛА (0/4 счетов). Все 4 ноги мимо: Португалия 2:1 (факт 1:1), Англия 1:0 (4:2), Гана—Панама 0:0 (1:0), Колумбия 0:2 (факт 1:3). Нужно было ≥2 верных счёта — ни одного. −500 ₽. Кэф — Лига Ставок.",
+      "en": "✗ LOSE (0/4 scores). All four legs missed: Portugal 2:1 (actual 1:1), England 1:0 (4:2), Ghana-Panama 0:0 (1:0), Colombia 0:2 (actual 1:3). Needed ≥2 correct scores — got none. −500 ₽. Odds — Liga Stavok."
+    },
     "legs": [
-      { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "Счёт 2:1 @8.5 (ориент.)", "en": "Score 2:1 @8.5 (approx.)" } },
-      { "m": { "ru": "Англия — Хорватия", "en": "England — Croatia" }, "p": { "ru": "Счёт 1:0 @6.5", "en": "Score 1:0 @6.5" } },
-      { "m": { "ru": "Гана — Панама", "en": "Ghana — Panama" }, "p": { "ru": "Счёт 0:0 @11.0 (ориент.)", "en": "Score 0:0 @11.0 (approx.)" } },
-      { "m": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" }, "p": { "ru": "Счёт 0:2 Колумбия @6.0", "en": "Score 0:2 Colombia @6.0" } }
+      {
+        "m": {
+          "ru": "Португалия — ДР Конго",
+          "en": "Portugal — DR Congo"
+        },
+        "p": {
+          "ru": "Счёт 2:1 @8.5 (ориент.)",
+          "en": "Score 2:1 @8.5 (approx.)"
+        }
+      },
+      {
+        "m": {
+          "ru": "Англия — Хорватия",
+          "en": "England — Croatia"
+        },
+        "p": {
+          "ru": "Счёт 1:0 @6.5",
+          "en": "Score 1:0 @6.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Гана — Панама",
+          "en": "Ghana — Panama"
+        },
+        "p": {
+          "ru": "Счёт 0:0 @11.0 (ориент.)",
+          "en": "Score 0:0 @11.0 (approx.)"
+        }
+      },
+      {
+        "m": {
+          "ru": "Узбекистан — Колумбия",
+          "en": "Uzbekistan — Colombia"
+        },
+        "p": {
+          "ru": "Счёт 0:2 Колумбия @6.0",
+          "en": "Score 0:2 Colombia @6.0"
+        }
+      }
     ]
   },
   {
     "id": 103,
     "date": "2026-06-17",
     "matchId": "portugal-drcongo",
-    "match": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" },
-    "bet": { "ru": "2-й тайм — ТБ 1.5", "en": "2nd half — Over 1.5" },
+    "match": {
+      "ru": "Португалия — ДР Конго",
+      "en": "Portugal — DR Congo"
+    },
+    "bet": {
+      "ru": "2-й тайм — ТБ 1.5",
+      "en": "2nd half — Over 1.5"
+    },
     "type": "ТБ",
     "odds": 2.07,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "lose",
-    "note": { "ru": "✗ СГОРЕЛА. Во 2-м тайме голов 0 (нужно было ≥2). Оба гола ушли в 1-й тайм: Невеш 6′, Висса сравняла в концовке 1Т (45+5′). Тезис «ДРК забивает во 2Т» не реализовался — ДРК отыгралась раньше, во 2Т обе команды не забили (отменён гол Канселу, VAR). −3 000 ₽. NB: ОЗ-Да, который Паша сам хотел, ЗАШЁЛ бы — чутьё было верным, выбор рынка — нет. Кэф — Лига Ставок.", "en": "✗ LOSE. Zero second-half goals (needed ≥2). Both goals came in the first half: Neves 6′, Wissa equalised late (45+5′). The 'DR Congo score in the 2nd half' thesis didn't land — they equalised earlier, and neither side scored after the break (Cancelo's goal disallowed, VAR). −3,000 ₽. NB: the BTTS Yes Pasha himself wanted WOULD have won — right instinct, wrong market pick. Odds — Liga Stavok." }
+    "note": {
+      "ru": "✗ СГОРЕЛА. Во 2-м тайме голов 0 (нужно было ≥2). Оба гола ушли в 1-й тайм: Невеш 6′, Висса сравняла в концовке 1Т (45+5′). Тезис «ДРК забивает во 2Т» не реализовался — ДРК отыгралась раньше, во 2Т обе команды не забили (отменён гол Канселу, VAR). −3 000 ₽. NB: ОЗ-Да, который Паша сам хотел, ЗАШЁЛ бы — чутьё было верным, выбор рынка — нет. Кэф — Лига Ставок.",
+      "en": "✗ LOSE. Zero second-half goals (needed ≥2). Both goals came in the first half: Neves 6′, Wissa equalised late (45+5′). The 'DR Congo score in the 2nd half' thesis didn't land — they equalised earlier, and neither side scored after the break (Cancelo's goal disallowed, VAR). −3,000 ₽. NB: the BTTS Yes Pasha himself wanted WOULD have won — right instinct, wrong market pick. Odds — Liga Stavok."
+    }
   },
   {
     "id": 104,
     "date": "2026-06-17",
     "matchId": "england-croatia",
-    "match": { "ru": "Англия — Хорватия", "en": "England — Croatia" },
-    "bet": { "ru": "Победа Англии", "en": "England win" },
+    "match": {
+      "ru": "Англия — Хорватия",
+      "en": "England — Croatia"
+    },
+    "bet": {
+      "ru": "Победа Англии",
+      "en": "England win"
+    },
     "type": "П1",
     "odds": 1.73,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "win",
-    "note": { "ru": "✓ ЗАШЛА. Англия победила 4:2. Паша прочитал матч точнее нас: сам ждал низ, но взял ИСХОД (П1), а ТМ сознательно не тронул «на случай, если англичан прорвёт» — именно это и случилось (6 голов). Устойчивый рынок против хрупкого: тот же матч, наш ТМ/ничья сгорели, его П1 зашёл. +2 190 ₽. Кэф — Лига Ставок.", "en": "✓ WIN. England won 4:2. Pasha read the match better than us: he too expected a low score but backed the OUTCOME (England win) and deliberately skipped the Under 'in case England break loose' — which is exactly what happened (6 goals). Robust market over fragile: same match, our Under/Draw burned, his England win landed. +2,190 ₽. Odds — Liga Stavok." }
+    "note": {
+      "ru": "✓ ЗАШЛА. Англия победила 4:2. Паша прочитал матч точнее нас: сам ждал низ, но взял ИСХОД (П1), а ТМ сознательно не тронул «на случай, если англичан прорвёт» — именно это и случилось (6 голов). Устойчивый рынок против хрупкого: тот же матч, наш ТМ/ничья сгорели, его П1 зашёл. +2 190 ₽. Кэф — Лига Ставок.",
+      "en": "✓ WIN. England won 4:2. Pasha read the match better than us: he too expected a low score but backed the OUTCOME (England win) and deliberately skipped the Under 'in case England break loose' — which is exactly what happened (6 goals). Robust market over fragile: same match, our Under/Draw burned, his England win landed. +2,190 ₽. Odds — Liga Stavok."
+    }
   },
   {
     "id": 105,
     "date": "2026-06-18",
     "matchId": "ghana-panama",
-    "match": { "ru": "Гана — Панама", "en": "Ghana — Panama" },
-    "bet": { "ru": "Ничья", "en": "Draw" },
+    "match": {
+      "ru": "Гана — Панама",
+      "en": "Ghana — Panama"
+    },
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
     "type": "Х",
     "odds": 3.25,
     "tier": "yellow",
     "side": "Паша",
     "contest": true,
     "status": "lose",
-    "note": { "ru": "✗ СГОРЕЛА. Гана 1:0 — победа Ганы, не ничья (Йиренки 90+5'). Паша фейдил Гану так же, как AI (он ничья, AI Панама) — и оба проиграли: рынок (Гана фаворит) оказался прав. До 90+5' шло к ничьей 0:0 (его ставке), но контратака решила в концовке. −1 500 ₽. Кэф — Лига Ставок.", "en": "✗ LOSE. Ghana 1:0 — a Ghana win, not a draw (Yirenkyi 90+5'). Pasha faded Ghana just like AI (he took the draw, AI took Panama) — and both lost: the market (Ghana favourite) was right. It was heading for a 0:0 draw (his bet) until 90+5', but a counter decided it late. −1,500 ₽. Odds — Liga Stavok." }
+    "note": {
+      "ru": "✗ СГОРЕЛА. Гана 1:0 — победа Ганы, не ничья (Йиренки 90+5'). Паша фейдил Гану так же, как AI (он ничья, AI Панама) — и оба проиграли: рынок (Гана фаворит) оказался прав. До 90+5' шло к ничьей 0:0 (его ставке), но контратака решила в концовке. −1 500 ₽. Кэф — Лига Ставок.",
+      "en": "✗ LOSE. Ghana 1:0 — a Ghana win, not a draw (Yirenkyi 90+5'). Pasha faded Ghana just like AI (he took the draw, AI took Panama) — and both lost: the market (Ghana favourite) was right. It was heading for a 0:0 draw (his bet) until 90+5', but a counter decided it late. −1,500 ₽. Odds — Liga Stavok."
+    }
   },
   {
     "id": 106,
     "date": "2026-06-18",
     "matchId": "uzbekistan-colombia",
-    "match": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" },
-    "bet": { "ru": "Победа Колумбии + ТМ 3.5", "en": "Colombia win + Under 3.5" },
+    "match": {
+      "ru": "Узбекистан — Колумбия",
+      "en": "Uzbekistan — Colombia"
+    },
+    "bet": {
+      "ru": "Победа Колумбии + ТМ 3.5",
+      "en": "Colombia win + Under 3.5"
+    },
     "type": "Другое",
     "odds": 1.83,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "lose",
-    "note": { "ru": "✗ СГОРЕЛА. Колумбия победила (✓ П2), НО всего 4 гола → ТМ 3.5 ✗ → связка проиграла. Та самая страховка «слегка завышаю на случай автогола/пенальти» не помогла: 4-й гол (Кампас 90+9') пробил тотал в глубокой компенсации. Половина тезиса верна, но комбо требует обе. −3 000 ₽. Кэф — Лига Ставок.", "en": "✗ LOSE. Colombia won (✓ Colombia), BUT 4 goals total → Under 3.5 ✗ → the combo lost. The 'nudge up to insure against an OG/penalty' didn't help: the 4th goal (Campaz 90+9') broke the total in deep stoppage. Half the thesis right, but a combo needs both. −3,000 ₽. Odds — Liga Stavok." }
+    "note": {
+      "ru": "✗ СГОРЕЛА. Колумбия победила (✓ П2), НО всего 4 гола → ТМ 3.5 ✗ → связка проиграла. Та самая страховка «слегка завышаю на случай автогола/пенальти» не помогла: 4-й гол (Кампас 90+9') пробил тотал в глубокой компенсации. Половина тезиса верна, но комбо требует обе. −3 000 ₽. Кэф — Лига Ставок.",
+      "en": "✗ LOSE. Colombia won (✓ Colombia), BUT 4 goals total → Under 3.5 ✗ → the combo lost. The 'nudge up to insure against an OG/penalty' didn't help: the 4th goal (Campaz 90+9') broke the total in deep stoppage. Half the thesis right, but a combo needs both. −3,000 ₽. Odds — Liga Stavok."
+    }
   },
   {
     "id": 107,
     "date": "2026-06-18",
-    "match": { "ru": "Система 2/3 · ординары Паши (слейт K/L)", "en": "System 2/3 · Pasha singles (K/L slate)" },
-    "bet": { "ru": "Система 2/3 (ординары)", "en": "System 2/3 (singles)" },
+    "match": {
+      "ru": "Система 2/3 · ординары Паши (слейт K/L)",
+      "en": "System 2/3 · Pasha singles (K/L slate)"
+    },
+    "bet": {
+      "ru": "Система 2/3 (ординары)",
+      "en": "System 2/3 (singles)"
+    },
     "type": "Система",
     "odds": 3.51,
     "tier": "green",
@@ -2682,11 +2877,263 @@
     "contest": true,
     "stake": 3000,
     "status": "lose",
-    "note": { "ru": "✗ СГОРЕЛА (1/3 ног). Зашла только Англия П1 ✓; Португалия 2Т ТБ1.5 ✗ и Узбекистан П2+ТМ3.5 ✗ (Колумбия победила, но 4 гола — ТМ3.5 не прошёл). Для системы 2/3 нужно было ≥2 ног — лишь одна. Ни один из 3 двойников не собрался. −3 000 ₽. Система держалась на Узбекистане — 4-й гол Кампаса (90+9') убил и её, и одиночную связку id106. Кэфы — Лига Ставок.", "en": "✗ LOSE (1/3 legs). Only England win ✓ landed; Portugal 2H Over 1.5 ✗ and Uzbekistan Colombia-win+Under 3.5 ✗ (Colombia won, but 4 goals — Under 3.5 failed). A 2/3 system needed ≥2 legs — only one. None of the 3 doubles completed. −3,000 ₽. The system hinged on Uzbekistan — Campaz's 4th goal (90+9') killed both it and the single combo id106. Odds — Liga Stavok." },
+    "note": {
+      "ru": "✗ СГОРЕЛА (1/3 ног). Зашла только Англия П1 ✓; Португалия 2Т ТБ1.5 ✗ и Узбекистан П2+ТМ3.5 ✗ (Колумбия победила, но 4 гола — ТМ3.5 не прошёл). Для системы 2/3 нужно было ≥2 ног — лишь одна. Ни один из 3 двойников не собрался. −3 000 ₽. Система держалась на Узбекистане — 4-й гол Кампаса (90+9') убил и её, и одиночную связку id106. Кэфы — Лига Ставок.",
+      "en": "✗ LOSE (1/3 legs). Only England win ✓ landed; Portugal 2H Over 1.5 ✗ and Uzbekistan Colombia-win+Under 3.5 ✗ (Colombia won, but 4 goals — Under 3.5 failed). A 2/3 system needed ≥2 legs — only one. None of the 3 doubles completed. −3,000 ₽. The system hinged on Uzbekistan — Campaz's 4th goal (90+9') killed both it and the single combo id106. Odds — Liga Stavok."
+    },
     "legs": [
-      { "m": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" }, "p": { "ru": "2-й тайм ТБ 1.5 @2.07", "en": "2nd half Over 1.5 @2.07" } },
-      { "m": { "ru": "Англия — Хорватия", "en": "England — Croatia" }, "p": { "ru": "Победа Англии @1.73", "en": "England win @1.73" } },
-      { "m": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" }, "p": { "ru": "Колумбия + ТМ 3.5 @1.83", "en": "Colombia win + Under 3.5 @1.83" } }
+      {
+        "m": {
+          "ru": "Португалия — ДР Конго",
+          "en": "Portugal — DR Congo"
+        },
+        "p": {
+          "ru": "2-й тайм ТБ 1.5 @2.07",
+          "en": "2nd half Over 1.5 @2.07"
+        }
+      },
+      {
+        "m": {
+          "ru": "Англия — Хорватия",
+          "en": "England — Croatia"
+        },
+        "p": {
+          "ru": "Победа Англии @1.73",
+          "en": "England win @1.73"
+        }
+      },
+      {
+        "m": {
+          "ru": "Узбекистан — Колумбия",
+          "en": "Uzbekistan — Colombia"
+        },
+        "p": {
+          "ru": "Колумбия + ТМ 3.5 @1.83",
+          "en": "Colombia win + Under 3.5 @1.83"
+        }
+      }
     ]
+  },
+  {
+    "id": 108,
+    "date": "2026-06-19",
+    "matchId": "czechia-southafrica",
+    "match": {
+      "ru": "Чехия — ЮАР",
+      "en": "Czechia — South Africa"
+    },
+    "bet": {
+      "ru": "Победа Чехии",
+      "en": "Czechia win"
+    },
+    "type": "П1",
+    "odds": 1.85,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Матч «смерти»: ЮАР показала худший футбол тура 1 (0.07 xG, 2 удаления), снова без Зване. Чехи пропускают, но верхом на стандартах надёжны; цена 3 очков для обоих максимальна, ничья никого не устраивает. Чистую П1 — в конкурс. Кэф — Лига Ставок (со слов Паши).",
+      "en": "A survival match: South Africa produced MD1’s worst football (0.07 xG, 2 reds) and are again without Zwane. Czechia concede but are reliable in the air on set-pieces; the price of 3 points is maximal for both, a draw suits neither. The clean home win goes into the contest. Odds — Liga Stavok (per Pasha)."
+    },
+    "status": "pending"
+  },
+  {
+    "id": 109,
+    "date": "2026-06-19",
+    "matchId": "switzerland-bosnia",
+    "match": {
+      "ru": "Швейцария — Босния",
+      "en": "Switzerland — Bosnia"
+    },
+    "bet": {
+      "ru": "Победа Швейцарии + ТБ 1.5",
+      "en": "Switzerland win + Over 1.5"
+    },
+    "type": "Другое",
+    "odds": 1.8,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "После 1:1 с Катаром Швейцарии нужна победа; в туре 1 создавала моменты, но недооценила соперника и решила доиграть малой кровью — сегодня так нельзя. Боснийцы мастера 1:1, но Паша ждёт уверенную победу хозяев с голами. Кэф — Лига Ставок (со слов Паши).",
+      "en": "After the 1:1 with Qatar Switzerland must win; in MD1 they created chances but underrated the opponent and tried to coast — not an option today. Bosnia are 1:1 specialists, but Pasha expects a confident home win with goals. Odds — Liga Stavok (per Pasha)."
+    },
+    "status": "pending"
+  },
+  {
+    "id": 110,
+    "date": "2026-06-19",
+    "matchId": "canada-qatar",
+    "match": {
+      "ru": "Канада — Катар",
+      "en": "Canada — Qatar"
+    },
+    "bet": {
+      "ru": "Фора Канады (−1.5)",
+      "en": "Canada handicap (−1.5)"
+    },
+    "type": "АФ",
+    "odds": 1.88,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Катар — претендент на 4-е место; в конце важна разница мячей, поэтому Канаде дома нужно не просто побеждать. Недооценку соперника уже показала Швейцария — для Канады это подсказка. Паша усиливает победу форой, ждёт 2:0. Кэф — Лига Ставок (со слов Паши).",
+      "en": "Qatar are 4th-place candidates; goal difference may matter at the end, so at home Canada must do more than win. Switzerland already showed how underrating Qatar bites — a hint for Canada. Pasha strengthens the win with a handicap, expecting 2:0. Odds — Liga Stavok (per Pasha)."
+    },
+    "status": "pending"
+  },
+  {
+    "id": 111,
+    "date": "2026-06-19",
+    "matchId": "mexico-southkorea",
+    "match": {
+      "ru": "Мексика — Южная Корея",
+      "en": "Mexico — South Korea"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.99,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Матч за первое место на высоте ~1560 м (корейцы готовились к высоте). По туру 1 — железобетонное ОЗ (обе атаки забивали), но высота, статус хозяев и удаление Монтеса добавляют риска. Паша остаётся на надёжном рынке. Кэф — Лига Ставок (со слов Паши).",
+      "en": "A top-of-the-group clash at ~1560 m (South Korea prepared for altitude). MD1 form screams BTTS (both attacks scored), but altitude, the hosts’ status and Montes’s red add risk. Pasha stays on the reliable market. Odds — Liga Stavok (per Pasha)."
+    },
+    "status": "pending"
+  },
+  {
+    "id": 112,
+    "date": "2026-06-19",
+    "match": {
+      "ru": "Система 3/4 · ординары Паши (слейт A/B, тур 2)",
+      "en": "System 3/4 · Pasha singles (A/B slate, MD2)"
+    },
+    "bet": {
+      "ru": "Система 3/4 (ординары)",
+      "en": "System 3/4 (singles)"
+    },
+    "type": "Система",
+    "odds": 6.64,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "stake": 3000,
+    "legs": [
+      {
+        "m": {
+          "ru": "Чехия — ЮАР",
+          "en": "Czechia — South Africa"
+        },
+        "p": {
+          "ru": "Победа Чехии @1.85",
+          "en": "Czechia win @1.85"
+        }
+      },
+      {
+        "m": {
+          "ru": "Швейцария — Босния",
+          "en": "Switzerland — Bosnia"
+        },
+        "p": {
+          "ru": "Победа Швейцарии + ТБ1.5 @1.80",
+          "en": "Switzerland win + Over 1.5 @1.80"
+        }
+      },
+      {
+        "m": {
+          "ru": "Канада — Катар",
+          "en": "Canada — Qatar"
+        },
+        "p": {
+          "ru": "Фора Канады −1.5 @1.88",
+          "en": "Canada −1.5 @1.88"
+        }
+      },
+      {
+        "m": {
+          "ru": "Мексика — Южная Корея",
+          "en": "Mexico — South Korea"
+        },
+        "p": {
+          "ru": "Обе забьют — да @1.99",
+          "en": "Both teams to score @1.99"
+        }
+      }
+    ],
+    "note": {
+      "ru": "4 тройника из ординаров Паши, нужно ≥3 из 4 ног. Диверсификация встроена (каждая ставка выпадает ровно из одного тройника). Кэф 6.64 — при 4/4; при 3/4 заходит один тройник (≈1.6× на банк). NB: 3 ноги <1.9 (1.85/1.80/1.88) — ниже системного порога, но это купон Паши. Эфф. кэф выставим при расчёте. Кэфы — Лига Ставок.",
+      "en": "4 trebles from Pasha’s singles; need ≥3 of 4 legs. Diversification is built in (each pick is excluded from exactly one treble). Odds 6.64 = at 4/4; at 3/4 one treble lands (~1.6× on stake). NB: 3 legs <1.9 (1.85/1.80/1.88) — below our system floor, but it’s Pasha’s slip. Effective odds set at settlement. Odds — Liga Stavok."
+    },
+    "status": "pending"
+  },
+  {
+    "id": 113,
+    "date": "2026-06-19",
+    "match": {
+      "ru": "Система 2/4 · точные счета Паши (слейт A/B, тур 2)",
+      "en": "System 2/4 · Pasha correct scores (A/B slate, MD2)"
+    },
+    "bet": {
+      "ru": "Система 2/4 (точные счета)",
+      "en": "System 2/4 (correct scores)"
+    },
+    "type": "Система",
+    "odds": 8,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "stake": 500,
+    "legs": [
+      {
+        "m": {
+          "ru": "Чехия — ЮАР",
+          "en": "Czechia — South Africa"
+        },
+        "p": {
+          "ru": "Счёт 2:1",
+          "en": "Score 2:1"
+        }
+      },
+      {
+        "m": {
+          "ru": "Швейцария — Босния",
+          "en": "Switzerland — Bosnia"
+        },
+        "p": {
+          "ru": "Счёт 2:1",
+          "en": "Score 2:1"
+        }
+      },
+      {
+        "m": {
+          "ru": "Канада — Катар",
+          "en": "Canada — Qatar"
+        },
+        "p": {
+          "ru": "Счёт 2:0",
+          "en": "Score 2:0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Мексика — Южная Корея",
+          "en": "Mexico — South Korea"
+        },
+        "p": {
+          "ru": "Счёт 3:2",
+          "en": "Score 3:2"
+        }
+      }
+    ],
+    "note": {
+      "ru": "4 точных счёта Паши, нужно ≥2 из 4. Прогноз-счета: Чехия 2:1, Швейцария 2:1, Канада 2:0, Мексика 3:2. Красная по типу (ТС-система). Эфф. кэф выставим при расчёте. Кэфы точных счетов — ориентировочные, Лига Ставок.",
+      "en": "Pasha’s 4 correct scores; need ≥2 of 4. Predicted scores: Czechia 2:1, Switzerland 2:1, Canada 2:0, Mexico 3:2. Red by type (CS system). Effective odds set at settlement. Correct-score odds approximate, Liga Stavok."
+    },
+    "status": "pending"
   }
 ]

@@ -575,48 +575,240 @@
     "id": "portugal-drcongo",
     "date": "2026-06-17",
     "timeMsk": "20:00",
-    "title": { "ru": "Португалия — ДР Конго", "en": "Portugal — DR Congo" },
-    "cc": ["pt", "cd"],
-    "stage": { "ru": "Группа K · тур 1", "en": "Group K · MD 1" },
-    "venue": { "ru": "NRG Stadium, Хьюстон", "en": "NRG Stadium, Houston" },
-    "weather": { "ru": "Крыша закрыта, кондиционер — погода не фактор", "en": "Roof closed, AC — weather not a factor" },
+    "title": {
+      "ru": "Португалия — ДР Конго",
+      "en": "Portugal — DR Congo"
+    },
+    "cc": [
+      "pt",
+      "cd"
+    ],
+    "stage": {
+      "ru": "Группа K · тур 1",
+      "en": "Group K · MD 1"
+    },
+    "venue": {
+      "ru": "NRG Stadium, Хьюстон",
+      "en": "NRG Stadium, Houston"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, кондиционер — погода не фактор",
+      "en": "Roof closed, AC — weather not a factor"
+    },
     "result": "1:1 (1:1)",
-    "lede": { "ru": "Роналду открывает 6-й ЧМ. Португалия без Рубена Диаша против элитной обороны дебютанта (8 сухих в 13 отбора). Opta даёт ДРК неожиданные 23% — value в форе аутсайдера.", "en": "Ronaldo opens his 6th World Cup. Portugal without Rúben Dias face the debutants' elite defence (8 clean sheets in 13 qualifiers). Opta gives DR Congo a surprising 23% — value in the underdog handicap." }
+    "lede": {
+      "ru": "Роналду открывает 6-й ЧМ. Португалия без Рубена Диаша против элитной обороны дебютанта (8 сухих в 13 отбора). Opta даёт ДРК неожиданные 23% — value в форе аутсайдера.",
+      "en": "Ronaldo opens his 6th World Cup. Portugal without Rúben Dias face the debutants' elite defence (8 clean sheets in 13 qualifiers). Opta gives DR Congo a surprising 23% — value in the underdog handicap."
+    }
   },
   {
     "id": "england-croatia",
     "date": "2026-06-17",
     "timeMsk": "23:00",
-    "title": { "ru": "Англия — Хорватия", "en": "England — Croatia" },
-    "cc": ["gb-eng", "hr"],
-    "stage": { "ru": "Группа L · тур 1", "en": "Group L · MD 1" },
-    "venue": { "ru": "AT&T Stadium, Арлингтон (Даллас)", "en": "AT&T Stadium, Arlington (Dallas)" },
-    "weather": { "ru": "Крыша закрыта, кондиционер 22°C — погода не фактор", "en": "Roof closed, AC 22°C — weather not a factor" },
+    "title": {
+      "ru": "Англия — Хорватия",
+      "en": "England — Croatia"
+    },
+    "cc": [
+      "gb-eng",
+      "hr"
+    ],
+    "stage": {
+      "ru": "Группа L · тур 1",
+      "en": "Group L · MD 1"
+    },
+    "venue": {
+      "ru": "AT&T Stadium, Арлингтон (Даллас)",
+      "en": "AT&T Stadium, Arlington (Dallas)"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, кондиционер 22°C — погода не фактор",
+      "en": "Roof closed, AC 22°C — weather not a factor"
+    },
     "result": "4:2 (2:2)",
-    "lede": { "ru": "Реванш полуфинала ЧМ-2018. Англия не пропускает 10 матчей подряд (22:0 в отборе); Хорватия Модрича (40) — медленный старт на турнирах.", "en": "A rematch of the 2018 World Cup semi-final. England haven't conceded in 10 matches (22:0 in qualifying); Modrić's Croatia (40) are slow tournament starters." }
+    "lede": {
+      "ru": "Реванш полуфинала ЧМ-2018. Англия не пропускает 10 матчей подряд (22:0 в отборе); Хорватия Модрича (40) — медленный старт на турнирах.",
+      "en": "A rematch of the 2018 World Cup semi-final. England haven't conceded in 10 matches (22:0 in qualifying); Modrić's Croatia (40) are slow tournament starters."
+    }
   },
   {
     "id": "ghana-panama",
     "date": "2026-06-18",
     "timeMsk": "02:00",
-    "title": { "ru": "Гана — Панама", "en": "Ghana — Panama" },
-    "cc": ["gh", "pa"],
-    "stage": { "ru": "Группа L · тур 1", "en": "Group L · MD 1" },
-    "venue": { "ru": "BMO Field, Торонто", "en": "BMO Field, Toronto" },
-    "weather": { "ru": "Открытый стадион, умеренно", "en": "Open stadium, mild" },
+    "title": {
+      "ru": "Гана — Панама",
+      "en": "Ghana — Panama"
+    },
+    "cc": [
+      "gh",
+      "pa"
+    ],
+    "stage": {
+      "ru": "Группа L · тур 1",
+      "en": "Group L · MD 1"
+    },
+    "venue": {
+      "ru": "BMO Field, Торонто",
+      "en": "BMO Field, Toronto"
+    },
+    "weather": {
+      "ru": "Открытый стадион, умеренно",
+      "en": "Open stadium, mild"
+    },
     "result": "1:0 (0:0)",
-    "lede": { "ru": "⚡ Главный value слейта: Opta даёт Панаме 45% — рынок лишь 30%. Гана без Парти (виза), Кудуса и Салису, новый тренер; Панама не проигрывала в отборе КОНКАКАФ (4 гола в 10).", "en": "⚡ The slate's top value: Opta gives Panama 45% — the market only 30%. Ghana without Partey (visa), Kudus and Salisu, with a new coach; Panama unbeaten in CONCACAF qualifying (4 conceded in 10)." }
+    "lede": {
+      "ru": "⚡ Главный value слейта: Opta даёт Панаме 45% — рынок лишь 30%. Гана без Парти (виза), Кудуса и Салису, новый тренер; Панама не проигрывала в отборе КОНКАКАФ (4 гола в 10).",
+      "en": "⚡ The slate's top value: Opta gives Panama 45% — the market only 30%. Ghana without Partey (visa), Kudus and Salisu, with a new coach; Panama unbeaten in CONCACAF qualifying (4 conceded in 10)."
+    }
   },
   {
     "id": "uzbekistan-colombia",
     "date": "2026-06-18",
     "timeMsk": "05:00",
-    "title": { "ru": "Узбекистан — Колумбия", "en": "Uzbekistan — Colombia" },
-    "cc": ["uz", "co"],
-    "stage": { "ru": "Группа K · тур 1", "en": "Group K · MD 1" },
-    "venue": { "ru": "Эстадио Ацтека, Мехико (высота ~2250 м)", "en": "Estadio Azteca, Mexico City (altitude ~2250 m)" },
-    "weather": { "ru": "Открытый, высота 2250 м — давит на темп во 2-м тайме", "en": "Open-air, altitude 2250 m — suppresses second-half tempo" },
+    "title": {
+      "ru": "Узбекистан — Колумбия",
+      "en": "Uzbekistan — Colombia"
+    },
+    "cc": [
+      "uz",
+      "co"
+    ],
+    "stage": {
+      "ru": "Группа K · тур 1",
+      "en": "Group K · MD 1"
+    },
+    "venue": {
+      "ru": "Эстадио Ацтека, Мехико (высота ~2250 м)",
+      "en": "Estadio Azteca, Mexico City (altitude ~2250 m)"
+    },
+    "weather": {
+      "ru": "Открытый, высота 2250 м — давит на темп во 2-м тайме",
+      "en": "Open-air, altitude 2250 m — suppresses second-half tempo"
+    },
     "result": "1:3 (0:1)",
-    "lede": { "ru": "Дебют Узбекистана на ЧМ против Колумбии Хамеса/Диаса. Автобус Каннаваро (5-4-1) + высота Ацтеки = низкий тотал; xG-проекция 2.25 → ТМ 2.5.", "en": "Uzbekistan's World Cup debut against the Colombia of James/Díaz. Cannavaro's bus (5-4-1) + Azteca altitude = low total; xG projection 2.25 → Under 2.5." }
+    "lede": {
+      "ru": "Дебют Узбекистана на ЧМ против Колумбии Хамеса/Диаса. Автобус Каннаваро (5-4-1) + высота Ацтеки = низкий тотал; xG-проекция 2.25 → ТМ 2.5.",
+      "en": "Uzbekistan's World Cup debut against the Colombia of James/Díaz. Cannavaro's bus (5-4-1) + Azteca altitude = low total; xG projection 2.25 → Under 2.5."
+    }
+  },
+  {
+    "id": "czechia-southafrica",
+    "date": "2026-06-19",
+    "timeMsk": "19:00",
+    "title": {
+      "ru": "Чехия — ЮАР",
+      "en": "Czechia — South Africa"
+    },
+    "cc": [
+      "cz",
+      "za"
+    ],
+    "stage": {
+      "ru": "Группа A · тур 2",
+      "en": "Group A · MD 2"
+    },
+    "venue": {
+      "ru": "Эстадио BBVA, Монтеррей",
+      "en": "Estadio BBVA, Monterrey"
+    },
+    "weather": {
+      "ru": "Ясно, жарко ~30°C, низкая высота",
+      "en": "Clear, hot ~30°C, low altitude"
+    },
+    "lede": {
+      "ru": "Матч «смерти» для ЮАР: после худшего тура 1 (0.07 xG, 2 удаления) — снова без Зване (дисквал.). Чехия гарантированно пропускает, но верхом на стандартах (Шик, Соучек, Крейчи) надёжна. Паша берёт чистую П1.",
+      "en": "A survival match for South Africa: after MD1’s worst showing (0.07 xG, 2 reds) they are again without Zwane (suspended). Czechia concede regularly but are reliable in the air on set-pieces (Schick, Souček, Krejčí). Pasha backs a clean home win."
+    },
+    "result": null
+  },
+  {
+    "id": "switzerland-bosnia",
+    "date": "2026-06-19",
+    "timeMsk": "21:30",
+    "title": {
+      "ru": "Швейцария — Босния",
+      "en": "Switzerland — Bosnia"
+    },
+    "cc": [
+      "ch",
+      "ba"
+    ],
+    "stage": {
+      "ru": "Группа B · тур 2",
+      "en": "Group B · MD 2"
+    },
+    "venue": {
+      "ru": "Levi's Stadium, Санта-Клара",
+      "en": "Levi's Stadium, Santa Clara"
+    },
+    "weather": {
+      "ru": "Тепло, ясно",
+      "en": "Warm, clear"
+    },
+    "lede": {
+      "ru": "После осечки с Катаром (1:1) Швейцарии нужна победа — иначе риск, что Босния наберёт ход. Несмотря на фирменное умение боснийцев играть 1:1, Паша ждёт победу хозяев с голами (П1 + ТБ1.5).",
+      "en": "After dropping points to Qatar (1:1), Switzerland must win or risk Bosnia gaining momentum. Despite Bosnia’s trademark 1:1 grind, Pasha expects a home win with goals (win + Over 1.5)."
+    },
+    "result": null
+  },
+  {
+    "id": "canada-qatar",
+    "date": "2026-06-19",
+    "timeMsk": "22:30",
+    "title": {
+      "ru": "Канада — Катар",
+      "en": "Canada — Qatar"
+    },
+    "cc": [
+      "ca",
+      "qa"
+    ],
+    "stage": {
+      "ru": "Группа B · тур 2",
+      "en": "Group B · MD 2"
+    },
+    "venue": {
+      "ru": "BMO Field, Торонто",
+      "en": "BMO Field, Toronto"
+    },
+    "weather": {
+      "ru": "Прохладно, открытый стадион",
+      "en": "Cool, open-air"
+    },
+    "lede": {
+      "ru": "Катар — главный претендент на 4-е место; Канаде дома нужна не просто победа, а разница мячей. Недооценку Катара уже показала Швейцария — подсказка не повторять. Паша усиливает форой: ждёт 2:0.",
+      "en": "Qatar are the prime candidates for 4th place; at home Canada need not just a win but goal difference. Switzerland already showed how underrating Qatar bites — a hint not to repeat it. Pasha strengthens with a handicap: he expects 2:0."
+    },
+    "result": null
+  },
+  {
+    "id": "mexico-southkorea",
+    "date": "2026-06-19",
+    "timeMsk": "23:30",
+    "title": {
+      "ru": "Мексика — Южная Корея",
+      "en": "Mexico — South Korea"
+    },
+    "cc": [
+      "mx",
+      "kr"
+    ],
+    "stage": {
+      "ru": "Группа A · тур 2",
+      "en": "Group A · MD 2"
+    },
+    "venue": {
+      "ru": "Эстадио Акрон, Гвадалахара (~1560 м)",
+      "en": "Estadio Akron, Guadalajara (~1560 m)"
+    },
+    "weather": {
+      "ru": "Открытый стадион, высота ~1560 м",
+      "en": "Open-air, altitude ~1560 m"
+    },
+    "lede": {
+      "ru": "Матч за первое место в группе на высоте. По туру 1 — железобетонное ОЗ (обе атаки забивали), но высота, статус хозяев и удаление Монтеса в туре 1 добавляют шума. Паша берёт ОЗ-да.",
+      "en": "A top-of-the-group clash at altitude. MD1 form screams BTTS (both attacks scored), but the altitude, hosts’ status and Montes’s MD1 red card add noise. Pasha backs both teams to score."
+    },
+    "result": null
   }
 ]
