@@ -16,5 +16,5 @@
 ## Bets
 - **AI 🟢 Brazil −1.5 handicap @1.70** (indicative) — they must run it up, Haiti the weakest side. CS leg: 3:0.
 - **AI 🟡 Brazil team total Over 3.5 @3.30** (indicative) — Brazil to score 4+ (regression after 1 goal off 3+ xG, a must-win rout). Immune to a Haiti consolation (unlike the clean ML/handicap).
-- **Pasha 🟢 Brazil −2.5 handicap @2.40** + CS leg 3:0.
-- Duel: ⚔️ both back a rout, Pasha more aggressive (−2.5 vs AI's −1.5). If Brazil win by exactly two — Pasha loses, AI lands.
+- **Pasha ⚪ SKIPS the match** — 'totals and handicaps are shaded, 1.5-1.6 on −1 is bad value; Brazil were never that prolific anyway.' Brazil only appears as a 'micro-odds' leg in his accumulators (2nd-half total) + a 4:0 in his correct-score system.
+- Duel: ⚔️ the slate's key split. AI loads the rout (−1.5 + team total>3.5), Pasha PASSES — reads the lines as shaded. Brazil run riot 4+ → AI lands, Pasha sits out; a narrow 1-2 goal win → AI loses, Pasha was right to stay away.

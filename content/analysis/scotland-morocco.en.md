@@ -14,5 +14,5 @@
 
 ## Bets
 - **AI 🟢 Morocco win @1.73** — class + must-win motivation (Morocco push forward), Scotland's attack limited. CS leg: 1:0. *Risk: Scotland organised and a draw suits them — the model overrates the draw; noted.*
-- **Pasha 🟢 Morocco win @1.73** + CS leg 2:0.
-- Duel: 🤝 both back Morocco on class. AI takes a modest 1:0, Pasha expects 2:0.
+- **Pasha 🟢 Morocco win @1.72** — 'Morocco are a top side now; Hakimi/Díaz run past a slow Scotland.' Expects a clean sheet; score call 0:2.
+- Duel: 🤝 both back Morocco on class, near-identical odds (1.73 / 1.72). AI expects 1:0, Pasha 0:2.

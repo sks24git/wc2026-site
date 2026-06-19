@@ -16,5 +16,5 @@
 ## Bets
 - **AI 🟢 BTTS — Yes @1.90** (indicative) — both must attack, goals incentive (anti-cagey scenario). CS leg: 2:1.
 - **AI 🟡 Over 3.5 @3.00** (indicative) — same open corridor: both must push forward, leaning to 3+ goals.
-- **Pasha 🟢 BTTS — Yes @1.90** + CS leg 2:1.
-- Duel: 🤝 both BTTS-Yes. AI adds Over 2.5, Pasha expects a 2:1.
+- **Pasha 🟢 Turkey win @2.07** — 'second death match, Turkey must bury Paraguay and fix goal difference before the USA finale.' Expects Over 2.5, a 2:1/3:1.
+- Duel: both expect an active Turkey, but via different markets: AI on goals (BTTS @1.90 + Over 3.5 @3.00), Pasha on a clean Turkey win @2.07. They split on whether Paraguay scores (AI yes; Pasha doesn't care as long as Turkey win).
