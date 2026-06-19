@@ -3649,8 +3649,8 @@
       "en": "4-fold accumulator (C/D slate)"
     },
     "bet": {
-      "ru": "Бразилия ТБ1.5 (2Т) @1.55 + Марокко П2 @1.72 + Турция П1 @2.07 + США ИТБ1>1.5 @1.74",
-      "en": "Brazil Over 1.5 (2nd half) @1.55 + Morocco win @1.72 + Turkey win @2.07 + USA team total>1.5 @1.74"
+      "ru": "тотал 2Т Бразилии + 3 исхода",
+      "en": "Brazil 2nd-half total + 3 outcomes"
     },
     "type": "Экспресс",
     "odds": 9.6,
@@ -3662,7 +3662,49 @@
     "note": {
       "ru": "Пресс (реальная ставка 380₽ в Лиге Ставок). Тут Бразилия заходит «микро-кэфом» через тотал 2-го тайма.",
       "en": "Press (real stake 380₽ at Liga Stavok). Brazil enters as a 'micro-odds' leg via a 2nd-half total."
-    }
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Бразилия — Гаити",
+          "en": "Brazil — Haiti"
+        },
+        "p": {
+          "ru": "ТБ 1.5 (2-й тайм) @1.55",
+          "en": "Over 1.5 (2nd half) @1.55"
+        }
+      },
+      {
+        "m": {
+          "ru": "Шотландия — Марокко",
+          "en": "Scotland — Morocco"
+        },
+        "p": {
+          "ru": "Победа Марокко @1.72",
+          "en": "Morocco win @1.72"
+        }
+      },
+      {
+        "m": {
+          "ru": "Турция — Парагвай",
+          "en": "Turkey — Paraguay"
+        },
+        "p": {
+          "ru": "Победа Турции @2.07",
+          "en": "Turkey win @2.07"
+        }
+      },
+      {
+        "m": {
+          "ru": "США — Австралия",
+          "en": "USA — Australia"
+        },
+        "p": {
+          "ru": "Инд. тотал США больше 1.5 @1.74",
+          "en": "USA team total > 1.5 @1.74"
+        }
+      }
+    ]
   },
   {
     "id": 139,
@@ -3672,8 +3714,8 @@
       "en": "4-fold accumulator (C/D slate)"
     },
     "bet": {
-      "ru": "Бразилия ТБ2.0 (2Т) @1.99 + Турция самый результативный тайм 2-й @2.14 + США фора1 −1.5 @2.62 + Марокко фора2 −1.0 @2.25",
-      "en": "Brazil Over 2.0 (2nd half) @1.99 + Turkey most productive half = 2nd @2.14 + USA −1.5 @2.62 + Morocco −1.0 @2.25"
+      "ru": "форы + тайм-маркеты (агрессивный)",
+      "en": "handicaps + half-markets (aggressive)"
     },
     "type": "Экспресс",
     "odds": 25.1,
@@ -3685,7 +3727,49 @@
     "note": {
       "ru": "Пресс (реальная ставка 350₽). Самый агрессивный — форы и тайм-маркеты.",
       "en": "Press (real stake 350₽). The most aggressive — handicaps and half-markets."
-    }
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Бразилия — Гаити",
+          "en": "Brazil — Haiti"
+        },
+        "p": {
+          "ru": "ТБ 2.0 (2-й тайм) @1.99",
+          "en": "Over 2.0 (2nd half) @1.99"
+        }
+      },
+      {
+        "m": {
+          "ru": "Турция — Парагвай",
+          "en": "Turkey — Paraguay"
+        },
+        "p": {
+          "ru": "Самый результативный тайм — 2-й @2.14",
+          "en": "Most productive half — 2nd @2.14"
+        }
+      },
+      {
+        "m": {
+          "ru": "США — Австралия",
+          "en": "USA — Australia"
+        },
+        "p": {
+          "ru": "Фора США −1.5 @2.62",
+          "en": "USA −1.5 @2.62"
+        }
+      },
+      {
+        "m": {
+          "ru": "Шотландия — Марокко",
+          "en": "Scotland — Morocco"
+        },
+        "p": {
+          "ru": "Фора Марокко −1.0 @2.25",
+          "en": "Morocco −1.0 @2.25"
+        }
+      }
+    ]
   },
   {
     "id": 140,
@@ -3695,8 +3779,8 @@
       "en": "4-fold accumulator (C/D slate)"
     },
     "bet": {
-      "ru": "Бразилия фолы ТБ24.5 @1.71 + США голы в обоих таймах Да @1.72 + Турция ТБ2.5 @2.04 + Марокко фора2 −1.0 @2.21",
-      "en": "Brazil fouls Over 24.5 @1.71 + USA both halves to score @1.72 + Turkey Over 2.5 @2.04 + Morocco −1.0 @2.21"
+      "ru": "фолы + тайм-маркеты + фора",
+      "en": "fouls + half-markets + handicap"
     },
     "type": "Экспресс",
     "odds": 13.26,
@@ -3708,7 +3792,49 @@
     "note": {
       "ru": "Пресс (реальная ставка 350₽). Тайм-маркеты — сам признаёт, что они «адски хромают» из-за перерывов на воду.",
       "en": "Press (real stake 350₽). Half-markets — he admits they've been 'limping badly' due to cooling breaks."
-    }
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Бразилия — Гаити",
+          "en": "Brazil — Haiti"
+        },
+        "p": {
+          "ru": "Фолы матча — больше 24.5 @1.71",
+          "en": "Match fouls Over 24.5 @1.71"
+        }
+      },
+      {
+        "m": {
+          "ru": "США — Австралия",
+          "en": "USA — Australia"
+        },
+        "p": {
+          "ru": "Голы в обоих таймах — да @1.72",
+          "en": "Both halves to score — yes @1.72"
+        }
+      },
+      {
+        "m": {
+          "ru": "Турция — Парагвай",
+          "en": "Turkey — Paraguay"
+        },
+        "p": {
+          "ru": "ТБ 2.5 @2.04",
+          "en": "Over 2.5 @2.04"
+        }
+      },
+      {
+        "m": {
+          "ru": "Шотландия — Марокко",
+          "en": "Scotland — Morocco"
+        },
+        "p": {
+          "ru": "Фора Марокко −1.0 @2.21",
+          "en": "Morocco −1.0 @2.21"
+        }
+      }
+    ]
   },
   {
     "id": 141,
@@ -3718,8 +3844,8 @@
       "en": "System 3/4 · correct scores (C/D slate)"
     },
     "bet": {
-      "ru": "Точные счета: США 3:1 · Шотландия-Марокко 0:2 · Бразилия 4:0 · Турция 2:1 (нужно ≥3 из 4)",
-      "en": "Correct scores: USA 3:1 · Scotland-Morocco 0:2 · Brazil 4:0 · Turkey 2:1 (need ≥3 of 4)"
+      "ru": "точные счета",
+      "en": "correct scores"
     },
     "type": "Система",
     "odds": 80,
@@ -3731,6 +3857,48 @@
     "note": {
       "ru": "Кэф ориентировочный (эфф. пересчитаю при резолве). Ноги — прогнозы точных счетов Паши из 16:26; система 3/4 (красная) по его словам в 17:24. Если состав ног иной — поправлю.",
       "en": "Indicative odds (effective recomputed at settlement). Legs = Pasha's correct-score calls from 16:26; 3/4 system (red) per his 17:24 note. Will fix if the legs differ."
-    }
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "США — Австралия",
+          "en": "USA — Australia"
+        },
+        "p": {
+          "ru": "3:1",
+          "en": "3:1"
+        }
+      },
+      {
+        "m": {
+          "ru": "Шотландия — Марокко",
+          "en": "Scotland — Morocco"
+        },
+        "p": {
+          "ru": "0:2",
+          "en": "0:2"
+        }
+      },
+      {
+        "m": {
+          "ru": "Бразилия — Гаити",
+          "en": "Brazil — Haiti"
+        },
+        "p": {
+          "ru": "4:0",
+          "en": "4:0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Турция — Парагвай",
+          "en": "Turkey — Paraguay"
+        },
+        "p": {
+          "ru": "2:1",
+          "en": "2:1"
+        }
+      }
+    ]
   }
 ]
