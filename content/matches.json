@@ -810,5 +810,125 @@
       "en": "Mexico 1:0 — Romo pounced on keeper Kim's error, the Montes-less defence held firm (Álvarez cleared off the line). Korea created but didn't score. Both sides' BTTS-Yes and AI's draw — all missed."
     },
     "result": "1:0 (0:0)"
+  },
+  {
+    "id": "usa-australia",
+    "date": "2026-06-19",
+    "timeMsk": "22:00",
+    "title": {
+      "ru": "США — Австралия",
+      "en": "USA — Australia"
+    },
+    "cc": [
+      "us",
+      "au"
+    ],
+    "stage": {
+      "ru": "Группа D · тур 2",
+      "en": "Group D · MD 2"
+    },
+    "venue": {
+      "ru": "Lumen Field, Сиэтл",
+      "en": "Lumen Field, Seattle"
+    },
+    "weather": {
+      "ru": "Открытый стадион, вечер ~18-21°C, сухо — не фактор",
+      "en": "Open stadium, evening ~18-21°C, dry — not a factor"
+    },
+    "lede": {
+      "ru": "Обе по 3 очка — победитель забирает 1-е место группы D. Но ничья выводит ОБОИХ — мотив на осторожность. США в форме (4:1), Австралия — дырявый автобус (0.77 xG).",
+      "en": "Both on 3 points — the winner takes top of Group D. But a draw sends BOTH through — incentive for caution. USA in form (4:1), Australia a leaky bus (0.77 xG)."
+    },
+    "result": null
+  },
+  {
+    "id": "scotland-morocco",
+    "date": "2026-06-20",
+    "timeMsk": "01:00",
+    "title": {
+      "ru": "Шотландия — Марокко",
+      "en": "Scotland — Morocco"
+    },
+    "cc": [
+      "gb-sct",
+      "ma"
+    ],
+    "stage": {
+      "ru": "Группа C · тур 2",
+      "en": "Group C · MD 2"
+    },
+    "venue": {
+      "ru": "Gillette Stadium, Фоксборо",
+      "en": "Gillette Stadium, Foxborough"
+    },
+    "weather": {
+      "ru": "Открытый стадион, вечер ~18°C, сухо — не фактор",
+      "en": "Open stadium, evening ~18°C, dry — not a factor"
+    },
+    "lede": {
+      "ru": "Лидер группы Шотландия (3 очка) против класса Марокко (38 матчей без поражений, чемпион Африки, но лишь 1 очко). Марокко обязана побеждать; Шотландию устроит ничья.",
+      "en": "Group leaders Scotland (3 pts) vs Morocco's class (38 unbeaten, African champions, but only 1 pt). Morocco must win; Scotland would settle for a draw."
+    },
+    "result": null
+  },
+  {
+    "id": "brazil-haiti",
+    "date": "2026-06-20",
+    "timeMsk": "03:30",
+    "title": {
+      "ru": "Бразилия — Гаити",
+      "en": "Brazil — Haiti"
+    },
+    "cc": [
+      "br",
+      "ht"
+    ],
+    "stage": {
+      "ru": "Группа C · тур 2",
+      "en": "Group C · MD 2"
+    },
+    "venue": {
+      "ru": "Lincoln Financial Field, Филадельфия",
+      "en": "Lincoln Financial Field, Philadelphia"
+    },
+    "weather": {
+      "ru": "Открытый стадион, вечер ~18°C, сухо — не фактор",
+      "en": "Open stadium, evening ~18°C, dry — not a factor"
+    },
+    "lede": {
+      "ru": "Бразилия после осечки с Марокко (1:1) обязана возить слабейшую команду турнира. xG-проекция ~3.97 vs 0.49 — играем на количество голов, а не на хрупкий чистый исход.",
+      "en": "After the Morocco slip (1:1), Brazil must run up the score on the tournament's weakest side. xG projection ~3.97 vs 0.49 — we bet the volume of goals, not a fragile clean outcome."
+    },
+    "result": null
+  },
+  {
+    "id": "turkey-paraguay",
+    "date": "2026-06-20",
+    "timeMsk": "06:00",
+    "title": {
+      "ru": "Турция — Парагвай",
+      "en": "Turkey — Paraguay"
+    },
+    "cc": [
+      "tr",
+      "py"
+    ],
+    "stage": {
+      "ru": "Группа D · тур 2",
+      "en": "Group D · MD 2"
+    },
+    "venue": {
+      "ru": "Levi's Stadium, Санта-Клара",
+      "en": "Levi's Stadium, Santa Clara"
+    },
+    "weather": {
+      "ru": "Открытый стадион, вечер ~15-18°C, бриз — не фактор",
+      "en": "Open stadium, evening ~15-18°C, breeze — not a factor"
+    },
+    "lede": {
+      "ru": "Оба проиграли 1-й тур (0 очков) — проигравший почти вне плей-офф. Ничья не нужна никому → открытая игра на голы. Анти-«ничейный» сценарий: ОЗ-Да/ТБ.",
+      "en": "Both lost their openers (0 pts) — the loser is all but out. A draw suits neither → an open, goal-laden game. The anti-'cagey' scenario: BTTS-Yes/Over."
+    },
+    "result": null
   }
 ]
