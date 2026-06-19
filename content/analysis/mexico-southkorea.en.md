@@ -1,3 +1,13 @@
+## Result: 1:0 (0:0) — Mexico ground it out, BTTS-Yes and the draw missed
+
+**Goal:** Romo 50' (tapped into an empty net after keeper Kim spilled a Raúl Jiménez header). No reds, no penalties. Son scored but was offside; Álvarez cleared off the line on 16'; Rangel double-save denied Cho Gyu-sung on 87'. Korea created but managed 0 goals.
+
+**Settlement:** ❌ AI BTTS-Yes @2.12 (−3,000) — Korea couldn't score; ❌ AI draw @3.40 (−1,500) — the hosts won; ❌ Pasha BTTS-Yes @1.99 (−3,000) + his 3/4 system (id 112) died on this leg (final 2/4). Player: Jiménez assisted but didn't score; Son offside.
+
+**Lesson (§8):** **the AI+Pasha consensus on BTTS-Yes failed** — both read "goals from MD1 form" but ignored the motivational frame: with a scoreline where **a draw sends BOTH teams through** (incentive for caution), even attacking nations play a tight 1:0. Mexico's structural weakening (no Montes) never bit — individual moments (Álvarez's clearance, the saves) outweighed the "hole in midfield". This is the SECOND match of the slate (after Czechia) where a cautious motivational context killed the goals/outcome thesis. **BTTS-Yes requires BOTH sides to want AND be able to push forward — a draw incentive cancels that.**
+
+---
+
 ## Mexico — South Korea · 19 Jun, 04:00 MSK · Estadio Akron, Guadalajara
 
 **Clash of the Group A leaders (3 points each). Mexico without suspended defensive rock Montes — captain Álvarez drops into central defence, weakening the structure against Son Heung-min's counters. We take BTTS-Yes as the robust market.**

@@ -3001,10 +3001,10 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "Матч за первое место на высоте ~1560 м (корейцы готовились к высоте). По туру 1 — железобетонное ОЗ (обе атаки забивали), но высота, статус хозяев и удаление Монтеса добавляют риска. Паша остаётся на надёжном рынке. Кэф — Лига Ставок (со слов Паши).",
-      "en": "A top-of-the-group clash at ~1560 m (South Korea prepared for altitude). MD1 form screams BTTS (both attacks scored), but altitude, the hosts’ status and Montes’s red add risk. Pasha stays on the reliable market. Odds — Liga Stavok (per Pasha)."
+      "ru": "✗ 1:0 — Корея НЕ забила, ОЗ-да сгорело. Сон попал в офсайд, Альварес вынес с линии, дабл-сейв Рангеля на 87'. Вязкая 1:0 при взаимном мотиве на ничью — структурное ослабление Мексики не выстрелило.",
+      "en": "✗ 1:0 — Korea did NOT score, BTTS-yes lost. Son flagged offside, Álvarez cleared off the line, Rangel double-save on 87'. A grinding 1:0 with a mutual draw incentive — Mexico structural weakening never bit."
     },
-    "status": "pending"
+    "status": "lose"
   },
   {
     "id": 112,
@@ -3066,10 +3066,10 @@
       }
     ],
     "note": {
-      "ru": "⏳ Чехия П1 ✗, Швейцария+ТБ1.5 ✓, Канада −1.5 ✓ (6:0). Для прохода 3/4 нужна последняя нога — Мексика ОЗ-да. Решается в матче Мексика—Корея (04:00).",
-      "en": "⏳ Czechia win ✗, Switzerland+Over1.5 ✓, Canada −1.5 ✓ (6:0). For the 3/4 to pass, the last leg is needed — Mexico BTTS-yes. Decided in Mexico—Korea (04:00)."
+      "ru": "✗ Система 3/4 не прошла: итог 2/4 (Чехия П1 ✗, Швейцария+ТБ1.5 ✓, Канада −1.5 ✓, Мексика ОЗ-да ✗). Для прохода нужно было ≥3 — последняя нога (ОЗ-да Мексики) сгорела на сухой 1:0.",
+      "en": "✗ System 3/4 failed: final 2/4 (Czechia win ✗, Switzerland+Over1.5 ✓, Canada −1.5 ✓, Mexico BTTS-yes ✗). Needed ≥3 — the last leg (Mexico BTTS-yes) died on the 1:0 clean sheet."
     },
-    "status": "pending"
+    "status": "lose"
   },
   {
     "id": 113,
@@ -3218,10 +3218,10 @@
     "odds": 2.12,
     "tier": "green",
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "🟢 Мексика потеряла столпа ЦЗ Монтеса (КК). Ослабление защиты против скорости Сон Хын Мина. Очные встречи верховые (в среднем 4 гола).",
-      "en": "🟢 Mexico lost star CB Montes (red). Weakened defence against Son's pace. H2H historically high-scoring (avg 4 goals)."
+      "ru": "✗ 1:0 — то же: Корея не пробила (момент Сона офсайд, Альварес с линии). Консенсус AI+Паши на ОЗ-да провалился — оба ждали голы, матч дал сухую 1:0 хозяев. Урок: при мотиве «ничья выводит обоих» даже атакующие команды играют вязко.",
+      "en": "✗ 1:0 — same story: Korea could not break through (Son offside, Álvarez off the line). The AI+Pasha consensus on BTTS-yes failed — both expected goals, the match delivered a clean 1:0 for the hosts. Lesson: when a draw sends both through, even attacking sides play it tight."
     }
   },
   {
@@ -3240,10 +3240,10 @@
     "odds": 3.4,
     "tier": "yellow",
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "🟡 У обеих по 3 очка, ничья почти выводит в плей-офф обеих. Рынок завышает П1 Мексики (Opta 48% vs рынок 50%+). Value.",
-      "en": "🟡 Both have 3 pts, a draw virtually guarantees knockouts for both. Market slightly overprices Mexico win (Opta 48% vs market 50%+). Value."
+      "ru": "✗ 1:0 — Мексика выиграла, ничья не зашла. Ромо забил на 50' после ошибки Кима. Жёлтая на value-ничью (Opta 26% vs рынок 31%) мимо — хозяева дома дожали единственный момент.",
+      "en": "✗ 1:0 — Mexico won, the draw did not land. Romo scored on 50' after Kim error. The yellow value-draw (Opta 26% vs market 31%) missed — the hosts converted their one moment at home."
     }
   },
   {
