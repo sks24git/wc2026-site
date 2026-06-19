@@ -1,10 +1,26 @@
 [
   {
-    "time": "19.06 · 13:25",
+    "time": "19.06 · 15:20",
     "tag": "pasha",
     "text": {
-      "ru": "🟠 Паша на слейт C/D: «США и Марокко — банкеры (П1), Бразилия зла после Марокко — беру фору −2.5, Турция-Парагвай оба на ножах → ОЗ-да». 4 ординара + система точных счетов 2/4 (США 2:0, Марокко 2:0, Бразилия 3:0, Турция 2:1). От системы 3/4 ординаров отказался — ноги США/Марокко ниже 1.9 (правило систем).",
-      "en": "🟠 Pasha on the C/D slate: 'USA and Morocco are bankers (win), Brazil are angry after Morocco — I take −2.5, Turkey-Paraguay both desperate → BTTS-yes.' 4 singles + a correct-score 2/4 system (USA 2:0, Morocco 2:0, Brazil 3:0, Turkey 2:1). He skipped a 3/4 singles system — the USA/Morocco legs are below 1.9 (systems rule)."
+      "ru": "🟠 Паша поймал движок на ошибке тира: его система 3/4 ординаров (@6.64) стояла как 🟢 3000₽, хотя по правилу «системы = 🔴 по типу» должна быть 500₽. Исправлено — минус по проигравшей системе пересчитан с −3000 на −500. Баланс Паши: +17 230 → +19 730. Паша прав.",
+      "en": "🟠 Pasha caught a tier error: his 3/4 singles system (@6.64) was staked as 🟢 3000₽, but by the 'systems = 🔴 by type' rule it should be 500₽. Fixed — the loss on the failed system recut from −3000 to −500. Pasha's balance: +17 230 → +19 730. Pasha is right."
+    }
+  },
+  {
+    "time": "19.06 · 15:18",
+    "tag": "insight",
+    "text": {
+      "ru": "🧹 Книга Паши на слейт C/D (США-Австралия, Шотландия-Марокко, Бразилия-Гаити, Турция-Парагвай) убрана с сайта — это были проекции движка, а не его карты. Ждём пики Паши до старта США-Австралии (22:00 МСК). Ставки AI на месте.",
+      "en": "🧹 Pasha's C/D-slate book (USA-Australia, Scotland-Morocco, Brazil-Haiti, Turkey-Paraguay) pulled from the site — those were engine projections, not his cards. Awaiting Pasha's picks before USA-Australia kickoff (22:00 MSK). AI's bets stand."
+    }
+  },
+  {
+    "time": "19.06 · 13:25",
+    "tag": "insight",
+    "text": {
+      "ru": "✏️ Поправка: карточки Паши на слейт C/D были ПРЕДЛОЖЕНЫ движком до его дедлайна, а не присланы им — Паша заметил («я ещё ничего не давал»). Книга Паши на C/D снята, ждём его реальные пики. На сайте пока только ставки AI.",
+      "en": "✏️ Correction: Pasha's C/D-slate cards were PROPOSED by the engine ahead of his deadline, not submitted by him — Pasha flagged it ('I haven't given anything yet'). Pasha's C/D book is withdrawn; awaiting his real picks. Only AI's bets stand for now."
     }
   },
   {

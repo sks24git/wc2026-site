@@ -3019,10 +3019,10 @@
     },
     "type": "Система",
     "odds": 6.64,
-    "tier": "green",
+    "tier": "red",
     "side": "Паша",
     "contest": true,
-    "stake": 3000,
+    "stake": 500,
     "legs": [
       {
         "m": {
@@ -3066,8 +3066,8 @@
       }
     ],
     "note": {
-      "ru": "✗ Система 3/4 не прошла: итог 2/4 (Чехия П1 ✗, Швейцария+ТБ1.5 ✓, Канада −1.5 ✓, Мексика ОЗ-да ✗). Для прохода нужно было ≥3 — последняя нога (ОЗ-да Мексики) сгорела на сухой 1:0.",
-      "en": "✗ System 3/4 failed: final 2/4 (Czechia win ✗, Switzerland+Over1.5 ✓, Canada −1.5 ✓, Mexico BTTS-yes ✗). Needed ≥3 — the last leg (Mexico BTTS-yes) died on the 1:0 clean sheet."
+      "ru": "✗ Система 3/4 не прошла: итог 2/4 (Чехия П1 ✗, Швейцария+ТБ1.5 ✓, Канада −1.5 ✓, Мексика ОЗ-да ✗). Нужно было ≥3. [Тир исправлен: системы = 🔴 500₽ по типу, было ошибочно 🟢 3000₽ — Паша прав.]",
+      "en": "✗ System 3/4 failed: final 2/4 (Czechia win ✗, Switzerland+Over1.5 ✓, Canada −1.5 ✓, Mexico BTTS-yes ✗). Needed ≥3. [Tier corrected: systems = 🔴 500₽ by type, was wrongly 🟢 3000₽ — Pasha is right.]"
     },
     "status": "lose"
   },
@@ -3548,162 +3548,6 @@
         "p": {
           "ru": "0:1",
           "en": "0:1"
-        }
-      },
-      {
-        "m": {
-          "ru": "Бразилия — Гаити",
-          "en": "Brazil — Haiti"
-        },
-        "p": {
-          "ru": "3:0",
-          "en": "3:0"
-        }
-      },
-      {
-        "m": {
-          "ru": "Турция — Парагвай",
-          "en": "Turkey — Paraguay"
-        },
-        "p": {
-          "ru": "2:1",
-          "en": "2:1"
-        }
-      }
-    ]
-  },
-  {
-    "id": 130,
-    "status": "pending",
-    "date": "2026-06-19",
-    "match": {
-      "ru": "США — Австралия",
-      "en": "USA — Australia"
-    },
-    "matchId": "usa-australia",
-    "bet": {
-      "ru": "Победа США",
-      "en": "USA win"
-    },
-    "type": "П1",
-    "odds": 1.61,
-    "tier": "green",
-    "side": "Паша",
-    "contest": true,
-    "note": {
-      "ru": "«США дома банкер, Австралия отдала 30 ударов Турции».",
-      "en": "'USA at home a banker, Australia conceded 30 shots to Turkey.'"
-    }
-  },
-  {
-    "id": 131,
-    "status": "pending",
-    "date": "2026-06-20",
-    "match": {
-      "ru": "Шотландия — Марокко",
-      "en": "Scotland — Morocco"
-    },
-    "matchId": "scotland-morocco",
-    "bet": {
-      "ru": "Победа Марокко",
-      "en": "Morocco win"
-    },
-    "type": "П2",
-    "odds": 1.73,
-    "tier": "green",
-    "side": "Паша",
-    "contest": true,
-    "note": {
-      "ru": "«38 матчей без поражений, чемпион Африки — класс возьмёт своё».",
-      "en": "'38 unbeaten, African champions — class will tell.'"
-    }
-  },
-  {
-    "id": 132,
-    "status": "pending",
-    "date": "2026-06-20",
-    "match": {
-      "ru": "Бразилия — Гаити",
-      "en": "Brazil — Haiti"
-    },
-    "matchId": "brazil-haiti",
-    "bet": {
-      "ru": "Фора Бразилии −2.5",
-      "en": "Handicap Brazil −2.5"
-    },
-    "type": "АФ",
-    "odds": 2.4,
-    "tier": "green",
-    "side": "Паша",
-    "contest": true,
-    "note": {
-      "ru": "Агрессивнее AI: «Бразилия зла после Марокко, раскатает Гаити в 3+».",
-      "en": "More aggressive than AI: 'Brazil are angry after Morocco, will rout Haiti by 3+.'"
-    }
-  },
-  {
-    "id": 133,
-    "status": "pending",
-    "date": "2026-06-20",
-    "match": {
-      "ru": "Турция — Парагвай",
-      "en": "Turkey — Paraguay"
-    },
-    "matchId": "turkey-paraguay",
-    "bet": {
-      "ru": "Обе забьют — Да",
-      "en": "Both teams to score — yes"
-    },
-    "type": "ОЗ",
-    "odds": 1.9,
-    "tier": "green",
-    "side": "Паша",
-    "contest": true,
-    "note": {
-      "ru": "Ориентировочный кэф. «Оба на ножах, обязаны атаковать — голы с обеих».",
-      "en": "Indicative odds. 'Both desperate, must attack — goals at both ends.'"
-    }
-  },
-  {
-    "id": 134,
-    "status": "pending",
-    "date": "2026-06-20",
-    "match": {
-      "ru": "Система · точные счета 2/4",
-      "en": "System · correct scores 2/4"
-    },
-    "bet": {
-      "ru": "точные счета",
-      "en": "correct scores"
-    },
-    "type": "Система",
-    "odds": 8,
-    "stake": 500,
-    "tier": "red",
-    "side": "Паша",
-    "note": {
-      "ru": "Ноги: США 2:0 · Шотландия-Марокко 0:2 · Бразилия 3:0 · Турция 2:1. Нужно ≥2.",
-      "en": "Legs: USA 2:0 · Scotland-Morocco 0:2 · Brazil 3:0 · Turkey 2:1. Need ≥2."
-    },
-    "legs": [
-      {
-        "m": {
-          "ru": "США — Австралия",
-          "en": "USA — Australia"
-        },
-        "p": {
-          "ru": "2:0",
-          "en": "2:0"
-        }
-      },
-      {
-        "m": {
-          "ru": "Шотландия — Марокко",
-          "en": "Scotland — Morocco"
-        },
-        "p": {
-          "ru": "0:2",
-          "en": "0:2"
         }
       },
       {
