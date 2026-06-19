@@ -2978,10 +2978,10 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "Катар — претендент на 4-е место; в конце важна разница мячей, поэтому Канаде дома нужно не просто побеждать. Недооценку соперника уже показала Швейцария — для Канады это подсказка. Паша усиливает победу форой, ждёт 2:0. Кэф — Лига Ставок (со слов Паши).",
-      "en": "Qatar are 4th-place candidates; goal difference may matter at the end, so at home Canada must do more than win. Switzerland already showed how underrating Qatar bites — a hint for Canada. Pasha strengthens the win with a handicap, expecting 2:0. Odds — Liga Stavok (per Pasha)."
+      "ru": "✓ 6:0 — Канада разнесла Катар. Фора −1.5 зашла с огромным запасом (Дэвид хет-трик, Ларин, Салиба со штрафного, автогол). Паша прав: must-win хозяин дожал, да ещё против Катара вдевятером.",
+      "en": "✓ 6:0 — Canada thrashed Qatar. The −1.5 handicap landed with masses to spare (David hat-trick, Larin, Saliba free-kick, own goal). Pasha was right: the must-win host ran riot, against a nine-man Qatar too."
     },
-    "status": "pending"
+    "status": "win"
   },
   {
     "id": 111,
@@ -3066,8 +3066,8 @@
       }
     ],
     "note": {
-      "ru": "⏳ ЖИВА (2/4 ног). Чехия П1 ✗ (1:1); Швейцария П1+ТБ1.5 ✓ (4:1). Для системы 3/4 нужно ≥3 побед — Чехия проиграла, значит нужны ОБЕ оставшиеся: Канада −1.5 И Мексика ОЗ-да. Зелёная, ставка 3000.",
-      "en": "⏳ ALIVE (2/4 legs). Czechia win ✗ (1:1); Switzerland win+O1.5 ✓ (4:1). A 3/4 system needs ≥3 wins — Czechia lost, so it now needs BOTH remaining: Canada −1.5 AND Mexico BTTS-yes. Green, 3000 stake."
+      "ru": "⏳ Чехия П1 ✗, Швейцария+ТБ1.5 ✓, Канада −1.5 ✓ (6:0). Для прохода 3/4 нужна последняя нога — Мексика ОЗ-да. Решается в матче Мексика—Корея (04:00).",
+      "en": "⏳ Czechia win ✗, Switzerland+Over1.5 ✓, Canada −1.5 ✓ (6:0). For the 3/4 to pass, the last leg is needed — Mexico BTTS-yes. Decided in Mexico—Korea (04:00)."
     },
     "status": "pending"
   },
@@ -3131,10 +3131,10 @@
       }
     ],
     "note": {
-      "ru": "⏳ НА ВОЛОСКЕ (2/4 счетов). Чехия 2:1 ✗ (1:1), Швейцария 2:1 ✗ (4:1) — мимо. Для 2/4 нужны ОБА оставшихся: Канада 2:0 И Мексика 3:2. Ставка 500.",
-      "en": "⏳ HANGING BY A THREAD (2/4 scores). Czechia 2:1 ✗ (1:1), Switzerland 2:1 ✗ (4:1) — missed. For 2/4 it now needs BOTH remaining: Canada 2:0 AND Mexico 3:2. 500 stake."
+      "ru": "✗ Система мертва: 3 ноги из 4 мимо (Чехия 1:1≠2:1, Швейцария 4:1≠2:1, Канада 6:0≠2:0). Осталась только Мексика 3:2 — максимум 1/4, для 2/4 невозможно.",
+      "en": "✗ System dead: 3 of 4 legs missed (Czechia 1:1≠2:1, Switzerland 4:1≠2:1, Canada 6:0≠2:0). Only Mexico 3:2 remains — max 1/4, impossible to reach 2/4."
     },
-    "status": "pending"
+    "status": "lose"
   },
   {
     "id": 114,
@@ -3196,10 +3196,10 @@
     "odds": 1.75,
     "tier": "green",
     "side": "AI",
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "🟢 Катар нанёс 1 удар против Швейцарии (0.76 xG), глухая оборона. Канада доминирует дома. П1 слишком мал (~1.30), ОЗ-Нет заменяет фору.",
-      "en": "🟢 Qatar managed 1 shot vs Switzerland (0.76 xG), deep defence. Canada dominates at home. ML too low (~1.30), BTTS-No replaces handicap."
+      "ru": "✓ 6:0 — Катар не забил (1 удар за матч, как и со Швейцарией). ОЗ-Нет, устойчивое выражение тезиса, зашло. Здесь и фора, и ОЗ-нет сыграли — это был настоящий разгром, но §8-пик всё равно надёжнее (страховал и 1:0).",
+      "en": "✓ 6:0 — Qatar didn't score (1 shot all match, just like vs Switzerland). BTTS-No, the robust expression of the thesis, landed. Both the handicap and BTTS-no won here — a genuine rout — but the §8 pick was still safer (it also covered 1:0)."
     }
   },
   {
@@ -3284,10 +3284,10 @@
     "odds": 6,
     "tier": "red",
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "🔴 Точный счёт Канады. Отлично бьётся с ОЗ-Нет.",
-      "en": "🔴 Canada correct score. Perfectly aligns with BTTS-No."
+      "ru": "✗ 6:0 — мимо на четыре гола. Недооценили масштаб: Катар с двумя удалениями (Эль-Амин, Мадибо) развалился. Точные счета снова −EV.",
+      "en": "✗ 6:0 — off by four goals. Underestimated the scale: Qatar with two red cards (El Amin, Madibo) fell apart. Correct scores −EV again."
     }
   },
   {
@@ -3306,10 +3306,10 @@
     "tier": "red",
     "side": "AI",
     "stake": 500,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "⏳ НА ВОЛОСКЕ (2/4 счетов). Чехия 1:0 ✗ (1:1), Швейцария 2:0 ✗ (4:1) — мимо. Для 2/4 нужны ОБА оставшихся: Канада 2:0 И Мексика 1:1. Ставка 500.",
-      "en": "⏳ HANGING BY A THREAD (2/4 scores). Czechia 1:0 ✗ (1:1), Switzerland 2:0 ✗ (4:1) — missed. For 2/4 it now needs BOTH remaining: Canada 2:0 AND Mexico 1:1. 500 stake."
+      "ru": "✗ Система мертва: 3 ноги из 4 мимо (Чехия 1:1≠1:0, Швейцария 4:1≠2:0, Канада 6:0≠2:0). Осталась только Мексика 1:1 — максимум 1/4, для 2/4 невозможно.",
+      "en": "✗ System dead: 3 of 4 legs missed (Czechia 1:1≠1:0, Switzerland 4:1≠2:0, Canada 6:0≠2:0). Only Mexico 1:1 remains — max 1/4, impossible to reach 2/4."
     },
     "legs": [
       {
