@@ -3368,12 +3368,12 @@
       "en": "USA win"
     },
     "type": "П1",
-    "odds": 1.61,
+    "odds": 1.65,
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Хозяева в форме (4:1) за 1-е место против дырявого автобуса. ⚠️ Ничья выводит обоих — риск вязкой развязки, но фаворит-с-атакой обычно дожимает (Мексика 1:0).",
-      "en": "Hosts in form (4:1), chasing top spot vs a leaky bus. ⚠️ A draw sends both through — risk of a cagey finish, but a favourite-with-attack usually grinds it out (Mexico 1:0)."
+      "ru": "Хозяева в форме (4:1) за 1-е место против дырявого автобуса. ⚠️ Ничья выводит обоих — риск вязкой развязки, но фаворит-с-атакой обычно дожимает (Мексика 1:0). [Кэф выровнен под Фонбет: 1.61→1.65.]",
+      "en": "Hosts in form (4:1) playing for top spot vs a leaky bus. ⚠️ A draw sends both through — risk of a cagey finish, but an attacking favorite usually closes it out (Mexico 1:0). [Odds aligned to Fonbet: 1.61→1.65.]"
     }
   },
   {
@@ -3390,12 +3390,12 @@
       "en": "Morocco win"
     },
     "type": "П2",
-    "odds": 1.73,
+    "odds": 1.68,
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Класс + must-win мотивация (Марокко не может терять очки → идёт вперёд), атака Шотландии ограничена. Риск: Шотландию устроит ничья.",
-      "en": "Class + must-win motivation (Morocco can't drop points → push forward), Scotland's attack limited. Risk: Scotland would settle for a draw."
+      "ru": "Класс + must-win (Марокко не может терять очки → идёт вперёд), атака Шотландии ограничена. Риск: Шотландию устроит ничья. [Кэф выровнен под Фонбет: 1.73→1.68.]",
+      "en": "Class + must-win (Morocco can't drop points → pushes forward), Scotland's attack is limited. Risk: a draw suits Scotland. [Odds aligned to Fonbet: 1.73→1.68.]"
     }
   },
   {
@@ -3408,16 +3408,16 @@
     },
     "matchId": "brazil-haiti",
     "bet": {
-      "ru": "Фора Бразилии −1.5",
-      "en": "Handicap Brazil −1.5"
+      "ru": "Фора Бразилии −2.5",
+      "en": "Brazil −2.5"
     },
     "type": "АФ",
-    "odds": 1.7,
+    "odds": 1.8,
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Ориентировочный кэф. Бразилия обязана возить слабейшую команду турнира после осечки (1:1 Марокко); xG-проекция ~3.97. П1 @1.08 без value.",
-      "en": "Indicative odds. Brazil must run up the score on the weakest side after the slip (1:1 Morocco); xG projection ~3.97. The ML @1.08 has no value."
+      "ru": "Исправлено по реальной линии Фонбета: было «−1.5 @1.70» — такого кэфа нет (реальная −1.5 ≈1.35, ниже пола 1.6). На скрине Фонбета есть −2.5 @1.80 (Бразилия в 3+ голов), что бьётся с проекцией 3:0/4:0. Паша прав — старый кэф был выдуман.",
+      "en": "Corrected to the real Fonbet line: was '−1.5 @1.70' — that price doesn't exist (real −1.5 ≈1.35, below our 1.6 floor). Fonbet shows −2.5 @1.80 (Brazil to win by 3+), matching the 3:0/4:0 projection. Pasha is right — the old odds were invented."
     }
   },
   {
@@ -3434,12 +3434,12 @@
       "en": "Both teams to score — yes"
     },
     "type": "ОЗ",
-    "odds": 1.9,
+    "odds": 1.87,
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Ориентировочный кэф. Оба на 0 очков, проигравший вне плей-офф → ничья не нужна никому → открытая игра. Анти-«ничейный» сценарий (зеркало США—Австралии). Модель ОЗ 54%.",
-      "en": "Indicative odds. Both on 0 pts, the loser is out → a draw suits neither → open game. The anti-'cagey' scenario (mirror of USA—Australia). Model BTTS 54%."
+      "ru": "Оба на 0 очков, проигравший вне плей-офф → ничья не нужна никому → открытая игра. Анти-«ничейный» сценарий. Модель ОЗ 54%. [Кэф выровнен под Фонбет: 1.90→1.87.]",
+      "en": "Both on 0 points, the loser is all but out → a draw suits neither → open game. Anti-cagey scenario. Model BTTS 54%. [Odds aligned to Fonbet: 1.90→1.87.]"
     }
   },
   {
@@ -3456,12 +3456,12 @@
       "en": "Brazil team total Over 3.5"
     },
     "type": "ИТ",
-    "odds": 3.3,
-    "tier": "yellow",
+    "odds": 2.2,
+    "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Ориентировочный кэф. Бразилия 4+ — регрессия реализации (1 гол на 3+ xG в 1-м туре) + must-win разгром. Иммунно к отскоку Гаити.",
-      "en": "Indicative odds. Brazil 4+ — finishing regression (1 goal off 3+ xG in MD1) + a must-win rout. Immune to a Haiti consolation."
+      "ru": "Исправлено: было @3.30 — выдуманный кэф. Реальный ИТБ Бразилии >3.5 = 2.20 (Паша прав, тир жёлтый→зелёный). Бразилия 4+ — регрессия реализации (1 гол на 3+ xG в 1-м туре) + must-win разгром.",
+      "en": "Corrected: was @3.30 — invented odds. Real Brazil team total >3.5 = 2.20 (Pasha is right; tier yellow→green). Brazil 4+ — finishing regression (1 goal on 3+ xG in MD1) + must-win rout."
     }
   },
   {
@@ -3482,8 +3482,8 @@
     "tier": "yellow",
     "side": "AI",
     "note": {
-      "ru": "Ориентировочный кэф. Тот же открытый коридор: оба обязаны атаковать → склонность к 3+ голам.",
-      "en": "Indicative odds. Same open corridor: both must attack → leaning to 3+ goals."
+      "ru": "Ориентировочный: на скрине Фонбета по этому матчу только тотал 2.5 (Б@2.05), линия 3.5 не показана — кэф 3.00 прикидочный (правдоподобен от 2.5@2.05, но не подтверждён). Тезис: оба обязаны атаковать → склонность к 3+ голам.",
+      "en": "Indicative: Fonbet's screenshot for this match only shows the 2.5 total (Over @2.05); the 3.5 line isn't shown — 3.00 is an estimate (plausible off 2.5@2.05 but unconfirmed). Thesis: both must attack → leaning to 3+ goals."
     }
   },
   {
@@ -3500,12 +3500,12 @@
       "en": "Correct score 2:0 (USA)"
     },
     "type": "ТС",
-    "odds": 7,
+    "odds": 7.5,
     "tier": "red",
     "side": "AI",
     "note": {
-      "ru": "Ориентировочный кэф. Контролируемая сухая победа хозяев.",
-      "en": "Indicative odds. A controlled clean-sheet home win."
+      "ru": "Контролируемая сухая победа хозяев. [Кэф выровнен под Фонбет: 7.0→7.50, США 2:0.]",
+      "en": "A controlled clean home win. [Odds aligned to Fonbet: 7.0→7.50, USA 2:0.]"
     }
   },
   {
@@ -3526,8 +3526,8 @@
     "tier": "red",
     "side": "AI",
     "note": {
-      "ru": "Ноги: США 2:0 · Шотландия-Марокко 0:1 · Бразилия 3:0 · Турция 2:1. Нужно ≥2.",
-      "en": "Legs: USA 2:0 · Scotland-Morocco 0:1 · Brazil 3:0 · Turkey 2:1. Need ≥2."
+      "ru": "Ноги (реальные кэфы Фонбета): США 2:0 @7.50 · Шотландия-Марокко 0:1 @5.50 · Бразилия 3:0 @6.50 · Турция 2:1 @9.00. Система 2/4 (нужно ≥2), эфф. кэф пересчитаю при резолве.",
+      "en": "Legs (real Fonbet odds): USA 2:0 @7.50 · Scotland-Morocco 0:1 @5.50 · Brazil 3:0 @6.50 · Turkey 2:1 @9.00. System 2/4 (need ≥2); effective odds recomputed at settlement."
     },
     "legs": [
       {

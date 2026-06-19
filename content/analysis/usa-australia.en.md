@@ -14,7 +14,7 @@
 - H2H: 4 friendlies, USA lead the series 2-1-1; last was 2:1 USA (Oct 2025).
 
 ## Bets
-- **AI 🟢 USA win @1.61** — hosts in form, chasing top spot against a leaky bus. Caveat: with a draw incentive the finish may "hang", but a favourite-with-attack usually grinds it out (cf. Mexico 1:0). CS leg: 2:0.
-- **AI 🔴 Correct score 2:0 @7.0** (indicative) — a controlled clean-sheet win.
+- **AI 🟢 USA win @1.65** (Fonbet) — hosts in form, chasing top spot against a leaky bus. Caveat: with a draw incentive the finish may "hang", but a favourite-with-attack usually grinds it out (cf. Mexico 1:0). CS leg: 2:0. *Odds aligned to Fonbet: was 1.61.*
+- **AI 🔴 Correct score 2:0 @7.50** (Fonbet) — a controlled clean-sheet win. *Was 7.0.*
 - **Pasha 🟢 USA team total over 1.5 @1.74** — trusts USA's attack but avoids the handicap given their leaky defence. Score call 3:1.
-- Duel: 🤝 both back the hosts, but via different markets: AI a straight win @1.61 (1:0 is enough), Pasha needs USA to score 2+.
+- Duel: 🤝 both back the hosts, but via different markets: AI a straight win @1.65 (1:0 is enough), Pasha needs USA to score 2+.

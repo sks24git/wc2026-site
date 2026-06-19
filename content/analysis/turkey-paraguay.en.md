@@ -10,11 +10,11 @@
 - **Motivation:** both MUST win (a draw is useless to either) → an open game, goals at both ends. The direct opposite of USA—Australia.
 
 ## Total & trends
-- Line: Turkey 2.21 / Draw 3.12 / Paraguay 3.42. **Over 2.5 @2.00 / Under 2.5 @1.79.** Model: Turkey 42% / Draw 30% / Paraguay 27%, **BTTS 54%**. Projected score 2:0 Turkey (SI/TheyScored) or 1:1.
+- Line (Fonbet): Turkey 2.05 / Draw 3.45 / Paraguay 3.95. **Over 2.5 @2.05 / Under 2.5 @1.80, BTTS Yes @1.87.** Model: Turkey 42% / Draw 30% / Paraguay 27%, **BTTS 54%**. Projected score 2:0 Turkey (SI/TheyScored) or 1:1.
 - H2H: only meeting — 0:0 (1995 friendly).
 
 ## Bets
-- **AI 🟢 BTTS — Yes @1.90** (indicative) — both must attack, goals incentive (anti-cagey scenario). CS leg: 2:1.
-- **AI 🟡 Over 3.5 @3.00** (indicative) — same open corridor: both must push forward, leaning to 3+ goals.
+- **AI 🟢 BTTS — Yes @1.87** (Fonbet) — both must attack, goals incentive (anti-cagey scenario). CS leg: 2:1. *Odds aligned to Fonbet: was 1.90.*
+- **AI 🟡 Over 3.5 @3.00** (indicative) — same open corridor: both must push forward, leaning to 3+ goals. *Fonbet's screenshot only shows the 2.5 total (Over @2.05); 3.5 isn't shown — 3.00 is an estimate.*
 - **Pasha 🟢 Turkey win @2.07** — 'second death match, Turkey must bury Paraguay and fix goal difference before the USA finale.' Expects Over 2.5, a 2:1/3:1.
-- Duel: both expect an active Turkey, but via different markets: AI on goals (BTTS @1.90 + Over 3.5 @3.00), Pasha on a clean Turkey win @2.07. They split on whether Paraguay scores (AI yes; Pasha doesn't care as long as Turkey win).
+- Duel: both expect an active Turkey, but via different markets: AI on goals (BTTS @1.87 + Over 3.5 @3.00), Pasha on a clean Turkey win @2.07. They split on whether Paraguay scores (AI yes; Pasha doesn't care as long as Turkey win).

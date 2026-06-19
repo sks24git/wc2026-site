@@ -10,11 +10,11 @@
 
 ## Total & trends
 - Models: P1 85-90%, projected score 3:0/4:0, combined total **~4.46**. xG sum ≥4 → per our rule we play Over 3.5 / team total.
-- P1 @1.08 — zero value (and below the 1.6 floor). Handicap −1.5 balances reliability; −2.5 is high-variance (hinges on Haiti's discipline + Brazil's poor MD1 finishing).
+- P1 @1.08 — zero value (and below the 1.6 floor). A −1.5 handicap doesn't exist at a sane price (real ~1.35, below the 1.6 floor) → we take the real **−2.5 @1.80** (Fonbet), which matches the 3:0/4:0 projection.
 - ⚠️ Lesson: favourites stalled on opening day (Spain 0:0), but by MD2 with motivation they run riot (Canada 6:0). Haiti can't "settle for a draw" — hence betting goals, not fading.
 
 ## Bets
-- **AI 🟢 Brazil −1.5 handicap @1.70** (indicative) — they must run it up, Haiti the weakest side. CS leg: 3:0.
-- **AI 🟡 Brazil team total Over 3.5 @3.30** (indicative) — Brazil to score 4+ (regression after 1 goal off 3+ xG, a must-win rout). Immune to a Haiti consolation (unlike the clean ML/handicap).
+- **AI 🟢 Brazil −2.5 handicap @1.80** (Fonbet) — they must run it up, Haiti the weakest side; −2.5 (Brazil by 3+) matches the 3:0/4:0 projection. CS leg: 3:0. *Was −1.5 @1.70 — invented odds (real ~1.35), corrected to the real line.*
+- **AI 🟢 Brazil team total Over 3.5 @2.20** (Fonbet) — Brazil to score 4+ (regression after 1 goal off 3+ xG, a must-win rout). Immune to a Haiti consolation. *Was @3.30 — invented; real odds 2.20, Pasha is right (tier 🟡→🟢).*
 - **Pasha ⚪ SKIPS the match** — 'totals and handicaps are shaded, 1.5-1.6 on −1 is bad value; Brazil were never that prolific anyway.' Brazil only appears as a 'micro-odds' leg in his accumulators (2nd-half total) + a 4:0 in his correct-score system.
-- Duel: ⚔️ the slate's key split. AI loads the rout (−1.5 + team total>3.5), Pasha PASSES — reads the lines as shaded. Brazil run riot 4+ → AI lands, Pasha sits out; a narrow 1-2 goal win → AI loses, Pasha was right to stay away.
+- Duel: ⚔️ the slate's key split. AI loads the rout (−2.5 + team total>3.5, both at real Fonbet odds), Pasha PASSES — reads the lines as shaded. Brazil run riot 4+ → AI lands, Pasha sits out; a narrow 1-2 goal win → AI loses, Pasha was right to stay away.
