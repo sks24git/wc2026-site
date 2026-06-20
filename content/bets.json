@@ -4226,5 +4226,28 @@
       "ru": "Система 2/3 на бомбардиров (без Нидерландов). Ноги ≥1.9: Хаверц 2.40, К. Родригес 2.00 (Энер Валенсия 1.57 ниже пола), Огава 2.50. ✅ Германия: Хаверц подтверждён в старте центрфорвардом (4-2-3-1). ⏳ Эквадор/Япония — выбор пред-лайнап, подтвержу по их составам. Эфф. кэф при резолве.",
       "en": "System 2/3 on scorers (no Netherlands). Legs ≥1.9: Havertz 2.40, K. Rodríguez 2.00 (Enner Valencia 1.57 below floor), Ogawa 2.50. ✅ Germany: Havertz confirmed starting as centre-forward (4-2-3-1). ⏳ Ecuador/Japan picks pre-lineup, will confirm on their XIs. Eff. odds at settle."
     }
+  },
+  {
+    "id": 160,
+    "match": {
+      "ru": "Германия — Кот-д’Ивуар",
+      "en": "Germany — Ivory Coast"
+    },
+    "matchId": "germany-ivorycoast",
+    "date": "2026-06-20",
+    "bet": {
+      "ru": "Кот-д’Ивуар забьёт первым + победа Германии",
+      "en": "Ivory Coast score first + Germany win"
+    },
+    "type": "Другое",
+    "odds": 8.5,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Пред-матч Паши (доставлено с опозданием). Страховка к основной 1Т-П1 @1.94: если Кот-д’Ивуар открывает счёт (его П1 в 1Т горит), но Германия дожимает победу — эта связка спасает. 🔴 по типу (комбо, кэф 8.50).",
+      "en": "Pasha pre-match (relayed late). Insurance for his main 1st-half Germany win @1.94: if Ivory Coast score first (his H1 bet dies) but Germany still win, this combo covers it. 🔴 by type (combo, 8.50)."
+    }
   }
 ]
