@@ -4172,5 +4172,59 @@
       "ru": "Точные счета AI по чтению картины: Нид 2:1 (верх+фаворит), Гер 3:1 (верх+П1), Экв 3:0 (фора −2.5), Япония 0:1 (низ+сухарь). Система 2/4, эфф. кэф пересчитаю при резолве.",
       "en": "AI scores by match read: Net 2:1, Ger 3:1, Ecu 3:0, Jpn 0:1. System 2/4, eff. odds recomputed at settle."
     }
+  },
+  {
+    "id": 159,
+    "match": {
+      "ru": "Система 2/3 · игроки-бомбардиры",
+      "en": "System 2/3 · anytime scorers"
+    },
+    "date": "2026-06-20",
+    "bet": {
+      "ru": "забьют (2 из 3)",
+      "en": "to score (2 of 3)"
+    },
+    "type": "Система",
+    "odds": 4,
+    "tier": "red",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Германия — Кот-д’Ивуар",
+          "en": "Germany — Ivory Coast"
+        },
+        "p": {
+          "ru": "Хаверц забьёт @2.40",
+          "en": "Havertz to score @2.40"
+        }
+      },
+      {
+        "m": {
+          "ru": "Эквадор — Кюрасао",
+          "en": "Ecuador — Curaçao"
+        },
+        "p": {
+          "ru": "К. Родригес забьёт @2.00",
+          "en": "K. Rodríguez to score @2.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Тунис — Япония",
+          "en": "Tunisia — Japan"
+        },
+        "p": {
+          "ru": "Огава забьёт @2.50",
+          "en": "Ogawa to score @2.50"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Система 2/3 на бомбардиров (без Нидерландов — уже в игре). Ноги ≥1.9 (правило систем): Хаверц 2.40 (форвард Германии, ~3 гола), К. Родригес 2.00 (Энер Валенсия 1.57 ниже пола), Огава 2.50 (рыночный фаворит Японии). ⚠️ ПРЕД-ЛАЙНАП: выбор по рыночным фаворитам = вероятным стартерам; подтвержу/заменю по официальным составам. Эфф. кэф пересчитаю при резолве.",
+      "en": "System 2/3 on scorers (no Netherlands — already in play). Legs ≥1.9 (system rule): Havertz 2.40 (Germany FW, ~3 goals), K. Rodríguez 2.00 (Enner Valencia 1.57 below floor), Ogawa 2.50 (Japan market favourite). ⚠️ PRE-LINEUP: picks by market favourites = likely starters; will confirm/swap on official XIs. Eff. odds recomputed at settle."
+    }
   }
 ]
