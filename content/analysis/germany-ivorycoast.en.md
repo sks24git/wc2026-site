@@ -13,4 +13,6 @@
 
 ## Bets
 - **AI 🟢 Over 2.5 @1.60** (Fonbet) — moneyline @1.50 is below the floor, so we take value in the total. Germany at home should score 2+.
+- **Pasha 🟢 Germany to win 1st half @1.94** (Liga Stavok) — "a light near-friendly, ~3 goals, handicaps won't land; inflating odds via 1st-half win, Africa is more of a 2nd-half side." His accumulator has over 3.0; his system calls 3:0.
+- Battle: ⚔️ both expect ~3 goals and a Germany win, but Pasha dives into the unreliable 1st-half market ("can't adapt to four quarters"); AI takes the steadier over 2.5.
 - We do NOT take the −1 handicap or a big Germany team total (rule: no favourite blowout / no pinpoint high total).

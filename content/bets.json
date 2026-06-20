@@ -3820,5 +3820,357 @@
       "ru": "Marquee 🔴, связан с ТМ 2.5 (#145): японская сухая победа 0:1 закрывает обе. Эхо сегодняшнего захода точного счёта.",
       "en": "Marquee 🔴, tied to the under 2.5 (#145): a 0:1 Japan win cashes both. Echo of today’s correct-score hit."
     }
+  },
+  {
+    "id": 150,
+    "match": {
+      "ru": "Нидерланды — Швеция",
+      "en": "Netherlands — Sweden"
+    },
+    "matchId": "netherlands-sweden",
+    "date": "2026-06-20",
+    "bet": {
+      "ru": "Обе забьют — Да",
+      "en": "Both teams to score — Yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.63,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "«Нидерланды слабы, ждут ничьей; плохие обороны, средние атаки. Сценарий 2:1/1:1/1:2 — беру просто ОЗ».",
+      "en": "\"Netherlands weak, hoping for a draw; poor defences, average attacks. 2:1/1:1/1:2 scenario — just take BTTS.\""
+    }
+  },
+  {
+    "id": 151,
+    "match": {
+      "ru": "Германия — Кот-д’Ивуар",
+      "en": "Germany — Ivory Coast"
+    },
+    "matchId": "germany-ivorycoast",
+    "date": "2026-06-20",
+    "bet": {
+      "ru": "Победа Германии в 1-м тайме",
+      "en": "Germany to win 1st half"
+    },
+    "type": "1Т-рынок",
+    "odds": 1.94,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "«Лайтовая почти товарищеская встреча, ~3 гола, форы не пройдут. Искусственно наращиваю кэф: П1 в 1Т — Африка больше про 2-й тайм».",
+      "en": "\"A light near-friendly, ~3 goals, handicaps won’t land. Inflating odds: Germany 1st-half win — Africa is more of a 2nd-half side.\""
+    }
+  },
+  {
+    "id": 152,
+    "match": {
+      "ru": "Эквадор — Кюрасао",
+      "en": "Ecuador — Curaçao"
+    },
+    "matchId": "ecuador-curacao",
+    "date": "2026-06-20",
+    "bet": {
+      "ru": "Тотал меньше 1.5 (1-й тайм)",
+      "en": "Under 1.5 (1st half)"
+    },
+    "type": "1Т-рынок",
+    "odds": 1.64,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "«Эквадор не про разгром (раз забил 4 за 2.5 года), Кюрасао 1-й тайм держится. Ни форы, ни большие тоталы — лезу в ТМ тайма».",
+      "en": "\"Ecuador don’t do blowouts (one 4-goal game in 2.5 yrs); Curaçao hold the 1st half. No handicaps/big totals — I go for the half under.\""
+    }
+  },
+  {
+    "id": 153,
+    "match": {
+      "ru": "Тунис — Япония",
+      "en": "Tunisia — Japan"
+    },
+    "matchId": "tunisia-japan",
+    "date": "2026-06-20",
+    "bet": {
+      "ru": "Фора Японии −1",
+      "en": "Japan −1 handicap"
+    },
+    "type": "АФ",
+    "odds": 1.93,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "«Тунис — команда для битья. Япония восхитила дисциплиной, заберёт три очка без разгрома. Фора 1 под возврат при 0:1, жду 0:2».",
+      "en": "\"Tunisia are there to be beaten. Japan impressed with discipline, will take three points without a rout. −1 handicap (push on 0:1), expecting 0:2.\""
+    }
+  },
+  {
+    "id": 154,
+    "match": {
+      "ru": "Экспресс 2 ставки (тоталы)",
+      "en": "2-fold accumulator (totals)"
+    },
+    "date": "2026-06-20",
+    "bet": {
+      "ru": "ТБ 3.0 в двух матчах",
+      "en": "Over 3.0 in two games"
+    },
+    "type": "Экспресс",
+    "odds": 3.88,
+    "tier": "yellow",
+    "stake": 1500,
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Нидерланды — Швеция",
+          "en": "Netherlands — Sweden"
+        },
+        "p": {
+          "ru": "ТБ 3.0 @1.98",
+          "en": "Over 3.0 @1.98"
+        }
+      },
+      {
+        "m": {
+          "ru": "Германия — Кот-д’Ивуар",
+          "en": "Germany — Ivory Coast"
+        },
+        "p": {
+          "ru": "ТБ 3.0 @1.96",
+          "en": "Over 3.0 @1.96"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Реальный пресик Паши (Лига Ставок, 1500₽, кэф 3.88). «Аккуратный ТБ3: у немцев и у скандинавов; вроде как возврат, прям четвёрка».",
+      "en": "Pasha’s real accumulator (Liga Stavok, 1500₽, odds 3.88). \"A tidy over-3 in both Germany and the Scandinavians.\""
+    }
+  },
+  {
+    "id": 155,
+    "match": {
+      "ru": "Система 2/4 · точные счета",
+      "en": "System 2/4 · correct scores"
+    },
+    "date": "2026-06-20",
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
+    "type": "Система",
+    "odds": 10,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Нидерланды — Швеция",
+          "en": "Netherlands — Sweden"
+        },
+        "p": {
+          "ru": "1:2 @14.0",
+          "en": "1:2 @14.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Германия — Кот-д’Ивуар",
+          "en": "Germany — Ivory Coast"
+        },
+        "p": {
+          "ru": "3:0 @10.0",
+          "en": "3:0 @10.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Эквадор — Кюрасао",
+          "en": "Ecuador — Curaçao"
+        },
+        "p": {
+          "ru": "2:0 @5.50",
+          "en": "2:0 @5.50"
+        }
+      },
+      {
+        "m": {
+          "ru": "Тунис — Япония",
+          "en": "Tunisia — Japan"
+        },
+        "p": {
+          "ru": "0:1 @6.00",
+          "en": "0:1 @6.00"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Прогнозы счёта Паши (18:53): Нид 1:2, Гер 3:0, Экв 2:0, Тун-Япо 0:1. Система 2/4, эфф. кэф пересчитаю при резолве.",
+      "en": "Pasha’s score calls: Net 1:2, Ger 3:0, Ecu 2:0, Tun-Jpn 0:1. System 2/4, eff. odds recomputed at settle."
+    }
+  },
+  {
+    "id": 156,
+    "match": {
+      "ru": "Эквадор — Кюрасао",
+      "en": "Ecuador — Curaçao"
+    },
+    "matchId": "ecuador-curacao",
+    "date": "2026-06-20",
+    "bet": {
+      "ru": "Точный счёт 3:0 (Эквадор)",
+      "en": "Exact score 3:0 (Ecuador)"
+    },
+    "type": "ТС",
+    "odds": 5.5,
+    "tier": "yellow",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Доп жёлтая: согласована с форой −2.5 (#144) — 3:0 = победа в 3 мяча. Самый вероятный «сухой» счёт мисматча.",
+      "en": "Extra yellow: consistent with the −2.5 handicap (#144) — 3:0 = a 3-goal win. The most likely clean-sheet mismatch score."
+    }
+  },
+  {
+    "id": 157,
+    "match": {
+      "ru": "Система 3/4 · основные ставки",
+      "en": "System 3/4 · main picks"
+    },
+    "date": "2026-06-20",
+    "bet": {
+      "ru": "результативность слейта",
+      "en": "slate goals"
+    },
+    "type": "Система",
+    "odds": 7.5,
+    "tier": "red",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Нидерланды — Швеция",
+          "en": "Netherlands — Sweden"
+        },
+        "p": {
+          "ru": "ТБ 3.0 @1.98",
+          "en": "Over 3.0 @1.98"
+        }
+      },
+      {
+        "m": {
+          "ru": "Германия — Кот-д’Ивуар",
+          "en": "Germany — Ivory Coast"
+        },
+        "p": {
+          "ru": "ТБ 3.0 @1.96",
+          "en": "Over 3.0 @1.96"
+        }
+      },
+      {
+        "m": {
+          "ru": "Эквадор — Кюрасао",
+          "en": "Ecuador — Curaçao"
+        },
+        "p": {
+          "ru": "Фора Эквадора −2.5 @2.13",
+          "en": "Ecuador −2.5 @2.13"
+        }
+      },
+      {
+        "m": {
+          "ru": "Тунис — Япония",
+          "en": "Tunisia — Japan"
+        },
+        "p": {
+          "ru": "Фора Японии −1 @1.93",
+          "en": "Japan −1 @1.93"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Система 3/4 по основным ставкам, все ноги ≥1.9 (правило систем). Нога Туниса — Фора Японии −1 @1.93 (Лига Ставок; на Фонбете 1.88 ниже пола), вариант «Япония 0:2». Эфф. кэф пересчитаю при резолве.",
+      "en": "System 3/4 on the main reads, all legs ≥1.9 (system rule). Tunisia leg is Japan −1 @1.93 (Liga; Fonbet 1.88 below floor), the \"Japan 0:2\" variant. Eff. odds recomputed at settle."
+    }
+  },
+  {
+    "id": 158,
+    "match": {
+      "ru": "Система 2/4 · точные счета",
+      "en": "System 2/4 · correct scores"
+    },
+    "date": "2026-06-20",
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
+    "type": "Система",
+    "odds": 10,
+    "tier": "red",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Нидерланды — Швеция",
+          "en": "Netherlands — Sweden"
+        },
+        "p": {
+          "ru": "2:1 @8.50",
+          "en": "2:1 @8.50"
+        }
+      },
+      {
+        "m": {
+          "ru": "Германия — Кот-д’Ивуар",
+          "en": "Germany — Ivory Coast"
+        },
+        "p": {
+          "ru": "3:1 @11.0",
+          "en": "3:1 @11.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Эквадор — Кюрасао",
+          "en": "Ecuador — Curaçao"
+        },
+        "p": {
+          "ru": "3:0 @5.50",
+          "en": "3:0 @5.50"
+        }
+      },
+      {
+        "m": {
+          "ru": "Тунис — Япония",
+          "en": "Tunisia — Japan"
+        },
+        "p": {
+          "ru": "0:1 @6.00",
+          "en": "0:1 @6.00"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Точные счета AI по чтению картины: Нид 2:1 (верх+фаворит), Гер 3:1 (верх+П1), Экв 3:0 (фора −2.5), Япония 0:1 (низ+сухарь). Система 2/4, эфф. кэф пересчитаю при резолве.",
+      "en": "AI scores by match read: Net 2:1, Ger 3:1, Ecu 3:0, Jpn 0:1. System 2/4, eff. odds recomputed at settle."
+    }
   }
 ]

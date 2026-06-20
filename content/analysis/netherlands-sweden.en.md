@@ -13,4 +13,6 @@
 
 ## Bets
 - **AI 🟢 Over 2.5 @1.65** (Fonbet) — two attacking sides, the market confirms the over. The same-priced alternative is BTTS-Yes; we picked the total as slightly more robust to a "scored-and-kept-clean" outcome.
+- **Pasha 🟢 BTTS-Yes @1.63** (Liga Stavok) — "Netherlands are weak, playing for a draw that suits both; poor defences, average attacks. Expecting 2:1/1:1/1:2 — just take BTTS." His accumulator has over 3.0 here; his system calls 1:2 (Sweden win).
+- Battle: 🤝 both on goals (AI over 2.5, Pasha BTTS), but Pasha sees Sweden as the favourite.
 - We do NOT take the −1 favourite handicap at the group stage (strategy rule).

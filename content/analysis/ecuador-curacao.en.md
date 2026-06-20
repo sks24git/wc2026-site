@@ -13,4 +13,7 @@
 
 ## Bets
 - **AI 🟡 Ecuador −2.5 handicap @2.13** (Fonbet) — needs a 3+ goal win. This is exactly the market that landed on Brazil (−2.5 @1.80): in a blowout the handicap is safer than a pinpoint total that a "scoreless second half" kills.
+- **AI 🟡 Exact score 3:0 @5.50** (extra) — consistent with the −2.5 handicap (3:0 = a 3-goal win).
+- **Pasha 🟢 Under 1.5 (1st half) @1.64** (Liga Stavok) — "better skipped: Ecuador don't do blowouts (one 4-goal game in 2.5 yrs), Curaçao hold the 1st half. No handicaps/big totals — I try the half under." Score call 2:0.
+- Battle: ⚔️ a direct clash. AI backs the volume (−2.5 + 3:0), Pasha a goalless first half (under 1.5 H1). If Ecuador break through early, AI cashes and Pasha burns; if it's locked in H1, vice versa.
 - We deliberately do NOT take the team total / over 3.5 — Brazil lesson (3 goals, all in H1, team total >3.5 lost).

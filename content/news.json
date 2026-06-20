@@ -1,5 +1,21 @@
 [
   {
+    "time": "20.06 · 19:05",
+    "tag": "pasha",
+    "text": {
+      "ru": "🟠 Карты Паши на слейт (Лига Ставок): ОЗ-Да Нидерланды @1.63, П1 в 1-м тайме Германии @1.94, ТМ 1.5 первого тайма Эквадор @1.64, фора Японии −1 @1.93. Плюс пресик ТБ3.0 Нид+Гер (1500₽ @3.88) и система точных счетов 2/4 (1:2 / 3:0 / 2:0 / 0:1). «Неудобный набор, лезу в рынок таймов — самый ненадёжный для меня, не подстроюсь под 4 четверти». Главное расхождение с AI — Эквадор: Паша берёт ТМ 1Т (не верит в разгром), AI грузит фору −2.5 + 3:0.",
+      "en": "🟠 Pasha's slate (Liga Stavok): BTTS-Yes Netherlands @1.63, Germany to win H1 @1.94, Ecuador under 1.5 in H1 @1.64, Japan −1 @1.93. Plus an over-3.0 accumulator Net+Ger (1500₽ @3.88) and a 2/4 correct-score system (1:2 / 3:0 / 2:0 / 0:1). 'An awkward set, I'm into the half markets — my least reliable, can't adapt to four quarters.' Main clash with AI is Ecuador: Pasha takes the H1 under (no blowout), AI loads the −2.5 + 3:0."
+    }
+  },
+  {
+    "time": "20.06 · 19:00",
+    "tag": "insight",
+    "text": {
+      "ru": "🤖 AI достроил слейт: доп 🟡 точный счёт 3:0 Эквадора @5.50 (согласован с форой −2.5), 🔴 система 3/4 по основным ставкам (ТБ3.0 Нид/Гер + фора −2.5 Эквадор + фора −1 Япония, все ноги ≥1.9 по правилу систем) и 🔴 система точных счетов 2/4 (Нид 2:1 / Гер 3:1 / Экв 3:0 / Япония 0:1). Эфф. кэфы систем пересчитаю при резолве.",
+      "en": "🤖 AI rounded out the slate: an extra 🟡 Ecuador 3:0 @5.50 (consistent with the −2.5), a 🔴 3/4 system on the main picks (over-3.0 Net/Ger + Ecuador −2.5 + Japan −1, all legs ≥1.9 per the system rule) and a 🔴 2/4 correct-score system (Net 2:1 / Ger 3:1 / Ecu 3:0 / Jpn 0:1). System eff. odds recomputed at settle."
+    }
+  },
+  {
     "time": "20.06 · 14:10",
     "tag": "insight",
     "text": {

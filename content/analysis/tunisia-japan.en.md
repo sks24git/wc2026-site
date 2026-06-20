@@ -14,3 +14,5 @@
 ## Bets
 - **AI 🟢 Under 2.5 @1.75** (Fonbet) — market and structure favour the under; a 1:0/2:0 Japan win cashes it.
 - **AI 🔴 Exact score 0:1 (Japan) @6.00** (Fonbet) — marquee, TIED to the under 2.5: a 0:1 clean-sheet win cashes both. Echo of today's 2:0 USA correct score.
+- **Pasha 🟢 Japan −1 handicap @1.93** (Liga Stavok) — "Tunisia are there to be beaten, Japan impressed with discipline, will take three points without a rout. −1 (push on 0:1), expecting 0:2." Score call 0:1.
+- Battle: 🤝 both back a disciplined Japan win. AI is more cautious (0:1, under), Pasha more aggressive (−1, expecting 0:2). On 0:1, AI cashes both and Pasha pushes.
