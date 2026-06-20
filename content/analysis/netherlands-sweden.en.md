@@ -1,3 +1,11 @@
+## Result: 5:1 — Netherlands ran riot, didn't "pray for a draw"
+
+Goals: Brobbey 5′, 17′ (brace), Gakpo 47′, 54′ (brace), Summerville 89′; Sweden's Elanga 59′. HT 2:0. 6 goals, both scored.
+
+**Settlement:** AI 🟢 over 2.5 @1.65 ✓ (easily). Pasha 🟢 BTTS-Yes @1.63 ✓ (Sweden got one back). Multi-bet legs: Pasha's accumulator and AI's 3/4 system — Netherlands over 3.0 ✓; correct scores missed (Pasha called Sweden 1:2, AI 2:1 — actual 5:1). **Lesson:** Pasha's read of "Netherlands weak, playing for a draw" was wrong — a creative side (Brobbey + Gakpo both braced) explodes. AI's "two average defences → goals" thesis was right in spirit, but the margin was far bigger.
+
+---
+
 ## Netherlands — Sweden · 20 Jun, 20:00 MSK · Group stage, MD 2
 
 **The Oranje are favourites (1.75) but not by a landslide: Sweden bite on the counter. The market unanimously expects goals — BTTS and over 2.5 both at 1.65. We take the over, not a fragile clean outcome.**
