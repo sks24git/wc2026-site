@@ -3356,7 +3356,7 @@
   },
   {
     "id": 122,
-    "status": "pending",
+    "status": "win",
     "date": "2026-06-19",
     "match": {
       "ru": "США — Австралия",
@@ -3372,13 +3372,13 @@
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Хозяева в форме (4:1) за 1-е место против дырявого автобуса. ⚠️ Ничья выводит обоих — риск вязкой развязки, но фаворит-с-атакой обычно дожимает (Мексика 1:0). [Кэф выровнен под Фонбет: 1.61→1.65.]",
-      "en": "Hosts in form (4:1) playing for top spot vs a leaky bus. ⚠️ A draw sends both through — risk of a cagey finish, but an attacking favorite usually closes it out (Mexico 1:0). [Odds aligned to Fonbet: 1.61→1.65.]"
+      "ru": "✓ США 2:0 — чистая победа.",
+      "en": "✓ USA 2:0 — clean win."
     }
   },
   {
     "id": 123,
-    "status": "pending",
+    "status": "win",
     "date": "2026-06-20",
     "match": {
       "ru": "Шотландия — Марокко",
@@ -3394,13 +3394,13 @@
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Класс + must-win (Марокко не может терять очки → идёт вперёд), атака Шотландии ограничена. Риск: Шотландию устроит ничья. [Кэф выровнен под Фонбет: 1.73→1.68.]",
-      "en": "Class + must-win (Morocco can't drop points → pushes forward), Scotland's attack is limited. Risk: a draw suits Scotland. [Odds aligned to Fonbet: 1.73→1.68.]"
+      "ru": "✓ Марокко 0:1 (Сайбари 2′) — класс must-win, как и ждали.",
+      "en": "✓ Morocco 0:1 (Saibari 2′) — class must-win as expected."
     }
   },
   {
     "id": 124,
-    "status": "pending",
+    "status": "win",
     "date": "2026-06-20",
     "match": {
       "ru": "Бразилия — Гаити",
@@ -3416,13 +3416,13 @@
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Исправлено по реальной линии Фонбета: было «−1.5 @1.70» — такого кэфа нет (реальная −1.5 ≈1.35, ниже пола 1.6). На скрине Фонбета есть −2.5 @1.80 (Бразилия в 3+ голов), что бьётся с проекцией 3:0/4:0. Паша прав — старый кэф был выдуман.",
-      "en": "Corrected to the real Fonbet line: was '−1.5 @1.70' — that price doesn't exist (real −1.5 ≈1.35, below our 1.6 floor). Fonbet shows −2.5 @1.80 (Brazil to win by 3+), matching the 3:0/4:0 projection. Pasha is right — the old odds were invented."
+      "ru": "✓ Бразилия 3:0, фора −2.5 проходит (+0.5).",
+      "en": "✓ Brazil 3:0, −2.5 handicap covers (+0.5)."
     }
   },
   {
     "id": 125,
-    "status": "pending",
+    "status": "lose",
     "date": "2026-06-20",
     "match": {
       "ru": "Турция — Парагвай",
@@ -3438,13 +3438,13 @@
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Оба на 0 очков, проигравший вне плей-офф → ничья не нужна никому → открытая игра. Анти-«ничейный» сценарий. Модель ОЗ 54%. [Кэф выровнен под Фонбет: 1.90→1.87.]",
-      "en": "Both on 0 points, the loser is all but out → a draw suits neither → open game. Anti-cagey scenario. Model BTTS 54%. [Odds aligned to Fonbet: 1.90→1.87.]"
+      "ru": "✗ Турция 0:1 — Парагвай не дал забить, ОЗ нет.",
+      "en": "✗ Turkey 0:1 — Paraguay kept it one-sided, BTTS no."
     }
   },
   {
     "id": 126,
-    "status": "pending",
+    "status": "lose",
     "date": "2026-06-20",
     "match": {
       "ru": "Бразилия — Гаити",
@@ -3460,13 +3460,13 @@
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Исправлено: было @3.30 — выдуманный кэф. Реальный ИТБ Бразилии >3.5 = 2.20 (Паша прав, тир жёлтый→зелёный). Бразилия 4+ — регрессия реализации (1 гол на 3+ xG в 1-м туре) + must-win разгром.",
-      "en": "Corrected: was @3.30 — invented odds. Real Brazil team total >3.5 = 2.20 (Pasha is right; tier yellow→green). Brazil 4+ — finishing regression (1 goal on 3+ xG in MD1) + must-win rout."
+      "ru": "✗ Бразилия 3 гола (нужно ≥4). Тотал не добит.",
+      "en": "✗ Brazil 3 goals (needed ≥4)."
     }
   },
   {
     "id": 127,
-    "status": "pending",
+    "status": "lose",
     "date": "2026-06-20",
     "match": {
       "ru": "Турция — Парагвай",
@@ -3482,13 +3482,13 @@
     "tier": "yellow",
     "side": "AI",
     "note": {
-      "ru": "Ориентировочный: на скрине Фонбета по этому матчу только тотал 2.5 (Б@2.05), линия 3.5 не показана — кэф 3.00 прикидочный (правдоподобен от 2.5@2.05, но не подтверждён). Тезис: оба обязаны атаковать → склонность к 3+ голам.",
-      "en": "Indicative: Fonbet's screenshot for this match only shows the 2.5 total (Over @2.05); the 3.5 line isn't shown — 3.00 is an estimate (plausible off 2.5@2.05 but unconfirmed). Thesis: both must attack → leaning to 3+ goals."
+      "ru": "✗ Турция-Парагвай 1 гол всего — глухой низ, ТБ3.5 мимо.",
+      "en": "✗ Turkey-Paraguay only 1 goal — ТБ3.5 missed."
     }
   },
   {
     "id": 128,
-    "status": "pending",
+    "status": "win",
     "date": "2026-06-19",
     "match": {
       "ru": "США — Австралия",
@@ -3504,13 +3504,13 @@
     "tier": "red",
     "side": "AI",
     "note": {
-      "ru": "Контролируемая сухая победа хозяев. [Кэф выровнен под Фонбет: 7.0→7.50, США 2:0.]",
-      "en": "A controlled clean home win. [Odds aligned to Fonbet: 7.0→7.50, USA 2:0.]"
+      "ru": "✅ ТОЧНЫЙ СЧЁТ 2:0 США ЗАШЁЛ @7.50! +3250₽.",
+      "en": "✅ EXACT SCORE 2:0 USA HIT @7.50! +3250₽."
     }
   },
   {
     "id": 129,
-    "status": "pending",
+    "status": "win",
     "date": "2026-06-20",
     "match": {
       "ru": "Система · точные счета 2/4",
@@ -3521,13 +3521,13 @@
       "en": "correct scores"
     },
     "type": "Система",
-    "odds": 8,
+    "odds": 20.96,
     "stake": 500,
     "tier": "red",
     "side": "AI",
     "note": {
-      "ru": "Ноги (реальные кэфы Фонбета): США 2:0 @7.50 · Шотландия-Марокко 0:1 @5.50 · Бразилия 3:0 @6.50 · Турция 2:1 @9.00. Система 2/4 (нужно ≥2), эфф. кэф пересчитаю при резолве.",
-      "en": "Legs (real Fonbet odds): USA 2:0 @7.50 · Scotland-Morocco 0:1 @5.50 · Brazil 3:0 @6.50 · Turkey 2:1 @9.00. System 2/4 (need ≥2); effective odds recomputed at settlement."
+      "ru": "✅ Система 2/4: 3 ноги из 4 (США 2:0, Шотландия 0:1, Бразилия 3:0; Турция 2:1 мимо). 3 дабла зашли, возврат 10479₽, профит +9979₽, эфф. кэф 20.96.",
+      "en": "✅ System 2/4: 3 of 4 legs (USA 2:0, Scotland 0:1, Brazil 3:0; Turkey 2:1 missed). 3 doubles won, return 10479₽, profit +9979₽, eff odds 20.96."
     },
     "legs": [
       {
@@ -3589,10 +3589,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Верит в атаку США, но из-за дырявой обороны не лезет в фору. Ждёт 2:1 / 3:1.",
-      "en": "Backs USA's attack but avoids the handicap given their leaky defence. Expects 2:1 / 3:1."
+      "ru": "✓ США забили 2 — ИТ больше 1.5 проходит.",
+      "en": "✓ USA scored 2 — team total over 1.5 hits."
     }
   },
   {
@@ -3612,10 +3612,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "«Марокко сегодня топ-команда, Хакими и Диас забегают медленную Шотландию в одиночку». Ждёт сухую 1:0 / 2:0.",
-      "en": "'Morocco are a top side now; Hakimi and Diaz will run past a slow Scotland alone.' Expects a clean 1:0 / 2:0."
+      "ru": "✓ Марокко 0:1 — взяли класс, как и AI.",
+      "en": "✓ Morocco 0:1 — class win, same as AI."
     }
   },
   {
@@ -3635,10 +3635,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "«Единственный шанс Турции исправить осечку — вынести Парагвай; разницу мячей под последний матч с США правят сегодня». Ждёт 2:1 / 3:1.",
-      "en": "'Turkey's only shot at fixing their slip is to bury Paraguay; they fix goal difference today ahead of the USA finale.' Expects 2:1 / 3:1."
+      "ru": "✗ Турция 0:1 — обязана была выносить, а сама влетела Парагваю.",
+      "en": "✗ Turkey 0:1 — supposed to win, lost to Paraguay instead."
     }
   },
   {
@@ -3658,10 +3658,10 @@
     "stake": 500,
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Пресс (реальная ставка 380₽ в Лиге Ставок). Тут Бразилия заходит «микро-кэфом» через тотал 2-го тайма.",
-      "en": "Press (real stake 380₽ at Liga Stavok). Brazil enters as a 'micro-odds' leg via a 2nd-half total."
+      "ru": "✗ Бразилия все 3 гола в 1Т, во 2Т 0 — нога ТБ1.5 2Т сгорела, весь экспресс мимо.",
+      "en": "✗ Brazil scored all 3 in 1st half, 0 in 2nd — 2nd-half-over leg failed, express lost."
     },
     "legs": [
       {
@@ -3723,10 +3723,10 @@
     "stake": 500,
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Пресс (реальная ставка 350₽). Самый агрессивный — форы и тайм-маркеты.",
-      "en": "Press (real stake 350₽). The most aggressive — handicaps and half-markets."
+      "ru": "✗ Бразилия 2Т 0 голов + Турция проиграла — экспресс мимо.",
+      "en": "✗ Brazil 0 in 2nd half + Turkey lost — express failed."
     },
     "legs": [
       {
@@ -3788,10 +3788,10 @@
     "stake": 500,
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Пресс (реальная ставка 350₽). Тайм-маркеты — сам признаёт, что они «адски хромают» из-за перерывов на воду.",
-      "en": "Press (real stake 350₽). Half-markets — he admits they've been 'limping badly' due to cooling breaks."
+      "ru": "✗ США голы только в 1Т (11′,43′) — нога «голы в обоих таймах» сгорела.",
+      "en": "✗ USA scored only in 1st half — both-halves leg failed."
     },
     "legs": [
       {
@@ -3853,10 +3853,10 @@
     "stake": 500,
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Кэф ориентировочный (эфф. пересчитаю при резолве). Ноги — прогнозы точных счетов Паши из 16:26; система 3/4 (красная) по его словам в 17:24. Если состав ног иной — поправлю.",
-      "en": "Indicative odds (effective recomputed at settlement). Legs = Pasha's correct-score calls from 16:26; 3/4 system (red) per his 17:24 note. Will fix if the legs differ."
+      "ru": "✗ Система 3/4 точные счета: 0 из 4 угадано (3:1/0:2/4:0/2:1 vs реальные 2:0/0:1/3:0/0:1).",
+      "en": "✗ System 3/4 correct scores: 0 of 4 hit."
     },
     "legs": [
       {

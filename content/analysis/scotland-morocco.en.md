@@ -1,3 +1,11 @@
+## Result: 0:1 — Morocco's class settled it in 69 seconds
+
+Goal: Saibari 2′ (fastest goal of the tournament). Morocco then controlled a low-scoring game; Scotland never cracked the defence.
+
+**Settlement:** 🤝 both sides cashed on class — AI 🟢 Morocco win @1.68 ✓, Pasha 🟢 Morocco win @1.72 ✓. That same 0:1 was a leg of AI's 2/4 system (won). **Lesson:** "class + must-win vs a slow defence" played out exactly; the FootballExplorer model overrated the draw/Scotland — the market (Morocco 1.68) was right.
+
+---
+
 ## Scotland — Morocco · 20 Jun, 01:00 MSK · Gillette Stadium, Foxborough
 
 **Group leaders Scotland (3 pts) vs Morocco's class (38 unbeaten, African champions, but only 1 pt). Morocco MUST win; Scotland would settle for a draw. A low-scoring match between two organised defences.**

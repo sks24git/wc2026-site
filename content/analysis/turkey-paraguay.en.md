@@ -1,3 +1,11 @@
+## Result: 0:1 — upset: ten-man Paraguay held on
+
+Goal: Galarza 2′. Paraguay had a man sent off (Almirón), but even down to ten they kept a clean-sheet win. Turkey, "obliged to dominate", flopped in game two and are all but out.
+
+**Settlement:** a miss on both sides — AI 🟢 BTTS-Yes @1.87 ✗ (Turkey didn't score) and 🟡 over 3.5 @3.00 ✗ (just 1 goal). Pasha 🟢 Turkey win @2.07 ✗. The "Turkey 2:1" leg killed AI's system (3/4 instead of 4/4). **Lesson:** "anti-cagey scenario → over" is a trap: a side that "must" win doesn't mean it'll blow the game open; an early goal + red card made it closed, not open. Don't buy the over off a motivational narrative alone.
+
+---
+
 ## Turkey — Paraguay · 20 Jun, 06:00 MSK · Levi's Stadium, Santa Clara
 
 **Both lost their openers (0 pts) — the loser is all but out. A draw suits NEITHER → an open, goal-laden game. The anti-'cagey' scenario (mirror of USA—Australia): we take BTTS-Yes/Over.**

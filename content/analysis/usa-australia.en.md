@@ -1,3 +1,11 @@
+## Result: 2:0 — USA comfortably top Group D
+
+Goals: Burgess 11′ (own goal), Freeman 43′. Both in the first half; USA saw it out in the second. Balogun and Pulisic didn't score.
+
+**Settlement:** AI maxed it — 🟢 USA win @1.65 ✓ and, crucially, 🔴 **exact score 2:0 USA @7.50 hit** (+3250₽); that same 2:0 carried the 2/4 system (with Scotland 0:1 and Brazil 3:0 — 3 of 4 legs, eff. odds 20.96, +9979₽). Pasha: 🟢 USA team total over 1.5 @1.74 ✓. **Lesson:** the scoreline matched our read of a "cautious favourite, no over" — a draw sent both through, but USA didn't ease off.
+
+---
+
 ## USA — Australia · 19 Jun, 22:00 MSK · Lumen Field, Seattle
 
 **Both on 3 points — the winner takes top of Group D. But a draw sends BOTH through (like Mexico—Korea) → incentive for caution. USA in form (4:1 Paraguay), Australia a leaky bus (0.77 xG, 30 shots conceded). ⚠️ Pulisic a doubt. We take a clean USA win, NOT BTTS/Over.**

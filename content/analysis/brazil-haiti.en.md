@@ -1,3 +1,11 @@
+## Result: 3:0 — Brazil did the job, but "the whole haul in H1"
+
+Goals: Cunha 23′, 36′ (brace), Vinícius Júnior 45+3′. ALL three in the first half; Brazil eased off and didn't score in the second.
+
+**Settlement:** AI 🟢 Brazil −2.5 handicap @1.80 ✓ (3:0 → +0.5), but 🟢 team total over 3.5 @2.20 ✗ — one goal short. The 3:0 leg won AI's 2/4 system. For Pasha, "0 goals in H2" killed all three accumulators (Brazil 2nd-half-over legs). **Lesson:** "thrashes a minnow" ≠ automatic goal over — a favourite that's done the job by half-time switches off. The handicap is safer than a pinpoint total; half-time markets in blowouts are especially treacherous.
+
+---
+
 ## Brazil — Haiti · 20 Jun, 03:30 MSK · Lincoln Financial Field, Philadelphia
 
 **After the Morocco slip (1:1), Brazil MUST run up the score on the tournament's weakest side. xG projection ~3.97 vs 0.49. We bet the VOLUME of Brazil's goals (team total/handicap), not a fragile clean outcome — the moneyline @1.08 has no value.**
