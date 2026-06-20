@@ -930,5 +930,109 @@
       "en": "Both lost their openers (0 pts) — the loser is all but out. A draw suits neither → an open, goal-laden game. The anti-'cagey' scenario: BTTS-Yes/Over."
     },
     "result": "0:1 (0:1)"
+  },
+  {
+    "id": "netherlands-sweden",
+    "date": "2026-06-20",
+    "timeMsk": "20:00",
+    "title": {
+      "ru": "Нидерланды — Швеция",
+      "en": "Netherlands — Sweden"
+    },
+    "cc": [
+      "nl",
+      "se"
+    ],
+    "stage": {
+      "ru": "Групповой этап · тур 2",
+      "en": "Group stage · MD 2"
+    },
+    "venue": {
+      "ru": "Стадион уточняется",
+      "en": "Venue TBC"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Оранжевые — фавориты (1.75), но Швеция кусается. Рынок ждёт голы: ОЗ-Да и ТБ 2.5 по 1.65. Берём верх.",
+      "en": "The Oranje are favourites (1.75) but Sweden bite. The market expects goals: BTTS and over 2.5 both 1.65. We take the over."
+    }
+  },
+  {
+    "id": "germany-ivorycoast",
+    "date": "2026-06-20",
+    "timeMsk": "23:00",
+    "title": {
+      "ru": "Германия — Кот-д’Ивуар",
+      "en": "Germany — Ivory Coast"
+    },
+    "cc": [
+      "de",
+      "ci"
+    ],
+    "stage": {
+      "ru": "Групповой этап · тур 2",
+      "en": "Group stage · MD 2"
+    },
+    "venue": {
+      "ru": "Стадион уточняется",
+      "en": "Venue TBC"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Германия мощный фаворит (1.50), П1 ниже пола — играем через тотал. Рынок ждёт голы (ТБ 2.5 @1.60).",
+      "en": "Germany strong favourites (1.50); the moneyline is below our floor, so we bet via the total. The market expects goals (over 2.5 @1.60)."
+    }
+  },
+  {
+    "id": "ecuador-curacao",
+    "date": "2026-06-21",
+    "timeMsk": "03:00",
+    "title": {
+      "ru": "Эквадор — Кюрасао",
+      "en": "Ecuador — Curaçao"
+    },
+    "cc": [
+      "ec",
+      "cw"
+    ],
+    "stage": {
+      "ru": "Групповой этап · тур 2",
+      "en": "Group stage · MD 2"
+    },
+    "venue": {
+      "ru": "Стадион уточняется",
+      "en": "Venue TBC"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Тотальный мисматч: Эквадор 1.14, Кюрасао 24.00. Играем ОБЪЁМ через фору −2.5 (урок Бразилии: фора надёжнее высокого ИТБ).",
+      "en": "Total mismatch: Ecuador 1.14, Curaçao 24.00. We bet the VOLUME via the −2.5 handicap (Brazil lesson: the handicap is safer than a high team total)."
+    }
+  },
+  {
+    "id": "tunisia-japan",
+    "date": "2026-06-21",
+    "timeMsk": "07:00",
+    "title": {
+      "ru": "Тунис — Япония",
+      "en": "Tunisia — Japan"
+    },
+    "cc": [
+      "tn",
+      "jp"
+    ],
+    "stage": {
+      "ru": "Групповой этап · тур 2",
+      "en": "Group stage · MD 2"
+    },
+    "venue": {
+      "ru": "Стадион уточняется",
+      "en": "Venue TBC"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Япония фаворит (1.55), но рынок ждёт НИЗ (ТМ 2.5 @1.75, ОЗ-Нет @1.65). Дисциплинированный матч, японцы дожимают вязко.",
+      "en": "Japan favourites (1.55) but the market expects the UNDER (under 2.5 @1.75, BTTS-No @1.65). A disciplined game; Japan grind it out."
+    }
   }
 ]

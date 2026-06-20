@@ -3900,5 +3900,120 @@
         }
       }
     ]
+  },
+  {
+    "id": 142,
+    "match": {
+      "ru": "Нидерланды — Швеция",
+      "en": "Netherlands — Sweden"
+    },
+    "matchId": "netherlands-sweden",
+    "date": "2026-06-20",
+    "bet": {
+      "ru": "Тотал больше 2.5",
+      "en": "Over 2.5"
+    },
+    "type": "ТБ",
+    "odds": 1.65,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Две атакующие сборные, рынок ждёт голы (ОЗ-Да и ТБ оба 1.65). Value в верху.",
+      "en": "Two attacking sides; the market expects goals (BTTS and over both 1.65)."
+    }
+  },
+  {
+    "id": 143,
+    "match": {
+      "ru": "Германия — Кот-д’Ивуар",
+      "en": "Germany — Ivory Coast"
+    },
+    "matchId": "germany-ivorycoast",
+    "date": "2026-06-20",
+    "bet": {
+      "ru": "Тотал больше 2.5",
+      "en": "Over 2.5"
+    },
+    "type": "ТБ",
+    "odds": 1.6,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "П1 @1.50 ниже пола 1.6 → играем тотал. Германия дома должна вскрывать Кот-д’Ивуар.",
+      "en": "Moneyline @1.50 below our 1.6 floor → we bet the total. Germany at home should break Ivory Coast open."
+    }
+  },
+  {
+    "id": 144,
+    "match": {
+      "ru": "Эквадор — Кюрасао",
+      "en": "Ecuador — Curaçao"
+    },
+    "matchId": "ecuador-curacao",
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "Фора Эквадора −2.5",
+      "en": "Ecuador −2.5 handicap"
+    },
+    "type": "АФ",
+    "odds": 2.13,
+    "tier": "yellow",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Мисматч (1.14 vs 24.00). Объём голов через фору — урок Бразилии 3:0: фора надёжнее точечного высокого ИТБ. Нужна победа в 3+ мяча.",
+      "en": "Mismatch (1.14 vs 24.00). Goal volume via the handicap — Brazil 3:0 lesson: the handicap is safer than a pinpoint high team total. Needs a 3+ goal win."
+    }
+  },
+  {
+    "id": 145,
+    "match": {
+      "ru": "Тунис — Япония",
+      "en": "Tunisia — Japan"
+    },
+    "matchId": "tunisia-japan",
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5"
+    },
+    "type": "ТМ",
+    "odds": 1.75,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Рынок ждёт низ (ТМ 1.75, ОЗ-Нет 1.65). Япония дожимает вязкий матч малой кровью.",
+      "en": "Market expects the under (1.75, BTTS-No 1.65). Japan grind out a low-scoring win."
+    }
+  },
+  {
+    "id": 146,
+    "match": {
+      "ru": "Тунис — Япония",
+      "en": "Tunisia — Japan"
+    },
+    "matchId": "tunisia-japan",
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "Точный счёт 0:1 (Япония)",
+      "en": "Exact score 0:1 (Japan)"
+    },
+    "type": "ТС",
+    "odds": 6,
+    "tier": "red",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Marquee 🔴, связан с ТМ 2.5 (#145): японская сухая победа 0:1 закрывает обе. Эхо сегодняшнего захода точного счёта.",
+      "en": "Marquee 🔴, tied to the under 2.5 (#145): a 0:1 Japan win cashes both. Echo of today’s correct-score hit."
+    }
   }
 ]
