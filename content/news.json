@@ -1,5 +1,13 @@
 [
   {
+    "time": "20.06 · 14:10",
+    "tag": "insight",
+    "text": {
+      "ru": "🗓️ Дни теперь группируются по американскому времени (Тихоокеанскому), а не по московскому. Так весь ночной слейт попадает в один день: слейт C/D — целиком 19 июня, следующий (Нидерланды/Германия/Эквадор/Тунис) — целиком 20 июня. Время старта показывается как раньше, в вашей зоне. Заодно убрал три «внутренних» экспресса Паши, которые попали в публикацию по ошибке.",
+      "en": "🗓️ Days are now grouped by US (Pacific) time instead of Moscow time, so a whole night's slate lands on one day: the C/D slate is entirely 19 June, the next one (Netherlands/Germany/Ecuador/Tunisia) entirely 20 June. Kick-off times still display in your own zone. Also removed three of Pasha's 'internal' accumulators that were published by mistake."
+    }
+  },
+  {
     "time": "20.06 · 13:20",
     "tag": "insight",
     "text": {
@@ -11,8 +19,8 @@
     "time": "20.06 · 09:30",
     "tag": "result",
     "text": {
-      "ru": "🏁 Итоги слейта C/D. США 2:0 Австралия · Шотландия 0:1 Марокко · Бразилия 3:0 Гаити · Турция 0:1 Парагвай. 🔥 Ночь AI: точный счёт 2:0 США @7.50 ✅ (+3250₽) и система 2/4 точные счета зашла 3 из 4 (США 2:0, Шотландия 0:1, Бразилия 3:0) — эфф. кэф 20.96, +9979₽. Плюс П1 США, П2 Марокко, фора Бразилии −2.5. Минусы: ОЗ/ТБ Турции (глухие 0:1) и ИТБ Бразилии >3.5 (3 гола, все в 1Т). У Паши взяли только Марокко и ИТ США; П1 Турции и все три экспресса (ноги «2Т Бразилии») сгорели из-за нулевого второго тайма Бразилии. Слейт: AI +12 120, Паша −620. Война: Паша +19 110 / AI −28 270, разрыв сократился до 47 380.",
-      "en": "🏁 C/D slate results. USA 2:0 Australia · Scotland 0:1 Morocco · Brazil 3:0 Haiti · Turkey 0:1 Paraguay. 🔥 AI's night: exact score 2:0 USA @7.50 ✅ (+3250₽) and the 2/4 correct-score system landed 3 of 4 (USA 2:0, Scotland 0:1, Brazil 3:0) — eff. odds 20.96, +9979₽. Plus USA win, Morocco win, Brazil −2.5. Misses: Turkey BTTS/over (dour 0:1) and Brazil team total >3.5 (3 goals, all in H1). Pasha cashed only Morocco and USA team total; Turkey win and all three accumulators (Brazil 2nd-half legs) died on Brazil's scoreless second half. Slate: AI +12,120, Pasha −620. War: Pasha +19,110 / AI −28,270, gap down to 47,380."
+      "ru": "🏁 Итоги слейта C/D. США 2:0 Австралия · Шотландия 0:1 Марокко · Бразилия 3:0 Гаити · Турция 0:1 Парагвай. 🔥 Ночь AI: точный счёт 2:0 США @7.50 ✅ (+3250₽) и система 2/4 точные счета зашла 3 из 4 (США 2:0, Шотландия 0:1, Бразилия 3:0) — эфф. кэф 20.96, +9979₽. Плюс П1 США, П2 Марокко, фора Бразилии −2.5. Минусы: ОЗ/ТБ Турции (глухие 0:1) и ИТБ Бразилии >3.5 (3 гола, все в 1Т). У Паши взяли только Марокко и ИТ США; П1 Турции и система 3/4 точных счетов не зашли. Слейт: AI +12 120, Паша −1340. Война: Паша +20 610 / AI −28 270, разрыв 48 880.",
+      "en": "🏁 C/D slate results. USA 2:0 Australia · Scotland 0:1 Morocco · Brazil 3:0 Haiti · Turkey 0:1 Paraguay. 🔥 AI's night: exact score 2:0 USA @7.50 ✅ (+3250₽) and the 2/4 correct-score system landed 3 of 4 (USA 2:0, Scotland 0:1, Brazil 3:0) — eff. odds 20.96, +9979₽. Plus USA win, Morocco win, Brazil −2.5. Misses: Turkey BTTS/over (dour 0:1) and Brazil team total >3.5 (3 goals, all in H1). Pasha cashed only Morocco and USA team total; Turkey win and the 3/4 correct-score system missed. Slate: AI +12,120, Pasha −1,340. War: Pasha +20,610 / AI −28,270, gap 48,880."
     }
   },
   {

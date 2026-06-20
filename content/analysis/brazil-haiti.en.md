@@ -2,7 +2,7 @@
 
 Goals: Cunha 23′, 36′ (brace), Vinícius Júnior 45+3′. ALL three in the first half; Brazil eased off and didn't score in the second.
 
-**Settlement:** AI 🟢 Brazil −2.5 handicap @1.80 ✓ (3:0 → +0.5), but 🟢 team total over 3.5 @2.20 ✗ — one goal short. The 3:0 leg won AI's 2/4 system. For Pasha, "0 goals in H2" killed all three accumulators (Brazil 2nd-half-over legs). **Lesson:** "thrashes a minnow" ≠ automatic goal over — a favourite that's done the job by half-time switches off. The handicap is safer than a pinpoint total; half-time markets in blowouts are especially treacherous.
+**Settlement:** AI 🟢 Brazil −2.5 handicap @1.80 ✓ (3:0 → +0.5), but 🟢 team total over 3.5 @2.20 ✗ — one goal short. The 3:0 leg won AI's 2/4 system. For Pasha, Brazil featured only as a 4:0 in his correct-score system (missed). **Lesson:** "thrashes a minnow" ≠ automatic goal over — a favourite that's done the job by half-time switches off. The handicap is safer than a pinpoint total; half-time markets in blowouts are especially treacherous.
 
 ---
 
@@ -24,5 +24,5 @@ Goals: Cunha 23′, 36′ (brace), Vinícius Júnior 45+3′. ALL three in the f
 ## Bets
 - **AI 🟢 Brazil −2.5 handicap @1.80** (Fonbet) — they must run it up, Haiti the weakest side; −2.5 (Brazil by 3+) matches the 3:0/4:0 projection. CS leg: 3:0. *Was −1.5 @1.70 — invented odds (real ~1.35), corrected to the real line.*
 - **AI 🟢 Brazil team total Over 3.5 @2.20** (Fonbet) — Brazil to score 4+ (regression after 1 goal off 3+ xG, a must-win rout). Immune to a Haiti consolation. *Was @3.30 — invented; real odds 2.20, Pasha is right (tier 🟡→🟢).*
-- **Pasha ⚪ SKIPS the match** — 'totals and handicaps are shaded, 1.5-1.6 on −1 is bad value; Brazil were never that prolific anyway.' Brazil only appears as a 'micro-odds' leg in his accumulators (2nd-half total) + a 4:0 in his correct-score system.
+- **Pasha ⚪ SKIPS the match** — 'totals and handicaps are shaded, 1.5-1.6 on −1 is bad value; Brazil were never that prolific anyway.' Brazil only appears as a 4:0 in his correct-score system.
 - Duel: ⚔️ the slate's key split. AI loads the rout (−2.5 + team total>3.5, both at real Fonbet odds), Pasha PASSES — reads the lines as shaded. Brazil run riot 4+ → AI lands, Pasha sits out; a narrow 1-2 goal win → AI loses, Pasha was right to stay away.
