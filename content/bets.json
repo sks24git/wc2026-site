@@ -3746,10 +3746,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "П1 @1.50 ниже пола 1.6 → играем тотал. Германия дома должна вскрывать Кот-д’Ивуар.",
-      "en": "Moneyline @1.50 below our 1.6 floor → we bet the total. Germany at home should break Ivory Coast open."
+      "ru": "✓ 2:1 — 3 гола, ТБ 2.5 зашёл. Германия отыгралась с 0:1 (Ундав 68', 90+4'). Снова: ровно 3 = на ТБ 3.0 был бы возврат, верх по 2.5 надёжнее.",
+      "en": "✓ 2:1 — 3 goals, over 2.5 landed. Germany came back from 0:1 (Undav 68', 90+4'). Again: exactly 3 = a push on Over 3.0, so the over on 2.5 is steadier."
     }
   },
   {
@@ -3766,13 +3766,13 @@
     },
     "type": "АФ",
     "odds": 2.13,
-    "tier": "yellow",
+    "tier": "green",
     "side": "AI",
     "contest": true,
     "status": "pending",
     "note": {
-      "ru": "Мисматч (1.14 vs 24.00). Объём голов через фору — урок Бразилии 3:0: фора надёжнее точечного высокого ИТБ. Нужна победа в 3+ мяча.",
-      "en": "Mismatch (1.14 vs 24.00). Goal volume via the handicap — Brazil 3:0 lesson: the handicap is safer than a pinpoint high team total. Needs a 3+ goal win."
+      "ru": "🟢 по правилу «тир = диапазон кэфа»: @2.13 — зелёный диапазон (1.6–2.5), ставка 3000. Мисматч (1.14 vs 24.00). Объём голов через фору — урок Бразилии 3:0: фора надёжнее точечного высокого ИТБ. Нужна победа в 3+ мяча.",
+      "en": "🟢 by the \"tier = odds range\" rule: @2.13 is the green band (1.6–2.5), stake 3000. Mismatch (1.14 vs 24.00). Goal volume via the handicap — Brazil 3:0 lesson: the handicap is safer than a pinpoint high team total. Needs a 3+ goal win."
     }
   },
   {
@@ -3861,10 +3861,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "«Лайтовая почти товарищеская встреча, ~3 гола, форы не пройдут. Искусственно наращиваю кэф: П1 в 1Т — Африка больше про 2-й тайм».",
-      "en": "\"A light near-friendly, ~3 goals, handicaps won’t land. Inflating odds: Germany 1st-half win — Africa is more of a 2nd-half side.\""
+      "ru": "✗ 1Т 0:1 — в перерыв вёл Кот-д’Ивуар (Кессье 30'), Германия 1-й тайм не выиграла. Зато сработала страховка @8.50 (#160).",
+      "en": "✗ HT 0:1 — Ivory Coast led at the break (Kessié 30'), Germany didn't win the 1st half. But the @8.50 insurance (#160) cashed instead."
     }
   },
   {
@@ -3925,12 +3925,12 @@
       "en": "Over 3.0 in two games"
     },
     "type": "Экспресс",
-    "odds": 3.88,
+    "odds": 1.98,
     "tier": "yellow",
     "stake": 1500,
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "legs": [
       {
         "m": {
@@ -3938,8 +3938,8 @@
           "en": "Netherlands — Sweden"
         },
         "p": {
-          "ru": "ТБ 3.0 @1.98",
-          "en": "Over 3.0 @1.98"
+          "ru": "ТБ 3.0 @1.98 ✓",
+          "en": "Over 3.0 @1.98 ✓"
         }
       },
       {
@@ -3948,14 +3948,14 @@
           "en": "Germany — Ivory Coast"
         },
         "p": {
-          "ru": "ТБ 3.0 @1.96",
-          "en": "Over 3.0 @1.96"
+          "ru": "ТБ 3.0 @1.96 — возврат",
+          "en": "Over 3.0 @1.96 — push"
         }
       }
     ],
     "note": {
-      "ru": "Реальный пресик Паши (Лига Ставок, 1500₽, кэф 3.88). Нога Нидерланды ТБ 3.0 ✓ (5:1=6 голов). Ждём Германия ТБ 3.0.",
-      "en": "Pasha’s real accumulator (Liga, 1500₽, 3.88). Netherlands over 3.0 leg ✓ (5:1=6 goals). Awaiting Germany over 3.0."
+      "ru": "✓ Нидерланды ТБ 3.0 ✓ (5:1=6 голов), Германия ТБ 3.0 — ровно 3 гола = возврат позиции (кэф→1.0). Экспресс пересчитан в одинар Нидерланды @1.98: возврат 2970₽, профит +1470.",
+      "en": "✓ Netherlands over 3.0 ✓ (5:1=6 goals), Germany over 3.0 — exactly 3 goals = leg push (odds→1.0). Accumulator recalculated to a single on Netherlands @1.98: return 2970₽, profit +1470."
     }
   },
   {
@@ -3992,8 +3992,8 @@
           "en": "Germany — Ivory Coast"
         },
         "p": {
-          "ru": "3:0 @10.0",
-          "en": "3:0 @10.0"
+          "ru": "3:0 @10.0 ✗ (факт 2:1)",
+          "en": "3:0 @10.0 ✗ (actual 2:1)"
         }
       },
       {
@@ -4018,8 +4018,8 @@
       }
     ],
     "note": {
-      "ru": "Прогнозы счёта Паши. Нога Нид 1:2 ✗ (реально 5:1). Осталось: Гер 3:0, Экв 2:0, Тун-Япо 0:1 (нужно ≥2 из 4). Эфф. кэф при резолве.",
-      "en": "Pasha’s score calls. Net 1:2 leg ✗ (actual 5:1). Remaining: Ger 3:0, Ecu 2:0, Tun-Jpn 0:1 (need ≥2 of 4). Eff. odds at settle."
+      "ru": "Прогнозы счёта Паши. Нид 1:2 ✗ (5:1), Германия 3:0 ✗ (2:1) — 2 позиции из 4 пробиты. Для 2/4 нужны обе оставшихся: Экв 2:0 И Тун-Япо 0:1. Эфф. кэф при резолве.",
+      "en": "Pasha’s score calls. Net 1:2 ✗ (5:1), Germany 3:0 ✗ (2:1) — 2 of 4 legs busted. For 2/4 both remaining must hit: Ecu 2:0 AND Tun-Jpn 0:1. Eff. odds at settle."
     }
   },
   {
@@ -4079,8 +4079,8 @@
           "en": "Germany — Ivory Coast"
         },
         "p": {
-          "ru": "ТБ 3.0 @1.96",
-          "en": "Over 3.0 @1.96"
+          "ru": "ТБ 3.0 @1.96 — возврат (3 гола)",
+          "en": "Over 3.0 @1.96 — push (3 goals)"
         }
       },
       {
@@ -4105,8 +4105,8 @@
       }
     ],
     "note": {
-      "ru": "Система 3/4 по основным, позиции ≥1.9. Нога Нид ТБ 3.0 ✓ (6 голов). Осталось: Гер ТБ3.0, Экв фора −2.5, Япония фора −1 (нужно ≥3 из 4). Эфф. кэф при резолве.",
-      "en": "System 3/4 main picks, legs ≥1.9. Netherlands over 3.0 leg ✓ (6 goals). Remaining: Ger over 3.0, Ecu −2.5, Japan −1 (need ≥3 of 4). Eff. odds at settle."
+      "ru": "Система 3/4 по основным, позиции ≥1.9. Нид ТБ 3.0 ✓ (6 голов), Германия ТБ 3.0 — возврат (ровно 3 гола, кэф→1.0): тройки с этой позицией ужимаются до даблов. Осталось: Экв фора −2.5, Япония фора −1. Эфф. кэф при резолве.",
+      "en": "System 3/4 main picks, legs ≥1.9. Netherlands over 3.0 ✓ (6 goals), Germany over 3.0 — push (exactly 3 goals, odds→1.0): triples with this leg collapse to doubles. Remaining: Ecu −2.5, Japan −1. Eff. odds at settle."
     }
   },
   {
@@ -4143,8 +4143,8 @@
           "en": "Germany — Ivory Coast"
         },
         "p": {
-          "ru": "3:1 @11.0",
-          "en": "3:1 @11.0"
+          "ru": "3:1 @11.0 ✗ (факт 2:1)",
+          "en": "3:1 @11.0 ✗ (actual 2:1)"
         }
       },
       {
@@ -4169,8 +4169,8 @@
       }
     ],
     "note": {
-      "ru": "Точные счета AI. Нога Нид 2:1 ✗ (реально 5:1). Осталось: Гер 3:1, Экв 3:0, Япония 0:1 (нужно ≥2 из 4). Эфф. кэф при резолве.",
-      "en": "AI scores. Net 2:1 leg ✗ (actual 5:1). Remaining: Ger 3:1, Ecu 3:0, Jpn 0:1 (need ≥2 of 4). Eff. odds at settle."
+      "ru": "Точные счета AI. Нид 2:1 ✗ (5:1), Германия 3:1 ✗ (2:1) — 2 позиции из 4 пробиты. Для 2/4 нужны обе оставшихся: Экв 3:0 И Япония 0:1. Эфф. кэф при резолве.",
+      "en": "AI scores. Net 2:1 ✗ (5:1), Germany 3:1 ✗ (2:1) — 2 of 4 legs busted. For 2/4 both remaining must hit: Ecu 3:0 AND Jpn 0:1. Eff. odds at settle."
     }
   },
   {
@@ -4197,8 +4197,8 @@
           "en": "Germany — Ivory Coast"
         },
         "p": {
-          "ru": "Хаверц забьёт @2.40",
-          "en": "Havertz to score @2.40"
+          "ru": "Хаверц забьёт @2.40 ✗ (забил Ундав)",
+          "en": "Havertz to score @2.40 ✗ (Undav scored)"
         }
       },
       {
@@ -4223,8 +4223,8 @@
       }
     ],
     "note": {
-      "ru": "Система 2/3 на бомбардиров (без Нидерландов). Ноги ≥1.9: Хаверц 2.40, К. Родригес 2.00 (Энер Валенсия 1.57 ниже пола), Огава 2.50. ✅ Германия: Хаверц подтверждён в старте центрфорвардом (4-2-3-1). ⏳ Эквадор/Япония — выбор пред-лайнап, подтвержу по их составам. Эфф. кэф при резолве.",
-      "en": "System 2/3 on scorers (no Netherlands). Legs ≥1.9: Havertz 2.40, K. Rodríguez 2.00 (Enner Valencia 1.57 below floor), Ogawa 2.50. ✅ Germany: Havertz confirmed starting as centre-forward (4-2-3-1). ⏳ Ecuador/Japan picks pre-lineup, will confirm on their XIs. Eff. odds at settle."
+      "ru": "Система 2/3 на бомбардиров (без Нидерландов), позиции ≥1.9. Хаверц 2.40 ✗ — забил Ундав (дубль), а не он. Для прохода 2/3 теперь нужны ОБЕ оставшихся: К. Родригес (Эквадор) И Огава (Япония). ⏳ подтвержу по составам. Эфф. кэф при резолве.",
+      "en": "System 2/3 on scorers (no Netherlands), legs ≥1.9. Havertz 2.40 ✗ — Undav scored the brace, not him. For 2/3 to pay, BOTH remaining must now hit: K. Rodríguez (Ecuador) AND Ogawa (Japan). ⏳ to confirm on lineups. Eff. odds at settle."
     }
   },
   {
@@ -4244,10 +4244,10 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Пред-матч Паши (доставлено с опозданием). Страховка к основной 1Т-П1 @1.94: если Кот-д’Ивуар открывает счёт (его П1 в 1Т горит), но Германия дожимает победу — эта связка спасает. 🔴 по типу (комбо, кэф 8.50).",
-      "en": "Pasha pre-match (relayed late). Insurance for his main 1st-half Germany win @1.94: if Ivory Coast score first (his H1 bet dies) but Germany still win, this combo covers it. 🔴 by type (combo, 8.50)."
+      "ru": "✓ Сработала идеально! Кот-д’Ивуар забил первым (Кессье 30') + Германия дожала 2:1 (Ундав 68', 90+4'). Ровно тот сценарий, под который Паша брал страховку: основная 1Т-П1 сгорела, а связка @8.50 закрыла матч в плюс.",
+      "en": "✓ Worked perfectly! Ivory Coast scored first (Kessié 30') + Germany came back to win 2:1 (Undav 68', 90+4'). Exactly the scenario the insurance was bought for: the main 1st-half bet died, but the @8.50 combo cashed the match into profit."
     }
   }
 ]

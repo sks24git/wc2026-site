@@ -1,5 +1,21 @@
 [
   {
+    "time": "21.06 · 01:10",
+    "tag": "insight",
+    "text": {
+      "ru": "🔧 Переразметка: фора Эквадора −2.5 @2.13 переведена 🟡→🟢 — по правилу «тир = диапазон кэфа» 2.13 лежит в зелёном (1.6–2.5), ставка 1500→3000. Тот же случай, что со Швецией @1.95.",
+      "en": "🔧 Re-grade: Ecuador −2.5 @2.13 moved 🟡→🟢 — under the \"tier = odds range\" rule, 2.13 sits in green (1.6–2.5), stake 1500→3000. Same as the Sweden @1.95 call."
+    }
+  },
+  {
+    "time": "21.06 · 01:05",
+    "tag": "result",
+    "text": {
+      "ru": "⚫ Германия 2:1 Кот-д’Ивуар (1Т 0:1). Кессье 30' вывел африканцев вперёд, Ундав сравнял на 68' и вырвал победу на 90+4' — волевая Германии. AI 🟢 ТБ 2.5 @1.60 ✓ (3 гола). Паша: основная 1Т-П1 @1.94 ✗ (в перерыв вёл КИ), НО страховка @8.50 ✓ — «КИ забьёт первым + победа Германии» сработала идеально! Пресик ТБ 3.0: ровно 3 гола = возврат позиции Германии → экспресс ужался в одинар Нидерланды @1.98 ✓. Позиция Хаверца в системе бомбардиров ✗ (забивал Ундав). Системы тянутся до Эквадора/Японии.",
+      "en": "⚫ Germany 2:1 Ivory Coast (HT 0:1). Kessié 30' put the Africans ahead, Undav levelled on 68' and snatched it on 90+4' — a Germany comeback. AI 🟢 over 2.5 @1.60 ✓ (3 goals). Pasha: main 1st-half win @1.94 ✗ (IVC led at the break), BUT the @8.50 insurance ✓ — 'IVC score first + Germany win' worked perfectly! Over 3.0 accumulator: exactly 3 goals = a push on the Germany leg → collapsed to a single on Netherlands @1.98 ✓. Havertz leg in the scorers system ✗ (Undav scored). Systems run on to Ecuador/Japan."
+    }
+  },
+  {
     "time": "20.06 · 23:40",
     "tag": "pasha",
     "text": {

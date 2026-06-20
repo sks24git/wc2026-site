@@ -1,3 +1,14 @@
+## Result: Germany 2:1 Ivory Coast (HT 0:1)
+
+**A comeback win on class.** Ivory Coast opened the scoring (Kessié 30') and led 0:1 at the break, but Germany ground them down in the second half: Undav levelled on 68' and snatched it on 90+4'. An Undav brace — not Havertz.
+
+- **Goals:** Kessié 30' (IVC), Undav 68', 90+4' (Germany). 3 goals total, HT 0:1.
+- **AI settlement:** 🟢 Over 2.5 @1.60 ✓ (3 goals). Scorers 2/3 system: Havertz leg ✗ (Undav scored) — now needs both remaining legs (K. Rodríguez + Ogawa). Main 3/4 system: Netherlands over 3.0 ✓, Germany over 3.0 = **push** (exactly 3 goals), Ecuador/Japan pending. Correct-scores 2/4 system: Germany 3:1 ✗ (actual 2:1).
+- **Pasha settlement:** 🟢 Germany to win 1st half @1.94 ✗ (Ivory Coast led at the break). BUT 🔴 insurance "Ivory Coast score first + Germany win" @8.50 ✓ — worked perfectly: exactly the scenario it was bought for. His over 3.0 accumulator (Liga): Netherlands ✓ + Germany push → recalculated to a single on Netherlands @1.98 ✓. Correct-scores 2/4 system: 3:0 ✗ (actual 2:1).
+- **Lesson:** the hedge tied to a 1st-half bet paid off — when the main half bet dies to an early underdog goal, the "underdog scores first + favourite wins" combo rescues the position. And again: exactly 3 goals = a push on "Over 3.0", so the over on 2.5 is steadier than on 3.0.
+
+---
+
 ## Germany — Ivory Coast · 20 Jun, 23:00 MSK · Group stage, MD 2
 
 **Germany are strong favourites (1.50), but the moneyline is below our 1.6 floor → we play the game via the total. The market expects goals (over 2.5 @1.60), and Germany's attack at home should break the Ivorians open.**
