@@ -64,9 +64,12 @@ news.forEach((n, i) => {
   if (!biln(n.text)) err.push(`news[${i}]: «text» должно быть {ru,en}`);
 });
 
-if (!Array.isArray(facts) || facts.some((f) => !biln(f))) {
-  err.push('facts.json должен быть массивом {ru,en}');
-}
+if (!Array.isArray(facts)) {
+  err.push('facts.json должен быть массивом');
+} else facts.forEach((f, i) => {
+  if (!biln(f)) err.push(`facts[${i}]: должно быть {ru,en}`);
+  if (!f.time) err.push(`facts[${i}]: нужно time`);
+});
 
 // Каждому разбору <id>.md нужен перевод <id>.en.md.
 const adir = new URL('analysis/', root);

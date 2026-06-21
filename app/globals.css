@@ -169,6 +169,8 @@ h1{font-size:clamp(22px,5vw,30px);font-weight:800;letter-spacing:-.02em;text-wra
 .fact{display:flex;gap:12px;padding:9px 0;border-bottom:1px solid var(--hair);font-size:14px;line-height:1.45}
 .fact:last-child{border-bottom:none}
 .fact-bullet{flex:none;width:6px;height:6px;border-radius:50%;background:var(--green);margin-top:8px}
+.fact-main{display:flex;flex-direction:column;gap:3px;min-width:0}
+.fact-time{font-size:11px;color:var(--faint)}
 .fact strong{font-weight:800}
 
 /* ── Матчи ── */

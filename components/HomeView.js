@@ -14,6 +14,14 @@ import Tip from '@/components/Tip';
 import TierIcon from '@/components/TierIcon';
 import CardsStrip from '@/components/CardsStrip';
 
+// Ключ сортировки фактов по времени поста (новые сверху) из строки вида "21.06 · 01:48".
+function factTimeKey(t) {
+  const m = String(t || '').match(/(\d{2})\.(\d{2}).*?(\d{2}):(\d{2})/);
+  if (!m) return 0;
+  const [, dd, mm, hh, mi] = m;
+  return +mm * 1e6 + +dd * 1e4 + +hh * 100 + +mi;
+}
+
 export default function HomeView() {
   const lang = useLang();
   const T = useT();
@@ -81,10 +89,13 @@ export default function HomeView() {
         <section className="g-facts" aria-label={T('a11y.facts')}>
           <div className="sect"><span className="sect-label">{T('home.facts')}</span></div>
           <div className="facts">
-            {facts.map((f, i) => (
+            {[...facts].sort((a, b) => factTimeKey(b.time) - factTimeKey(a.time)).map((f, i) => (
               <div key={i} className="fact">
                 <span className="fact-bullet" aria-hidden="true" />
-                <span>{L(f, lang)}</span>
+                <div className="fact-main">
+                  <span className="fact-text">{L(f, lang)}</span>
+                  {f.time && <time className="fact-time num">{f.time}</time>}
+                </div>
               </div>
             ))}
           </div>
