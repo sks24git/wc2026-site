@@ -4470,5 +4470,227 @@
       "ru": "Разогревочный экспресс Паши на 4 события. У фаворитов (Испания, Уругвай) ставит на сухарь одной из команд — обе забьют нет; в равных парах (НЗ—Египет, Бельгия—Иран) — на голы в каждом тайме. Основную карту Паша ещё собирает. Перекликается с нашими: на Уругвае мы тоже на низ (тотал меньше), на НЗ—Египте оба ждём голов.",
       "en": "Pasha's warm-up 4-fold. In the favourites' games (Spain, Uruguay) he backs one side to keep a clean sheet — no BTTS; in the even ties (NZ—Egypt, Belgium—Iran) he wants a goal in each half. His main card is still in the works. It rhymes with ours: on Uruguay we're also low (Under), and on NZ—Egypt we both expect goals."
     }
+  },
+  {
+    "id": 167,
+    "match": {
+      "ru": "Испания — Саудовская Аравия",
+      "en": "Spain — Saudi Arabia"
+    },
+    "matchId": "spain-saudiarabia",
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "1-й тайм — тотал больше 1.5",
+      "en": "1st half — over 1.5 goals"
+    },
+    "type": "1Т-рынок",
+    "odds": 1.89,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Главный тезис Паши: Испания — это про голы в первом тайме, а турнирное давление после 0:0 с Кабо-Верде убрало право на недонастрой. С четвертьфинальной ценой каждого матча откладывать на второй тайм нельзя — можно не додавить. Прямо просит дождаться составов, но верит в стартовых Ямаля и Уильямса.",
+      "en": "Pasha's core read: Spain are about first-half goals, and the tournament pressure after the 0-0 with Cape Verde removes any right to coast. With every game now priced like a knockout, leaving it for the second half is risky — you might not finish the job. He'd rather wait for the lineups but trusts Yamal and Williams to start."
+    }
+  },
+  {
+    "id": 168,
+    "match": {
+      "ru": "Бельгия — Иран",
+      "en": "Belgium — Iran"
+    },
+    "matchId": "belgium-iran",
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "Гол в каждом тайме — да",
+      "en": "A goal in each half — yes"
+    },
+    "type": "Другое",
+    "odds": 1.69,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Для медлительной Бельгии Иран — та же угроза, что и Египет в первом туре. Паша признаёт, что просилась бы «обе забьют», но чует матч про голы и ошибки — поэтому ждёт гол в каждом из таймов. Совпадает с его же разогревочным экспрессом.",
+      "en": "For slow Belgium, Iran is the same threat Egypt was in round one. Pasha admits 'both teams to score' was the obvious pick, but he senses a game of goals and mistakes — so he wants a goal in each half. Mirrors his own warm-up acca."
+    }
+  },
+  {
+    "id": 169,
+    "match": {
+      "ru": "Уругвай — Кабо-Верде",
+      "en": "Uruguay — Cape Verde"
+    },
+    "matchId": "uruguay-capeverde",
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "Сухая победа Уругвая",
+      "en": "Uruguay to win to nil"
+    },
+    "type": "Другое",
+    "odds": 2.0,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "В тактике Бьелсы ничего не поменялось: забить один и выиграть 1:0. В гол Кабо-Верде Паша не верит — своё чудо они потратили на Испанию и не повторят, а Уругвай умеет штурмовать (саудиты удержали ничью каким-то волшебством). Допускает даже невероятный для Уругвая 2:0. Перекликается с нашим тотал меньше.",
+      "en": "Nothing has changed in Bielsa's plan: score one, win 1-0. Pasha doesn't believe in a Cape Verde goal — they spent their miracle on Spain and won't repeat it, while Uruguay can lay siege (the Saudis held their draw by some magic). He'd even allow an unusual-for-Uruguay 2-0. It rhymes with our Under."
+    }
+  },
+  {
+    "id": 170,
+    "match": {
+      "ru": "Новая Зеландия — Египет",
+      "en": "New Zealand — Egypt"
+    },
+    "matchId": "newzealand-egypt",
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "Египет забьёт в 1-м тайме",
+      "en": "Egypt to score in the 1st half"
+    },
+    "type": "1Т-рынок",
+    "odds": 1.72,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Паша сам зовёт это «очередным извращением в поисках кэфа посимпатичнее» — вместо простого тотал больше 1.5 берёт гол Египта именно в первом тайме. Логика та же: в группе, где у всех по очку, лидеру нельзя откладывать на второй тайм. Два гола Новой Зеландии в первом туре смущают, поэтому не ИТ матча, а ранний гол Египта.",
+      "en": "Pasha himself calls it 'another contortion chasing a prettier price' — instead of a plain Over he takes Egypt to score specifically in the first half. Same logic: in a group where everyone has a point, a favourite can't leave it for the second half. New Zealand's two goals in round one unsettle him, so it's an early Egypt goal rather than a match total."
+    }
+  },
+  {
+    "id": 171,
+    "match": {
+      "ru": "Система 3/4 · счета и исход",
+      "en": "System 3/4 · scores & outcome"
+    },
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "точные счета + ничья",
+      "en": "correct scores + draw"
+    },
+    "type": "Система",
+    "odds": 67.96,
+    "stake": 350,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Испания — Саудовская Аравия",
+          "en": "Spain — Saudi Arabia"
+        },
+        "p": {
+          "ru": "точный счёт 4:0 / 5:0 / 6:0 @3.75",
+          "en": "correct score 4:0 / 5:0 / 6:0 @3.75"
+        }
+      },
+      {
+        "m": {
+          "ru": "Уругвай — Кабо-Верде",
+          "en": "Uruguay — Cape Verde"
+        },
+        "p": {
+          "ru": "точный счёт 2:0 @4.5",
+          "en": "correct score 2:0 @4.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Бельгия — Иран",
+          "en": "Belgium — Iran"
+        },
+        "p": {
+          "ru": "точный счёт 2:1 / 3:1 / 4:1 @3.9",
+          "en": "correct score 2:1 / 3:1 / 4:1 @3.9"
+        }
+      },
+      {
+        "m": {
+          "ru": "Новая Зеландия — Египет",
+          "en": "New Zealand — Egypt"
+        },
+        "p": {
+          "ru": "ничья @4.2",
+          "en": "draw @4.2"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Красная система 3/4 Паши (350 ₽): нужно угадать минимум 3 из 4 позиций. Дерзкие счета фаворитов — Испания крупно (4:0+), Уругвай 2:0, Бельгия дожимает с пропущенным (2:1+), а в НЗ—Египте здесь вариант на ничью. Эфф. кэф — при резолве.",
+      "en": "Pasha's red 3/4 system (350 ₽): needs at least 3 of 4 to land. Bold favourite scorelines — Spain big (4:0+), Uruguay 2:0, Belgium grinding it out while conceding (2:1+), and here the NZ—Egypt leg is on a draw. Effective odds at settlement."
+    }
+  },
+  {
+    "id": 172,
+    "match": {
+      "ru": "Система 3/4 · точные счета",
+      "en": "System 3/4 · correct scores"
+    },
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
+    "type": "Система",
+    "odds": 69.18,
+    "stake": 250,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Испания — Саудовская Аравия",
+          "en": "Spain — Saudi Arabia"
+        },
+        "p": {
+          "ru": "точный счёт 4:0 / 5:0 / 6:0 @3.75",
+          "en": "correct score 4:0 / 5:0 / 6:0 @3.75"
+        }
+      },
+      {
+        "m": {
+          "ru": "Уругвай — Кабо-Верде",
+          "en": "Uruguay — Cape Verde"
+        },
+        "p": {
+          "ru": "точный счёт 2:0 @4.5",
+          "en": "correct score 2:0 @4.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Бельгия — Иран",
+          "en": "Belgium — Iran"
+        },
+        "p": {
+          "ru": "точный счёт 2:1 / 3:1 / 4:1 @3.9",
+          "en": "correct score 2:1 / 3:1 / 4:1 @3.9"
+        }
+      },
+      {
+        "m": {
+          "ru": "Новая Зеландия — Египет",
+          "en": "New Zealand — Egypt"
+        },
+        "p": {
+          "ru": "точный счёт 1:2 / 1:3 / 1:4 @4.3",
+          "en": "correct score 1:2 / 1:3 / 1:4 @4.3"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Вторая красная система 3/4 Паши (250 ₽) — клон первой, но НЗ—Египет здесь на победу Египта в гости (1:2+) вместо ничьей. Нужно 3 из 4. Эфф. кэф — при резолве.",
+      "en": "Pasha's second red 3/4 system (250 ₽) — a clone of the first, but the NZ—Egypt leg is on an away Egypt win (1:2+) instead of a draw. Needs 3 of 4. Effective odds at settlement."
+    }
   }
 ]
