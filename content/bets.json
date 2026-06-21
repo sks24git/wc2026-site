@@ -4290,10 +4290,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Рынок сам за низ (ТМ 2.5 @1.65, ОЗ-нет). Кабо-Верде с вратарём Возиньей засушили Испанию, Уругвай буксует в атаке (Нуньеса сняли в перерыве 1-го тура), вечером в Майами грозы — темп ниже.",
-      "en": "The market itself leans under (Under 2.5 @1.65, BTTS-No). Cape Verde and keeper Vozinha shut out Spain, Uruguay's attack is misfiring (Núñez was hooked at half-time in MD1), and evening storms in Miami slow the tempo."
+      "ru": "✗ Низ сгорел уже к перерыву: Уругвай — Кабо-Верде 2:1, три гола за один тайм (Пина 21', Макси Араухо 44', Кано 45+6'). Кабо-Верде впервые забила на ЧМ, и вместо вязкого 1:0 матч раскрылся. Тотал больше 2.5 был перекрыт ещё до перерыва.",
+      "en": "✗ The Under burned by half-time: Uruguay — Cape Verde 2:1, three goals in a single half (Pina 21', Maxi Araújo 44', Cano 45+6'). Cape Verde scored their first-ever World Cup goal and, instead of a cagey 1:0, the game opened up. Over 2.5 was already through before the break."
     }
   },
   {
@@ -4358,7 +4358,7 @@
     "tier": "red",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -4402,8 +4402,8 @@
       }
     ],
     "note": {
-      "ru": "Постоянная ставка тура — ТС 2/4 красным. Промежуточно: Испания 2:0 ✗ (факт 4:0), Бельгия 1:0 ✗ (факт 0:0). Две мимо — система жива только если зайдут ОБА оставшихся счёта: Уругвай 1:0 и НЗ—Египет 1:2. Иначе полная потеря. Ждём Уругвай и НЗ—Египет.",
-      "en": "The matchday's standing bet — a red 2/4 correct-score system. So far: Spain 2:0 ✗ (actual 4:0), Belgium 1:0 ✗ (actual 0:0). Two misses — the system survives only if BOTH remaining scores land: Uruguay 1:0 and NZ–Egypt 1:2. Otherwise a full loss. Awaiting Uruguay and NZ–Egypt."
+      "ru": "✗ Система мертва. Испания 2:0 ✗ (4:0), Бельгия 1:0 ✗ (0:0), а к перерыву Уругвай ведёт 2:1 — точный счёт 1:0 уже невозможен (Кабо-Верде забила, голов три). Три позиции из четырёх мимо — до нужных 2 из 4 не добраться даже при счёте в НЗ—Египте. Полная потеря 500 ₽.",
+      "en": "✗ System dead. Spain 2:0 ✗ (4:0), Belgium 1:0 ✗ (0:0), and by half-time Uruguay lead 2:1 — an exact 1:0 is now impossible (Cape Verde scored, three goals in). Three of four legs missed — can't reach the needed 2 of 4 even if NZ–Egypt's score lands. Full loss of 500 ₽."
     }
   },
   {
@@ -4534,10 +4534,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "В тактике Бьелсы ничего не поменялось: забить один и выиграть 1:0. В гол Кабо-Верде Паша не верит — своё чудо они потратили на Испанию и не повторят, а Уругвай умеет штурмовать (саудиты удержали ничью каким-то волшебством). Допускает даже невероятный для Уругвая 2:0. Перекликается с нашим тотал меньше.",
-      "en": "Nothing has changed in Bielsa's plan: score one, win 1-0. Pasha doesn't believe in a Cape Verde goal — they spent their miracle on Spain and won't repeat it, while Uruguay can lay siege (the Saudis held their draw by some magic). He'd even allow an unusual-for-Uruguay 2-0. It rhymes with our Under."
+      "ru": "✗ Именно то, во что Паша «не верил»: Кабо-Верде открыла счёт уже на 21' (Кевин Пина со штрафного) — их первый гол в истории ЧМ. Сухая победа отменяется. Уругвай отыгрался и повёл 2:1 к перерыву, но «на ноль» сыграть не вышло. Здесь мы с Пашей синхронно мимо — наш низ тоже сгорел.",
+      "en": "✗ Exactly what Pasha 'didn't believe in': Cape Verde opened the scoring on 21' (Kevin Pina, free-kick) — their first-ever World Cup goal. Win-to-nil is off. Uruguay fought back to lead 2:1 by the break, but the clean sheet was gone. Here Pasha and we miss in sync — our Under burned too."
     }
   },
   {
@@ -4580,7 +4580,7 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -4624,8 +4624,8 @@
       }
     ],
     "note": {
-      "ru": "Красная система 3/4 Паши (350 ₽), нужно 3 из 4. Промежуточно: Испания 4:0 ✓ (точно в наборе 4:0/5:0/6:0!), Бельгия 2:1+ ✗ (факт 0:0). Раз одна позиция мертва, для прохода нужны ОБА оставшихся: Уругвай ровно 2:0 и ничья в НЗ—Египте. Ждём.",
-      "en": "Pasha's red 3/4 system (350 ₽), needs 3 of 4. So far: Spain 4:0 ✓ (right in the 4:0/5:0/6:0 set!), Belgium 2:1+ ✗ (actual 0:0). With one leg dead, both remaining must land: Uruguay exactly 2:0 and a draw in NZ—Egypt. Awaiting."
+      "ru": "✗ Система мертва. Испания 4:0 ✓ (в наборе), Бельгия 2:1+ ✗ (0:0), а к перерыву Уругвай 2:1 — точный счёт 2:0 уже невозможен (Кабо-Верде забила). Две позиции мимо при одной зашедшей — до 3 из 4 не добраться даже с ничьей в НЗ—Египте. Потеря 350 ₽.",
+      "en": "✗ System dead. Spain 4:0 ✓ (in the set), Belgium 2:1+ ✗ (0:0), and by half-time Uruguay 2:1 — an exact 2:0 is now impossible (Cape Verde scored). Two legs missed against one hit — can't reach 3 of 4 even with a NZ—Egypt draw. Loss of 350 ₽."
     }
   },
   {
@@ -4645,7 +4645,7 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -4689,8 +4689,8 @@
       }
     ],
     "note": {
-      "ru": "Вторая красная система 3/4 Паши (250 ₽), нужно 3 из 4. Промежуточно: Испания 4:0 ✓ (в наборе!), Бельгия 2:1+ ✗ (факт 0:0). Для прохода нужны ОБА оставшихся: Уругвай ровно 2:0 и победа Египта в гости (1:2/1:3/1:4). Ждём.",
-      "en": "Pasha's second red 3/4 system (250 ₽), needs 3 of 4. So far: Spain 4:0 ✓ (in the set!), Belgium 2:1+ ✗ (actual 0:0). To get there both remaining must land: Uruguay exactly 2:0 and an away Egypt win (1:2/1:3/1:4). Awaiting."
+      "ru": "✗ Система мертва. Испания 4:0 ✓, Бельгия 2:1+ ✗ (0:0), Уругвай 2:0 невозможен (2:1 к перерыву). Две мимо при одной зашедшей — максимум 2 из 4, нужно 3. Победа Египта в НЗ—Египте уже ничего не решает. Потеря 250 ₽.",
+      "en": "✗ System dead. Spain 4:0 ✓, Belgium 2:1+ ✗ (0:0), Uruguay 2:0 impossible (2:1 at the break). Two misses against one hit — max 2 of 4, needs 3. An Egypt win in NZ—Egypt no longer matters. Loss of 250 ₽."
     }
   }
 ]
