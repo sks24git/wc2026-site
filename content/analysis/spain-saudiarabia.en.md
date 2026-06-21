@@ -1,3 +1,15 @@
+## Result: 4:0 (3:0) — Spain restored their first XI and tore the block apart
+
+Goals: Yamal 10', Oyarzabal 21', Oyarzabal 24', Al-Tambakti own goal 49'. At 92' Ferran Torres made it 5:0, but VAR ruled it out (offside by a hair). Saudi Arabia barely threatened (xG ≈ 0.1).
+
+**The decider in one line:** our exact trigger fired — Lamine Yamal and Nico Williams started (rested in MD1), and Spain settled everything in the first half. 3:0 by the 24th minute.
+
+**Settlement.** AI: Saudi +2.5 🟢 **✗** — the favourite won by four; the 'mismatch ≠ rout' thesis was broken by a restored attack under tournament pressure. Pasha: 1st-half over 1.5 🟢 **✓** (3 goals in the half) — he called both the lineup and the manner, beating us head-to-head. Correct scores: actual 4:0 — Pasha's '4:0/5:0/6:0' leg in both his systems **✓**, our '2:0' in the 2/4 system **✗**.
+
+**Lesson:** when a favourite under direct tournament pressure restores its main attack (star wingers from the first minute), fading the rout becomes a trap — that's exactly when the mismatch cashes. Check the lineup BEFORE laying a favourite handicap against a weak block.
+
+---
+
 ## Spain — Saudi Arabia · 21 Jun, 19:00 MSK · Mercedes-Benz Stadium, Atlanta
 
 **The market has already painted a 3:0: Spain 1.11, handicap −2.5 @1.75. But Spain failed to score against debutants Cape Verde in MD1 despite 27 shots — and that's the whole story. We fade the rout: a draw suits Saudi Arabia too, so expect a block.**

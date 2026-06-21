@@ -1,3 +1,15 @@
+## Result: 0:0 — Belgium stalled again, and went down to ten
+
+No goals. Around 25' Iran scored, but VAR chalked it off (Taremi offside). At ~66' Belgium were reduced to ten — a straight red to Nathan Ngoy. Iran, without Azmoun, built a deep block and calmly saw out the clean-sheet draw.
+
+**The decider in one line:** exactly our scenario — a slow favourite against a parked bus failed to break the block, and the sending-off killed any blowout for good.
+
+**Settlement.** AI: Iran +1.5 🟢 **✓** — Belgium didn't win at all, let alone by two. Pasha: a goal in each half 🟢 **✗** (0:0) — he warned himself 'BTTS was safer' and walked into his own trap; this also killed his warm-up acca (the Belgium leg). In Pasha's systems the 2:1/3:1/4:1 leg **✗**, and our '1:0' in the 2/4 system **✗** — both missed.
+
+**Lesson (confirmation):** against a side that only needs a draw and sits deep, a favourite −1.5/−2 is a trap; 'favourite won't win by N' keeps working. Especially when the favourite itself struggles for creativity (Belgium: a second straight game without breaking a block).
+
+---
+
 ## Belgium — Iran · 21 Jun, 22:00 MSK · SoFi Stadium, Inglewood
 
 **Favourites at 1.45, but in MD1 Belgium failed to register a single shot on target in the entire first half and were rescued by an own goal. We back the favourite to start slowly again and fail to win by two: Iran will park the bus.**
