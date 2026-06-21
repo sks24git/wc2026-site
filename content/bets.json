@@ -4402,8 +4402,73 @@
       }
     ],
     "note": {
-      "ru": "Постоянная ставка слейта — ТС 2/4 красным (наша традиция, всегда играем). Счета согласованы с осторожными ординарами: Испания не разносит (2:0), Бельгия дожимает вязко (1:0), Уругвай тесно (1:0), у НЗ—Египта обе забьют (1:2). Нужно, чтобы зашли минимум 2 из 4. Эфф. кэф — при резолве.",
-      "en": "The slate's standing bet — a red 2/4 correct-score system (our tradition, always played). Scores aligned with the cautious singles: Spain don't rout (2:0), Belgium grind it out (1:0), Uruguay edge it (1:0), NZ–Egypt both score (1:2). Need at least 2 of 4 to land. Effective odds at settlement."
+      "ru": "Постоянная ставка тура — ТС 2/4 красным (наша традиция, всегда играем). Счета согласованы с осторожными ординарами: Испания не разносит (2:0), Бельгия дожимает вязко (1:0), Уругвай тесно (1:0), у НЗ—Египта обе забьют (1:2). Нужно, чтобы зашли минимум 2 из 4. Эфф. кэф — при резолве.",
+      "en": "The matchday's standing bet — a red 2/4 correct-score system (our tradition, always played). Scores aligned with the cautious singles: Spain don't rout (2:0), Belgium grind it out (1:0), Uruguay edge it (1:0), NZ–Egypt both score (1:2). Need at least 2 of 4 to land. Effective odds at settlement."
+    }
+  },
+  {
+    "id": 166,
+    "match": {
+      "ru": "Экспресс · 4 события",
+      "en": "Accumulator · 4 selections"
+    },
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "Испания/Уругвай — без обе забьют, НЗ/Бельгия — голы в обоих таймах",
+      "en": "Spain/Uruguay no BTTS, NZ/Belgium goals in both halves"
+    },
+    "type": "Экспресс",
+    "odds": 7.23,
+    "stake": 500,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Новая Зеландия — Египет",
+          "en": "New Zealand — Egypt"
+        },
+        "p": {
+          "ru": "Голы в обоих таймах — да @1.84",
+          "en": "Goals in both halves — yes @1.84"
+        }
+      },
+      {
+        "m": {
+          "ru": "Испания — Саудовская Аравия",
+          "en": "Spain — Saudi Arabia"
+        },
+        "p": {
+          "ru": "Обе забьют — нет @1.52",
+          "en": "Both teams to score — no @1.52"
+        }
+      },
+      {
+        "m": {
+          "ru": "Уругвай — Кабо-Верде",
+          "en": "Uruguay — Cape Verde"
+        },
+        "p": {
+          "ru": "Обе забьют — нет @1.53",
+          "en": "Both teams to score — no @1.53"
+        }
+      },
+      {
+        "m": {
+          "ru": "Бельгия — Иран",
+          "en": "Belgium — Iran"
+        },
+        "p": {
+          "ru": "Голы в обоих таймах — да @1.69",
+          "en": "Goals in both halves — yes @1.69"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Разогревочный экспресс Паши на 4 события. У фаворитов (Испания, Уругвай) ставит на сухарь одной из команд — обе забьют нет; в равных парах (НЗ—Египет, Бельгия—Иран) — на голы в каждом тайме. Основную карту Паша ещё собирает. Перекликается с нашими: на Уругвае мы тоже на низ (тотал меньше), на НЗ—Египте оба ждём голов.",
+      "en": "Pasha's warm-up 4-fold. In the favourites' games (Spain, Uruguay) he backs one side to keep a clean sheet — no BTTS; in the even ties (NZ—Egypt, Belgium—Iran) he wants a goal in each half. His main card is still in the works. It rhymes with ours: on Uruguay we're also low (Under), and on NZ—Egypt we both expect goals."
     }
   }
 ]
