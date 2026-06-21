@@ -4249,5 +4249,97 @@
       "ru": "✓ Сработала идеально! Кот-д’Ивуар забил первым (Кессье 30') + Германия дожала 2:1 (Ундав 68', 90+4'). Ровно тот сценарий, под который Паша брал страховку: основная 1Т-П1 сгорела, а связка @8.50 закрыла матч в плюс.",
       "en": "✓ Worked perfectly! Ivory Coast scored first (Kessié 30') + Germany came back to win 2:1 (Undav 68', 90+4'). Exactly the scenario the insurance was bought for: the main 1st-half bet died, but the @8.50 combo cashed the match into profit."
     }
+  },
+  {
+    "id": 161,
+    "match": {
+      "ru": "Испания — Саудовская Аравия",
+      "en": "Spain — Saudi Arabia"
+    },
+    "matchId": "spain-saudiarabia",
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "Фора Саудовской Аравии +2.5",
+      "en": "Saudi Arabia +2.5 handicap"
+    },
+    "type": "АФ",
+    "odds": 2.07,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Фейдим разгром: Испания не пробила Кабо-Верде (27 ударов, 0:0), затык с реализацией, а ничья устраивает и Саудовскую — сядет в блок. Берём, что Испания НЕ выиграет в 3 мяча (наш урок Эквадора и самой Испании: мисматч по кэфу ≠ разгром). Свинг-позиция: риск — если Ямаль и Н. Уильямс с первых минут раскочегарят атаку.",
+      "en": "Fading the rout: Spain didn't break down Cape Verde (27 shots, 0-0), their finishing is the problem, and a draw suits Saudi too — they'll sit deep. We back Spain NOT to win by three (our Ecuador and Spain lesson: an odds mismatch ≠ a rout). A swing pick: the risk is Yamal and N. Williams firing the attack from the start."
+    }
+  },
+  {
+    "id": 162,
+    "match": {
+      "ru": "Уругвай — Кабо-Верде",
+      "en": "Uruguay — Cape Verde"
+    },
+    "matchId": "uruguay-capeverde",
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5 goals"
+    },
+    "type": "ТМ",
+    "odds": 1.65,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Рынок сам за низ (ТМ 2.5 @1.65, ОЗ-нет). Кабо-Верде с вратарём Возиньей засушили Испанию, Уругвай буксует в атаке (Нуньеса сняли в перерыве 1-го тура), вечером в Майами грозы — темп ниже.",
+      "en": "The market itself leans under (Under 2.5 @1.65, BTTS-No). Cape Verde and keeper Vozinha shut out Spain, Uruguay's attack is misfiring (Núñez was hooked at half-time in MD1), and evening storms in Miami slow the tempo."
+    }
+  },
+  {
+    "id": 163,
+    "match": {
+      "ru": "Бельгия — Иран",
+      "en": "Belgium — Iran"
+    },
+    "matchId": "belgium-iran",
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "Фора Ирана +1.5",
+      "en": "Iran +1.5 handicap"
+    },
+    "type": "АФ",
+    "odds": 1.7,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Бельгия медленно стартовала (0 ударов в створ за 1-й тайм с Египтом), Иран без Азмуна сядет в глухую оборону. Фора Бельгии −1.5 — ловушка по нашему уроку; берём, что фаворит НЕ выиграет в 2 мяча.",
+      "en": "Belgium started slow (0 shots on target in the first half vs Egypt), and Iran — without Azmoun — will park the bus. A Belgium −1.5 is a trap by our lesson; we back the favourite NOT to win by two."
+    }
+  },
+  {
+    "id": 164,
+    "match": {
+      "ru": "Новая Зеландия — Египет",
+      "en": "New Zealand — Egypt"
+    },
+    "matchId": "newzealand-egypt",
+    "date": "2026-06-21",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 2.05,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Новая Зеландия результативна (дубль Джаста, дважды вела в счёте у Ирана), у Египта — Салах и Мармуш. Обеим нужна победа → обе пойдут вперёд, шансы на гол с обеих сторон высоки.",
+      "en": "New Zealand are dangerous (a Just brace, led Iran twice), Egypt have Salah and Marmoush. Both need the win → both will push, so goals at each end look likely."
+    }
   }
 ]

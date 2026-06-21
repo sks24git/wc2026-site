@@ -1034,5 +1034,125 @@
       "ru": "Япония фаворит (1.55), но рынок ждёт НИЗ (ТМ 2.5 @1.75, ОЗ-Нет @1.65). Дисциплинированный матч, японцы дожимают вязко.",
       "en": "Japan favourites (1.55) but the market expects the UNDER (under 2.5 @1.75, BTTS-No @1.65). A disciplined game; Japan grind it out."
     }
+  },
+  {
+    "id": "spain-saudiarabia",
+    "date": "2026-06-21",
+    "timeMsk": "19:00",
+    "title": {
+      "ru": "Испания — Саудовская Аравия",
+      "en": "Spain — Saudi Arabia"
+    },
+    "cc": [
+      "es",
+      "sa"
+    ],
+    "stage": {
+      "ru": "Группа H · тур 2",
+      "en": "Group H · MD 2"
+    },
+    "venue": {
+      "ru": "Mercedes-Benz Stadium, Атланта",
+      "en": "Mercedes-Benz Stadium, Atlanta"
+    },
+    "weather": {
+      "ru": "Крыша, климат-контроль — погода не фактор",
+      "en": "Roof closed, climate control — weather not a factor"
+    },
+    "result": null,
+    "lede": {
+      "ru": "После шокового 0:0 с Кабо-Верде Испания обязана побеждать — вот только бить-то она била (27 ударов!), а забить не смогла. Саудовская будет только рада зацепиться ещё за одну ничью.",
+      "en": "After a shock 0-0 with Cape Verde, Spain simply have to win — trouble is, they fired 27 shots and still couldn't score. Saudi Arabia will gladly settle for another draw."
+    }
+  },
+  {
+    "id": "uruguay-capeverde",
+    "date": "2026-06-21",
+    "timeMsk": "01:00",
+    "title": {
+      "ru": "Уругвай — Кабо-Верде",
+      "en": "Uruguay — Cape Verde"
+    },
+    "cc": [
+      "uy",
+      "cv"
+    ],
+    "stage": {
+      "ru": "Группа H · тур 2",
+      "en": "Group H · MD 2"
+    },
+    "venue": {
+      "ru": "Hard Rock Stadium, Майами-Гарденс",
+      "en": "Hard Rock Stadium, Miami Gardens"
+    },
+    "weather": {
+      "ru": "Открытый стадион, вечером грозы, ~27°C, влажно",
+      "en": "Open-air stadium, evening thunderstorms, ~27°C, humid"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Кабо-Верде уже засушило Испанию на ноль; теперь буксующий в атаке Уругвай Бьелсы попробует вскрыть тот же глухой блок — а вечером в Майами обещают грозы.",
+      "en": "Cape Verde already shut out Spain; now Bielsa's misfiring Uruguay attack must crack the same deep block — with thunderstorms forecast over Miami."
+    }
+  },
+  {
+    "id": "belgium-iran",
+    "date": "2026-06-21",
+    "timeMsk": "22:00",
+    "title": {
+      "ru": "Бельгия — Иран",
+      "en": "Belgium — Iran"
+    },
+    "cc": [
+      "be",
+      "ir"
+    ],
+    "stage": {
+      "ru": "Группа G · тур 2",
+      "en": "Group G · MD 2"
+    },
+    "venue": {
+      "ru": "SoFi Stadium, Инглвуд",
+      "en": "SoFi Stadium, Inglewood"
+    },
+    "weather": {
+      "ru": "Крыша-навес, климат-контроль",
+      "en": "Canopy roof, climate control"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Бельгия стартовала вяло — за первый тайм с Египтом ни одного удара в створ. Иран без Азмуна сядет в оборону: вопрос, хватит ли у бельгийцев терпения.",
+      "en": "Belgium started flat — not a single shot on target in the first half against Egypt. Iran, without Azmoun, will dig in: the question is whether Belgium have the patience to break them down."
+    }
+  },
+  {
+    "id": "newzealand-egypt",
+    "date": "2026-06-21",
+    "timeMsk": "04:00",
+    "title": {
+      "ru": "Новая Зеландия — Египет",
+      "en": "New Zealand — Egypt"
+    },
+    "cc": [
+      "nz",
+      "eg"
+    ],
+    "stage": {
+      "ru": "Группа G · тур 2",
+      "en": "Group G · MD 2"
+    },
+    "venue": {
+      "ru": "BC Place, Ванкувер",
+      "en": "BC Place, Vancouver"
+    },
+    "weather": {
+      "ru": "Крыша раздвижная — погода не фактор",
+      "en": "Retractable roof — weather not a factor"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Салах ведёт Египет за победой, но цепкие киви уже дважды вели в счёте у Ирана и просто так не лягут.",
+      "en": "Salah leads Egypt in search of a win, but the stubborn Kiwis twice led against Iran and won't roll over."
+    }
   }
 ]
