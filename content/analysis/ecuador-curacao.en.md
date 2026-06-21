@@ -1,6 +1,6 @@
 ## ⚡ Result: 0:0 (HT 0:0)
 
-The shock of the slate: overwhelming favourite Ecuador (1.14) couldn't break down Curaçao — 0:0, the tiny island's first-ever World Cup point. Goalkeeper Eloy Room was Man of the Match. Ecuador have now failed to score in either group game (0 goals: a 0:1 loss to Ivory Coast plus this 0:0). As in MD1, Ecuador dominated territorially but couldn't finish — a structural problem at the sharp end with no clean No. 9 (Kevin Rodríguez benched all game, Enner Valencia started).
+The shock of the day: overwhelming favourite Ecuador (1.14) couldn't break down Curaçao — 0:0, the tiny island's first-ever World Cup point. Goalkeeper Eloy Room was Man of the Match. Ecuador have now failed to score in either group game (0 goals: a 0:1 loss to Ivory Coast plus this 0:0). As in MD1, Ecuador dominated territorially but couldn't finish — a structural problem at the sharp end with no clean No. 9 (Kevin Rodríguez benched all game, Enner Valencia started).
 
 **Settlement.** AI 🔴 hammered: Ecuador −2.5 @2.13 ✗, correct score 3:0 @5.50 ✗ — the whole volume thesis burned. Pasha 🟢 nailed it: first-half Under 1.5 @1.64 ✓ ("Ecuador don't blow teams out, slow start" — a perfect read).
 
@@ -15,7 +15,7 @@ The shock of the slate: overwhelming favourite Ecuador (1.14) couldn't break dow
 ## Key points
 - Ecuador — an organised side with a quick attack; against the micro-nation of Curaçao they should win big.
 - Curaçao (ranking and squad depth not comparable) will almost certainly sit deep — the only question is how many they concede.
-- ⚠️ Risk from the C/D slate: a favourite that's done the job by half-time switches off. So we do NOT take over 3.5 / a high team total, we take the −2.5 handicap (margin of safety).
+- ⚠️ Risk from the C/D matchday: a favourite that's done the job by half-time switches off. So we do NOT take over 3.5 / a high team total, we take the −2.5 handicap (margin of safety).
 
 ## Total & trends
 - Line (Fonbet): Ecuador 1.14 / X 9.00 / Curaçao 24.00. **Handicap 1 −2.5 @2.13.** Total 3.5: Over 2.30 / Under 1.65. BTTS Yes 2.75 / No 1.45.

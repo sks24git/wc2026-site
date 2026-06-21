@@ -3,12 +3,12 @@
 - 🥅 **Messi 17'** (1H 1:0), then a second-half brace (tap-in off a Mac Allister save + a third) → 3:0. ⚡ Messi matched Klose's all-time WC record (17 goals). Mahrez started on the bench; Lautaro quiet (subbed at 55'). Algeria had no answer.
 
 **Settlement:**
-- ❌ **AI Algeria +1 @2.18 (🟢)** — Argentina won by three, the underdog handicap missed. **Third straight fade-the-blowout loss on the slate** (France, Norway, Argentina).
+- ❌ **AI Algeria +1 @2.18 (🟢)** — Argentina won by three, the underdog handicap missed. **Third straight fade-the-blowout loss of the day** (France, Norway, Argentina).
 - ✅ **Pasha 1st-half Argentina win @1.92 (🟢)** — led 1:0 at the break. Nailed it.
 - ⚡ **Pasha's 3/4 system PASSES** — this is the 3rd winning leg (BTTS France + Norway −2 + Argentina 1H). Payout hinges on Austria −1.5.
 - ❌ Both 2/4 correct-score systems are dead (3 missed scores each, 2/4 unreachable).
 
-**Lesson (building):** this slate mirrors the previous one. There favourites stalled (Spain/Iran/Saudi all drew); here they all run riot (France 3:1, Norway 4:1, Argentina 3:0). Our mechanical 'fade the opener blowout' burned three times. Calibration required — see STRATEGY.
+**Lesson (building):** this matchday mirrors the previous one. There favourites stalled (Spain/Iran/Saudi all drew); here they all run riot (France 3:1, Norway 4:1, Argentina 3:0). Our mechanical 'fade the opener blowout' burned three times. Calibration required — see STRATEGY.
 
 ---
 

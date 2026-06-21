@@ -4,7 +4,7 @@
 
 **Settlement:** ❌ AI BTTS-Yes @2.12 (−3,000) — Korea couldn't score; ❌ AI draw @3.40 (−1,500) — the hosts won; ❌ Pasha BTTS-Yes @1.99 (−3,000) + his 3/4 system (id 112) died on this leg (final 2/4). Player: Jiménez assisted but didn't score; Son offside.
 
-**Lesson (§8):** **the AI+Pasha consensus on BTTS-Yes failed** — both read "goals from MD1 form" but ignored the motivational frame: with a scoreline where **a draw sends BOTH teams through** (incentive for caution), even attacking nations play a tight 1:0. Mexico's structural weakening (no Montes) never bit — individual moments (Álvarez's clearance, the saves) outweighed the "hole in midfield". This is the SECOND match of the slate (after Czechia) where a cautious motivational context killed the goals/outcome thesis. **BTTS-Yes requires BOTH sides to want AND be able to push forward — a draw incentive cancels that.**
+**Lesson (§8):** **the AI+Pasha consensus on BTTS-Yes failed** — both read "goals from MD1 form" but ignored the motivational frame: with a scoreline where **a draw sends BOTH teams through** (incentive for caution), even attacking nations play a tight 1:0. Mexico's structural weakening (no Montes) never bit — individual moments (Álvarez's clearance, the saves) outweighed the "hole in midfield". This is the SECOND match of the matchday (after Czechia) where a cautious motivational context killed the goals/outcome thesis. **BTTS-Yes requires BOTH sides to want AND be able to push forward — a draw incentive cancels that.**
 
 ---
 
@@ -13,7 +13,7 @@
 **Clash of the Group A leaders (3 points each). Mexico without suspended defensive rock Montes — captain Álvarez drops into central defence, weakening the structure against Son Heung-min's counters. We take BTTS-Yes as the robust market.**
 
 ## Key points
-- 🏔 Altitude 1,566 m (not Azteca's 2,250). Both sides acclimatised: Korea already played MD1 here and trained in Salt Lake. Altitude factor neutralised. Last slate's lesson: "altitude kills the total" did NOT hold (Azteca produced 4 goals in Uzb-Col).
+- 🏔 Altitude 1,566 m (not Azteca's 2,250). Both sides acclimatised: Korea already played MD1 here and trained in Salt Lake. Altitude factor neutralised. Last matchday's lesson: "altitude kills the total" did NOT hold (Azteca produced 4 goals in Uzb-Col).
 - **Mexico:** ⚠️ César Montes suspended (straight red vs RSA). Captain Edson Álvarez moves from holding mid into central defence — weakening both midfield and the defence against pace.
 - **Korea:** unchanged side after the 2:1 comeback over Czechia. Son Heung-min fit, leading the counters.
 - H2H: last 4 meetings all Over 2.5, averaging 4 goals. Korea's last 4 WC matches ~4 goals.

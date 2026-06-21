@@ -4,7 +4,7 @@
 
 **Settlement:**
 - ❌ **AI — Panama 0 handicap @2.25 (🟢): LOSE.** Panama lost — the handicap doesn't protect. **−3,000 ₽.**
-- ❌ **AI — Panama win @3.30 (🟡): LOSE (the slate's flagship value).** Opta had Panama at 45.2% vs the market's 30%, but one late goal swung it to Ghana. **−1,500 ₽.**
+- ❌ **AI — Panama win @3.30 (🟡): LOSE (the matchday's flagship value).** Opta had Panama at 45.2% vs the market's 30%, but one late goal swung it to Ghana. **−1,500 ₽.**
 - ❌ **Pasha — Draw @3.25 (🟡): LOSE.** It was heading for a 0:0 draw (his score) until 90+5', then a counter. **−1,500 ₽.**
 - ⏳→❌ Systems: Ghana 1:1 (AI/Pasha CS) and 0:0 (Pasha CS) legs missed.
 

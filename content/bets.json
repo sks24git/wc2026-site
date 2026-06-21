@@ -1731,8 +1731,8 @@
     "side": "AI",
     "status": "win",
     "note": {
-      "ru": "✓ 1:1 — ЕГИПЕТ ВЗЯЛ ОЧКО! Ашур 19' (с паса Салаха), Бельгия сравняла лишь автоголом Хани 66'. Аномалия Opta (Египет 35.5% против рынка ~17%) сработала в точку — наш главный value слейта зашёл. Глубокая аналитика бьёт рынок.",
-      "en": "✓ 1:1 — EGYPT GRABBED A POINT! Ashour 19' (assisted by Salah), Belgium levelled only via a Hany own goal 66'. The Opta anomaly (Egypt 35.5% vs the market's ~17%) hit the mark — our top value of the slate landed. Deep analytics beat the market."
+      "ru": "✓ 1:1 — ЕГИПЕТ ВЗЯЛ ОЧКО! Ашур 19' (с паса Салаха), Бельгия сравняла лишь автоголом Хани 66'. Аномалия Opta (Египет 35.5% против рынка ~17%) сработала в точку — наш главный value дня зашёл. Глубокая аналитика бьёт рынок.",
+      "en": "✓ 1:1 — EGYPT GRABBED A POINT! Ashour 19' (assisted by Salah), Belgium levelled only via a Hany own goal 66'. The Opta anomaly (Egypt 35.5% vs the market's ~17%) hit the mark — our top value of the day landed. Deep analytics beat the market."
     }
   },
   {
@@ -2171,8 +2171,8 @@
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "✗ 3:0 — Аргентина в 3 мяча, Алжир +1 не покрыл. Хет-трик Месси. Фейд-разгром мимо ТРЕТИЙ раз подряд на слейте (Франция, Норвегия, Аргентина) — фавориты этого тура накатывают, не буксуют.",
-      "en": "✗ 3:0 — Argentina won by three, Algeria +1 didn’t cover. Messi hat-trick. The fade-the-blowout missed for a THIRD straight time on this slate (France, Norway, Argentina) — this round’s favourites ran riot, didn’t stall."
+      "ru": "✗ 3:0 — Аргентина в 3 мяча, Алжир +1 не покрыл. Хет-трик Месси. Фейд-разгром мимо ТРЕТИЙ раз подряд за день (Франция, Норвегия, Аргентина) — фавориты этого тура накатывают, не буксуют.",
+      "en": "✗ 3:0 — Argentina won by three, Algeria +1 didn’t cover. Messi hat-trick. The fade-the-blowout missed for a THIRD straight time on this matchday (France, Norway, Argentina) — this round’s favourites ran riot, didn’t stall."
     },
     "id": 85,
     "status": "lose"
@@ -2410,8 +2410,8 @@
     "type": "АФ",
     "odds": 2.03,
     "note": {
-      "ru": "✓ 3:1 — Австрия победила в 2 мяча, фора −1.5 зашла. Паша прав направлением: нервы дебюта доконали оборону Иордании, разгром на старте состоялся (в отличие от позиционных фаворитов прошлого слейта).",
-      "en": "✓ 3:1 — Austria won by two, the −1.5 handicap lands. Pasha was right directionally: debut nerves finished off Jordan’s defence; the opening-day blowout did come (unlike the positional favourites of the previous slate)."
+      "ru": "✓ 3:1 — Австрия победила в 2 мяча, фора −1.5 зашла. Паша прав направлением: нервы дебюта доконали оборону Иордании, разгром на старте состоялся (в отличие от позиционных фаворитов прошлого игрового дня).",
+      "en": "✓ 3:1 — Austria won by two, the −1.5 handicap lands. Pasha was right directionally: debut nerves finished off Jordan’s defence; the opening-day blowout did come (unlike the positional favourites of the previous matchday)."
     },
     "id": 92,
     "tier": "green",
@@ -2438,8 +2438,8 @@
     "stake": 500,
     "status": "win",
     "note": {
-      "ru": "✓ СИСТЕМА 3/4 СЫГРАЛА ПОЛНОСТЬЮ (4/4): все четыре события (Франция ОЗ-да, Норвегия −2, Аргентина 1Т и Австрия −1.5) зашли. Все 4 тройника выиграли, закрыв слейт I/J с отличной прибылью. Лучшая ставка дня!",
-      "en": "✓ SYSTEM 3/4 LANDED IN FULL (4/4): all four selections (France BTTS, Norway −2, Argentina 1H, and Austria −1.5) won. All 4 trebles hit, closing the I/J slate with a great return. The best bet of the day!"
+      "ru": "✓ СИСТЕМА 3/4 СЫГРАЛА ПОЛНОСТЬЮ (4/4): все четыре события (Франция ОЗ-да, Норвегия −2, Аргентина 1Т и Австрия −1.5) зашли. Все 4 тройника выиграли, закрыв день матчей групп I/J с отличной прибылью. Лучшая ставка дня!",
+      "en": "✓ SYSTEM 3/4 LANDED IN FULL (4/4): all four selections (France BTTS, Norway −2, Argentina 1H, and Austria −1.5) won. All 4 trebles hit, closing the I/J matchday with a great return. The best bet of the day!"
     },
     "legs": [
       {
@@ -2590,8 +2590,8 @@
     "side": "AI",
     "status": "lose",
     "note": {
-      "ru": "✗ СГОРЕЛА. Гана 1:0 Панама (Йиренки 90+5'). Флагман value слейта проиграл: Opta давала Панаме 45.2% vs рынок 30%, но Гана нашла гол в концовке. Чтение было обоснованным (Панама вела по владению/моментам в 1Т), но один поздний эпизод решил — единичная дисперсия. Урок: даже большой edge одной модели — это вероятность, а не гарантия; размер (🟢+🟡 на один исход) был великоват. −1 500 ₽.",
-      "en": "✗ LOSE. Ghana 1:0 Panama (Yirenkyi 90+5'). The slate's flagship value lost: Opta had Panama at 45.2% vs the market's 30%, but Ghana found a late goal. The read was sound (Panama led on possession/chances in the 1st half), but one late moment decided it — single-game variance. Lesson: even a big single-model edge is a probability, not a guarantee; the sizing (🟢+🟡 on one outcome) was too heavy. −1,500 ₽."
+      "ru": "✗ СГОРЕЛА. Гана 1:0 Панама (Йиренки 90+5'). Флагман value дня проиграл: Opta давала Панаме 45.2% vs рынок 30%, но Гана нашла гол в концовке. Чтение было обоснованным (Панама вела по владению/моментам в 1Т), но один поздний эпизод решил — единичная дисперсия. Урок: даже большой edge одной модели — это вероятность, а не гарантия; размер (🟢+🟡 на один исход) был великоват. −1 500 ₽.",
+      "en": "✗ LOSE. Ghana 1:0 Panama (Yirenkyi 90+5'). The day's flagship value lost: Opta had Panama at 45.2% vs the market's 30%, but Ghana found a late goal. The read was sound (Panama led on possession/chances in the 1st half), but one late moment decided it — single-game variance. Lesson: even a big single-model edge is a probability, not a guarantee; the sizing (🟢+🟡 on one outcome) was too heavy. −1,500 ₽."
     }
   },
   {
@@ -2642,8 +2642,8 @@
     "id": 101,
     "date": "2026-06-17",
     "match": {
-      "ru": "Система 2/4 · точные счета (слейт K/L)",
-      "en": "System 2/4 · correct scores (K/L slate)"
+      "ru": "Система 2/4 · точные счета (тур групп K/L)",
+      "en": "System 2/4 · correct scores (K/L matchday)"
     },
     "bet": {
       "ru": "Система 2/4 (точные счета)",
@@ -2656,8 +2656,8 @@
     "stake": 500,
     "status": "lose",
     "note": {
-      "ru": "✗ СГОРЕЛА (0/4 счетов). Все 4 позиции мимо: Португалия 1:0 (факт 1:1), Англия 1:1 (4:2), Гана 1:1 (1:0), Колумбия 1:0 (факт 1:3). Для системы 2/4 нужно было ≥2 верных счёта — ни одного. Точные счета слейта системно мимо у обеих сторон. −500 ₽.",
-      "en": "✗ LOSE (0/4 scores). All four legs missed: Portugal 1:0 (actual 1:1), England 1:1 (4:2), Ghana 1:1 (1:0), Colombia 1:0 (actual 1:3). A 2/4 system needed ≥2 correct scores — got none. Correct scores systematically missed for both sides this slate. −500 ₽."
+      "ru": "✗ СГОРЕЛА (0/4 счетов). Все 4 позиции мимо: Португалия 1:0 (факт 1:1), Англия 1:1 (4:2), Гана 1:1 (1:0), Колумбия 1:0 (факт 1:3). Для системы 2/4 нужно было ≥2 верных счёта — ни одного. Точные счета дня системно мимо у обеих сторон. −500 ₽.",
+      "en": "✗ LOSE (0/4 scores). All four legs missed: Portugal 1:0 (actual 1:1), England 1:1 (4:2), Ghana 1:1 (1:0), Colombia 1:0 (actual 1:3). A 2/4 system needed ≥2 correct scores — got none. Correct scores systematically missed for both sides this matchday. −500 ₽."
     },
     "legs": [
       {
@@ -2706,8 +2706,8 @@
     "id": 102,
     "date": "2026-06-17",
     "match": {
-      "ru": "Система 2/4 · точные счета Паши (слейт K/L)",
-      "en": "System 2/4 · Pasha correct scores (K/L slate)"
+      "ru": "Система 2/4 · точные счета Паши (тур групп K/L)",
+      "en": "System 2/4 · Pasha correct scores (K/L matchday)"
     },
     "bet": {
       "ru": "Система 2/4 (точные счета)",
@@ -2863,8 +2863,8 @@
     "id": 107,
     "date": "2026-06-17",
     "match": {
-      "ru": "Система 2/3 · ординары Паши (слейт K/L)",
-      "en": "System 2/3 · Pasha singles (K/L slate)"
+      "ru": "Система 2/3 · ординары Паши (тур групп K/L)",
+      "en": "System 2/3 · Pasha singles (K/L matchday)"
     },
     "bet": {
       "ru": "Система 2/3 (ординары)",
@@ -3010,8 +3010,8 @@
     "id": 112,
     "date": "2026-06-18",
     "match": {
-      "ru": "Система 3/4 · ординары Паши (слейт A/B, тур 2)",
-      "en": "System 3/4 · Pasha singles (A/B slate, MD2)"
+      "ru": "Система 3/4 · ординары Паши (группы A/B, тур 2)",
+      "en": "System 3/4 · Pasha singles (A/B, MD2)"
     },
     "bet": {
       "ru": "Система 3/4 (ординары)",
@@ -3075,8 +3075,8 @@
     "id": 113,
     "date": "2026-06-18",
     "match": {
-      "ru": "Система 2/4 · точные счета Паши (слейт A/B, тур 2)",
-      "en": "System 2/4 · Pasha correct scores (A/B slate, MD2)"
+      "ru": "Система 2/4 · точные счета Паши (группы A/B, тур 2)",
+      "en": "System 2/4 · Pasha correct scores (A/B, MD2)"
     },
     "bet": {
       "ru": "Система 2/4 (точные счета)",
@@ -3645,8 +3645,8 @@
     "id": 141,
     "date": "2026-06-19",
     "match": {
-      "ru": "Система 3/4 · точные счета (слейт C/D)",
-      "en": "System 3/4 · correct scores (C/D slate)"
+      "ru": "Система 3/4 · точные счета (тур групп C/D)",
+      "en": "System 3/4 · correct scores (C/D matchday)"
     },
     "bet": {
       "ru": "точные счета",
@@ -4053,8 +4053,8 @@
     },
     "date": "2026-06-20",
     "bet": {
-      "ru": "результативность слейта",
-      "en": "slate goals"
+      "ru": "результативность дня",
+      "en": "matchday goals"
     },
     "type": "Система",
     "odds": 1,

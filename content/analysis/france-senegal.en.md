@@ -7,7 +7,7 @@
 - ✅ **Pasha BTTS yes @1.90 (🟢)** — both scored, his favourite market lands. 'A France goal is undeniable, but Senegal bite back too' — exactly that.
 - ⏳ Systems: the 'France 2:1' correct-score legs ✗ for both (actual 3:1); Pasha's 3/4 'BTTS' leg ✓.
 
-**Note:** the fade-the-blowout (rule No. 1) didn't pay here — but it was 0:0 until the 65th, decided by a late surge + Mbappé's class. We'll finish recalibrating the rule after the rest of the slate.
+**Note:** the fade-the-blowout (rule No. 1) didn't pay here — but it was 0:0 until the 65th, decided by a late surge + Mbappé's class. We'll finish recalibrating the rule after the rest of the day's games.
 
 ---
 

@@ -5,9 +5,9 @@
 **Settlement:**
 - ✅ **AI Over 2.5 @1.80 (🟢)** — 4 goals, lands. Austria's press cracked the back five; the bus didn't save Jordan.
 - ✅ **Pasha Austria −1.5 @2.03 (🟢)** — won by two. Pasha right directionally: the opening-day blowout came.
-- ✅ **Pasha's 3/4 system @7.78 — FULL 4/4** (BTTS France + Norway −2 + Argentina 1H + Austria −1.5) — best bet of the slate.
+- ✅ **Pasha's 3/4 system @7.78 — FULL 4/4** (BTTS France + Norway −2 + Argentina 1H + Austria −1.5) — best bet of the day.
 
-**Lesson (closing the I/J slate):** the fourth "vertical/attacking favourite vs debutant" of the slate — and another rout (France/Norway/Argentina/Austria). Pasha backed favourite handicaps and won; AI faded blowouts and burned. Calibration from §8 confirmed: classify the favourite, don't mechanically fade the opener.
+**Lesson (closing the I/J matchday):** the fourth "vertical/attacking favourite vs debutant" of the matchday — and another rout (France/Norway/Argentina/Austria). Pasha backed favourite handicaps and won; AI faded blowouts and burned. Calibration from §8 confirmed: classify the favourite, don't mechanically fade the opener.
 
 ---
 

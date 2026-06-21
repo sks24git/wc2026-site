@@ -8,7 +8,7 @@
 - ❌ **Pasha — Colombia + Under 3.5 @1.83 (🟢): LOSE.** Colombia won (✓), but 4 goals → Under 3.5 ✗ → the combo lost. **−3,000 ₽.**
 - ❌ Systems: Colombia 1:0/0:2 (CS) legs missed (actual 1:3). **Pasha's 2/3 system fell here** (it needed this leg).
 
-**Lesson:** altitude as a 'low-scoring' factor is overrated — Colombia played through it on class, and the total broke in stoppage. The slate's third match in a row where the 'under' (our Under ×3 on the day) burned: a green Under as the day's core against finishing teams was a systematic slate error. The 'win + Under' combo (Pasha) lost on the total despite the right result — a combo adds fragility.
+**Lesson:** altitude as a 'low-scoring' factor is overrated — Colombia played through it on class, and the total broke in stoppage. The day's third match in a row where the 'under' (our Under ×3 on the day) burned: a green Under as the day's core against finishing teams was a systematic error. The 'win + Under' combo (Pasha) lost on the total despite the right result — a combo adds fragility.
 
 ---
 

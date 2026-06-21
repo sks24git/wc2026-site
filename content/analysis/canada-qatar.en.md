@@ -2,7 +2,7 @@
 
 **Goals:** Larin ~16', David ~29', David 45+3', Saliba ~64' (free-kick — the tournament's first), Al Manai own goal ~75', David 92' (hat-trick). Qatar finished with nine men — two reds (El Amin, Madibo); VAR downgraded a Canada penalty to a free-kick. Qatar managed ~1 shot, just like vs Switzerland.
 
-**Settlement:** ✅ **AI BTTS-No @1.75 (+2,250)** — Qatar didn't score, the robust thesis worked. ❌ AI CS 2:0 @6.0 (−500) — underestimated the scale of the rout. ✅ **Pasha Canada −1.5 @1.88 (+2,640)** — landed comfortably. 🟰 For the first time this slate both lines (handicap and BTTS-no) won together — it was a genuine rout. Both correct-score systems (AI and Pasha CS 2/4) are dead: 3 of 4 legs missed.
+**Settlement:** ✅ **AI BTTS-No @1.75 (+2,250)** — Qatar didn't score, the robust thesis worked. ❌ AI CS 2:0 @6.0 (−500) — underestimated the scale of the rout. ✅ **Pasha Canada −1.5 @1.88 (+2,640)** — landed comfortably. 🟰 For the first time this day both lines (handicap and BTTS-no) won together — it was a genuine rout. Both correct-score systems (AI and Pasha CS 2/4) are dead: 3 of 4 legs missed.
 
 **Lesson (§8):** against a toothless bus a rout *is possible*, but the §8 pick (BTTS-No) is still safer than the handicap — it covered 1:0, 2:0 and 6:0 alike. Rout amplifiers: a must-win host + home crowd + opponent down to nine. Contrast with MD1 (Spain 0:0): favourites didn't run up the score on opening day; by MD2, with sharp motivation, it broke open.
 

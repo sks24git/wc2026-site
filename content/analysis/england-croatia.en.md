@@ -9,7 +9,7 @@
 - ⏳ Systems: England 1:1 (AI) and 1:0 (Pasha CS) legs missed; both CS 2/4 now hang by a thread (need BOTH remaining scores). The England-win leg in Pasha's 2/3 system ✓ landed — Uzbekistan decides it.
 - **Head-to-head of the match: Pasha beat AI** (+2,190 vs −4,500).
 
-**Lesson:** the slate's second match confirmed §8 — we again caught the right pulse ('low / cautious opener') but with a fragile market (Under/Draw), while Pasha took the robust England win on the same read. Against a favourite with a strong attack and a weak opposing defence, the 'under' is dangerous: if it opens up the favourite still wins, and the win survives where the under burns.
+**Lesson:** the day's second match confirmed §8 — we again caught the right pulse ('low / cautious opener') but with a fragile market (Under/Draw), while Pasha took the robust England win on the same read. Against a favourite with a strong attack and a weak opposing defence, the 'under' is dangerous: if it opens up the favourite still wins, and the win survives where the under burns.
 
 ---
 

@@ -3,7 +3,7 @@
 - 🥅 **Ashour 19'** (off a slicing pass from Salah, against the run of play) · **Hany own goal 66'** — Belgium clawed back only via an own goal and **failed to register a single shot on target in the entire first half** (58% possession, but 0 on target). Egypt — their first-ever World Cup point.
 
 **Settlement — AI took the match:**
-- ✅ **AI Egypt not to lose (X2) @2.15 (🟢)** — the headline value of the slate off the Opta anomaly (Egypt 35.5% vs the market's ~17%). Landed!
+- ✅ **AI Egypt not to lose (X2) @2.15 (🟢)** — the headline value of the day off the Opta anomaly (Egypt 35.5% vs the market's ~17%). Landed!
 - ✅ **AI Draw @3.80 (🟡)** — Opta gave 27.3%, it landed. **Green-yellow double on a single match.**
 - ✅ Pasha BTTS yes @1.95 (🟢) — both teams scored, his favourite BTTS landed.
 - ❌ Pasha Correct score 2:1 Belgium (🔴) — called the direction via BTTS, but handed the win to the wrong side.
@@ -44,7 +44,7 @@
 | Egypt not to lose (X2) | 🟢 | 2.15 |
 | Draw | 🟡 | 3.80 |
 
-**Logic:** the green X2 is the headline value of the slate off the Opta vs market gap: fair odds at ~63% ≈ 1.6, they offer ~2.15. Deep block + Salah's counter + goalkeeper Shobeir in form + H2H — Egypt are genuinely alive. The yellow draw — Opta 27.3% (they offer 3.8), a clean outcome instead of a correct score. Under 2.5 (@~1.90) is a live alternative angle, but we don't load up (heavily correlated with X2 — both legs are about "under/not-Belgium").
+**Logic:** the green X2 is the headline value of the day off the Opta vs market gap: fair odds at ~63% ≈ 1.6, they offer ~2.15. Deep block + Salah's counter + goalkeeper Shobeir in form + H2H — Egypt are genuinely alive. The yellow draw — Opta 27.3% (they offer 3.8), a clean outcome instead of a correct score. Under 2.5 (@~1.90) is a live alternative angle, but we don't load up (heavily correlated with X2 — both legs are about "under/not-Belgium").
 
 **Players (AFTER kickoff):** Salah "anytime scorer" and Doku (if fit) — after the lineups are confirmed 30 minutes before kickoff.
 
