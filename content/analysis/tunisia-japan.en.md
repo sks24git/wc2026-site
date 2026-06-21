@@ -1,3 +1,13 @@
+## ⚡ Result: 0:4 (HT 0:2)
+
+Japan ran riot: Kamada 4', Ueda 31', Ito 69', Ueda 83' (brace). 0:2 at the break, then they finished off a sticky Tunisian block after the restart. The market got the direction right (favourite + clean-sheet win) but underrated the scale: a "narrow grind" was expected, a rout arrived. Tunisia, scoreless again after the 1:5 to Sweden, are an attack in crisis with minimum points across two rounds.
+
+**Settlement.** AI half-right: Under 2.5 @1.75 ✗ (4 goals — over), correct score 0:1 @6.00 ✗ (right on Tunisia's blank, but Japan scored four times as many). Pasha 🟢 emphatically right: Japan −1 @1.93 ✓ with huge room (expected 0:2, got 0:4).
+
+**Lesson.** A "disciplined favourite vs minnow" can turn into a rout, not a sticky 1:0, when the underdog is in crisis with no attack (Tunisia 0 goals in 2 rounds). The favourite's −1 handicap is safer than the under / correct score when the opponent is collapsing. AI again hedged with the under where the market underrated the class gap.
+
+---
+
 ## Tunisia — Japan · 21 Jun, 07:00 MSK · Group stage, MD 2
 
 **Japan are favourites (1.55), but the market expects the UNDER: under 2.5 @1.75, BTTS-No @1.65. Tunisia are a disciplined defensive block; Japan grind it out for a narrow win. We take the under plus a tied correct score.**

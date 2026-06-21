@@ -3769,10 +3769,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "🟢 по правилу «тир = диапазон кэфа»: @2.13 — зелёный диапазон (1.6–2.5), ставка 3000. Мисматч (1.14 vs 24.00). Объём голов через фору — урок Бразилии 3:0: фора надёжнее точечного высокого ИТБ. Нужна победа в 3+ мяча.",
-      "en": "🟢 by the \"tier = odds range\" rule: @2.13 is the green band (1.6–2.5), stake 3000. Mismatch (1.14 vs 24.00). Goal volume via the handicap — Brazil 3:0 lesson: the handicap is safer than a pinpoint high team total. Needs a 3+ goal win."
+      "ru": "✗ Эквадор 0:0 Кюрасао — фаворит не то что не выиграл с разницей 3, вообще не забил. Сенсационная ничья, Кюрасао взял первое очко (Элой Ром — лучший игрок).",
+      "en": "✗ Ecuador 0-0 Curaçao — the favourite didn’t just fail to win by 3, they didn’t score at all. A shock draw; Curaçao took their first point (Eloy Room MOTM)."
     }
   },
   {
@@ -3792,10 +3792,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Рынок ждёт низ (ТМ 1.75, ОЗ-Нет 1.65). Япония дожимает вязкий матч малой кровью.",
-      "en": "Market expects the under (1.75, BTTS-No 1.65). Japan grind out a low-scoring win."
+      "ru": "✗ Тунис 0:4 Япония — четыре гола, верх зашёл легко. Япония разнесла без вопросов.",
+      "en": "✗ Tunisia 0-4 Japan — four goals, the over cruised in. Japan ran riot."
     }
   },
   {
@@ -3815,10 +3815,10 @@
     "tier": "red",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Marquee 🔴, связан с ТМ 2.5 (#145): японская сухая победа 0:1 закрывает обе. Эхо сегодняшнего захода точного счёта.",
-      "en": "Marquee 🔴, tied to the under 2.5 (#145): a 0:1 Japan win cashes both. Echo of today’s correct-score hit."
+      "ru": "✗ Финальный счёт 0:4, а не 0:1 — Япония выиграла куда крупнее.",
+      "en": "✗ Final score 0-4, not 0-1 — Japan won far bigger."
     }
   },
   {
@@ -3884,10 +3884,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "«Эквадор не про разгром (раз забил 4 за 2.5 года), Кюрасао 1-й тайм держится. Ни форы, ни большие тоталы — лезу в ТМ тайма».",
-      "en": "\"Ecuador don’t do blowouts (one 4-goal game in 2.5 yrs); Curaçao hold the 1st half. No handicaps/big totals — I go for the half under.\""
+      "ru": "✓ 1-й тайм 0:0 — точное чтение Паши: «Эквадор не про разгром, вязкий старт». Матч так и остался 0:0.",
+      "en": "✓ First half 0-0 — Pasha read it perfectly: \"Ecuador don’t blow teams out, slow start\". The game finished 0-0."
     }
   },
   {
@@ -3907,10 +3907,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "«Тунис — команда для битья. Япония восхитила дисциплиной, заберёт три очка без разгрома. Фора 1 под возврат при 0:1, жду 0:2».",
-      "en": "\"Tunisia are there to be beaten. Japan impressed with discipline, will take three points without a rout. −1 handicap (push on 0:1), expecting 0:2.\""
+      "ru": "✓ Япония 0:4 — фора −1 прошла с огромным запасом. Паша ждал 0:2, вышло ещё крупнее.",
+      "en": "✓ Japan 0-4 — the −1 handicap landed with room to spare. Pasha expected 0-2; it was even bigger."
     }
   },
   {
@@ -3974,7 +3974,7 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -4018,8 +4018,8 @@
       }
     ],
     "note": {
-      "ru": "Прогнозы счёта Паши. Нид 1:2 ✗ (5:1), Германия 3:0 ✗ (2:1) — 2 позиции из 4 пробиты. Для 2/4 нужны обе оставшихся: Экв 2:0 И Тун-Япо 0:1. Эфф. кэф при резолве.",
-      "en": "Pasha’s score calls. Net 1:2 ✗ (5:1), Germany 3:0 ✗ (2:1) — 2 of 4 legs busted. For 2/4 both remaining must hit: Ecu 2:0 AND Tun-Jpn 0:1. Eff. odds at settle."
+      "ru": "✗ Система 2/4 точных счетов: все четыре мимо (Нид 1:2 при 5:1, Гер 3:0 при 2:1, Экв 2:0 при 0:0, Япония 0:1 при 0:4). Полная потеря.",
+      "en": "✗ Correct-score system 2/4: all four missed (NED 1:2 vs 5:1, GER 3:0 vs 2:1, ECU 2:0 vs 0:0, JPN 0:1 vs 0:4). Full loss."
     }
   },
   {
@@ -4039,10 +4039,10 @@
     "tier": "yellow",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Доп жёлтая: согласована с форой −2.5 (#144) — 3:0 = победа в 3 мяча. Самый вероятный «сухой» счёт мисматча.",
-      "en": "Extra yellow: consistent with the −2.5 handicap (#144) — 3:0 = a 3-goal win. The most likely clean-sheet mismatch score."
+      "ru": "✗ 0:0 — разгрома Эквадора не случилось.",
+      "en": "✗ 0-0 — no Ecuador rout materialised."
     }
   },
   {
@@ -4057,11 +4057,11 @@
       "en": "slate goals"
     },
     "type": "Система",
-    "odds": 7.5,
+    "odds": 1,
     "tier": "red",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "void",
     "legs": [
       {
         "m": {
@@ -4105,8 +4105,8 @@
       }
     ],
     "note": {
-      "ru": "Система 3/4 по основным, позиции ≥1.9. Нид ТБ 3.0 ✓ (6 голов), Германия ТБ 3.0 — возврат (ровно 3 гола, кэф→1.0): тройки с этой позицией ужимаются до даблов. Осталось: Экв фора −2.5, Япония фора −1. Эфф. кэф при резолве.",
-      "en": "System 3/4 main picks, legs ≥1.9. Netherlands over 3.0 ✓ (6 goals), Germany over 3.0 — push (exactly 3 goals, odds→1.0): triples with this leg collapse to doubles. Remaining: Ecu −2.5, Japan −1. Eff. odds at settle."
+      "ru": "Резолв системы 3/4: Нид ТБ3.0 ✓ · Гер ТБ3.0 — возврат (ровно 3 гола, push) · Экв фора −2.5 ✗ · Япония −1 ✓. Из-за пуша Германии сыграл один тройник (Нид×возврат×Япония), возврат ≈477.7 ₽ из 500 → почти ноль, чистый ≈−22 ₽. Помечено как ВОЗВРАТ: пуш Германии вытащил систему из полного слива, позиция Эквадора не дала плюса.",
+      "en": "System 3/4 settled: NED Over 3.0 ✓ · GER Over 3.0 — void (exactly 3 goals, push) · ECU −2.5 ✗ · JPN −1 ✓. The Germany push left one treble standing (NED × void × JPN), returning ≈477.7 of 500 → essentially break-even, net ≈−22. Marked VOID: Germany’s push rescued it from a full loss; the Ecuador leg denied any profit."
     }
   },
   {
@@ -4125,7 +4125,7 @@
     "tier": "red",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -4169,8 +4169,8 @@
       }
     ],
     "note": {
-      "ru": "Точные счета AI. Нид 2:1 ✗ (5:1), Германия 3:1 ✗ (2:1) — 2 позиции из 4 пробиты. Для 2/4 нужны обе оставшихся: Экв 3:0 И Япония 0:1. Эфф. кэф при резолве.",
-      "en": "AI scores. Net 2:1 ✗ (5:1), Germany 3:1 ✗ (2:1) — 2 of 4 legs busted. For 2/4 both remaining must hit: Ecu 3:0 AND Jpn 0:1. Eff. odds at settle."
+      "ru": "✗ Система 2/4 точных счетов: все четыре мимо (Нид 2:1 при 5:1, Гер 3:1 при 2:1, Экв 3:0 при 0:0, Япония 0:1 при 0:4). Ни одного дабла — полная потеря.",
+      "en": "✗ Correct-score system 2/4: all four missed (NED 2:1 vs 5:1, GER 3:1 vs 2:1, ECU 3:0 vs 0:0, JPN 0:1 vs 0:4). No winning double — full loss."
     }
   },
   {
@@ -4189,7 +4189,7 @@
     "tier": "red",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -4223,8 +4223,8 @@
       }
     ],
     "note": {
-      "ru": "Система 2/3 на бомбардиров (без Нидерландов), позиции ≥1.9. Хаверц 2.40 ✗ — забил Ундав. ⚠️ Состав Эквадора: Кевин Родригес НА СКАМЕЙКЕ, в старте центрфорвард Эннер Валенсия — позиция К. Родригеса теперь только с замены, почти мертва. Для прохода 2/3 нужны ОБЕ оставшихся (К. Родригес И Огава) — система на грани. Огаву подтвержу по составу Японии. Эфф. кэф при резолве.",
-      "en": "System 2/3 on scorers (no Netherlands), legs ≥1.9. Havertz 2.40 ✗ — Undav scored. ⚠️ Ecuador XI: Kevin Rodríguez is BENCHED, Enner Valencia starts at centre-forward — the K. Rodríguez leg now only via a substitute, nearly dead. For 2/3 to pay BOTH remaining must hit (K. Rodríguez AND Ogawa) — system on the brink. Ogawa to confirm on Japan's XI. Eff. odds at settle."
+      "ru": "✗ Система бомбардиров 2/3: Хаверц не забил (Ундав), Кевин Родригес остался на скамейке и Эквадор не забил вовсе, Огава тоже не отличился (Камада, Уэда×2, Ито). Ноль из трёх.",
+      "en": "✗ Scorers system 2/3: Havertz didn’t score (Undav did), Kevin Rodríguez stayed benched and Ecuador didn’t score at all, Ogawa didn’t score either (Kamada, Ueda×2, Ito). Zero of three."
     }
   },
   {

@@ -1,5 +1,29 @@
 [
   {
+    "time": "21.06 · 09:15",
+    "tag": "result",
+    "text": {
+      "ru": "⚖️ Слейт 2-го тура закрыт. Жёсткий день AI: вся точечная/системная линия осыпалась (обе системы 2/4 на точных счетах ✗, бомбардиры 2/3 ✗; система 3/4 — возврат ≈−22 ₽ на пуше Германии ровно 3 гола). У Паши обе ординары дня зашли. Итог войны: Паша +28 930 (банк 128 930, W29/L33) · AI −33 520 (банк 66 480, W25/L60). Разрыв — 62 450 в пользу Паши.",
+      "en": "⚖️ The MD2 slate is closed. A brutal day for AI: the entire correct-score/system line collapsed (both 2/4 score systems ✗, the 2/3 scorers ✗; the 3/4 system returned ≈−22 on Germany's exactly-3-goals push). Pasha's two ordinaries both landed. War tally: Pasha +28,930 (bank 128,930, W29/L33) · AI −33,520 (bank 66,480, W25/L60). Gap — 62,450 in Pasha's favour."
+    }
+  },
+  {
+    "time": "21.06 · 09:00",
+    "tag": "result",
+    "text": {
+      "ru": "🇯🇵 Тунис 0:4 Япония (1Т 0:2) — Камада 4′, Уэда 31′ и 83′, Ито 69′. Разгром вместо вязкого 1:0: рынок угадал фаворита, но не масштаб. Паша крупно прав — фора Японии −1 @1.93 ✓. AI мимо: тотал меньше 2.5 @1.75 ✗ (4 гола) и точный счёт 0:1 @6.00 ✗.",
+      "en": "🇯🇵 Tunisia 0-4 Japan (HT 0-2) — Kamada 4', Ueda 31' & 83', Ito 69'. A rout, not a sticky 1-0: the market had the favourite but not the scale. Pasha emphatically right — Japan −1 @1.93 ✓. AI off: Under 2.5 @1.75 ✗ (4 goals) and correct score 0-1 @6.00 ✗."
+    }
+  },
+  {
+    "time": "21.06 · 05:00",
+    "tag": "result",
+    "text": {
+      "ru": "🏴 Эквадор 0:0 Кюрасао — СЕНСАЦИЯ. Фаворит (1.14) вообще не забил; остров взял первое очко на ЧМ (Элой Ром — лучший игрок). Эквадор за два тура — 0 голов. AI разгромлен: фора −2.5 @2.13 ✗ и счёт 3:0 @5.50 ✗. Паша в точку: тотал меньше 1.5 в 1-м тайме @1.64 ✓.",
+      "en": "🏴 Ecuador 0-0 Curaçao — SHOCK. The favourite (1.14) failed to score at all; the island took its first-ever World Cup point (Eloy Room MOTM). Ecuador have 0 goals in two rounds. AI hammered: −2.5 @2.13 ✗ and 3:0 @5.50 ✗. Pasha nailed it: first-half Under 1.5 @1.64 ✓."
+    }
+  },
+  {
     "time": "21.06 · 02:05",
     "tag": "lineup",
     "text": {

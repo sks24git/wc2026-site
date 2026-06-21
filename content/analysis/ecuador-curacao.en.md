@@ -1,3 +1,13 @@
+## ⚡ Result: 0:0 (HT 0:0)
+
+The shock of the slate: overwhelming favourite Ecuador (1.14) couldn't break down Curaçao — 0:0, the tiny island's first-ever World Cup point. Goalkeeper Eloy Room was Man of the Match. Ecuador have now failed to score in either group game (0 goals: a 0:1 loss to Ivory Coast plus this 0:0). As in MD1, Ecuador dominated territorially but couldn't finish — a structural problem at the sharp end with no clean No. 9 (Kevin Rodríguez benched all game, Enner Valencia started).
+
+**Settlement.** AI 🔴 hammered: Ecuador −2.5 @2.13 ✗, correct score 3:0 @5.50 ✗ — the whole volume thesis burned. Pasha 🟢 nailed it: first-half Under 1.5 @1.64 ✓ ("Ecuador don't blow teams out, slow start" — a perfect read).
+
+**Lesson.** Two games running: Ecuador create but don't score. An "odds mismatch" (1.14) ≠ "a goal rout" when the favourite lacks finishing and a true striker. A −2.5 handicap on a side with 0 goals in 2 rounds is a trap; the UNDER / cautious scoreline, as Pasha had it, was correct.
+
+---
+
 ## Ecuador — Curaçao · 21 Jun, 03:00 MSK · Group stage, MD 2
 
 **Total mismatch: Ecuador 1.14, Curaçao 24.00 — one of the most lopsided games of the tournament. The moneyline has no value, so we bet the VOLUME of goals. Brazil 3:0 lesson: the handicap is safer than a pinpoint high team total.**
