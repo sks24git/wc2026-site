@@ -1154,5 +1154,125 @@
       "ru": "Салах ведёт Египет за победой, но цепкие киви уже дважды вели в счёте у Ирана и просто так не лягут.",
       "en": "Salah leads Egypt in search of a win, but the stubborn Kiwis twice led against Iran and won't roll over."
     }
+  },
+  {
+    "id": "argentina-austria",
+    "date": "2026-06-22",
+    "timeMsk": "20:00",
+    "title": {
+      "ru": "Аргентина — Австрия",
+      "en": "Argentina — Austria"
+    },
+    "cc": [
+      "ar",
+      "at"
+    ],
+    "stage": {
+      "ru": "Группа J · тур 2",
+      "en": "Group J · MD 2"
+    },
+    "venue": {
+      "ru": "AT&T Stadium, Арлингтон",
+      "en": "AT&T Stadium, Arlington"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, климат-контроль — погода не фактор",
+      "en": "Roof closed, climate control — weather not a factor"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Битва двух победителей: и Аргентина с хет-триком Месси, и Австрия Рангника стартовали с трёх очков. На кону первое место в группе — а ничья хитро устраивает скорее аргентинцев.",
+      "en": "A clash of two winners: Argentina (with a Messi hat-trick) and Rangnick's Austria both opened with three points. Top spot is on the line — though a draw quietly suits Argentina more."
+    }
+  },
+  {
+    "id": "france-iraq",
+    "date": "2026-06-22",
+    "timeMsk": "00:00",
+    "title": {
+      "ru": "Франция — Ирак",
+      "en": "France — Iraq"
+    },
+    "cc": [
+      "fr",
+      "iq"
+    ],
+    "stage": {
+      "ru": "Группа I · тур 2",
+      "en": "Group I · MD 2"
+    },
+    "venue": {
+      "ru": "Lincoln Financial Field, Филадельфия",
+      "en": "Lincoln Financial Field, Philadelphia"
+    },
+    "weather": {
+      "ru": "Открытый стадион, жара ~30°C, к ночи риск гроз",
+      "en": "Open-air stadium, ~30°C heat, thunderstorm risk later"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Франция катит: 3:1 Сенегалу, Мбаппе в ударе. Ираку, который горел Норвегии 1:4, нужна только победа — но он умеет лишь садиться в глухой блок. В Филадельфии жара и грозы.",
+      "en": "France are rolling: 3:1 past Senegal, Mbappé firing. Iraq, hammered 4:1 by Norway, need only a win — but all they know is to sit deep. Heat and storms loom over Philadelphia."
+    }
+  },
+  {
+    "id": "norway-senegal",
+    "date": "2026-06-22",
+    "timeMsk": "03:00",
+    "title": {
+      "ru": "Норвегия — Сенегал",
+      "en": "Norway — Senegal"
+    },
+    "cc": [
+      "no",
+      "sn"
+    ],
+    "stage": {
+      "ru": "Группа I · тур 2",
+      "en": "Group I · MD 2"
+    },
+    "venue": {
+      "ru": "MetLife Stadium, Ист-Резерфорд",
+      "en": "MetLife Stadium, East Rutherford"
+    },
+    "weather": {
+      "ru": "Открытый стадион, ливень и грозы, ~19°C — тяжёлое поле",
+      "en": "Open-air stadium, heavy rain and storms, ~19°C — heavy pitch"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Холанд уже размялся дублем, и Норвегии хватит даже ничьей. А Сенегалу после осечки с Францией — только побеждать, иначе чемодан. В Нью-Джерси обещают ливень.",
+      "en": "Haaland is already warmed up with a brace, and a draw would even do for Norway. Senegal, after slipping up against France, must win or pack their bags. Heavy rain is forecast in New Jersey."
+    }
+  },
+  {
+    "id": "jordan-algeria",
+    "date": "2026-06-22",
+    "timeMsk": "06:00",
+    "title": {
+      "ru": "Иордания — Алжир",
+      "en": "Jordan — Algeria"
+    },
+    "cc": [
+      "jo",
+      "dz"
+    ],
+    "stage": {
+      "ru": "Группа J · тур 2",
+      "en": "Group J · MD 2"
+    },
+    "venue": {
+      "ru": "Levi's Stadium, Санта-Клара",
+      "en": "Levi's Stadium, Santa Clara"
+    },
+    "weather": {
+      "ru": "Открытый стадион, к ночи ~13°C, ясно — погода не фактор",
+      "en": "Open-air stadium, ~13°C by night, clear — weather not a factor"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Матч на выживание: обе проиграли первый тур, и проигравший почти наверняка едет домой. У Алжира состав глубже и Махрез наготове, у Иордании — дырявая оборона и характер Олвана.",
+      "en": "A survival match: both lost their openers, and the loser is all but going home. Algeria have the deeper squad with Mahrez ready; Jordan have a leaky defence and Olwan's grit."
+    }
   }
 ]

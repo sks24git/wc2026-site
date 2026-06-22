@@ -4692,5 +4692,161 @@
       "ru": "✗ Система мертва. Испания 4:0 ✓, Бельгия 2:1+ ✗ (0:0), Уругвай 2:0 невозможен (2:1 к перерыву). Две мимо при одной зашедшей — максимум 2 из 4, нужно 3. Победа Египта в НЗ—Египте уже ничего не решает. Потеря 250 ₽.",
       "en": "✗ System dead. Spain 4:0 ✓, Belgium 2:1+ ✗ (0:0), Uruguay 2:0 impossible (2:1 at the break). Two misses against one hit — max 2 of 4, needs 3. An Egypt win in NZ—Egypt no longer matters. Loss of 250 ₽."
     }
+  },
+  {
+    "id": 173,
+    "match": {
+      "ru": "Аргентина — Австрия",
+      "en": "Argentina — Austria"
+    },
+    "matchId": "argentina-austria",
+    "date": "2026-06-22",
+    "bet": {
+      "ru": "Австрия забьёт (инд. тотал больше 0.5)",
+      "en": "Austria to score (team total over 0.5)"
+    },
+    "type": "ИТ",
+    "odds": 1.8,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Фейдим сухарь Аргентины. Австрия Рангника организованна и забивает — 3 гола в 1-м туре Иордании; рынок «Австрия не забьёт» ≈ монетка (1.95), а мы верим в гол. Аргентину победителем при 1.50 брать без value, поэтому заходим через гол андердога, а не исход.",
+      "en": "Fading an Argentina clean sheet. Rangnick's Austria are organised and score — 3 goals against Jordan in MD1; the market prices 'Austria fail to score' at ~coinflip (1.95), and we back the goal. Backing Argentina to win at 1.50 has no value, so we play the underdog goal, not the result."
+    }
+  },
+  {
+    "id": 174,
+    "match": {
+      "ru": "Франция — Ирак",
+      "en": "France — Iraq"
+    },
+    "matchId": "france-iraq",
+    "date": "2026-06-22",
+    "bet": {
+      "ru": "Победа Франции и тотал больше 3.5",
+      "en": "France win and over 3.5 goals"
+    },
+    "type": "Другое",
+    "odds": 2.0,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Атака Франции подтверждена (3:1 Сенегалу, Мбаппе в форме), а Ираку нужна ТОЛЬКО победа — придётся раскрыться, что откроет пространство под голы. Это не чистый разгром-хендикап против глухого блока (наш урок), а ставка на результативность вынужденно атакующего матча. Риск — ротация Дешама и жара/грозы в Филадельфии.",
+      "en": "France's attack is proven (3:1 over Senegal, Mbappé firing), and Iraq need ONLY a win — they'll have to open up, creating space for goals. This isn't a pure rout-handicap against a deep block (our lesson) but a bet on a forced-attacking game's goal output. Risk: Deschamps rotating plus heat/storms in Philadelphia."
+    }
+  },
+  {
+    "id": 175,
+    "match": {
+      "ru": "Норвегия — Сенегал",
+      "en": "Norway — Senegal"
+    },
+    "matchId": "norway-senegal",
+    "date": "2026-06-22",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.75,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Сенегал в режиме must-win раскроется (как против Франции, где забил и сыпался в контратаках), а у Норвегии Холанд (дубль в 1-м туре) и скоростные Нуса/Сёрлот добьют на контратаках. Голы с обеих сторон вероятны. Противовес — ливень и тяжёлое поле в Нью-Джерси могут сбить темп, поэтому зелёная, а не больше.",
+      "en": "Must-win Senegal will open up (as against France, where they scored and got picked off on the break), while Norway have Haaland (a brace in MD1) and pacey Nusa/Sørloth to punish on the counter. Goals at both ends look likely. Counterweight: heavy rain and a soggy pitch in New Jersey could slow it, hence green not bigger."
+    }
+  },
+  {
+    "id": 176,
+    "match": {
+      "ru": "Иордания — Алжир",
+      "en": "Jordan — Algeria"
+    },
+    "matchId": "jordan-algeria",
+    "date": "2026-06-22",
+    "bet": {
+      "ru": "Тотал больше 2.5",
+      "en": "Over 2.5 goals"
+    },
+    "type": "ТБ",
+    "odds": 1.96,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Оба must-win — ничья не спасает почти никого, значит играть в закрытый футбол нельзя, придётся идти вперёд. У Иордании дырявая оборона (3 поражения подряд с обилием пропущенных), у Алжира мощная тройка Гуири/Амура/Махрез. Риск — психология матча на вылет (рынок чуть дороже котирует низ), поэтому зелёная.",
+      "en": "Both must win — a draw saves almost nobody, so they can't play it safe and will have to go forward. Jordan have a leaky defence (three straight defeats conceding freely), Algeria a strong front three of Gouiri/Amoura/Mahrez. Risk: knockout-game nerves (the market prices the Under slightly shorter), hence green."
+    }
+  },
+  {
+    "id": 177,
+    "match": {
+      "ru": "Система 2/4 · точные счета",
+      "en": "System 2/4 · correct scores"
+    },
+    "date": "2026-06-22",
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
+    "type": "Система",
+    "odds": 8,
+    "tier": "red",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Аргентина — Австрия",
+          "en": "Argentina — Austria"
+        },
+        "p": {
+          "ru": "2:1 @9.00",
+          "en": "2:1 @9.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Франция — Ирак",
+          "en": "France — Iraq"
+        },
+        "p": {
+          "ru": "2:0 @7.00",
+          "en": "2:0 @7.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Норвегия — Сенегал",
+          "en": "Norway — Senegal"
+        },
+        "p": {
+          "ru": "2:1 @8.50",
+          "en": "2:1 @8.50"
+        }
+      },
+      {
+        "m": {
+          "ru": "Иордания — Алжир",
+          "en": "Jordan — Algeria"
+        },
+        "p": {
+          "ru": "1:2 @9.50",
+          "en": "1:2 @9.50"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Постоянная ставка тура — ТС 2/4 красным (наша традиция, всегда играем). Счета согласованы с ординарами: Аргентина дожимает, но Австрия забивает (2:1); Франция уверенно (2:0); Норвегия обыгрывает раскрывшийся Сенегал (2:1); Алжир сильнее дома у Иордании (1:2). Нужно ≥2 из 4. Эфф. кэф — при резолве.",
+      "en": "The matchday's standing bet — a red 2/4 correct-score system (our tradition, always played). Scores aligned with the singles: Argentina edge it but Austria score (2:1); France comfortable (2:0); Norway beat an open Senegal (2:1); Algeria the stronger side away at Jordan (1:2). Need at least 2 of 4. Effective odds at settlement."
+    }
   }
 ]
