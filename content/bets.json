@@ -5083,5 +5083,70 @@
         }
       }
     ]
+  },
+  {
+    "id": 185,
+    "match": {
+      "ru": "Система 2/4 · точные счета",
+      "en": "System 2/4 · correct scores"
+    },
+    "date": "2026-06-22",
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
+    "type": "Система",
+    "odds": 8,
+    "stake": 500,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Коронка Паши — чутьё на счёт (4 угаданных точных счёта за турнир). Система 2/4: нужно ≥2 из 4. Счета: ничьи 1:1 в обоих матчах на выживание/за первое место, разгром Франции 4:0 и результативная ничья 2:2 у Норвегии с Сенегалом. Кэфы счетов не присланы — эфф. кэф считаем при резолве по реальной выплате системы.",
+      "en": "Pasha's signature — a feel for scorelines (4 correct scores nailed this tournament). A 2/4 system: need at least 2 of 4. Scores: 1:1 draws in both the survival and top-spot games, a France 4:0 rout and a high-scoring 2:2 for Norway–Senegal. Score odds weren't provided — effective odds computed at settlement from the real system payout."
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Аргентина — Австрия",
+          "en": "Argentina — Austria"
+        },
+        "p": {
+          "ru": "1:1",
+          "en": "1:1"
+        }
+      },
+      {
+        "m": {
+          "ru": "Франция — Ирак",
+          "en": "France — Iraq"
+        },
+        "p": {
+          "ru": "4:0",
+          "en": "4:0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Норвегия — Сенегал",
+          "en": "Norway — Senegal"
+        },
+        "p": {
+          "ru": "2:2",
+          "en": "2:2"
+        }
+      },
+      {
+        "m": {
+          "ru": "Иордания — Алжир",
+          "en": "Jordan — Algeria"
+        },
+        "p": {
+          "ru": "1:1",
+          "en": "1:1"
+        }
+      }
+    ]
   }
 ]
