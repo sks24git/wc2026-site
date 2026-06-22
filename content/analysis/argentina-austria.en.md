@@ -18,4 +18,4 @@
 - 🟢 **Austria to score (team total over 0.5) @1.80** — a value gap: Austria score (3 in MD1), yet the market rates their clean-sheet-against at near a coinflip. Argentina will almost certainly score too, so the bet is effectively about a high-scoring favourite's game without having to call the result.
 - 🔴 In the 2/4 system — the **2:1** leg (Argentina edge it, Austria reply with a goal).
 
-**Pasha:** ⏳ awaiting his cards.
+**Pasha:** main — **Austria +1 handicap @2.05** (inside his accumulator of the day); hedge — **Argentina not to win (X2) @2.65**. His read: South America are off the boil, and without Messi's show Argentina created next to nothing against Algeria; Austria are discipline incarnate and won't give Messi any freedom. A draw is safe for both: it keeps Argentina top and lets them pick their playoff opponent in round 3. "Almost sure it'll be a draw — and then the handicap delivers the win." No real divergence with AI: both fade an Argentina clean-sheet rout.

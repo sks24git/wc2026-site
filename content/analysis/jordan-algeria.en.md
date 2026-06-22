@@ -21,4 +21,4 @@
 - 🔴 In the 2/4 system — the **1:2** leg (Algeria the stronger side, score away, Jordan reply).
 - 🔸 Algeria to win (~1.55) — below our 1.6 floor, not taken as a straight result.
 
-**Pasha:** ⏳ awaiting his cards.
+**Pasha:** main — **Jordan to score (team total over 0.5) @1.73**; hedge — **Jordan not to lose (1X) @2.47**. Algeria are favourites on paper, but enough to win to nil — or even to win at all? In the Arab Cup Jordan scored confidently against Egypt and, more tellingly, Morocco, and they breached Austria in MD1 — "they score in almost every match against decent opposition." "A Jordan goal against Algeria is more than realistic." Aligns with AI: both sides reckon Jordan are no mere bus-park and will score.

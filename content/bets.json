@@ -4871,5 +4871,125 @@
       "ru": "Экзотика дня, кэф снят живьём с линии Фонбета. Судья Славко Винчич валит карты в нервных играх (9 жёлтых + 1 красная в дерби Клубного ЧМ-2025), а матч — чистый плей-офф навылет: Алжир-фаворит давит, Иордания паркуется и идёт на тактические фолы и затяжку времени. Контр-сигнал — в 1-м туре обе команды отыграли почти без карточек, поэтому жёлтая, а не больше. Один ординар: карточные экспрессы — наша системная ошибка.",
       "en": "The day's exotic, odds taken live off the Fonbet board. Referee Slavko Vinčić piles up cards in nervy games (9 yellows + 1 red in a 2025 Club World Cup derby), and this is a straight knockout: favourite Algeria press, Jordan park the bus and resort to tactical fouls and time-wasting. Counter-signal — both teams were near-spotless in MD1, hence yellow not bigger. A single, not an acca: card accumulators are our documented mistake."
     }
+  },
+  {
+    "id": 179,
+    "match": {
+      "ru": "Экспресс · тур групп I и J (основной)",
+      "en": "Accumulator · groups I & J round (main)"
+    },
+    "date": "2026-06-22",
+    "bet": {
+      "ru": "Австрия +1, ИТ Франции больше 3, Сенегал не проиграет, ИТ Иордании больше 0.5",
+      "en": "Austria +1, France team total over 3, Senegal not to lose, Jordan team total over 0.5"
+    },
+    "type": "Экспресс",
+    "odds": 10.13,
+    "stake": 500,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Осторожный экспресс Паши: после вчерашнего тилта понижается в кэфах, ловит «отскоки на возвраты» через двойные шансы и индивидуальные тоталы. Логика: ничья удобна почти всем в этом туре, Франция всё равно полезет в голы через индивидуалистов, Иордания забивает почти всем. Нужны все 4 события.",
+      "en": "Pasha's cautious acca: after yesterday's tilt he's stepping down in odds, chasing 'bounce-backs' through double chances and team totals. Logic: a draw suits almost everyone this round, France will still go for goals through its individualists, Jordan score against almost anyone. All 4 legs must land."
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Аргентина — Австрия",
+          "en": "Argentina — Austria"
+        },
+        "p": {
+          "ru": "Фора Австрия +1 @2.05",
+          "en": "Handicap Austria +1 @2.05"
+        }
+      },
+      {
+        "m": {
+          "ru": "Франция — Ирак",
+          "en": "France — Iraq"
+        },
+        "p": {
+          "ru": "ИТ Франции больше 3.0 @1.69",
+          "en": "France team total over 3.0 @1.69"
+        }
+      },
+      {
+        "m": {
+          "ru": "Норвегия — Сенегал",
+          "en": "Norway — Senegal"
+        },
+        "p": {
+          "ru": "Сенегал не проиграет (Х2) @1.69",
+          "en": "Senegal not to lose (X2) @1.69"
+        }
+      },
+      {
+        "m": {
+          "ru": "Иордания — Алжир",
+          "en": "Jordan — Algeria"
+        },
+        "p": {
+          "ru": "ИТ Иордании больше 0.5 @1.73",
+          "en": "Jordan team total over 0.5 @1.73"
+        }
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "match": {
+      "ru": "Экспресс · тур групп I и J (аутсайдеры)",
+      "en": "Accumulator · groups I & J round (underdogs)"
+    },
+    "date": "2026-06-22",
+    "bet": {
+      "ru": "Победа Сенегала, Иордания не проиграет, Аргентина не выиграет",
+      "en": "Senegal win, Jordan not to lose, Argentina not to win"
+    },
+    "type": "Экспресс",
+    "odds": 22.26,
+    "stake": 500,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "«Красный персик» Паши на день аутсайдеров. По духу — страховка на ничьи, но смелее: Аргентину тащит к ничьей-или-Австрии, Иорданию — к 1Х, и вовсе берёт чистую победу Сенегала. Нужны все 3 события.",
+      "en": "Pasha's 'red peach' for an underdog day. In spirit a draw-hedge, but bolder: Argentina to draw-or-Austria, Jordan 1X, and outright Senegal to win. All 3 legs must land."
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Норвегия — Сенегал",
+          "en": "Norway — Senegal"
+        },
+        "p": {
+          "ru": "Победа Сенегала @3.40",
+          "en": "Senegal win @3.40"
+        }
+      },
+      {
+        "m": {
+          "ru": "Иордания — Алжир",
+          "en": "Jordan — Algeria"
+        },
+        "p": {
+          "ru": "Иордания не проиграет (1Х) @2.47",
+          "en": "Jordan not to lose (1X) @2.47"
+        }
+      },
+      {
+        "m": {
+          "ru": "Аргентина — Австрия",
+          "en": "Argentina — Austria"
+        },
+        "p": {
+          "ru": "Аргентина не выиграет (Х2) @2.65",
+          "en": "Argentina not to win (X2) @2.65"
+        }
+      }
+    ]
   }
 ]
