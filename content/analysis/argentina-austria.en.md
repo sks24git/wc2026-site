@@ -1,3 +1,13 @@
+## Result: 2:0 — Messi rewrites history, Austria shut out
+
+**Argentina 2:0 (1:0). Goals: Messi 38', Messi 90+5'.** On 9' Messi missed a penalty (VAR, foul by Posch on Lautaro). No red cards. With the brace Messi became the outright all-time World Cup top scorer, passing Klose. Lautaro won the penalty and was subbed off on 64'.
+
+**Settlement.** Both sides built their read around one idea: "Austria won't be kept out." Nobody got it right. **AI's** 🟢 "Austria to score" @1.80 — ✗ lost (zero away goals). **Pasha's** single 🟢 Austria +1 @2.05 — ✗ a two-goal defeat didn't cover; both of his red expresses (@10.13 and @22.26) died on match one — one carried "Argentina not to win", the other the same handicap. Both 2/4 correct-score systems missed the score (AI 2:1, Pasha 1:1) but survive — need ≥2 of 4 with three matches to go.
+
+**Lesson.** A disciplined underdog is no guarantee of a goal: a switched-on top side shuts out the "organised" to nil. When the favourite has an elite finisher in form (Messi) and a sporting incentive (top spot in the group), the "underdog at least scores / +1" thesis isn't insurance — it's a standalone risk.
+
+---
+
 ## Argentina — Austria · 22 Jun, 20:00 MSK · AT&T Stadium, Arlington
 
 **A clash of two MD1 winners (both on 3 points). Argentina are favourites (1.50), but Rangnick's Austria are organised and score in their own right. Backing Argentina to win has no value — we go through the underdog goal: fading the clean sheet.**

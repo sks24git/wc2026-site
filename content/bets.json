@@ -4530,7 +4530,7 @@
       "en": "Uruguay to win to nil"
     },
     "type": "Другое",
-    "odds": 2.0,
+    "odds": 2,
     "tier": "green",
     "side": "Паша",
     "contest": true,
@@ -4710,10 +4710,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Фейдим сухарь Аргентины. Австрия Рангника организованна и забивает — 3 гола в 1-м туре Иордании; рынок «Австрия не забьёт» ≈ монетка (1.95), а мы верим в гол. Аргентину победителем при 1.50 брать без value, поэтому заходим через гол андердога, а не исход.",
-      "en": "Fading an Argentina clean sheet. Rangnick's Austria are organised and score — 3 goals against Jordan in MD1; the market prices 'Austria fail to score' at ~coinflip (1.95), and we back the goal. Backing Argentina to win at 1.50 has no value, so we play the underdog goal, not the result."
+      "ru": "✗ Австрия не забила — Аргентина выиграла 2:0 на ноль. Тот самый сухарь, который мы фейдили, и случился.",
+      "en": "✗ Austria failed to score — Argentina won 2:0 to nil. The very clean sheet we faded came true."
     }
   },
   {
@@ -4729,7 +4729,7 @@
       "en": "France win and over 3.5 goals"
     },
     "type": "Другое",
-    "odds": 2.0,
+    "odds": 2,
     "tier": "green",
     "side": "AI",
     "contest": true,
@@ -4845,8 +4845,8 @@
       }
     ],
     "note": {
-      "ru": "Постоянная ставка тура — ТС 2/4 красным (наша традиция, всегда играем). Счета согласованы с ординарами: Аргентина дожимает, но Австрия забивает (2:1); Франция громит раскрывшийся Ирак (3:1 — согласовано с нашим ТБ 3.5); Норвегия обыгрывает раскрывшийся Сенегал (2:1); Алжир сильнее в гостях у Иордании (1:2). Нужно ≥2 из 4. Эфф. кэф — при резолве.",
-      "en": "The matchday's standing bet — a red 2/4 correct-score system (our tradition, always played). Scores aligned with the singles: Argentina edge it but Austria score (2:1); France rout an opened-up Iraq (3:1 — consistent with our Over 3.5); Norway beat an open Senegal (2:1); Algeria the stronger side away at Jordan (1:2). Need at least 2 of 4. Effective odds at settlement."
+      "ru": "Аргентина — Австрия 2:1 — мимо (по факту 2:0). Система жива: осталось 3 счёта, нужно ≥2 из 4. Эфф. кэф — при резолве.",
+      "en": "Argentina — Austria 2:1 — missed (actual 2:0). System alive: 3 scores left, need ≥2 of 4. Effective odds at settlement."
     }
   },
   {
@@ -4889,10 +4889,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Южная Америка не в форме, без перформанса Месси Аргентина против Алжира мало создала; Австрия дисциплиной свяжет Месси. Ничья надёжна для обеих (аргентинцам сохраняет 1-е место и выбор соперника в плей-офф) — «почти уверен в ничьей, тогда фора и даст победу». С AI согласие по духу: оба фейдят сухой разгром Аргентины.",
-      "en": "South America are off the boil, and without Messi's show Argentina created little against Algeria; Austria's discipline will tie Messi down. A draw is safe for both (it keeps Argentina top with their pick of playoff opponent) — 'almost sure it'll be a draw, and then the handicap delivers the win.' Aligns in spirit with AI: both fade an Argentina clean-sheet rout."
+      "ru": "✗ Аргентина победила в 2 мяча (2:0) — фора Австрия +1 не спасла.",
+      "en": "✗ Argentina won by two (2:0) — Austria +1 didn’t cover."
     }
   },
   {
@@ -4981,10 +4981,10 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "«Красный персик» Паши на день аутсайдеров. По духу — страховка на ничьи, но смелее: Аргентину тащит к ничьей-или-Австрии, Иорданию — к 1Х, и вовсе берёт чистую победу Сенегала. Нужны все 3 события.",
-      "en": "Pasha's 'red peach' for an underdog day. In spirit a draw-hedge, but bolder: Argentina to draw-or-Austria, Jordan 1X, and outright Senegal to win. All 3 legs must land."
+      "ru": "✗ Мёртв уже на первом матче: Аргентина выиграла 2:0, позиция «Аргентина не выиграет» сгорела. Нужны были все три.",
+      "en": "✗ Dead on match one: Argentina won 2:0, the «Argentina not to win» leg failed. All three were required."
     },
     "legs": [
       {
@@ -5036,10 +5036,10 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Те же четыре ординара Паши, собранные в один экспресс (его реальный билет на 500 ₽, @10.13). Осторожный вариант основного прогноза: двойные шансы и индивидуальные тоталы. Нужны все 4 события.",
-      "en": "Pasha's same four singles bundled into one accumulator (his real 500 ₽ ticket, @10.13). The cautious form of his main read: double chances and team totals. All 4 legs must land."
+      "ru": "✗ Мёртв уже на первом матче: фора Австрия +1 не зашла (2:0). Нужны были все четыре.",
+      "en": "✗ Dead on match one: Austria +1 didn’t land (2:0). All four were required."
     },
     "legs": [
       {
@@ -5103,8 +5103,8 @@
     "contest": true,
     "status": "pending",
     "note": {
-      "ru": "Коронка Паши — чутьё на счёт (4 угаданных точных счёта за турнир). Система 2/4: нужно ≥2 из 4. Счета: ничьи 1:1 в обоих матчах на выживание/за первое место, разгром Франции 4:0 и результативная ничья 2:2 у Норвегии с Сенегалом. Кэфы счетов не присланы — эфф. кэф считаем при резолве по реальной выплате системы.",
-      "en": "Pasha's signature — a feel for scorelines (4 correct scores nailed this tournament). A 2/4 system: need at least 2 of 4. Scores: 1:1 draws in both the survival and top-spot games, a France 4:0 rout and a high-scoring 2:2 for Norway–Senegal. Score odds weren't provided — effective odds computed at settlement from the real system payout."
+      "ru": "Аргентина — Австрия 1:1 — мимо (по факту 2:0). Система жива: осталось 3 счёта, нужно ≥2 из 4. Эфф. кэф — при резолве.",
+      "en": "Argentina — Austria 1:1 — missed (actual 2:0). System alive: 3 scores left, need ≥2 of 4. Effective odds at settlement."
     },
     "legs": [
       {
