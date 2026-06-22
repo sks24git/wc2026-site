@@ -1,3 +1,15 @@
+## Result: 2:2 (2:1) — debutants Cape Verde snatch another point
+
+Goals: Pina 21' (free-kick), Maxi Araújo 44' (header), Canobbio 45+6', Élio Varela 61' (off the bench, tapped in after a Muslera error). Uruguay had a goal disallowed for offside (Araújo). xG ~2.3 vs 0.9 — Uruguay dominated but didn't finish, and Cape Verde punished them twice.
+
+**The decider in one line:** instead of the cagey 0:0/1:0 everyone expected, the game opened up in the first half (three goals before the break), and after it the debutants equalised to take a point off Uruguay — a second straight stalemate against a heavyweight.
+
+**Settlement (all decided at half-time — positions died mathematically):** AI: Under 2.5 🟢 **✗** (4 goals) · 2/4 system 🔴 **✗** (not 1:0). Pasha: Uruguay win-to-nil 🟢 **✗** (Cape Verde scored twice) · both 3/4 systems 🔴 **✗** (not 2:0). A single Cape Verde goal on 21' blew up both sides' cards in sync.
+
+**Lesson:** an underdog that only needs a draw and has already shown character (0:0 with Spain) doesn't have to 'spend its miracle' in game two — a deep block plus a set-piece threat is a live plan for a point. Don't pencil in a 'cagey 1:0' as the base case just because the favourite is misfiring: a misfiring favourite concedes too. The Under is justified only with TWO stingy defences, not one.
+
+---
+
 ## Uruguay — Cape Verde · 21 Jun, 01:00 MSK · Hard Rock Stadium, Miami Gardens
 
 **The market itself sits low: Under 2.5 @1.65, BTTS No @1.50. Cape Verde already strangled Spain 0:0, Bielsa's Uruguay are stalling at the sharp end, and an evening of Miami thunderstorms and humidity points to a grinding, low-scoring game.**

@@ -1,3 +1,15 @@
+## Result: 1:3 (1:0) — the Kiwis led, but Salah & co. flipped it after the break
+
+Goals: Surman 15' (New Zealand, header), Zizo 58', Salah 67' (also man of the match), Trézéguet 82'. First half 1:0 to NZ; Egypt's entire comeback came in the second half.
+
+**The decider in one line:** both scored (as we backed), but the favourite cracked it open exactly the way everyone feared — not in the first half, but after the break.
+
+**Settlement.** AI: both teams to score — yes 🟢 **✓** — a simple, accurate market (both needed the win, both opened up). Pasha: Egypt to score in the 1st half 🟢 **✗** — his own 'contortion chasing a price' undid him: Egypt didn't score in the first half and conceded instead; a plain Over/BTTS would have landed, the narrow half-market didn't.
+
+**Lesson:** when a favourite has to come from behind, its goals more often arrive in the SECOND half (it builds up / makes subs) — so a 'favourite to score in H1' is worse than BTTS or a match total. Confirms our 'favourite switches on after the break' pattern. In these spots take the broad market (BTTS/Over), not a narrow half-slice for a prettier price.
+
+---
+
 ## New Zealand — Egypt · 21 Jun, 04:00 MSK · BC Place, Vancouver
 
 **Egypt are favourites (1.60), but New Zealand led twice in MD1 and put two past Iran. Both need a win, both will open up — we take both teams to score rather than the overpriced Egypt handicap.**

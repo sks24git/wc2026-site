@@ -4336,10 +4336,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Новая Зеландия результативна (дубль Джаста, дважды вела в счёте у Ирана), у Египта — Салах и Мармуш. Обеим нужна победа → обе пойдут вперёд, шансы на гол с обеих сторон высоки.",
-      "en": "New Zealand are dangerous (a Just brace, led Iran twice), Egypt have Salah and Marmoush. Both need the win → both will push, so goals at each end look likely."
+      "ru": "✓ Ровно как читали: Новая Зеландия открыла счёт (Сурман 15'), а Египет ответил во втором тайме (Зизо, Салах, Трезеге) — 1:3, забили обе. Простой и точный рынок: обеим нужна была победа, обе шли вперёд. Закрыли тур зелёной — тогда как Пашин узкий «Египет в 1Т» на том же матче сгорел.",
+      "en": "✓ Exactly as read: New Zealand opened the scoring (Surman 15'), Egypt answered after the break (Zizo, Salah, Trézéguet) — 1:3, both scored. A simple, clean market: both needed the win, both pushed. We close the round with a green — while Pasha's narrow 'Egypt in the 1st half' on the same game burned."
     }
   },
   {
@@ -4557,10 +4557,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Паша сам зовёт это «очередным извращением в поисках кэфа посимпатичнее» — вместо простого тотал больше 1.5 берёт гол Египта именно в первом тайме. Логика та же: в группе, где у всех по очку, лидеру нельзя откладывать на второй тайм. Два гола Новой Зеландии в первом туре смущают, поэтому не ИТ матча, а ранний гол Египта.",
-      "en": "Pasha himself calls it 'another contortion chasing a prettier price' — instead of a plain Over he takes Egypt to score specifically in the first half. Same logic: in a group where everyone has a point, a favourite can't leave it for the second half. New Zealand's two goals in round one unsettle him, so it's an early Egypt goal rather than a match total."
+      "ru": "✗ То самое «извращение в поисках кэфа» и подвело: Египет в первом тайме НЕ забил — наоборот, на 15' повела Новая Зеландия (Сурман). Камбэк Египта пришёл во втором тайме (Зизо 58', Салах 67', Трезеге 82' — 1:3). Простой тотал/ОЗ зашёл бы, а узкий «гол в 1Т» — нет. Наша обе забьют — да на этом же матче ✓.",
+      "en": "✗ That 'contortion chasing a price' is exactly what undid it: Egypt did NOT score in the first half — instead New Zealand led on 15' (Surman). Egypt's comeback came after the break (Zizo 58', Salah 67', Trézéguet 82' — 1:3). A plain Over/BTTS would have landed; the narrow '1st-half goal' didn't. Our BTTS-yes on the same game ✓."
     }
   },
   {
