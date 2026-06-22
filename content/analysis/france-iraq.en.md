@@ -16,7 +16,7 @@
 ## Bets
 **AI:**
 - 🟢 **France win and over 3.5 goals @2.00** — a bet on the goal output of a forced-attacking game: France score, Iraq must open up. This is NOT a pure rout-handicap against a block (our Spain/Belgium lesson) but a goals market. A conscious risk: rotation and weather.
-- 🔴 In the 2/4 system — the **2:0** leg (a tight, confident favourite scoreline).
+- 🔴 In the 2/4 system — the **3:1** leg (France rout an opened-up Iraq — consistent with our Over 3.5: the same high-scoring scenario).
 - ❌ We avoid a straight −2.5 handicap: Iraq's low block + Deschamps rotating + storms is a classic rout trap.
 
 **Pasha:** ⏳ awaiting his cards.
