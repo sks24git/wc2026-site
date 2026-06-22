@@ -4875,67 +4875,94 @@
   {
     "id": 179,
     "match": {
-      "ru": "Экспресс · тур групп I и J (основной)",
-      "en": "Accumulator · groups I & J round (main)"
+      "ru": "Аргентина — Австрия",
+      "en": "Argentina — Austria"
     },
+    "matchId": "argentina-austria",
     "date": "2026-06-22",
     "bet": {
-      "ru": "Австрия +1, ИТ Франции больше 3, Сенегал не проиграет, ИТ Иордании больше 0.5",
-      "en": "Austria +1, France team total over 3, Senegal not to lose, Jordan team total over 0.5"
+      "ru": "Фора Австрия +1",
+      "en": "Handicap Austria +1"
     },
-    "type": "Экспресс",
-    "odds": 10.13,
-    "stake": 500,
-    "tier": "red",
+    "type": "АФ",
+    "odds": 2.05,
+    "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "pending",
     "note": {
-      "ru": "Осторожный экспресс Паши: после вчерашнего тилта понижается в кэфах, ловит «отскоки на возвраты» через двойные шансы и индивидуальные тоталы. Логика: ничья удобна почти всем в этом туре, Франция всё равно полезет в голы через индивидуалистов, Иордания забивает почти всем. Нужны все 4 события.",
-      "en": "Pasha's cautious acca: after yesterday's tilt he's stepping down in odds, chasing 'bounce-backs' through double chances and team totals. Logic: a draw suits almost everyone this round, France will still go for goals through its individualists, Jordan score against almost anyone. All 4 legs must land."
+      "ru": "Южная Америка не в форме, без перформанса Месси Аргентина против Алжира мало создала; Австрия дисциплиной свяжет Месси. Ничья надёжна для обеих (аргентинцам сохраняет 1-е место и выбор соперника в плей-офф) — «почти уверен в ничьей, тогда фора и даст победу». С AI согласие по духу: оба фейдят сухой разгром Аргентины.",
+      "en": "South America are off the boil, and without Messi's show Argentina created little against Algeria; Austria's discipline will tie Messi down. A draw is safe for both (it keeps Argentina top with their pick of playoff opponent) — 'almost sure it'll be a draw, and then the handicap delivers the win.' Aligns in spirit with AI: both fade an Argentina clean-sheet rout."
+    }
+  },
+  {
+    "id": 181,
+    "match": {
+      "ru": "Франция — Ирак",
+      "en": "France — Iraq"
     },
-    "legs": [
-      {
-        "m": {
-          "ru": "Аргентина — Австрия",
-          "en": "Argentina — Austria"
-        },
-        "p": {
-          "ru": "Фора Австрия +1 @2.05",
-          "en": "Handicap Austria +1 @2.05"
-        }
-      },
-      {
-        "m": {
-          "ru": "Франция — Ирак",
-          "en": "France — Iraq"
-        },
-        "p": {
-          "ru": "ИТ Франции больше 3.0 @1.69",
-          "en": "France team total over 3.0 @1.69"
-        }
-      },
-      {
-        "m": {
-          "ru": "Норвегия — Сенегал",
-          "en": "Norway — Senegal"
-        },
-        "p": {
-          "ru": "Сенегал не проиграет (Х2) @1.69",
-          "en": "Senegal not to lose (X2) @1.69"
-        }
-      },
-      {
-        "m": {
-          "ru": "Иордания — Алжир",
-          "en": "Jordan — Algeria"
-        },
-        "p": {
-          "ru": "ИТ Иордании больше 0.5 @1.73",
-          "en": "Jordan team total over 0.5 @1.73"
-        }
-      }
-    ]
+    "matchId": "france-iraq",
+    "date": "2026-06-22",
+    "bet": {
+      "ru": "Индивидуальный тотал Франции больше 3.0",
+      "en": "France team total over 3.0"
+    },
+    "type": "ИТ",
+    "odds": 1.69,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Матч ему не нравится, первое место Франции не критично (в плей-офф Германия), но «эгоисты-индивидуалы свою стату ценят выше команды — пойдут в голы». Ирак как соперника не рассматривает. Совпадает по духу с зелёным AI (П1 + ТБ 3.5).",
+      "en": "He doesn't like the match, top spot isn't critical for France (Germany looms in the playoffs), but 'egotist individualists value their own stats above the team — they'll go for goals.' He doesn't rate Iraq. Converges with AI's green (France win + Over 3.5)."
+    }
+  },
+  {
+    "id": 182,
+    "match": {
+      "ru": "Норвегия — Сенегал",
+      "en": "Norway — Senegal"
+    },
+    "matchId": "norway-senegal",
+    "date": "2026-06-22",
+    "bet": {
+      "ru": "Сенегал не проиграет (Х2)",
+      "en": "Senegal not to lose (X2)"
+    },
+    "type": "Х2",
+    "odds": 1.69,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Норвегию фаворитом не считает: Сенегал сдерживал Францию до вспышки Мбаппе и создавал моменты. Ждёт ничью — она удобна обеим (по 4 очка), а поражение Сенегала — почти вылет. Расхождение с AI: машина на «обе забьют», Паша на исход в пользу Сенегала/ничьей.",
+      "en": "He doesn't rate Norway as favourites: Senegal contained France until Mbappé's spark and created chances. He expects a draw — it suits both (4 points each), while a Senegal defeat is near-elimination. Divergence with AI: the machine backs BTTS, Pasha backs the outcome towards Senegal/the draw."
+    }
+  },
+  {
+    "id": 183,
+    "match": {
+      "ru": "Иордания — Алжир",
+      "en": "Jordan — Algeria"
+    },
+    "matchId": "jordan-algeria",
+    "date": "2026-06-22",
+    "bet": {
+      "ru": "Индивидуальный тотал Иордании больше 0.5 (гол Иордании)",
+      "en": "Jordan team total over 0.5 (Jordan to score)"
+    },
+    "type": "ИТ",
+    "odds": 1.73,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Алжир фаворит на бумаге, но выиграет ли всухую — да и вообще? Иордания уверенно забивала Египту и Марокко в Кубке арабских наций и распечатала Австрию в 1-м туре. «Гол Иордании более чем реален». Сходится с AI (ТБ 2.5 + карточки).",
+      "en": "Algeria are favourites on paper, but win to nil — or at all? Jordan scored confidently against Egypt and Morocco in the Arab Cup and breached Austria in MD1. 'A Jordan goal is more than realistic.' Aligns with AI (Over 2.5 + cards)."
+    }
   },
   {
     "id": 180,
@@ -4988,6 +5015,71 @@
         "p": {
           "ru": "Аргентина не выиграет (Х2) @2.65",
           "en": "Argentina not to win (X2) @2.65"
+        }
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "match": {
+      "ru": "Экспресс · тур групп I и J (основной)",
+      "en": "Accumulator · groups I & J round (main)"
+    },
+    "date": "2026-06-22",
+    "bet": {
+      "ru": "Австрия +1, ИТ Франции больше 3, Сенегал не проиграет, ИТ Иордании больше 0.5",
+      "en": "Austria +1, France team total over 3, Senegal not to lose, Jordan team total over 0.5"
+    },
+    "type": "Экспресс",
+    "odds": 10.13,
+    "stake": 500,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Те же четыре ординара Паши, собранные в один экспресс (его реальный билет на 500 ₽, @10.13). Осторожный вариант основного прогноза: двойные шансы и индивидуальные тоталы. Нужны все 4 события.",
+      "en": "Pasha's same four singles bundled into one accumulator (his real 500 ₽ ticket, @10.13). The cautious form of his main read: double chances and team totals. All 4 legs must land."
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Аргентина — Австрия",
+          "en": "Argentina — Austria"
+        },
+        "p": {
+          "ru": "Фора Австрия +1 @2.05",
+          "en": "Handicap Austria +1 @2.05"
+        }
+      },
+      {
+        "m": {
+          "ru": "Франция — Ирак",
+          "en": "France — Iraq"
+        },
+        "p": {
+          "ru": "ИТ Франции больше 3.0 @1.69",
+          "en": "France team total over 3.0 @1.69"
+        }
+      },
+      {
+        "m": {
+          "ru": "Норвегия — Сенегал",
+          "en": "Norway — Senegal"
+        },
+        "p": {
+          "ru": "Сенегал не проиграет (Х2) @1.69",
+          "en": "Senegal not to lose (X2) @1.69"
+        }
+      },
+      {
+        "m": {
+          "ru": "Иордания — Алжир",
+          "en": "Jordan — Algeria"
+        },
+        "p": {
+          "ru": "ИТ Иордании больше 0.5 @1.73",
+          "en": "Jordan team total over 0.5 @1.73"
         }
       }
     ]
