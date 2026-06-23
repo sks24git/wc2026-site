@@ -5151,107 +5151,176 @@
   },
   {
     "id": 186,
-    "match": { "ru": "Португалия — Узбекистан", "en": "Portugal — Uzbekistan" },
+    "match": {
+      "ru": "Португалия — Узбекистан",
+      "en": "Portugal — Uzbekistan"
+    },
     "matchId": "portugal-uzbekistan",
     "date": "2026-06-23",
-    "bet": { "ru": "Тотал меньше 3.5", "en": "Under 3.5 goals" },
+    "bet": {
+      "ru": "Тотал меньше 3.5",
+      "en": "Under 3.5 goals"
+    },
     "type": "ТМ",
     "odds": 1.65,
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
-    "note": { "ru": "Контролируемая победа Португалии без разгрома: позиционный фаворит против лучшего автобуса Азии (сам в 1-м туре дал всего 0.64 xG). Форы фаворита на таком типе матча не берём. Кэф снят с Фонбета.", "en": "A controlled Portugal win without a rout: a positional favourite vs Asia's best bus (themselves only 0.64 xG in MD1). No favourite handicap on this match type. Odds from Fonbet." }
+    "status": "lose",
+    "note": {
+      "ru": "✗ LOSE (−3000): 5:0 — пять голов, ТМ 3.5 разорван. Рубен Диаш вернулся и оборона держалась в 1Т (3:0), но Узбекистан в режиме must-win раскрылся и поплыл — ровно сигнал «ships when chasing» (1:3 Колумбии), который мы недооценили на фоне возвращения Диаша. Роналду дубль, Нуну Мендеш, автогол, Леау.",
+      "en": "✗ LOSE (−3000): 5:0 — five goals, Under 3.5 blown apart. Rúben Dias returned and the defence held in the first half (3:0), but a must-win Uzbekistan opened up and capsized — exactly the 'ships when chasing' signal (1:3 to Colombia) we underweighted after Dias came back. Ronaldo brace, Nuno Mendes, own goal, Leão."
+    }
   },
   {
     "id": 187,
-    "match": { "ru": "Англия — Гана", "en": "England — Ghana" },
+    "match": {
+      "ru": "Англия — Гана",
+      "en": "England — Ghana"
+    },
     "matchId": "england-ghana",
     "date": "2026-06-23",
-    "bet": { "ru": "Фора Англии −1.5", "en": "England −1.5 handicap" },
+    "bet": {
+      "ru": "Фора Англии −1.5",
+      "en": "England −1.5 handicap"
+    },
     "type": "АФ",
-    "odds": 1.60,
+    "odds": 1.6,
     "tier": "green",
     "side": "AI",
     "contest": true,
     "status": "pending",
-    "note": { "ru": "Разгромный коридор на правильном типе фаворита: вертикальная Англия (2.82 xG в 1-м туре) против выбитой Ганы (без Кудуса/Салису) с запасным вратарём Асаре. Кэф с Фонбета.", "en": "Rout corridor on the right favourite type: a vertical England (2.82 xG in MD1) vs a gutted Ghana (no Kudus/Salisu) with backup keeper Asare. Odds from Fonbet." }
+    "note": {
+      "ru": "Разгромный коридор на правильном типе фаворита: вертикальная Англия (2.82 xG в 1-м туре) против выбитой Ганы (без Кудуса/Салису) с запасным вратарём Асаре. Кэф с Фонбета.",
+      "en": "Rout corridor on the right favourite type: a vertical England (2.82 xG in MD1) vs a gutted Ghana (no Kudus/Salisu) with backup keeper Asare. Odds from Fonbet."
+    }
   },
   {
     "id": 188,
-    "match": { "ru": "Панама — Хорватия", "en": "Panama — Croatia" },
+    "match": {
+      "ru": "Панама — Хорватия",
+      "en": "Panama — Croatia"
+    },
     "matchId": "panama-croatia",
     "date": "2026-06-23",
-    "bet": { "ru": "Фора Панамы +1.5", "en": "Panama +1.5 handicap" },
+    "bet": {
+      "ru": "Фора Панамы +1.5",
+      "en": "Panama +1.5 handicap"
+    },
     "type": "АФ",
-    "odds": 1.60,
+    "odds": 1.6,
     "tier": "green",
     "side": "AI",
     "contest": true,
     "status": "pending",
-    "note": { "ru": "Хорватия побеждает в 2+ мяча лишь в ~34% (модели): дырявая оборона (6 матчей без сухаря), нет чистой девятки, медленный старт. Панама конкурентоспособна на контратаке. Кэф с Фонбета.", "en": "Croatia win by 2+ only ~34% (models): leaky defence (6 games conceding), no clean striker, slow starters. Panama stay competitive on the counter. Odds from Fonbet." }
+    "note": {
+      "ru": "Хорватия побеждает в 2+ мяча лишь в ~34% (модели): дырявая оборона (6 матчей без сухаря), нет чистой девятки, медленный старт. Панама конкурентоспособна на контратаке. Кэф с Фонбета.",
+      "en": "Croatia win by 2+ only ~34% (models): leaky defence (6 games conceding), no clean striker, slow starters. Panama stay competitive on the counter. Odds from Fonbet."
+    }
   },
   {
     "id": 189,
-    "match": { "ru": "Колумбия — ДР Конго", "en": "Colombia — DR Congo" },
+    "match": {
+      "ru": "Колумбия — ДР Конго",
+      "en": "Colombia — DR Congo"
+    },
     "matchId": "colombia-drcongo",
     "date": "2026-06-23",
-    "bet": { "ru": "Тотал меньше 2.5", "en": "Under 2.5 goals" },
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5 goals"
+    },
     "type": "ТМ",
-    "odds": 1.70,
+    "odds": 1.7,
     "tier": "green",
     "side": "AI",
     "contest": true,
     "status": "pending",
-    "note": { "ru": "Низовой коридор: элитный блок ДР Конго (при Десабре не проигрывал больше чем в мяч) + высота 1670 м + вечерний дождь душат темп. Кэф с Фонбета.", "en": "Low-scoring corridor: DR Congo's elite block (never lost by 2+ under Desabre) + 1670 m altitude + an evening downpour choke the tempo. Odds from Fonbet." }
+    "note": {
+      "ru": "Низовой коридор: элитный блок ДР Конго (при Десабре не проигрывал больше чем в мяч) + высота 1670 м + вечерний дождь душат темп. Кэф с Фонбета.",
+      "en": "Low-scoring corridor: DR Congo's elite block (never lost by 2+ under Desabre) + 1670 m altitude + an evening downpour choke the tempo. Odds from Fonbet."
+    }
   },
   {
     "id": 190,
-    "match": { "ru": "Англия — Гана", "en": "England — Ghana" },
+    "match": {
+      "ru": "Англия — Гана",
+      "en": "England — Ghana"
+    },
     "matchId": "england-ghana",
     "date": "2026-06-23",
-    "bet": { "ru": "Индивидуальный тотал Англии больше 2.5", "en": "England team total over 2.5" },
+    "bet": {
+      "ru": "Индивидуальный тотал Англии больше 2.5",
+      "en": "England team total over 2.5"
+    },
     "type": "ИТ",
-    "odds": 2.00,
+    "odds": 2.0,
     "tier": "yellow",
     "side": "AI",
     "contest": true,
     "status": "pending",
-    "note": { "ru": "Англия забивает 3+: запасной вратарь Асаре, без Кудуса/Салису, тай-брейк по разнице мячей и «full gas» Тухеля. Производная разгромного коридора, синхронна со счётом 3:0. Кэф с Фонбета.", "en": "England to score 3+: backup keeper Asare, no Kudus/Salisu, the goal-difference tiebreaker and Tuchel's 'full gas.' A derivative of the rout corridor, synced with a 3:0 score. Odds from Fonbet." }
+    "note": {
+      "ru": "Англия забивает 3+: запасной вратарь Асаре, без Кудуса/Салису, тай-брейк по разнице мячей и «full gas» Тухеля. Производная разгромного коридора, синхронна со счётом 3:0. Кэф с Фонбета.",
+      "en": "England to score 3+: backup keeper Asare, no Kudus/Salisu, the goal-difference tiebreaker and Tuchel's 'full gas.' A derivative of the rout corridor, synced with a 3:0 score. Odds from Fonbet."
+    }
   },
   {
     "id": 191,
-    "match": { "ru": "Колумбия — ДР Конго", "en": "Colombia — DR Congo" },
+    "match": {
+      "ru": "Колумбия — ДР Конго",
+      "en": "Colombia — DR Congo"
+    },
     "matchId": "colombia-drcongo",
     "date": "2026-06-23",
-    "bet": { "ru": "Обе забьют — да", "en": "Both teams to score — yes" },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
     "type": "ОЗ",
-    "odds": 2.30,
+    "odds": 2.3,
     "tier": "yellow",
     "side": "AI",
     "contest": true,
     "status": "pending",
-    "note": { "ru": "BTTS-чек: Висса забивает топам со стандартов (Португалии головой), оборона Колумбии дырявая, Колумбия забьёт. Тугой 1:1 — пересечение с ТМ 2.5. Кэф с Фонбета.", "en": "BTTS check: Wissa scores against top sides off set pieces (a header vs Portugal), Colombia's defence is leaky, Colombia will score. A tight 1:1 overlaps with Under 2.5. Odds from Fonbet." }
+    "note": {
+      "ru": "BTTS-чек: Висса забивает топам со стандартов (Португалии головой), оборона Колумбии дырявая, Колумбия забьёт. Тугой 1:1 — пересечение с ТМ 2.5. Кэф с Фонбета.",
+      "en": "BTTS check: Wissa scores against top sides off set pieces (a header vs Portugal), Colombia's defence is leaky, Colombia will score. A tight 1:1 overlaps with Under 2.5. Odds from Fonbet."
+    }
   },
   {
     "id": 192,
-    "match": { "ru": "Панама — Хорватия", "en": "Panama — Croatia" },
+    "match": {
+      "ru": "Панама — Хорватия",
+      "en": "Panama — Croatia"
+    },
     "matchId": "panama-croatia",
     "date": "2026-06-23",
-    "bet": { "ru": "Победа Панамы", "en": "Panama to win" },
+    "bet": {
+      "ru": "Победа Панамы",
+      "en": "Panama to win"
+    },
     "type": "П1",
     "odds": 6.8,
     "tier": "red",
     "side": "AI",
     "contest": true,
     "status": "pending",
-    "note": { "ru": "⚡ Value дня: модели дают Панаме 19–22% против рыночных ~14% (+6…+8 п.п.). Высокая дисперсия — красным размером, отдельной позицией (урок Ганы: не удваивать форой+П2). Кэф с Фонбета.", "en": "⚡ Value of the day: models give Panama 19–22% vs the market's ~14% (+6…+8 pp). High variance — a red-sized single, separate (the Ghana lesson: don't double up handicap+win). Odds from Fonbet." }
+    "note": {
+      "ru": "⚡ Value дня: модели дают Панаме 19–22% против рыночных ~14% (+6…+8 п.п.). Высокая дисперсия — красным размером, отдельной позицией (урок Ганы: не удваивать форой+П2). Кэф с Фонбета.",
+      "en": "⚡ Value of the day: models give Panama 19–22% vs the market's ~14% (+6…+8 pp). High variance — a red-sized single, separate (the Ghana lesson: don't double up handicap+win). Odds from Fonbet."
+    }
   },
   {
     "id": 193,
-    "match": { "ru": "Система 2/4 · точные счета", "en": "System 2/4 · correct scores" },
+    "match": {
+      "ru": "Система 2/4 · точные счета",
+      "en": "System 2/4 · correct scores"
+    },
     "date": "2026-06-23",
-    "bet": { "ru": "точные счета", "en": "correct scores" },
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
     "type": "Система",
     "odds": 7.5,
     "stake": 500,
@@ -5261,29 +5330,62 @@
     "status": "pending",
     "legs": [
       {
-        "m": { "ru": "Португалия — Узбекистан", "en": "Portugal — Uzbekistan" },
-        "p": { "ru": "2:0 @5.5", "en": "2:0 @5.5" }
+        "m": {
+          "ru": "Португалия — Узбекистан",
+          "en": "Portugal — Uzbekistan"
+        },
+        "p": {
+          "ru": "2:0 @5.5",
+          "en": "2:0 @5.5"
+        }
       },
       {
-        "m": { "ru": "Англия — Гана", "en": "England — Ghana" },
-        "p": { "ru": "3:0 @6.0", "en": "3:0 @6.0" }
+        "m": {
+          "ru": "Англия — Гана",
+          "en": "England — Ghana"
+        },
+        "p": {
+          "ru": "3:0 @6.0",
+          "en": "3:0 @6.0"
+        }
       },
       {
-        "m": { "ru": "Панама — Хорватия", "en": "Panama — Croatia" },
-        "p": { "ru": "0:1 @7.5", "en": "0:1 @7.5" }
+        "m": {
+          "ru": "Панама — Хорватия",
+          "en": "Panama — Croatia"
+        },
+        "p": {
+          "ru": "0:1 @7.5",
+          "en": "0:1 @7.5"
+        }
       },
       {
-        "m": { "ru": "Колумбия — ДР Конго", "en": "Colombia — DR Congo" },
-        "p": { "ru": "1:0 @5.5", "en": "1:0 @5.5" }
+        "m": {
+          "ru": "Колумбия — ДР Конго",
+          "en": "Colombia — DR Congo"
+        },
+        "p": {
+          "ru": "1:0 @5.5",
+          "en": "1:0 @5.5"
+        }
       }
     ],
-    "note": { "ru": "Постоянка ТС 2/4: нужно ≥2 из 4. Счета согласованы со сценариями: контролируемая Португалия, разгром Англии, минимальная Хорватия, узкая Колумбия. Эфф. кэф при резолве.", "en": "Standing CS 2/4 system: need ≥2 of 4. Scores aligned with the scenarios: controlled Portugal, England rout, narrow Croatia, tight Colombia. Effective odds at settlement." }
+    "note": {
+      "ru": "Постоянка ТС 2/4: нужно ≥2 из 4. Счета согласованы со сценариями: контролируемая Португалия, разгром Англии, минимальная Хорватия, узкая Колумбия. Эфф. кэф при резолве.",
+      "en": "Standing CS 2/4 system: need ≥2 of 4. Scores aligned with the scenarios: controlled Portugal, England rout, narrow Croatia, tight Colombia. Effective odds at settlement."
+    }
   },
   {
     "id": 194,
-    "match": { "ru": "Система 2/3 · бомбардиры", "en": "System 2/3 · goalscorers" },
+    "match": {
+      "ru": "Система 2/3 · бомбардиры",
+      "en": "System 2/3 · goalscorers"
+    },
     "date": "2026-06-23",
-    "bet": { "ru": "забьёт в любое время", "en": "anytime goalscorer" },
+    "bet": {
+      "ru": "забьёт в любое время",
+      "en": "anytime goalscorer"
+    },
     "type": "Система",
     "odds": 7.5,
     "stake": 500,
@@ -5293,81 +5395,144 @@
     "status": "pending",
     "legs": [
       {
-        "m": { "ru": "Англия — Гана", "en": "England — Ghana" },
-        "p": { "ru": "Гордон забьёт @3.0", "en": "Gordon to score @3.0" }
+        "m": {
+          "ru": "Англия — Гана",
+          "en": "England — Ghana"
+        },
+        "p": {
+          "ru": "Гордон забьёт @3.0",
+          "en": "Gordon to score @3.0"
+        }
       },
       {
-        "m": { "ru": "Португалия — Узбекистан", "en": "Portugal — Uzbekistan" },
-        "p": { "ru": "Бруну Фернандеш забьёт @2.7", "en": "Bruno Fernandes to score @2.7" }
+        "m": {
+          "ru": "Португалия — Узбекистан",
+          "en": "Portugal — Uzbekistan"
+        },
+        "p": {
+          "ru": "Бруну Фернандеш забьёт @2.7",
+          "en": "Bruno Fernandes to score @2.7"
+        }
       },
       {
-        "m": { "ru": "Колумбия — ДР Конго", "en": "Colombia — DR Congo" },
-        "p": { "ru": "Луис Диас забьёт @2.7", "en": "Luis Díaz to score @2.7" }
+        "m": {
+          "ru": "Колумбия — ДР Конго",
+          "en": "Colombia — DR Congo"
+        },
+        "p": {
+          "ru": "Луис Диас забьёт @2.7",
+          "en": "Luis Díaz to score @2.7"
+        }
       }
     ],
-    "note": { "ru": "Система 2/3 на бомбардиров: нужно ≥2 из 3. Трое стартовых форвардов в голевых матчах, кэф каждого ≥1.9 (Кейн 1.70 и Роналду 1.60 коротки для системы). Кэфы «забьёт» сняты с Фонбета. Ставится до составов: на Фонбете в системе игрок, не вышедший в старте, идёт ВОЗВРАТОМ (кэф 1.0), а не проигрышем — риск ротации нейтрализован.", "en": "Goalscorer 2/3 system: need ≥2 of 3. Three starting forwards in goal-rich games, each priced ≥1.9 (Kane 1.70 and Ronaldo 1.60 too short for a system). Anytime odds snapped from Fonbet. Placed pre-lineup: in a Fonbet system a player not in the starting XI is RETURNED (odds 1.0), not lost — rotation risk is neutralised." }
+    "note": {
+      "ru": "Система 2/3 на бомбардиров: нужно ≥2 из 3. Трое стартовых форвардов в голевых матчах, кэф каждого ≥1.9 (Кейн 1.70 и Роналду 1.60 коротки для системы). Кэфы «забьёт» сняты с Фонбета. Ставится до составов: на Фонбете в системе игрок, не вышедший в старте, идёт ВОЗВРАТОМ (кэф 1.0), а не проигрышем — риск ротации нейтрализован.",
+      "en": "Goalscorer 2/3 system: need ≥2 of 3. Three starting forwards in goal-rich games, each priced ≥1.9 (Kane 1.70 and Ronaldo 1.60 too short for a system). Anytime odds snapped from Fonbet. Placed pre-lineup: in a Fonbet system a player not in the starting XI is RETURNED (odds 1.0), not lost — rotation risk is neutralised."
+    }
   },
   {
     "id": 195,
-    "match": { "ru": "Португалия — Узбекистан", "en": "Portugal — Uzbekistan" },
+    "match": {
+      "ru": "Португалия — Узбекистан",
+      "en": "Portugal — Uzbekistan"
+    },
     "matchId": "portugal-uzbekistan",
     "date": "2026-06-23",
-    "bet": { "ru": "Победа Португалии + тотал больше 3.5", "en": "Portugal win + over 3.5 goals" },
+    "bet": {
+      "ru": "Победа Португалии + тотал больше 3.5",
+      "en": "Portugal win + over 3.5 goals"
+    },
     "type": "Другое",
     "odds": 2.14,
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
-    "note": { "ru": "Паша: верит, что нормальные форварды Португалии забьют, а Узбекистан «фанат получать пенальти в свои ворота» → голы с обеих. Сам признаёт: взял самое ненадёжное, кэфы на фору/тотал занижены — надо было комбо с ТМ или просто ОЗ. «Снова буду жалеть, что не взял ОЗ».", "en": "Pasha: backs Portugal's proper forwards to score while Uzbekistan 'love conceding penalties' → goals both ends. He admits it's the least safe pick — the handicap/total odds are short, a combo with the Under or just BTTS was wiser. 'I'll regret not taking BTTS again.'" }
+    "status": "win",
+    "note": {
+      "ru": "✓ WIN (+3420): Португалия 5:0 — победа + ТБ 3.5 зашли с запасом. Паша забрал очный спор ТМ↔ТБ у машины: ставил на голы и на то, что Роналду наконец забьёт — и угадал (дубль Криша).",
+      "en": "✓ WIN (+3420): Portugal 5:0 — win + over 3.5 landed comfortably. Pasha took the Under-vs-Over duel off the machine: he backed goals and Ronaldo finally scoring — and nailed it (a Cris brace)."
+    }
   },
   {
     "id": 196,
-    "match": { "ru": "Англия — Гана", "en": "England — Ghana" },
+    "match": {
+      "ru": "Англия — Гана",
+      "en": "England — Ghana"
+    },
     "matchId": "england-ghana",
     "date": "2026-06-23",
-    "bet": { "ru": "Фора Англии −2", "en": "England −2 handicap" },
+    "bet": {
+      "ru": "Фора Англии −2",
+      "en": "England −2 handicap"
+    },
     "type": "АФ",
     "odds": 1.89,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "pending",
-    "note": { "ru": "Паша исторически терпеть не может примитивную Англию, но 1-й тур намекнул, что Тухель дал ей играть. Рискует поверить: если Англия наконец играет нормально, по составу обязана выносить Гану всухую с запасом. «Либо Англия так и останется дном, либо пора смотреть с уважением».", "en": "Pasha can't stand England's primitive style, but MD1 hinted Tuchel has let them play. He gambles that if England finally click, their squad should beat Ghana to nil with room to spare. 'Either England stay rubbish, or it's time to respect them.'" }
+    "note": {
+      "ru": "Паша исторически терпеть не может примитивную Англию, но 1-й тур намекнул, что Тухель дал ей играть. Рискует поверить: если Англия наконец играет нормально, по составу обязана выносить Гану всухую с запасом. «Либо Англия так и останется дном, либо пора смотреть с уважением».",
+      "en": "Pasha can't stand England's primitive style, but MD1 hinted Tuchel has let them play. He gambles that if England finally click, their squad should beat Ghana to nil with room to spare. 'Either England stay rubbish, or it's time to respect them.'"
+    }
   },
   {
     "id": 197,
-    "match": { "ru": "Панама — Хорватия", "en": "Panama — Croatia" },
+    "match": {
+      "ru": "Панама — Хорватия",
+      "en": "Panama — Croatia"
+    },
     "matchId": "panama-croatia",
     "date": "2026-06-23",
-    "bet": { "ru": "Обе забьют + тотал больше 2.5", "en": "Both teams to score + over 2.5" },
+    "bet": {
+      "ru": "Обе забьют + тотал больше 2.5",
+      "en": "Both teams to score + over 2.5"
+    },
     "type": "Другое",
     "odds": 2.12,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "pending",
-    "note": { "ru": "Паша: хорваты «не про футбол», спереди постарели, сзади дыры; Панаме терять нечего. Ждёт комедию ошибок с голами с обеих сторон — ничью 1:1 никто не удержит. Форы Хорватии не взял из принципа («рука не поднимается»).", "en": "Pasha: Croatia are 'not about football', aged up front and leaky at the back; Panama have nothing to lose. He expects a comedy of errors with goals both ends — neither side will hold a 1:1. Won't touch a Croatia handicap on principle." }
+    "note": {
+      "ru": "Паша: хорваты «не про футбол», спереди постарели, сзади дыры; Панаме терять нечего. Ждёт комедию ошибок с голами с обеих сторон — ничью 1:1 никто не удержит. Форы Хорватии не взял из принципа («рука не поднимается»).",
+      "en": "Pasha: Croatia are 'not about football', aged up front and leaky at the back; Panama have nothing to lose. He expects a comedy of errors with goals both ends — neither side will hold a 1:1. Won't touch a Croatia handicap on principle."
+    }
   },
   {
     "id": 198,
-    "match": { "ru": "Колумбия — ДР Конго", "en": "Colombia — DR Congo" },
+    "match": {
+      "ru": "Колумбия — ДР Конго",
+      "en": "Colombia — DR Congo"
+    },
     "matchId": "colombia-drcongo",
     "date": "2026-06-23",
-    "bet": { "ru": "Победа Колумбии + тотал меньше 3.5", "en": "Colombia win + under 3.5 goals" },
+    "bet": {
+      "ru": "Победа Колумбии + тотал меньше 3.5",
+      "en": "Colombia win + under 3.5 goals"
+    },
     "type": "Другое",
     "odds": 1.93,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "status": "pending",
-    "note": { "ru": "Паша: «бетонный» низовой исход, сухая победа Колумбии, страхуется через ТМ 3.5. Высота даёт фору Колумбии: «как Парагвай, спустившись с гор, отдал матч Африке, так здесь Африка, поднявшись в горы, вернёт должок Южной Америке».", "en": "Pasha: a 'rock-solid' low-scoring outcome, a clean Colombia win, hedged via Under 3.5. Altitude favours Colombia: 'as Paraguay coming down from altitude handed the game to Africa, here Africa climbing to altitude repays the debt to South America.'" }
+    "note": {
+      "ru": "Паша: «бетонный» низовой исход, сухая победа Колумбии, страхуется через ТМ 3.5. Высота даёт фору Колумбии: «как Парагвай, спустившись с гор, отдал матч Африке, так здесь Африка, поднявшись в горы, вернёт должок Южной Америке».",
+      "en": "Pasha: a 'rock-solid' low-scoring outcome, a clean Colombia win, hedged via Under 3.5. Altitude favours Colombia: 'as Paraguay coming down from altitude handed the game to Africa, here Africa climbing to altitude repays the debt to South America.'"
+    }
   },
   {
     "id": 199,
-    "match": { "ru": "Система 2/4 · точные счета", "en": "System 2/4 · correct scores" },
+    "match": {
+      "ru": "Система 2/4 · точные счета",
+      "en": "System 2/4 · correct scores"
+    },
     "date": "2026-06-23",
-    "bet": { "ru": "точные счета", "en": "correct scores" },
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
     "type": "Система",
     "odds": 8,
     "stake": 500,
@@ -5377,22 +5542,49 @@
     "status": "pending",
     "legs": [
       {
-        "m": { "ru": "Португалия — Узбекистан", "en": "Portugal — Uzbekistan" },
-        "p": { "ru": "3:1", "en": "3:1" }
+        "m": {
+          "ru": "Португалия — Узбекистан",
+          "en": "Portugal — Uzbekistan"
+        },
+        "p": {
+          "ru": "3:1",
+          "en": "3:1"
+        }
       },
       {
-        "m": { "ru": "Англия — Гана", "en": "England — Ghana" },
-        "p": { "ru": "3:0", "en": "3:0" }
+        "m": {
+          "ru": "Англия — Гана",
+          "en": "England — Ghana"
+        },
+        "p": {
+          "ru": "3:0",
+          "en": "3:0"
+        }
       },
       {
-        "m": { "ru": "Панама — Хорватия", "en": "Panama — Croatia" },
-        "p": { "ru": "1:2", "en": "1:2" }
+        "m": {
+          "ru": "Панама — Хорватия",
+          "en": "Panama — Croatia"
+        },
+        "p": {
+          "ru": "1:2",
+          "en": "1:2"
+        }
       },
       {
-        "m": { "ru": "Колумбия — ДР Конго", "en": "Colombia — DR Congo" },
-        "p": { "ru": "2:0", "en": "2:0" }
+        "m": {
+          "ru": "Колумбия — ДР Конго",
+          "en": "Colombia — DR Congo"
+        },
+        "p": {
+          "ru": "2:0",
+          "en": "2:0"
+        }
       }
     ],
-    "note": { "ru": "Коронка Паши — точные счета (2/4, нужно ≥2). Счета согласованы с его раскладом: голы Португалии, разгром Англии, результативная победа Хорватии, сухая Колумбия. Эфф. кэф при резолве.", "en": "Pasha's signature — correct scores (2/4, need ≥2). Aligned with his read: Portugal goals, an England rout, a high-scoring Croatia win, a clean Colombia. Effective odds at settlement." }
+    "note": {
+      "ru": "Коронка Паши — точные счета (2/4, нужно ≥2). Счета согласованы с его раскладом: голы Португалии, разгром Англии, результативная победа Хорватии, сухая Колумбия. Эфф. кэф при резолве.",
+      "en": "Pasha's signature — correct scores (2/4, need ≥2). Aligned with his read: Portugal goals, an England rout, a high-scoring Croatia win, a clean Colombia. Effective odds at settlement."
+    }
   }
 ]

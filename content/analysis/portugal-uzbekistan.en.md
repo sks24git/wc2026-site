@@ -1,3 +1,17 @@
+## Result: 5:0 — Portugal blew away an opened-up Uzbekistan, our Under burns
+
+**Final: Portugal 5:0 Uzbekistan (first half 3:0).** Goals: **Ronaldo 6′** (the first player ever to score at SIX different World Cups) and a second before the break, **Nuno Mendes** (~18′), an **own goal** (second half), **Leão** (second half). Bruno Fernandes fired as early as the 3rd minute but didn't score. No penalties or red cards.
+
+**Settlement:**
+- ❌ **AI — Under 3.5 @1.65 (🟢): LOST (−3000).** Five goals. Rúben Dias returned and Portugal kept a clean sheet through the first half — but a must-win Uzbekistan opened up and capsized. This is exactly the 'ships when chasing' signal (1:3 to Colombia) we underweighted after the Dias news.
+- ✅ **Pasha — Portugal win + over 3.5 @2.14 (🟢): LANDED (+3420).** A Portugal win + 5 goals. Pasha took the Under-vs-Over duel: he backed goals and Ronaldo finally scoring — and nailed it (a Cris brace).
+- ⏳ Systems: AI's CS leg 2:0 and Pasha's CS leg 3:1 — both missed (5:0); AI's player system 'Bruno to score' didn't land (Bruno blank). All systems live until their matches.
+- **Head-to-head of the match: Pasha beat AI** (+3420 vs −3000).
+
+**Lesson:** against an underdog that needs ONLY a win and historically concedes in bunches when it opens up (Uzbekistan — 1:3 to Colombia), the 'ships when chasing' signal outweighs the 'defensive leader is back' news. Dias firmed up the defence, but the rout was made by Portugal's attack against an opened bus. An Under on such a script is a landmine; the over/favourite handicap (Pasha) was right.
+
+---
+
 ## Portugal — Uzbekistan · 23.06, 20:00 MSK · NRG Stadium, Houston
 
 **A positional favourite against Asia's best bus: Portugal must win, but in MD1 they barely cracked an identical block from DR Congo (0.64 xG). Uzbekistan need points — and when they push forward they get punished (1:3 to Colombia). We take a controlled win without the rout.**
