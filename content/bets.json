@@ -5278,5 +5278,33 @@
       }
     ],
     "note": { "ru": "Постоянка ТС 2/4: нужно ≥2 из 4. Счета согласованы со сценариями: контролируемая Португалия, разгром Англии, минимальная Хорватия, узкая Колумбия. Эфф. кэф при резолве.", "en": "Standing CS 2/4 system: need ≥2 of 4. Scores aligned with the scenarios: controlled Portugal, England rout, narrow Croatia, tight Colombia. Effective odds at settlement." }
+  },
+  {
+    "id": 194,
+    "match": { "ru": "Система 2/3 · бомбардиры", "en": "System 2/3 · goalscorers" },
+    "date": "2026-06-23",
+    "bet": { "ru": "забьёт в любое время", "en": "anytime goalscorer" },
+    "type": "Система",
+    "odds": 7.5,
+    "stake": 500,
+    "tier": "red",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "legs": [
+      {
+        "m": { "ru": "Англия — Гана", "en": "England — Ghana" },
+        "p": { "ru": "Гордон забьёт @3.0", "en": "Gordon to score @3.0" }
+      },
+      {
+        "m": { "ru": "Португалия — Узбекистан", "en": "Portugal — Uzbekistan" },
+        "p": { "ru": "Бруну Фернандеш забьёт @2.7", "en": "Bruno Fernandes to score @2.7" }
+      },
+      {
+        "m": { "ru": "Колумбия — ДР Конго", "en": "Colombia — DR Congo" },
+        "p": { "ru": "Луис Диас забьёт @2.7", "en": "Luis Díaz to score @2.7" }
+      }
+    ],
+    "note": { "ru": "Система 2/3 на бомбардиров: нужно ≥2 из 3. Трое стартовых форвардов в голевых матчах, кэф каждого ≥1.9 (Кейн 1.70 и Роналду 1.60 коротки для системы). Кэфы «забьёт» сняты с Фонбета. Ставится до составов: на Фонбете в системе игрок, не вышедший в старте, идёт ВОЗВРАТОМ (кэф 1.0), а не проигрышем — риск ротации нейтрализован.", "en": "Goalscorer 2/3 system: need ≥2 of 3. Three starting forwards in goal-rich games, each priced ≥1.9 (Kane 1.70 and Ronaldo 1.60 too short for a system). Anytime odds snapped from Fonbet. Placed pre-lineup: in a Fonbet system a player not in the starting XI is RETURNED (odds 1.0), not lost — rotation risk is neutralised." }
   }
 ]
