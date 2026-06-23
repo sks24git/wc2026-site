@@ -5394,37 +5394,5 @@
       }
     ],
     "note": { "ru": "Коронка Паши — точные счета (2/4, нужно ≥2). Счета согласованы с его раскладом: голы Португалии, разгром Англии, результативная победа Хорватии, сухая Колумбия. Эфф. кэф при резолве.", "en": "Pasha's signature — correct scores (2/4, need ≥2). Aligned with his read: Portugal goals, an England rout, a high-scoring Croatia win, a clean Colombia. Effective odds at settlement." }
-  },
-  {
-    "id": 200,
-    "match": { "ru": "Экспресс · 4 матча K/L (обе забьют)", "en": "Accumulator · 4 K/L matches (BTTS)" },
-    "date": "2026-06-23",
-    "bet": { "ru": "ОЗ-да, ОЗ-нет, ОЗ-да, ОЗ-нет", "en": "BTTS-yes, BTTS-no, BTTS-yes, BTTS-no" },
-    "type": "Экспресс",
-    "odds": 11.7,
-    "stake": 500,
-    "tier": "red",
-    "side": "Паша",
-    "contest": true,
-    "status": "pending",
-    "legs": [
-      {
-        "m": { "ru": "Португалия — Узбекистан", "en": "Portugal — Uzbekistan" },
-        "p": { "ru": "обе забьют — да", "en": "BTTS — yes" }
-      },
-      {
-        "m": { "ru": "Англия — Гана", "en": "England — Ghana" },
-        "p": { "ru": "обе забьют — нет", "en": "BTTS — no" }
-      },
-      {
-        "m": { "ru": "Панама — Хорватия", "en": "Panama — Croatia" },
-        "p": { "ru": "обе забьют — да", "en": "BTTS — yes" }
-      },
-      {
-        "m": { "ru": "Колумбия — ДР Конго", "en": "Colombia — DR Congo" },
-        "p": { "ru": "обе забьют — нет", "en": "BTTS — no" }
-      }
-    ],
-    "note": { "ru": "Красный экспресс Паши из 4 ОЗ: голы у Португалии и Панамы, сухие исходы у Англии и Колумбии. Кэф ориентировочный (~11.7) по линии Фонбета. ⚡ На Колумбии прямой спор с AI: Паша ОЗ-нет, машина ОЗ-да. Любая осечка рушит экспресс.", "en": "Pasha's red 4-fold BTTS accumulator: goals in Portugal and Panama, no-BTTS in England and Colombia. Odds approximate (~11.7) off the Fonbet line. ⚡ A direct clash with AI on Colombia: Pasha BTTS-no, the machine BTTS-yes. One miss kills the accumulator." }
   }
 ]
