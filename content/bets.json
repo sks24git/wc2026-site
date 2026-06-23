@@ -5306,5 +5306,61 @@
       }
     ],
     "note": { "ru": "Система 2/3 на бомбардиров: нужно ≥2 из 3. Трое стартовых форвардов в голевых матчах, кэф каждого ≥1.9 (Кейн 1.70 и Роналду 1.60 коротки для системы). Кэфы «забьёт» сняты с Фонбета. Ставится до составов: на Фонбете в системе игрок, не вышедший в старте, идёт ВОЗВРАТОМ (кэф 1.0), а не проигрышем — риск ротации нейтрализован.", "en": "Goalscorer 2/3 system: need ≥2 of 3. Three starting forwards in goal-rich games, each priced ≥1.9 (Kane 1.70 and Ronaldo 1.60 too short for a system). Anytime odds snapped from Fonbet. Placed pre-lineup: in a Fonbet system a player not in the starting XI is RETURNED (odds 1.0), not lost — rotation risk is neutralised." }
+  },
+  {
+    "id": 195,
+    "match": { "ru": "Португалия — Узбекистан", "en": "Portugal — Uzbekistan" },
+    "matchId": "portugal-uzbekistan",
+    "date": "2026-06-23",
+    "bet": { "ru": "Победа Португалии + тотал больше 3.5", "en": "Portugal win + over 3.5 goals" },
+    "type": "Другое",
+    "odds": 2.14,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": { "ru": "Паша: верит, что нормальные форварды Португалии забьют, а Узбекистан «фанат получать пенальти в свои ворота» → голы с обеих. Сам признаёт: взял самое ненадёжное, кэфы на фору/тотал занижены — надо было комбо с ТМ или просто ОЗ. «Снова буду жалеть, что не взял ОЗ».", "en": "Pasha: backs Portugal's proper forwards to score while Uzbekistan 'love conceding penalties' → goals both ends. He admits it's the least safe pick — the handicap/total odds are short, a combo with the Under or just BTTS was wiser. 'I'll regret not taking BTTS again.'" }
+  },
+  {
+    "id": 196,
+    "match": { "ru": "Англия — Гана", "en": "England — Ghana" },
+    "matchId": "england-ghana",
+    "date": "2026-06-23",
+    "bet": { "ru": "Фора Англии −2", "en": "England −2 handicap" },
+    "type": "АФ",
+    "odds": 1.89,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": { "ru": "Паша исторически терпеть не может примитивную Англию, но 1-й тур намекнул, что Тухель дал ей играть. Рискует поверить: если Англия наконец играет нормально, по составу обязана выносить Гану всухую с запасом. «Либо Англия так и останется дном, либо пора смотреть с уважением».", "en": "Pasha can't stand England's primitive style, but MD1 hinted Tuchel has let them play. He gambles that if England finally click, their squad should beat Ghana to nil with room to spare. 'Either England stay rubbish, or it's time to respect them.'" }
+  },
+  {
+    "id": 197,
+    "match": { "ru": "Панама — Хорватия", "en": "Panama — Croatia" },
+    "matchId": "panama-croatia",
+    "date": "2026-06-23",
+    "bet": { "ru": "Обе забьют + тотал больше 2.5", "en": "Both teams to score + over 2.5" },
+    "type": "Другое",
+    "odds": 2.12,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": { "ru": "Паша: хорваты «не про футбол», спереди постарели, сзади дыры; Панаме терять нечего. Ждёт комедию ошибок с голами с обеих сторон — ничью 1:1 никто не удержит. Форы Хорватии не взял из принципа («рука не поднимается»).", "en": "Pasha: Croatia are 'not about football', aged up front and leaky at the back; Panama have nothing to lose. He expects a comedy of errors with goals both ends — neither side will hold a 1:1. Won't touch a Croatia handicap on principle." }
+  },
+  {
+    "id": 198,
+    "match": { "ru": "Колумбия — ДР Конго", "en": "Colombia — DR Congo" },
+    "matchId": "colombia-drcongo",
+    "date": "2026-06-23",
+    "bet": { "ru": "Победа Колумбии + тотал меньше 3.5", "en": "Colombia win + under 3.5 goals" },
+    "type": "Другое",
+    "odds": 1.93,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": { "ru": "Паша: «бетонный» низовой исход, сухая победа Колумбии, страхуется через ТМ 3.5. Высота даёт фору Колумбии: «как Парагвай, спустившись с гор, отдал матч Африке, так здесь Африка, поднявшись в горы, вернёт должок Южной Америке».", "en": "Pasha: a 'rock-solid' low-scoring outcome, a clean Colombia win, hedged via Under 3.5. Altitude favours Colombia: 'as Paraguay coming down from altitude handed the game to Africa, here Africa climbing to altitude repays the debt to South America.'" }
   }
 ]
