@@ -1274,5 +1274,125 @@
       "ru": "Матч на выживание: обе проиграли первый тур, и проигравший почти наверняка едет домой. У Алжира состав глубже и Махрез наготове, у Иордании — дырявая оборона и характер Олвана.",
       "en": "A survival match: both lost their openers, and the loser is all but going home. Algeria have the deeper squad with Mahrez ready; Jordan have a leaky defence and Olwan's grit."
     }
+  },
+  {
+    "id": "portugal-uzbekistan",
+    "date": "2026-06-23",
+    "timeMsk": "20:00",
+    "title": {
+      "ru": "Португалия — Узбекистан",
+      "en": "Portugal — Uzbekistan"
+    },
+    "cc": [
+      "pt",
+      "uz"
+    ],
+    "stage": {
+      "ru": "Группа K · тур 2",
+      "en": "Group K · MD 2"
+    },
+    "venue": {
+      "ru": "NRG Stadium, Хьюстон",
+      "en": "NRG Stadium, Houston"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, кондиционер — погода не фактор",
+      "en": "Roof closed, AC — weather not a factor"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Португалия еле распечатала автобус ДР Конго (1:1, всего 0.64 xG) и теперь обязана побеждать. Узбекистану Каннаваро нужны очки, но именно желание идти вперёд однажды стоило ему трёх мячей от Колумбии.",
+      "en": "Portugal barely cracked DR Congo's bus (1:1, just 0.64 xG) and now must win. Cannavaro's Uzbekistan need points, but it was exactly that urge to push forward that cost them three goals against Colombia."
+    }
+  },
+  {
+    "id": "england-ghana",
+    "date": "2026-06-23",
+    "timeMsk": "23:00",
+    "title": {
+      "ru": "Англия — Гана",
+      "en": "England — Ghana"
+    },
+    "cc": [
+      "gb-eng",
+      "gh"
+    ],
+    "stage": {
+      "ru": "Группа L · тур 2",
+      "en": "Group L · MD 2"
+    },
+    "venue": {
+      "ru": "Gillette Stadium, Фоксборо",
+      "en": "Gillette Stadium, Foxborough"
+    },
+    "weather": {
+      "ru": "Открытый стадион, ~24°C, риск ливня и грозы (80%)",
+      "en": "Open-air stadium, ~24°C, rain and thunderstorm risk (80%)"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Битва лидеров группы L: обе по три очка, победитель почти в плей-офф. Англия разнесла Хорватию 4:2, у Ганы атака без Кудуса и Салису, а в воротах запасной Асаре. Над Фоксборо собираются грозы.",
+      "en": "Group L's top-two clash: both on three points, the winner all but through. England hammered Croatia 4:2; Ghana's attack is without Kudus and Salisu, with backup keeper Asare in goal. Storms are gathering over Foxborough."
+    }
+  },
+  {
+    "id": "panama-croatia",
+    "date": "2026-06-23",
+    "timeMsk": "02:00",
+    "title": {
+      "ru": "Панама — Хорватия",
+      "en": "Panama — Croatia"
+    },
+    "cc": [
+      "pa",
+      "hr"
+    ],
+    "stage": {
+      "ru": "Группа L · тур 2",
+      "en": "Group L · MD 2"
+    },
+    "venue": {
+      "ru": "BMO Field, Торонто",
+      "en": "BMO Field, Toronto"
+    },
+    "weather": {
+      "ru": "Открытый стадион, ~22–24°C, сухо и ясно — не фактор",
+      "en": "Open-air stadium, ~22–24°C, dry and clear — not a factor"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Матч на выживание: обе проиграли первый тур, проигравший почти наверняка едет домой. Класс Хорватии Модрича против дисциплины Панамы — но оборона хорватов пропускает шесть матчей подряд, а модели тихо дают Панаме больше, чем рынок.",
+      "en": "A survival match: both lost their openers, and the loser is all but going home. Modrić's Croatia have the class against Panama's discipline — but the Croatian defence has conceded in six straight, and the models quietly rate Panama higher than the market."
+    }
+  },
+  {
+    "id": "colombia-drcongo",
+    "date": "2026-06-23",
+    "timeMsk": "05:00",
+    "title": {
+      "ru": "Колумбия — ДР Конго",
+      "en": "Colombia — DR Congo"
+    },
+    "cc": [
+      "co",
+      "cd"
+    ],
+    "stage": {
+      "ru": "Группа K · тур 2",
+      "en": "Group K · MD 2"
+    },
+    "venue": {
+      "ru": "Эстадио Акрон, Гвадалахара (высота ~1670 м)",
+      "en": "Estadio Akron, Guadalajara (altitude ~1670 m)"
+    },
+    "weather": {
+      "ru": "Открытый, высота 1670 м, ~22–25°C, риск вечерней грозы",
+      "en": "Open-air, altitude 1670 m, ~22–25°C, evening thunderstorm risk"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Лидер группы Колумбия с классной, но дырявой обороной против элитного блока ДР Конго, который не проигрывал больше чем в мяч при Десабре. Высота Гвадалахары и сезон дождей давят на темп — пахнет низким тоталом.",
+      "en": "Group leaders Colombia — brilliant going forward but leaky at the back — against DR Congo's elite block, which hasn't lost by more than one goal under Desabre. Guadalajara's altitude and the rainy season suppress the tempo: this smells of a low total."
+    }
   }
 ]
