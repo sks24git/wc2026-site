@@ -1,3 +1,13 @@
+## Result: 1:2 — Algeria grind it out from set pieces, Jordan eliminated
+
+**Jordan 1:2 (1:0). Goals: Al-Rashdan 36' (Al-Tamari assist), Benbouali 69', Gouiri 82' (VAR).** Only 2 yellows (Abu Dahab 63', Zerrouki 43'), no reds. xG 0.65–1.81, possession 27–73%. Mahrez started as captain, Amoura injured (Chaibi in his place), both Algeria goals from set pieces by half-time subs. Algeria's first World Cup win in 12 years; the debutant Jordanians are out.
+
+**Settlement.** Two of three for us: **AI's** 🟢 "Over 2.5" @1.96 — ✓ (3 goals) and **Pasha's** 🟢 "Jordan to score" @1.73 — ✓ (Al-Rashdan on 36'). Both sides aligned: Jordan are no mere parked bus and scored, just as both read. But **AI's** 🟡 "Over 3.5 yellows" @2.50 — ✗: only 2 cards. Vinčić plus a knockout game didn't deliver the promised scrap. In the systems AI called **Algeria 1:2 — spot on**, yet the 2/4 still lost (one hit of four isn't enough); Pasha's 1:1 missed.
+
+**Lesson (repeat of §8.8).** The card total misses again: "strict referee + nervy match" is systematically overrated — a technical game dominated by one side (73% possession) yields few fouls and cards. Card markets are our systematic leak, confirmed once more. Separately: AI's exact score (Algeria 1:2) showed the match read was right — but the 2/4 structure (need ≥2 of 4) killed the single hit.
+
+---
+
 ## Jordan — Algeria · 23 Jun, 06:00 MSK · Levi's Stadium, Santa Clara
 
 **A survival match: both lost their openers, and the loser is all but going home. Neither can play it safe — they'll have to go forward. Jordan's leaky defence against Algeria's front three — we take the over.**

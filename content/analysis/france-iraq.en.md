@@ -1,3 +1,13 @@
+## Result: 3:0 — Mbappé brace on his 100th cap, but not four
+
+**France 3:0 (1:0). Goals: Mbappé 14', Mbappé 54', Dembélé 66' (Olise two assists).** The match was suspended at the interval for 2+ hours by a storm — the first weather stoppage in World Cup history. xG 2.67–0.63, shots 19–4. No penalties or red cards. Mbappé's 100th cap for France — marked with a brace; France reach the knockouts.
+
+**Settlement.** The total, as we warned, was a trap: France won comfortably but stopped on exactly 3 goals. **AI's** 🟢 "win + Over 3.5" @2.00 — ✗ lost (a fourth was needed). **Pasha's** 🟢 "France team total over 3.0" @1.69 — ↩️ push: exactly 3 on a whole-number 3.0 line voids, stake returned (lucky to dodge a loss). In the systems both calls (AI 3:1, Pasha 4:0) missed.
+
+**Lesson.** Against a deep block plus rotation, a top favourite often takes a workmanlike 3:0 rather than a 4+ rout. It vindicates our caution (we took the goals market, not −2.5) — yet even Over 3.5 fell short on a flat 3. The whole-number 3.0 line saved Pasha from a loss — a small detail that mattered.
+
+---
+
 ## France — Iraq · 23 Jun, 00:00 MSK · Lincoln Financial Field, Philadelphia
 
 **France are huge favourites (1.10), so the result is uninteresting. The whole story is in the totals: France's attack is firing, and Iraq need ONLY a win — they'll have to open up. But a deep block + Deschamps rotating + heat and storms keep variance high.**

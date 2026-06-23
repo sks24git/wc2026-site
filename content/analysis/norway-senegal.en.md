@@ -1,3 +1,13 @@
+## Result: 3:2 — Haaland brace, Senegal woke up too late
+
+**Norway 3:2 (1:0). Goals: Pedersen 43', Haaland ~45', Sarr 53', Haaland 58', Sarr 90+3'.** Both scored, xG 2.10–1.70. No penalties or red cards. Haaland's second brace at his debut World Cup; Norway out of the group for the first time since 1998. Senegal pulled two back, but too late.
+
+**Settlement.** A clean hit for AI: 🟢 **"both teams to score" @1.75 — ✓ won** (Senegal opened up, Norway punished through Haaland — exactly our scenario). But **Pasha's** 🟢 "Senegal not to lose (X2)" @1.69 — ✗ lost: Sarr's late brace only narrowed it. The split resolved in the machine's favour: AI backed goals, Pasha backed the outcome towards Senegal. In the systems: AI 2:1 and Pasha 2:2 both missed.
+
+**Lesson.** When an underdog must attack (must-win), "both teams to score" is safer than a double chance on the underdog itself: opening up earns them a goal but also concedes. The "goals over outcome" thesis worked.
+
+---
+
 ## Norway — Senegal · 23 Jun, 03:00 MSK · MetLife Stadium, East Rutherford
 
 **A draw would do for Haaland's Norway, while Senegal — after a 1:3 to France — must win. The must-win underdog will open up, and Norway have the tools to punish on the counter. We take both teams to score, but carefully: heavy rain and a soggy pitch in New Jersey.**

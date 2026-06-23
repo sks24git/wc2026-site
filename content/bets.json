@@ -4733,10 +4733,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Атака Франции подтверждена (3:1 Сенегалу, Мбаппе в форме), а Ираку нужна ТОЛЬКО победа — придётся раскрыться, что откроет пространство под голы. Это не чистый разгром-хендикап против глухого блока (наш урок), а ставка на результативность вынужденно атакующего матча. Риск — ротация Дешама и жара/грозы в Филадельфии.",
-      "en": "France's attack is proven (3:1 over Senegal, Mbappé firing), and Iraq need ONLY a win — they'll have to open up, creating space for goals. This isn't a pure rout-handicap against a deep block (our lesson) but a bet on a forced-attacking game's goal output. Risk: Deschamps rotating plus heat/storms in Philadelphia."
+      "ru": "✗ Победа есть (3:0), но голов ровно 3 — для ТБ 3.5 нужно 4+. Франция дожала дубль Мбаппе + Дембеле, без четвёртого.",
+      "en": "✗ The win landed (3:0), but exactly 3 goals — Over 3.5 needs 4+. France settled for a Mbappé brace and Dembélé, no fourth."
     }
   },
   {
@@ -4756,10 +4756,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Сенегал в режиме must-win раскроется (как против Франции, где забил и сыпался в контратаках), а у Норвегии Холанд (дубль в 1-м туре) и скоростные Нуса/Сёрлот добьют на контратаках. Голы с обеих сторон вероятны. Противовес — ливень и тяжёлое поле в Нью-Джерси могут сбить темп, поэтому зелёная, а не больше.",
-      "en": "Must-win Senegal will open up (as against France, where they scored and got picked off on the break), while Norway have Haaland (a brace in MD1) and pacey Nusa/Sørloth to punish on the counter. Goals at both ends look likely. Counterweight: heavy rain and a soggy pitch in New Jersey could slow it, hence green not bigger."
+      "ru": "✓ 3:2 — забили обе (дубль Холанда, дубль Сарра). Сенегал раскрылся, как мы и ждали.",
+      "en": "✓ 3:2 — both scored (Haaland brace, Sarr brace). Senegal opened up, just as we expected."
     }
   },
   {
@@ -4779,10 +4779,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Оба must-win — ничья не спасает почти никого, значит играть в закрытый футбол нельзя, придётся идти вперёд. У Иордании дырявая оборона (3 поражения подряд с обилием пропущенных), у Алжира мощная тройка Гуири/Амура/Махрез. Риск — психология матча на вылет (рынок чуть дороже котирует низ), поэтому зелёная.",
-      "en": "Both must win — a draw saves almost nobody, so they can't play it safe and will have to go forward. Jordan have a leaky defence (three straight defeats conceding freely), Algeria a strong front three of Gouiri/Amoura/Mahrez. Risk: knockout-game nerves (the market prices the Under slightly shorter), hence green."
+      "ru": "✓ Три гола (1:2) — тотал больше 2.5 зашёл. Оба мяча Алжира со стандартов во 2-м тайме.",
+      "en": "✓ Three goals (1:2) — Over 2.5 landed. Both Algeria goals came from set pieces after the break."
     }
   },
   {
@@ -4801,7 +4801,7 @@
     "tier": "red",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -4845,8 +4845,8 @@
       }
     ],
     "note": {
-      "ru": "Аргентина — Австрия 2:1 — мимо (по факту 2:0). Система жива: осталось 3 счёта, нужно ≥2 из 4. Эфф. кэф — при резолве.",
-      "en": "Argentina — Austria 2:1 — missed (actual 2:0). System alive: 3 scores left, need ≥2 of 4. Effective odds at settlement."
+      "ru": "✗ Система не зашла: из 4 точных счетов попал только Алжир 1:2, остальные мимо (2:0 / 3:0 / 3:2). Для 2/4 нужно ≥2 совпадений.",
+      "en": "✗ System missed: of 4 exact scores only Algeria 1:2 hit, the rest off (2:0 / 3:0 / 3:2). A 2/4 needs ≥2 hits."
     }
   },
   {
@@ -4866,10 +4866,10 @@
     "tier": "yellow",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Экзотика дня, кэф снят живьём с линии Фонбета. Судья Славко Винчич валит карты в нервных играх (9 жёлтых + 1 красная в дерби Клубного ЧМ-2025), а матч — чистый плей-офф навылет: Алжир-фаворит давит, Иордания паркуется и идёт на тактические фолы и затяжку времени. Контр-сигнал — в 1-м туре обе команды отыграли почти без карточек, поэтому жёлтая, а не больше. Один ординар: карточные экспрессы — наша системная ошибка.",
-      "en": "The day's exotic, odds taken live off the Fonbet board. Referee Slavko Vinčić piles up cards in nervy games (9 yellows + 1 red in a 2025 Club World Cup derby), and this is a straight knockout: favourite Algeria press, Jordan park the bus and resort to tactical fouls and time-wasting. Counter-signal — both teams were near-spotless in MD1, hence yellow not bigger. A single, not an acca: card accumulators are our documented mistake."
+      "ru": "✗ Всего 2 жёлтые (Абу Дахаб 63, Зерруки 43) — до 3.5 далеко. Карточный рынок снова мимо (наш системный минус).",
+      "en": "✗ Only 2 yellows (Abu Dahab 63, Zerrouki 43) — nowhere near 3.5. The card market misses again (our systematic leak)."
     }
   },
   {
@@ -4912,10 +4912,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "void",
     "note": {
-      "ru": "Матч ему не нравится, первое место Франции не критично (в плей-офф Германия), но «эгоисты-индивидуалы свою стату ценят выше команды — пойдут в голы». Ирак как соперника не рассматривает. Совпадает по духу с зелёным AI (П1 + ТБ 3.5).",
-      "en": "He doesn't like the match, top spot isn't critical for France (Germany looms in the playoffs), but 'egotist individualists value their own stats above the team — they'll go for goals.' He doesn't rate Iraq. Converges with AI's green (France win + Over 3.5)."
+      "ru": "↩️ Возврат: Франция забила ровно 3 — на целой линии ИТ 3.0 это пуш, ставка возвращается.",
+      "en": "↩️ Push: France scored exactly 3 — on a whole-number team total of 3.0 that voids, stake returned."
     }
   },
   {
@@ -4935,10 +4935,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Норвегию фаворитом не считает: Сенегал сдерживал Францию до вспышки Мбаппе и создавал моменты. Ждёт ничью — она удобна обеим (по 4 очка), а поражение Сенегала — почти вылет. Расхождение с AI: машина на «обе забьют», Паша на исход в пользу Сенегала/ничьей.",
-      "en": "He doesn't rate Norway as favourites: Senegal contained France until Mbappé's spark and created chances. He expects a draw — it suits both (4 points each), while a Senegal defeat is near-elimination. Divergence with AI: the machine backs BTTS, Pasha backs the outcome towards Senegal/the draw."
+      "ru": "✗ Сенегал проиграл 2:3 — поздний дубль Сарра не спас, Х2 не зашёл.",
+      "en": "✗ Senegal lost 2:3 — Sarr’s late brace wasn’t enough, the double chance failed."
     }
   },
   {
@@ -4958,10 +4958,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Алжир фаворит на бумаге, но выиграет ли всухую — да и вообще? Иордания уверенно забивала Египту и Марокко в Кубке арабских наций и распечатала Австрию в 1-м туре. «Гол Иордании более чем реален». Сходится с AI (ТБ 2.5 + карточки).",
-      "en": "Algeria are favourites on paper, but win to nil — or at all? Jordan scored confidently against Egypt and Morocco in the Arab Cup and breached Austria in MD1. 'A Jordan goal is more than realistic.' Aligns with AI (Over 2.5 + cards)."
+      "ru": "✓ Иордания забила: Аль-Рашдан на 36 с паса Аль-Тамари. Гол андердога состоялся — как и читал Паша.",
+      "en": "✓ Jordan scored: Al-Rashdan on 36 off an Al-Tamari assist. The underdog goal arrived — just as Pasha read it."
     }
   },
   {
@@ -5101,10 +5101,10 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Аргентина — Австрия 1:1 — мимо (по факту 2:0). Система жива: осталось 3 счёта, нужно ≥2 из 4. Эфф. кэф — при резолве.",
-      "en": "Argentina — Austria 1:1 — missed (actual 2:0). System alive: 3 scores left, need ≥2 of 4. Effective odds at settlement."
+      "ru": "✗ Все 4 счёта мимо: факт 2:0 / 3:0 / 3:2 / 1:2 против ставленных 1:1 / 4:0 / 2:2 / 1:1. Система не зашла.",
+      "en": "✗ All 4 scores off: actual 2:0 / 3:0 / 3:2 / 1:2 vs the called 1:1 / 4:0 / 2:2 / 1:1. The system missed."
     },
     "legs": [
       {

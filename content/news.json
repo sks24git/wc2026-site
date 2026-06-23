@@ -1,5 +1,29 @@
 [
   {
+    "time": "23.06 · 08:10",
+    "tag": "result",
+    "text": {
+      "ru": "Алжир добил последний матч ночи: 1:2 у Иордании, первая победа на чемпионатах мира за 12 лет, а дебютанты-иорданцы вылетают. Иордания всё же огрызнулась голом Аль-Рашдана — и тут сошлись обе стороны: и тотал побольше у машины, и «гол Иордании» у Паши зашли. А вот карточная экзотика AI снова подвела — судья показал всего две жёлтых вместо обещанной свалки (карты остаются нашей хронической болячкой). Любопытная деталь: точный счёт «Алжир 1:2» машина угадала идеально, но в системе из четырёх счетов одного попадания мало — обе системы дня сгорели. Вердикт ночи: оба в минусе, но AI просел меньше и забрал день. В общей войне по-прежнему уверенно ведёт Паша, хотя разрыв чуть подтаял.",
+      "en": "Algeria closed out the night's last game: 1:2 at Jordan, their first World Cup win in 12 years, while the debutant Jordanians go out. Jordan did bite back through Al-Rashdan — and here both sides aligned: the machine's over and Pasha's 'Jordan to score' both landed. But AI's card exotic let us down again — the referee showed just two yellows instead of the promised scrap (cards remain our chronic weakness). A curious detail: the machine nailed the exact 'Algeria 1:2', but in a four-score system one hit isn't enough — both of the day's systems burned. The night's verdict: both in the red, but AI dropped less and took the day. Pasha still leads the war comfortably, though the gap has thinned a touch."
+    }
+  },
+  {
+    "time": "23.06 · 05:05",
+    "tag": "result",
+    "text": {
+      "ru": "Холанд снова решил всё — дубль, и Норвегия дожала Сенегал 3:2, впервые с 1998 года выйдя из группы. Сенегал дважды отыгрывался через Сарра, но проснулся слишком поздно. Для нас это победа машины в очном споре с Пашей: AI верил в голы с обеих сторон — и обе забили; Паша страховал Сенегал от поражения — а тот как раз и проиграл. Голы оказались надёжнее ставки на исход андердога.",
+      "en": "Haaland decided it again — a brace, and Norway saw off Senegal 3:2, reaching the knockouts for the first time since 1998. Senegal twice pulled level through Sarr but woke up too late. For us it's the machine winning the head-to-head with Pasha: AI trusted goals at both ends — and both scored; Pasha insured Senegal against defeat — and they were the ones who lost. Goals proved safer than backing the underdog's outcome."
+    }
+  },
+  {
+    "time": "23.06 · 03:55",
+    "tag": "result",
+    "text": {
+      "ru": "Франция доиграла после грозы и спокойно дожала Ирак — 3:0. Мбаппе в свой 100-й матч за сборную оформил дубль, третий добавил Дембеле. Но этот сухой класс вышел нам боком: тотал застрял на трёх голах. Машина ждала четвёртый — не дождалась, а Паша с индивидуальным тоталом французов ровно на тройке выкрутился в ноль, ставку вернули. Тот случай, когда «всего лишь 3:0» — это и победа фаворита, и провал ставки на голы.",
+      "en": "France finished after the storm and calmly saw off Iraq — 3:0. Mbappé marked his 100th cap with a brace, Dembélé added the third. But that clinical class cost us: the total stalled on three goals. The machine waited for a fourth that never came, while Pasha — with France's team total pegged at exactly three — wriggled out to a push, stake returned. The case where 'only 3:0' is both a favourite's win and a goals-bet flop."
+    }
+  },
+  {
     "time": "23.06 · 03:10",
     "tag": "lineup",
     "text": {
