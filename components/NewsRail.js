@@ -2,6 +2,7 @@
 import { news } from '@/lib/content';
 import { L } from '@/lib/i18n';
 import { useLang, useT } from '@/app/providers';
+import Emph from '@/components/Emph';
 
 const NEWS_TAG_CLS = { lineup: 'lineup', insight: 'insight', pasha: 'pasha', result: 'result' };
 
@@ -48,7 +49,7 @@ export default function NewsRail() {
                   <span className={'news-tag ' + cls}>{T('news.tag.' + n.tag)}</span>
                   <time className="news-time num">{n.time}</time>
                 </div>
-                <p className="news-text">{L(n.text, lang)}</p>
+                <p className="news-text"><Emph text={L(n.text, lang)} /></p>
               </div>
             </li>
           );

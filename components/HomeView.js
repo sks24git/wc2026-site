@@ -8,6 +8,7 @@ import { kickoffInstant } from '@/lib/datetime';
 import { useLang, useT, useTimeFmt } from '@/app/providers';
 import BattleBoard from '@/components/BattleBoard';
 import NewsRail from '@/components/NewsRail';
+import Emph from '@/components/Emph';
 import Flags from '@/components/Flags';
 import Ticket from '@/components/Ticket';
 import Tip from '@/components/Tip';
@@ -93,7 +94,7 @@ export default function HomeView() {
               <div key={i} className="fact">
                 <span className="fact-bullet" aria-hidden="true" />
                 <div className="fact-main">
-                  <span className="fact-text">{L(f, lang)}</span>
+                  <span className="fact-text"><Emph text={L(f, lang)} /></span>
                   {f.time && <time className="fact-time num">{f.time}</time>}
                 </div>
               </div>
