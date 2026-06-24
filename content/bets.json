@@ -5604,7 +5604,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "НЕ мёртвый матч: обе живы за лучшее 3-е, обе must-win → откроются. У Катара дисквал Мадибо ослабил опорную; модели BTTS ~69%. П1 Боснии 1.40 без value (рынок 71% vs модели 35–47%).",
       "en": "NOT a dead rubber: both alive for a best-third spot, both must-win → they open up. Qatar's Madibo suspended weakens midfield; models give BTTS ~69%. Bosnia win @1.40 has no value (market 71% vs models 35–47%)."
@@ -5627,7 +5627,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Обе уже вышли, Канаде хватает ничьей по GD → флэт. Обе модели модально 1:1, Under ~56%. Крупные победы (6:0, 4:1) добыты против меньшинства — мощь завышена.",
       "en": "Both already through, Canada need only a draw on GD → flat. Both models peak at 1:1, Under ~56%. Their big wins (6:0, 4:1) came against ten/nine men — attacking power overstated."
@@ -5742,7 +5742,7 @@
     "tier": "yellow",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Модальный счёт обеих моделей — 1:1. Обе вышли, цена поражения низкая → флэт. Производная того же низового коридора, что и ТМ 2.5.",
       "en": "Both models' modal score is 1:1. Both are through, the cost of losing is low → flat. A derivative of the same low-scoring corridor as the Under 2.5."
@@ -5895,7 +5895,7 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Прямая лобовая с машиной (у нас ОЗ-да). Логика Паши: Боснии нужна разница мячей для лучшего 3-го, Катар — худшая команда турнира («гол сдуру забили, делать больше нечего»). Босния выигрывает на ноль.",
       "en": "A head-to-head clash with the machine (we have BTTS-yes). Pasha: Bosnia need goal difference for a best-third spot, Qatar are the tournament worst side. Bosnia win to nil."
@@ -5918,7 +5918,7 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Встречно нашей ТМ 2.5. Паша ждёт экономную ничью, но страхует: «мало ли Швейцария сдуру захочет выиграть — тогда уйдёт в голы». При 1:1 (2 гола) — возврат.",
       "en": "Counter to our Under 2.5. Pasha expects a cagey draw but hedges: if Switzerland push for the win it opens up. At 1:1 (2 goals) the bet pushes (refund)."
