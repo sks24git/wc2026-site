@@ -5189,10 +5189,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Разгромный коридор на правильном типе фаворита: вертикальная Англия (2.82 xG в 1-м туре) против выбитой Ганы (без Кудуса/Салису) с запасным вратарём Асаре. Кэф с Фонбета.",
-      "en": "Rout corridor on the right favourite type: a vertical England (2.82 xG in MD1) vs a gutted Ghana (no Kudus/Salisu) with backup keeper Asare. Odds from Fonbet."
+      "ru": "✗ LOSE (−3000): Англия 0:0 — ШОК. Гана с вернувшимся Парти выдала оборонительный мастер-класс, фаворит при тотальном владении не пробил. Разгрома не случилось.",
+      "en": "✗ LOSE (−3000): England 0:0 — a SHOCK. Ghana, with Partey back, produced a defensive masterclass; the favourite dominated the ball but couldn't score. No rout."
     }
   },
   {
@@ -5212,10 +5212,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Хорватия побеждает в 2+ мяча лишь в ~34% (модели): дырявая оборона (6 матчей без сухаря), нет чистой девятки, медленный старт. Панама конкурентоспособна на контратаке. Кэф с Фонбета.",
-      "en": "Croatia win by 2+ only ~34% (models): leaky defence (6 games conceding), no clean striker, slow starters. Panama stay competitive on the counter. Odds from Fonbet."
+      "ru": "✓ WIN (+1800): Панама 0:1 — проиграла в один мяч, фора +1.5 покрыла. Хорватия дожала Будимиром со скамейки, но без разгрома — ровно наш тезис «фаворит не разнесёт».",
+      "en": "✓ WIN (+1800): Panama 0:1 — lost by one, the +1.5 covered. Croatia edged it via sub Budimir, but no rout — exactly our 'the favourite won't blow them out' thesis."
     }
   },
   {
@@ -5235,10 +5235,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Низовой коридор: элитный блок ДР Конго (при Десабре не проигрывал больше чем в мяч) + высота 1670 м + вечерний дождь душат темп. Кэф с Фонбета.",
-      "en": "Low-scoring corridor: DR Congo's elite block (never lost by 2+ under Desabre) + 1670 m altitude + an evening downpour choke the tempo. Odds from Fonbet."
+      "ru": "✓ WIN (+2100): Колумбия 1:0 — Муньос 76', низовой вечер на высоте Гвадалахары, как и ждали (элитный блок ДРК + высота + дождь). ТМ 2.5 зашёл.",
+      "en": "✓ WIN (+2100): Colombia 1:0 — Muñoz 76', a low-scoring night at Guadalajara's altitude, just as expected (DRC's elite block + altitude + rain). Under 2.5 landed."
     }
   },
   {
@@ -5258,10 +5258,10 @@
     "tier": "yellow",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Англия забивает 3+: запасной вратарь Асаре, без Кудуса/Салису, тай-брейк по разнице мячей и «full gas» Тухеля. Производная разгромного коридора, синхронна со счётом 3:0. Кэф с Фонбета.",
-      "en": "England to score 3+: backup keeper Asare, no Kudus/Salisu, the goal-difference tiebreaker and Tuchel's 'full gas.' A derivative of the rout corridor, synced with a 3:0 score. Odds from Fonbet."
+      "ru": "✗ LOSE (−1500): Англия 0 голов — атакующий состав Тухеля ничего не реализовал против блока Ганы.",
+      "en": "✗ LOSE (−1500): England scored 0 — Tuchel's attacking XI created nothing against Ghana's block."
     }
   },
   {
@@ -5281,10 +5281,10 @@
     "tier": "yellow",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "BTTS-чек: Висса забивает топам со стандартов (Португалии головой), оборона Колумбии дырявая, Колумбия забьёт. Тугой 1:1 — пересечение с ТМ 2.5. Кэф с Фонбета.",
-      "en": "BTTS check: Wissa scores against top sides off set pieces (a header vs Portugal), Colombia's defence is leaky, Colombia will score. A tight 1:1 overlaps with Under 2.5. Odds from Fonbet."
+      "ru": "✗ LOSE (−1500): 1:0 — ДР Конго не забила, сухарь Колумбии. BTTS-чек не сработал: элитная оборона ДРК сама не создала, а Колумбия не дала. Паша был прав на сухую Колумбию.",
+      "en": "✗ LOSE (−1500): 1:0 — DR Congo didn't score, a Colombia clean sheet. The BTTS check failed: DRC's elite defence created nothing and Colombia shut up shop. Pasha was right on the clean Colombia."
     }
   },
   {
@@ -5304,10 +5304,10 @@
     "tier": "red",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "⚡ Value дня: модели дают Панаме 19–22% против рыночных ~14% (+6…+8 п.п.). Высокая дисперсия — красным размером, отдельной позицией (урок Ганы: не удваивать форой+П2). Кэф с Фонбета.",
-      "en": "⚡ Value of the day: models give Panama 19–22% vs the market's ~14% (+6…+8 pp). High variance — a red-sized single, separate (the Ghana lesson: don't double up handicap+win). Odds from Fonbet."
+      "ru": "✗ LOSE (−500): Панама проиграла 0:1. Value-сигнал (модель +6–8 п.п.) не реализовался — Хорватия дожала со скамейки. Дисперсия лонгшота.",
+      "en": "✗ LOSE (−500): Panama lost 0:1. The value signal (model +6–8pp) didn't land — Croatia edged it off the bench. Longshot variance."
     }
   },
   {
@@ -5322,12 +5322,12 @@
       "en": "correct scores"
     },
     "type": "Система",
-    "odds": 7.5,
+    "odds": 6.876,
     "stake": 500,
     "tier": "red",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "legs": [
       {
         "m": {
@@ -5371,8 +5371,8 @@
       }
     ],
     "note": {
-      "ru": "Постоянка ТС 2/4: нужно ≥2 из 4. Счета согласованы со сценариями: контролируемая Португалия, разгром Англии, минимальная Хорватия, узкая Колумбия. Эфф. кэф при резолве.",
-      "en": "Standing CS 2/4 system: need ≥2 of 4. Scores aligned with the scenarios: controlled Portugal, England rout, narrow Croatia, tight Colombia. Effective odds at settlement."
+      "ru": "✓ WIN (+2938, эфф. кэф 6.88): зашли 2 из 4 — Хорватия 0:1 и Колумбия 1:0. Реальная выплата 500 → 3438 по даблу 7.50×5.50 (ставка ÷ 6 даблов × один зашедший). Системы 2/N считаются по даблам, не «ставка × сумма кэфов».",
+      "en": "✓ WIN (+2938, eff odds 6.88): 2 of 4 hit — Croatia 0:1 and Colombia 1:0. Actual payout 500 → 3438 from the 7.50×5.50 double (stake ÷ 6 doubles × one winning). 2/N systems pay by doubles, not 'stake × sum of odds'."
     }
   },
   {
@@ -5392,7 +5392,7 @@
     "tier": "red",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -5426,8 +5426,8 @@
       }
     ],
     "note": {
-      "ru": "Система 2/3 на бомбардиров: нужно ≥2 из 3. Трое стартовых форвардов в голевых матчах, кэф каждого ≥1.9 (Кейн 1.70 и Роналду 1.60 коротки для системы). Кэфы «забьёт» сняты с Фонбета. Ставится до составов: на Фонбете в системе игрок, не вышедший в старте, идёт ВОЗВРАТОМ (кэф 1.0), а не проигрышем — риск ротации нейтрализован.",
-      "en": "Goalscorer 2/3 system: need ≥2 of 3. Three starting forwards in goal-rich games, each priced ≥1.9 (Kane 1.70 and Ronaldo 1.60 too short for a system). Anytime odds snapped from Fonbet. Placed pre-lineup: in a Fonbet system a player not in the starting XI is RETURNED (odds 1.0), not lost — rotation risk is neutralised."
+      "ru": "✗ LOSE (−500): 0 из 3 — Бруну (Порт 5:0), Гордон (Англ 0:0) и Луис Диас (Кол 1:0, забил Муньос) не отличились. Все трое вышли в старте — возвратов нет.",
+      "en": "✗ LOSE (−500): 0 of 3 — Bruno (Por 5:0), Gordon (Eng 0:0) and Luis Díaz (Col 1:0, Muñoz scored) all blanked. All three started — no returns."
     }
   },
   {
@@ -5470,10 +5470,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Паша исторически терпеть не может примитивную Англию, но 1-й тур намекнул, что Тухель дал ей играть. Рискует поверить: если Англия наконец играет нормально, по составу обязана выносить Гану всухую с запасом. «Либо Англия так и останется дном, либо пора смотреть с уважением».",
-      "en": "Pasha can't stand England's primitive style, but MD1 hinted Tuchel has let them play. He gambles that if England finally click, their squad should beat Ghana to nil with room to spare. 'Either England stay rubbish, or it's time to respect them.'"
+      "ru": "✗ LOSE (−3000): Англия 0:0 — фора −2 мертва, как и у машины. Шок дня утопил обе ставки на разгром.",
+      "en": "✗ LOSE (−3000): England 0:0 — the −2 handicap is dead, like the machine's. The day's shock sank both rout bets."
     }
   },
   {
@@ -5493,10 +5493,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Паша: хорваты «не про футбол», спереди постарели, сзади дыры; Панаме терять нечего. Ждёт комедию ошибок с голами с обеих сторон — ничью 1:1 никто не удержит. Форы Хорватии не взял из принципа («рука не поднимается»).",
-      "en": "Pasha: Croatia are 'not about football', aged up front and leaky at the back; Panama have nothing to lose. He expects a comedy of errors with goals both ends — neither side will hold a 1:1. Won't touch a Croatia handicap on principle."
+      "ru": "✗ LOSE (−3000): Панама 0:1 — ни ОЗ (Панама не забила), ни ТБ 2.5 (1 гол). «Комедия ошибок» Паши не случилась — вышел вязкий 1:0.",
+      "en": "✗ LOSE (−3000): Panama 0:1 — neither BTTS (Panama didn't score) nor over 2.5 (1 goal). Pasha's 'comedy of errors' didn't happen — a grind 1:0."
     }
   },
   {
@@ -5516,10 +5516,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Паша: «бетонный» низовой исход, сухая победа Колумбии, страхуется через ТМ 3.5. Высота даёт фору Колумбии: «как Парагвай, спустившись с гор, отдал матч Африке, так здесь Африка, поднявшись в горы, вернёт должок Южной Америке».",
-      "en": "Pasha: a 'rock-solid' low-scoring outcome, a clean Colombia win, hedged via Under 3.5. Altitude favours Colombia: 'as Paraguay coming down from altitude handed the game to Africa, here Africa climbing to altitude repays the debt to South America.'"
+      "ru": "✓ WIN (+2790): Колумбия 1:0 — победа + ТМ 3.5. «Бетонный низ» Паши и сухая Колумбия зашли в точку. Высота вернула должок, как он и обещал.",
+      "en": "✓ WIN (+2790): Colombia 1:0 — win + under 3.5. Pasha's 'rock-solid low' and clean Colombia nailed it. Altitude repaid the debt, just as he called."
     }
   },
   {
@@ -5539,7 +5539,7 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -5583,8 +5583,8 @@
       }
     ],
     "note": {
-      "ru": "Коронка Паши — точные счета (2/4, нужно ≥2). Счета согласованы с его раскладом: голы Португалии, разгром Англии, результативная победа Хорватии, сухая Колумбия. Эфф. кэф при резолве.",
-      "en": "Pasha's signature — correct scores (2/4, need ≥2). Aligned with his read: Portugal goals, an England rout, a high-scoring Croatia win, a clean Colombia. Effective odds at settlement."
+      "ru": "✗ LOSE (−500): 0 из 4 — Порт 3:1 / Англ 3:0 / Пан 1:2 / Кол 2:0, все мимо (5:0 / 0:0 / 0:1 / 1:0). Для 2/4 нужно ≥2.",
+      "en": "✗ LOSE (−500): 0 of 4 — Por 3:1 / Eng 3:0 / Pan 1:2 / Col 2:0, all missed (5:0 / 0:0 / 0:1 / 1:0). A 2/4 needs ≥2."
     }
   }
 ]

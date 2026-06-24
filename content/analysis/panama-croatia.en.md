@@ -1,3 +1,18 @@
+## Result: 0:1 — Croatia survived via a Budimir bench goal, our handicap landed
+
+**Final: Panama 0:1 Croatia (first half 0:0).** **Budimir** came on at half-time and scored the only goal — Croatia stayed in the tournament, Panama go out despite fighting. No rout, exactly as we expected.
+
+**Settlement:**
+- ✅ **AI — Panama +1.5 @1.60 (🟢): LANDED (+1800).** A one-goal defeat covered — Croatia never won by 2+ (the model gave that only 34%).
+- ❌ **AI — Panama to win @6.85 (🔴 value): LOST (−500).** The model signal (+6–8pp) didn't land; longshot variance.
+- ❌ **Pasha — BTTS + over 2.5 @2.12 (🟢): LOST (−3000).** Neither BTTS (Panama blanked) nor over (1 goal) — no 'comedy of errors'.
+- ✅ **AI CS: the Croatia 0:1 leg HIT** (the first of two for the 2/4 system).
+- **Head-to-head: AI beat Pasha** (+1800 −500 vs −3000).
+
+**Lesson:** 'the favourite won't blow them out' on the right type (positional, leaky defence, no clean striker) is a robust market: the +1.5 landed even though the outcome (a Panama win) didn't. Size the value longshot small and don't sulk: one model signal ≠ a guarantee.
+
+---
+
 ## Panama — Croatia · 24.06, 02:00 MSK · BMO Field, Toronto
 
 **A survival match: both lost their openers, and the loser is all but going home. Croatia have the class, but their defence has conceded in six straight, they lack an out-and-out No. 9, and the models quietly rate Panama higher than the market. We take the bus's competitiveness + a targeted value play on the upset.**

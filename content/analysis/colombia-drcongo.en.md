@@ -1,3 +1,18 @@
+## Result: 1:0 — Colombia ground it out on class, the low total and clean sheet as scripted
+
+**Final: Colombia 1:0 DR Congo (first half 0:0).** **Muñoz** cracked the elite block on 76'. A low-scoring night at Guadalajara's altitude — exactly the match type we mapped out. Colombia are through to the knockouts.
+
+**Settlement:**
+- ✅ **AI — Under 2.5 @1.70 (🟢): LANDED (+2100).** DRC's elite block + 1670 m altitude + rain choked the tempo — just 1 goal.
+- ❌ **AI — BTTS Yes @2.30 (🟡): LOST (−1500).** DR Congo didn't score — the BTTS check failed, the Congolese created nothing and Colombia shut up shop. Pasha was right on the clean Colombia.
+- ✅ **Pasha — Colombia win + under 3.5 @1.93 (🟢): LANDED (+2790).** The 'rock-solid low' and a clean Colombia — nailed; altitude repaid the debt, just as he called.
+- ✅ **AI CS: the Colombia 1:0 leg HIT → the 2/4 SYSTEM LANDED** (with Croatia 0:1; eff odds 6.88, +2938, payout 500→3438).
+- **Head-to-head: agreement on the under; on BTTS Pasha beat AI.**
+
+**Lesson:** against an elite defensive block with counters (DRC — 8 clean sheets in qualifying), BTTS is fragile: the underdog with the better defence may create nothing while the favourite shuts it down at 1:0. Under + a clean favourite win is steadier than BTTS when the underdog's defence outranks its attack.
+
+---
+
 ## Colombia — DR Congo · 24.06, 05:00 MSK · Estadio Akron, Guadalajara
 
 **Group leaders Colombia — brilliant attack, leaky defence — against DR Congo's elite block, which under Desabre has never lost by more than one goal (0:0 with Denmark, 1:1 with Portugal). Altitude of 1670 m and the rainy season cut the tempo. This smells of a low, tight total where both sides can nick a goal.**

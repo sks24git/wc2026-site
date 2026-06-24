@@ -1,3 +1,18 @@
+## Result: 0:0 — SHOCK, Ghana shut out England, our rout never came
+
+**Final: England 0:0 Ghana.** Ghana, with **Partey** back (the visa resolved), produced a defensive masterclass — without Kudus and Salisu they earned a historic point. England, dominating possession with Tuchel's attacking XI, never broke the organised block. No goals.
+
+**Settlement:**
+- ❌ **AI — England −1.5 @1.55 (🟢): LOST (−3000).** No rout — the favourite didn't even win.
+- ❌ **AI — England team total over 2.5 @1.90 (🟡): LOST (−1500).** Zero goals.
+- ❌ **Pasha — England −2 @1.89 (🟢): LOST (−3000).** The same landmine — both sides loaded the rout.
+- ⏳ Systems: AI's CS leg 'England 3:0' and Pasha's '3:0' — both missed; AI's player leg 'Gordon to score' — missed (0:0).
+- **Head-to-head: a goalless draw — both lost alike.**
+
+**Lesson:** an echo of Spain 0:0 Cape Verde. Even a powerful attacking favourite (#4) against a gutted but disciplined opponent can run into a brick wall — especially when the underdog gets a key man back (Partey) and plays for the clean sheet. An attacking XI ≠ goals against an organised defence; handicaps/team-totals are a risk on such favourites — a win/double-chance, or skipping the match, would be steadier.
+
+---
+
 ## England — Ghana · 23.06, 23:00 MSK · Gillette Stadium, Foxborough
 
 **Group L's top-two clash — but in quality it's a chasm. England put up 2.82 xG and 22 shots tearing into Croatia; Ghana's attack is without Kudus/Salisu/Partey, with 0 wins in 7 before the World Cup and backup keeper Asare. Storms over Foxborough. We back an England win by a margin through form, not a fragile total.**
