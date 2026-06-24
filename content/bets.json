@@ -5586,5 +5586,274 @@
       "ru": "✗ LOSE (−500): 0 из 4 — Порт 3:1 / Англ 3:0 / Пан 1:2 / Кол 2:0, все мимо (5:0 / 0:0 / 0:1 / 1:0). Для 2/4 нужно ≥2.",
       "en": "✗ LOSE (−500): 0 of 4 — Por 3:1 / Eng 3:0 / Pan 1:2 / Col 2:0, all missed (5:0 / 0:0 / 0:1 / 1:0). A 2/4 needs ≥2."
     }
+  },
+  {
+    "id": 201,
+    "match": {
+      "ru": "Босния — Катар",
+      "en": "Bosnia — Qatar"
+    },
+    "matchId": "bosnia-qatar",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.8,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "НЕ мёртвый матч: обе живы за лучшее 3-е, обе must-win → откроются. У Катара дисквал Мадибо ослабил опорную; модели BTTS ~69%. П1 Боснии 1.40 без value (рынок 71% vs модели 35–47%).",
+      "en": "NOT a dead rubber: both alive for a best-third spot, both must-win → they open up. Qatar's Madibo suspended weakens midfield; models give BTTS ~69%. Bosnia win @1.40 has no value (market 71% vs models 35–47%)."
+    }
+  },
+  {
+    "id": 202,
+    "match": {
+      "ru": "Швейцария — Канада",
+      "en": "Switzerland — Canada"
+    },
+    "matchId": "switzerland-canada",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5 goals"
+    },
+    "type": "ТМ",
+    "odds": 1.77,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Обе уже вышли, Канаде хватает ничьей по GD → флэт. Обе модели модально 1:1, Under ~56%. Крупные победы (6:0, 4:1) добыты против меньшинства — мощь завышена.",
+      "en": "Both already through, Canada need only a draw on GD → flat. Both models peak at 1:1, Under ~56%. Their big wins (6:0, 4:1) came against ten/nine men — attacking power overstated."
+    }
+  },
+  {
+    "id": 203,
+    "match": {
+      "ru": "Шотландия — Бразилия",
+      "en": "Scotland — Brazil"
+    },
+    "matchId": "scotland-brazil",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Фора Шотландии +1.5",
+      "en": "Scotland +1.5 handicap"
+    },
+    "type": "АФ",
+    "odds": 1.83,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "⚡ value: Бразилия в 2+ лишь ~38–42% (модели) против ~50% рынка. Анчелотти снял мотивацию на разгром, возможна ротация/Неймар с лавки; Шотландия (must-not-lose) раскроется и огрызнётся.",
+      "en": "⚡ value: Brazil by 2+ only ~38–42% (models) vs ~50% market. Ancelotti played down the rout, rotation/Neymar off the bench likely; Scotland (must-not-lose) will open up and bite."
+    }
+  },
+  {
+    "id": 204,
+    "match": {
+      "ru": "Марокко — Гаити",
+      "en": "Morocco — Haiti"
+    },
+    "matchId": "morocco-haiti",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Индивидуальный тотал Марокко больше 2.5",
+      "en": "Morocco team total over 2.5"
+    },
+    "type": "ИТ",
+    "odds": 1.85,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Марокко отстаёт от Бразилии по разнице (+1 vs +3) и обязано выносить слабейшую Гаити (0 очков, пропустила 0:3 Бразилии) ради 1-го места. Гонка за GD → разгром.",
+      "en": "Morocco trail Brazil on GD (+1 vs +3) and must run up the score on the weakest side, Haiti (0 points, conceded 0:3 to Brazil), to take top spot. The GD race → a rout."
+    }
+  },
+  {
+    "id": 205,
+    "match": {
+      "ru": "ЮАР — Южная Корея",
+      "en": "South Africa — South Korea"
+    },
+    "matchId": "southafrica-southkorea",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5 goals"
+    },
+    "type": "ТМ",
+    "odds": 1.8,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "⚡ value: модель ТМ ~64% против рынка ~52–55%. Корее хватает ничьей (разгром не нужен), ЮАР без дисквалифицированных Мокоэны/Зване — созидание выбито. Узкий низ.",
+      "en": "⚡ value: model Under ~64% vs market ~52–55%. South Korea need only a draw (no rout), South Africa without the suspended Mokoena/Zwane — creativity gutted. A tight, low game."
+    }
+  },
+  {
+    "id": 206,
+    "match": {
+      "ru": "Чехия — Мексика",
+      "en": "Czechia — Mexico"
+    },
+    "matchId": "czechia-mexico",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Чехия не проиграет (1Х)",
+      "en": "Czechia not to lose (1X)"
+    },
+    "type": "1Х",
+    "odds": 1.87,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Мексика оформила 1-е → почти наверняка ротация и ноль мотивации. Чехия дома обязана побеждать. Незаряженный фаворит часто отдаёт очки отчаянному хозяину.",
+      "en": "Mexico have sealed top spot → near-certain rotation and zero motivation. Czechia must win at home. An unmotivated favourite often drops points to a desperate host."
+    }
+  },
+  {
+    "id": 207,
+    "match": {
+      "ru": "Швейцария — Канада",
+      "en": "Switzerland — Canada"
+    },
+    "matchId": "switzerland-canada",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
+    "type": "Х",
+    "odds": 3.15,
+    "tier": "yellow",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Модальный счёт обеих моделей — 1:1. Обе вышли, цена поражения низкая → флэт. Производная того же низового коридора, что и ТМ 2.5.",
+      "en": "Both models' modal score is 1:1. Both are through, the cost of losing is low → flat. A derivative of the same low-scoring corridor as the Under 2.5."
+    }
+  },
+  {
+    "id": 208,
+    "match": {
+      "ru": "Чехия — Мексика",
+      "en": "Czechia — Mexico"
+    },
+    "matchId": "czechia-mexico",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Победа Чехии",
+      "en": "Czechia to win"
+    },
+    "type": "П1",
+    "odds": 3.85,
+    "tier": "yellow",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Смелее зелёной 1Х: ротированная без мотивации Мексика дома у отчаянной Чехии вполне может проиграть. Тот же сценарий (Чехия берёт результат), кэф в жёлтой зоне.",
+      "en": "Bolder than the 1X green: a rotated, unmotivated Mexico can lose outright at a desperate Czechia. Same scenario (Czechia get a result), priced in the yellow band."
+    }
+  },
+  {
+    "id": 209,
+    "match": {
+      "ru": "Система 3/6 · точные счета",
+      "en": "System 3/6 · correct scores"
+    },
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
+    "type": "Система",
+    "odds": 9,
+    "tier": "red",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Новый формат ТС — 3/6 (нужно ≥3 точных счёта из 6). Счета по сценариям: Босния дожимает, флэт-ничьи, узкие победы фаворитов, разгром Марокко. Эфф. кэф при резолве (по тройкам).",
+      "en": "New CS format — 3/6 (need ≥3 exact scores of 6). Scores by scenario: Bosnia edge it, flat draws, narrow favourite wins, a Morocco rout. Effective odds at settlement (by triples)."
+    },
+    "stake": 500,
+    "legs": [
+      {
+        "m": {
+          "ru": "Босния — Катар",
+          "en": "Bosnia — Qatar"
+        },
+        "p": {
+          "ru": "2:1 @8.5",
+          "en": "2:1 @8.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Швейцария — Канада",
+          "en": "Switzerland — Canada"
+        },
+        "p": {
+          "ru": "1:1 @5.5",
+          "en": "1:1 @5.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Шотландия — Бразилия",
+          "en": "Scotland — Brazil"
+        },
+        "p": {
+          "ru": "0:1 @6.5",
+          "en": "0:1 @6.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Марокко — Гаити",
+          "en": "Morocco — Haiti"
+        },
+        "p": {
+          "ru": "2:0 @6.0",
+          "en": "2:0 @6.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "ЮАР — Южная Корея",
+          "en": "South Africa — South Korea"
+        },
+        "p": {
+          "ru": "0:1 @6.0",
+          "en": "0:1 @6.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Чехия — Мексика",
+          "en": "Czechia — Mexico"
+        },
+        "p": {
+          "ru": "1:1 @6.5",
+          "en": "1:1 @6.5"
+        }
+      }
+    ]
   }
 ]

@@ -1394,5 +1394,177 @@
       "ru": "Лидер группы Колумбия с классной, но дырявой обороной против элитного блока ДР Конго, который не проигрывал больше чем в мяч при Десабре. Высота Гвадалахары и сезон дождей давят на темп — пахнет низким тоталом.",
       "en": "Group leaders Colombia — brilliant going forward but leaky at the back — against DR Congo's elite block, which hasn't lost by more than one goal under Desabre. Guadalajara's altitude and the rainy season suppress the tempo: this smells of a low total."
     }
+  },
+  {
+    "id": "bosnia-qatar",
+    "date": "2026-06-24",
+    "timeMsk": "22:00",
+    "title": {
+      "ru": "Босния — Катар",
+      "en": "Bosnia — Qatar"
+    },
+    "cc": [
+      "ba",
+      "qa"
+    ],
+    "stage": {
+      "ru": "Группа B · тур 3",
+      "en": "Group B · MD 3"
+    },
+    "venue": {
+      "ru": "Lumen Field, Сиэтл",
+      "en": "Lumen Field, Seattle"
+    },
+    "weather": {
+      "ru": "Открытый стадион, мягко ~17–19°C — не фактор",
+      "en": "Open-air, mild ~17–19°C — not a factor"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Не мёртвый матч, как кажется: обе по очку, но живы в гонке за лучшее 3-е место — победитель прыгает на четыре очка и реально цепляется за плей-офф. Обе обязаны побеждать.",
+      "en": "Not the dead rubber it looks: both on a point but alive in the best-third race — the winner jumps to four points and a real knockout shot. Both must win."
+    }
+  },
+  {
+    "id": "switzerland-canada",
+    "date": "2026-06-24",
+    "timeMsk": "22:00",
+    "title": {
+      "ru": "Швейцария — Канада",
+      "en": "Switzerland — Canada"
+    },
+    "cc": [
+      "ch",
+      "ca"
+    ],
+    "stage": {
+      "ru": "Группа B · тур 3",
+      "en": "Group B · MD 3"
+    },
+    "venue": {
+      "ru": "BC Place, Ванкувер",
+      "en": "BC Place, Vancouver"
+    },
+    "weather": {
+      "ru": "Раздвижная крыша, климат-контроль — не фактор",
+      "en": "Retractable roof, climate control — not a factor"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Финал группы B за 1-е место: обе по 4 очка и уже фактически вышли. Канаде хватает ничьей по разнице мячей (разнесла Катар 6:0), Швейцария обязана побеждать. Цена поражения низкая — пахнет осторожным низом.",
+      "en": "Group B's top-two finale: both on 4 points and effectively through. Canada need only a draw on goal difference (they thrashed Qatar 6:0); Switzerland must win. The cost of losing is low — a cagey, low-scoring game looms."
+    }
+  },
+  {
+    "id": "scotland-brazil",
+    "date": "2026-06-24",
+    "timeMsk": "01:00",
+    "title": {
+      "ru": "Шотландия — Бразилия",
+      "en": "Scotland — Brazil"
+    },
+    "cc": [
+      "gb-sct",
+      "br"
+    ],
+    "stage": {
+      "ru": "Группа C · тур 3",
+      "en": "Group C · MD 3"
+    },
+    "venue": {
+      "ru": "Hard Rock Stadium, Майами",
+      "en": "Hard Rock Stadium, Miami"
+    },
+    "weather": {
+      "ru": "Открытый, жара и влажность Майами",
+      "en": "Open-air, Miami heat and humidity"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Бразилия тусклая (1:1 Марокко, 3:0 Гаити) и за 1-е спорит с Марокко по разнице. Но Анчелотти снял мотивацию на разгром — «не думаем о том, чтобы выбить Шотландию», возможна ротация и Неймар с лавки. Шотландия обязана не проиграть.",
+      "en": "Brazil have been flat (1:1 Morocco, 3:0 Haiti) and fight Morocco for top spot on goal difference. But Ancelotti has played down the rout — 'we're not thinking about knocking Scotland out' — with rotation and Neymar on the bench likely. Scotland must avoid defeat."
+    }
+  },
+  {
+    "id": "morocco-haiti",
+    "date": "2026-06-24",
+    "timeMsk": "01:00",
+    "title": {
+      "ru": "Марокко — Гаити",
+      "en": "Morocco — Haiti"
+    },
+    "cc": [
+      "ma",
+      "ht"
+    ],
+    "stage": {
+      "ru": "Группа C · тур 3",
+      "en": "Group C · MD 3"
+    },
+    "venue": {
+      "ru": "Стадион уточняется",
+      "en": "Venue TBC"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Марокко отстаёт от Бразилии по разнице мячей и обязано не просто победить, а крупно — против слабейшей Гаити (0 очков, 0:3 от Бразилии). Гонка за 1-е место толкает марокканцев на разгром.",
+      "en": "Morocco trail Brazil on goal difference and must not just win but win big — against the weakest side, Haiti (0 points, 0:3 to Brazil). The race for top spot pushes Morocco toward a rout."
+    }
+  },
+  {
+    "id": "southafrica-southkorea",
+    "date": "2026-06-24",
+    "timeMsk": "04:00",
+    "title": {
+      "ru": "ЮАР — Южная Корея",
+      "en": "South Africa — South Korea"
+    },
+    "cc": [
+      "za",
+      "kr"
+    ],
+    "stage": {
+      "ru": "Группа A · тур 3",
+      "en": "Group A · MD 3"
+    },
+    "venue": {
+      "ru": "Estadio BBVA, Монтеррей",
+      "en": "Estadio BBVA, Monterrey"
+    },
+    "weather": {
+      "ru": "Открытый, поздний вечер — без экстремальной жары",
+      "en": "Open-air, late evening — no extreme heat"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Корее хватает ничьей, чтобы выйти со 2-го места — разгром ей не нужен. ЮАР обязана побеждать, но без дисквалифицированных Мокоэны и Зване созидание выбито. Пахнет низким, контролируемым матчем.",
+      "en": "South Korea need only a draw to go through second — no rout required. South Africa must win, but with Mokoena and Zwane suspended their creativity is gutted. A low, controlled game looms."
+    }
+  },
+  {
+    "id": "czechia-mexico",
+    "date": "2026-06-24",
+    "timeMsk": "04:00",
+    "title": {
+      "ru": "Чехия — Мексика",
+      "en": "Czechia — Mexico"
+    },
+    "cc": [
+      "cz",
+      "mx"
+    ],
+    "stage": {
+      "ru": "Группа A · тур 3",
+      "en": "Group A · MD 3"
+    },
+    "venue": {
+      "ru": "Стадион уточняется",
+      "en": "Venue TBC"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Мексика уже оформила 1-е место и почти наверняка ротирует состав — мотивации ноль. Чехия дома обязана побеждать, цепляясь за призрачный шанс. Незаряженный фаворит против отчаянного хозяина.",
+      "en": "Mexico have already sealed top spot and will almost certainly rotate — zero motivation. Czechia must win at home, clinging to a faint chance. An unmotivated favourite against a desperate host."
+    }
   }
 ]
