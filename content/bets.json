@@ -5877,5 +5877,293 @@
       "ru": "Рынок «все 6 матчей разом»: суммарный тотал голов. Наша проекция ≈14 против пивота рынка ~17. Тур почти весь низовой (ТМ Швейцария-Канада и ЮАР-Корея, флэт-ничьи, узкая Бразилия), один разгром Марокко не дотягивает сумму до линии. Модель ТМ16.5 ~73% против 50% рынка. По сути — рычаг на всё наше низовое чтение тура.",
       "en": "\"All six at once\" market: aggregate goal total. Our projection ≈14 vs the market pivot ~17. Almost the whole round is low-scoring (Under in Switzerland-Canada & South Africa-Korea, flat draws, a narrow Brazil), and Morocco's lone rout doesn't lift the sum to the line. Model Under 16.5 ~73% vs market 50%. Essentially a lever on our entire low-scoring read."
     }
+  },
+  {
+    "id": 211,
+    "match": {
+      "ru": "Босния — Катар",
+      "en": "Bosnia — Qatar"
+    },
+    "matchId": "bosnia-qatar",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Обе забьют — нет",
+      "en": "Both teams to score — no"
+    },
+    "type": "ОЗ",
+    "odds": 1.84,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Прямая лобовая с машиной (у нас ОЗ-да). Логика Паши: Боснии нужна разница мячей для лучшего 3-го, Катар — худшая команда турнира («гол сдуру забили, делать больше нечего»). Босния выигрывает на ноль.",
+      "en": "A head-to-head clash with the machine (we have BTTS-yes). Pasha: Bosnia need goal difference for a best-third spot, Qatar are the tournament worst side. Bosnia win to nil."
+    }
+  },
+  {
+    "id": 212,
+    "match": {
+      "ru": "Швейцария — Канада",
+      "en": "Switzerland — Canada"
+    },
+    "matchId": "switzerland-canada",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Тотал больше 2.0 (под возврат)",
+      "en": "Over 2.0 goals (push at 2)"
+    },
+    "type": "ТБ",
+    "odds": 1.61,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Встречно нашей ТМ 2.5. Паша ждёт экономную ничью, но страхует: «мало ли Швейцария сдуру захочет выиграть — тогда уйдёт в голы». При 1:1 (2 гола) — возврат.",
+      "en": "Counter to our Under 2.5. Pasha expects a cagey draw but hedges: if Switzerland push for the win it opens up. At 1:1 (2 goals) the bet pushes (refund)."
+    }
+  },
+  {
+    "id": 213,
+    "match": {
+      "ru": "Шотландия — Бразилия",
+      "en": "Scotland — Brazil"
+    },
+    "matchId": "scotland-brazil",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Фора Шотландии +1.5",
+      "en": "Scotland +1.5 handicap"
+    },
+    "type": "АФ",
+    "odds": 1.91,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Согласие с машиной. Бразилия потеряла Рафинью, рисковать игроками незачем, 2-е место даёт лёгкую сетку — ждёт 1:1 / 1:0.",
+      "en": "Agrees with the machine. Brazil lost Raphinha, no reason to risk players, 2nd place gives an easy bracket — he expects 1:1 / 1:0."
+    }
+  },
+  {
+    "id": 214,
+    "match": {
+      "ru": "Марокко — Гаити",
+      "en": "Morocco — Haiti"
+    },
+    "matchId": "morocco-haiti",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Сухая победа Марокко (П1 + ОЗ-нет)",
+      "en": "Morocco to win to nil"
+    },
+    "type": "Другое",
+    "odds": 1.66,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Согласие по направлению с нашей ИТ Марокко >2.5. Гаити — «команда-ничто», Марокко набивает разницу за 1-е место и не должно пропускать.",
+      "en": "Same direction as our Morocco team total >2.5. Haiti are a non-entity; Morocco pile up goal difference for top spot and keep a clean sheet."
+    }
+  },
+  {
+    "id": 215,
+    "match": {
+      "ru": "ЮАР — Южная Корея",
+      "en": "South Africa — South Korea"
+    },
+    "matchId": "southafrica-southkorea",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Обе забьют — нет",
+      "en": "Both teams to score — no"
+    },
+    "type": "ОЗ",
+    "odds": 1.77,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Согласие с нашим низом (у нас ТМ 2.5). Паша жёстко: «два дна с примитивным футболом, у корейцев выучена одна комбинация». Унылый ноль или мини-победа Кореи.",
+      "en": "Agrees with our low read (we have Under 2.5). Pasha is blunt: two bottom sides, the Koreans have learned exactly one move. A dreary goalless game or a narrow Korea win."
+    }
+  },
+  {
+    "id": 216,
+    "match": {
+      "ru": "Чехия — Мексика",
+      "en": "Czechia — Mexico"
+    },
+    "matchId": "czechia-mexico",
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Чехия не проиграет + ТМ 2.5 (1Х+ТМ)",
+      "en": "Czechia not to lose + Under 2.5"
+    },
+    "type": "Другое",
+    "odds": 2.6,
+    "tier": "yellow",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Согласие с нашим «Чехия не проиграет», но смелее — добавил ТМ. Мексике незачем напрягаться, дохлые чехи сядут во 2-м тайме на высоте → минимальная ничья или мини-победа.",
+      "en": "Agrees with our Czechia-not-to-lose but bolder — adds the Under. Mexico have no reason to try; the tired Czechs fade at altitude → a minimal draw or narrow win."
+    }
+  },
+  {
+    "id": 217,
+    "match": {
+      "ru": "Система 3/4 · ничьи",
+      "en": "System 3/4 · draws"
+    },
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "ничьи",
+      "en": "draws"
+    },
+    "type": "Система",
+    "odds": 17,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "«По факту жду сразу три ничьи». Система 3/4 (нужно ≥3 из 4): экономные/немотивированные матчи без победителя. Эфф. кэф ~17 при 3 из 4, до ~67 если все четыре. Кэфы ориентировочные (линия Фонбета).",
+      "en": "\"I expect three draws at once.\" System 3/4 (need 3 of 4): cagey, unmotivated games with no winner. Effective odds ~17 at 3/4, up to ~67 if all four. Odds indicative (Fonbet line)."
+    },
+    "stake": 500,
+    "legs": [
+      {
+        "m": {
+          "ru": "Швейцария — Канада",
+          "en": "Switzerland — Canada"
+        },
+        "p": {
+          "ru": "Ничья @3.15",
+          "en": "Draw @3.15"
+        }
+      },
+      {
+        "m": {
+          "ru": "Шотландия — Бразилия",
+          "en": "Scotland — Brazil"
+        },
+        "p": {
+          "ru": "Ничья @5.40",
+          "en": "Draw @5.40"
+        }
+      },
+      {
+        "m": {
+          "ru": "ЮАР — Южная Корея",
+          "en": "South Africa — South Korea"
+        },
+        "p": {
+          "ru": "Ничья @3.95",
+          "en": "Draw @3.95"
+        }
+      },
+      {
+        "m": {
+          "ru": "Чехия — Мексика",
+          "en": "Czechia — Mexico"
+        },
+        "p": {
+          "ru": "Ничья @3.95",
+          "en": "Draw @3.95"
+        }
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "match": {
+      "ru": "Система 3/6 · точные счета",
+      "en": "System 3/6 · correct scores"
+    },
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
+    "type": "Система",
+    "odds": 10,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Точные счета Паши (3 из 6): две домашние победы на ноль и четыре ничьи. Совпадает с машиной по двум счетам (1:1 Швейцария-Канада, 2:0 Марокко). Эфф. кэф при резолве (по тройкам).",
+      "en": "Pasha correct scores (3 of 6): two home wins to nil and four draws. Matches the machine on two scores (1:1 Switzerland-Canada, 2:0 Morocco). Effective odds at settlement (by triples)."
+    },
+    "stake": 500,
+    "legs": [
+      {
+        "m": {
+          "ru": "Босния — Катар",
+          "en": "Bosnia — Qatar"
+        },
+        "p": {
+          "ru": "1:0 @8.5",
+          "en": "1:0 @8.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Швейцария — Канада",
+          "en": "Switzerland — Canada"
+        },
+        "p": {
+          "ru": "1:1 @5.5",
+          "en": "1:1 @5.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Шотландия — Бразилия",
+          "en": "Scotland — Brazil"
+        },
+        "p": {
+          "ru": "1:1 @10",
+          "en": "1:1 @10"
+        }
+      },
+      {
+        "m": {
+          "ru": "Марокко — Гаити",
+          "en": "Morocco — Haiti"
+        },
+        "p": {
+          "ru": "2:0 @6.0",
+          "en": "2:0 @6.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "ЮАР — Южная Корея",
+          "en": "South Africa — South Korea"
+        },
+        "p": {
+          "ru": "0:0 @9.5",
+          "en": "0:0 @9.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Чехия — Мексика",
+          "en": "Czechia — Mexico"
+        },
+        "p": {
+          "ru": "0:0 @9.5",
+          "en": "0:0 @9.5"
+        }
+      }
+    ]
   }
 ]
