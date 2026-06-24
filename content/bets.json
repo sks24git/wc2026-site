@@ -5855,5 +5855,27 @@
         }
       }
     ]
+  },
+  {
+    "id": 210,
+    "match": {
+      "ru": "Все 6 матчей · группы A/B/C",
+      "en": "All 6 matches · Groups A/B/C"
+    },
+    "date": "2026-06-24",
+    "bet": {
+      "ru": "Суммарный тотал меньше 16.5",
+      "en": "Aggregate total under 16.5"
+    },
+    "type": "ТМ",
+    "odds": 2.0,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Рынок «все 6 матчей разом»: суммарный тотал голов. Наша проекция ≈14 против пивота рынка ~17. Тур почти весь низовой (ТМ Швейцария-Канада и ЮАР-Корея, флэт-ничьи, узкая Бразилия), один разгром Марокко не дотягивает сумму до линии. Модель ТМ16.5 ~73% против 50% рынка. По сути — рычаг на всё наше низовое чтение тура.",
+      "en": "\"All six at once\" market: aggregate goal total. Our projection ≈14 vs the market pivot ~17. Almost the whole round is low-scoring (Under in Switzerland-Canada & South Africa-Korea, flat draws, a narrow Brazil), and Morocco's lone rout doesn't lift the sum to the line. Model Under 16.5 ~73% vs market 50%. Essentially a lever on our entire low-scoring read."
+    }
   }
 ]
