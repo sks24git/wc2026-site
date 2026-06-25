@@ -6434,5 +6434,250 @@
         }
       }
     ]
+  },
+  {
+    "id": 228,
+    "match": {
+      "ru": "Япония — Швеция",
+      "en": "Japan — Sweden"
+    },
+    "matchId": "japan-sweden",
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.76,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Согласие с машиной — открытый равный матч, обе должны забить.",
+      "en": "Agrees with the machine — an open, even game, both should score."
+    }
+  },
+  {
+    "id": 229,
+    "match": {
+      "ru": "Эквадор — Германия",
+      "en": "Ecuador — Germany"
+    },
+    "matchId": "ecuador-germany",
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.73,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Тут мы расходимся: машина сознательно обошла этот рынок — Эквадор не забил вообще ни разу за турнир. Самая спорная ставка Паши сегодня.",
+      "en": "Here we diverge: the machine deliberately avoided this market — Ecuador have not scored a single goal all tournament. Pasha’s shakiest pick today."
+    }
+  },
+  {
+    "id": 230,
+    "match": {
+      "ru": "Парагвай — Австралия",
+      "en": "Paraguay — Australia"
+    },
+    "matchId": "paraguay-australia",
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "Тотал больше 1.5",
+      "en": "Over 1.5 goals"
+    },
+    "type": "ТБ",
+    "odds": 1.66,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Минимальный верх в осторожном матче — нужно всего 2 гола на двоих. Прямо против нашего ОЗ-нет на сухарь.",
+      "en": "A minimal over in a cagey game — just two goals between them. Straight against our BTTS-no clean-sheet read."
+    }
+  },
+  {
+    "id": 231,
+    "match": {
+      "ru": "Тунис — Нидерланды",
+      "en": "Tunisia — Netherlands"
+    },
+    "matchId": "tunisia-netherlands",
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "Тотал больше 1.5 (2-й тайм)",
+      "en": "Over 1.5 goals (2nd half)"
+    },
+    "type": "ТБ",
+    "odds": 1.66,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Голы во 2-м тайме — Нидерланды дожимают сломанный Тунис под концовку. По направлению совпадает с нашими голами Оранье.",
+      "en": "Second-half goals — the Dutch finish off a broken Tunisia late. Same direction as our Dutch-goals read."
+    }
+  },
+  {
+    "id": 232,
+    "match": {
+      "ru": "Турция — США",
+      "en": "Turkey — USA"
+    },
+    "matchId": "turkey-usa",
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.61,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Дублёры США + заряженная Турция → обе могут забить в мёртвом матче. Совпадает с нашим чтением открытого Турция-США.",
+      "en": "USA reserves + a fired-up Turkey → both can score in a dead rubber. Matches our open Turkey-USA read."
+    }
+  },
+  {
+    "id": 233,
+    "match": {
+      "ru": "Экспресс 5 · голы",
+      "en": "Accumulator 5 · goals"
+    },
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "голы во всех",
+      "en": "goals in all"
+    },
+    "type": "Экспресс",
+    "odds": 13.51,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Голевой экспресс Паши: ставит, что во всех пяти матчах будет жарко и с мячами. Самая хрупкая нога — ОЗ-да в Эквадор-Германия (Эквадор без голов за турнир) — на ней всё и может рассыпаться.",
+      "en": "Pasha’s goals accumulator: betting all five open up. The most fragile leg — BTTS in Ecuador-Germany (Ecuador goalless all tournament) — is where it can all unravel."
+    },
+    "stake": 500,
+    "legs": [
+      {
+        "m": {
+          "ru": "Япония — Швеция",
+          "en": "Japan — Sweden"
+        },
+        "p": {
+          "ru": "ОЗ-да @1.76",
+          "en": "BTTS-yes @1.76"
+        }
+      },
+      {
+        "m": {
+          "ru": "Эквадор — Германия",
+          "en": "Ecuador — Germany"
+        },
+        "p": {
+          "ru": "ОЗ-да @1.73",
+          "en": "BTTS-yes @1.73"
+        }
+      },
+      {
+        "m": {
+          "ru": "Парагвай — Австралия",
+          "en": "Paraguay — Australia"
+        },
+        "p": {
+          "ru": "ТБ 1.5 @1.66",
+          "en": "Over 1.5 @1.66"
+        }
+      },
+      {
+        "m": {
+          "ru": "Тунис — Нидерланды",
+          "en": "Tunisia — Netherlands"
+        },
+        "p": {
+          "ru": "ТБ 1.5 (2-й тайм) @1.66",
+          "en": "Over 1.5 (2nd half) @1.66"
+        }
+      },
+      {
+        "m": {
+          "ru": "Турция — США",
+          "en": "Turkey — USA"
+        },
+        "p": {
+          "ru": "ОЗ-да @1.61",
+          "en": "BTTS-yes @1.61"
+        }
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "match": {
+      "ru": "Экспресс 3 · ничьи",
+      "en": "Accumulator 3 · draws"
+    },
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "три ничьи",
+      "en": "three draws"
+    },
+    "type": "Экспресс",
+    "odds": 66.01,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Лотерейный экспресс на три ничьи в самых ровных матчах — сразу после тура без единой ничьи. Очень человеческое «ну теперь-то должно». Пересекается по 1:1 с его же голевым экспрессом: счёт 1:1 заходит и там, и там.",
+      "en": "A lottery on three draws in the most even games — right after a draw-less round. A very human “surely now they’re owed”. It overlaps on 1:1 with his own goals accumulator: a 1:1 cashes on both."
+    },
+    "stake": 250,
+    "legs": [
+      {
+        "m": {
+          "ru": "Япония — Швеция",
+          "en": "Japan — Sweden"
+        },
+        "p": {
+          "ru": "Ничья @3.5",
+          "en": "Draw @3.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Эквадор — Германия",
+          "en": "Ecuador — Germany"
+        },
+        "p": {
+          "ru": "Ничья @4.6",
+          "en": "Draw @4.6"
+        }
+      },
+      {
+        "m": {
+          "ru": "Турция — США",
+          "en": "Turkey — USA"
+        },
+        "p": {
+          "ru": "Ничья @4.1",
+          "en": "Draw @4.1"
+        }
+      }
+    ]
   }
 ]
