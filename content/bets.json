@@ -6165,5 +6165,274 @@
         }
       }
     ]
+  },
+  {
+    "id": 219,
+    "match": {
+      "ru": "Эквадор — Германия",
+      "en": "Ecuador — Germany"
+    },
+    "matchId": "ecuador-germany",
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "Тотал больше 2.5",
+      "en": "Over 2.5 goals"
+    },
+    "type": "ТБ",
+    "odds": 1.65,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Германия НЕ ротирует глубоко (Нагельсманн: «реально хотим победить», ~2 вынужденные замены) — на поле атака, забившая 9 за 2 матча. Оборона немцев течёт (пропускала в обоих + без Шлоттербека), Эквадор обязан раскрыться. Профильный овер (8 и 3 гола в турах). Модель ~62–66% vs рынок 61%.",
+      "en": "Germany are NOT rotating deeply (Nagelsmann: 'we really want to win', ~2 forced changes) — the attack that scored 9 in two games starts. Their defence leaks (conceded in both, no Schlotterbeck), and Ecuador must open up. Over is their profile (8 and 3 goals). Model ~62–66% vs market 61%."
+    }
+  },
+  {
+    "id": 220,
+    "match": {
+      "ru": "Кюрасао — Кот-д’Ивуар",
+      "en": "Curaçao — Côte d’Ivoire"
+    },
+    "matchId": "curacao-ivorycoast",
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "Тотал меньше 3.5",
+      "en": "Under 3.5 goals"
+    },
+    "type": "ТМ",
+    "odds": 1.68,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Кот-д’Ивуару хватает ничьей (личка над Эквадором) → контроль, потолок 1 гол (по голу в обоих матчах ЧМ). Кюрасао на ЧМ беззубо (0.40 xG, 0 в створ с Эквадором). Модели единодушно вниз (U3.5 — топ-сигнал, U2.5 ~57–64%). Рынок ошибочно прайсит верх.",
+      "en": "Côte d’Ivoire need only a draw (they hold the tiebreaker over Ecuador) → control, ceiling of one goal (scored once in each WC game). Curaçao are toothless at the WC (0.40 xG, 0 shots on target vs Ecuador). Models lean low (U3.5 a top signal, U2.5 ~57–64%). The market wrongly prices the over."
+    }
+  },
+  {
+    "id": 221,
+    "match": {
+      "ru": "Япония — Швеция",
+      "en": "Japan — Sweden"
+    },
+    "matchId": "japan-sweden",
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.68,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Швеция must-win и дырявая (6 забила / 6 пропустила за 2 матча), обязана идти вперёд → откроется. Япония довольна ничьёй, но быстра и забивает на переходах (4 Тунису). Равный спор (xG-разница 0.32), голевая мина.",
+      "en": "Sweden are must-win and leaky (6 scored / 6 conceded in two games) and must attack → they open up. Japan are content with a draw but fast and score on the break (4 past Tunisia). Tight contest (xG gap 0.32), a goals game."
+    }
+  },
+  {
+    "id": 222,
+    "match": {
+      "ru": "Тунис — Нидерланды",
+      "en": "Tunisia — Netherlands"
+    },
+    "matchId": "tunisia-netherlands",
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "Индивидуальный тотал Нидерландов больше 2.5",
+      "en": "Netherlands team total over 2.5"
+    },
+    "type": "ИТ",
+    "odds": 2.4,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Нидерланды мотивированы разницей мячей за 1-е место (спор с Японией по забитым) против вылетевшего сломанного Туниса (−8, пропустил 9 за 2 матча). Изолируем атаку Оранье от гола утешения Туниса. НЕ вязкий низ.",
+      "en": "The Netherlands are chasing goal difference for top spot (a goals battle with Japan) against an eliminated, broken Tunisia (−8, conceded 9 in two games). We isolate the Dutch attack from any Tunisia consolation. Not a cagey low-scorer."
+    }
+  },
+  {
+    "id": 223,
+    "match": {
+      "ru": "Турция — США",
+      "en": "Turkey — USA"
+    },
+    "matchId": "turkey-usa",
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "Турция не проиграет (1Х)",
+      "en": "Turkey not to lose (1X)"
+    },
+    "type": "1Х",
+    "odds": 1.97,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Мёртвый матч: США выиграли группу → глубоко ротируют (отдых перед плей-офф), Турция в основе и за престиж. Модель таланта делает Турцию фаворитом (xG 1.34 vs 0.92). Прямой аналог Бельгия 1:1 Египет. ⚠️ Триггер: подтвердить ротацию США в составе.",
+      "en": "Dead rubber: USA won the group → deep rotation (resting before the knockouts), Turkey at full strength for pride. The talent model makes Turkey favourite (xG 1.34 vs 0.92). A direct echo of Belgium 1:1 Egypt. ⚠️ Trigger: confirm USA's rotation in the lineup."
+    }
+  },
+  {
+    "id": 224,
+    "match": {
+      "ru": "Парагвай — Австралия",
+      "en": "Paraguay — Australia"
+    },
+    "matchId": "paraguay-australia",
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "Обе забьют — нет",
+      "en": "Both teams to score — no"
+    },
+    "type": "ОЗ",
+    "odds": 1.67,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Австралии хватает ничьей → садится в элитный низкий блок (фирменное ОЗ-нет). Парагвай must-win, но без дисквалифицированного Альмирона (бомбардир/креатор) против пятёрки защитников — вскрывать нечем. Одна из команд держит ноль. xG-модель ОЗ-нет 62%.",
+      "en": "Australia need only a draw → they sit in an elite low block (their trademark BTTS-no). Paraguay are must-win but without the suspended Almirón (scorer/creator) against a back five — nothing to break it down. One side keeps a clean sheet. xG model BTTS-no 62%."
+    }
+  },
+  {
+    "id": 225,
+    "match": {
+      "ru": "Турция — США",
+      "en": "Turkey — USA"
+    },
+    "matchId": "turkey-usa",
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "Победа Турции",
+      "en": "Turkey to win"
+    },
+    "type": "П1",
+    "odds": 4.0,
+    "tier": "yellow",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Смелее зелёной 1Х: модель таланта прямо делает Турцию фаворитом против дублёров США без мотива. Тот же сценарий (Турция берёт результат в мёртвом матче), кэф в жёлтой зоне.",
+      "en": "Bolder than the 1X green: the talent model makes Turkey the outright favourite against an unmotivated USA reserve side. Same scenario (Turkey get a result in a dead rubber), priced in the yellow band."
+    }
+  },
+  {
+    "id": 226,
+    "match": {
+      "ru": "Япония — Швеция",
+      "en": "Japan — Sweden"
+    },
+    "matchId": "japan-sweden",
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
+    "type": "Х",
+    "odds": 3.55,
+    "tier": "yellow",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Япония довольна ничьёй (выводит со 2-го места) → может сыграть осторожно и не пускать Швецию; дисциплинированная Япония против обязанной раскрыться Швеции. Производная того же равного коридора, что и ОЗ-да (1:1).",
+      "en": "Japan are content with a draw (it sends them through second) → they can play it safe and frustrate Sweden; a disciplined Japan against a Sweden forced to open up. A derivative of the same even corridor as the BTTS-yes (1:1)."
+    }
+  },
+  {
+    "id": 227,
+    "match": {
+      "ru": "Система 3/6 · точные счета",
+      "en": "System 3/6 · correct scores"
+    },
+    "date": "2026-06-25",
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
+    "type": "Система",
+    "odds": 9,
+    "tier": "red",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Система ТС 3/6 (нужно ≥3 точных счёта из 6). Счета по сценариям: разгром Германии при молчащем Эквадоре, контролируемая сухая победа Кот-д’Ивуара, равные голы Япония-Швеция и мёртвый Турция-США, узкий Парагвай, голы Нидерландов. Эфф. кэф при резолве (по тройкам).",
+      "en": "CS system 3/6 (need ≥3 exact scores of 6). Scores by scenario: a Germany rout with Ecuador silent, a controlled Côte d’Ivoire clean-sheet win, even goals in Japan-Sweden and a dead Turkey-USA, a narrow Paraguay, Dutch goals. Effective odds at settlement (by triples)."
+    },
+    "stake": 500,
+    "legs": [
+      {
+        "m": {
+          "ru": "Эквадор — Германия",
+          "en": "Ecuador — Germany"
+        },
+        "p": {
+          "ru": "0:3",
+          "en": "0:3"
+        }
+      },
+      {
+        "m": {
+          "ru": "Кюрасао — Кот-д’Ивуар",
+          "en": "Curaçao — Côte d’Ivoire"
+        },
+        "p": {
+          "ru": "0:2",
+          "en": "0:2"
+        }
+      },
+      {
+        "m": {
+          "ru": "Япония — Швеция",
+          "en": "Japan — Sweden"
+        },
+        "p": {
+          "ru": "1:1",
+          "en": "1:1"
+        }
+      },
+      {
+        "m": {
+          "ru": "Тунис — Нидерланды",
+          "en": "Tunisia — Netherlands"
+        },
+        "p": {
+          "ru": "0:3",
+          "en": "0:3"
+        }
+      },
+      {
+        "m": {
+          "ru": "Турция — США",
+          "en": "Turkey — USA"
+        },
+        "p": {
+          "ru": "1:1",
+          "en": "1:1"
+        }
+      },
+      {
+        "m": {
+          "ru": "Парагвай — Австралия",
+          "en": "Paraguay — Australia"
+        },
+        "p": {
+          "ru": "1:0",
+          "en": "1:0"
+        }
+      }
+    ]
   }
 ]

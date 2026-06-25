@@ -1566,5 +1566,185 @@
       "ru": "Мексика уже оформила 1-е место и почти наверняка ротирует состав — мотивации ноль. Чехия дома обязана побеждать, цепляясь за призрачный шанс. Незаряженный фаворит против отчаянного хозяина.",
       "en": "Mexico have already sealed top spot and will almost certainly rotate — zero motivation. Czechia must win at home, clinging to a faint chance. An unmotivated favourite against a desperate host."
     }
+  },
+  {
+    "id": "ecuador-germany",
+    "date": "2026-06-25",
+    "timeMsk": "23:00",
+    "title": {
+      "ru": "Эквадор — Германия",
+      "en": "Ecuador — Germany"
+    },
+    "cc": [
+      "ec",
+      "de"
+    ],
+    "stage": {
+      "ru": "Группа E · тур 3",
+      "en": "Group E · MD 3"
+    },
+    "venue": {
+      "ru": "MetLife Stadium, Ист-Ратерфорд",
+      "en": "MetLife Stadium, East Rutherford"
+    },
+    "weather": {
+      "ru": "Открытый, тепло и влажно (конец июня)",
+      "en": "Open-air, warm and humid (late June)"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Германия уже первая в группе, но Нагельсманн отказался от ротации — «реально хотим победить». Эквадор за два матча не забил ни гола и обязан побеждать ради лучшего третьего. Машина против инерции «фаворит расслабится»: немцы выйдут почти основой и побегут.",
+      "en": "Germany are already top, but Nagelsmann has ruled out rotation — 'we really want to win'. Ecuador haven't scored in two games and must win to chase a best-third spot. The machine fades the 'favourite eases off' narrative: Germany start near-full and will press."
+    }
+  },
+  {
+    "id": "curacao-ivorycoast",
+    "date": "2026-06-25",
+    "timeMsk": "23:00",
+    "title": {
+      "ru": "Кюрасао — Кот-д’Ивуар",
+      "en": "Curaçao — Côte d’Ivoire"
+    },
+    "cc": [
+      "cw",
+      "ci"
+    ],
+    "stage": {
+      "ru": "Группа E · тур 3",
+      "en": "Group E · MD 3"
+    },
+    "venue": {
+      "ru": "Lincoln Financial Field, Филадельфия",
+      "en": "Lincoln Financial Field, Philadelphia"
+    },
+    "weather": {
+      "ru": "Открытый, жара и влажность",
+      "en": "Open-air, heat and humidity"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Кот-д’Ивуару хватает ничьей, чтобы выйти со второго места, — разгром не нужен. Кюрасао после исторического очка с Эквадором обязано побеждать, но на ЧМ почти не бьёт по воротам. Пахнет контролируемым низом с сухарём ивуарийцев.",
+      "en": "Côte d’Ivoire need only a draw to go through second — no rout required. Curaçao, after their historic point against Ecuador, must win, yet they barely test the keeper. A controlled low-scorer with an Ivorian clean sheet looms."
+    }
+  },
+  {
+    "id": "japan-sweden",
+    "date": "2026-06-25",
+    "timeMsk": "02:00",
+    "title": {
+      "ru": "Япония — Швеция",
+      "en": "Japan — Sweden"
+    },
+    "cc": [
+      "jp",
+      "se"
+    ],
+    "stage": {
+      "ru": "Группа F · тур 3",
+      "en": "Group F · MD 3"
+    },
+    "venue": {
+      "ru": "AT&T Stadium, Арлингтон",
+      "en": "AT&T Stadium, Arlington"
+    },
+    "weather": {
+      "ru": "Раздвижная крыша, климат-контроль — не фактор",
+      "en": "Retractable roof, climate control — not a factor"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Японию ничья выводит со второго места, а Швеция обязана побеждать — иначе домой. Шведы и забивают, и пропускают пачками (6 и 6 за два матча), японцы быстры на переходах. Швеция полезет вперёд — должно быть открыто и с голами в обе стороны.",
+      "en": "A draw sends Japan through second, while Sweden must win or go home. The Swedes both score and concede in bunches (6 and 6); Japan are fast on the break. Sweden will push forward — expect an open game with goals at both ends."
+    }
+  },
+  {
+    "id": "tunisia-netherlands",
+    "date": "2026-06-25",
+    "timeMsk": "02:00",
+    "title": {
+      "ru": "Тунис — Нидерланды",
+      "en": "Tunisia — Netherlands"
+    },
+    "cc": [
+      "tn",
+      "nl"
+    ],
+    "stage": {
+      "ru": "Группа F · тур 3",
+      "en": "Group F · MD 3"
+    },
+    "venue": {
+      "ru": "Arrowhead Stadium, Канзас-Сити",
+      "en": "Arrowhead Stadium, Kansas City"
+    },
+    "weather": {
+      "ru": "Открытый стадион",
+      "en": "Open-air stadium"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Тунис уже вылетел, а Нидерландам нужны голы: они спорят с Японией за первое место по разнице мячей. Оранье методично грузят сломанную оборону Туниса (девять пропущенных за два матча). Не вязкий ноль — машина ждёт перевес и голы Нидерландов.",
+      "en": "Tunisia are already out, while the Netherlands need goals: they're fighting Japan for top spot on goal difference. The Dutch methodically break down a broken Tunisia defence (nine conceded in two games). Not a cagey nil — the machine expects a Dutch margin and goals."
+    }
+  },
+  {
+    "id": "turkey-usa",
+    "date": "2026-06-25",
+    "timeMsk": "05:00",
+    "title": {
+      "ru": "Турция — США",
+      "en": "Turkey — USA"
+    },
+    "cc": [
+      "tr",
+      "us"
+    ],
+    "stage": {
+      "ru": "Группа D · тур 3",
+      "en": "Group D · MD 3"
+    },
+    "venue": {
+      "ru": "SoFi Stadium, Инглвуд",
+      "en": "SoFi Stadium, Inglewood"
+    },
+    "weather": {
+      "ru": "Фиксированный навес сверху — не фактор",
+      "en": "Fixed canopy roof — not a factor"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Мёртвый матч с подвохом: США оформили первое место и почти наверняка глубоко ротируют перед плей-офф, а Турция выйдет основой и за престиж. Модель таланта вообще делает фаворитом Турцию — машина идёт против рынка и ставит, что США дублёрами не выиграют.",
+      "en": "A dead rubber with a twist: the USA have sealed top spot and will almost certainly rotate deeply before the knockouts, while Turkey field their first team for pride. The talent model even makes Turkey favourite — the machine goes against the market and backs the USA reserves not to win."
+    }
+  },
+  {
+    "id": "paraguay-australia",
+    "date": "2026-06-25",
+    "timeMsk": "05:00",
+    "title": {
+      "ru": "Парагвай — Австралия",
+      "en": "Paraguay — Australia"
+    },
+    "cc": [
+      "py",
+      "au"
+    ],
+    "stage": {
+      "ru": "Группа D · тур 3",
+      "en": "Group D · MD 3"
+    },
+    "venue": {
+      "ru": "Levi’s Stadium, Санта-Клара",
+      "en": "Levi’s Stadium, Santa Clara"
+    },
+    "weather": {
+      "ru": "Открытый стадион",
+      "en": "Open-air stadium"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Прямой спор за второе место: Австралии хватает ничьей (лучше разница), Парагваю нужна только победа — но без дисквалифицированного Альмирона, своего бомбардира и креатора. Австралия сядет в плотный блок, вскрывать его нечем. Пахнет низом и сухарём.",
+      "en": "A straight shootout for second: Australia need only a draw (better goal difference), Paraguay need a win — but without the suspended Almirón, their scorer and creator. Australia will sit in a tight block with little to break it down. A low-scorer with a clean sheet looms."
+    }
   }
 ]
