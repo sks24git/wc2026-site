@@ -5650,7 +5650,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "⚡ value: Бразилия в 2+ лишь ~38–42% (модели) против ~50% рынка. Анчелотти снял мотивацию на разгром, возможна ротация/Неймар с лавки; Шотландия (must-not-lose) раскроется и огрызнётся.",
       "en": "⚡ value: Brazil by 2+ only ~38–42% (models) vs ~50% market. Ancelotti played down the rout, rotation/Neymar off the bench likely; Scotland (must-not-lose) will open up and bite."
@@ -5673,7 +5673,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Марокко отстаёт от Бразилии по разнице (+1 vs +3) и обязано выносить слабейшую Гаити (0 очков, пропустила 0:3 Бразилии) ради 1-го места. Гонка за GD → разгром.",
       "en": "Morocco trail Brazil on GD (+1 vs +3) and must run up the score on the weakest side, Haiti (0 points, conceded 0:3 to Brazil), to take top spot. The GD race → a rout."
@@ -5696,7 +5696,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "⚡ value: модель ТМ ~64% против рынка ~52–55%. Корее хватает ничьей (разгром не нужен), ЮАР без дисквалифицированных Мокоэны/Зване — созидание выбито. Узкий низ.",
       "en": "⚡ value: model Under ~64% vs market ~52–55%. South Korea need only a draw (no rout), South Africa without the suspended Mokoena/Zwane — creativity gutted. A tight, low game."
@@ -5719,7 +5719,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Мексика оформила 1-е → почти наверняка ротация и ноль мотивации. Чехия дома обязана побеждать. Незаряженный фаворит часто отдаёт очки отчаянному хозяину.",
       "en": "Mexico have sealed top spot → near-certain rotation and zero motivation. Czechia must win at home. An unmotivated favourite often drops points to a desperate host."
@@ -5765,7 +5765,7 @@
     "tier": "yellow",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Смелее зелёной 1Х: ротированная без мотивации Мексика дома у отчаянной Чехии вполне может проиграть. Тот же сценарий (Чехия берёт результат), кэф в жёлтой зоне.",
       "en": "Bolder than the 1X green: a rotated, unmotivated Mexico can lose outright at a desperate Czechia. Same scenario (Czechia get a result), priced in the yellow band."
@@ -5787,7 +5787,7 @@
     "tier": "red",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Новый формат ТС — 3/6 (нужно ≥3 точных счёта из 6). Счета по сценариям: Босния дожимает, флэт-ничьи, узкие победы фаворитов, разгром Марокко. Эфф. кэф при резолве (по тройкам).",
       "en": "New CS format — 3/6 (need ≥3 exact scores of 6). Scores by scenario: Bosnia edge it, flat draws, narrow favourite wins, a Morocco rout. Effective odds at settlement (by triples)."
@@ -5872,7 +5872,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Рынок «все 6 матчей разом»: суммарный тотал голов. Наша проекция ≈14 против пивота рынка ~17. Тур почти весь низовой (ТМ Швейцария-Канада и ЮАР-Корея, флэт-ничьи, узкая Бразилия), один разгром Марокко не дотягивает сумму до линии. Модель ТМ16.5 ~73% против 50% рынка. По сути — рычаг на всё наше низовое чтение тура.",
       "en": "\"All six at once\" market: aggregate goal total. Our projection ≈14 vs the market pivot ~17. Almost the whole round is low-scoring (Under in Switzerland-Canada & South Africa-Korea, flat draws, a narrow Brazil), and Morocco's lone rout doesn't lift the sum to the line. Model Under 16.5 ~73% vs market 50%. Essentially a lever on our entire low-scoring read."
@@ -5941,7 +5941,7 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Согласие с машиной. Бразилия потеряла Рафинью, рисковать игроками незачем, 2-е место даёт лёгкую сетку — ждёт 1:1 / 1:0.",
       "en": "Agrees with the machine. Brazil lost Raphinha, no reason to risk players, 2nd place gives an easy bracket — he expects 1:1 / 1:0."
@@ -5964,7 +5964,7 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Согласие по направлению с нашей ИТ Марокко >2.5. Гаити — «команда-ничто», Марокко набивает разницу за 1-е место и не должно пропускать.",
       "en": "Same direction as our Morocco team total >2.5. Haiti are a non-entity; Morocco pile up goal difference for top spot and keep a clean sheet."
@@ -5987,7 +5987,7 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Согласие с нашим низом (у нас ТМ 2.5). Паша жёстко: «два дна с примитивным футболом, у корейцев выучена одна комбинация». Унылый ноль или мини-победа Кореи.",
       "en": "Agrees with our low read (we have Under 2.5). Pasha is blunt: two bottom sides, the Koreans have learned exactly one move. A dreary goalless game or a narrow Korea win."
@@ -6010,7 +6010,7 @@
     "tier": "yellow",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Согласие с нашим «Чехия не проиграет», но смелее — добавил ТМ. Мексике незачем напрягаться, дохлые чехи сядут во 2-м тайме на высоте → минимальная ничья или мини-победа.",
       "en": "Agrees with our Czechia-not-to-lose but bolder — adds the Under. Mexico have no reason to try; the tired Czechs fade at altitude → a minimal draw or narrow win."
@@ -6032,7 +6032,7 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "«По факту жду сразу три ничьи». Система 3/4 (нужно ≥3 из 4): экономные/немотивированные матчи без победителя. Эфф. кэф ~17 при 3 из 4, до ~67 если все четыре. Кэфы ориентировочные (линия Фонбета).",
       "en": "\"I expect three draws at once.\" System 3/4 (need 3 of 4): cagey, unmotivated games with no winner. Effective odds ~17 at 3/4, up to ~67 if all four. Odds indicative (Fonbet line)."
@@ -6097,7 +6097,7 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Точные счета Паши (3 из 6): две домашние победы на ноль и четыре ничьи. Совпадает с машиной по двум счетам (1:1 Швейцария-Канада, 2:0 Марокко). Эфф. кэф при резолве (по тройкам).",
       "en": "Pasha correct scores (3 of 6): two home wins to nil and four draws. Matches the machine on two scores (1:1 Switzerland-Canada, 2:0 Morocco). Effective odds at settlement (by triples)."
