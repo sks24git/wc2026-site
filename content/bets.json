@@ -6183,7 +6183,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Германия НЕ ротирует глубоко (Нагельсманн: «реально хотим победить», ~2 вынужденные замены) — на поле атака, забившая 9 за 2 матча. Оборона немцев течёт (пропускала в обоих + без Шлоттербека), Эквадор обязан раскрыться. Профильный овер (8 и 3 гола в турах). Модель ~62–66% vs рынок 61%.",
       "en": "Germany are NOT rotating deeply (Nagelsmann: 'we really want to win', ~2 forced changes) — the attack that scored 9 in two games starts. Their defence leaks (conceded in both, no Schlotterbeck), and Ecuador must open up. Over is their profile (8 and 3 goals). Model ~62–66% vs market 61%."
@@ -6206,7 +6206,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Кот-д’Ивуару хватает ничьей (личка над Эквадором) → контроль, потолок 1 гол (по голу в обоих матчах ЧМ). Кюрасао на ЧМ беззубо (0.40 xG, 0 в створ с Эквадором). Модели единодушно вниз (U3.5 — топ-сигнал, U2.5 ~57–64%). Рынок ошибочно прайсит верх.",
       "en": "Côte d’Ivoire need only a draw (they hold the tiebreaker over Ecuador) → control, ceiling of one goal (scored once in each WC game). Curaçao are toothless at the WC (0.40 xG, 0 shots on target vs Ecuador). Models lean low (U3.5 a top signal, U2.5 ~57–64%). The market wrongly prices the over."
@@ -6475,7 +6475,7 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Тут мы расходимся: машина сознательно обошла этот рынок — Эквадор не забил вообще ни разу за турнир. Самая спорная ставка Паши сегодня.",
       "en": "Here we diverge: the machine deliberately avoided this market — Ecuador have not scored a single goal all tournament. Pasha’s shakiest pick today."
@@ -6641,7 +6641,7 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Лотерейный экспресс на три ничьи в самых ровных матчах — сразу после тура без единой ничьи. Очень человеческое «ну теперь-то должно». Пересекается по 1:1 с его же голевым экспрессом: счёт 1:1 заходит и там, и там.",
       "en": "A lottery on three draws in the most even games — right after a draw-less round. A very human “surely now they’re owed”. It overlaps on 1:1 with his own goals accumulator: a 1:1 cashes on both."
