@@ -6248,7 +6248,7 @@
       "en": "Netherlands team total over 2.5"
     },
     "type": "ИТ",
-    "odds": 2.4,
+    "odds": 1.6,
     "tier": "green",
     "side": "AI",
     "contest": true,
@@ -6562,7 +6562,7 @@
       "en": "goals in all"
     },
     "type": "Экспресс",
-    "odds": 13.51,
+    "odds": 11.47,
     "tier": "red",
     "side": "Паша",
     "contest": true,
