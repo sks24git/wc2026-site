@@ -6948,5 +6948,90 @@
         }
       }
     ]
+  },
+  {
+    "id": 244,
+    "match": {
+      "ru": "Система 5/6 · ОЗ и тоталы",
+      "en": "System 5/6 · BTTS & totals"
+    },
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "система 5/6",
+      "en": "system 5/6"
+    },
+    "type": "Система",
+    "odds": 26.54,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "stake": 500,
+    "note": {
+      "ru": "Первая система Паши на тур — 5 из 6, голевая: четыре «обе забьют — да» (Бельгия-НЗ, Египет-Иран, Уругвай-Испания) + страховочные «обе не забьют» на полумёртвый Сенегал-Ирак и слабый на гол Кабо-Верде, и «второй тайм результативнее первого» в Норвегия-Франция. Нужно ≥5 из 6. Очный нерв: в Уругвай-Испания Паша берёт «обе забьют», а машина — низ (ТМ 2.5).",
+      "en": "Pasha's first system of the round — 5 of 6, goals-heavy: four 'both teams to score - yes' (Belgium-NZ, Egypt-Iran, Uruguay-Spain) + insurance 'no' on the near-dead Senegal-Iraq and low-scoring Cape Verde, plus 'second half outscores the first' in Norway-France. Need ≥5 of 6. The clash: in Uruguay-Spain Pasha backs both to score, while the machine takes the Under 2.5."
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Новая Зеландия — Бельгия",
+          "en": "New Zealand — Belgium"
+        },
+        "p": {
+          "ru": "ОЗ-да @1.84",
+          "en": "BTTS-yes @1.84"
+        }
+      },
+      {
+        "m": {
+          "ru": "Сенегал — Ирак",
+          "en": "Senegal — Iraq"
+        },
+        "p": {
+          "ru": "ОЗ-нет @1.75",
+          "en": "BTTS-no @1.75"
+        }
+      },
+      {
+        "m": {
+          "ru": "Египет — Иран",
+          "en": "Egypt — Iran"
+        },
+        "p": {
+          "ru": "ОЗ-да @2.03",
+          "en": "BTTS-yes @2.03"
+        }
+      },
+      {
+        "m": {
+          "ru": "Норвегия — Франция",
+          "en": "Norway — France"
+        },
+        "p": {
+          "ru": "2-й тайм результативнее 1-го @2.03",
+          "en": "2nd half outscores 1st @2.03"
+        }
+      },
+      {
+        "m": {
+          "ru": "Кабо-Верде — Саудовская Аравия",
+          "en": "Cape Verde — Saudi Arabia"
+        },
+        "p": {
+          "ru": "ОЗ-нет @1.83",
+          "en": "BTTS-no @1.83"
+        }
+      },
+      {
+        "m": {
+          "ru": "Уругвай — Испания",
+          "en": "Uruguay — Spain"
+        },
+        "p": {
+          "ru": "ОЗ-да @2.1",
+          "en": "BTTS-yes @2.1"
+        }
+      }
+    ]
   }
 ]
