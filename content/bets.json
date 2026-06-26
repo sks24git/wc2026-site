@@ -6229,7 +6229,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Швеция must-win и дырявая (6 забила / 6 пропустила за 2 матча), обязана идти вперёд → откроется. Япония довольна ничьёй, но быстра и забивает на переходах (4 Тунису). Равный спор (xG-разница 0.32), голевая мина.",
       "en": "Sweden are must-win and leaky (6 scored / 6 conceded in two games) and must attack → they open up. Japan are content with a draw but fast and score on the break (4 past Tunisia). Tight contest (xG gap 0.32), a goals game."
@@ -6252,7 +6252,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Нидерланды мотивированы разницей мячей за 1-е место (спор с Японией по забитым) против вылетевшего сломанного Туниса (−8, пропустил 9 за 2 матча). Изолируем атаку Оранье от гола утешения Туниса. НЕ вязкий низ.",
       "en": "The Netherlands are chasing goal difference for top spot (a goals battle with Japan) against an eliminated, broken Tunisia (−8, conceded 9 in two games). We isolate the Dutch attack from any Tunisia consolation. Not a cagey low-scorer."
@@ -6275,7 +6275,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Мёртвый матч: США выиграли группу → глубоко ротируют (отдых перед плей-офф), Турция в основе и за престиж. Модель таланта делает Турцию фаворитом (xG 1.34 vs 0.92). Прямой аналог Бельгия 1:1 Египет. ⚠️ Триггер: подтвердить ротацию США в составе.",
       "en": "Dead rubber: USA won the group → deep rotation (resting before the knockouts), Turkey at full strength for pride. The talent model makes Turkey favourite (xG 1.34 vs 0.92). A direct echo of Belgium 1:1 Egypt. ⚠️ Trigger: confirm USA's rotation in the lineup."
@@ -6298,7 +6298,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Австралии хватает ничьей → садится в элитный низкий блок (фирменное ОЗ-нет). Парагвай must-win, но без дисквалифицированного Альмирона (бомбардир/креатор) против пятёрки защитников — вскрывать нечем. Одна из команд держит ноль. xG-модель ОЗ-нет 62%.",
       "en": "Australia need only a draw → they sit in an elite low block (their trademark BTTS-no). Paraguay are must-win but without the suspended Almirón (scorer/creator) against a back five — nothing to break it down. One side keeps a clean sheet. xG model BTTS-no 62%."
@@ -6321,7 +6321,7 @@
     "tier": "yellow",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Смелее зелёной 1Х: модель таланта прямо делает Турцию фаворитом против дублёров США без мотива. Тот же сценарий (Турция берёт результат в мёртвом матче), кэф в жёлтой зоне.",
       "en": "Bolder than the 1X green: the talent model makes Turkey the outright favourite against an unmotivated USA reserve side. Same scenario (Turkey get a result in a dead rubber), priced in the yellow band."
@@ -6344,7 +6344,7 @@
     "tier": "yellow",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Япония довольна ничьёй (выводит со 2-го места) → может сыграть осторожно и не пускать Швецию; дисциплинированная Япония против обязанной раскрыться Швеции. Производная того же равного коридора, что и ОЗ-да (1:1).",
       "en": "Japan are content with a draw (it sends them through second) → they can play it safe and frustrate Sweden; a disciplined Japan against a Sweden forced to open up. A derivative of the same even corridor as the BTTS-yes (1:1)."
@@ -6366,7 +6366,7 @@
     "tier": "red",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Система ТС 3/6 (нужно ≥3 точных счёта из 6). Счета по сценариям: разгром Германии при молчащем Эквадоре, контролируемая сухая победа Кот-д’Ивуара, равные голы Япония-Швеция и мёртвый Турция-США, узкий Парагвай, голы Нидерландов. Эфф. кэф при резолве (по тройкам).",
       "en": "CS system 3/6 (need ≥3 exact scores of 6). Scores by scenario: a Germany rout with Ecuador silent, a controlled Côte d’Ivoire clean-sheet win, even goals in Japan-Sweden and a dead Turkey-USA, a narrow Paraguay, Dutch goals. Effective odds at settlement (by triples)."
@@ -6452,7 +6452,7 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Согласие с машиной — открытый равный матч, обе должны забить.",
       "en": "Agrees with the machine — an open, even game, both should score."
@@ -6498,7 +6498,7 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Минимальный верх в осторожном матче — нужно всего 2 гола на двоих. Прямо против нашего ОЗ-нет на сухарь.",
       "en": "A minimal over in a cagey game — just two goals between them. Straight against our BTTS-no clean-sheet read."
@@ -6521,7 +6521,7 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Голы во 2-м тайме — Нидерланды дожимают сломанный Тунис под концовку. По направлению совпадает с нашими голами Оранье.",
       "en": "Second-half goals — the Dutch finish off a broken Tunisia late. Same direction as our Dutch-goals read."
@@ -6544,7 +6544,7 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Дублёры США + заряженная Турция → обе могут забить в мёртвом матче. Совпадает с нашим чтением открытого Турция-США.",
       "en": "USA reserves + a fired-up Turkey → both can score in a dead rubber. Matches our open Turkey-USA read."
@@ -6566,7 +6566,7 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "Голевой экспресс Паши: ставит, что во всех пяти матчах будет жарко и с мячами. Самая хрупкая нога — ОЗ-да в Эквадор-Германия (Эквадор без голов за турнир) — на ней всё и может рассыпаться.",
       "en": "Pasha’s goals accumulator: betting all five open up. The most fragile leg — BTTS in Ecuador-Germany (Ecuador goalless all tournament) — is where it can all unravel."
