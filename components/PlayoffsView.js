@@ -52,6 +52,27 @@ export default function PlayoffsView() {
     { tag: 'M88', a: T('Австралия', 'Australia', 'au'), b: T('2-е G', 'G runner-up', null) },
   ];
 
+  // Третьи места (A–F определены; G–L ещё доигрывают). Статус: safe | edge
+  const THIRDS = [
+    { g: 'F', t: T('Швеция', 'Sweden', 'se'), p: 4, gd: '0', gf: 7, s: 'safe' },
+    { g: 'E', t: T('Эквадор', 'Ecuador', 'ec'), p: 4, gd: '0', gf: 2, s: 'safe' },
+    { g: 'B', t: T('Босния', 'Bosnia', 'ba'), p: 4, gd: '−1', gf: 5, s: 'safe' },
+    { g: 'D', t: T('Парагвай', 'Paraguay', 'py'), p: 4, gd: '−2', gf: 2, s: 'safe' },
+    { g: 'A', t: T('Южная Корея', 'South Korea', 'kr'), p: 3, gd: '−1', gf: 2, s: 'edge' },
+    { g: 'C', t: T('Шотландия', 'Scotland', 'gb-sct'), p: 3, gd: '−3', gf: 1, s: 'edge' },
+  ];
+  const THIRD_VARS = [
+    [tr('Четвёрка с 4 очками — фактически прошла', 'The four on 4 points — all but through'),
+     tr('Швеция, Эквадор, Босния и Парагвай набрали по 4 очка. Третье место с четырьмя очками при формате на 48 команд почти не выбивается — считаем их в плей-офф.',
+        'Sweden, Ecuador, Bosnia and Paraguay have 4 points each. A third place on four points in a 48-team format is almost never knocked out — treat them as through.')],
+    [tr('Корея и Шотландия (по 3) — на тоненького', 'Korea and Scotland (3 each) — on a knife’s edge'),
+     tr('Они держат два последних из восьми мест, но именно за них будут биться все шесть третьих из групп G–L. Шотландия — самая хрупкая: худшая разница (−3) и всего 1 гол; почти любой третий с 3 очками её обходит.',
+        'They hold the last two of eight spots, but all six thirds from Groups G–L will fight for them. Scotland are the most fragile: the worst goal difference (−3) and just one goal — almost any 3-point third leapfrogs them.')],
+    [tr('Сколько очков нужно третьему из G–L', 'How many points a G–L third needs'),
+     tr('4 очка → гарантия прохода: выбивает сначала Шотландию, затем Корею. 3 очка → лотерея по разнице и голам (с разницей лучше −1 обходит обеих, хуже −3 — уступает даже Шотландии). 2 и меньше → почти наверняка мимо.',
+        '4 points → guaranteed: knocks out Scotland first, then Korea. 3 points → a tiebreak lottery on GD and goals (better than −1 beats both, worse than −3 loses even to Scotland). 2 or fewer → almost certainly out.')],
+  ];
+
   const THOUGHTS = [
     [tr('Две половины — два мира', 'Two halves, two worlds'),
      tr('Нижняя половина — настоящая мясорубка: Бразилия, Аргентина, Англия, Мексика, Колумбия/Португалия, Швейцария и второй из пары Норвегия/Франция. Верхняя — тяжёлая, но мягче: Германия, Испания, Нидерланды, победитель Норвегия/Франция, США, Египет.',
@@ -97,6 +118,40 @@ export default function PlayoffsView() {
       <section className="block po-half top">
         {TOP.map((x, i) => <Tie key={i} {...x} />)}
         <div className="po-half-foot">{tr('→ к полуфиналу №1', '→ to semifinal #1')}</div>
+      </section>
+
+      <div className="sect"><span className="sect-label">{tr('Третьи места · гонка за 8 путёвок', 'Third places · race for 8 spots')}</span></div>
+      <section className="block">
+        <p className="po-intro">
+          {tr('В плей-офф проходят 8 лучших третьих мест из 12. Определены пока шесть — из групп A–F (все сейчас в зоне). Ещё шесть дадут группы G–L; сильные третьи оттуда вытеснят слабейших отсюда.',
+              'The 8 best of 12 third places advance. Six are decided so far — from Groups A–F (all currently in the zone). Six more come from Groups G–L; strong thirds there will bump the weakest here.')}
+        </p>
+        <div className="po-thirds">
+          <div className="po-th-row po-th-head">
+            <span className="po-th-rk">#</span><span className="po-th-tm">{tr('Команда', 'Team')}</span>
+            <span className="po-th-n">{tr('О', 'Pts')}</span><span className="po-th-n">{tr('Разн', 'GD')}</span>
+            <span className="po-th-n">{tr('Заб', 'GF')}</span><span className="po-th-st">{tr('Статус', 'Status')}</span>
+          </div>
+          {THIRDS.map((x, i) => (
+            <div key={i} className={'po-th-row ' + x.s}>
+              <span className="po-th-rk">{i + 1}</span>
+              <span className="po-th-tm"><Flag cc={x.t.cc} /><b>{x.t.t}</b> <small>· {x.g}</small></span>
+              <span className="po-th-n num">{x.p}</span>
+              <span className="po-th-n num">{x.gd}</span>
+              <span className="po-th-n num">{x.gf}</span>
+              <span className="po-th-st">{x.s === 'safe' ? tr('в зоне', 'in') : tr('на грани', 'on edge')}</span>
+            </div>
+          ))}
+          <div className="po-th-cut">{tr('↑ 8 проходят · ниже сюда впишутся третьи из G–L', '↑ 8 advance · G–L thirds slot in below')}</div>
+        </div>
+        <div className="po-thoughts" style={{ marginTop: '14px' }}>
+          {THIRD_VARS.map(([h, b], i) => (
+            <div key={i} className="po-thought">
+              <div className="po-thought-h">{h}</div>
+              <div className="po-thought-b">{b}</div>
+            </div>
+          ))}
+        </div>
       </section>
 
       <div className="sect"><span className="sect-label">{tr('Расклады и мысли', 'Reads & thoughts')}</span></div>
