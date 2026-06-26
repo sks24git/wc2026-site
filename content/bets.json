@@ -6697,7 +6697,7 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Две элитные атаки и текущие обороны (Норвегия пропускала, Франция тоже) + Мбаппе и Холанд по 4 гола бьются за бутсу лоб в лоб → личный мотив забивать жив даже при приглушённых командных ставках. ⚠️ Риск: обе довольны (Франции хватает ничьей, Холанд снял пафос) → возможен флэт/ротация. Кэф ровно по полу — размер скромный, решение по составам.",
       "en": "Two elite attacks and leaky defences, plus Mbappé and Haaland (4 goals each) going head-to-head for the Boot → personal goal motive survives the muted team stakes. ⚠️ Risk: both content (France need only a draw, Haaland downplayed it) → a flat/rotated game is possible. Odds right at the floor — modest size, decide on lineups."
@@ -7051,7 +7051,7 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
       "ru": "Ираку нечего ловить — пропускает всем и в каждом тайме; Сенегалу мало 1:0 (нужна разница за лучшее 3-е), так что забьёт по голу в обоих таймах. Рискованно: травма вратаря Сенегала и мотивация под вопросом.",
       "en": "Iraq are there to be beaten — they concede to everyone in both halves; Senegal need more than 1:0 (goal difference for a best-third spot), so a goal in each half. Risky: Senegal's keeper is injured and motivation is uncertain."
@@ -7074,7 +7074,7 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
       "ru": "«Только после вас»: договорняк-эконом, ленивый первый тайм Франции + боязнь Норвегии → нули в 1-м тайме и пара голов во 2-м. Бьёт в тот же «приглушённый матч», что и наша ОЗ-да, но через тайм.",
       "en": "An 'after you' economy game: France's lazy first half + Norway's caution → 0:0 at the break and a couple of goals after it. Hits the same 'muted match' read as our BTTS-yes, but via the half."
