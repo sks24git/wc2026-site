@@ -6679,5 +6679,274 @@
         }
       }
     ]
+  },
+  {
+    "id": 235,
+    "match": {
+      "ru": "Норвегия — Франция",
+      "en": "Norway — France"
+    },
+    "matchId": "norway-france",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.6,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Две элитные атаки и текущие обороны (Норвегия пропускала, Франция тоже) + Мбаппе и Холанд по 4 гола бьются за бутсу лоб в лоб → личный мотив забивать жив даже при приглушённых командных ставках. ⚠️ Риск: обе довольны (Франции хватает ничьей, Холанд снял пафос) → возможен флэт/ротация. Кэф ровно по полу — размер скромный, решение по составам.",
+      "en": "Two elite attacks and leaky defences, plus Mbappé and Haaland (4 goals each) going head-to-head for the Boot → personal goal motive survives the muted team stakes. ⚠️ Risk: both content (France need only a draw, Haaland downplayed it) → a flat/rotated game is possible. Odds right at the floor — modest size, decide on lineups."
+    }
+  },
+  {
+    "id": 236,
+    "match": {
+      "ru": "Уругвай — Испания",
+      "en": "Uruguay — Spain"
+    },
+    "matchId": "uruguay-spain",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5 goals"
+    },
+    "type": "ТМ",
+    "odds": 1.73,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Низовое ДНК обеих (Уругвай редко в ТБ2.5, Испания уже 0:0 в туре с Кабо-Верде), модельный консенсус 0:2 / U2.5 ~60%. Испании ничья почти выводит → возможен контролируемый 1:0. ⚠️ Контртест: нет жары Майами + прессинг Бьелсы жив + Уругвай обязан идти вперёд → может открыться на 3 гола.",
+      "en": "Both sides' low DNA (Uruguay rarely Over 2.5, Spain already 0:0 vs Cape Verde), model consensus 0:2 / U2.5 ~60%. A draw nearly sends Spain through → a managed 1:0 is on. ⚠️ Counter: no Miami heat + Bielsa's press alive + Uruguay must attack → could open to 3."
+    }
+  },
+  {
+    "id": 237,
+    "match": {
+      "ru": "Уругвай — Испания",
+      "en": "Uruguay — Spain"
+    },
+    "matchId": "uruguay-spain",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "ИТ Испании больше 1.5",
+      "en": "Spain team total over 1.5"
+    },
+    "type": "ИТ",
+    "odds": 1.8,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Испания мотивирована на 1-е место (НЕ ротирует), полная атака восстановлена — Ямаль и Уильямс в старте (в туре их берегли), Уругвай без Араухо в обороне и открывается под прессинг. Модели дают Испании 2 (0:2). Заходит на самом вероятном сценарии вместе с ТМ 2.5.",
+      "en": "Spain are motivated for first (no rotation), full attack restored — Yamal and Williams start (rested last round), Uruguay without Araújo at the back and opening up under the press. Models give Spain 2 (0:2). Lands on the most likely scenario alongside the Under."
+    }
+  },
+  {
+    "id": 238,
+    "match": {
+      "ru": "Кабо-Верде — Саудовская Аравия",
+      "en": "Cape Verde — Saudi Arabia"
+    },
+    "matchId": "capeverde-saudiarabia",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5 goals"
+    },
+    "type": "ТМ",
+    "odds": 1.72,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Самый низовой матч тура: Саудовская — худшая атака турнира (0.8 xG за 2 матча), Кабо-Верде забивает только со стандартов. Суммарный xG явно ≤2.3, модели дают 1:0. ⚠️ Контртест: оба must-win → 2-й тайм может раскрыться, пара прогнозов даёт 2:1.",
+      "en": "The round's lowest-scoring game: Saudi have the tournament's worst attack (0.8 xG in two games), Cape Verde score only from set pieces. Combined xG clearly ≤2.3, models give 1:0. ⚠️ Counter: both must-win → the 2nd half could open up, a couple of forecasts say 2:1."
+    }
+  },
+  {
+    "id": 239,
+    "match": {
+      "ru": "Египет — Иран",
+      "en": "Egypt — Iran"
+    },
+    "matchId": "egypt-iran",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 2.2,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "⚡ value: 4 прогноза из 4 склоняются к BTTS (модальный 1:1/2:1), а рынок прайсит ОЗ-нет @1.68. Иран must-win раскроется хотя бы во 2-м тайме → Египет наказывает контрой Салах+Мармуш; возврат Джаханбахша усиливает атаку Ирана. ⚠️ Контртест: Египту хватает ничьей — может встать в блок и не атаковать (Шобейр держит сухарь).",
+      "en": "⚡ value: 4 of 4 forecasts lean BTTS (modal 1:1/2:1), while the market prices BTTS-no @1.68. Iran must-win will open up at least in the 2nd half → Egypt punish on the break (Salah+Marmoush); Jahanbakhsh's return boosts Iran. ⚠️ Counter: Egypt need only a draw — they may sit and not attack (Shobeir keeps a clean sheet)."
+    }
+  },
+  {
+    "id": 240,
+    "match": {
+      "ru": "Новая Зеландия — Бельгия",
+      "en": "New Zealand — Belgium"
+    },
+    "matchId": "newzealand-belgium",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 2.15,
+    "tier": "green",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Новая Зеландия забивала в КАЖДОМ матче ЧМ (контра/стандарт), а оборона Бельгии немолода и уязвима за спину. Бельгия с Лукаку в старте и must-win почти наверняка наконец распечатает ворота. ⚠️ Контртест: модальный исход моделей — сухая победа Бельгии (Куртуа + транжирство НЗ), плюс остаточный риск голевого ступора Бельгии (1 гол за 2 матча).",
+      "en": "New Zealand have scored in EVERY WC game (counter/set piece), and Belgium's ageing defence is vulnerable in behind. Belgium with Lukaku starting and must-win should finally break their duck. ⚠️ Counter: models' modal is a Belgium clean-sheet win (Courtois + NZ profligacy), plus the lingering risk of another Belgian goal drought (1 goal in 2 games)."
+    }
+  },
+  {
+    "id": 241,
+    "match": {
+      "ru": "Египет — Иран",
+      "en": "Egypt — Iran"
+    },
+    "matchId": "egypt-iran",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
+    "type": "Х",
+    "odds": 2.6,
+    "tier": "yellow",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Структурный недо-низ: Египту хватает ничьей, он низкоблоковый, вратарь Шобейр в форме; Иран без Азмуна туп в позиционке. RotoWire даёт модальный 1:1 — он же закрывает и ОЗ-да. Производная того же осторожного сценария.",
+      "en": "A structural near-low: Egypt need only a draw, sit deep, keeper Shobeir in form; Iran toothless without Azmoun in open play. RotoWire's modal is 1:1 — which also cashes the BTTS-yes. A derivative of the same cautious scenario."
+    }
+  },
+  {
+    "id": 242,
+    "match": {
+      "ru": "Кабо-Верде — Саудовская Аравия",
+      "en": "Cape Verde — Saudi Arabia"
+    },
+    "matchId": "capeverde-saudiarabia",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
+    "type": "Х",
+    "odds": 3.35,
+    "tier": "yellow",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Пик-эм по линии (П1 2.75 / П2 2.70) двух слабых на гол команд → в осторожном низовом матче ничья реальна. Производная того же низа, что и ТМ 2.5 (закрывается на 0:0/1:1). Смелее зелёной.",
+      "en": "A pick-em on the line (2.75 / 2.70) between two low-scoring sides → in a cautious, low game a draw is realistic. A derivative of the same low read as the Under (cashes on 0:0/1:1). Bolder than the green."
+    }
+  },
+  {
+    "id": 243,
+    "match": {
+      "ru": "Система 3/6 · точные счета",
+      "en": "System 3/6 · correct scores"
+    },
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "точные счета",
+      "en": "correct scores"
+    },
+    "type": "Система",
+    "odds": 9,
+    "tier": "red",
+    "side": "AI",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Система ТС 3/6 (нужно ≥3 точных из 6). Счета по сценариям: флэт-ничья грандов, узкие победы фаворитов, осторожные ничьи там, где лидер доволен очком. Эфф. кэф при резолве (по тройкам).",
+      "en": "CS system 3/6 (need ≥3 exact of 6). Scores by scenario: a flat grand draw, narrow favourite wins, cautious draws where the leader is happy with a point. Effective odds at settlement (by triples)."
+    },
+    "stake": 500,
+    "legs": [
+      {
+        "m": {
+          "ru": "Норвегия — Франция",
+          "en": "Norway — France"
+        },
+        "p": {
+          "ru": "1:1",
+          "en": "1:1"
+        }
+      },
+      {
+        "m": {
+          "ru": "Сенегал — Ирак",
+          "en": "Senegal — Iraq"
+        },
+        "p": {
+          "ru": "2:0",
+          "en": "2:0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Уругвай — Испания",
+          "en": "Uruguay — Spain"
+        },
+        "p": {
+          "ru": "0:2",
+          "en": "0:2"
+        }
+      },
+      {
+        "m": {
+          "ru": "Кабо-Верде — Саудовская Аравия",
+          "en": "Cape Verde — Saudi Arabia"
+        },
+        "p": {
+          "ru": "1:0",
+          "en": "1:0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Египет — Иран",
+          "en": "Egypt — Iran"
+        },
+        "p": {
+          "ru": "1:1",
+          "en": "1:1"
+        }
+      },
+      {
+        "m": {
+          "ru": "Новая Зеландия — Бельгия",
+          "en": "New Zealand — Belgium"
+        },
+        "p": {
+          "ru": "1:2",
+          "en": "1:2"
+        }
+      }
+    ]
   }
 ]

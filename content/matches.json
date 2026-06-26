@@ -1746,5 +1746,185 @@
       "ru": "Прямой спор за второе место: Австралии хватает ничьей (лучше разница), Парагваю нужна только победа — но без дисквалифицированного Альмирона, своего бомбардира и креатора. Австралия сядет в плотный блок, вскрывать его нечем. Пахнет низом и сухарём.",
       "en": "A straight shootout for second: Australia need only a draw (better goal difference), Paraguay need a win — but without the suspended Almirón, their scorer and creator. Australia will sit in a tight block with little to break it down. A low-scorer with a clean sheet looms."
     }
+  },
+  {
+    "id": "norway-france",
+    "date": "2026-06-26",
+    "timeMsk": "22:00",
+    "title": {
+      "ru": "Норвегия — Франция",
+      "en": "Norway — France"
+    },
+    "cc": [
+      "no",
+      "fr"
+    ],
+    "stage": {
+      "ru": "Группа I · тур 3",
+      "en": "Group I · MD 3"
+    },
+    "venue": {
+      "ru": "Gillette Stadium, Фоксборо",
+      "en": "Gillette Stadium, Foxborough"
+    },
+    "weather": {
+      "ru": "Открытый, тепло и солнечно",
+      "en": "Open-air, warm and sunny"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Спор за 1-е место группы I с подтекстом: победитель идёт в 1/16 сразу на Германию, зато в лёгкую верхнюю половину сетки; второй проваливается в нижнюю мясорубку к Бразилии и Аргентине. Франции хватает ничьей, Холанд назвал матч «не таким важным» — но Мбаппе и Холанд по четыре гола бьются за Золотую бутсу лоб в лоб.",
+      "en": "A fight for top spot in Group I with a twist: the winner faces Germany in the round of 32 but lands in the easier top half; the runner-up drops into the bottom mincer with Brazil and Argentina. France need only a draw, Haaland called the game 'not that important' — but Mbappé and Haaland, on four goals each, go head-to-head for the Golden Boot."
+    }
+  },
+  {
+    "id": "senegal-iraq",
+    "date": "2026-06-26",
+    "timeMsk": "22:00",
+    "title": {
+      "ru": "Сенегал — Ирак",
+      "en": "Senegal — Iraq"
+    },
+    "cc": [
+      "sn",
+      "iq"
+    ],
+    "stage": {
+      "ru": "Группа I · тур 3",
+      "en": "Group I · MD 3"
+    },
+    "venue": {
+      "ru": "BMO Field, Торонто",
+      "en": "BMO Field, Toronto"
+    },
+    "weather": {
+      "ru": "Открытый стадион",
+      "en": "Open-air stadium"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Полумёртвый матч: оба без очков и почти вне игры. Сенегал классом выше и цепляется за призрачное лучшее третье место, Ирак играет за первое в истории очко на ЧМ. Без травмированного вратаря Менди оборона Сенегала шатается.",
+      "en": "A near-dead rubber: both pointless and all but out. Senegal are the stronger side, clinging to a faint best-third hope; Iraq are playing for their first-ever World Cup point. Without the injured keeper Mendy, Senegal's defence wobbles."
+    }
+  },
+  {
+    "id": "uruguay-spain",
+    "date": "2026-06-26",
+    "timeMsk": "03:00",
+    "title": {
+      "ru": "Уругвай — Испания",
+      "en": "Uruguay — Spain"
+    },
+    "cc": [
+      "uy",
+      "es"
+    ],
+    "stage": {
+      "ru": "Группа H · тур 3",
+      "en": "Group H · MD 3"
+    },
+    "venue": {
+      "ru": "Estadio Akron, Сапопан",
+      "en": "Estadio Akron, Zapopan"
+    },
+    "weather": {
+      "ru": "Открытый, прохладный вечер ~17°C — не фактор",
+      "en": "Open-air, cool evening ~17°C — not a factor"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Испания обязана брать 1-е место: второе бросает её в 1/16 сразу на Аргентину, а первое — в лёгкую верхнюю половину, где Аргентина встретится лишь в финале. Поэтому никакой ротации — Ямаль и Уильямс снова в строю. Уругвай Бьелсы прессингует и обязан брать результат.",
+      "en": "Spain must finish first: second place throws them straight at Argentina in the round of 32, while first place lands them in the gentle top half where Argentina would only loom in the final. So no rotation — Yamal and Williams are back. Bielsa's Uruguay press high and need a result."
+    }
+  },
+  {
+    "id": "capeverde-saudiarabia",
+    "date": "2026-06-26",
+    "timeMsk": "03:00",
+    "title": {
+      "ru": "Кабо-Верде — Саудовская Аравия",
+      "en": "Cape Verde — Saudi Arabia"
+    },
+    "cc": [
+      "cv",
+      "sa"
+    ],
+    "stage": {
+      "ru": "Группа H · тур 3",
+      "en": "Group H · MD 3"
+    },
+    "venue": {
+      "ru": "NRG Stadium, Хьюстон",
+      "en": "NRG Stadium, Houston"
+    },
+    "weather": {
+      "ru": "Выдвижная крыша, климат-контроль — не фактор",
+      "en": "Retractable roof, climate control — not a factor"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Дебютанты Кабо-Верде в шаге от сказки: победа выводит их в плей-офф с первого же чемпионата мира. Саудовская Аравия после 0:4 от Испании почти вне игры — худшая атака турнира. Равный по линии матч двух небогатых на голы команд.",
+      "en": "Debutants Cape Verde are one win from a fairy tale: victory sends them to the knockouts at their very first World Cup. Saudi Arabia, after a 0:4 to Spain, are all but out — the tournament's weakest attack. A pick-em between two low-scoring sides."
+    }
+  },
+  {
+    "id": "egypt-iran",
+    "date": "2026-06-26",
+    "timeMsk": "06:00",
+    "title": {
+      "ru": "Египет — Иран",
+      "en": "Egypt — Iran"
+    },
+    "cc": [
+      "eg",
+      "ir"
+    ],
+    "stage": {
+      "ru": "Группа G · тур 3",
+      "en": "Group G · MD 3"
+    },
+    "venue": {
+      "ru": "Lumen Field, Сиэтл",
+      "en": "Lumen Field, Seattle"
+    },
+    "weather": {
+      "ru": "Открытый стадион",
+      "en": "Open-air stadium"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Египту хватает ничьей, чтобы выйти, а победа даёт 1-е место и уход от Аргентины по сетке. Ирану нужна только победа. Осторожный лидер против обязанного рисковать, но беззубого без Азмуна Ирана — рынок ждёт низа.",
+      "en": "Egypt need only a draw to advance, while a win brings top spot and a bracket clear of Argentina. Iran must win. A cautious leader against an Iran that must gamble yet is toothless without Azmoun — the market expects a low-scorer."
+    }
+  },
+  {
+    "id": "newzealand-belgium",
+    "date": "2026-06-26",
+    "timeMsk": "06:00",
+    "title": {
+      "ru": "Новая Зеландия — Бельгия",
+      "en": "New Zealand — Belgium"
+    },
+    "cc": [
+      "nz",
+      "be"
+    ],
+    "stage": {
+      "ru": "Группа G · тур 3",
+      "en": "Group G · MD 3"
+    },
+    "venue": {
+      "ru": "BC Place, Ванкувер",
+      "en": "BC Place, Vancouver"
+    },
+    "weather": {
+      "ru": "Выдвижная крыша, климат-контроль — не фактор",
+      "en": "Retractable roof, climate control — not a factor"
+    },
+    "result": null,
+    "lede": {
+      "ru": "Бельгия на грани вылета: гранд с одним голом за два матча обязан обыгрывать Новую Зеландию, иначе домой. Лукаку наконец выходит в старте — чинить атаку. Но Новая Зеландия забивала в каждом матче, а оборона Бельгии немолода.",
+      "en": "Belgium are on the brink: a heavyweight with one goal in two games must beat New Zealand or go home. Lukaku finally starts to fix the attack. But New Zealand have scored in every game, and Belgium's defence is ageing."
+    }
   }
 ]
