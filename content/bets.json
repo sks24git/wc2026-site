@@ -7033,5 +7033,293 @@
         }
       }
     ]
+  },
+  {
+    "id": 245,
+    "match": {
+      "ru": "Сенегал — Ирак",
+      "en": "Senegal — Iraq"
+    },
+    "matchId": "senegal-iraq",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "Сенегал забьёт в каждом тайме",
+      "en": "Senegal to score in each half"
+    },
+    "type": "Другое",
+    "odds": 1.77,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Ираку нечего ловить — пропускает всем и в каждом тайме; Сенегалу мало 1:0 (нужна разница за лучшее 3-е), так что забьёт по голу в обоих таймах. Рискованно: травма вратаря Сенегала и мотивация под вопросом.",
+      "en": "Iraq are there to be beaten — they concede to everyone in both halves; Senegal need more than 1:0 (goal difference for a best-third spot), so a goal in each half. Risky: Senegal's keeper is injured and motivation is uncertain."
+    }
+  },
+  {
+    "id": 246,
+    "match": {
+      "ru": "Норвегия — Франция",
+      "en": "Norway — France"
+    },
+    "matchId": "norway-france",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "2-й тайм — тотал больше 1.5",
+      "en": "2nd half over 1.5"
+    },
+    "type": "ТБ",
+    "odds": 1.76,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "«Только после вас»: договорняк-эконом, ленивый первый тайм Франции + боязнь Норвегии → нули в 1-м тайме и пара голов во 2-м. Бьёт в тот же «приглушённый матч», что и наша ОЗ-да, но через тайм.",
+      "en": "An 'after you' economy game: France's lazy first half + Norway's caution → 0:0 at the break and a couple of goals after it. Hits the same 'muted match' read as our BTTS-yes, but via the half."
+    }
+  },
+  {
+    "id": 247,
+    "match": {
+      "ru": "Кабо-Верде — Саудовская Аравия",
+      "en": "Cape Verde — Saudi Arabia"
+    },
+    "matchId": "capeverde-saudiarabia",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "Гол в каждом тайме (обе половины ТБ 0.5)",
+      "en": "A goal in each half (both halves over 0.5)"
+    },
+    "type": "Другое",
+    "odds": 1.87,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Честная ничья с перевесом Кабо-Верде: саудиты вынуждены первыми идти забивать и не удержат → по голу в каждом тайме. (Сам признаётся, что не понял, почему не взял просто ОЗ.)",
+      "en": "An honest draw edging Cape Verde: the Saudis must chase a goal and won't hold it → a goal in each half. (He admits he's not sure why he didn't just take BTTS.)"
+    }
+  },
+  {
+    "id": 248,
+    "match": {
+      "ru": "Уругвай — Испания",
+      "en": "Uruguay — Spain"
+    },
+    "matchId": "uruguay-spain",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "1-й тайм — тотал больше 1.0 (под возврат)",
+      "en": "1st half over 1.0 (push at 1)"
+    },
+    "type": "ТБ",
+    "odds": 2.02,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Испания — команда первого тайма и заберёт его, а резервами во 2-м «как пойдёт» (бережёт Ямаля к плей-офф). Под возврат при ровно 1 голе в тайме. Тонко конфликтует с нашим матчевым ТМ 2.5.",
+      "en": "Spain are a first-half team and will take it, then 'see how it goes' with reserves after (saving Yamal for the knockouts). Push if exactly 1 goal in the half. Subtly conflicts with our match Under 2.5."
+    }
+  },
+  {
+    "id": 249,
+    "match": {
+      "ru": "Новая Зеландия — Бельгия",
+      "en": "New Zealand — Belgium"
+    },
+    "matchId": "newzealand-belgium",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.81,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Чуйка шепчет апсет НЗ, но Паша ей не верит (НЗ не поверит в себя и не задавит) → встаёт на горло песне и берёт просто ОЗ. Совпадает с машиной.",
+      "en": "His gut whispers a NZ upset, but he doesn't trust it (NZ won't believe and won't press) → he reins it in and just takes BTTS. Agrees with the machine."
+    }
+  },
+  {
+    "id": 250,
+    "match": {
+      "ru": "Египет — Иран",
+      "en": "Egypt — Iran"
+    },
+    "matchId": "egypt-iran",
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 2.03,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Из уважения к Ирану (судейство, логистика, позор организации) верит в 1:1 — Иран на чужом поле бьётся. Совпадает с машиной (ОЗ-да против рынка ОЗ-нет).",
+      "en": "Out of respect for Iran (refereeing, logistics, organisational shambles) he believes in 1:1 — Iran fight on hostile turf. Agrees with the machine (BTTS-yes against the market's BTTS-no)."
+    }
+  },
+  {
+    "id": 251,
+    "match": {
+      "ru": "Система 3/4 · ничьи",
+      "en": "System 3/4 · draws"
+    },
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "четыре ничьи",
+      "en": "four draws"
+    },
+    "type": "Система",
+    "odds": 47,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "«Жду сразу четыре ничьи»: Норвегия-Франция (договорняк), Кабо-Верде-Саудовская (честная ничья), Уругвай-Испания (Испании ничья = 1-е место), Египет-Иран (1:1). Система 3 из 4 — прощает один промах. Кэф ориентировочный (по линии).",
+      "en": "'I expect four draws at once': Norway-France (economy game), Cape Verde-Saudi (honest draw), Uruguay-Spain (a draw gives Spain first), Egypt-Iran (1:1). System 3 of 4 — forgives one miss. Odds indicative (off the line)."
+    },
+    "stake": 500,
+    "legs": [
+      {
+        "m": {
+          "ru": "Норвегия — Франция",
+          "en": "Norway — France"
+        },
+        "p": {
+          "ru": "Ничья @4.7",
+          "en": "Draw @4.7"
+        }
+      },
+      {
+        "m": {
+          "ru": "Кабо-Верде — Саудовская Аравия",
+          "en": "Cape Verde — Saudi Arabia"
+        },
+        "p": {
+          "ru": "Ничья @3.35",
+          "en": "Draw @3.35"
+        }
+      },
+      {
+        "m": {
+          "ru": "Уругвай — Испания",
+          "en": "Uruguay — Spain"
+        },
+        "p": {
+          "ru": "Ничья @4.05",
+          "en": "Draw @4.05"
+        }
+      },
+      {
+        "m": {
+          "ru": "Египет — Иран",
+          "en": "Egypt — Iran"
+        },
+        "p": {
+          "ru": "Ничья @2.6",
+          "en": "Draw @2.6"
+        }
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "match": {
+      "ru": "Система 5/6 · зелёные",
+      "en": "System 5/6 · greens"
+    },
+    "date": "2026-06-26",
+    "bet": {
+      "ru": "шесть зелёных",
+      "en": "six greens"
+    },
+    "type": "Система",
+    "odds": 23,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "note": {
+      "ru": "Система 5 из 6 на все его зелёные ординары (таймовые рынки + ОЗ). Нужно ≥5 из 6. Уже вторая система 5/6 от Паши на этот тур (первая — на ОЗ/тоталы). Эфф. кэф при резолве (по комбинациям).",
+      "en": "System 5 of 6 on all his green singles (half markets + BTTS). Need ≥5 of 6. Pasha's second 5/6 system this round (the first was on BTTS/totals). Effective odds at settlement (by combos)."
+    },
+    "stake": 500,
+    "legs": [
+      {
+        "m": {
+          "ru": "Сенегал — Ирак",
+          "en": "Senegal — Iraq"
+        },
+        "p": {
+          "ru": "Сенегал в каждом тайме @1.77",
+          "en": "Senegal each half @1.77"
+        }
+      },
+      {
+        "m": {
+          "ru": "Норвегия — Франция",
+          "en": "Norway — France"
+        },
+        "p": {
+          "ru": "2Т ТБ 1.5 @1.76",
+          "en": "2nd half over 1.5 @1.76"
+        }
+      },
+      {
+        "m": {
+          "ru": "Кабо-Верде — Саудовская Аравия",
+          "en": "Cape Verde — Saudi Arabia"
+        },
+        "p": {
+          "ru": "Гол в каждом тайме @1.87",
+          "en": "Goal each half @1.87"
+        }
+      },
+      {
+        "m": {
+          "ru": "Уругвай — Испания",
+          "en": "Uruguay — Spain"
+        },
+        "p": {
+          "ru": "1Т ТБ 1.0 @2.02",
+          "en": "1st half over 1.0 @2.02"
+        }
+      },
+      {
+        "m": {
+          "ru": "Новая Зеландия — Бельгия",
+          "en": "New Zealand — Belgium"
+        },
+        "p": {
+          "ru": "ОЗ-да @1.81",
+          "en": "BTTS-yes @1.81"
+        }
+      },
+      {
+        "m": {
+          "ru": "Египет — Иран",
+          "en": "Egypt — Iran"
+        },
+        "p": {
+          "ru": "ОЗ-да @2.03",
+          "en": "BTTS-yes @2.03"
+        }
+      }
+    ]
   }
 ]
