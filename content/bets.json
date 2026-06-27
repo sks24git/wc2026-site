@@ -7771,5 +7771,91 @@
       "ru": "Паша против машины: AI ждёт, что беззубая Гана не забьёт (ОЗ-нет), Паша — что Хорватия не вскроет блок и разойдутся миром. Очный нерв тура.",
       "en": "Pasha against the machine: the AI expects a toothless Ghana to blank (BTTS-no), Pasha backs Croatia failing to break the block and a share of the spoils. The round's head-to-head."
     }
+  },
+  {
+    "id": 273,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": null,
+    "type": "Система",
+    "tier": "red",
+    "odds": 53.8,
+    "stake": 500,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Система 5/6 — тайма и комбо",
+      "en": "5/6 system — halves & combos"
+    },
+    "bet": {
+      "ru": "Система 5 из 6",
+      "en": "5-of-6 system"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Алжир — Австрия",
+          "en": "Algeria — Austria"
+        },
+        "p": {
+          "ru": "Ничья @2.05",
+          "en": "Draw @2.05"
+        }
+      },
+      {
+        "m": {
+          "ru": "Иордания — Аргентина",
+          "en": "Jordan — Argentina"
+        },
+        "p": {
+          "ru": "Фора Аргентины −1 (1-й тайм) @1.95",
+          "en": "Argentina −1 (1st half) @1.95"
+        }
+      },
+      {
+        "m": {
+          "ru": "Хорватия — Гана",
+          "en": "Croatia — Ghana"
+        },
+        "p": {
+          "ru": "Ничья @3.30",
+          "en": "Draw @3.30"
+        }
+      },
+      {
+        "m": {
+          "ru": "Панама — Англия",
+          "en": "Panama — England"
+        },
+        "p": {
+          "ru": "1-й тайм — тотал больше 1.5 @1.91",
+          "en": "1st half over 1.5 @1.91"
+        }
+      },
+      {
+        "m": {
+          "ru": "Колумбия — Португалия",
+          "en": "Colombia — Portugal"
+        },
+        "p": {
+          "ru": "Оба тайма меньше 1.5 @2.75",
+          "en": "Both halves under 1.5 @2.75"
+        }
+      },
+      {
+        "m": {
+          "ru": "ДР Конго — Узбекистан",
+          "en": "DR Congo — Uzbekistan"
+        },
+        "p": {
+          "ru": "Победа ДР Конго @1.67",
+          "en": "DR Congo to win @1.67"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Вторая красная Паши — система 5/6 с уклоном в тайма и комбо (форы/тоталы 1-го тайма, «оба тайма тихие»). Дублирует свои ничьи Алжира и Хорватии и сюда. Нужно ≥5 из 6. Кэфы — с Лиги Ставок (на Фонбете снимем живые). ⚠️ позиция ДР Конго @1.67 ниже нашего системного пола 1.9 — но это ставка Паши.",
+      "en": "Pasha's second red — a 5/6 system leaning on halves and combos (1st-half handicaps/totals, «both halves quiet»). He doubles his Algeria and Croatia draws here too. Needs ≥5 of 6. Odds from Liga Stavok (real Fonbet odds on placing). ⚠️ the DR Congo leg @1.67 is below our 1.9 system floor — but it's Pasha's call."
+    }
   }
 ]
