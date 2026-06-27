@@ -7962,5 +7962,91 @@
       "ru": "Паша: Аргентина решает рано (Нико Пас/Альварес в старте захотят отметиться), садиться никому не нужно (1-е и 4-е места ясны), Иордания забивает в каждом матче при дырявой обороне → ОЗ и 4+. Под возврат при ровно 3.",
       "en": "Pasha: Argentina settle it early (Nico Paz/Álvarez will want to impress), neither needs to sit (1st and 4th are set), Jordan score in every game with a leaky defence → BTTS and 4+. Void at exactly 3."
     }
+  },
+  {
+    "id": 279,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": null,
+    "type": "Система",
+    "tier": "red",
+    "odds": 60,
+    "stake": 500,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Точные счета — система 3/6",
+      "en": "Correct scores — 3/6 system"
+    },
+    "bet": {
+      "ru": "Система ТС 3 из 6",
+      "en": "Correct-score 3/6 system"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Панама — Англия",
+          "en": "Panama — England"
+        },
+        "p": {
+          "ru": "0:4",
+          "en": "0-4"
+        }
+      },
+      {
+        "m": {
+          "ru": "Хорватия — Гана",
+          "en": "Croatia — Ghana"
+        },
+        "p": {
+          "ru": "0:0",
+          "en": "0-0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Колумбия — Португалия",
+          "en": "Colombia — Portugal"
+        },
+        "p": {
+          "ru": "1:1",
+          "en": "1-1"
+        }
+      },
+      {
+        "m": {
+          "ru": "ДР Конго — Узбекистан",
+          "en": "DR Congo — Uzbekistan"
+        },
+        "p": {
+          "ru": "2:0",
+          "en": "2-0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Алжир — Австрия",
+          "en": "Algeria — Austria"
+        },
+        "p": {
+          "ru": "1:1",
+          "en": "1-1"
+        }
+      },
+      {
+        "m": {
+          "ru": "Иордания — Аргентина",
+          "en": "Jordan — Argentina"
+        },
+        "p": {
+          "ru": "1:3",
+          "en": "1-3"
+        }
+      }
+    ],
+    "note": {
+      "ru": "ТС Паши из его прогноза счётов на баллы: система 3 из 6 (нужно ≥3 точных). На Фонбете продублирована урезанная версия 2/4 (без Англии и Хорватии — те Паша поставил отдельно). Эфф. кэф при резолве.",
+      "en": "Pasha's correct-score system from his points predictions: a 3-of-6 system (need ≥3 exact). On Fonbet a trimmed 2/4 version is mirrored (without England and Croatia — Pasha placed those separately). Effective odds on settle."
+    }
   }
 ]
