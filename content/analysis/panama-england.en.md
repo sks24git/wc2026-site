@@ -1,5 +1,5 @@
 ## Panama — England · 28 June, 00:00 MSK · MetLife Stadium, East Rutherford
-**England need a win for top spot — otherwise it's Spain straight away in the bracket. But Panama have not scored once in two games and sit in a tight bus, and England already got stuck against exactly this kind of wall versus Ghana (0-0).**
+**England are already through; top spot is the prize: a win (or a draw if Ghana don't beat Croatia) → the easy lower half, a slip → second and Spain straight away. Panama haven't scored once in two games and sit in a tight bus, and England already got stuck against exactly this kind of wall versus Ghana (0-0).**
 
 ## Key points
 - **Logistics:** MetLife — open-air, ~19°C by evening, a slight rain risk (pitch fine).
