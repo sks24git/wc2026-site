@@ -1,8 +1,8 @@
 'use client';
 import { useLang } from '@/app/providers';
 
-/* Самодостаточная страница сетки плей-офф ЧМ-2026.
-   Группы A–I определены; J/K/L доигрывают — отмечены как «проекция».
+/* Самодостаточная страница сетки плей-офф ЧМ-2026 — две полусетки слева-направо.
+   Группы A–I определены; J/K/L доигрывают, их слоты — единый TBD-вид.
    Контент двуязычный через локальный tr(ru,en). */
 
 function Flag({ cc }) {
@@ -13,12 +13,50 @@ function Flag({ cc }) {
   );
 }
 
-function Tie({ tag, a, b, locked }) {
+function R32Box({ m, set, a, b, setLabel }) {
   return (
-    <div className={'po-tie' + (locked ? ' locked' : '')}>
-      <div className="po-tie-tag">{tag}</div>
+    <div className={'po-br-box r32' + (set ? ' set' : '')}>
+      <div className="po-br-tag">{m}{set ? ' · ' + setLabel : ''}</div>
       <div className="po-team"><Flag cc={a.cc} /><span>{a.t}</span></div>
       <div className="po-team"><Flag cc={b.cc} /><span>{b.t}</span></div>
+    </div>
+  );
+}
+
+function FutureBox({ label, m }) {
+  return (
+    <div className="po-br-box future">
+      <span className="po-br-flabel">{label}</span>
+      <span className="po-br-fm">{m}</span>
+    </div>
+  );
+}
+
+function Half({ half, setLabel, lbl }) {
+  const ties = half.qfs.flatMap((q) => q.r16.flatMap((r) => r.ties)); // 8 пар 1/16
+  const r16 = half.qfs.flatMap((q) => q.r16);                          // 4 матча 1/8
+  return (
+    <div className="po-bracket">
+      <div className={'po-br-half ' + half.side}>
+        <div className="po-br-round r-32">
+          {ties.map((t, i) => (
+            <div className="po-br-cell" key={i}><R32Box {...t} setLabel={setLabel} /></div>
+          ))}
+        </div>
+        <div className="po-br-round">
+          {r16.map((r, i) => (
+            <div className="po-br-cell" key={i}><FutureBox label={lbl.r16} m={r.m} /></div>
+          ))}
+        </div>
+        <div className="po-br-round">
+          {half.qfs.map((q, i) => (
+            <div className="po-br-cell" key={i}><FutureBox label={lbl.qf} m={q.m} /></div>
+          ))}
+        </div>
+        <div className="po-br-round is-last">
+          <div className="po-br-cell"><FutureBox label={lbl.sf} m={half.sf} /></div>
+        </div>
+      </div>
     </div>
   );
 }
@@ -30,27 +68,65 @@ export default function PlayoffsView() {
   // Команда: {t:имя, cc:код флага|null}
   const T = (ru, en, cc = null) => ({ t: tr(ru, en), cc });
   const THIRD = T('3-е место', 'Third place', null);
+  // tie: {m, set, a, b}
+  const tie = (m, set, a, b) => ({ m, set, a, b });
 
-  const TOP = [
-    { tag: 'M73 · ' + tr('готово', 'set'), locked: true, a: T('ЮАР', 'South Africa', 'za'), b: T('Канада', 'Canada', 'ca') },
-    { tag: 'M75 · ' + tr('готово', 'set'), locked: true, a: T('Нидерланды', 'Netherlands', 'nl'), b: T('Марокко', 'Morocco', 'ma') },
-    { tag: 'M74 · ' + tr('готово', 'set'), locked: true, a: T('Германия', 'Germany', 'de'), b: T('Парагвай', 'Paraguay', 'py') },
-    { tag: 'M77 · ' + tr('готово', 'set'), locked: true, a: T('Франция · 1-е I', 'France · I winner', 'fr'), b: T('Швеция', 'Sweden', 'se') },
-    { tag: 'M84', a: T('Испания · 1-е H', 'Spain · H winner', 'es'), b: T('2-е J', 'J runner-up', null) },
-    { tag: 'M83', a: T('2-е K', 'K runner-up', null), b: T('2-е L', 'L runner-up', null) },
-    { tag: 'M81 · ' + tr('готово', 'set'), locked: true, a: T('США', 'USA', 'us'), b: T('Босния', 'Bosnia', 'ba') },
-    { tag: 'M82', a: T('Бельгия · 1-е G', 'Belgium · G winner', 'be'), b: THIRD },
-  ];
-  const BOTTOM = [
-    { tag: 'M76 · ' + tr('готово', 'set'), locked: true, a: T('Бразилия', 'Brazil', 'br'), b: T('Япония', 'Japan', 'jp') },
-    { tag: 'M78 · ' + tr('готово', 'set'), locked: true, a: T('Кот-д’Ивуар', 'Côte d’Ivoire', 'ci'), b: T('Норвегия · 2-е I', 'Norway · I runner-up', 'no') },
-    { tag: 'M86 · ' + tr('готово', 'set'), locked: true, a: T('Аргентина · 1-е J', 'Argentina · J winner', 'ar'), b: T('Кабо-Верде · 2-е H', 'Cape Verde · H runner-up', 'cv') },
-    { tag: 'M79', a: T('Мексика', 'Mexico', 'mx'), b: THIRD },
-    { tag: 'M80', a: T('Англия · 1-е L', 'England · L winner', 'gb-eng'), b: THIRD },
-    { tag: 'M87', a: T('Колумбия/Португалия · 1-е K', 'Colombia/Portugal · K winner', null), b: THIRD },
-    { tag: 'M85', a: T('Швейцария', 'Switzerland', 'ch'), b: THIRD },
-    { tag: 'M88 · ' + tr('готово', 'set'), locked: true, a: T('Австралия', 'Australia', 'au'), b: T('Египет · 2-е G', 'Egypt · G runner-up', 'eg') },
-  ];
+  // ── Верхняя половина → 1/2 (M101) → финал ──
+  const HALF_TOP = {
+    side: 'top', sf: 'M101',
+    qfs: [
+      { m: 'M97', r16: [
+        { m: 'M89', ties: [
+          tie('M74', true, T('Германия', 'Germany', 'de'), T('Парагвай', 'Paraguay', 'py')),
+          tie('M77', true, T('Франция · 1-е I', 'France · I winner', 'fr'), T('Швеция', 'Sweden', 'se')),
+        ] },
+        { m: 'M90', ties: [
+          tie('M73', true, T('ЮАР', 'South Africa', 'za'), T('Канада', 'Canada', 'ca')),
+          tie('M75', true, T('Нидерланды', 'Netherlands', 'nl'), T('Марокко', 'Morocco', 'ma')),
+        ] },
+      ] },
+      { m: 'M98', r16: [
+        { m: 'M93', ties: [
+          tie('M83', false, T('2-е K', 'K runner-up'), T('2-е L', 'L runner-up')),
+          tie('M84', false, T('Испания · 1-е H', 'Spain · H winner', 'es'), T('2-е J', 'J runner-up')),
+        ] },
+        { m: 'M94', ties: [
+          tie('M81', true, T('США', 'USA', 'us'), T('Босния', 'Bosnia', 'ba')),
+          tie('M82', false, T('Бельгия · 1-е G', 'Belgium · G winner', 'be'), THIRD),
+        ] },
+      ] },
+    ],
+  };
+
+  // ── Нижняя половина → 1/2 (M102) → финал ──
+  const HALF_BOTTOM = {
+    side: 'bottom', sf: 'M102',
+    qfs: [
+      { m: 'M99', r16: [
+        { m: 'M91', ties: [
+          tie('M76', true, T('Бразилия', 'Brazil', 'br'), T('Япония', 'Japan', 'jp')),
+          tie('M78', true, T('Кот-д’Ивуар', 'Côte d’Ivoire', 'ci'), T('Норвегия · 2-е I', 'Norway · I runner-up', 'no')),
+        ] },
+        { m: 'M92', ties: [
+          tie('M79', false, T('Мексика', 'Mexico', 'mx'), THIRD),
+          tie('M80', false, T('Победитель L', 'Group L winner'), THIRD),
+        ] },
+      ] },
+      { m: 'M100', r16: [
+        { m: 'M95', ties: [
+          tie('M86', true, T('Аргентина · 1-е J', 'Argentina · J winner', 'ar'), T('Кабо-Верде · 2-е H', 'Cape Verde · H runner-up', 'cv')),
+          tie('M88', true, T('Австралия', 'Australia', 'au'), T('Египет · 2-е G', 'Egypt · G runner-up', 'eg')),
+        ] },
+        { m: 'M96', ties: [
+          tie('M85', false, T('Швейцария', 'Switzerland', 'ch'), THIRD),
+          tie('M87', false, T('Победитель K', 'Group K winner'), THIRD),
+        ] },
+      ] },
+    ],
+  };
+
+  const RLBL = { r16: tr('1/8', 'R16'), qf: tr('1/4', 'QF'), sf: tr('1/2', 'SF') };
+  const SET = tr('готово', 'set');
 
   // Третьи места (A–I определены; J/K/L доигрывают). Статус: safe (гарантирован) | edge (борьба за 3 последних места)
   // Логика: 8 путёвок − 3 нераспределённые группы = 5 мест уже закреплены за лучшими известными третьими.
@@ -104,20 +180,26 @@ export default function PlayoffsView() {
     <div>
       <h1>{tr('Плей-офф · сетка', 'Playoffs · the bracket')}</h1>
       <p className="po-intro">
-        {tr('Групповой этап завершён. Группа H — за Испанией, сенсационные дебютанты Кабо-Верде вторые; группу G выиграла Бельгия, Египет второй. Осталось официально посеять восьмёрку лучших третьих (последними считают группы J, K, L) — после этого встанут на места слоты с пометкой «3-е место». Пары, где известны обе команды, отмечены «готово»; остальное — проекция по таблицам и нашим раскладам.',
-            'The group stage is over. Group H went to Spain, with the sensational debutants Cape Verde second; Belgium won Group G, Egypt second. All that remains is to officially seed the eight best third places (Groups J, K, L are ranked last) — after which the «third place» slots fall into position. Ties where both teams are known are marked “set”; the rest is a projection from the tables and our reads.')}
+        {tr('Групповой этап завершён. Группа H — за Испанией, дебютанты Кабо-Верде вторые; группу G выиграла Бельгия, Египет второй. Ниже — сетка двумя половинами: где известны обе команды, пара отмечена «готово»; пустые слоты ждут победителей групп J/K/L, вторых мест и официального посева восьми лучших третьих.',
+            'The group stage is over. Group H went to Spain, debutants Cape Verde second; Belgium won Group G, Egypt second. Below is the bracket in two halves: where both teams are known a tie is marked “set”; empty slots await the J/K/L group winners, the runners-up and the official seeding of the eight best third places.')}
       </p>
 
       <div className="sect"><span className="sect-label">{tr('Нижняя половина · мясорубка', 'Bottom half · the mincer')}</span></div>
-      <section className="block po-half bottom">
-        {BOTTOM.map((x, i) => <Tie key={i} {...x} />)}
-        <div className="po-half-foot">{tr('→ к полуфиналу №2', '→ to semifinal #2')}</div>
-      </section>
+      <Half half={HALF_BOTTOM} setLabel={SET} lbl={RLBL} />
 
       <div className="sect"><span className="sect-label">{tr('Верхняя половина', 'Top half')}</span></div>
-      <section className="block po-half top">
-        {TOP.map((x, i) => <Tie key={i} {...x} />)}
-        <div className="po-half-foot">{tr('→ к полуфиналу №1', '→ to semifinal #1')}</div>
+      <Half half={HALF_TOP} setLabel={SET} lbl={RLBL} />
+
+      <div className="sect"><span className="sect-label">{tr('Финал', 'Final')}</span></div>
+      <section className="block po-br-final-wrap">
+        <div className="po-br-box final">
+          <div className="po-br-tag">{tr('M104 · MetLife · 19 июля', 'M104 · MetLife · Jul 19')}</div>
+          <div className="po-team"><span className="po-flag po-flag-tbd" aria-hidden="true" /><span>{tr('Победитель верхней половины', 'Top-half winner')}</span></div>
+          <div className="po-team"><span className="po-flag po-flag-tbd" aria-hidden="true" /><span>{tr('Победитель нижней половины', 'Bottom-half winner')}</span></div>
+        </div>
+        <p className="po-intro" style={{ textAlign: 'center' }}>
+          {tr('Проигравшие полуфиналов сыграют за 3-е место (M103).', 'The semifinal losers contest third place (M103).')}
+        </p>
       </section>
 
       <div className="sect"><span className="sect-label">{tr('Третьи места · гонка за 8 путёвок', 'Third places · race for 8 spots')}</span></div>
@@ -165,8 +247,8 @@ export default function PlayoffsView() {
       </section>
 
       <p className="foot-note">
-        {tr('Группы доиграны — осталось дождаться официального посева третьих мест (J, K, L), и слоты с пометкой «3-е место» встанут на свои позиции.',
-            'The groups are done — once the official third-place seeding (J, K, L) is published, the «third place» slots fall into their positions.')}
+        {tr('Группы доиграны — осталось дождаться официального посева третьих мест (J, K, L), и слоты с пометкой «3-е место» / «2-е» встанут на свои позиции.',
+            'The groups are done — once the official third-place seeding (J, K, L) is published, the «third place» / «runner-up» slots fall into their positions.')}
       </p>
     </div>
   );
