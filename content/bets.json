@@ -5254,7 +5254,7 @@
       "en": "England team total over 2.5"
     },
     "type": "ИТ",
-    "odds": 2.0,
+    "odds": 2,
     "tier": "yellow",
     "side": "AI",
     "contest": true,
@@ -5868,7 +5868,7 @@
       "en": "Aggregate total under 16.5"
     },
     "type": "ТМ",
-    "odds": 2.0,
+    "odds": 2,
     "tier": "green",
     "side": "AI",
     "contest": true,
@@ -6317,7 +6317,7 @@
       "en": "Turkey to win"
     },
     "type": "П1",
-    "odds": 4.0,
+    "odds": 4,
     "tier": "yellow",
     "side": "AI",
     "contest": true,
@@ -6720,10 +6720,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Низовое ДНК обеих (Уругвай редко в ТБ2.5, Испания уже 0:0 в туре с Кабо-Верде), модельный консенсус 0:2 / U2.5 ~60%. Испании ничья почти выводит → возможен контролируемый 1:0. ⚠️ Контртест: нет жары Майами + прессинг Бьелсы жив + Уругвай обязан идти вперёд → может открыться на 3 гола.",
-      "en": "Both sides' low DNA (Uruguay rarely Over 2.5, Spain already 0:0 vs Cape Verde), model consensus 0:2 / U2.5 ~60%. A draw nearly sends Spain through → a managed 1:0 is on. ⚠️ Counter: no Miami heat + Bielsa's press alive + Uruguay must attack → could open to 3."
+      "ru": "✓ 0:1, всего 1 гол — низ как и читали. Сработал ровно «контролируемый 1:0», которого сами опасались в контртесте.",
+      "en": "✓ 0:1, only one goal — the low we read. The exact «controlled 1:0» we flagged as the counter-risk."
     }
   },
   {
@@ -6743,10 +6743,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Испания мотивирована на 1-е место (НЕ ротирует), полная атака восстановлена — Ямаль и Уильямс в старте (в туре их берегли), Уругвай без Араухо в обороне и открывается под прессинг. Модели дают Испании 2 (0:2). Заходит на самом вероятном сценарии вместе с ТМ 2.5.",
-      "en": "Spain are motivated for first (no rotation), full attack restored — Yamal and Williams start (rested last round), Uruguay without Araújo at the back and opening up under the press. Models give Spain 2 (0:2). Lands on the most likely scenario alongside the Under."
+      "ru": "✗ Испания забила лишь раз (Баэна 42'). Модальный 0:2 не вышел — случился осторожный 1:0, где ТМ заходит, а индивидуальный тотал горит.",
+      "en": "✗ Spain scored just once (Baena 42'). The modal 0:2 never came — the cautious 1:0 where the Under wins but the team total burns."
     }
   },
   {
@@ -6766,10 +6766,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Самый низовой матч тура: Саудовская — худшая атака турнира (0.8 xG за 2 матча), Кабо-Верде забивает только со стандартов. Суммарный xG явно ≤2.3, модели дают 1:0. ⚠️ Контртест: оба must-win → 2-й тайм может раскрыться, пара прогнозов даёт 2:1.",
-      "en": "The round's lowest-scoring game: Saudi have the tournament's worst attack (0.8 xG in two games), Cape Verde score only from set pieces. Combined xG clearly ≤2.3, models give 1:0. ⚠️ Counter: both must-win → the 2nd half could open up, a couple of forecasts say 2:1."
+      "ru": "✓ 0:0 — сухая ничья, легчайший заход.",
+      "en": "✓ 0:0 — goalless, a comfortable win."
     }
   },
   {
@@ -6789,10 +6789,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "⚡ value: 4 прогноза из 4 склоняются к BTTS (модальный 1:1/2:1), а рынок прайсит ОЗ-нет @1.68. Иран must-win раскроется хотя бы во 2-м тайме → Египет наказывает контрой Салах+Мармуш; возврат Джаханбахша усиливает атаку Ирана. ⚠️ Контртест: Египту хватает ничьей — может встать в блок и не атаковать (Шобейр держит сухарь).",
-      "en": "⚡ value: 4 of 4 forecasts lean BTTS (modal 1:1/2:1), while the market prices BTTS-no @1.68. Iran must-win will open up at least in the 2nd half → Egypt punish on the break (Salah+Marmoush); Jahanbakhsh's return boosts Iran. ⚠️ Counter: Egypt need only a draw — they may sit and not attack (Shobeir keeps a clean sheet)."
+      "ru": "✓ 1:1 (Сабер 5', Резаеян 14') — обе забили уже в дебюте.",
+      "en": "✓ 1:1 (Saber 5', Rezaeian 14') — both scored early."
     }
   },
   {
@@ -6812,10 +6812,10 @@
     "tier": "green",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Новая Зеландия забивала в КАЖДОМ матче ЧМ (контра/стандарт), а оборона Бельгии немолода и уязвима за спину. Бельгия с Лукаку в старте и must-win почти наверняка наконец распечатает ворота. ⚠️ Контртест: модальный исход моделей — сухая победа Бельгии (Куртуа + транжирство НЗ), плюс остаточный риск голевого ступора Бельгии (1 гол за 2 матча).",
-      "en": "New Zealand have scored in EVERY WC game (counter/set piece), and Belgium's ageing defence is vulnerable in behind. Belgium with Lukaku starting and must-win should finally break their duck. ⚠️ Counter: models' modal is a Belgium clean-sheet win (Courtois + NZ profligacy), plus the lingering risk of another Belgian goal drought (1 goal in 2 games)."
+      "ru": "✓ 1:5 — Бельгия залила пять, но и Новая Зеландия отметилась голом.",
+      "en": "✓ 1:5 — Belgium ran riot, yet New Zealand got on the board too."
     }
   },
   {
@@ -6835,10 +6835,10 @@
     "tier": "yellow",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Структурный недо-низ: Египту хватает ничьей, он низкоблоковый, вратарь Шобейр в форме; Иран без Азмуна туп в позиционке. RotoWire даёт модальный 1:1 — он же закрывает и ОЗ-да. Производная того же осторожного сценария.",
-      "en": "A structural near-low: Egypt need only a draw, sit deep, keeper Shobeir in form; Iran toothless without Azmoun in open play. RotoWire's modal is 1:1 — which also cashes the BTTS-yes. A derivative of the same cautious scenario."
+      "ru": "✓ 1:1 — модальный счёт, да ещё VAR отменил победный гол Ирана на 93-й.",
+      "en": "✓ 1:1 — the modal score, and VAR even chalked off Iran's 93rd-minute winner."
     }
   },
   {
@@ -6858,10 +6858,10 @@
     "tier": "yellow",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Пик-эм по линии (П1 2.75 / П2 2.70) двух слабых на гол команд → в осторожном низовом матче ничья реальна. Производная того же низа, что и ТМ 2.5 (закрывается на 0:0/1:1). Смелее зелёной.",
-      "en": "A pick-em on the line (2.75 / 2.70) between two low-scoring sides → in a cautious, low game a draw is realistic. A derivative of the same low read as the Under (cashes on 0:0/1:1). Bolder than the green."
+      "ru": "✓ 0:0 — две беззубые на гол команды выдали осторожную ничью точно по нотам.",
+      "en": "✓ 0:0 — two toothless attacks served up the cautious draw to plan."
     }
   },
   {
@@ -6880,10 +6880,10 @@
     "tier": "red",
     "side": "AI",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Система ТС 3/6 (нужно ≥3 точных из 6). Счета по сценариям: флэт-ничья грандов, узкие победы фаворитов, осторожные ничьи там, где лидер доволен очком. Эфф. кэф при резолве (по тройкам).",
-      "en": "CS system 3/6 (need ≥3 exact of 6). Scores by scenario: a flat grand draw, narrow favourite wins, cautious draws where the leader is happy with a point. Effective odds at settlement (by triples)."
+      "ru": "✗ Из шести точных счетов зашёл один — Египет-Иран 1:1. Для системы 3/6 нужно ≥3, проход невозможен.",
+      "en": "✗ One of six correct scores landed — Egypt-Iran 1:1. A 3/6 system needs ≥3; no pass."
     },
     "stake": 500,
     "legs": [
@@ -6965,11 +6965,11 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "stake": 500,
     "note": {
-      "ru": "Первая система Паши на тур — 5 из 6, голевая: четыре «обе забьют — да» (Бельгия-НЗ, Египет-Иран, Уругвай-Испания) + страховочные «обе не забьют» на полумёртвый Сенегал-Ирак и слабый на гол Кабо-Верде, и «второй тайм результативнее первого» в Норвегия-Франция. Нужно ≥5 из 6. Очный нерв: в Уругвай-Испания Паша берёт «обе забьют», а машина — низ (ТМ 2.5).",
-      "en": "Pasha's first system of the round — 5 of 6, goals-heavy: four 'both teams to score - yes' (Belgium-NZ, Egypt-Iran, Uruguay-Spain) + insurance 'no' on the near-dead Senegal-Iraq and low-scoring Cape Verde, plus 'second half outscores the first' in Norway-France. Need ≥5 of 6. The clash: in Uruguay-Spain Pasha backs both to score, while the machine takes the Under 2.5."
+      "ru": "✗ 4 из 6: зашли ОЗ Бельгия-НЗ, «обе не забьют» Сенегал-Ирак, ОЗ Египет-Иран и «обе не забьют» Кабо-Верде; сгорели «2-й тайм результативнее» (всё решилось до перерыва) и ОЗ Уругвай-Испания (Уругвай не забил). Нужно ≥5.",
+      "en": "✗ 4 of 6: BTTS NZ-Belgium, «no» Senegal-Iraq, BTTS Egypt-Iran and «no» Cape Verde landed; «second half outscores the first» (settled before the break) and BTTS Uruguay-Spain (Uruguay didn't score) burned. Needed ≥5."
     },
     "legs": [
       {
@@ -7097,10 +7097,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Честная ничья с перевесом Кабо-Верде: саудиты вынуждены первыми идти забивать и не удержат → по голу в каждом тайме. (Сам признаётся, что не понял, почему не взял просто ОЗ.)",
-      "en": "An honest draw edging Cape Verde: the Saudis must chase a goal and won't hold it → a goal in each half. (He admits he's not sure why he didn't just take BTTS.)"
+      "ru": "✗ 0:0 — ни одного гола ни в одном тайме.",
+      "en": "✗ 0:0 — no goals in either half."
     }
   },
   {
@@ -7120,10 +7120,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "void",
     "note": {
-      "ru": "Испания — команда первого тайма и заберёт его, а резервами во 2-м «как пойдёт» (бережёт Ямаля к плей-офф). Под возврат при ровно 1 голе в тайме. Тонко конфликтует с нашим матчевым ТМ 2.5.",
-      "en": "Spain are a first-half team and will take it, then 'see how it goes' with reserves after (saving Yamal for the knockouts). Push if exactly 1 goal in the half. Subtly conflicts with our match Under 2.5."
+      "ru": "↩︎ Возврат: в 1-м тайме ровно 1 гол (Баэна 42') — ставка и ставилась под возврат, кэф 1.0.",
+      "en": "↩︎ Void: exactly one first-half goal (Baena 42') — placed for a push, odds 1.0."
     }
   },
   {
@@ -7143,10 +7143,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Чуйка шепчет апсет НЗ, но Паша ей не верит (НЗ не поверит в себя и не задавит) → встаёт на горло песне и берёт просто ОЗ. Совпадает с машиной.",
-      "en": "His gut whispers a NZ upset, but he doesn't trust it (NZ won't believe and won't press) → he reins it in and just takes BTTS. Agrees with the machine."
+      "ru": "✓ 1:5 — обе на табло.",
+      "en": "✓ 1:5 — both teams scored."
     }
   },
   {
@@ -7166,10 +7166,10 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Из уважения к Ирану (судейство, логистика, позор организации) верит в 1:1 — Иран на чужом поле бьётся. Совпадает с машиной (ОЗ-да против рынка ОЗ-нет).",
-      "en": "Out of respect for Iran (refereeing, logistics, organisational shambles) he believes in 1:1 — Iran fight on hostile turf. Agrees with the machine (BTTS-yes against the market's BTTS-no)."
+      "ru": "✓ 1:1 — обе забили (Сабер, Резаеян).",
+      "en": "✓ 1:1 — both scored (Saber, Rezaeian)."
     }
   },
   {
@@ -7188,10 +7188,10 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "«Жду сразу четыре ничьи»: Норвегия-Франция (договорняк), Кабо-Верде-Саудовская (честная ничья), Уругвай-Испания (Испании ничья = 1-е место), Египет-Иран (1:1). Система 3 из 4 — прощает один промах. Кэф ориентировочный (по линии).",
-      "en": "'I expect four draws at once': Norway-France (economy game), Cape Verde-Saudi (honest draw), Uruguay-Spain (a draw gives Spain first), Egypt-Iran (1:1). System 3 of 4 — forgives one miss. Odds indicative (off the line)."
+      "ru": "✗ Ждал четыре ничьи — вышло две (Кабо-Верде 0:0, Египет-Иран 1:1). Норвегия 1:4 и Уругвай 0:1 — мимо. Для 3/4 не хватило.",
+      "en": "✗ Wanted four draws — got two (Cape Verde 0:0, Egypt-Iran 1:1). Norway 1:4 and Uruguay 0:1 missed. Short for 3/4."
     },
     "stake": 500,
     "legs": [
@@ -7253,10 +7253,10 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Система 5 из 6 на все его зелёные ординары (таймовые рынки + ОЗ). Нужно ≥5 из 6. Уже вторая система 5/6 от Паши на этот тур (первая — на ОЗ/тоталы). Эфф. кэф при резолве (по комбинациям).",
-      "en": "System 5 of 6 on all his green singles (half markets + BTTS). Need ≥5 of 6. Pasha's second 5/6 system this round (the first was on BTTS/totals). Effective odds at settlement (by combos)."
+      "ru": "✗ Из шести зелёных зашли три (Сенегал в каждом тайме, ОЗ Бельгия-НЗ, ОЗ Египет-Иран), Уругвай 1Т ТБ 1.0 — возврат, а Норвегия 2Т ТБ 1.5 и «гол в каждом тайме» Кабо-Верде сгорели. Для 5/6 мало.",
+      "en": "✗ Three of six greens landed (Senegal in each half, BTTS NZ-Belgium, BTTS Egypt-Iran), Uruguay 1H Over 1.0 voided, while Norway 2H Over 1.5 and Cape Verde «goal in each half» burned. Too few for 5/6."
     },
     "stake": 500,
     "legs": [

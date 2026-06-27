@@ -34,22 +34,22 @@ export default function PlayoffsView() {
   const TOP = [
     { tag: 'M73 · ' + tr('готово', 'set'), locked: true, a: T('ЮАР', 'South Africa', 'za'), b: T('Канада', 'Canada', 'ca') },
     { tag: 'M75 · ' + tr('готово', 'set'), locked: true, a: T('Нидерланды', 'Netherlands', 'nl'), b: T('Марокко', 'Morocco', 'ma') },
-    { tag: 'M74', a: T('Германия', 'Germany', 'de'), b: THIRD },
-    { tag: 'M77', a: T('Франция · 1-е I', 'France · I winner', 'fr'), b: THIRD },
+    { tag: 'M74 · ' + tr('готово', 'set'), locked: true, a: T('Германия', 'Germany', 'de'), b: T('Парагвай', 'Paraguay', 'py') },
+    { tag: 'M77 · ' + tr('готово', 'set'), locked: true, a: T('Франция · 1-е I', 'France · I winner', 'fr'), b: T('Швеция', 'Sweden', 'se') },
     { tag: 'M84', a: T('Испания · 1-е H', 'Spain · H winner', 'es'), b: T('2-е J', 'J runner-up', null) },
     { tag: 'M83', a: T('2-е K', 'K runner-up', null), b: T('2-е L', 'L runner-up', null) },
-    { tag: 'M81', a: T('США', 'USA', 'us'), b: THIRD },
-    { tag: 'M82', a: T('Египет · 1-е G', 'Egypt · G winner', 'eg'), b: THIRD },
+    { tag: 'M81 · ' + tr('готово', 'set'), locked: true, a: T('США', 'USA', 'us'), b: T('Босния', 'Bosnia', 'ba') },
+    { tag: 'M82', a: T('Бельгия · 1-е G', 'Belgium · G winner', 'be'), b: THIRD },
   ];
   const BOTTOM = [
     { tag: 'M76 · ' + tr('готово', 'set'), locked: true, a: T('Бразилия', 'Brazil', 'br'), b: T('Япония', 'Japan', 'jp') },
     { tag: 'M78 · ' + tr('готово', 'set'), locked: true, a: T('Кот-д’Ивуар', 'Côte d’Ivoire', 'ci'), b: T('Норвегия · 2-е I', 'Norway · I runner-up', 'no') },
-    { tag: 'M86', a: T('Аргентина · 1-е J', 'Argentina · J winner', 'ar'), b: T('2-е H', 'H runner-up', null) },
+    { tag: 'M86 · ' + tr('готово', 'set'), locked: true, a: T('Аргентина · 1-е J', 'Argentina · J winner', 'ar'), b: T('Кабо-Верде · 2-е H', 'Cape Verde · H runner-up', 'cv') },
     { tag: 'M79', a: T('Мексика', 'Mexico', 'mx'), b: THIRD },
     { tag: 'M80', a: T('Англия · 1-е L', 'England · L winner', 'gb-eng'), b: THIRD },
     { tag: 'M87', a: T('Колумбия/Португалия · 1-е K', 'Colombia/Portugal · K winner', null), b: THIRD },
     { tag: 'M85', a: T('Швейцария', 'Switzerland', 'ch'), b: THIRD },
-    { tag: 'M88', a: T('Австралия', 'Australia', 'au'), b: T('2-е G', 'G runner-up', null) },
+    { tag: 'M88 · ' + tr('готово', 'set'), locked: true, a: T('Австралия', 'Australia', 'au'), b: T('Египет · 2-е G', 'Egypt · G runner-up', 'eg') },
   ];
 
   // Третьи места (A–F определены; G–L ещё доигрывают). Статус: safe | edge
@@ -59,6 +59,7 @@ export default function PlayoffsView() {
     { g: 'B', t: T('Босния', 'Bosnia', 'ba'), p: 4, gd: '−1', gf: 5, s: 'safe' },
     { g: 'D', t: T('Парагвай', 'Paraguay', 'py'), p: 4, gd: '−2', gf: 2, s: 'safe' },
     { g: 'I', t: T('Сенегал', 'Senegal', 'sn'), p: 3, gd: '+2', gf: 8, s: 'edge' },
+    { g: 'G', t: T('Иран', 'Iran', 'ir'), p: 3, gd: '0', gf: 3, s: 'edge' },
     { g: 'A', t: T('Южная Корея', 'South Korea', 'kr'), p: 3, gd: '−1', gf: 2, s: 'edge' },
     { g: 'C', t: T('Шотландия', 'Scotland', 'gb-sct'), p: 3, gd: '−3', gf: 1, s: 'edge' },
   ];
@@ -105,8 +106,8 @@ export default function PlayoffsView() {
     <div>
       <h1>{tr('Плей-офф · сетка', 'Playoffs · the bracket')}</h1>
       <p className="po-intro">
-        {tr('Группы A–F и I уже сыграны и зафиксированы (Франция выиграла I, Норвегия — вторая); группы H, G, J, K, L ещё доигрывают 3-й тур, а восьмёрку лучших третьих мест посчитают после всех групп. Пары ниже — по позициям сетки: где обе команды известны, стоит «готово», остальное — проекция по таблицам и нашим раскладам.',
-            'Groups A–F and I are played and locked (France won I, Norway second); Groups H, G, J, K, L still have their final round to play, and the eight best third places are settled after all groups. The ties below follow the fixed bracket positions: where both teams are known it says “set”, the rest is a projection from the tables and our reads.')}
+        {tr('Групповой этап завершён. Группа H — за Испанией, сенсационные дебютанты Кабо-Верде вторые; группу G выиграла Бельгия, Египет второй. Осталось официально посеять восьмёрку лучших третьих (последними считают группы J, K, L) — после этого встанут на места слоты с пометкой «3-е место». Пары, где известны обе команды, отмечены «готово»; остальное — проекция по таблицам и нашим раскладам.',
+            'The group stage is over. Group H went to Spain, with the sensational debutants Cape Verde second; Belgium won Group G, Egypt second. All that remains is to officially seed the eight best third places (Groups J, K, L are ranked last) — after which the «third place» slots fall into position. Ties where both teams are known are marked “set”; the rest is a projection from the tables and our reads.')}
       </p>
 
       <div className="sect"><span className="sect-label">{tr('Нижняя половина · мясорубка', 'Bottom half · the mincer')}</span></div>
@@ -124,8 +125,8 @@ export default function PlayoffsView() {
       <div className="sect"><span className="sect-label">{tr('Третьи места · гонка за 8 путёвок', 'Third places · race for 8 spots')}</span></div>
       <section className="block">
         <p className="po-intro">
-          {tr('В плей-офф проходят 8 лучших третьих мест из 12. Определены семь — из групп A–F и I (все сейчас в зоне). Сенегал, разгромив Ирак 5:0, влетел сразу на 5-ю строку. Ещё пять дадут группы H, G, J, K, L; сильные третьи оттуда вытеснят слабейших — первой под ударом Шотландия.',
-              'The 8 best of 12 third places advance. Seven are decided — from Groups A–F and I (all currently in the zone). Senegal, hammering Iraq 5:0, jumped straight to 5th. Five more come from Groups H, G, J, K, L; strong thirds there will bump the weakest — Scotland is first in line.')}
+          {tr('В плей-офф проходят 8 лучших третьих мест из 12. Восемь известных третьих — из групп A–G и I; ещё три дадут J, K, L, а Уругвай (3-й в H, всего 2 очка) уже за бортом. Иран добавился третьим из группы G с нулевой разницей. Сильные третьи из J/K/L вытеснят слабейших трёхочковых — первой под ударом Шотландия, затем Корея.',
+              'The 8 best of 12 third places advance. Eight known thirds come from Groups A–G and I; three more arrive from J, K, L, while Uruguay (third in H on just 2 points) is already out. Iran joins as Group G’s third on a zero goal difference. Strong thirds from J/K/L will bump the weakest three-pointers — Scotland first in line, then Korea.')}
         </p>
         <div className="po-thirds">
           <div className="po-th-row po-th-head">
@@ -166,8 +167,8 @@ export default function PlayoffsView() {
       </section>
 
       <p className="foot-note">
-        {tr('Сетка обновится автоматически, как только группы G–L доиграют и определится восьмёрка лучших третьих.',
-            'The bracket updates automatically once Groups G–L finish and the eight best third places are decided.')}
+        {tr('Группы доиграны — осталось дождаться официального посева третьих мест (J, K, L), и слоты с пометкой «3-е место» встанут на свои позиции.',
+            'The groups are done — once the official third-place seeding (J, K, L) is published, the «third place» slots fall into their positions.')}
       </p>
     </div>
   );

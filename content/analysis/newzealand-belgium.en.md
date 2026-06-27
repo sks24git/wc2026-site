@@ -1,3 +1,13 @@
+## Result: 1:5 — Belgium finally wake up and survive
+
+**New Zealand 1:5 (0:1). Belgium goals: Trossard 28', 50', De Bruyne 66', Lukaku, Saelemaekers (late); New Zealand — Just (at 1:3).** A heavyweight that had scored once in two games suddenly poured in five (xG 3.69 to 0.25) and, on a superior goal difference, leapfrogged Egypt to win the group. De Bruyne became Belgium's oldest World Cup scorer, Lukaku struck off the bench.
+
+**Settlement.** With Belgium flooding forward, BTTS hung on the hosts' goal — and New Zealand found it. 🟢 Both teams to score @2.15 — ✓. Pasha's 🟢 BTTS @1.81 — ✓.
+
+**Lesson.** Even in a rout, BTTS-yes survives if the beaten side has one chance: 0.25 xG was enough for a goal. But it is a lottery — back an outright underdog's goal only in small size.
+
+---
+
 ## New Zealand — Belgium · 27 June, 06:00 MSK · BC Place, Vancouver
 **Belgium are on the brink: a heavyweight with one goal in two games must beat New Zealand or go home. Lukaku finally starts.**
 

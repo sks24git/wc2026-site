@@ -1,3 +1,13 @@
+## Result: 0:1 — Baena decides it, Spain top the group and dodge Argentina
+
+**Uruguay 0:1 (0:1). Goal: Baena 42'.** The only strike — Baena tucked away a cutback after a Yamal–Llorente move, aided by a Muslera error. Uruguay finished with ten (Canobbio sent off in stoppage time). Spain got what mattered — top spot and the upper half of the bracket: Argentina now only in the final.
+
+**Settlement.** The machine named its own risk in the counter-test: «a controlled 1:0 is possible». That is exactly what happened. 🟢 Under 2.5 @1.73 — ✓ (one goal). But 🟢 Spain team total over 1.5 @1.80 — ✗: the modal 0:2 never came, Spain settled for one and saved their legs. Pasha's 🟢 first-half over 1.0 @2.02 — ↩︎ void (exactly one goal in the half, as designed).
+
+**Lesson.** When a draw all but qualifies the favourite, they don't chase a rout — a «controlled 1:0» beats the big team-total bet. The Under and a high favourite team total are opposites: one scenario hedges the other, but it also cuts it.
+
+---
+
 ## Uruguay — Spain · 27 June, 03:00 MSK · Estadio Akron, Zapopan
 **Spain must finish first for the easy half (else Argentina in the round of 32) — no rotation. Bielsa's Uruguay press and need a result.**
 

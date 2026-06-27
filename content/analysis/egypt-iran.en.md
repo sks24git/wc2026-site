@@ -1,3 +1,13 @@
+## Result: 1:1 — VAR denies Iran the win, Egypt secure second
+
+**Egypt 1:1 (1:1). Goals: Saber 5' (Egypt), Rezaeian 14' (Iran).** Taremi missed a penalty (keeper save). Iran scored a 93rd-minute winner, but Khalilzadeh's goal was ruled out by VAR for offside — 1:1. A point was enough for Egypt to go through in second, unbeaten; Belgium finished first, Iran stay third.
+
+**Settlement.** The machine read a «structural near-low with a modal 1:1» — bang on. 🟢 Both teams to score @2.20 — ✓ (both early goals). 🟡 Draw @2.60 — ✓, with VAR helping. Pasha's 🟢 BTTS @2.03 — ✓.
+
+**Lesson.** A modal score can be «taken» twice off one scenario: BTTS-yes and the exact draw both cashed on the same 1:1 — when the read is confident, two derivatives of one scenario reinforce rather than dilute.
+
+---
+
 ## Egypt — Iran · 27 June, 06:00 MSK · Lumen Field, Seattle
 **Egypt need only a draw (a win = top spot and a bracket clear of Argentina). Iran must win. A cautious leader against an Iran that must gamble yet is toothless without Azmoun.**
 

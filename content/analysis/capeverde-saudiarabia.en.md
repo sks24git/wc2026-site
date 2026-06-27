@@ -1,3 +1,13 @@
+## Result: 0:0 — Cape Verde make history, the debutants reach the knockouts
+
+**Cape Verde 0:0 (0:0).** No goals; the islanders pressed (xG ~1.5 to 0.4) but couldn't finish. A point was enough: Cape Verde took second and, on their very first World Cup, reached the round of 32 — the fairy tale is real. Saudi Arabia go home.
+
+**Settlement.** A clean cautious low, just as read. 🟢 Under 2.5 @1.72 — ✓. 🟡 Draw @3.35 — ✓ (two toothless attacks served up the 0:0). Pasha's 🟢 goal in each half @1.87 — ✗ (no goals at all).
+
+**Lesson.** When both sides are weak precisely at finishing, «a goal in each half» is a trap: pressure and shots, but no goals. Draw + Under on such a game is safer than backing goals.
+
+---
+
 ## Cape Verde — Saudi Arabia · 27 June, 03:00 MSK · NRG Stadium, Houston
 **Debutants Cape Verde are one step from a fairy tale: a win = the knockouts at their first World Cup. Saudi Arabia (the tournament's worst attack) are all but out.**
 
