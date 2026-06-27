@@ -7669,5 +7669,107 @@
       "ru": "Система 5/6 на все шесть зелёных ординаров (прощает один промах). ⚠️ 5 из 6 позиций ниже 1.9 (против правила систем) → комбинированный кэф скромный; добавлено по запросу Влада. Реальные кэфы с Фонбета. Эфф. кэф при резолве.",
       "en": "A 5-of-6 system over all six green singles (forgives one miss). ⚠️ 5 of 6 legs are below 1.9 (against the system-floor rule) → modest combined odds; added at Vlad's request. Real Fonbet odds. Effective odds on settle."
     }
+  },
+  {
+    "id": 270,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": null,
+    "type": "Экспресс",
+    "tier": "red",
+    "odds": 29.92,
+    "stake": 500,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Три ничьи — экспресс",
+      "en": "Three draws — accumulator"
+    },
+    "bet": {
+      "ru": "Экспресс: три ничьи",
+      "en": "Accumulator: three draws"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Алжир — Австрия",
+          "en": "Algeria — Austria"
+        },
+        "p": {
+          "ru": "Ничья @2.02",
+          "en": "Draw @2.02"
+        }
+      },
+      {
+        "m": {
+          "ru": "Колумбия — Португалия",
+          "en": "Colombia — Portugal"
+        },
+        "p": {
+          "ru": "Ничья @3.95",
+          "en": "Draw @3.95"
+        }
+      },
+      {
+        "m": {
+          "ru": "Хорватия — Гана",
+          "en": "Croatia — Ghana"
+        },
+        "p": {
+          "ru": "Ничья @3.75",
+          "en": "Draw @3.75"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Первая красная Паши на тур: тройной экспресс на ничьи. Чутьё на «никому не горит — разойдутся». Все три позиции — где ничья реально в игре (Алжир-Австрия 2.02 — рыночный фаворит-исход).",
+      "en": "Pasha's first red of the round: a treble on draws. A feel for «no one is desperate — they'll share the spoils». All three are matches where a draw is live (Algeria-Austria 2.02 is the market-favourite outcome)."
+    }
+  },
+  {
+    "id": 271,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": "algeria-austria",
+    "type": "Х",
+    "tier": "green",
+    "odds": 2.02,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Алжир — Австрия",
+      "en": "Algeria — Austria"
+    },
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
+    "note": {
+      "ru": "Одиночка на ту самую «удобную ничью»: Австрию ничья выводит 2-й, Алжир с 4 очками — вероятный лучший третий. Рынок согласен — Фонбет срезал ничью до 2.02. Прямой клинч с машинной ОЗ-да.",
+      "en": "A single on the very «convenient draw»: a draw sends Austria through second and Algeria, on 4 points, into a likely best-third spot. The market agrees — Fonbet shaded the draw to 2.02. A direct clash with the machine's BTTS-yes."
+    }
+  },
+  {
+    "id": 272,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": "croatia-ghana",
+    "type": "Х",
+    "tier": "yellow",
+    "odds": 3.75,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Хорватия — Гана",
+      "en": "Croatia — Ghana"
+    },
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
+    "note": {
+      "ru": "Паша против машины: AI ждёт, что беззубая Гана не забьёт (ОЗ-нет), Паша — что Хорватия не вскроет блок и разойдутся миром. Очный нерв тура.",
+      "en": "Pasha against the machine: the AI expects a toothless Ghana to blank (BTTS-no), Pasha backs Croatia failing to break the block and a share of the spoils. The round's head-to-head."
+    }
   }
 ]
