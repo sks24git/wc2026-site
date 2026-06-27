@@ -87,7 +87,7 @@ export default function PlayoffsView() {
       ] },
       { m: 'M98', r16: [
         { m: 'M93', ties: [
-          tie('M83', false, T('2-е K', 'K runner-up'), T('2-е L', 'L runner-up')),
+          tie('M83', false, T('2-е K', 'K runner-up'), T('Хорватия', 'Croatia', 'hr')),
           tie('M84', false, T('Испания', 'Spain', 'es'), T('2-е J', 'J runner-up')),
         ] },
         { m: 'M94', ties: [
@@ -109,7 +109,7 @@ export default function PlayoffsView() {
         ] },
         { m: 'M92', ties: [
           tie('M79', false, T('Мексика', 'Mexico', 'mx'), THIRD),
-          tie('M80', false, T('Победитель L', 'Group L winner'), THIRD),
+          tie('M80', false, T('Англия', 'England', 'gb-eng'), THIRD),
         ] },
       ] },
       { m: 'M100', r16: [
@@ -141,12 +141,12 @@ export default function PlayoffsView() {
     { g: 'C', t: T('Шотландия', 'Scotland', 'gb-sct'), p: 3, gd: '−3', gf: 1, s: 'edge' },
   ];
   const THIRD_VARS = [
-    [tr('Кто придёт из J, K и L', 'Who arrives from J, K and L'),
-     tr('J — проигравший в очном Австрия–Алжир (оба по 3 очка, кто-то обязан упасть в третьи). K — скорее ДР Конго: обыграет беспомощный Узбекистан (разница −7) и наберёт 4 очка. L — Хорватия (3 очка), но если она дожмёт Гану, в третьи свалится сама Гана уже с 4 очками.',
-        'J — the loser of Austria vs Algeria (both on 3 points; one must drop to third). K — most likely DR Congo: beat a hapless Uzbekistan (GD −7) and they reach 4 points. L — Croatia (3 points), but if they see off Ghana, Ghana themselves slide to third on 4 points.')],
+    [tr('Кто придёт из J и K', 'Who arrives from J and K'),
+     tr('L уже закрыта: Хорватия обыграла Гану и пошла второй, а Гана с 4 очками стала третьей и прошла как одна из лучших третьих. Осталось дождаться J — проигравшего в очном Австрия–Алжир (оба по 3 очка, кто-то обязан упасть в третьи) — и K, где третьим, скорее всего, станет ДР Конго или Узбекистан.',
+        'L is already done: Croatia beat Ghana to go through second, and Ghana on 4 points finished third and advanced as one of the best thirds. Still to come are J — the loser of Austria vs Algeria (both on 3 points; one must drop to third) — and K, whose third will most likely be DR Congo or Uzbekistan.')],
     [tr('Порядок на вылет', 'Who drops out, in order'),
-     tr('Любой новичок с 4 очками (ДР Конго или Гана) сразу выбивает Шотландию (−3, 1 гол); второй такой забирает и Корею (−1). Иран (0, 3 гола) сидит крепче всех и вылетит, только если все три новых третьих окажутся сильнее. То есть из нынешней тройки реально проходит как минимум один — скорее Иран.',
-        'Any newcomer on 4 points (DR Congo or Ghana) knocks out Scotland straight away (−3, 1 goal); a second one also takes Korea (−1). Iran (0, 3 goals) sits sturdiest and only falls if all three new thirds finish stronger. So at least one of the current trio survives — most likely Iran.')],
+     tr('Гана (4 очка) уже вошла и подвинула Шотландию (−3, 1 гол). Следующий новичок с 4 очками из J/K заберёт и Корею (−1). Иран (0, 3 гола) сидит крепче всех и вылетит, только если оба оставшихся новых третьих окажутся сильнее.',
+        'Ghana (4 points) are already in and have pushed out Scotland (−3, 1 goal). The next 4-point newcomer from J/K also takes Korea (−1). Iran (0, 3 goals) sits sturdiest and only falls if both remaining new thirds finish stronger.')],
   ];
 
   const THOUGHTS = [

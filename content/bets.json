@@ -7418,7 +7418,7 @@
     "type": "ОЗ",
     "tier": "green",
     "odds": 1.77,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Хорватия — Гана",
       "en": "Croatia — Ghana"
@@ -7428,8 +7428,8 @@
       "en": "Both teams to score — no"
     },
     "note": {
-      "ru": "Гана без Кудуса и Салису (вне турнира), 1 гол за 2 матча, садится в блок → не забьёт; Хорватия гол найдёт.",
-      "en": "Ghana without Kudus and Salisu (out of the tournament), 1 goal in 2 games, sit deep → won't score; Croatia will find one."
+      "ru": "✗ Обе забили (Гана отыграла 1:1 на 77′). ОЗ-нет не зашло.",
+      "en": "✗ Both scored (Ghana levelled 1-1 on 77′). BTTS-no missed."
     }
   },
   {
@@ -7440,7 +7440,7 @@
     "type": "ТМ",
     "tier": "green",
     "odds": 1.75,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Панама — Англия",
       "en": "Panama — England"
@@ -7450,8 +7450,8 @@
       "en": "Under 3.5 goals"
     },
     "note": {
-      "ru": "Англия ротирует и медленно вскрывает автобус (эхо 0:0 с Ганой); ≤3 голов вероятнее феерии.",
-      "en": "England rotate and break the bus slowly (echo of the 0-0 vs Ghana); ≤3 goals likelier than a fest."
+      "ru": "✓ Всего 2 гола (Беллингем 62′, Кейн 67′) — меньше 3.5.",
+      "en": "✓ Just 2 goals (Bellingham 62′, Kane 67′) — under 3.5."
     }
   },
   {
@@ -7506,7 +7506,7 @@
     "type": "ТС",
     "tier": "red",
     "odds": 6,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Хорватия — Гана",
       "en": "Croatia — Ghana"
@@ -7516,8 +7516,8 @@
       "en": "Correct score 1-0 (Croatia)"
     },
     "note": {
-      "ru": "Must-win-грайнд при беззубой Гане всухую. Честная красная на счёт, в который верим (а не два коррелированных ординара).",
-      "en": "A must-win grind, Ghana kept scoreless. An honest red on a score we believe in (not two correlated singles)."
+      "ru": "✗ Вышло 2:1, не 1:0.",
+      "en": "✗ It finished 2-1, not 1-0."
     }
   },
   {
@@ -7666,8 +7666,8 @@
       }
     ],
     "note": {
-      "ru": "Система 5/6 на все шесть зелёных ординаров (прощает один промах). ⚠️ 5 из 6 позиций ниже 1.9 (против правила систем) → комбинированный кэф скромный; добавлено по запросу Влада. Реальные кэфы с Фонбета. Эфф. кэф при резолве.",
-      "en": "A 5-of-6 system over all six green singles (forgives one miss). ⚠️ 5 of 6 legs are below 1.9 (against the system-floor rule) → modest combined odds; added at Vlad's request. Real Fonbet odds. Effective odds on settle."
+      "ru": "Идёт. Группа L: Панама ТМ3.5 ✓, но Хорватия ОЗ-нет ✗ — один промах, для прохода 5/6 нужны теперь ВСЕ оставшиеся (Алжир, Иордания, Колумбия, ДР Конго).",
+      "en": "In progress. Group L: Panama Under 3.5 ✓, but Croatia BTTS-no ✗ — one miss, so a 5/6 pass now needs ALL the rest (Algeria, Jordan, Colombia, DR Congo)."
     }
   },
   {
@@ -7679,7 +7679,7 @@
     "tier": "red",
     "odds": 26.18,
     "stake": 500,
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Три ничьи — экспресс",
@@ -7722,8 +7722,8 @@
       }
     ],
     "note": {
-      "ru": "Первая красная Паши на тур: тройной экспресс на ничьи. Чутьё на «никому не горит — разойдутся». Все три позиции — где ничья реально в игре (Алжир-Австрия 2.02 — рыночный фаворит-исход).",
-      "en": "Pasha's first red of the round: a treble on draws. A feel for «no one is desperate — they'll share the spoils». All three are matches where a draw is live (Algeria-Austria 2.02 is the market-favourite outcome)."
+      "ru": "✗ Хорватия не сыграла вничью (2:1) → весь экспресс «три ничьи» сгорел.",
+      "en": "✗ Croatia did not draw (2-1) → the whole «three draws» accumulator is gone."
     }
   },
   {
@@ -7757,7 +7757,7 @@
     "type": "Х",
     "tier": "yellow",
     "odds": 3.35,
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Хорватия — Гана",
@@ -7768,8 +7768,8 @@
       "en": "Draw"
     },
     "note": {
-      "ru": "Паша против машины: AI ждёт, что беззубая Гана не забьёт (ОЗ-нет), Паша — что Хорватия не вскроет блок и разойдутся миром. Очный нерв тура.",
-      "en": "Pasha against the machine: the AI expects a toothless Ghana to blank (BTTS-no), Pasha backs Croatia failing to break the block and a share of the spoils. The round's head-to-head."
+      "ru": "✗ Хорватия выиграла 2:1 (Власич 83′), ничьей не было.",
+      "en": "✗ Croatia won 2-1 (Vlašić 83′), no draw."
     }
   },
   {
@@ -7781,7 +7781,7 @@
     "tier": "red",
     "odds": 46.4,
     "stake": 500,
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Система 4/5 — тайма и комбо",
@@ -7844,8 +7844,8 @@
       }
     ],
     "note": {
-      "ru": "Финальный вид (поставлено на Фонбете): система 4/5. От исходной 5/6 Паша убрал ничью Алжира (она уже отдельным одинаром и в экспрессе) и заменил «оба тайма меньше 1.5» Колумбии на матчевый ТМ 2.5 (на Фонбете нет рынка обоих таймов). Нужно ≥4 из 5. ⚠️ позиция ДР Конго @1.73 ниже системного пола 1.9 — но это ставка Паши.",
-      "en": "Final form (placed on Fonbet): a 4/5 system. From the original 5/6 Pasha dropped the Algeria draw (already a single and in the accumulator) and swapped Colombia's «both halves under 1.5» for a match Under 2.5 (Fonbet has no both-halves market). Needs ≥4 of 5. ⚠️ the DR Congo leg @1.73 is below the 1.9 system floor — but it's Pasha's call."
+      "ru": "✗ Два промаха в группе L (ничья Хорватии + первый тайм больше 1.5 в Панаме) → 4 из 5 уже недостижимо.",
+      "en": "✗ Two misses in Group L (Croatia draw + Panama 1st-half over 1.5) → 4 of 5 no longer reachable."
     }
   },
   {
@@ -7856,7 +7856,7 @@
     "type": "ТБ",
     "tier": "green",
     "odds": 2.03,
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Панама — Англия",
@@ -7867,8 +7867,8 @@
       "en": "1st half over 1.5"
     },
     "note": {
-      "ru": "Паша: Панаме нечего терять (нужен первый гол на ЧМ), автобуса не будет → Англия основой вскроет в 1-м тайме, ротация во 2-м. ⚠️ сам зовёт «самой ненадёжной ставкой дня»: недо-Англия + дождь против голов.",
-      "en": "Pasha: Panama have nothing to lose (chasing a first WC goal), so no bus → England's first XI break through in the first half, rotation after. ⚠️ he calls it «the day's least safe bet»: a weak England + rain work against goals."
+      "ru": "✗ Первый тайм 0:0 — больше 1.5 не зашло (Паша сам звал её «самой ненадёжной»).",
+      "en": "✗ First half 0-0 — over 1.5 missed (Pasha himself called it «the least safe»)."
     }
   },
   {
@@ -7879,7 +7879,7 @@
     "type": "ТМ",
     "tier": "green",
     "odds": 1.67,
-    "status": "pending",
+    "status": "void",
     "contest": true,
     "match": {
       "ru": "Хорватия — Гана",
@@ -7890,8 +7890,8 @@
       "en": "1st half under 1.0 (push-protected)"
     },
     "note": {
-      "ru": "Допник к ничье: примитивный ничейный футбол против топ-обороны, ничья устраивает обоих. Нулевой 1-й тайм — фирменная история хорватов; под возврат при 1 голе.",
-      "en": "An add-on to the draw: a drab stalemate against a top defence, a draw suits both. A goalless first half is a Croatia trademark; void at exactly 1 goal."
+      "ru": "⟲ Возврат: в первом тайме ровно 1 гол (Сучич 31′), ставка на линии 1.0.",
+      "en": "⟲ Void: exactly one first-half goal (Sučić 31′), bet on the 1.0 line."
     }
   },
   {
@@ -8045,8 +8045,8 @@
       }
     ],
     "note": {
-      "ru": "ТС Паши из его прогноза счётов на баллы: система 3 из 6 (нужно ≥3 точных). На Фонбете продублирована урезанная версия 2/4 (без Англии и Хорватии — те Паша поставил отдельно). Эфф. кэф при резолве.",
-      "en": "Pasha's correct-score system from his points predictions: a 3-of-6 system (need ≥3 exact). On Fonbet a trimmed 2/4 version is mirrored (without England and Croatia — Pasha placed those separately). Effective odds on settle."
+      "ru": "Идёт. Группа L мимо: Панама 0:4 ✗ (было 0:2), Хорватия 0:0 ✗ (было 2:1). Для прохода 3/6 нужны ≥3 точных из оставшихся четырёх (Колумбия, ДР Конго, Алжир, Иордания).",
+      "en": "In progress. Group L missed: Panama 0-4 ✗ (was 0-2), Croatia 0-0 ✗ (was 2-1). A 3/6 pass needs ≥3 exact of the remaining four (Colombia, DR Congo, Algeria, Jordan)."
     }
   }
 ]

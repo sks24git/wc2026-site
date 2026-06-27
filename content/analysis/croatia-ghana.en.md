@@ -1,3 +1,23 @@
+## Result: Croatia 2:1 Ghana (HT 1:0)
+
+**Croatia ground it out and took second outright. Sučić opened the scoring late in the first half (31'), Ghana levelled after VAR (Luckassen 77' — a disallowed offside overturned), but on 83' Vlašić headed in a Modrić corner — 2:1. Both teams scored. Croatia finish second, Ghana third and still advance as one of the best third-placed teams (their first knockout from the group since 2010), Panama go out on 0 points.**
+
+- **Goals:** 31' Sučić (1:0) · 77' Luckassen (1:1, after VAR — offside overturned) · 83' Vlašić (2:1, header, assist Modrić from a corner).
+- **Modrić**, at 40, delivered the winning assist — bowing out of the group stage with a win. Ghana were without Kudus and Salisu (injuries, out of the tournament) — no creativity ever materialised.
+- Exactly one goal in the first half.
+
+**Settlement:**
+- AI · both teams to score — no 🟢 @1.77 — ✗ both scored.
+- AI · correct score 1:0 Croatia 🔴 @6.0 — ✗ (it was 2:1).
+- Pasha · draw 🟡 @3.35 — ✗ Croatia won.
+- Pasha · 1st half under 1.0 (push-protected) 🟢 @1.67 — ⟲ void (exactly one goal in the half).
+- Pasha · «three draws» accumulator 🔴 — ✗ (the Croatia draw failed).
+- Pasha · 4/5 system 🔴 — ✗ (the Croatia draw and Panama 1st-half over 1.5 killed the run).
+
+**Lesson:** where a draw sends both teams through, the «convenient draw» motive is real — but the leader's class and personal motivation (Modrić's last World Cup) tipped it: Croatia chased the win and took it from a set piece. The BTTS-no bet against a team with no attack is logical, yet even a toothless Ghana nicked a goal from a set piece — that's the underdog goal profile (via dead balls, not open play).
+
+---
+
 ## Croatia — Ghana · 28 June, 00:00 MSK · Lincoln Financial Field, Philadelphia
 **A fight for second: a win gives Croatia second outright, a draw is enough for Ghana. But even a draw leaves Croatia on 4 points in third — and a 4-point third almost always advances, so this is NOT «win or out». Ghana are without both stars, Kudus and Salisu (out of the tournament). Modrić, at 40, chases one last shot.**
 
