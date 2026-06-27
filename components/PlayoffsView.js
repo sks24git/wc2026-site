@@ -2,7 +2,7 @@
 import { useLang } from '@/app/providers';
 
 /* Самодостаточная страница сетки плей-офф ЧМ-2026.
-   Группы A–F определены; G–L доигрываются — отмечены как «проекция».
+   Группы A–I определены; J/K/L доигрывают — отмечены как «проекция».
    Контент двуязычный через локальный tr(ru,en). */
 
 function Flag({ cc }) {
@@ -52,27 +52,28 @@ export default function PlayoffsView() {
     { tag: 'M88 · ' + tr('готово', 'set'), locked: true, a: T('Австралия', 'Australia', 'au'), b: T('Египет · 2-е G', 'Egypt · G runner-up', 'eg') },
   ];
 
-  // Третьи места (A–F определены; G–L ещё доигрывают). Статус: safe | edge
+  // Третьи места (A–I определены; J/K/L доигрывают). Статус: safe (гарантирован) | edge (борьба за 3 последних места)
+  // Логика: 8 путёвок − 3 нераспределённые группы = 5 мест уже закреплены за лучшими известными третьими.
   const THIRDS = [
     { g: 'F', t: T('Швеция', 'Sweden', 'se'), p: 4, gd: '0', gf: 7, s: 'safe' },
     { g: 'E', t: T('Эквадор', 'Ecuador', 'ec'), p: 4, gd: '0', gf: 2, s: 'safe' },
     { g: 'B', t: T('Босния', 'Bosnia', 'ba'), p: 4, gd: '−1', gf: 5, s: 'safe' },
     { g: 'D', t: T('Парагвай', 'Paraguay', 'py'), p: 4, gd: '−2', gf: 2, s: 'safe' },
-    { g: 'I', t: T('Сенегал', 'Senegal', 'sn'), p: 3, gd: '+2', gf: 8, s: 'edge' },
+    { g: 'I', t: T('Сенегал', 'Senegal', 'sn'), p: 3, gd: '+2', gf: 8, s: 'safe' },
     { g: 'G', t: T('Иран', 'Iran', 'ir'), p: 3, gd: '0', gf: 3, s: 'edge' },
     { g: 'A', t: T('Южная Корея', 'South Korea', 'kr'), p: 3, gd: '−1', gf: 2, s: 'edge' },
     { g: 'C', t: T('Шотландия', 'Scotland', 'gb-sct'), p: 3, gd: '−3', gf: 1, s: 'edge' },
   ];
   const THIRD_VARS = [
-    [tr('Четвёрка с 4 очками — фактически прошла', 'The four on 4 points — all but through'),
-     tr('Швеция, Эквадор, Босния и Парагвай набрали по 4 очка. Третье место с четырьмя очками при формате на 48 команд почти не выбивается — считаем их в плей-офф.',
-        'Sweden, Ecuador, Bosnia and Paraguay have 4 points each. A third place on four points in a 48-team format is almost never knocked out — treat them as through.')],
-    [tr('Корея и Шотландия (по 3) — на тоненького', 'Korea and Scotland (3 each) — on a knife’s edge'),
-     tr('Они держат два последних из восьми мест, но именно за них будут биться все шесть третьих из групп G–L. Шотландия — самая хрупкая: худшая разница (−3) и всего 1 гол; почти любой третий с 3 очками её обходит.',
-        'They hold the last two of eight spots, but all six thirds from Groups G–L will fight for them. Scotland are the most fragile: the worst goal difference (−3) and just one goal — almost any 3-point third leapfrogs them.')],
-    [tr('Сколько очков нужно третьему из G–L', 'How many points a G–L third needs'),
-     tr('4 очка → гарантия прохода: выбивает сначала Шотландию, затем Корею. 3 очка → лотерея по разнице и голам (с разницей лучше −1 обходит обеих, хуже −3 — уступает даже Шотландии). 2 и меньше → почти наверняка мимо.',
-        '4 points → guaranteed: knocks out Scotland first, then Korea. 3 points → a tiebreak lottery on GD and goals (better than −1 beats both, worse than −3 loses even to Scotland). 2 or fewer → almost certainly out.')],
+    [tr('Почему пятеро уже прошли, хотя три группы не доиграны', 'Why five are already through with three groups unfinished'),
+     tr('Третьих путёвок в плей-офф восемь, а нераспределённых третьих осталось всего три — из J, K и L. Больше трёх мест новички забрать физически не могут, значит минимум пять достаются уже известным третьим. Это пятёрка сильнейших: Швеция, Эквадор, Босния, Парагвай (по 4 очка) и Сенегал (3, но разница +2 и 8 голов) — их уже не выбить, как бы ни сыграли оставшиеся группы.',
+        'There are eight knockout spots for third places, and only three thirds are still undecided — from J, K and L. Newcomers can grab at most three of them, so at least five must go to the thirds already known. That is the strongest five: Sweden, Ecuador, Bosnia, Paraguay (4 points) and Senegal (3, but +2 and 8 goals) — they can no longer be knocked out, whatever the remaining groups do.')],
+    [tr('Иран, Корея, Шотландия — за три последних места', 'Iran, Korea, Scotland — for the last three spots'),
+     tr('Эти трое (по 3 очка) держат оставшуюся тройку путёвок, но ровно за них поспорят третьи из J, K и L. По хрупкости: Шотландия самая уязвимая (разница −3, всего 1 гол), за ней Корея (−1), крепче всех Иран (0 и 3 гола). Сильный третий из J/K/L первым выбьет Шотландию.',
+        'These three (3 points each) hold the remaining three spots, but the thirds from J, K and L will contest exactly those. By fragility: Scotland is the most exposed (GD −3, just 1 goal), then Korea (−1), with Iran the sturdiest (0 and 3 goals). A strong J/K/L third knocks out Scotland first.')],
+    [tr('Сколько очков нужно третьему из J, K или L', 'How many points a J/K/L third needs'),
+     tr('4 очка → гарантия прохода: выбивает сначала Шотландию, затем Корею. 3 очка → лотерея по разнице и голам (с разницей лучше −1 обходит Корею и Шотландию, хуже −3 — уступает даже им). 2 и меньше → почти наверняка мимо.',
+        '4 points → guaranteed: knocks out Scotland first, then Korea. 3 points → a tiebreak lottery on GD and goals (better than −1 beats Korea and Scotland, worse than −3 loses even to them). 2 or fewer → almost certainly out.')],
   ];
 
   const THOUGHTS = [
@@ -125,8 +126,8 @@ export default function PlayoffsView() {
       <div className="sect"><span className="sect-label">{tr('Третьи места · гонка за 8 путёвок', 'Third places · race for 8 spots')}</span></div>
       <section className="block">
         <p className="po-intro">
-          {tr('В плей-офф проходят 8 лучших третьих мест из 12. Восемь известных третьих — из групп A–G и I; ещё три дадут J, K, L, а Уругвай (3-й в H, всего 2 очка) уже за бортом. Иран добавился третьим из группы G с нулевой разницей. Сильные третьи из J/K/L вытеснят слабейших трёхочковых — первой под ударом Шотландия, затем Корея.',
-              'The 8 best of 12 third places advance. Eight known thirds come from Groups A–G and I; three more arrive from J, K, L, while Uruguay (third in H on just 2 points) is already out. Iran joins as Group G’s third on a zero goal difference. Strong thirds from J/K/L will bump the weakest three-pointers — Scotland first in line, then Korea.')}
+          {tr('В плей-офф проходят 8 лучших третьих из 12. Девять третьих уже известны (группы A–I), не доиграны только J, K и L. А раз новых третьих максимум трое — больше трёх из восьми путёвок они занять не могут, значит пять лучших известных третьих проходят уже ГАРАНТИРОВАННО: четвёрка с 4 очками плюс Сенегал (3 очка, но разница +2 и 8 голов). Последние три места разыграют Иран, Корея и Шотландия против третьих из J/K/L. Уругвай (3-й в H, 2 очка) уже за бортом.',
+              'The 8 best of 12 third places advance. Nine thirds are already known (Groups A–I); only J, K and L are unfinished. And since at most three new thirds remain, they can take at most three of the eight spots — so the five best known thirds are ALREADY guaranteed: the four on 4 points plus Senegal (3 points, but +2 and 8 goals). The last three spots will be fought over by Iran, Korea and Scotland against the J/K/L thirds. Uruguay (third in H on 2 points) is already out.')}
         </p>
         <div className="po-thirds">
           <div className="po-th-row po-th-head">
@@ -144,7 +145,7 @@ export default function PlayoffsView() {
               <span className="po-th-st">{x.s === 'safe' ? tr('в зоне', 'in') : tr('на грани', 'on edge')}</span>
             </div>
           ))}
-          <div className="po-th-cut">{tr('↑ 8 проходят · ниже сюда впишутся третьи из G–L', '↑ 8 advance · G–L thirds slot in below')}</div>
+          <div className="po-th-cut">{tr('↑ верхние 5 уже гарантированы · за места 6–8 спорят Иран/Корея/Шотландия и третьи из J/K/L', '↑ top 5 already guaranteed · spots 6–8 contested by Iran/Korea/Scotland and the J/K/L thirds')}</div>
         </div>
         <div className="po-thoughts" style={{ marginTop: '14px' }}>
           {THIRD_VARS.map(([h, b], i) => (
