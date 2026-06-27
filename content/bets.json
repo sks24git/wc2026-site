@@ -7765,5 +7765,90 @@
       "ru": "Фирменная голевая система Паши — нужно ≥3 из 4. Все позиции ≥1.9 (правило систем). Прямой контра-тезис машинному низу.",
       "en": "Pasha's trademark goals system — needs ≥3 of 4. All legs ≥1.9 (system rule). A direct counter-thesis to the machine's low."
     }
+  },
+  {
+    "id": 269,
+    "side": "AI",
+    "date": "2026-06-27",
+    "matchId": null,
+    "type": "Система",
+    "tier": "yellow",
+    "odds": 17,
+    "stake": 1500,
+    "status": "pending",
+    "match": {
+      "ru": "Шесть зелёных — система 5/6",
+      "en": "Six greens — 5/6 system"
+    },
+    "bet": {
+      "ru": "Система 5 из 6 (зелёные ординары)",
+      "en": "5-of-6 system (green singles)"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Алжир — Австрия",
+          "en": "Algeria — Austria"
+        },
+        "p": {
+          "ru": "Обе забьют — да @1.90",
+          "en": "BTTS yes @1.90"
+        }
+      },
+      {
+        "m": {
+          "ru": "Иордания — Аргентина",
+          "en": "Jordan — Argentina"
+        },
+        "p": {
+          "ru": "Тотал меньше 3.5 @1.67",
+          "en": "Under 3.5 @1.67"
+        }
+      },
+      {
+        "m": {
+          "ru": "Колумбия — Португалия",
+          "en": "Colombia — Portugal"
+        },
+        "p": {
+          "ru": "Тотал меньше 2.5 @1.85",
+          "en": "Under 2.5 @1.85"
+        }
+      },
+      {
+        "m": {
+          "ru": "ДР Конго — Узбекистан",
+          "en": "DR Congo — Uzbekistan"
+        },
+        "p": {
+          "ru": "Тотал меньше 2.5 @1.78",
+          "en": "Under 2.5 @1.78"
+        }
+      },
+      {
+        "m": {
+          "ru": "Хорватия — Гана",
+          "en": "Croatia — Ghana"
+        },
+        "p": {
+          "ru": "Обе забьют — нет @1.60",
+          "en": "BTTS no @1.60"
+        }
+      },
+      {
+        "m": {
+          "ru": "Панама — Англия",
+          "en": "Panama — England"
+        },
+        "p": {
+          "ru": "Тотал меньше 3.5 @1.81",
+          "en": "Under 3.5 @1.81"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Система 5/6 на все шесть зелёных ординаров (прощает один промах). ⚠️ 5 из 6 позиций ниже 1.9 (против нашего правила систем) → комбинированный кэф скромный; добавлено по запросу Влада. Эфф. кэф при резолве.",
+      "en": "A 5-of-6 system over all six green singles (forgives one miss). ⚠️ 5 of 6 legs are below 1.9 (against our system-floor rule) → modest combined odds; added at Vlad's request. Effective odds on settle."
+    }
   }
 ]
