@@ -7847,5 +7847,120 @@
       "ru": "Финальный вид (поставлено на Фонбете): система 4/5. От исходной 5/6 Паша убрал ничью Алжира (она уже отдельным одинаром и в экспрессе) и заменил «оба тайма меньше 1.5» Колумбии на матчевый ТМ 2.5 (на Фонбете нет рынка обоих таймов). Нужно ≥4 из 5. ⚠️ позиция ДР Конго @1.73 ниже системного пола 1.9 — но это ставка Паши.",
       "en": "Final form (placed on Fonbet): a 4/5 system. From the original 5/6 Pasha dropped the Algeria draw (already a single and in the accumulator) and swapped Colombia's «both halves under 1.5» for a match Under 2.5 (Fonbet has no both-halves market). Needs ≥4 of 5. ⚠️ the DR Congo leg @1.73 is below the 1.9 system floor — but it's Pasha's call."
     }
+  },
+  {
+    "id": 274,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": "panama-england",
+    "type": "ТБ",
+    "tier": "green",
+    "odds": 2.03,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Панама — Англия",
+      "en": "Panama — England"
+    },
+    "bet": {
+      "ru": "1-й тайм — тотал больше 1.5",
+      "en": "1st half over 1.5"
+    },
+    "note": {
+      "ru": "Паша: Панаме нечего терять (нужен первый гол на ЧМ), автобуса не будет → Англия основой вскроет в 1-м тайме, ротация во 2-м. ⚠️ сам зовёт «самой ненадёжной ставкой дня»: недо-Англия + дождь против голов.",
+      "en": "Pasha: Panama have nothing to lose (chasing a first WC goal), so no bus → England's first XI break through in the first half, rotation after. ⚠️ he calls it «the day's least safe bet»: a weak England + rain work against goals."
+    }
+  },
+  {
+    "id": 275,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": "croatia-ghana",
+    "type": "ТМ",
+    "tier": "green",
+    "odds": 1.67,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Хорватия — Гана",
+      "en": "Croatia — Ghana"
+    },
+    "bet": {
+      "ru": "1-й тайм — тотал меньше 1.0 (под возврат)",
+      "en": "1st half under 1.0 (push-protected)"
+    },
+    "note": {
+      "ru": "Допник к ничье: примитивный ничейный футбол против топ-обороны, ничья устраивает обоих. Нулевой 1-й тайм — фирменная история хорватов; под возврат при 1 голе.",
+      "en": "An add-on to the draw: a drab stalemate against a top defence, a draw suits both. A goalless first half is a Croatia trademark; void at exactly 1 goal."
+    }
+  },
+  {
+    "id": 276,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": "colombia-portugal",
+    "type": "ТБ",
+    "tier": "green",
+    "odds": 1.66,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Колумбия — Португалия",
+      "en": "Colombia — Portugal"
+    },
+    "bet": {
+      "ru": "1-й тайм — тотал больше 1.0 (под возврат)",
+      "en": "1st half over 1.0 (push-protected)"
+    },
+    "note": {
+      "ru": "Паша ждёт 1:1, все события в 1-м тайме, а во 2-м команды встанут (открытый стадион + жара). Роналду пока мешает. Под возврат при 1 голе.",
+      "en": "Pasha expects 1-1 with the action in the first half, then both stop after the break (open stadium + heat). Ronaldo still in the way. Void at exactly 1 goal."
+    }
+  },
+  {
+    "id": 277,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": "drcongo-uzbekistan",
+    "type": "П1",
+    "tier": "green",
+    "odds": 1.74,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "ДР Конго — Узбекистан",
+      "en": "DR Congo — Uzbekistan"
+    },
+    "bet": {
+      "ru": "Победа ДР Конго",
+      "en": "DR Congo to win"
+    },
+    "note": {
+      "ru": "Паша: Узбекистан — «уродование сути мундиаля», Конго обязан побеждать ради плей-офф и заберёт легко. Тут человек и машина согласны (у AI ТМ2.5 на тот же низовой расклад).",
+      "en": "Pasha: Uzbekistan are «a travesty of the tournament», Congo must win for the knockouts and take it comfortably. Here man and machine agree (AI's Under 2.5 reads the same low)."
+    }
+  },
+  {
+    "id": 278,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": "jordan-argentina",
+    "type": "ТБ",
+    "tier": "green",
+    "odds": 1.88,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Иордания — Аргентина",
+      "en": "Jordan — Argentina"
+    },
+    "bet": {
+      "ru": "Тотал больше 3.0 (под возврат)",
+      "en": "Over 3.0 (push-protected)"
+    },
+    "note": {
+      "ru": "Паша: Аргентина решает рано (Нико Пас/Альварес в старте захотят отметиться), садиться никому не нужно (1-е и 4-е места ясны), Иордания забивает в каждом матче при дырявой обороне → ОЗ и 4+. Под возврат при ровно 3.",
+      "en": "Pasha: Argentina settle it early (Nico Paz/Álvarez will want to impress), neither needs to sit (1st and 4th are set), Jordan score in every game with a leaky defence → BTTS and 4+. Void at exactly 3."
+    }
   }
 ]
