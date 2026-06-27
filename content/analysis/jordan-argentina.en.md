@@ -16,4 +16,3 @@
 - **AI 🟢 Under 3.5 goals @1.67** — rotation + Jordan's bus + a market that doesn't expect a rout. Survives 1-0/2-0/3-0/2-1, burns only at 4+. (Lesson: reserves vs a bus ≠ a goal fest — Spain 1-0, England 0-0.)
 - **Correct-score system (TC) leg:** Argentina 0-2 (i.e. 2-0).
 - Avoid: **handicap −1.5/−2.5** (a positional favourite's reserves against a bus — against history and the market); the 1.23 win (below the floor); **player markets before the official lineup** (Messi benched — in a Fonbet system his leg is voided if he doesn't play, but as a single only after the lineup drops).
-- **Pasha:** likes an early Argentina goal and their team total — a likely head-to-head with our cautious Under.

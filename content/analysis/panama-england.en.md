@@ -15,4 +15,3 @@
 - **AI 🟢 Under 3.5 goals @1.81** — England rotate and break the bus slowly (an echo of the 0-0 vs Ghana); ≤3 goals likelier than a fest. Burns only at 4+.
 - **Correct-score system (TC) leg:** England 0-2 (i.e. 2-0).
 - Avoid: **England handicap −1.5/−2** (a positional favourite vs a bus — the direct Spain/England lesson); a high England team total (they can stall); the 1.36 win (below the floor).
-- **Pasha:** against an unmotivated Panama he may take a big England win/handicap — a head-to-head with our caution toward the bus.

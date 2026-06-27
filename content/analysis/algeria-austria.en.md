@@ -18,4 +18,3 @@
 - **AI 🟡 Algeria to win @4.30** — must-win + revenge motive + charged at a near-home crowd; a draw lulls Austria. A derivative of the same «open» scenario.
 - **Correct-score system (TC) leg:** Algeria 2-1.
 - Avoid: handicaps (the three-way is too tight), Under (both ideally need to attack).
-- **Pasha:** a goals man — here he likely also expects BTTS; a head-to-head with the machine is possible on the correct score.

@@ -15,4 +15,3 @@
 - **AI 🟢 Under 2.5 goals @1.78** — two weak attacks + a defensive favourite + an artificial surface that doesn't raise the tempo. A direct read of the low.
 - **Correct-score system (TC) leg:** DR Congo 1-0.
 - Avoid: stacking Under + BTTS-no + win-to-nil (one thesis in three wrappers — lesson); the DRC win @2.32 has value, but we keep Under as the main and route the result into the red/system.
-- **Pasha:** in a game of two toothless attacks he likely also leans low/BTTS-no — here man and machine probably agree.

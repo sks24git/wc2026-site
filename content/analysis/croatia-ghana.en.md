@@ -17,4 +17,3 @@
 - **AI 🔴 Correct score Croatia 1-0 @6.0** (approx.) — a must-win grind against a toothless Ghana, kept clean; an honest red on a score we believe in (rather than two correlated singles).
 - **Correct-score system (TC) leg — placed on another match** (to avoid duplicating Croatia 1-0).
 - Avoid: Over (Ghana don't create); fading Modrić/Croatia — they are maximally charged (must-win), and class beats motivation.
-- **Pasha:** a goals man — a likely head-to-head here; he may take BTTS-yes against our dry profile.

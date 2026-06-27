@@ -16,4 +16,3 @@
 - **AI 🟡 Draw @3.98** — a draw sends Colombia first → they park it; both saving legs for the knockouts. A derivative of the same cautious scenario.
 - **Correct-score system (TC) leg:** 1-1.
 - Avoid: a straight Portugal win (Colombia may park for the draw); handicaps.
-- **Pasha:** two technical attacks + Ronaldo — he likely expects BTTS; a head-to-head with our cautious low.
