@@ -7321,5 +7321,449 @@
         }
       }
     ]
+  },
+  {
+    "id": 253,
+    "side": "AI",
+    "date": "2026-06-27",
+    "matchId": "algeria-austria",
+    "type": "ОЗ",
+    "tier": "green",
+    "odds": 1.9,
+    "status": "pending",
+    "match": {
+      "ru": "Алжир — Австрия",
+      "en": "Algeria — Austria"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "note": {
+      "ru": "Алжиру нужна только победа → раскрывается; обе результативны в туре 2. Кэф ориентировочный (по линии). ⚠️ Контртест: «удобная ничья» + автобус Австрии.",
+      "en": "Algeria must win → they open up; both scored on MD2. Odds approximate (off the board). ⚠️ Counter-test: a «convenient draw» + Austria bus."
+    }
+  },
+  {
+    "id": 254,
+    "side": "AI",
+    "date": "2026-06-27",
+    "matchId": "jordan-argentina",
+    "type": "ТМ",
+    "tier": "green",
+    "odds": 1.67,
+    "status": "pending",
+    "match": {
+      "ru": "Иордания — Аргентина",
+      "en": "Jordan — Argentina"
+    },
+    "bet": {
+      "ru": "Тотал меньше 3.5",
+      "en": "Under 3.5 goals"
+    },
+    "note": {
+      "ru": "Ротация (Месси на лавке) + автобус Иордании; рынок не ждёт разгрома. Горит только на 4+.",
+      "en": "Rotation (Messi benched) + Jordan's bus; the market expects no rout. Burns only at 4+."
+    }
+  },
+  {
+    "id": 255,
+    "side": "AI",
+    "date": "2026-06-27",
+    "matchId": "colombia-portugal",
+    "type": "ТМ",
+    "tier": "green",
+    "odds": 1.85,
+    "status": "pending",
+    "match": {
+      "ru": "Колумбия — Португалия",
+      "en": "Colombia — Portugal"
+    },
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5 goals"
+    },
+    "note": {
+      "ru": "Обе через, Колумбию ничья выводит первой → осторожный матч. Кэф ориентировочный. ⚠️ Контртест: обе хотят 1-е ради лёгкой половины.",
+      "en": "Both through, a draw sends Colombia first → a cautious game. Odds approximate. ⚠️ Counter-test: both want first for the easier half."
+    }
+  },
+  {
+    "id": 256,
+    "side": "AI",
+    "date": "2026-06-27",
+    "matchId": "drcongo-uzbekistan",
+    "type": "ТМ",
+    "tier": "green",
+    "odds": 1.78,
+    "status": "pending",
+    "match": {
+      "ru": "ДР Конго — Узбекистан",
+      "en": "DR Congo — Uzbekistan"
+    },
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5 goals"
+    },
+    "note": {
+      "ru": "Две слабые атаки + оборонительный фаворит + искусственный газон. Суммарный xG ~2.0–2.2.",
+      "en": "Two weak attacks + a defensive favourite + artificial turf. Combined xG ~2.0–2.2."
+    }
+  },
+  {
+    "id": 257,
+    "side": "AI",
+    "date": "2026-06-27",
+    "matchId": "croatia-ghana",
+    "type": "ОЗ",
+    "tier": "green",
+    "odds": 1.6,
+    "status": "pending",
+    "match": {
+      "ru": "Хорватия — Гана",
+      "en": "Croatia — Ghana"
+    },
+    "bet": {
+      "ru": "Обе забьют — нет",
+      "en": "Both teams to score — no"
+    },
+    "note": {
+      "ru": "Гана без Кудуса и Салису (вне турнира), 1 гол за 2 матча, садится в блок → не забьёт; Хорватия гол найдёт. Кэф ориентировочный.",
+      "en": "Ghana without Kudus and Salisu (out of the tournament), 1 goal in 2 games, sit deep → won't score; Croatia will find one. Odds approximate."
+    }
+  },
+  {
+    "id": 258,
+    "side": "AI",
+    "date": "2026-06-27",
+    "matchId": "panama-england",
+    "type": "ТМ",
+    "tier": "green",
+    "odds": 1.81,
+    "status": "pending",
+    "match": {
+      "ru": "Панама — Англия",
+      "en": "Panama — England"
+    },
+    "bet": {
+      "ru": "Тотал меньше 3.5",
+      "en": "Under 3.5 goals"
+    },
+    "note": {
+      "ru": "Англия ротирует и медленно вскрывает автобус (эхо 0:0 с Ганой); ≤3 голов вероятнее феерии.",
+      "en": "England rotate and break the bus slowly (echo of the 0-0 vs Ghana); ≤3 goals likelier than a fest."
+    }
+  },
+  {
+    "id": 259,
+    "side": "AI",
+    "date": "2026-06-27",
+    "matchId": "algeria-austria",
+    "type": "П1",
+    "tier": "yellow",
+    "odds": 4.3,
+    "status": "pending",
+    "match": {
+      "ru": "Алжир — Австрия",
+      "en": "Algeria — Austria"
+    },
+    "bet": {
+      "ru": "Победа Алжира",
+      "en": "Algeria to win"
+    },
+    "note": {
+      "ru": "Must-win + мотив реванша за Хихон-1982; Австрию ничья расхолаживает. Производная «открытого» сценария.",
+      "en": "Must-win + revenge motive for Gijón 1982; a draw lulls Austria. A derivative of the «open» scenario."
+    }
+  },
+  {
+    "id": 260,
+    "side": "AI",
+    "date": "2026-06-27",
+    "matchId": "colombia-portugal",
+    "type": "Х",
+    "tier": "yellow",
+    "odds": 3.98,
+    "status": "pending",
+    "match": {
+      "ru": "Колумбия — Португалия",
+      "en": "Colombia — Portugal"
+    },
+    "bet": {
+      "ru": "Ничья",
+      "en": "Draw"
+    },
+    "note": {
+      "ru": "Колумбию ничья выводит первой → паркуется; обе берегут силы. Производная того же осторожного низа.",
+      "en": "A draw sends Colombia first → they park it; both save legs. A derivative of the same cautious low."
+    }
+  },
+  {
+    "id": 261,
+    "side": "AI",
+    "date": "2026-06-27",
+    "matchId": "croatia-ghana",
+    "type": "ТС",
+    "tier": "red",
+    "odds": 6,
+    "status": "pending",
+    "match": {
+      "ru": "Хорватия — Гана",
+      "en": "Croatia — Ghana"
+    },
+    "bet": {
+      "ru": "Точный счёт 1:0 (Хорватия)",
+      "en": "Correct score 1-0 (Croatia)"
+    },
+    "note": {
+      "ru": "Must-win-грайнд при беззубой Гане всухую. Честная красная на счёт, в который верим (а не два коррелированных ординара). Кэф ориентировочный.",
+      "en": "A must-win grind, Ghana kept scoreless. An honest red on a score we believe in (not two correlated singles). Odds approximate."
+    }
+  },
+  {
+    "id": 262,
+    "side": "AI",
+    "date": "2026-06-27",
+    "matchId": null,
+    "type": "Система",
+    "tier": "red",
+    "odds": 13,
+    "stake": 500,
+    "status": "pending",
+    "match": {
+      "ru": "Точные счета — система 2/4",
+      "en": "Correct scores — 2/4 system"
+    },
+    "bet": {
+      "ru": "Система ТС 2 из 4",
+      "en": "Correct-score 2/4 system"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "ДР Конго — Узбекистан",
+          "en": "DR Congo — Uzbekistan"
+        },
+        "p": {
+          "ru": "1:0 @5.5",
+          "en": "1-0 @5.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Иордания — Аргентина",
+          "en": "Jordan — Argentina"
+        },
+        "p": {
+          "ru": "0:2 @6.0",
+          "en": "0-2 @6.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Колумбия — Португалия",
+          "en": "Colombia — Portugal"
+        },
+        "p": {
+          "ru": "1:1 @7.0",
+          "en": "1-1 @7.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Алжир — Австрия",
+          "en": "Algeria — Austria"
+        },
+        "p": {
+          "ru": "2:1 @9.0",
+          "en": "2-1 @9.0"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Постоянка: система точных счетов 2/4 (нужно ≥2 из 4). Узкие коридоры по типу матчей: грайнд-1:0, контролируемая 2:0, осторожная ничья, открытый Алжир. Эфф. кэф при резолве. Кэфы ориентировочные.",
+      "en": "A staple: a 2-of-4 correct-score system. Tight corridors by match type: a 1-0 grind, a controlled 2-0, a cautious draw, an open Algeria. Effective odds on settle. Odds approximate."
+    }
+  },
+  {
+    "id": 263,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": "croatia-ghana",
+    "type": "ОЗ",
+    "tier": "green",
+    "odds": 2.3,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Хорватия — Гана",
+      "en": "Croatia — Ghana"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "note": {
+      "ru": "Паша против машины: верит, что раскрытая Хорватия потечёт сзади, а Гана огрызнётся. Очный нерв тура.",
+      "en": "Pasha against the machine: backs an opened-up Croatia to leak and Ghana to bite. The round's head-to-head."
+    }
+  },
+  {
+    "id": 264,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": "colombia-portugal",
+    "type": "ОЗ",
+    "tier": "green",
+    "odds": 1.9,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Колумбия — Португалия",
+      "en": "Colombia — Portugal"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "note": {
+      "ru": "Две техничные атаки + Роналду: Паша ждёт голы там, где машина читает осторожный низ.",
+      "en": "Two technical attacks + Ronaldo: Pasha expects goals where the machine reads a cautious low."
+    }
+  },
+  {
+    "id": 265,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": "jordan-argentina",
+    "type": "ИТ",
+    "tier": "green",
+    "odds": 1.85,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Иордания — Аргентина",
+      "en": "Jordan — Argentina"
+    },
+    "bet": {
+      "ru": "ИТ Аргентины больше 1.5",
+      "en": "Argentina team total over 1.5"
+    },
+    "note": {
+      "ru": "Паша верит, что даже резерв Аргентины забьёт автобусу два — против нашего осторожного ТМ.",
+      "en": "Pasha trusts even Argentina's reserves to score twice against the bus — against our cautious Under."
+    }
+  },
+  {
+    "id": 266,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": "algeria-austria",
+    "type": "ТБ",
+    "tier": "green",
+    "odds": 2,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Алжир — Австрия",
+      "en": "Algeria — Austria"
+    },
+    "bet": {
+      "ru": "Тотал больше 2.5",
+      "en": "Over 2.5 goals"
+    },
+    "note": {
+      "ru": "Алжиру нужно гнать, Австрия отвечает — Паша ждёт открытый матч и три мяча.",
+      "en": "Algeria must push, Austria respond — Pasha expects an open game and three goals."
+    }
+  },
+  {
+    "id": 267,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": "jordan-argentina",
+    "type": "ТС",
+    "tier": "red",
+    "odds": 9,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Иордания — Аргентина",
+      "en": "Jordan — Argentina"
+    },
+    "bet": {
+      "ru": "Точный счёт 0:3 (Аргентина)",
+      "en": "Correct score 0-3 (Argentina)"
+    },
+    "note": {
+      "ru": "Азарт Паши: верит, что Аргентина и резервом грохнет дебютанта. Кэф ориентировочный.",
+      "en": "Pasha's gamble: backs Argentina to hammer the debutants even with reserves. Odds approximate."
+    }
+  },
+  {
+    "id": 268,
+    "side": "Паша",
+    "date": "2026-06-27",
+    "matchId": null,
+    "type": "Система",
+    "tier": "red",
+    "odds": 18,
+    "stake": 500,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Голевая система 3/4",
+      "en": "Goals system 3/4"
+    },
+    "bet": {
+      "ru": "Система 3 из 4 (голы)",
+      "en": "3-of-4 system (goals)"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Хорватия — Гана",
+          "en": "Croatia — Ghana"
+        },
+        "p": {
+          "ru": "Обе забьют — да @2.30",
+          "en": "BTTS yes @2.30"
+        }
+      },
+      {
+        "m": {
+          "ru": "Колумбия — Португалия",
+          "en": "Colombia — Portugal"
+        },
+        "p": {
+          "ru": "Обе забьют — да @1.90",
+          "en": "BTTS yes @1.90"
+        }
+      },
+      {
+        "m": {
+          "ru": "Алжир — Австрия",
+          "en": "Algeria — Austria"
+        },
+        "p": {
+          "ru": "Тотал больше 2.5 @2.00",
+          "en": "Over 2.5 @2.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Иордания — Аргентина",
+          "en": "Jordan — Argentina"
+        },
+        "p": {
+          "ru": "Обе забьют — да @3.50",
+          "en": "BTTS yes @3.50"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Фирменная голевая система Паши — нужно ≥3 из 4. Все позиции ≥1.9 (правило систем). Прямой контра-тезис машинному низу.",
+      "en": "Pasha's trademark goals system — needs ≥3 of 4. All legs ≥1.9 (system rule). A direct counter-thesis to the machine's low."
+    }
   }
 ]

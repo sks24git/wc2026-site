@@ -1926,5 +1926,185 @@
       "ru": "Бельгия на грани вылета: гранд с одним голом за два матча обязан обыгрывать Новую Зеландию, иначе домой. Лукаку наконец выходит в старте — чинить атаку. Но Новая Зеландия забивала в каждом матче, а оборона Бельгии немолода.",
       "en": "Belgium are on the brink: a heavyweight with one goal in two games must beat New Zealand or go home. Lukaku finally starts to fix the attack. But New Zealand have scored in every game, and Belgium's defence is ageing."
     }
+  },
+  {
+    "id": "croatia-ghana",
+    "date": "2026-06-27",
+    "timeMsk": "00:00",
+    "cc": [
+      "hr",
+      "gh"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Хорватия — Гана",
+      "en": "Croatia — Ghana"
+    },
+    "stage": {
+      "ru": "Группа L · 3-й тур",
+      "en": "Group L · Matchday 3"
+    },
+    "venue": {
+      "ru": "Lincoln Financial Field, Филадельфия",
+      "en": "Lincoln Financial Field, Philadelphia"
+    },
+    "weather": {
+      "ru": "Открытый стадион, тёплый летний вечер",
+      "en": "Open-air, warm summer evening"
+    },
+    "lede": {
+      "ru": "Хорватии нужна только победа, Гане хватает ничьей — и Гана выйдет без обеих своих звёзд, Кудуса и Салису (травмы, вне турнира). Модрич в 40 лет тянет последний шанс.",
+      "en": "Croatia must win; a draw is enough for Ghana — who take the field without both their stars, Kudus and Salisu (injured, out of the tournament). Modrić, at 40, chases one last shot."
+    }
+  },
+  {
+    "id": "panama-england",
+    "date": "2026-06-27",
+    "timeMsk": "00:00",
+    "cc": [
+      "pa",
+      "gb-eng"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Панама — Англия",
+      "en": "Panama — England"
+    },
+    "stage": {
+      "ru": "Группа L · 3-й тур",
+      "en": "Group L · Matchday 3"
+    },
+    "venue": {
+      "ru": "MetLife Stadium, Ист-Резерфорд",
+      "en": "MetLife Stadium, East Rutherford"
+    },
+    "weather": {
+      "ru": "Открытый стадион, ~19°C вечером, лёгкий риск дождя",
+      "en": "Open-air, ~19°C in the evening, slight rain risk"
+    },
+    "lede": {
+      "ru": "Англии нужна победа за 1-е место — иначе по сетке сразу на Испанию. Но Панама за два матча сама не забила ни разу и садится в плотный автобус, а Англия уже застряла на таком блоке против Ганы (0:0).",
+      "en": "England need a win for top spot — otherwise it's Spain straight away. But Panama have not scored once in two games and sit in a tight block, and England already got stuck against exactly this kind of wall versus Ghana (0:0)."
+    }
+  },
+  {
+    "id": "colombia-portugal",
+    "date": "2026-06-27",
+    "timeMsk": "02:30",
+    "cc": [
+      "co",
+      "pt"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Колумбия — Португалия",
+      "en": "Colombia — Portugal"
+    },
+    "stage": {
+      "ru": "Группа K · 3-й тур",
+      "en": "Group K · Matchday 3"
+    },
+    "venue": {
+      "ru": "Hard Rock Stadium, Майами",
+      "en": "Hard Rock Stadium, Miami"
+    },
+    "weather": {
+      "ru": "Открытое поле под навесом, жарко и влажно",
+      "en": "Open field under a canopy, hot and humid"
+    },
+    "lede": {
+      "ru": "Обе уже в плей-офф — спор только за 1-е место, почти 50 на 50. Колумбию ничья выводит первой, Португалии нужна победа; Роналду — в старте, без отдыха.",
+      "en": "Both already through — this is only about top spot, near 50/50. A draw sends Colombia first; Portugal need to win; Ronaldo starts, no rest."
+    }
+  },
+  {
+    "id": "drcongo-uzbekistan",
+    "date": "2026-06-27",
+    "timeMsk": "02:30",
+    "cc": [
+      "cd",
+      "uz"
+    ],
+    "result": null,
+    "title": {
+      "ru": "ДР Конго — Узбекистан",
+      "en": "DR Congo — Uzbekistan"
+    },
+    "stage": {
+      "ru": "Группа K · 3-й тур",
+      "en": "Group K · Matchday 3"
+    },
+    "venue": {
+      "ru": "Mercedes-Benz Stadium, Атланта",
+      "en": "Mercedes-Benz Stadium, Atlanta"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, искусственный газон — погода не фактор",
+      "en": "Roof closed, artificial turf — weather a non-factor"
+    },
+    "lede": {
+      "ru": "ДР Конго победой берёт 4 очка и реально влезает в восьмёрку лучших третьих; Узбекистан с разницей −7 уже почти вне игры. Две слабые атаки, лучшая оборона группы — у Конго.",
+      "en": "A win gives DR Congo 4 points and a real shot at the eight best third places; Uzbekistan, at −7, are all but out. Two weak attacks, with Congo holding the group's best defence."
+    }
+  },
+  {
+    "id": "algeria-austria",
+    "date": "2026-06-27",
+    "timeMsk": "05:00",
+    "cc": [
+      "dz",
+      "at"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Алжир — Австрия",
+      "en": "Algeria — Austria"
+    },
+    "stage": {
+      "ru": "Группа J · 3-й тур",
+      "en": "Group J · Matchday 3"
+    },
+    "venue": {
+      "ru": "Arrowhead Stadium, Канзас-Сити",
+      "en": "Arrowhead Stadium, Kansas City"
+    },
+    "weather": {
+      "ru": "Открытый стадион, жаркий вечер",
+      "en": "Open-air, hot evening"
+    },
+    "lede": {
+      "ru": "Прямой спор за 2-е место: Алжиру нужна только победа — ничья выводит Австрию по разнице, и Австрию это устраивает. С привкусом истории: единственная их встреча — 1982 год, «Хихонский сговор», где вылетел именно Алжир.",
+      "en": "A straight shoot-out for second: Algeria must win — a draw sends Austria through on goal difference, and that suits Austria. With a whiff of history: their only meeting was the 1982 «Disgrace of Gijón», where Algeria were the ones knocked out."
+    }
+  },
+  {
+    "id": "jordan-argentina",
+    "date": "2026-06-27",
+    "timeMsk": "05:00",
+    "cc": [
+      "jo",
+      "ar"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Иордания — Аргентина",
+      "en": "Jordan — Argentina"
+    },
+    "stage": {
+      "ru": "Группа J · 3-й тур",
+      "en": "Group J · Matchday 3"
+    },
+    "venue": {
+      "ru": "AT&T Stadium, Арлингтон",
+      "en": "AT&T Stadium, Arlington"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, климат-контроль",
+      "en": "Roof closed, climate-controlled"
+    },
+    "lede": {
+      "ru": "Аргентина уже выиграла группу, Иордания вылетела — вся интрига в ротации Скалони: Месси садится на лавку, лидеры отдыхают перед плей-офф. Месси при этом гонится за «Золотой бутсой» (5 голов).",
+      "en": "Argentina have already won the group, Jordan are out — the intrigue is all in Scaloni's rotation: Messi starts on the bench, leaders rested before the knockouts. Messi still chases the Golden Boot (5 goals)."
+    }
   }
 ]
