@@ -78,7 +78,7 @@ export default function PlayoffsView() {
       { m: 'M97', r16: [
         { m: 'M89', ties: [
           tie('M74', true, T('Германия', 'Germany', 'de'), T('Парагвай', 'Paraguay', 'py')),
-          tie('M77', true, T('Франция · 1-е I', 'France · I winner', 'fr'), T('Швеция', 'Sweden', 'se')),
+          tie('M77', true, T('Франция', 'France', 'fr'), T('Швеция', 'Sweden', 'se')),
         ] },
         { m: 'M90', ties: [
           tie('M73', true, T('ЮАР', 'South Africa', 'za'), T('Канада', 'Canada', 'ca')),
@@ -88,11 +88,11 @@ export default function PlayoffsView() {
       { m: 'M98', r16: [
         { m: 'M93', ties: [
           tie('M83', false, T('2-е K', 'K runner-up'), T('2-е L', 'L runner-up')),
-          tie('M84', false, T('Испания · 1-е H', 'Spain · H winner', 'es'), T('2-е J', 'J runner-up')),
+          tie('M84', false, T('Испания', 'Spain', 'es'), T('2-е J', 'J runner-up')),
         ] },
         { m: 'M94', ties: [
           tie('M81', true, T('США', 'USA', 'us'), T('Босния', 'Bosnia', 'ba')),
-          tie('M82', false, T('Бельгия · 1-е G', 'Belgium · G winner', 'be'), THIRD),
+          tie('M82', false, T('Бельгия', 'Belgium', 'be'), THIRD),
         ] },
       ] },
     ],
@@ -105,7 +105,7 @@ export default function PlayoffsView() {
       { m: 'M99', r16: [
         { m: 'M91', ties: [
           tie('M76', true, T('Бразилия', 'Brazil', 'br'), T('Япония', 'Japan', 'jp')),
-          tie('M78', true, T('Кот-д’Ивуар', 'Côte d’Ivoire', 'ci'), T('Норвегия · 2-е I', 'Norway · I runner-up', 'no')),
+          tie('M78', true, T('Кот-д’Ивуар', 'Côte d’Ivoire', 'ci'), T('Норвегия', 'Norway', 'no')),
         ] },
         { m: 'M92', ties: [
           tie('M79', false, T('Мексика', 'Mexico', 'mx'), THIRD),
@@ -114,8 +114,8 @@ export default function PlayoffsView() {
       ] },
       { m: 'M100', r16: [
         { m: 'M95', ties: [
-          tie('M86', true, T('Аргентина · 1-е J', 'Argentina · J winner', 'ar'), T('Кабо-Верде · 2-е H', 'Cape Verde · H runner-up', 'cv')),
-          tie('M88', true, T('Австралия', 'Australia', 'au'), T('Египет · 2-е G', 'Egypt · G runner-up', 'eg')),
+          tie('M86', true, T('Аргентина', 'Argentina', 'ar'), T('Кабо-Верде', 'Cape Verde', 'cv')),
+          tie('M88', true, T('Австралия', 'Australia', 'au'), T('Египет', 'Egypt', 'eg')),
         ] },
         { m: 'M96', ties: [
           tie('M85', false, T('Швейцария', 'Switzerland', 'ch'), THIRD),
