@@ -50,22 +50,22 @@ export default function PlayoffsView() {
     M89: P(T('Германия', 'Germany', 'de'), T('Франция', 'France', 'fr'), 'b', '1:2', 'reg', 'medium'),
     M90: P(T('Канада', 'Canada', 'ca'), T('Нидерланды', 'Netherlands', 'nl'), 'b', '1:2', 'reg', 'medium'),
     M93: P(T('Португалия', 'Portugal', 'pt'), T('Испания', 'Spain', 'es'), 'b', '1:2', 'reg', 'medium'),
-    M94: P(T('США', 'USA', 'us'), T('Бельгия', 'Belgium', 'be'), 'b', '1:1 (2:4 пен)', 'pen', 'tossup'),
+    M94: P(T('США', 'USA', 'us'), T('Бельгия', 'Belgium', 'be'), 'b', '1:2 (доп. время)', 'aet', 'medium'),
     M91: P(T('Бразилия', 'Brazil', 'br'), T('Норвегия', 'Norway', 'no'), 'a', '2:1', 'reg', 'medium'),
     M92: P(T('Мексика', 'Mexico', 'mx'), T('Англия', 'England', 'gb-eng'), 'b', '1:1 (2:4 пен)', 'pen', 'tossup'),
     M95: P(T('Аргентина', 'Argentina', 'ar'), T('Египет', 'Egypt', 'eg'), 'a', '2:0', 'reg', 'high'),
     M96: P(T('Швейцария', 'Switzerland', 'ch'), T('Колумбия', 'Colombia', 'co'), 'b', '1:1 (3:4 пен)', 'pen', 'tossup'),
     // ── 1/4 ──
     M97: P(T('Франция', 'France', 'fr'), T('Нидерланды', 'Netherlands', 'nl'), 'a', '2:1', 'reg', 'medium'),
-    M98: P(T('Испания', 'Spain', 'es'), T('Бельгия', 'Belgium', 'be'), 'a', '2:1', 'reg', 'medium'),
-    M99: P(T('Бразилия', 'Brazil', 'br'), T('Англия', 'England', 'gb-eng'), 'a', '1:1 (4:3 пен)', 'pen', 'tossup'),
+    M98: P(T('Испания', 'Spain', 'es'), T('Бельгия', 'Belgium', 'be'), 'a', '1:0', 'reg', 'medium'),
+    M99: P(T('Бразилия', 'Brazil', 'br'), T('Англия', 'England', 'gb-eng'), 'b', '1:1 (3:4 пен)', 'pen', 'tossup'),
     M100: P(T('Аргентина', 'Argentina', 'ar'), T('Колумбия', 'Colombia', 'co'), 'a', '2:1', 'reg', 'medium'),
     // ── 1/2 ──
     M101: P(T('Франция', 'France', 'fr'), T('Испания', 'Spain', 'es'), 'b', '1:1 (3:4 пен)', 'pen', 'tossup'),
-    M102: P(T('Бразилия', 'Brazil', 'br'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:1 (2:4 пен)', 'pen', 'tossup'),
+    M102: P(T('Англия', 'England', 'gb-eng'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:2 (доп. время)', 'aet', 'medium'),
     // ── Финал + 3-е место ──
     M104: P(T('Испания', 'Spain', 'es'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:1 (3:4 пен)', 'pen', 'tossup'),
-    M103: P(T('Франция', 'France', 'fr'), T('Бразилия', 'Brazil', 'br'), 'a', '1:1 (4:3 пен)', 'pen', 'tossup'),
+    M103: P(T('Франция', 'France', 'fr'), T('Англия', 'England', 'gb-eng'), 'a', '2:1', 'reg', 'medium'),
   };
 
   // META[code] = дата+время (МСК), значок арены и погода.
@@ -179,14 +179,14 @@ export default function PlayoffsView() {
 
   const THOUGHTS = [
     [tr('Прогноз AI: чемпион — Аргентина', 'AI forecast: champion — Argentina'),
-     tr('Машина ведёт Аргентину через Кабо-Верде, Египет и Колумбию, затем суперкласико с Бразилией в 1/2 и финал с Испанией — оба по пенальти. Решающий фактор поздней стадии — Дибу Мартинес и опыт серий: в нашем прогнозе Аргентина выигрывает обе серии (4:2 и 4:3) и берёт титул.',
-        'The model takes Argentina through Cape Verde, Egypt and Colombia, then a Superclásico with Brazil in the semis and a final against Spain — both on penalties. The late-stage swing factor is Dibu Martínez and shootout pedigree: in our forecast Argentina win both shootouts (4-2 and 4-3) and lift the trophy.')],
-    [tr('Пенальти решают концовку', 'Penalties decide the business end'),
-     tr('Чем дальше — тем плотнее: начиная с 1/4 половина матчей у нас уходит в серию (Бразилия–Англия, оба полуфинала, финал и матч за 3-е). Топ-обороны гасят друг друга до 1:1, и преимущество получает тот, у кого крепче нервы и вратарь у точки.',
-        'The deeper it goes, the tighter it gets: from the quarters on, half of our ties go to shootouts (Brazil–England, both semis, the final and the third-place game). Top defences cancel out at 1-1, and the edge goes to whoever has the steadier nerve and keeper.')],
+     tr('Машина ведёт Аргентину через Кабо-Верде, Египет и Колумбию, в 1/2 — на Англию (та выбивает Бразилию), и финал с Испанией. Ключ поздней стадии — Дибу Мартинес и опыт: Англию Аргентина дожимает в доп. время, а финал с Испанией берёт в серии пенальти. По Elo-моделям Аргентина — №1; Opta фаворитом считает Испанию.',
+        'The model takes Argentina through Cape Verde, Egypt and Colombia, then England in the semis (who knock Brazil out) and a final against Spain. The late-stage key is Dibu Martínez and big-game nous: Argentina edge England in extra time, then beat Spain in the final on penalties. Elo models rank Argentina #1; Opta makes Spain the favourite.')],
+    [tr('Пенальти и доп. время — по статистике', 'Penalties and extra time — calibrated'),
+     tr('Число серий откалибровали под статистику и линии буков: ≈6 серий пенальти на 32 матча (1/4 Англия–Бразилия, полуфинал Франция–Испания, финал) плюс несколько концовок в доп. время. Второй полуфинал и матч за 3-е решаются в игре. Серия — почти монетка: решают вратарь и нервы.',
+        'We calibrated the number of shootouts to history and the bookmaker lines: ≈6 penalty shootouts across 32 ties (the England–Brazil quarter, the France–Spain semi, the final) plus a few extra-time finishes. The other semi and the third-place game are settled in play. A shootout is near a coin-flip — keeper and nerve decide.')],
     [tr('Сенсации по версии AI', 'Upsets per the model'),
-     tr('Германия вылетает уже в 1/8 от Франции; Норвегия Холанда проходит Кот-д’Ивуар, но застревает на Бразилии; США дома доходят до 1/8 и падают Бельгии по пенальти; Колумбия снимает Швейцарию в серии и выходит на Аргентину.',
-        'Germany go out in the round of 16 to France; Haaland’s Norway see off Côte d’Ivoire but stall against Brazil; the USA reach the round of 16 at home and fall to Belgium on penalties; Colombia knock out Switzerland in a shootout and run into Argentina.')],
+     tr('Германия вылетает в 1/8 от Франции; Бразилия — в 1/4 от Англии (с этим согласны и Opta, и ChatGPT, и история «Бразилия горит в сериях»); Норвегия проходит Кот-д’Ивуар, но застревает на Бразилии в 1/8; США доходят до 1/8 и падают Бельгии в доп. время; Колумбия снимает Швейцарию в серии и выходит на Аргентину.',
+        'Germany go out in the round of 16 to France; Brazil fall in the quarters to England (Opta, ChatGPT and the «Brazil chokes shootouts» history all agree); Haaland’s Norway see off Côte d’Ivoire but stall against Brazil in the round of 16; the USA reach the round of 16 and lose to Belgium in extra time; Colombia knock out Switzerland in a shootout and run into Argentina.')],
     [tr('Две половины — два мира', 'Two halves, two worlds'),
      tr('Нижняя половина — мясорубка: Бразилия, Аргентина, Англия, Колумбия. Верхняя мягче: Франция, Испания, Нидерланды, США. Поэтому наш финал — победитель верхней (Испания) против выжившего из нижней (Аргентина).',
         'The bottom half is a mincer: Brazil, Argentina, England, Colombia. The top half is kinder: France, Spain, Netherlands, USA. Hence our final — the top-half winner (Spain) against the bottom-half survivor (Argentina).')],
@@ -200,12 +200,12 @@ export default function PlayoffsView() {
     [tr('🔴 Испания в финале — самый хрупкий «уверенный» узел', '🔴 Spain in the final — the most fragile «confident» node'),
      tr('Профиль стерильного владения без вертикали — ровно тот, что вылетел в 2018 (Россия) и 2022 (Марокко) от плотного блока и пенальти. Мы ведём Испанию в финал — исторически это красная зона.',
         'A sterile-possession profile with no vertical thrust — exactly what went out in 2018 (Russia) and 2022 (Morocco) to a deep block and penalties. We have Spain reaching the final — historically a red zone.')],
-    [tr('🔴 Бразилия проходит Англию по пенальти', '🔴 Brazil beats England on penalties'),
-     tr('Против фирменного паттерна Бразилии: в 2018 (Бельгия) и 2022 (Хорватия) она не дожимала и горела фаворитом в серии. По истории тут скорее проходит Англия — наш самый спорный узел.',
-        'Against Brazil’s signature pattern: in 2018 (Belgium) and 2022 (Croatia) they failed to finish games and lost shootouts as favourites. History leans England here — our shakiest node.')],
-    [tr('🟡 Семь серий пенальти — это монетки', '🟡 Seven shootouts — coin-flips'),
-     tr('С 1/4 половина пар уходит в серию. Реалистично 1–3 лягут иначе и сдвинут полуфиналистов и чемпиона. «Класс в серии» не гарантирует ничего — Дибу, Ливакович, Буну решали вопреки классу.',
-        'From the quarters on, half the ties go to shootouts. Realistically 1–3 land differently and shift the semifinalists and the champion. «Class in a shootout» guarantees nothing — Dibu, Livaković, Bono decided games against the odds.')],
+    [tr('🟡 Чемпион-Аргентина — против Opta', '🟡 Champion Argentina — against Opta'),
+     tr('Наш чемпион совпал с Elo-моделями (там Аргентина №1), но Opta и рынок фаворитом считают Испанию/Францию — Аргентина лишь 4-я (~10%). ChatGPT даёт ту же финальную пару, но победителем — Испанию. Титул Аргентины — ставка на Elo-семью и фактор Дибу, а не на консенсус.',
+        'Our champion matches the Elo models (Argentina #1 there), but Opta and the market favour Spain/France — Argentina only 4th (~10%). ChatGPT has the same final but with Spain winning. An Argentina title backs the Elo family and the Dibu factor, not the consensus.')],
+    [tr('🟡 Шесть серий пенальти — это монетки', '🟡 Six shootouts — coin-flips'),
+     tr('После калибровки у нас ≈6 серий (под линию буков 5.5). Но даже шесть монеток означают: 1–2 лягут иначе и сдвинут полуфиналистов или чемпиона. «Класс в серии» не гарантирует ничего — Дибу, Ливакович, Буну решали вопреки классу.',
+        'After calibration we have ≈6 shootouts (matching the bookmaker line of 5.5). But even six coin-flips mean 1–2 land differently and shift the semifinalists or the champion. «Class in a shootout» guarantees nothing — Dibu, Livaković, Bono decided games against the odds.')],
     [tr('🟡 Мексика на Ацтеке — высота + хозяева', '🟡 Mexico at the Azteca — altitude + hosts'),
      tr('Наш пик «Англия по пенальти в Мехико» идёт против 2200 м и фактора поля. Хозяин под грузом нации хрупок (Бразилия-2014), но высота и трибуны — реальный бамп Мексике.',
         'Our pick «England on penalties in Mexico City» runs against 2,200 m and home advantage. A host under the weight of a nation is fragile (Brazil-2014), but altitude and the crowd are a real bump for Mexico.')],
@@ -286,8 +286,8 @@ export default function PlayoffsView() {
       <div className="sect"><span className="sect-label">{tr('Подводные камни · уроки прошлых ЧМ', 'Pitfalls · lessons from past World Cups')}</span></div>
       <section className="block po-thoughts">
         <p className="po-intro" style={{ marginTop: 0 }}>
-          {tr('Прогноз честно «по фаворитам», но история апсетов трёх последних ЧМ говорит: минимум один топ вылетит раньше, а поздняя стадия — серия монеток. Пики мы СОЗНАТЕЛЬНО не флипали (менять монетку на монетку — это чейз), но пометили на сетке метками «50/50» и «слабо», где именно тонко. Вот главные узлы риска.',
-              'The forecast is honestly «chalk», but the upset history of the last three World Cups says at least one top side goes early, and the late stages are a run of coin-flips. We deliberately did NOT flip picks (swapping one coin-face for another is chasing), but tagged the bracket with «50/50» and «soft» where it is thin. Here are the main risk nodes.')}
+          {tr('Прогноз честно «по фаворитам». Один узел флипнули по согласию моделей и истории — Бразилию в 1/4 убрала Англия. Остальные монетки оставили модально (метки «50/50»/«слабо»), а число серий пенальти откалибровали под статистику. Вот где сетка всё ещё тоньше всего.',
+              'The forecast is honestly «chalk». We flipped one node on the agreement of the models and history — England knock Brazil out in the quarters. The other coin-flips stay modal (tagged «50/50»/«soft»), and we calibrated the number of shootouts to the stats. Here is where the bracket is still thinnest.')}
         </p>
         {RISKS.map(([h, b], i) => (
           <div key={i} className="po-thought">
