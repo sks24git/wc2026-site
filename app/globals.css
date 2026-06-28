@@ -104,6 +104,12 @@ main{max-width:1080px;margin:0 auto;padding:6px var(--pad) 96px}
 /* ── Главная: мобиле — колонка (батл → карты → матчи → факты → ЛЕНТА); десктоп — контент слева, липкая лента-сайдбар справа ── */
 .home-grid{display:flex;flex-direction:column}
 .g-rail{margin-top:6px}
+.home-promo{display:block;margin:12px 0 2px;padding:13px 16px;border:1px solid var(--hair);border-left:3px solid var(--ai);border-radius:12px;background:var(--card);text-decoration:none;color:var(--ink);transition:box-shadow .15s ease,transform .15s ease}
+.home-promo:hover{box-shadow:0 6px 20px rgba(16,20,26,.08);transform:translateY(-1px)}
+.home-promo .hp-title{font-size:14.5px;font-weight:800;letter-spacing:-.01em;margin-bottom:3px}
+.home-promo .hp-sub{font-size:13px;color:var(--muted);line-height:1.5}
+.home-promo .hp-sub b{font-weight:800;color:var(--ink)}
+.home-promo .hp-cta{color:var(--ai);font-weight:700;white-space:nowrap}
 @media (min-width:1000px){
   .home-grid{
     display:grid;

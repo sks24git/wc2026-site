@@ -214,6 +214,22 @@ export default function PlayoffsView() {
         'Argentina 2-0, Spain 2-0: two goals up, favourites often cede the initiative (Argentina–Netherlands 2022, pegged back to 2-2) → a late goal and the opponent’s BTTS are underrated.')],
   ];
 
+  // Как считали + что заметили (кухня прогноза).
+  const METHOD = [
+    [tr('Движок матч-за-матчем', 'A match-by-match engine'),
+     tr('Каждый из 32 матчей плей-офф считал отдельный аналитик-агент — по нашим накопленным досье команд, постмортемам, разборам групп и урокам турнира, плюс свежие травмы, погода и стадион. Победитель обязателен: при ничьей решается серия пенальти.',
+        'Each of the 32 knockout ties was worked by a separate analyst agent — using our accumulated team dossiers, postmortems, group reviews and tournament lessons, plus fresh injuries, weather and venue. A winner is mandatory: level games are settled on penalties.')],
+    [tr('Калибровка по реальности', 'Calibrated against reality'),
+     tr('Сверили сетку с голевой статистикой плей-офф трёх последних ЧМ и с макро-линиями букмекеров (овертаймы, пенальти) — и подрезали перекос: было 9 серий пенальти, стало 6 (как ждёт рынок), а число голов вышло на историческую норму ~2.5 за матч.',
+        'We checked the bracket against the goal stats of the last three World Cup knockouts and the bookmaker macro lines (extra time, shootouts) — and trimmed the skew: 9 shootouts became 6 (as the market expects), and the goal count settled on the historical norm of ~2.5 per match.')],
+    [tr('Сверка с компьютерными моделями', 'Cross-checked with computer models'),
+     tr('Сравнили с Opta и Elo-моделями. Финал Испания–Аргентина и чемпион Аргентина совпали; а где история и модели сошлись (Бразилия раз за разом горит в сериях) — поправили: Англия выбивает Бразилию в 1/4.',
+        'We compared with Opta and Elo models. The Spain–Argentina final and an Argentina title matched; and where history and the models agreed (Brazil keep losing shootouts) we adjusted — England knock Brazil out in the quarters.')],
+    [tr('Что заметили интересного', 'What we found interesting'),
+     tr('Плей-офф — низовой: четвертьфиналы самые сухие (~2 гола за матч), финалы и полуфиналы тоже. Камбэков «в победу» за 90 минут почти не бывает — отстающий лишь дотягивает матч до серии. А матч за 3-е место наоборот: открытый и почти никогда не доходит до пенальти.',
+        'The knockouts are low-scoring: quarter-finals are the driest (~2 goals a game), finals and semis too. Comebacks rarely turn into wins inside 90 minutes — the trailing side mostly just drags the tie to a shootout. The third-place game is the opposite: open, and almost never goes to penalties.')],
+  ];
+
   return (
     <div>
       <h1>{tr('Плей-офф · прогноз AI', 'Playoffs · AI forecast')}</h1>
@@ -300,6 +316,16 @@ export default function PlayoffsView() {
       <div className="sect"><span className="sect-label">{tr('Расклады и мысли', 'Reads & thoughts')}</span></div>
       <section className="block po-thoughts">
         {THOUGHTS.map(([h, b], i) => (
+          <div key={i} className="po-thought">
+            <div className="po-thought-h">{h}</div>
+            <div className="po-thought-b">{b}</div>
+          </div>
+        ))}
+      </section>
+
+      <div className="sect"><span className="sect-label">{tr('Как мы это считали · что заметили', 'How we built this · what we noticed')}</span></div>
+      <section className="block po-thoughts">
+        {METHOD.map(([h, b], i) => (
           <div key={i} className="po-thought">
             <div className="po-thought-h">{h}</div>
             <div className="po-thought-b">{b}</div>

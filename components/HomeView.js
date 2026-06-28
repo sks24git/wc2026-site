@@ -39,6 +39,17 @@ export default function HomeView() {
       <div className="g-main">
         <section className="g-battle"><BattleBoard /></section>
 
+        <Link className="home-promo" href="/playoffs/">
+          <div className="hp-title">🏆 {lang === 'en' ? 'AI playoff forecast is in' : 'Прогноз AI на весь плей-офф готов'}</div>
+          <div className="hp-sub">
+            {lang === 'en' ? (
+              <>Final <b>Spain–Argentina</b>, champion <b>Argentina</b> — the full match-by-match bracket with scores, shootouts and pitfalls. <span className="hp-cta">Open the Playoffs tab →</span></>
+            ) : (
+              <>Финал <b>Испания–Аргентина</b>, чемпион <b>Аргентина</b> — вся сетка матч-за-матчем со счётами, сериями пенальти и «подводными камнями». <span className="hp-cta">Открыть вкладку «Плей-офф» →</span></>
+            )}
+          </div>
+        </Link>
+
         <section className="g-matches" aria-label={T('a11y.matchesAndBets')}>
           <div className="sect"><span className="sect-label">{T('home.cardsOfDay')}</span></div>
           <CardsStrip />
