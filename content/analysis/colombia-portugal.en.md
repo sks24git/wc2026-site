@@ -1,3 +1,19 @@
+## Result: Colombia 0:0 Portugal (HT 0:0)
+
+**Goalless but not toothless: 36 shots between them, none found the net. Colombia were the sharper side (the highest combined xG of any goalless first half at the tournament), and in stoppage time Davinson Sánchez «scored» with a header — ruled out by VAR for an offside by a fingernail, saving Portugal. Colombia won Group K (7 points), Portugal second.**
+
+- No goals. Ronaldo, Córdoba, Luis Díaz all blank.
+- The perverse incentive played out perfectly: a draw sent Colombia first, while second place (the softer top half) suited both more than the «brutal» bottom → a quiet, controlled game.
+
+**Settlement:**
+- AI · under 2.5 🟢 @2.05 — ✓.
+- AI · draw 🟡 @3.95 — ✓ (a big yellow landed).
+- Pasha · 1st half over 1.0 (push-protected) 🟢 @1.60 — ✗ (first half 0-0).
+
+**Lesson:** when both teams are already through and both prefer second place (the softer half), a «fight for first» turns into a quiet stalemate — the draw and the under beat any goal-laden narrative here.
+
+---
+
 ## Colombia — Portugal · 28 June, 02:30 MSK · Hard Rock Stadium, Miami
 **Both already through — this is only about top spot in Group K, and it's near 50/50. A draw sends Colombia first; Portugal need to win. Ronaldo starts, no rest.**
 

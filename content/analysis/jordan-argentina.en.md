@@ -1,3 +1,18 @@
+## Result: Jordan 1:3 Argentina (HT 0:2)
+
+**Rotation without a thrashing — but with goals to spare. Argentina led 0-2 at the break (Lo Celso 19′, Lautaro from the spot 31′), Jordan hit back (Al-Tamari 55′), and substitute Messi sealed it from a free kick (80′) — 1-3. Messi scored his 6th of the tournament and extended his run to seven straight World Cup matches on the scoresheet.**
+
+- Goals: 19′ Lo Celso · 31′ Lautaro pen · 55′ Al-Tamari · 80′ Messi. Four in total.
+- Messi came off the bench (Scaloni rested him) and scored anyway.
+
+**Settlement:**
+- AI · under 3.5 🟢 @1.65 — ✗ (4 goals).
+- Pasha · over 3.0 (push-protected) 🟢 @1.82 — ✓.
+
+**Lesson:** «rotation without a thrashing» was the right frame (1-3, not 0-5), but even a rotated Argentina plus a penalty plus a Jordan goal made four. When the underdog has a leaky defence and scores in every game, and the favourite has no reason to sit, the over/BTTS (Pasha's call) is safer than the under — a «rotation» scoreline tips over 3.5 easily.
+
+---
+
 ## Jordan — Argentina · 28 June, 05:00 MSK · AT&T Stadium, Arlington
 **Argentina have already won the group, Jordan are out — the intrigue is all in Scaloni's rotation: Messi starts on the bench, leaders rested before the knockouts. Messi still chases the Golden Boot.**
 

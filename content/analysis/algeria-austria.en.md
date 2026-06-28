@@ -1,3 +1,19 @@
+## Result: Algeria 3:3 Austria (HT 1:1)
+
+**Six goals and drama until 90+6′. Arnautović opened (28′), Belghali replied before the break, and in the second half Sabitzer and a Mahrez brace (60′, 90+3′) nearly dragged Algeria home — but Kalajdžić levelled right at the death, 3-3. The draw sent BOTH through: Austria second (to Spain), Algeria third and a best third (to Switzerland). Iran went out.**
+
+- Goals: 28′ Arnautović · ~41′ Belghali · 55′ Sabitzer · 60′ Mahrez · 90+3′ Mahrez · 90+6′ Kalajdžić. BTTS — yes.
+- A classic «convenient draw» — but not a low-scoring one, a goal-fest: both opened up.
+
+**Settlement:**
+- AI · both teams to score — yes 🟢 @2.20 — ✓.
+- AI · Algeria to win 🟡 @3.85 — ✗ (Kalajdžić equalised on 90+6′).
+- Pasha · draw 🟢 @2.03 — ✓ (his headline «convenient draw» read, nailed).
+
+**Lesson:** a «convenient draw» that sends both through is NOT necessarily low-scoring. Here both were happy to draw and happy to attack — and it opened into a 3-3. The right correlate of such a draw is BTTS-yes (AI took it), not the Under; while backing the needy side's outright win (Algeria) against a draw that suits the opponent runs against the current.
+
+---
+
 ## Algeria — Austria · 28 June, 05:00 MSK · Arrowhead Stadium, Kansas City
 **A fight for second in Group J: a win gives Algeria second outright (a draw sends Austria through on goal difference), a draw suits Austria. But even a draw leaves Algeria on 4 points in third — most likely through as a best third. Hence a real «convenient draw» risk (an echo of Gijón 1982), which Fonbet has already shaded to 2.02.**
 

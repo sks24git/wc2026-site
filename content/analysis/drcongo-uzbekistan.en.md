@@ -1,3 +1,18 @@
+## Result: DR Congo 3:1 Uzbekistan (HT 0:1)
+
+**A comeback and a shock on the totals board. Uzbekistan led at a World Cup for the first time ever (Shomurodov 10′), but in the second half Congo turned it around: Wissa from the spot (68′), Mayele (78′) and Wissa again in stoppage time (90+1′). Congo recovered from 0-1, scored three, and reached the knockouts for the first time in 52 years — as one of the best thirds, facing England in the round of 32.**
+
+- Goals: 10′ Shomurodov (0:1) · 68′ Wissa pen (1:1) · 78′ Mayele (2:1) · 90+1′ Wissa (3:1). xG 2.35:0.20.
+- Bakambu started, but Wissa (brace) and Mayele scored.
+
+**Settlement:**
+- AI · under 2.5 🟢 @1.75 — ✗ (4 goals broke the low read).
+- Pasha · DR Congo to win 🟢 @1.70 — ✓.
+
+**Lesson:** «two weak attacks + the best defence» argued for the under, but all-in motivation (Congo MUST win, two strikers) plus an early opposition goal forced the hosts open — and the low fell apart. When a needy favourite must win and is fired up, betting the total down against them is risky: the win itself (Pasha's call) beat the Under.
+
+---
+
 ## DR Congo — Uzbekistan · 28 June, 02:30 MSK · Mercedes-Benz Stadium, Atlanta
 **A fight for third: a win gives DR Congo 4 points and a real shot at the eight best third places; Uzbekistan, at −7, are all but out. Two weak attacks, with Congo holding the group's best defence.**
 

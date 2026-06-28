@@ -7330,7 +7330,7 @@
     "type": "ОЗ",
     "tier": "green",
     "odds": 2.2,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Алжир — Австрия",
       "en": "Algeria — Austria"
@@ -7340,8 +7340,8 @@
       "en": "Both teams to score — yes"
     },
     "note": {
-      "ru": "Алжиру нужна только победа → раскрывается; обе результативны в туре 2. ⚠️ Контртест: «удобная ничья» + автобус Австрии.",
-      "en": "Algeria must win → they open up; both scored on MD2. ⚠️ Counter-test: a «convenient draw» + Austria bus."
+      "ru": "✓ Обе забили (3:3) — голевая «удобная ничья», обе команды раскрылись.",
+      "en": "✓ Both scored (3-3) — a goal-laden «convenient draw», both teams opened up."
     }
   },
   {
@@ -7352,7 +7352,7 @@
     "type": "ТМ",
     "tier": "green",
     "odds": 1.65,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Иордания — Аргентина",
       "en": "Jordan — Argentina"
@@ -7362,8 +7362,8 @@
       "en": "Under 3.5 goals"
     },
     "note": {
-      "ru": "Ротация (Месси на лавке) + автобус Иордании; рынок не ждёт разгрома. Горит только на 4+.",
-      "en": "Rotation (Messi benched) + Jordan's bus; the market expects no rout. Burns only at 4+."
+      "ru": "✗ 4 гола — тотал меньше 3.5 мимо. Месси вышел на замену и забил (1:3).",
+      "en": "✗ 4 goals — under 3.5 missed. Messi came off the bench and scored (1-3)."
     }
   },
   {
@@ -7374,7 +7374,7 @@
     "type": "ТМ",
     "tier": "green",
     "odds": 2.05,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Колумбия — Португалия",
       "en": "Colombia — Portugal"
@@ -7384,8 +7384,8 @@
       "en": "Under 2.5 goals"
     },
     "note": {
-      "ru": "Обе через, Колумбию ничья выводит первой → осторожный матч. ⚠️ Контртест: обе хотят 1-е ради лёгкой половины.",
-      "en": "Both through, a draw sends Colombia first → a cautious game. ⚠️ Counter-test: both want first for the easier half."
+      "ru": "✓ 0 голов — тотал меньше 2.5 чисто.",
+      "en": "✓ 0 goals — comfortably under 2.5."
     }
   },
   {
@@ -7396,7 +7396,7 @@
     "type": "ТМ",
     "tier": "green",
     "odds": 1.75,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "ДР Конго — Узбекистан",
       "en": "DR Congo — Uzbekistan"
@@ -7406,8 +7406,8 @@
       "en": "Under 2.5 goals"
     },
     "note": {
-      "ru": "Две слабые атаки + оборонительный фаворит + искусственный газон. Суммарный xG ~2.0–2.2.",
-      "en": "Two weak attacks + a defensive favourite + artificial turf. Combined xG ~2.0–2.2."
+      "ru": "✗ 4 гола — тотал меньше 2.5 мимо. Узбекистан повёл, Конго отыгралось 3:1 (дубль Виссы).",
+      "en": "✗ 4 goals — under 2.5 missed. Uzbekistan led, Congo came back to 3-1 (Wissa brace)."
     }
   },
   {
@@ -7462,7 +7462,7 @@
     "type": "П1",
     "tier": "yellow",
     "odds": 3.85,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Алжир — Австрия",
       "en": "Algeria — Austria"
@@ -7472,8 +7472,8 @@
       "en": "Algeria to win"
     },
     "note": {
-      "ru": "Must-win + мотив реванша за Хихон-1982; Австрию ничья расхолаживает. Производная «открытого» сценария.",
-      "en": "Must-win + revenge motive for Gijón 1982; a draw lulls Austria. A derivative of the «open» scenario."
+      "ru": "✗ Не победа Алжира — 3:3 (Калайджич сравнял на 90+6′). Алжир упал в третьи.",
+      "en": "✗ Not an Algeria win — 3-3 (Kalajdžić equalised on 90+6′). Algeria dropped to third."
     }
   },
   {
@@ -7484,7 +7484,7 @@
     "type": "Х",
     "tier": "yellow",
     "odds": 3.95,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Колумбия — Португалия",
       "en": "Colombia — Portugal"
@@ -7494,8 +7494,8 @@
       "en": "Draw"
     },
     "note": {
-      "ru": "Колумбию ничья выводит первой → паркуется; обе берегут силы. Производная того же осторожного низа.",
-      "en": "A draw sends Colombia first → they park it; both save legs. A derivative of the same cautious low."
+      "ru": "✓ 0:0 — ничья зашла (жёлтая по кэфу 3.95).",
+      "en": "✓ 0-0 — the draw landed (a yellow at 3.95)."
     }
   },
   {
@@ -7529,7 +7529,7 @@
     "tier": "red",
     "odds": 13,
     "stake": 500,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Точные счета — система 2/4",
       "en": "Correct scores — 2/4 system"
@@ -7581,8 +7581,8 @@
       }
     ],
     "note": {
-      "ru": "Постоянка: система точных счетов 2/4 (нужно ≥2 из 4). Узкие коридоры по типу матчей. Реальные кэфы с Фонбета. Эфф. кэф при резолве.",
-      "en": "A staple: a 2-of-4 correct-score system (need ≥2 of 4). Tight corridors by match type. Real Fonbet odds. Effective odds on settle."
+      "ru": "✗ Ни один точный счёт из 4 не совпал (ДРК 3:1, Иордания 1:3, Колумбия 0:0, Алжир 3:3). Нужно было ≥2.",
+      "en": "✗ None of the 4 correct scores hit (DRC 3-1, Jordan 1-3, Colombia 0-0, Algeria 3-3). Needed ≥2."
     }
   },
   {
@@ -7594,7 +7594,7 @@
     "tier": "yellow",
     "odds": 17,
     "stake": 1500,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Шесть зелёных — система 5/6",
       "en": "Six greens — 5/6 system"
@@ -7666,8 +7666,8 @@
       }
     ],
     "note": {
-      "ru": "Идёт. Группа L: Панама ТМ3.5 ✓, но Хорватия ОЗ-нет ✗ — один промах, для прохода 5/6 нужны теперь ВСЕ оставшиеся (Алжир, Иордания, Колумбия, ДР Конго).",
-      "en": "In progress. Group L: Panama Under 3.5 ✓, but Croatia BTTS-no ✗ — one miss, so a 5/6 pass now needs ALL the rest (Algeria, Jordan, Colombia, DR Congo)."
+      "ru": "✗ Система 5/6 не прошла: зашли только Панама ТМ3.5, Колумбия ТМ2.5 и Алжир ОЗ-да (3 из 6), нужно было ≥5.",
+      "en": "✗ 5/6 system failed: only Panama Under 3.5, Colombia Under 2.5 and Algeria BTTS-yes hit (3 of 6), needed ≥5."
     }
   },
   {
@@ -7734,7 +7734,7 @@
     "type": "Х",
     "tier": "green",
     "odds": 2.03,
-    "status": "pending",
+    "status": "win",
     "contest": true,
     "match": {
       "ru": "Алжир — Австрия",
@@ -7745,8 +7745,8 @@
       "en": "Draw"
     },
     "note": {
-      "ru": "Одиночка на ту самую «удобную ничью»: Австрию ничья выводит 2-й, Алжир с 4 очками — вероятный лучший третий. Рынок согласен — Фонбет срезал ничью до 2.02. Прямой клинч с машинной ОЗ-да.",
-      "en": "A single on the very «convenient draw»: a draw sends Austria through second and Algeria, on 4 points, into a likely best-third spot. The market agrees — Fonbet shaded the draw to 2.02. A direct clash with the machine's BTTS-yes."
+      "ru": "✓ 3:3 — ничья. Паша в точку прочитал «удобную ничью», что выводила обе команды.",
+      "en": "✓ 3-3 — a draw. Pasha read the «convenient draw» that sent both teams through to a tee."
     }
   },
   {
@@ -7902,7 +7902,7 @@
     "type": "ТБ",
     "tier": "green",
     "odds": 1.6,
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Колумбия — Португалия",
@@ -7913,8 +7913,8 @@
       "en": "1st half over 1.0 (push-protected)"
     },
     "note": {
-      "ru": "Паша ждёт 1:1, все события в 1-м тайме, а во 2-м команды встанут (открытый стадион + жара). Роналду пока мешает. Под возврат при 1 голе.",
-      "en": "Pasha expects 1-1 with the action in the first half, then both stop after the break (open stadium + heat). Ronaldo still in the way. Void at exactly 1 goal."
+      "ru": "✗ Первый тайм 0:0 — больше 1.0 не зашло (36 ударов, ни одного гола; гол Санчеса отменён VAR за офсайд).",
+      "en": "✗ First half 0-0 — over 1.0 missed (36 shots, none scored; Sánchez goal ruled out by VAR for offside)."
     }
   },
   {
@@ -7925,7 +7925,7 @@
     "type": "П1",
     "tier": "green",
     "odds": 1.7,
-    "status": "pending",
+    "status": "win",
     "contest": true,
     "match": {
       "ru": "ДР Конго — Узбекистан",
@@ -7936,8 +7936,8 @@
       "en": "DR Congo to win"
     },
     "note": {
-      "ru": "Паша: Узбекистан — «уродование сути мундиаля», Конго обязан побеждать ради плей-офф и заберёт легко. Тут человек и машина согласны (у AI ТМ2.5 на тот же низовой расклад).",
-      "en": "Pasha: Uzbekistan are «a travesty of the tournament», Congo must win for the knockouts and take it comfortably. Here man and machine agree (AI's Under 2.5 reads the same low)."
+      "ru": "✓ ДР Конго отыгралась с 0:1 и победила 3:1 — Конго в плей-офф впервые за 52 года.",
+      "en": "✓ DR Congo came back from 0-1 to win 3-1 — their first knockout in 52 years."
     }
   },
   {
@@ -7948,7 +7948,7 @@
     "type": "ТБ",
     "tier": "green",
     "odds": 1.82,
-    "status": "pending",
+    "status": "win",
     "contest": true,
     "match": {
       "ru": "Иордания — Аргентина",
@@ -7959,8 +7959,8 @@
       "en": "Over 3.0 (push-protected)"
     },
     "note": {
-      "ru": "Паша: Аргентина решает рано (Нико Пас/Альварес в старте захотят отметиться), садиться никому не нужно (1-е и 4-е места ясны), Иордания забивает в каждом матче при дырявой обороне → ОЗ и 4+. Под возврат при ровно 3.",
-      "en": "Pasha: Argentina settle it early (Nico Paz/Álvarez will want to impress), neither needs to sit (1st and 4th are set), Jordan score in every game with a leaky defence → BTTS and 4+. Void at exactly 3."
+      "ru": "✓ 4 гола — больше 3.0 зашло. Аргентина вела 0:2 к перерыву, Месси добил 80′.",
+      "en": "✓ 4 goals — over 3.0 landed. Argentina led 0-2 at the break, Messi added the 80′."
     }
   },
   {
@@ -7972,7 +7972,7 @@
     "tier": "red",
     "odds": 60,
     "stake": 500,
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Точные счета — система 3/6",
@@ -8045,8 +8045,8 @@
       }
     ],
     "note": {
-      "ru": "Идёт. Группа L мимо: Панама 0:4 ✗ (было 0:2), Хорватия 0:0 ✗ (было 2:1). Для прохода 3/6 нужны ≥3 точных из оставшихся четырёх (Колумбия, ДР Конго, Алжир, Иордания).",
-      "en": "In progress. Group L missed: Panama 0-4 ✗ (was 0-2), Croatia 0-0 ✗ (was 2-1). A 3/6 pass needs ≥3 exact of the remaining four (Colombia, DR Congo, Algeria, Jordan)."
+      "ru": "✗ Система 3/6: точно угадан только счёт Иордания—Аргентина 1:3, остальные пять мимо. Нужно было ≥3.",
+      "en": "✗ 3/6 system: only Jordan—Argentina 1-3 hit exactly, the other five missed. Needed ≥3."
     }
   }
 ]
