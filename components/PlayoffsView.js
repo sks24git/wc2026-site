@@ -166,17 +166,6 @@ export default function PlayoffsView() {
   }
 
   // Третьи места — ОКОНЧАТЕЛЬНО: 8 лучших третьих посеяны.
-  const THIRDS = [
-    { g: 'B', t: T('Босния', 'Bosnia', 'ba'), p: 4, opp: T('США', 'USA', 'us') },
-    { g: 'D', t: T('Парагвай', 'Paraguay', 'py'), p: 4, opp: T('Германия', 'Germany', 'de') },
-    { g: 'E', t: T('Эквадор', 'Ecuador', 'ec'), p: 4, opp: T('Мексика', 'Mexico', 'mx') },
-    { g: 'F', t: T('Швеция', 'Sweden', 'se'), p: 4, opp: T('Франция', 'France', 'fr') },
-    { g: 'J', t: T('Алжир', 'Algeria', 'dz'), p: 4, opp: T('Швейцария', 'Switzerland', 'ch') },
-    { g: 'K', t: T('ДР Конго', 'DR Congo', 'cd'), p: 4, opp: T('Англия', 'England', 'gb-eng') },
-    { g: 'L', t: T('Гана', 'Ghana', 'gh'), p: 4, opp: T('Колумбия', 'Colombia', 'co') },
-    { g: 'I', t: T('Сенегал', 'Senegal', 'sn'), p: 3, opp: T('Бельгия', 'Belgium', 'be') },
-  ];
-
   const THOUGHTS = [
     [tr('Прогноз AI: чемпион — Аргентина', 'AI forecast: champion — Argentina'),
      tr('Машина ведёт Аргентину через Кабо-Верде, Египет и Колумбию, в 1/2 — на Англию (та выбивает Бразилию), и финал с Испанией. Ключ поздней стадии — Дибу Мартинес и опыт: Англию Аргентина дожимает в доп. время, а финал с Испанией берёт в серии пенальти. По Elo-моделям Аргентина — №1; Opta фаворитом считает Испанию.',
@@ -274,29 +263,6 @@ export default function PlayoffsView() {
           {tr('Матч за 3-е место (M103):', 'Third-place play-off (M103):')}
         </p>
         <div className="po-fin-box third"><MatchBox code="M103" kind="fin" /></div>
-      </section>
-
-      <div className="sect"><span className="sect-label">{tr('Третьи места · восьмёрка определена', 'Third places · the eight are set')}</span></div>
-      <section className="block">
-        <p className="po-intro">
-          {tr('Восемь лучших третьих посеяны и знают соперников по 1/16. Семь набрали 4 очка, восьмой — лучшая из 3-очковых, Сенегал. Иран, Корея, Шотландия и Уругвай остались за бортом.',
-              'The eight best third-placed teams are seeded and know their round-of-32 opponents. Seven finished on 4 points, the eighth being the best of the 3-point sides — Senegal. Iran, Korea, Scotland and Uruguay missed out.')}
-        </p>
-        <div className="po-thirds">
-          <div className="po-th-row po-th-head">
-            <span className="po-th-rk">#</span><span className="po-th-tm">{tr('Команда', 'Team')}</span>
-            <span className="po-th-n">{tr('О', 'Pts')}</span><span className="po-th-st">{tr('Соперник в 1/16', 'Round-of-32 opponent')}</span>
-          </div>
-          {THIRDS.map((x, i) => (
-            <div key={i} className="po-th-row safe">
-              <span className="po-th-rk">{i + 1}</span>
-              <span className="po-th-tm"><Flag cc={x.t.cc} /><b>{x.t.t}</b> <small>· {x.g}</small></span>
-              <span className="po-th-n num">{x.p}</span>
-              <span className="po-th-st"><Flag cc={x.opp.cc} />{x.opp.t}</span>
-            </div>
-          ))}
-          <div className="po-th-cut">{tr('Все восемь третьих прошли с 3–4 очками · посев официальный', 'All eight thirds advanced on 3–4 points · seeding official')}</div>
-        </div>
       </section>
 
       <div className="sect"><span className="sect-label">{tr('Подводные камни · уроки прошлых ЧМ', 'Pitfalls · lessons from past World Cups')}</span></div>
