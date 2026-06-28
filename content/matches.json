@@ -2106,5 +2106,35 @@
       "ru": "Аргентина уже выиграла группу, Иордания вылетела — вся интрига в ротации Скалони: Месси садится на лавку, лидеры отдыхают перед плей-офф. Месси при этом гонится за «Золотой бутсой» (5 голов).",
       "en": "Argentina have already won the group, Jordan are out — the intrigue is all in Scaloni's rotation: Messi starts on the bench, leaders rested before the knockouts. Messi still chases the Golden Boot (5 goals)."
     }
+  },
+  {
+    "id": "southafrica-canada",
+    "date": "2026-06-28",
+    "timeMsk": "22:00",
+    "cc": [
+      "za",
+      "ca"
+    ],
+    "result": null,
+    "title": {
+      "ru": "ЮАР — Канада",
+      "en": "South Africa — Canada"
+    },
+    "stage": {
+      "ru": "Плей-офф · 1/16 финала",
+      "en": "Knockout · Round of 32"
+    },
+    "venue": {
+      "ru": "SoFi Stadium, Лос-Анджелес",
+      "en": "SoFi Stadium, Los Angeles"
+    },
+    "weather": {
+      "ru": "Навес над трибунами, без осадков, ~23°",
+      "en": "Canopy roof, dry, ~23°C"
+    },
+    "lede": {
+      "ru": "Первый матч на вылет. Канада острее в атаке и прилетела свежее, ЮАР сушит игру и верит во вратаря Уильямса в серии пенальти. Ждём низ и нервы.",
+      "en": "The first knockout tie. Canada are sharper up front and arrived fresher; South Africa slow the game down and trust keeper Williams in a shootout. Expect a low, tense game."
+    }
   }
 ]

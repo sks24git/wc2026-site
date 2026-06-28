@@ -8048,5 +8048,97 @@
       "ru": "✗ Система 3/6: точно угадан только счёт Иордания—Аргентина 1:3, остальные пять мимо. Нужно было ≥3.",
       "en": "✗ 3/6 system: only Jordan—Argentina 1-3 hit exactly, the other five missed. Needed ≥3."
     }
+  },
+  {
+    "id": 280,
+    "side": "AI",
+    "date": "2026-06-28",
+    "matchId": "southafrica-canada",
+    "type": "ТМ",
+    "tier": "green",
+    "odds": 1.72,
+    "stake": 3000,
+    "status": "pending",
+    "match": {
+      "ru": "ЮАР — Канада",
+      "en": "South Africa — Canada"
+    },
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5"
+    },
+    "note": {
+      "ru": "Опора дня: нокаут + анемичная атака ЮАР (0/1/1 гол за группу) + Канада ≤2 в 8 из 9 матчей. Заходит и на узкой победе Канады, и на ничьей с серией.",
+      "en": "Anchor of the day: knockout caution + South Africa's toothless attack (0/1/1 goals in the group) + Canada ≤2 in 8 of 9. Lands on a narrow Canada win and on a draw-to-shootout alike."
+    }
+  },
+  {
+    "id": 281,
+    "side": "AI",
+    "date": "2026-06-28",
+    "matchId": "southafrica-canada",
+    "type": "ТС",
+    "tier": "red",
+    "odds": 6.0,
+    "stake": 500,
+    "status": "pending",
+    "match": {
+      "ru": "ЮАР — Канада",
+      "en": "South Africa — Canada"
+    },
+    "bet": {
+      "ru": "Точный счёт 0:1 (Канада)",
+      "en": "Correct score 0-1 (Canada)"
+    },
+    "note": {
+      "ru": "Наш пик сетки на M73 и топ-счёт модели (~20%): узкая победа Канады на классе и прессинге.",
+      "en": "Our bracket pick for M73 and the model's top score (~20%): a narrow Canada win on class and pressing."
+    }
+  },
+  {
+    "id": 282,
+    "side": "AI",
+    "date": "2026-06-28",
+    "matchId": "southafrica-canada",
+    "type": "Другое",
+    "tier": "yellow",
+    "odds": 2.0,
+    "stake": 1500,
+    "status": "pending",
+    "match": {
+      "ru": "ЮАР — Канада",
+      "en": "South Africa — Canada"
+    },
+    "bet": {
+      "ru": "Тотал жёлтых карточек больше 3.5",
+      "en": "Total yellow cards over 3.5"
+    },
+    "note": {
+      "ru": "Строгий судья Пиньейру (~5 жёлтых за матч) + нокаут-напряг + низкий блок ЮАР фолит под срыв прессинга Канады. Линия дала ровную монетку — это перекос в нашу сторону.",
+      "en": "Strict referee Pinheiro (~5 yellows per game) + knockout tension + South Africa's low block fouling to stop Canada's press. The market priced it as a coin flip — that's an edge our way."
+    }
+  },
+  {
+    "id": 283,
+    "side": "AI",
+    "date": "2026-06-28",
+    "matchId": "southafrica-canada",
+    "type": "Другое",
+    "tier": "red",
+    "odds": 5.7,
+    "stake": 500,
+    "status": "pending",
+    "match": {
+      "ru": "ЮАР — Канада",
+      "en": "South Africa — Canada"
+    },
+    "bet": {
+      "ru": "Будет серия пенальти",
+      "en": "Penalty shootout — yes"
+    },
+    "note": {
+      "ru": "Вратарь ЮАР Уильямс — специалист по сериям (4 сэйва на КАН-2023), весь план южноафриканцев — дотащить до точки. Обе осторожны. Взаимоисключает с точным счётом 0:1 — ветки покрыты.",
+      "en": "South Africa's keeper Williams is a shootout specialist (4 saves at AFCON 2023) and their whole plan is to drag it to spot-kicks. Both sides cautious. Mutually exclusive with the 0-1 correct score — both branches covered."
+    }
   }
 ]
