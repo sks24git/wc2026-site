@@ -8140,5 +8140,29 @@
       "ru": "Вратарь ЮАР Уильямс — специалист по сериям (4 сэйва на КАН-2023), весь план южноафриканцев — дотащить до точки. Обе осторожны. Взаимоисключает с точным счётом 0:1 — ветки покрыты.",
       "en": "South Africa's keeper Williams is a shootout specialist (4 saves at AFCON 2023) and their whole plan is to drag it to spot-kicks. Both sides cautious. Mutually exclusive with the 0-1 correct score — both branches covered."
     }
+  },
+  {
+    "id": 284,
+    "side": "Паша",
+    "date": "2026-06-28",
+    "matchId": "southafrica-canada",
+    "type": "ИТ",
+    "tier": "green",
+    "odds": 2.13,
+    "stake": 3000,
+    "contest": true,
+    "status": "pending",
+    "match": {
+      "ru": "ЮАР — Канада",
+      "en": "South Africa — Canada"
+    },
+    "bet": {
+      "ru": "ИТ Канады больше 1.5",
+      "en": "Canada individual total over 1.5"
+    },
+    "note": {
+      "ru": "Паша: «зачем-то жадничаю — ради лишнего кэфа вместо простой победы Канады беру их ИТБ 1.5 @ 2.13». Ставит, что атака Канады (Дэвид, Ларин) вскроет ЮАР на 2+. Прямой клинч с AI: точный счёт 0:1 и низ ТМ2.5 требуют, чтобы Канада НЕ разгулялась.",
+      "en": "Pasha: «greedy for no reason — instead of a plain Canada win I'm taking their over 1.5 @ 2.13 for the extra price». He backs Canada's attack (David, Larin) to crack South Africa open for 2+. A direct clash with AI: the 0-1 correct score and Under 2.5 both need Canada NOT to run riot."
+    }
   }
 ]

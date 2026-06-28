@@ -24,4 +24,7 @@
 
 _(Today's knockout is a single match → there's no genuine cross-match 2/4 correct-score system; the red on correct score goes as a single.)_
 
-**Pasha:** awaiting his call.
+**Pasha:**
+- 🟢 **Canada individual total over 1.5** @2.13 — «greedy for no reason: instead of a plain Canada win I'm taking their over 1.5 for the extra price». He backs Canada's attack (David + Larin) to crack South Africa open for at least 2 goals.
+
+_The clash: Pasha's bet directly contradicts two of AI's anchors — the 0-1 correct score (Canada scoring exactly one) and Under 2.5. They only overlap on a narrow 2-0 (Canada 2, South Africa 0): there Pasha's over lands and AI's Under 2.5 lands, but not the 0-1. So the day's real argument is whether Canada's attack runs riot._
