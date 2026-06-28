@@ -132,7 +132,13 @@ export default function PlayoffsView() {
     const m = META[code];
     return (
       <div className={'po-br-box mb ' + kind + (p.by === 'pen' ? ' pen' : '')}>
-        <div className="po-br-tag"><span>{code}</span>{p.score && <span className="po-mb-score">{scoreText(p.score, lang)}</span>}</div>
+        <div className="po-br-tag">
+          <span>{code}</span>
+          {(p.conf === 'tossup' || p.conf === 'low') && (
+            <span className={'po-conf ' + p.conf}>{p.conf === 'tossup' ? '50/50' : tr('слабо', 'soft')}</span>
+          )}
+          {p.score && <span className="po-mb-score">{scoreText(p.score, lang)}</span>}
+        </div>
         {m && (
           <div className="po-mb-meta">
             <span className="po-mb-dt">{m.date} · {m.time}</span>
@@ -233,6 +239,11 @@ export default function PlayoffsView() {
         <span>⛰ {tr('высота', 'altitude')}</span>
         <span>☀ ⛅ 🌧 {tr('погода — открытый стадион · время МСК', 'weather — open-air · times MSK')}</span>
       </div>
+      <div className="po-legend mini">
+        <span><i className="po-conf tossup">50/50</i> {tr('серия пенальти / равный матч', 'shootout / even tie')}</span>
+        <span><i className="po-conf low">{tr('слабо', 'soft')}</i> {tr('шаткий прогноз', 'shaky pick')}</span>
+        <span>{tr('без метки — уверенный/склонный прогноз', 'no tag — confident/leaning pick')}</span>
+      </div>
 
       <div className="sect"><span className="sect-label">{tr('Верхняя половина', 'Top half')}</span></div>
       <Half cfg={TOP} />
@@ -275,8 +286,8 @@ export default function PlayoffsView() {
       <div className="sect"><span className="sect-label">{tr('Подводные камни · уроки прошлых ЧМ', 'Pitfalls · lessons from past World Cups')}</span></div>
       <section className="block po-thoughts">
         <p className="po-intro" style={{ marginTop: 0 }}>
-          {tr('Прогноз честно «по фаворитам», но история апсетов трёх последних ЧМ говорит: минимум один топ вылетит раньше, а поздняя стадия — серия монеток. Вот где наша сетка тоньше всего.',
-              'The forecast is honestly «chalk», but the upset history of the last three World Cups says at least one top side goes early, and the late stages are a run of coin-flips. Here is where our bracket is thinnest.')}
+          {tr('Прогноз честно «по фаворитам», но история апсетов трёх последних ЧМ говорит: минимум один топ вылетит раньше, а поздняя стадия — серия монеток. Пики мы СОЗНАТЕЛЬНО не флипали (менять монетку на монетку — это чейз), но пометили на сетке метками «50/50» и «слабо», где именно тонко. Вот главные узлы риска.',
+              'The forecast is honestly «chalk», but the upset history of the last three World Cups says at least one top side goes early, and the late stages are a run of coin-flips. We deliberately did NOT flip picks (swapping one coin-face for another is chasing), but tagged the bracket with «50/50» and «soft» where it is thin. Here are the main risk nodes.')}
         </p>
         {RISKS.map(([h, b], i) => (
           <div key={i} className="po-thought">

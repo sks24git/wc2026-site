@@ -631,6 +631,9 @@ td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular
 .po-mb-dt{flex:none;font-variant-numeric:tabular-nums}
 .po-mb-venue{margin-left:auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .po-legend.mini{gap:12px;font-size:10.5px;margin:2px 0 4px}
+.po-conf{font-style:normal;font-size:8px;font-weight:800;line-height:1;padding:2px 4px;border-radius:5px;letter-spacing:.02em;flex:none}
+.po-conf.tossup{background:rgba(190,18,60,.12);color:var(--lose)}
+.po-conf.low{background:rgba(217,119,6,.15);color:var(--pasha)}
 .po-br-box.mb .po-flag{width:18px;height:18px}
 .po-team.dim{opacity:.46}
 .po-team.w-ai{font-weight:800}
