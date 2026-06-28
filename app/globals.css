@@ -619,6 +619,38 @@ td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular
 .po-team{display:flex;align-items:center;gap:9px;font-size:13.5px;font-weight:600;color:var(--ink);line-height:1.25}
 .po-flag{width:22px;height:22px;border-radius:4px;object-fit:cover;flex:none;box-shadow:0 0 0 1px var(--hair)}
 .po-flag-tbd{background:repeating-linear-gradient(45deg,var(--hair),var(--hair) 3px,var(--card) 3px,var(--card) 6px)}
+/* — прогноз AI на сетке — */
+.po-br-box.mb{gap:5px;padding:7px 10px}
+.po-br-half.top .po-br-box.mb{border-left:3px solid var(--ai)}
+.po-br-half.bottom .po-br-box.mb{border-left:3px solid var(--lose)}
+.po-br-box.mb .po-br-tag{display:flex;align-items:center;gap:6px}
+.po-mb-score{margin-left:auto;font-size:9.5px;font-weight:800;color:var(--muted);letter-spacing:0;text-transform:none}
+.po-br-box.mb.pen .po-mb-score{color:var(--pasha)}
+.po-br-box.mb .po-team{font-size:12px;gap:6px;line-height:1.2;font-weight:600}
+.po-br-box.mb .po-flag{width:18px;height:18px}
+.po-team.dim{opacity:.46}
+.po-team.w-ai{font-weight:800}
+.po-tn{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.po-chips{margin-left:auto;display:flex;gap:3px;align-items:center;flex:none}
+.po-chip{font-style:normal;font-size:9px;font-weight:800;line-height:1;padding:2px 4px;border-radius:5px;letter-spacing:.02em;color:#fff}
+.po-chip.ai{background:var(--ai)}
+.po-chip.pa{background:var(--pasha);color:#3a2a00}
+.po-chip.fact{background:var(--green)}
+/* финал-боксы */
+.po-fin-box{width:100%;max-width:300px}
+.po-fin-box .po-br-box{box-shadow:0 4px 18px rgba(16,20,26,.06)}
+.po-fin-box.third .po-br-box{box-shadow:none}
+.po-fin-box.third{opacity:.9}
+/* баннер чемпиона */
+.po-champ{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:10px 0;padding:11px 14px;border:1px solid var(--hair);border-radius:12px;background:var(--card)}
+.po-champ-cap{font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.po-champ-row{display:flex;align-items:center;gap:6px;font-size:14px}
+.po-champ-row.sub{font-size:12.5px;color:var(--muted)}
+.po-champ-row .po-flag{width:20px;height:20px}
+/* легенда меток */
+.po-legend{display:flex;gap:14px;flex-wrap:wrap;align-items:center;font-size:11.5px;color:var(--muted);margin:6px 0 2px}
+.po-legend span{display:flex;align-items:center;gap:5px}
+.po-legend small{color:var(--faint)}
 .po-thoughts{display:flex;flex-direction:column;gap:0}
 .po-thought{padding:13px 0;border-bottom:1px solid var(--hair)}
 .po-thought:last-child{border-bottom:0}
