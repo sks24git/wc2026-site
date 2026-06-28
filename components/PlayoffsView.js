@@ -30,7 +30,7 @@ export default function PlayoffsView() {
   const P = (a, b, win, score, by, conf) => ({ a, b, win, score, by, conf });
   const PRED = {
     // ── 1/16 ──
-    M73: P(T('ЮАР', 'South Africa', 'za'), T('Канада', 'Canada', 'ca'), 'b', '1:0', 'reg', 'medium'),
+    M73: P(T('ЮАР', 'South Africa', 'za'), T('Канада', 'Canada', 'ca'), 'b', '0:1', 'reg', 'medium'),
     M74: P(T('Германия', 'Germany', 'de'), T('Парагвай', 'Paraguay', 'py'), 'a', '2:1', 'reg', 'medium'),
     M75: P(T('Нидерланды', 'Netherlands', 'nl'), T('Марокко', 'Morocco', 'ma'), 'a', '2:1 (доп. время)', 'aet', 'low'),
     M77: P(T('Франция', 'France', 'fr'), T('Швеция', 'Sweden', 'se'), 'a', '3:1', 'reg', 'high'),
@@ -39,32 +39,32 @@ export default function PlayoffsView() {
     M83: P(T('Португалия', 'Portugal', 'pt'), T('Хорватия', 'Croatia', 'hr'), 'a', '2:1', 'reg', 'medium'),
     M84: P(T('Испания', 'Spain', 'es'), T('Австрия', 'Austria', 'at'), 'a', '2:0', 'reg', 'high'),
     M76: P(T('Бразилия', 'Brazil', 'br'), T('Япония', 'Japan', 'jp'), 'a', '2:0', 'reg', 'medium'),
-    M78: P(T('Кот-д’Ивуар', 'Côte d’Ivoire', 'ci'), T('Норвегия', 'Norway', 'no'), 'b', '2:1', 'reg', 'medium'),
+    M78: P(T('Кот-д’Ивуар', 'Côte d’Ivoire', 'ci'), T('Норвегия', 'Norway', 'no'), 'b', '1:2', 'reg', 'medium'),
     M79: P(T('Мексика', 'Mexico', 'mx'), T('Эквадор', 'Ecuador', 'ec'), 'a', '1:0', 'reg', 'medium'),
     M80: P(T('Англия', 'England', 'gb-eng'), T('ДР Конго', 'DR Congo', 'cd'), 'a', '2:0', 'reg', 'medium'),
     M85: P(T('Швейцария', 'Switzerland', 'ch'), T('Алжир', 'Algeria', 'dz'), 'a', '2:1', 'reg', 'medium'),
     M86: P(T('Аргентина', 'Argentina', 'ar'), T('Кабо-Верде', 'Cape Verde', 'cv'), 'a', '3:0', 'reg', 'high'),
     M87: P(T('Колумбия', 'Colombia', 'co'), T('Гана', 'Ghana', 'gh'), 'a', '2:0', 'reg', 'medium'),
-    M88: P(T('Австралия', 'Australia', 'au'), T('Египет', 'Egypt', 'eg'), 'b', '1:1 (4:2 пен)', 'pen', 'low'),
+    M88: P(T('Австралия', 'Australia', 'au'), T('Египет', 'Egypt', 'eg'), 'b', '1:1 (2:4 пен)', 'pen', 'low'),
     // ── 1/8 ──
-    M89: P(T('Германия', 'Germany', 'de'), T('Франция', 'France', 'fr'), 'b', '2:1', 'reg', 'medium'),
-    M90: P(T('Канада', 'Canada', 'ca'), T('Нидерланды', 'Netherlands', 'nl'), 'b', '2:1', 'reg', 'medium'),
-    M93: P(T('Португалия', 'Portugal', 'pt'), T('Испания', 'Spain', 'es'), 'b', '2:1', 'reg', 'medium'),
-    M94: P(T('США', 'USA', 'us'), T('Бельгия', 'Belgium', 'be'), 'b', '1:1 (4:2 пен)', 'pen', 'tossup'),
+    M89: P(T('Германия', 'Germany', 'de'), T('Франция', 'France', 'fr'), 'b', '1:2', 'reg', 'medium'),
+    M90: P(T('Канада', 'Canada', 'ca'), T('Нидерланды', 'Netherlands', 'nl'), 'b', '1:2', 'reg', 'medium'),
+    M93: P(T('Португалия', 'Portugal', 'pt'), T('Испания', 'Spain', 'es'), 'b', '1:2', 'reg', 'medium'),
+    M94: P(T('США', 'USA', 'us'), T('Бельгия', 'Belgium', 'be'), 'b', '1:1 (2:4 пен)', 'pen', 'tossup'),
     M91: P(T('Бразилия', 'Brazil', 'br'), T('Норвегия', 'Norway', 'no'), 'a', '2:1', 'reg', 'medium'),
-    M92: P(T('Мексика', 'Mexico', 'mx'), T('Англия', 'England', 'gb-eng'), 'b', '1:1 (4:2 пен)', 'pen', 'tossup'),
+    M92: P(T('Мексика', 'Mexico', 'mx'), T('Англия', 'England', 'gb-eng'), 'b', '1:1 (2:4 пен)', 'pen', 'tossup'),
     M95: P(T('Аргентина', 'Argentina', 'ar'), T('Египет', 'Egypt', 'eg'), 'a', '2:0', 'reg', 'high'),
-    M96: P(T('Швейцария', 'Switzerland', 'ch'), T('Колумбия', 'Colombia', 'co'), 'b', '1:1 (4:3 пен)', 'pen', 'tossup'),
+    M96: P(T('Швейцария', 'Switzerland', 'ch'), T('Колумбия', 'Colombia', 'co'), 'b', '1:1 (3:4 пен)', 'pen', 'tossup'),
     // ── 1/4 ──
     M97: P(T('Франция', 'France', 'fr'), T('Нидерланды', 'Netherlands', 'nl'), 'a', '2:1', 'reg', 'medium'),
     M98: P(T('Испания', 'Spain', 'es'), T('Бельгия', 'Belgium', 'be'), 'a', '2:1', 'reg', 'medium'),
     M99: P(T('Бразилия', 'Brazil', 'br'), T('Англия', 'England', 'gb-eng'), 'a', '1:1 (4:3 пен)', 'pen', 'tossup'),
     M100: P(T('Аргентина', 'Argentina', 'ar'), T('Колумбия', 'Colombia', 'co'), 'a', '2:1', 'reg', 'medium'),
     // ── 1/2 ──
-    M101: P(T('Франция', 'France', 'fr'), T('Испания', 'Spain', 'es'), 'b', '1:1 (4:3 пен)', 'pen', 'tossup'),
-    M102: P(T('Бразилия', 'Brazil', 'br'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:1 (4:2 пен)', 'pen', 'tossup'),
+    M101: P(T('Франция', 'France', 'fr'), T('Испания', 'Spain', 'es'), 'b', '1:1 (3:4 пен)', 'pen', 'tossup'),
+    M102: P(T('Бразилия', 'Brazil', 'br'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:1 (2:4 пен)', 'pen', 'tossup'),
     // ── Финал + 3-е место ──
-    M104: P(T('Испания', 'Spain', 'es'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:1 (4:3 пен)', 'pen', 'tossup'),
+    M104: P(T('Испания', 'Spain', 'es'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:1 (3:4 пен)', 'pen', 'tossup'),
     M103: P(T('Франция', 'France', 'fr'), T('Бразилия', 'Brazil', 'br'), 'a', '1:1 (4:3 пен)', 'pen', 'tossup'),
   };
 
@@ -189,6 +189,25 @@ export default function PlayoffsView() {
         'The best thirds face group winners. Our forecast has most favourites through, but Algeria bite at Switzerland and Ghana/DR Congo drag their ties into a fight; these ambushes are where early surprises come from.')],
   ];
 
+  // Подводные камни — по урокам апсетов 3 последних ЧМ (research/upsets).
+  const RISKS = [
+    [tr('🔴 Испания в финале — самый хрупкий «уверенный» узел', '🔴 Spain in the final — the most fragile «confident» node'),
+     tr('Профиль стерильного владения без вертикали — ровно тот, что вылетел в 2018 (Россия) и 2022 (Марокко) от плотного блока и пенальти. Мы ведём Испанию в финал — исторически это красная зона.',
+        'A sterile-possession profile with no vertical thrust — exactly what went out in 2018 (Russia) and 2022 (Morocco) to a deep block and penalties. We have Spain reaching the final — historically a red zone.')],
+    [tr('🔴 Бразилия проходит Англию по пенальти', '🔴 Brazil beats England on penalties'),
+     tr('Против фирменного паттерна Бразилии: в 2018 (Бельгия) и 2022 (Хорватия) она не дожимала и горела фаворитом в серии. По истории тут скорее проходит Англия — наш самый спорный узел.',
+        'Against Brazil’s signature pattern: in 2018 (Belgium) and 2022 (Croatia) they failed to finish games and lost shootouts as favourites. History leans England here — our shakiest node.')],
+    [tr('🟡 Семь серий пенальти — это монетки', '🟡 Seven shootouts — coin-flips'),
+     tr('С 1/4 половина пар уходит в серию. Реалистично 1–3 лягут иначе и сдвинут полуфиналистов и чемпиона. «Класс в серии» не гарантирует ничего — Дибу, Ливакович, Буну решали вопреки классу.',
+        'From the quarters on, half the ties go to shootouts. Realistically 1–3 land differently and shift the semifinalists and the champion. «Class in a shootout» guarantees nothing — Dibu, Livaković, Bono decided games against the odds.')],
+    [tr('🟡 Мексика на Ацтеке — высота + хозяева', '🟡 Mexico at the Azteca — altitude + hosts'),
+     tr('Наш пик «Англия по пенальти в Мехико» идёт против 2200 м и фактора поля. Хозяин под грузом нации хрупок (Бразилия-2014), но высота и трибуны — реальный бамп Мексике.',
+        'Our pick «England on penalties in Mexico City» runs against 2,200 m and home advantage. A host under the weight of a nation is fragile (Brazil-2014), but altitude and the crowd are a real bump for Mexico.')],
+    [tr('🟡 Фавориты, ведущие и «садящиеся» на счёт', '🟡 Favourites who lead and «sit» on it'),
+     tr('Аргентина 2:0, Испания 2:0: после двух мячей фавориты часто отдают инициативу (Аргентина–Нидерланды-2022, камбэк до 2:2) → поздний гол и «обе забьют» у соперника недооценены.',
+        'Argentina 2-0, Spain 2-0: two goals up, favourites often cede the initiative (Argentina–Netherlands 2022, pegged back to 2-2) → a late goal and the opponent’s BTTS are underrated.')],
+  ];
+
   return (
     <div>
       <h1>{tr('Плей-офф · прогноз AI', 'Playoffs · AI forecast')}</h1>
@@ -200,7 +219,7 @@ export default function PlayoffsView() {
       <div className="po-champ">
         <span className="po-champ-cap">{tr('Прогноз AI', 'AI forecast')}</span>
         <span className="po-champ-row"><b>🏆 {tr('Чемпион', 'Champion')}:</b> <Flag cc="ar" /> {tr('Аргентина', 'Argentina')}</span>
-        <span className="po-champ-row sub"><b>{tr('Финал', 'Final')}:</b> {tr('Испания', 'Spain')} 1:1 (4:3 {tr('пен', 'pen')})</span>
+        <span className="po-champ-row sub"><b>{tr('Финал', 'Final')}:</b> {tr('Испания', 'Spain')} 1:1 {tr('Аргентина', 'Argentina')} · {tr('пен 3:4', 'pens 3:4')}</span>
         <span className="po-champ-row sub"><b>{tr('3-е место', 'Third')}:</b> <Flag cc="fr" /> {tr('Франция', 'France')}</span>
       </div>
 
@@ -251,6 +270,20 @@ export default function PlayoffsView() {
           ))}
           <div className="po-th-cut">{tr('Все восемь третьих прошли с 3–4 очками · посев официальный', 'All eight thirds advanced on 3–4 points · seeding official')}</div>
         </div>
+      </section>
+
+      <div className="sect"><span className="sect-label">{tr('Подводные камни · уроки прошлых ЧМ', 'Pitfalls · lessons from past World Cups')}</span></div>
+      <section className="block po-thoughts">
+        <p className="po-intro" style={{ marginTop: 0 }}>
+          {tr('Прогноз честно «по фаворитам», но история апсетов трёх последних ЧМ говорит: минимум один топ вылетит раньше, а поздняя стадия — серия монеток. Вот где наша сетка тоньше всего.',
+              'The forecast is honestly «chalk», but the upset history of the last three World Cups says at least one top side goes early, and the late stages are a run of coin-flips. Here is where our bracket is thinnest.')}
+        </p>
+        {RISKS.map(([h, b], i) => (
+          <div key={i} className="po-thought">
+            <div className="po-thought-h">{h}</div>
+            <div className="po-thought-b">{b}</div>
+          </div>
+        ))}
       </section>
 
       <div className="sect"><span className="sect-label">{tr('Расклады и мысли', 'Reads & thoughts')}</span></div>
