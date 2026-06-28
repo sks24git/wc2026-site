@@ -627,6 +627,10 @@ td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular
 .po-mb-score{margin-left:auto;font-size:9.5px;font-weight:800;color:var(--muted);letter-spacing:0;text-transform:none}
 .po-br-box.mb.pen .po-mb-score{color:var(--pasha)}
 .po-br-box.mb .po-team{font-size:12px;gap:6px;line-height:1.2;font-weight:600}
+.po-mb-meta{display:flex;align-items:center;gap:5px;font-size:8.5px;font-weight:600;color:var(--faint);line-height:1.1;margin:-1px 0 1px}
+.po-mb-dt{flex:none;font-variant-numeric:tabular-nums}
+.po-mb-venue{margin-left:auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.po-legend.mini{gap:12px;font-size:10.5px;margin:2px 0 4px}
 .po-br-box.mb .po-flag{width:18px;height:18px}
 .po-team.dim{opacity:.46}
 .po-team.w-ai{font-weight:800}

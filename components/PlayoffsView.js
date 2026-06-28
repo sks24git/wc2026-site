@@ -68,6 +68,44 @@ export default function PlayoffsView() {
     M103: P(T('Франция', 'France', 'fr'), T('Бразилия', 'Brazil', 'br'), 'a', '1:1 (4:3 пен)', 'pen', 'tossup'),
   };
 
+  // META[code] = дата+время (МСК), значок арены и погода.
+  // icon: 🏟 крыша/кондиц · ⛰ высота · ☀/⛅/🌧 открытый+погода. extra: высота/температура.
+  const V = (date, time, icon, ru, en, extra) => ({ date, time, icon, ru, en, extra });
+  const META = {
+    M73: V('28.06', '22:00', '🏟', 'Лос-Анджелес', 'Los Angeles', ''),
+    M74: V('29.06', '23:30', '🌧', 'Бостон', 'Boston', ' · 26°'),
+    M75: V('30.06', '04:00', '☀', 'Монтеррей', 'Monterrey', ' · 35°'),
+    M76: V('29.06', '20:00', '🏟', 'Хьюстон', 'Houston', ''),
+    M77: V('01.07', '00:00', '⛅', 'Нью-Йорк', 'New York', ' · 30°'),
+    M78: V('30.06', '20:00', '🏟', 'Даллас', 'Dallas', ''),
+    M79: V('01.07', '04:00', '⛰', 'Мехико', 'Mexico City', ' · 2200м'),
+    M80: V('01.07', '19:00', '🏟', 'Атланта', 'Atlanta', ''),
+    M81: V('02.07', '03:00', '☀', 'Санта-Клара', 'Santa Clara', ' · 27°'),
+    M82: V('01.07', '23:00', '⛅', 'Сиэтл', 'Seattle', ' · 24°'),
+    M83: V('03.07', '02:00', '🌧', 'Торонто', 'Toronto', ' · 26°'),
+    M84: V('02.07', '22:00', '🏟', 'Лос-Анджелес', 'Los Angeles', ''),
+    M85: V('03.07', '06:00', '🏟', 'Ванкувер', 'Vancouver', ''),
+    M86: V('04.07', '01:00', '🌧', 'Майами', 'Miami', ' · 32°'),
+    M87: V('04.07', '04:30', '🌧', 'Канзас-Сити', 'Kansas City', ' · 32°'),
+    M88: V('03.07', '21:00', '🏟', 'Даллас', 'Dallas', ''),
+    M89: V('05.07', '00:00', '🌧', 'Филадельфия', 'Philadelphia', ' · 31°'),
+    M90: V('04.07', '20:00', '🏟', 'Хьюстон', 'Houston', ''),
+    M91: V('05.07', '23:00', '⛅', 'Нью-Йорк', 'New York', ' · 30°'),
+    M92: V('06.07', '03:00', '⛰', 'Мехико', 'Mexico City', ' · 2200м'),
+    M93: V('06.07', '22:00', '🏟', 'Даллас', 'Dallas', ''),
+    M94: V('07.07', '03:00', '⛅', 'Сиэтл', 'Seattle', ' · 24°'),
+    M95: V('07.07', '19:00', '🏟', 'Атланта', 'Atlanta', ''),
+    M96: V('07.07', '23:00', '🏟', 'Ванкувер', 'Vancouver', ''),
+    M97: V('09.07', '23:00', '🌧', 'Бостон', 'Boston', ' · 26°'),
+    M98: V('10.07', '22:00', '🏟', 'Лос-Анджелес', 'Los Angeles', ''),
+    M99: V('12.07', '00:00', '🌧', 'Майами', 'Miami', ' · 32°'),
+    M100: V('12.07', '04:00', '🌧', 'Канзас-Сити', 'Kansas City', ' · 32°'),
+    M101: V('14.07', '22:00', '🏟', 'Даллас', 'Dallas', ''),
+    M102: V('15.07', '22:00', '🏟', 'Атланта', 'Atlanta', ''),
+    M103: V('19.07', '00:00', '🌧', 'Майами', 'Miami', ' · 32°'),
+    M104: V('19.07', '22:00', '⛅', 'Нью-Йорк', 'New York', ' · 30°'),
+  };
+
   // Раскладка полусеток (порядок ячеек = соседство пар для линий)
   const TOP = { side: 'top', r32: ['M74', 'M77', 'M73', 'M75', 'M83', 'M84', 'M81', 'M82'], r16: ['M89', 'M90', 'M93', 'M94'], qf: ['M97', 'M98'], sf: 'M101' };
   const BOTTOM = { side: 'bottom', r32: ['M76', 'M78', 'M79', 'M80', 'M86', 'M88', 'M85', 'M87'], r16: ['M91', 'M92', 'M95', 'M96'], qf: ['M99', 'M100'], sf: 'M102' };
@@ -91,9 +129,16 @@ export default function PlayoffsView() {
   function MatchBox({ code, kind }) {
     const p = PRED[code];
     if (!p) return null;
+    const m = META[code];
     return (
       <div className={'po-br-box mb ' + kind + (p.by === 'pen' ? ' pen' : '')}>
         <div className="po-br-tag"><span>{code}</span>{p.score && <span className="po-mb-score">{scoreText(p.score, lang)}</span>}</div>
+        {m && (
+          <div className="po-mb-meta">
+            <span className="po-mb-dt">{m.date} · {m.time}</span>
+            <span className="po-mb-venue">{m.icon} {tr(m.ru, m.en)}{m.extra}</span>
+          </div>
+        )}
         <TeamRow team={p.a} side="a" p={p} />
         <TeamRow team={p.b} side="b" p={p} />
       </div>
@@ -163,6 +208,11 @@ export default function PlayoffsView() {
         <span><i className="po-chip ai">AI</i> {tr('прогноз AI', 'AI pick')}</span>
         <span><i className="po-chip pa">П</i> {tr('Паша', 'Pasha')} <small>({tr('скоро', 'soon')})</small></span>
         <span><i className="po-chip fact">✓</i> {tr('факт', 'result')} <small>({tr('после матчей', 'after matches')})</small></span>
+      </div>
+      <div className="po-legend mini">
+        <span>🏟 {tr('крыша / кондиц.', 'roof / AC')}</span>
+        <span>⛰ {tr('высота', 'altitude')}</span>
+        <span>☀ ⛅ 🌧 {tr('погода — открытый стадион · время МСК', 'weather — open-air · times MSK')}</span>
       </div>
 
       <div className="sect"><span className="sect-label">{tr('Нижняя половина · мясорубка', 'Bottom half · the mincer')}</span></div>
