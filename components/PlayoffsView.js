@@ -215,11 +215,11 @@ export default function PlayoffsView() {
         <span>☀ ⛅ 🌧 {tr('погода — открытый стадион · время МСК', 'weather — open-air · times MSK')}</span>
       </div>
 
-      <div className="sect"><span className="sect-label">{tr('Нижняя половина · мясорубка', 'Bottom half · the mincer')}</span></div>
-      <Half cfg={BOTTOM} />
-
       <div className="sect"><span className="sect-label">{tr('Верхняя половина', 'Top half')}</span></div>
       <Half cfg={TOP} />
+
+      <div className="sect"><span className="sect-label">{tr('Нижняя половина · мясорубка', 'Bottom half · the mincer')}</span></div>
+      <Half cfg={BOTTOM} />
 
       <div className="sect"><span className="sect-label">{tr('Финал · MetLife · 19 июля', 'Final · MetLife · Jul 19')}</span></div>
       <section className="block po-br-final-wrap">
