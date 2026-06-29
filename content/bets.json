@@ -8202,7 +8202,7 @@
   {
     "id": 287,
     "side": "AI",
-    "date": "2026-06-30",
+    "date": "2026-06-29",
     "matchId": "netherlands-morocco",
     "type": "Х2",
     "tier": "green",
@@ -8219,7 +8219,7 @@
   {
     "id": 288,
     "side": "AI",
-    "date": "2026-06-30",
+    "date": "2026-06-29",
     "matchId": "netherlands-morocco",
     "type": "Другое",
     "tier": "yellow",
@@ -8236,7 +8236,7 @@
   {
     "id": 289,
     "side": "AI",
-    "date": "2026-06-30",
+    "date": "2026-06-29",
     "type": "Система",
     "tier": "red",
     "odds": 6.0,
@@ -8293,7 +8293,7 @@
   {
     "id": 292,
     "side": "Паша",
-    "date": "2026-06-30",
+    "date": "2026-06-29",
     "matchId": "netherlands-morocco",
     "type": "ОЗ",
     "tier": "green",
@@ -8311,7 +8311,7 @@
   {
     "id": 293,
     "side": "Паша",
-    "date": "2026-06-30",
+    "date": "2026-06-29",
     "type": "Экспресс",
     "tier": "red",
     "odds": 43.1,
