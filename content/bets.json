@@ -8253,5 +8253,81 @@
       "ru": "Постоянка дня (адаптирована под 3 матча): три узких нокаут-счёта, по одному на матч, нужно угадать минимум два. Бразилия 1:0, Германия 2:0, Нидерланды — Марокко 1:1.",
       "en": "The day's staple (adapted to a 3-match slate): three narrow knockout scores, one per game, need at least two to land. Brazil 1-0, Germany 2-0, Netherlands — Morocco 1-1."
     }
+  },
+  {
+    "id": 290,
+    "side": "Паша",
+    "date": "2026-06-29",
+    "matchId": "brazil-japan",
+    "type": "1Т-рынок",
+    "tier": "green",
+    "odds": 1.96,
+    "stake": 3000,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Бразилия — Япония", "en": "Brazil — Japan"},
+    "bet": {"ru": "Гол в каждом тайме", "en": "A goal in each half"},
+    "note": {
+      "ru": "Паша: чёткая тенденция — Бразилия решает в 1-м тайме, Япония героически забивает во 2-м (как обычно отыгрывается). Чистую победу Бразилии не берёт из-за отсутствия Раффиньи, заходит через «гол в каждом тайме».",
+      "en": "Pasha: a clear pattern — Brazil decide it in the first half, Japan heroically score in the second (their usual fightback). He avoids a straight Brazil win without Raphinha and plays it via a goal in each half."
+    }
+  },
+  {
+    "id": 291,
+    "side": "Паша",
+    "date": "2026-06-29",
+    "matchId": "germany-paraguay",
+    "type": "ИТ",
+    "tier": "green",
+    "odds": 1.86,
+    "stake": 3000,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Германия — Парагвай", "en": "Germany — Paraguay"},
+    "bet": {"ru": "ИТ Германии больше 2.0", "en": "Germany individual total over 2.0"},
+    "note": {
+      "ru": "Паша: оборона Парагвая — «результат географии», в Бостоне спустился с гор. Сядут в блок, Германии это на руку, лёгкая победа — хватит даже одного Сане. Берёт ИТ Германии больше 2.0 (целая линия — страхуется возвратом при ровно 2 голах). Точный счёт — 3:0.",
+      "en": "Pasha: Paraguay's defence is «a product of geography», off the mountains in Boston. They'll sit in a block, which suits Germany — Sané alone is enough for an easy win. He takes Germany's individual total over 2.0 (a whole line — insured by a refund on exactly 2). His exact score: 3-0."
+    }
+  },
+  {
+    "id": 292,
+    "side": "Паша",
+    "date": "2026-06-30",
+    "matchId": "netherlands-morocco",
+    "type": "ОЗ",
+    "tier": "green",
+    "odds": 1.84,
+    "stake": 3000,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"},
+    "bet": {"ru": "Обе забьют — да", "en": "Both teams to score — yes"},
+    "note": {
+      "ru": "Паша: для него Нидерланды — явный аутсайдер по игре и составу, медленно раскачиваются в жару. Чистую победу Марокко не берёт (могут уцепить ничью), но «забьют обе» — надёжно. Голов немного, максимум 3; точный счёт 1:2 (победа Марокко).",
+      "en": "Pasha: to him the Netherlands are the clear underdog by play and squad, slow to warm up in the heat. He avoids a straight Morocco win (they may nick a draw), but BTTS is solid. Few goals, 3 max; his exact score 1-2 (Morocco win)."
+    }
+  },
+  {
+    "id": 293,
+    "side": "Паша",
+    "date": "2026-06-30",
+    "type": "Экспресс",
+    "tier": "red",
+    "odds": 43.1,
+    "stake": 500,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Экспресс 3 исхода (лютый красный)", "en": "3-fold accumulator (the wild red)"},
+    "bet": {"ru": "сухая победа + точные счёта по трём матчам", "en": "win to nil + correct-score groups across three games"},
+    "legs": [
+      {"m": {"ru": "Германия — Парагвай", "en": "Germany — Paraguay"}, "p": {"ru": "Сухая победа Германии @2.14", "en": "Germany win to nil @2.14"}},
+      {"m": {"ru": "Бразилия — Япония", "en": "Brazil — Japan"}, "p": {"ru": "Точный счёт 1:0 / 2:0 / 3:0 @2.65", "en": "Correct score 1-0 / 2-0 / 3-0 @2.65"}},
+      {"m": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"}, "p": {"ru": "Точный счёт 1:2 / 1:3 / 1:4 @7.60", "en": "Correct score 1-2 / 1-3 / 1-4 @7.60"}}
+    ],
+    "note": {
+      "ru": "Паша, «лютый красный»: общий кэф 43.10. Германия всухую, Бразилия выигрывает 1:0/2:0/3:0, Марокко обыгрывает Нидерланды 2:1/3:1/4:1. Совпадает с его точными счетами (3:0 / 2:0 / 1:2). Всё или ничего.",
+      "en": "Pasha's «wild red»: combined odds 43.10. Germany to nil, Brazil to win 1-0/2-0/3-0, Morocco to beat the Netherlands 2-1/3-1/4-1. Matches his exact calls (3-0 / 2-0 / 1-2). All or nothing."
+    }
   }
 ]

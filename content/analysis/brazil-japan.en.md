@@ -21,4 +21,6 @@ _(odds — Fonbet's live line, 29.06)_
 - 🟢 **Brazil to win @1.72** — class and depth decide; without Kubo, Japan rarely beat a top side in regulation. The day's anchor on a result (diversifying from the unders elsewhere).
 - 🔴 In the 2/3 correct-score system — **Brazil 1-0** (the bracket's narrow modal score).
 
-**Pasha:** awaiting his call.
+**Pasha:**
+- 🟢 **A goal in each half @1.96** — his signature read: Brazil settle it in the first half, Japan heroically fight back in the second. He avoids a straight win without Raphinha. His exact score: 2-0.
+- 🔴 In the day's accumulator (the «wild red» @43.10): **Brazil 1-0 / 2-0 / 3-0**.

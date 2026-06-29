@@ -24,4 +24,6 @@ _(odds — Fonbet's live line, 29.06)_
 
 _The day's 2/3 correct-score system spans all three games — three narrow scores, one per game: Brazil 1-0, Germany 2-0, Netherlands — Morocco 1-1. You need at least two to land._
 
-**Pasha:** awaiting his call.
+**Pasha:**
+- 🟢 **Both teams to score — yes @1.84** — to him the Netherlands are the clear underdog by play and squad, slow to warm up in the heat. He avoids a straight Morocco win (they may nick a draw), but BTTS is solid. Few goals, 3 max; his exact score 1-2 (Morocco win).
+- 🔴 In the day's accumulator (the «wild red» @43.10): **Morocco 2-1 / 3-1 / 4-1** (scores of the 1-2/1-3/1-4 form).

@@ -22,4 +22,6 @@ _(odds — Fonbet's live line, 29.06)_
 - 🟢 **Under 2.5 @2.15** — Paraguay's block, two clean sheets, Germany's regression; the model gives the under ~60%. A clean low call.
 - 🔴 In the 2/3 correct-score system — **Germany 2-0**.
 
-**Pasha:** awaiting his call.
+**Pasha:**
+- 🟢 **Germany individual total over 2.0 @1.86** — Paraguay's defence is «a product of geography», off the mountains in Boston; they'll sit deep, an easy German win (Sané alone is enough). The whole line refunds on exactly 2. His exact score: 3-0.
+- 🔴 In the day's accumulator (the «wild red» @43.10): **Germany win to nil**.
