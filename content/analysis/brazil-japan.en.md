@@ -1,3 +1,13 @@
+## Result: Brazil 2-1 Japan (0-1)
+
+**A comeback in regulation — Brazil reach the round of 16.** Japan led (Sano, 29'); Brazil switched on in the second half: Casemiro (56') levelled and Martinelli (90+5') snatched it deep into added time. No extra time, no shootout. The "Brazil waste chances and labour against an equal" pattern held — but class still told at the death.
+
+**Settlement.** AI: ✓ **Brazil to win @1.72** — the day's anchor landed. In the correct-score system, Brazil 1-0 missed (it was 2-1), so the system stays open until the evening (needs Germany 2-0 + Netherlands 1-1). Pasha: ✓ **A goal in each half @1.96** — the script inverted (Japan scored first, Brazil fought back), but the market landed; the «wild red» accumulator died instantly — its «Brazil 1-0/2-0/3-0» leg failed.
+
+**Lesson.** Knockout correct scores are fragile to a late goal: both AI's 1-0 and Pasha's 1-0/2-0/3-0 corridor were killed by Martinelli's stoppage-time strike. Meanwhile "a goal in each half" proved robust to an inverted script — who scores first doesn't matter, only the distribution across the halves.
+
+---
+
 ## Brazil — Japan · 29.06, 20:00 MSK · NRG Stadium, Houston
 
 **Favourite vs discipline. Brazil are stronger and go through, but they're notorious for wastefulness; without Kubo, Japan sit in a block and counter. The roof is closed — no heat — so the only question is whether Brazil finish it inside 90.**

@@ -8174,12 +8174,12 @@
     "tier": "green",
     "odds": 1.72,
     "stake": 3000,
-    "status": "pending",
+    "status": "win",
     "match": {"ru": "Бразилия — Япония", "en": "Brazil — Japan"},
     "bet": {"ru": "Победа Бразилии", "en": "Brazil to win"},
     "note": {
-      "ru": "Класс и глубина решают; Япония без Кубо редко обыгрывает топ в основное время. Крыша закрыта — жары нет. Опора дня на исход (диверсификация от низов в других матчах).",
-      "en": "Class and depth decide; without Kubo, Japan rarely beat a top side in regulation. Roof closed — no heat. The day's anchor on a result (diversifying from the unders elsewhere)."
+      "ru": "✓ Бразилия 2:1 — волевая в основное время. Япония повела (Сано 29'), Каземиро (56') сравнял, Мартинелли (90+5') вырвал победу. Класс дожал без доп. времени — опора дня сыграла.",
+      "en": "✓ Brazil 2-1 — a comeback in regulation. Japan led (Sano 29'), Casemiro (56') levelled, Martinelli (90+5') snatched it. Class told without extra time — the day's anchor landed."
     }
   },
   {
@@ -8250,8 +8250,8 @@
       {"m": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"}, "p": {"ru": "1:1 @5.50", "en": "1-1 @5.50"}}
     ],
     "note": {
-      "ru": "Постоянка дня (адаптирована под 3 матча): три узких нокаут-счёта, по одному на матч, нужно угадать минимум два. Бразилия 1:0, Германия 2:0, Нидерланды — Марокко 1:1.",
-      "en": "The day's staple (adapted to a 3-match slate): three narrow knockout scores, one per game, need at least two to land. Brazil 1-0, Germany 2-0, Netherlands — Morocco 1-1."
+      "ru": "Бразилия 1:0 мимо (вышло 2:1). Для прохода системы нужны теперь ОБА оставшихся счёта: Германия 2:0 и Нидерланды — Марокко 1:1. Висит до вечерних матчей.",
+      "en": "Brazil 1-0 missed (it was 2-1). For the system to land it now needs BOTH remaining scores: Germany 2-0 and Netherlands — Morocco 1-1. Open until the evening games."
     }
   },
   {
@@ -8264,12 +8264,12 @@
     "odds": 1.96,
     "stake": 3000,
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "match": {"ru": "Бразилия — Япония", "en": "Brazil — Japan"},
     "bet": {"ru": "Гол в каждом тайме", "en": "A goal in each half"},
     "note": {
-      "ru": "Паша: чёткая тенденция — Бразилия решает в 1-м тайме, Япония героически забивает во 2-м (как обычно отыгрывается). Чистую победу Бразилии не берёт из-за отсутствия Раффиньи, заходит через «гол в каждом тайме».",
-      "en": "Pasha: a clear pattern — Brazil decide it in the first half, Japan heroically score in the second (their usual fightback). He avoids a straight Brazil win without Raphinha and plays it via a goal in each half."
+      "ru": "✓ Гол в 1-м тайме (Сано 29') и во 2-м (Каземиро 56', Мартинелли 90+5'). Сюжет инвертировался — первой забила Япония, отыгралась Бразилия, — но рынок зашёл.",
+      "en": "✓ A goal in the first half (Sano 29') and the second (Casemiro 56', Martinelli 90+5'). The script was inverted — Japan scored first, Brazil fought back — but the market landed."
     }
   },
   {
@@ -8317,7 +8317,7 @@
     "odds": 43.1,
     "stake": 500,
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "match": {"ru": "Экспресс 3 исхода (лютый красный)", "en": "3-fold accumulator (the wild red)"},
     "bet": {"ru": "сухая победа + точные счёта по трём матчам", "en": "win to nil + correct-score groups across three games"},
     "legs": [
@@ -8326,8 +8326,8 @@
       {"m": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"}, "p": {"ru": "Точный счёт 1:2 / 1:3 / 1:4 @7.60", "en": "Correct score 1-2 / 1-3 / 1-4 @7.60"}}
     ],
     "note": {
-      "ru": "Паша, «лютый красный»: общий кэф 43.10. Германия всухую, Бразилия выигрывает 1:0/2:0/3:0, Марокко обыгрывает Нидерланды 2:1/3:1/4:1. Совпадает с его точными счетами (3:0 / 2:0 / 1:2). Всё или ничего.",
-      "en": "Pasha's «wild red»: combined odds 43.10. Germany to nil, Brazil to win 1-0/2-0/3-0, Morocco to beat the Netherlands 2-1/3-1/4-1. Matches his exact calls (3-0 / 2-0 / 1-2). All or nothing."
+      "ru": "✗ Сгорел уже на первом матче: Бразилия выиграла 2:1, а нужен был сухой счёт 1:0/2:0/3:0 — экспресс мёртв, остальные позиции не важны.",
+      "en": "✗ Dead on the first game: Brazil won 2-1, but it needed a 1-0/2-0/3-0 — the accumulator is gone, the other legs no longer matter."
     }
   }
 ]
