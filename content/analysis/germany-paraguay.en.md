@@ -1,3 +1,23 @@
+## Result: Germany 1-1 Paraguay (0-1) — Paraguay win 4-3 on penalties, UPSET
+
+**Paraguay knocked Germany out of the tournament. 1-1 through regulation and extra time, 4-3 in the shootout (3-4 in home order). Enciso headed Paraguay ahead on 42', Havertz levelled on 54'. Then came the concrete block and the heroics of keeper Orlando Gill: in the shootout Germany botched three kicks (Havertz, Woltemade, Tah), and Canale buried the decisive penalty. Germany had ~79% possession in the first half but just 1.49 xG to 0.42 — the old disease of sterile possession. The first WC2026 tie to go to extra time.**
+
+- **Goals:** Enciso 42' (PAR, header, assist Galarza) → Havertz 54' (GER, header, assist Wirtz). Extra time goalless (a Germany goal was ruled out by VAR for a foul in the box).
+- **Shootout 4-3 Paraguay:** Germany scored through Kimmich, Musiala, Amiri; missed Havertz (Gill save), Woltemade, Tah. Paraguay scored through Mauricio, G. Gómez, Galarza, and the decisive Canale; Sanabria and Balbuena missed.
+- **Cards:** Cubas 65', Tah ~102', Musiala 110', Galarza 117' + a yellow for Nagelsmann. No red cards.
+- **xG:** Germany 1.49 — Paraguay 0.42 (FotMob).
+
+**Settlement (site battle):**
+- AI 🟢 **Under 2.5 @2.15 — WIN** (+3450): just 2 goals in regulation, the under landed exactly as projected (extra time and penalties don't count).
+- AI 🔴 System CS 2/3 — **LOSE** (−500): Brazil 1-0 missed + Germany 2-0 missed (1-1) → two of three gone, the pass is impossible.
+- Pasha 🟢 **Germany individual total over 2.0 @1.86 — LOSE** (−3000): Germany scored just 1 — no «easy win», the block and Gill held.
+- Pasha 🔴 «the wild red» — already dead on Brazil.
+- Match points: **AI +2950, Pasha −3000.**
+
+**Lesson:** «defence as a product of geography» (Pasha's thesis about Paraguay coming off the mountains) shattered against reality — a block plus a top keeper in a shootout beat the favourite's class. AI's under fired again on the «a sticky favourite bogs down against the bus» profile; the favourite's individual total for an «easy win» is a trap against a team that kept two straight clean sheets. Germany's regression (1-2 to Ecuador, no Schlotterbeck) was a real signal, not noise.
+
+---
+
 ## Germany — Paraguay · 29.06, 23:30 MSK · Gillette Stadium, Boston
 
 **A regressing favourite vs a concrete block. Germany are stronger going forward but lost to Ecuador with a full-strength side and are without Schlotterbeck; Paraguay grind — two clean sheets in a row. Expect a low game and a nervy narrow win.**

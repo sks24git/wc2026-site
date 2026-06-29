@@ -31,7 +31,7 @@ export default function PlayoffsView() {
   const PRED = {
     // ── 1/16 ──
     M73: { ...P(T('ЮАР', 'South Africa', 'za'), T('Канада', 'Canada', 'ca'), 'b', '0:1', 'reg', 'medium'), fact: 'b' },
-    M74: P(T('Германия', 'Germany', 'de'), T('Парагвай', 'Paraguay', 'py'), 'a', '2:1', 'reg', 'medium'),
+    M74: { ...P(T('Германия', 'Germany', 'de'), T('Парагвай', 'Paraguay', 'py'), 'a', '1:1, пен. 3:4', 'pen', 'medium'), fact: 'b' },
     M75: P(T('Нидерланды', 'Netherlands', 'nl'), T('Марокко', 'Morocco', 'ma'), 'a', '2:1 (доп. время)', 'aet', 'low'),
     M77: P(T('Франция', 'France', 'fr'), T('Швеция', 'Sweden', 'se'), 'a', '3:1', 'reg', 'high'),
     M81: P(T('США', 'USA', 'us'), T('Босния', 'Bosnia', 'ba'), 'a', '2:1', 'reg', 'high'),

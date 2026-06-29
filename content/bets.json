@@ -8191,12 +8191,12 @@
     "tier": "green",
     "odds": 2.15,
     "stake": 3000,
-    "status": "pending",
+    "status": "win",
     "match": {"ru": "Германия — Парагвай", "en": "Germany — Paraguay"},
     "bet": {"ru": "Тотал меньше 2.5", "en": "Under 2.5"},
     "note": {
-      "ru": "Блок Парагвая (два сухаря подряд), регресс Германии (1:2 Эквадору основой, нет Шлоттербека); модель даёт ТМ ~60%. Чистый низ.",
-      "en": "Paraguay's block (two straight clean sheets), Germany's regression (1-2 to Ecuador full-strength, no Schlotterbeck); the model gives the under ~60%. A clean low call."
+      "ru": "✓ В основное время 1:1 (всего 2 гола) — низ зашёл. Германия завязла об блок Парагвая ровно как закладывали; матч ушёл в доп. время и серию пенальти, но тотал считается по основному времени.",
+      "en": "✓ 1-1 in regulation (just 2 goals) — the under landed. Germany got bogged down against Paraguay's block exactly as projected; the tie went to extra time and a shootout, but the total counts regulation only."
     }
   },
   {
@@ -8241,7 +8241,7 @@
     "tier": "red",
     "odds": 6.0,
     "stake": 500,
-    "status": "pending",
+    "status": "lose",
     "match": {"ru": "Система 2/3 · точные счета", "en": "System 2/3 · correct scores"},
     "bet": {"ru": "точные счета по трём матчам", "en": "correct scores across three games"},
     "legs": [
@@ -8250,8 +8250,8 @@
       {"m": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"}, "p": {"ru": "1:1 @5.50", "en": "1-1 @5.50"}}
     ],
     "note": {
-      "ru": "Бразилия 1:0 мимо (вышло 2:1). Для прохода системы нужны теперь ОБА оставшихся счёта: Германия 2:0 и Нидерланды — Марокко 1:1. Висит до вечерних матчей.",
-      "en": "Brazil 1-0 missed (it was 2-1). For the system to land it now needs BOTH remaining scores: Germany 2-0 and Netherlands — Morocco 1-1. Open until the evening games."
+      "ru": "✗ Система мертва: Бразилия 1:0 мимо (2:1) и Германия 2:0 мимо (1:1 + пенальти) — из трёх счетов промахнулись два, до нужных «двух из трёх» не добрать, исход Нидерланды — Марокко уже не важен.",
+      "en": "✗ System dead: Brazil 1-0 missed (2-1) and Germany 2-0 missed (1-1 + penalties) — two of the three scores are gone, the needed «two of three» is unreachable, so Netherlands — Morocco no longer matters."
     }
   },
   {
@@ -8282,12 +8282,12 @@
     "odds": 1.86,
     "stake": 3000,
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "match": {"ru": "Германия — Парагвай", "en": "Germany — Paraguay"},
     "bet": {"ru": "ИТ Германии больше 2.0", "en": "Germany individual total over 2.0"},
     "note": {
-      "ru": "Паша: оборона Парагвая — «результат географии», в Бостоне спустился с гор. Сядут в блок, Германии это на руку, лёгкая победа — хватит даже одного Сане. Берёт ИТ Германии больше 2.0 (целая линия — страхуется возвратом при ровно 2 голах). Точный счёт — 3:0.",
-      "en": "Pasha: Paraguay's defence is «a product of geography», off the mountains in Boston. They'll sit in a block, which suits Germany — Sané alone is enough for an easy win. He takes Germany's individual total over 2.0 (a whole line — insured by a refund on exactly 2). His exact score: 3-0."
+      "ru": "✗ Германия забила всего 1 (Хаверц 54') — «лёгкой победы» не вышло, блок Парагвая и Гилл выстояли, немцы вылетели по пенальти. ИТ больше 2.0 не зашёл.",
+      "en": "✗ Germany scored just 1 (Havertz 54') — no «easy win»: Paraguay's block and Gill held, the Germans went out on penalties. Over 2.0 didn't land."
     }
   },
   {
