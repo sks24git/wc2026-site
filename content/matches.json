@@ -2136,5 +2136,41 @@
       "ru": "Первый матч на вылет. Канада острее в атаке и прилетела свежее, ЮАР сушит игру и верит во вратаря Уильямса в серии пенальти. Ждём низ и нервы.",
       "en": "The first knockout tie. Canada are sharper up front and arrived fresher; South Africa slow the game down and trust keeper Williams in a shootout. Expect a low, tense game."
     }
+  },
+  {
+    "id": "brazil-japan",
+    "date": "2026-06-29",
+    "timeMsk": "20:00",
+    "cc": ["br", "jp"],
+    "result": null,
+    "title": {"ru": "Бразилия — Япония", "en": "Brazil — Japan"},
+    "stage": {"ru": "Плей-офф · 1/16 финала", "en": "Knockout · Round of 32"},
+    "venue": {"ru": "NRG Stadium, Хьюстон", "en": "NRG Stadium, Houston"},
+    "weather": {"ru": "Раздвижная крыша + кондиционер — жара нейтрализована", "en": "Retractable roof + AC — heat neutralised"},
+    "lede": {"ru": "Бразилия — фаворит на классе, но славится транжирством и провалами в концовках. Дисциплинированная Япония наказывает на контратаке. Под крышей с кондеем жара не мешает — вопрос, дожмёт ли Бразилия за 90 минут.", "en": "Brazil are the favourites on class, but notorious for wastefulness and late wobbles. A disciplined Japan punish on the counter. Under a closed AC roof the heat is no factor — the question is whether Brazil finish it inside 90."}
+  },
+  {
+    "id": "germany-paraguay",
+    "date": "2026-06-29",
+    "timeMsk": "23:30",
+    "cc": ["de", "py"],
+    "result": null,
+    "title": {"ru": "Германия — Парагвай", "en": "Germany — Paraguay"},
+    "stage": {"ru": "Плей-офф · 1/16 финала", "en": "Knockout · Round of 32"},
+    "venue": {"ru": "Gillette Stadium, Бостон", "en": "Gillette Stadium, Boston"},
+    "weather": {"ru": "Открытый стадион, ~26°, возможен дождь", "en": "Open-air, ~26°C, rain possible"},
+    "lede": {"ru": "Германия мощнее в атаке, но нестабильна и едва спаслась на группе. Парагвай сушит игру, мало пропускает и тянет к низу и серии. Открытый Бостон, возможен дождь — ждём осторожный нокаут.", "en": "Germany are stronger going forward but erratic, and barely survived the group. Paraguay slow it down, concede little and drag games towards a shootout. Open-air Boston with rain about — expect a cautious knockout."}
+  },
+  {
+    "id": "netherlands-morocco",
+    "date": "2026-06-30",
+    "timeMsk": "04:00",
+    "cc": ["nl", "ma"],
+    "result": null,
+    "title": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"},
+    "stage": {"ru": "Плей-офф · 1/16 финала", "en": "Knockout · Round of 32"},
+    "venue": {"ru": "Estadio BBVA, Монтеррей", "en": "Estadio BBVA, Monterrey"},
+    "weather": {"ru": "Открытый стадион, тёплый вечер ~28-30°, высота ~540 м", "en": "Open-air, warm evening ~28-30°C, ~540 m altitude"},
+    "lede": {"ru": "Вывеска дня: беговой контроль Нидерландов против организованного блока Марокко — полуфиналиста-2022 с Буну в воротах. Тёплый вечер Монтеррея и почти равная линия: Марокко реально живо и тянет к серии.", "en": "The tie of the day: the Netherlands' controlled pressing against Morocco's organised block — the 2022 semifinalists with Bono in goal. A warm Monterrey evening and an almost level line: Morocco are genuinely alive and built to drag it to a shootout."}
   }
 ]

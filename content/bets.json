@@ -8164,5 +8164,95 @@
       "ru": "✗ Канада забила всего 1 (0:1) — ИТБ 1.5 мимо. Простая победа Канады зашла бы; жадность на лишний кэф стоила дня. AI на тех же низах выиграл.",
       "en": "✗ Canada scored just 1 (0-1) — over 1.5 missed. A plain Canada win would have landed; chasing the extra price cost the day. AI won on the very same low script."
     }
+  },
+  {
+    "id": 285,
+    "side": "AI",
+    "date": "2026-06-29",
+    "matchId": "brazil-japan",
+    "type": "П1",
+    "tier": "green",
+    "odds": 1.72,
+    "stake": 3000,
+    "status": "pending",
+    "match": {"ru": "Бразилия — Япония", "en": "Brazil — Japan"},
+    "bet": {"ru": "Победа Бразилии", "en": "Brazil to win"},
+    "note": {
+      "ru": "Класс и глубина решают; Япония без Кубо редко обыгрывает топ в основное время. Крыша закрыта — жары нет. Опора дня на исход (диверсификация от низов в других матчах).",
+      "en": "Class and depth decide; without Kubo, Japan rarely beat a top side in regulation. Roof closed — no heat. The day's anchor on a result (diversifying from the unders elsewhere)."
+    }
+  },
+  {
+    "id": 286,
+    "side": "AI",
+    "date": "2026-06-29",
+    "matchId": "germany-paraguay",
+    "type": "ТМ",
+    "tier": "green",
+    "odds": 2.15,
+    "stake": 3000,
+    "status": "pending",
+    "match": {"ru": "Германия — Парагвай", "en": "Germany — Paraguay"},
+    "bet": {"ru": "Тотал меньше 2.5", "en": "Under 2.5"},
+    "note": {
+      "ru": "Блок Парагвая (два сухаря подряд), регресс Германии (1:2 Эквадору основой, нет Шлоттербека); модель даёт ТМ ~60%. Чистый низ.",
+      "en": "Paraguay's block (two straight clean sheets), Germany's regression (1-2 to Ecuador full-strength, no Schlotterbeck); the model gives the under ~60%. A clean low call."
+    }
+  },
+  {
+    "id": 287,
+    "side": "AI",
+    "date": "2026-06-30",
+    "matchId": "netherlands-morocco",
+    "type": "Х2",
+    "tier": "green",
+    "odds": 1.65,
+    "stake": 3000,
+    "status": "pending",
+    "match": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"},
+    "bet": {"ru": "Двойной шанс: ничья или Марокко", "en": "Double chance: draw or Morocco"},
+    "note": {
+      "ru": "Жара садит беговой прессинг Нидерландов, блок Марокко + Буну. Линия почти монетка (Нидерланды лишь 2.25) — «Марокко не проигрывает в основное время» опора матча.",
+      "en": "The heat saps the Dutch running press; Morocco's block plus Bono. The line is near a coin-flip (Netherlands just 2.25) — \"Morocco don't lose in regulation\" is the anchor."
+    }
+  },
+  {
+    "id": 288,
+    "side": "AI",
+    "date": "2026-06-30",
+    "matchId": "netherlands-morocco",
+    "type": "Другое",
+    "tier": "yellow",
+    "odds": 4.8,
+    "stake": 1500,
+    "status": "pending",
+    "match": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"},
+    "bet": {"ru": "Будет серия пенальти", "en": "Penalty shootout — yes"},
+    "note": {
+      "ru": "Вязкий жаркий матч, блок Марокко и Буну-специалист, почти равная линия. «Не в основное время» ~35%, серия ~21% — рынок недооценивает шутаут под профиль матча.",
+      "en": "A sticky, hot game, Morocco's block and Bono the specialist, an almost level line. \"Not decided in 90\" ~35%, a shootout ~21% — the market underprices the shootout for this profile."
+    }
+  },
+  {
+    "id": 289,
+    "side": "AI",
+    "date": "2026-06-30",
+    "type": "Система",
+    "tier": "red",
+    "odds": 6.0,
+    "stake": 500,
+    "status": "pending",
+    "match": {"ru": "Система 2/4 · точные счета", "en": "System 2/4 · correct scores"},
+    "bet": {"ru": "точные счета по трём матчам", "en": "correct scores across three games"},
+    "legs": [
+      {"m": {"ru": "Бразилия — Япония", "en": "Brazil — Japan"}, "p": {"ru": "1:0 @6.00", "en": "1-0 @6.00"}},
+      {"m": {"ru": "Германия — Парагвай", "en": "Germany — Paraguay"}, "p": {"ru": "2:0 @6.00", "en": "2-0 @6.00"}},
+      {"m": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"}, "p": {"ru": "1:1 @5.50", "en": "1-1 @5.50"}},
+      {"m": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"}, "p": {"ru": "Марокко 1:0 @9.50", "en": "Morocco 1-0 @9.50"}}
+    ],
+    "note": {
+      "ru": "Постоянка дня: четыре узких нокаут-счёта по трём матчам, нужно угадать минимум два. Бразилия 1:0, Германия 2:0, Нидерланды — Марокко 1:1 и победа Марокко 1:0.",
+      "en": "The day's staple: four narrow knockout scores across three games, need at least two to land. Brazil 1-0, Germany 2-0, Netherlands — Morocco 1-1, and a 1-0 Morocco win."
+    }
   }
 ]
