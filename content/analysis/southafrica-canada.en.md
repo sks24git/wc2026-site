@@ -1,3 +1,13 @@
+## Result: South Africa 0:1 Canada
+
+**Canada reached the round of 16 — but only just outlasted South Africa.** Eustáquio drilled one in from outside the box in second-half stoppage time (90'+2) — the only goal of the night. Until then South Africa sat on zero, genuinely strangling the game (xG ~0.1 to Canada's ~1.3) and dragging it towards the shootout they'd planned for. VAR overturned a first-half penalty for Canada. No extra time, no shootout — the late goal settled it.
+
+**Settlement.** AI's best night: the **0-1 correct score landed @6.00** (our bracket pick and the model's top score) plus **Under 2.5 @1.72** — both spot on. Two red branches burned: the penalty shootout (Canada finished it in regulation) and yellow cards over 3.5 (referee Pinheiro was unexpectedly lenient — few cards). AI's day in profit. **Pasha got greedy**: instead of a plain Canada win (which would have landed) he took Canada over 1.5 @2.13 — Canada scored only once, so it lost. He's angry at himself for chasing the extra price.
+
+**Lesson.** A favourite's late winner in the knockouts is a signature script of this water-break World Cup: the breaks fragment the pressure, and a low-block underdog holds on longer (Pasha nailed it — «the water break lets underdogs survive longer»). Under plus a narrow one-goal favourite win is a working combo for these games. The "strict referee" cards angle didn't pay this time — in a cautious knockout with no open roughness, there were few fouls.
+
+---
+
 ## South Africa — Canada · 28.06, 22:00 MSK · SoFi Stadium, Los Angeles
 
 **The first knockout tie. Canada are the favourites on class and freshness; South Africa slow it down and bank on keeper Williams in a shootout. The script: low and tense.**

@@ -8058,7 +8058,7 @@
     "tier": "green",
     "odds": 1.72,
     "stake": 3000,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "ЮАР — Канада",
       "en": "South Africa — Canada"
@@ -8068,8 +8068,8 @@
       "en": "Under 2.5"
     },
     "note": {
-      "ru": "Опора дня: нокаут + анемичная атака ЮАР (0/1/1 гол за группу) + Канада ≤2 в 8 из 9 матчей. Заходит и на узкой победе Канады, и на ничьей с серией.",
-      "en": "Anchor of the day: knockout caution + South Africa's toothless attack (0/1/1 goals in the group) + Canada ≤2 in 8 of 9. Lands on a narrow Canada win and on a draw-to-shootout alike."
+      "ru": "✅ 0:1 — всего 1 гол, низ зашёл с запасом. Опора дня сработала: ЮАР висела на нуле, Канада дожала лишь в компенсации.",
+      "en": "✅ 0-1 — just 1 goal, the under landed comfortably. The anchor worked: South Africa held zero, Canada broke through only in stoppage time."
     }
   },
   {
@@ -8081,7 +8081,7 @@
     "tier": "red",
     "odds": 6.0,
     "stake": 500,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "ЮАР — Канада",
       "en": "South Africa — Canada"
@@ -8091,8 +8091,8 @@
       "en": "Correct score 0-1 (Canada)"
     },
     "note": {
-      "ru": "Наш пик сетки на M73 и топ-счёт модели (~20%): узкая победа Канады на классе и прессинге.",
-      "en": "Our bracket pick for M73 and the model's top score (~20%): a narrow Canada win on class and pressing."
+      "ru": "🎯 В ТОЧКУ! 0:1 — ровно наш пик сетки и топ-счёт модели. Эустакио из-за штрафной на 90'+2. +2500₽.",
+      "en": "🎯 NAILED IT! 0-1 — exactly our bracket pick and the model's top score. Eustáquio from outside the box at 90'+2. +2500₽."
     }
   },
   {
@@ -8104,7 +8104,7 @@
     "tier": "yellow",
     "odds": 2.0,
     "stake": 1500,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "ЮАР — Канада",
       "en": "South Africa — Canada"
@@ -8114,8 +8114,8 @@
       "en": "Total yellow cards over 3.5"
     },
     "note": {
-      "ru": "Строгий судья Пиньейру (~5 жёлтых за матч) + нокаут-напряг + низкий блок ЮАР фолит под срыв прессинга Канады. Линия дала ровную монетку — это перекос в нашу сторону.",
-      "en": "Strict referee Pinheiro (~5 yellows per game) + knockout tension + South Africa's low block fouling to stop Canada's press. The market priced it as a coin flip — that's an edge our way."
+      "ru": "✗ Всего 2 жёлтых (обе у Канады) — нужно было ≥4. «Строгий» Пиньейру в осторожном нокауте без открытой грубости карт почти не доставал. Урок: репутация судьи ≠ карты без фолового матча.",
+      "en": "✗ Only 2 yellows (both Canada) — needed ≥4. The 'strict' Pinheiro barely reached for cards in a cautious knockout with no open roughness. Lesson: a referee's reputation ≠ cards without a foul-heavy game."
     }
   },
   {
@@ -8127,7 +8127,7 @@
     "tier": "red",
     "odds": 5.7,
     "stake": 500,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "ЮАР — Канада",
       "en": "South Africa — Canada"
@@ -8137,8 +8137,8 @@
       "en": "Penalty shootout — yes"
     },
     "note": {
-      "ru": "Вратарь ЮАР Уильямс — специалист по сериям (4 сэйва на КАН-2023), весь план южноафриканцев — дотащить до точки. Обе осторожны. Взаимоисключает с точным счётом 0:1 — ветки покрыты.",
-      "en": "South Africa's keeper Williams is a shootout specialist (4 saves at AFCON 2023) and their whole plan is to drag it to spot-kicks. Both sides cautious. Mutually exclusive with the 0-1 correct score — both branches covered."
+      "ru": "✗ Серии не было — Канада дожала в основное время (90'+2). Хедж от 0:1, и именно 0:1 зашло. −500₽.",
+      "en": "✗ No shootout — Canada finished it in regulation (90'+2). This hedged the 0-1, and the 0-1 is exactly what landed. −500₽."
     }
   },
   {
@@ -8151,7 +8151,7 @@
     "odds": 2.13,
     "stake": 3000,
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "ЮАР — Канада",
       "en": "South Africa — Canada"
@@ -8161,8 +8161,8 @@
       "en": "Canada individual total over 1.5"
     },
     "note": {
-      "ru": "Паша: «зачем-то жадничаю — ради лишнего кэфа вместо простой победы Канады беру их ИТБ 1.5 @ 2.13». Ставит, что атака Канады (Дэвид, Ларин) вскроет ЮАР на 2+. Прямой клинч с AI: точный счёт 0:1 и низ ТМ2.5 требуют, чтобы Канада НЕ разгулялась.",
-      "en": "Pasha: «greedy for no reason — instead of a plain Canada win I'm taking their over 1.5 @ 2.13 for the extra price». He backs Canada's attack (David, Larin) to crack South Africa open for 2+. A direct clash with AI: the 0-1 correct score and Under 2.5 both need Canada NOT to run riot."
+      "ru": "✗ Канада забила всего 1 (0:1) — ИТБ 1.5 мимо. Простая победа Канады зашла бы; жадность на лишний кэф стоила дня. AI на тех же низах выиграл.",
+      "en": "✗ Canada scored just 1 (0-1) — over 1.5 missed. A plain Canada win would have landed; chasing the extra price cost the day. AI won on the very same low script."
     }
   }
 ]
