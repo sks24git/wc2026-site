@@ -8242,17 +8242,16 @@
     "odds": 6.0,
     "stake": 500,
     "status": "pending",
-    "match": {"ru": "Система 2/4 · точные счета", "en": "System 2/4 · correct scores"},
+    "match": {"ru": "Система 2/3 · точные счета", "en": "System 2/3 · correct scores"},
     "bet": {"ru": "точные счета по трём матчам", "en": "correct scores across three games"},
     "legs": [
       {"m": {"ru": "Бразилия — Япония", "en": "Brazil — Japan"}, "p": {"ru": "1:0 @6.00", "en": "1-0 @6.00"}},
       {"m": {"ru": "Германия — Парагвай", "en": "Germany — Paraguay"}, "p": {"ru": "2:0 @6.00", "en": "2-0 @6.00"}},
-      {"m": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"}, "p": {"ru": "1:1 @5.50", "en": "1-1 @5.50"}},
-      {"m": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"}, "p": {"ru": "Марокко 1:0 @9.50", "en": "Morocco 1-0 @9.50"}}
+      {"m": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"}, "p": {"ru": "1:1 @5.50", "en": "1-1 @5.50"}}
     ],
     "note": {
-      "ru": "Постоянка дня: четыре узких нокаут-счёта по трём матчам, нужно угадать минимум два. Бразилия 1:0, Германия 2:0, Нидерланды — Марокко 1:1 и победа Марокко 1:0.",
-      "en": "The day's staple: four narrow knockout scores across three games, need at least two to land. Brazil 1-0, Germany 2-0, Netherlands — Morocco 1-1, and a 1-0 Morocco win."
+      "ru": "Постоянка дня (адаптирована под 3 матча): три узких нокаут-счёта, по одному на матч, нужно угадать минимум два. Бразилия 1:0, Германия 2:0, Нидерланды — Марокко 1:1.",
+      "en": "The day's staple (adapted to a 3-match slate): three narrow knockout scores, one per game, need at least two to land. Brazil 1-0, Germany 2-0, Netherlands — Morocco 1-1."
     }
   }
 ]

@@ -20,8 +20,8 @@ _(odds — Fonbet's live line, 29.06)_
 **AI:**
 - 🟢 **Double chance: draw or Morocco @1.65** — the heat saps the Dutch press, Morocco's block plus Bono; with an almost level line, "Morocco don't lose in regulation" is the anchor.
 - 🟡 **Penalty shootout — yes @4.80** — a sticky, hot game, Bono the specialist, a coin-flip line → the shootout is underpriced.
-- 🔴 In the 2/4 correct-score system — **1-1** and **Morocco 1-0**.
+- 🔴 In the 2/3 correct-score system — **1-1** (a narrow knockout corridor; one score per game in the system).
 
-_The day's 2/4 correct-score system spans all three games — four narrow scores: Brazil 1-0, Germany 2-0, Netherlands — Morocco 1-1, and a 1-0 Morocco win. You need at least two to land._
+_The day's 2/3 correct-score system spans all three games — three narrow scores, one per game: Brazil 1-0, Germany 2-0, Netherlands — Morocco 1-1. You need at least two to land._
 
 **Pasha:** awaiting his call.

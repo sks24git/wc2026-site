@@ -20,6 +20,6 @@ _(odds — Fonbet's live line, 29.06)_
 
 **AI:**
 - 🟢 **Under 2.5 @2.15** — Paraguay's block, two clean sheets, Germany's regression; the model gives the under ~60%. A clean low call.
-- 🔴 In the 2/4 correct-score system — **Germany 2-0**.
+- 🔴 In the 2/3 correct-score system — **Germany 2-0**.
 
 **Pasha:** awaiting his call.
