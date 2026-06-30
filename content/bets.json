@@ -8350,7 +8350,7 @@
   {
     "id": 295,
     "side": "AI",
-    "date": "2026-07-01",
+    "date": "2026-06-30",
     "matchId": "france-sweden",
     "type": "АФ",
     "tier": "green",
@@ -8367,7 +8367,7 @@
   {
     "id": 296,
     "side": "AI",
-    "date": "2026-07-01",
+    "date": "2026-06-30",
     "matchId": "mexico-ecuador",
     "type": "ТМ",
     "tier": "green",
@@ -8384,7 +8384,7 @@
   {
     "id": 297,
     "side": "AI",
-    "date": "2026-07-01",
+    "date": "2026-06-30",
     "matchId": "mexico-ecuador",
     "type": "Другое",
     "tier": "yellow",
@@ -8401,7 +8401,7 @@
   {
     "id": 298,
     "side": "AI",
-    "date": "2026-07-01",
+    "date": "2026-06-30",
     "matchId": "france-sweden",
     "type": "ТБ",
     "tier": "yellow",
@@ -8418,7 +8418,7 @@
   {
     "id": 299,
     "side": "AI",
-    "date": "2026-07-01",
+    "date": "2026-06-30",
     "type": "Система",
     "tier": "red",
     "odds": 6.0,
@@ -8456,7 +8456,7 @@
   {
     "id": 301,
     "side": "Паша",
-    "date": "2026-07-01",
+    "date": "2026-06-30",
     "matchId": "france-sweden",
     "type": "ОЗ",
     "tier": "green",
@@ -8473,7 +8473,7 @@
   {
     "id": 302,
     "side": "Паша",
-    "date": "2026-07-01",
+    "date": "2026-06-30",
     "matchId": "mexico-ecuador",
     "type": "П1",
     "tier": "green",
@@ -8490,7 +8490,7 @@
   {
     "id": 303,
     "side": "Паша",
-    "date": "2026-07-01",
+    "date": "2026-06-30",
     "type": "Экспресс",
     "tier": "red",
     "odds": 6.29,
