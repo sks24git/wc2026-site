@@ -8329,5 +8329,184 @@
       "ru": "✗ Сгорел уже на первом матче: Бразилия выиграла 2:1, а нужен был сухой счёт 1:0/2:0/3:0 — экспресс мёртв, остальные позиции не важны.",
       "en": "✗ Dead on the first game: Brazil won 2-1, but it needed a 1-0/2-0/3-0 — the accumulator is gone, the other legs no longer matter."
     }
+  },
+  {
+    "id": 294,
+    "side": "AI",
+    "date": "2026-06-30",
+    "matchId": "ivorycoast-norway",
+    "type": "ОЗ",
+    "tier": "green",
+    "odds": 1.70,
+    "stake": 3000,
+    "status": "pending",
+    "match": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"},
+    "bet": {"ru": "Обе забьют — да", "en": "Both teams to score — yes"},
+    "note": {
+      "ru": "Оборона Норвегии течёт всем подряд (пропускали Ираку и Сенегалу), а Кот-д'Ивуар цепляется за свой гол даже против топов (Кессие Германии). xG почти равны, матч близкий — прямое выражение профиля обеих.",
+      "en": "Norway's defence leaks to everyone (conceded to Iraq and Senegal), and Côte d'Ivoire cling to a goal even against top sides (Kessié vs Germany). The xG are level and the game is tight — a direct read of both profiles."
+    }
+  },
+  {
+    "id": 295,
+    "side": "AI",
+    "date": "2026-07-01",
+    "matchId": "france-sweden",
+    "type": "АФ",
+    "tier": "green",
+    "odds": 1.82,
+    "stake": 3000,
+    "status": "pending",
+    "match": {"ru": "Франция — Швеция", "en": "France — Sweden"},
+    "bet": {"ru": "Фора Франции −1.5", "en": "France −1.5 handicap"},
+    "note": {
+      "ru": "Пропасть в классе (1.30 против 11.0), у Швеции худшая оборона среди вышедших (1:5 Нидерландам, 7 пропущенных) + травмирован Хиен. Франция выиграла все матчи группы; модальный счёт 3:1/2:0 проходит фору.",
+      "en": "A chasm in class (1.30 vs 11.0), Sweden the worst defence of any qualifier (1-5 to the Netherlands, 7 conceded) + Hien injured. France won every group game; a modal 3-1/2-0 covers the line."
+    }
+  },
+  {
+    "id": 296,
+    "side": "AI",
+    "date": "2026-07-01",
+    "matchId": "mexico-ecuador",
+    "type": "ТМ",
+    "tier": "green",
+    "odds": 1.75,
+    "stake": 3000,
+    "status": "pending",
+    "match": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"},
+    "bet": {"ru": "Тотал меньше 2.0", "en": "Under 2.0"},
+    "note": {
+      "ru": "Две топ-обороны (Мексика 3 сухаря, Эквадор 3 пропущенных за 14 матчей) и две беззубые атаки; консенсус трёх превью — 1:0/0:0. Целая линия 2.0 страхует возвратом при ровно 2 голах — 1:1 нас не убивает.",
+      "en": "Two elite defences (Mexico three clean sheets, Ecuador 3 conceded in 14 games) and two toothless attacks; three previews agree on 1-0/0-0. The whole line of 2.0 refunds on exactly 2 goals — a 1-1 doesn't kill us."
+    }
+  },
+  {
+    "id": 297,
+    "side": "AI",
+    "date": "2026-07-01",
+    "matchId": "mexico-ecuador",
+    "type": "Другое",
+    "tier": "yellow",
+    "odds": 4.20,
+    "stake": 1500,
+    "status": "pending",
+    "match": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"},
+    "bet": {"ru": "Будет серия пенальти", "en": "Penalty shootout — yes"},
+    "note": {
+      "ru": "Гриндом в серию — профиль ровно как Нидерланды — Марокко (зашло @4.80). Слабейшие атаки слейта, обе обороны топ, ничья в основное весьма вероятна; рынок «не в осн. время» сам даёт 2.70.",
+      "en": "A grind to a shootout — exactly the Netherlands — Morocco profile (which landed @4.80). The weakest attacks of the slate, two elite defences, a regulation draw very much in play; the market's own «not in 90» is 2.70."
+    }
+  },
+  {
+    "id": 298,
+    "side": "AI",
+    "date": "2026-07-01",
+    "matchId": "france-sweden",
+    "type": "ТБ",
+    "tier": "yellow",
+    "odds": 3.50,
+    "stake": 1500,
+    "status": "pending",
+    "match": {"ru": "Франция — Швеция", "en": "France — Sweden"},
+    "bet": {"ru": "Тотал больше 4.5", "en": "Over 4.5"},
+    "note": {
+      "ru": "Гол-фест: огневая мощь Франции + катастрофа в обороне Швеции (Хиен выбыл) + своя атака шведов (Исак/Гьёкереш). Хвостовая позиция, но строго на профиле матча худшей обороны турнира.",
+      "en": "A goal-fest: France's firepower + Sweden's defensive shambles (Hien out) + Sweden's own attack (Isak/Gyökeres). A tail bet, but squarely on the profile of the tournament's worst defence."
+    }
+  },
+  {
+    "id": 299,
+    "side": "AI",
+    "date": "2026-07-01",
+    "type": "Система",
+    "tier": "red",
+    "odds": 6.0,
+    "stake": 500,
+    "status": "pending",
+    "match": {"ru": "Система 2/3 · точные счета", "en": "System 2/3 · correct scores"},
+    "bet": {"ru": "точные счета по трём матчам", "en": "correct scores across three games"},
+    "legs": [
+      {"m": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"}, "p": {"ru": "1:2 (Норвегия) @8.50", "en": "1-2 (Norway) @8.50"}},
+      {"m": {"ru": "Франция — Швеция", "en": "France — Sweden"}, "p": {"ru": "2:1 @9.00", "en": "2-1 @9.00"}},
+      {"m": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"}, "p": {"ru": "1:0 @5.00", "en": "1-0 @5.00"}}
+    ],
+    "note": {
+      "ru": "Постоянка слейта (ТС-система). Узкие нокаут-коридоры по одному счёту на матч; нужно ≥2 из 3 совпадений. Резолвится 01.07.",
+      "en": "The slate staple (correct-score system). Tight knockout corridors, one score per game; needs ≥2 of 3 to hit. Resolves on 01.07."
+    }
+  },
+  {
+    "id": 300,
+    "side": "Паша",
+    "date": "2026-06-30",
+    "matchId": "ivorycoast-norway",
+    "type": "П2",
+    "tier": "green",
+    "odds": 2.15,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"},
+    "bet": {"ru": "Победа Норвегии", "en": "Norway win"},
+    "note": {
+      "ru": "Паша: класс решает — Холанд и Эдегор свежие после ротации, а атака Кот-д'Ивуара без чистой девятки беззуба. Дожмут заряженных норвежцев. Точный счёт — 2:1.",
+      "en": "Pasha: class decides — Haaland and Ødegaard fresh after a rest, while Côte d'Ivoire's attack without a striker is toothless. The charged-up Norwegians grind it out. Exact score: 2-1."
+    }
+  },
+  {
+    "id": 301,
+    "side": "Паша",
+    "date": "2026-07-01",
+    "matchId": "france-sweden",
+    "type": "ОЗ",
+    "tier": "green",
+    "odds": 1.80,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Франция — Швеция", "en": "France — Sweden"},
+    "bet": {"ru": "Обе забьют — да", "en": "Both teams to score — yes"},
+    "note": {
+      "ru": "Паша: голы с обеих сторон неизбежны — Исак и Гьёкереш вскроют кого угодно, а Франция и так насыплет. Точный счёт — 3:1.",
+      "en": "Pasha: goals at both ends are inevitable — Isak and Gyökeres crack anyone, and France pile them on regardless. Exact score: 3-1."
+    }
+  },
+  {
+    "id": 302,
+    "side": "Паша",
+    "date": "2026-07-01",
+    "matchId": "mexico-ecuador",
+    "type": "П1",
+    "tier": "green",
+    "odds": 2.25,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"},
+    "bet": {"ru": "Победа Мексики", "en": "Mexico win"},
+    "note": {
+      "ru": "Паша: дома на Ацтеке класс хозяев решит против команды, которая не умеет забивать (ноль голов от центрфорварда весь груп-этап). Узкая победа. Точный счёт — 1:0.",
+      "en": "Pasha: at home on the Azteca the hosts' class decides against a side that can't score (zero centre-forward goals all group stage). A narrow win. Exact score: 1-0."
+    }
+  },
+  {
+    "id": 303,
+    "side": "Паша",
+    "date": "2026-07-01",
+    "type": "Экспресс",
+    "tier": "red",
+    "odds": 6.29,
+    "stake": 500,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Экспресс 3 исхода (лютый красный)", "en": "3-fold accumulator (the wild red)"},
+    "bet": {"ru": "три фаворита побеждают", "en": "all three favourites win"},
+    "legs": [
+      {"m": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"}, "p": {"ru": "Победа Норвегии @2.15", "en": "Norway win @2.15"}},
+      {"m": {"ru": "Франция — Швеция", "en": "France — Sweden"}, "p": {"ru": "Победа Франции @1.30", "en": "France win @1.30"}},
+      {"m": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"}, "p": {"ru": "Победа Мексики @2.25", "en": "Mexico win @2.25"}}
+    ],
+    "note": {
+      "ru": "Пашин азарт: все три фаворита берут своё в основное время. Любая осечка (а матчи закрытые — Норвегия лишь ~46%, Мексика в грязный низ) убивает экспресс.",
+      "en": "Pasha's gamble: all three favourites win in regulation. Any slip (and these are closed games — Norway only ~46%, Mexico into a scrappy low) kills the accumulator."
+    }
   }
 ]
