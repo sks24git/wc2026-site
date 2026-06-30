@@ -2141,72 +2141,180 @@
     "id": "brazil-japan",
     "date": "2026-06-29",
     "timeMsk": "20:00",
-    "cc": ["br", "jp"],
+    "cc": [
+      "br",
+      "jp"
+    ],
     "result": "2:1 (0:1)",
-    "title": {"ru": "Бразилия — Япония", "en": "Brazil — Japan"},
-    "stage": {"ru": "Плей-офф · 1/16 финала", "en": "Knockout · Round of 32"},
-    "venue": {"ru": "NRG Stadium, Хьюстон", "en": "NRG Stadium, Houston"},
-    "weather": {"ru": "Раздвижная крыша + кондиционер — жара нейтрализована", "en": "Retractable roof + AC — heat neutralised"},
-    "lede": {"ru": "Бразилия — фаворит на классе, но славится транжирством и провалами в концовках. Дисциплинированная Япония наказывает на контратаке. Под крышей с кондеем жара не мешает — вопрос, дожмёт ли Бразилия за 90 минут.", "en": "Brazil are the favourites on class, but notorious for wastefulness and late wobbles. A disciplined Japan punish on the counter. Under a closed AC roof the heat is no factor — the question is whether Brazil finish it inside 90."}
+    "title": {
+      "ru": "Бразилия — Япония",
+      "en": "Brazil — Japan"
+    },
+    "stage": {
+      "ru": "Плей-офф · 1/16 финала",
+      "en": "Knockout · Round of 32"
+    },
+    "venue": {
+      "ru": "NRG Stadium, Хьюстон",
+      "en": "NRG Stadium, Houston"
+    },
+    "weather": {
+      "ru": "Раздвижная крыша + кондиционер — жара нейтрализована",
+      "en": "Retractable roof + AC — heat neutralised"
+    },
+    "lede": {
+      "ru": "Бразилия — фаворит на классе, но славится транжирством и провалами в концовках. Дисциплинированная Япония наказывает на контратаке. Под крышей с кондеем жара не мешает — вопрос, дожмёт ли Бразилия за 90 минут.",
+      "en": "Brazil are the favourites on class, but notorious for wastefulness and late wobbles. A disciplined Japan punish on the counter. Under a closed AC roof the heat is no factor — the question is whether Brazil finish it inside 90."
+    }
   },
   {
     "id": "germany-paraguay",
     "date": "2026-06-29",
     "timeMsk": "23:30",
-    "cc": ["de", "py"],
+    "cc": [
+      "de",
+      "py"
+    ],
     "result": "1:1 пен. 3:4 (0:1)",
-    "title": {"ru": "Германия — Парагвай", "en": "Germany — Paraguay"},
-    "stage": {"ru": "Плей-офф · 1/16 финала", "en": "Knockout · Round of 32"},
-    "venue": {"ru": "Gillette Stadium, Бостон", "en": "Gillette Stadium, Boston"},
-    "weather": {"ru": "Открытый стадион, ~26°, возможен дождь", "en": "Open-air, ~26°C, rain possible"},
-    "lede": {"ru": "Германия мощнее в атаке, но нестабильна и едва спаслась на группе. Парагвай сушит игру, мало пропускает и тянет к низу и серии. Открытый Бостон, возможен дождь — ждём осторожный нокаут.", "en": "Germany are stronger going forward but erratic, and barely survived the group. Paraguay slow it down, concede little and drag games towards a shootout. Open-air Boston with rain about — expect a cautious knockout."}
+    "title": {
+      "ru": "Германия — Парагвай",
+      "en": "Germany — Paraguay"
+    },
+    "stage": {
+      "ru": "Плей-офф · 1/16 финала",
+      "en": "Knockout · Round of 32"
+    },
+    "venue": {
+      "ru": "Gillette Stadium, Бостон",
+      "en": "Gillette Stadium, Boston"
+    },
+    "weather": {
+      "ru": "Открытый стадион, ~26°, возможен дождь",
+      "en": "Open-air, ~26°C, rain possible"
+    },
+    "lede": {
+      "ru": "Германия мощнее в атаке, но нестабильна и едва спаслась на группе. Парагвай сушит игру, мало пропускает и тянет к низу и серии. Открытый Бостон, возможен дождь — ждём осторожный нокаут.",
+      "en": "Germany are stronger going forward but erratic, and barely survived the group. Paraguay slow it down, concede little and drag games towards a shootout. Open-air Boston with rain about — expect a cautious knockout."
+    }
   },
   {
     "id": "netherlands-morocco",
     "date": "2026-06-30",
     "timeMsk": "04:00",
-    "cc": ["nl", "ma"],
+    "cc": [
+      "nl",
+      "ma"
+    ],
     "result": "1:1 пен. 2:3 (0:0)",
-    "title": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"},
-    "stage": {"ru": "Плей-офф · 1/16 финала", "en": "Knockout · Round of 32"},
-    "venue": {"ru": "Estadio BBVA, Монтеррей", "en": "Estadio BBVA, Monterrey"},
-    "weather": {"ru": "Открытый стадион, тёплый вечер ~28-30°, высота ~540 м", "en": "Open-air, warm evening ~28-30°C, ~540 m altitude"},
-    "lede": {"ru": "Вывеска дня: беговой контроль Нидерландов против организованного блока Марокко — полуфиналиста-2022 с Буну в воротах. Тёплый вечер Монтеррея и почти равная линия: Марокко реально живо и тянет к серии.", "en": "The tie of the day: the Netherlands' controlled pressing against Morocco's organised block — the 2022 semifinalists with Bono in goal. A warm Monterrey evening and an almost level line: Morocco are genuinely alive and built to drag it to a shootout."}
+    "title": {
+      "ru": "Нидерланды — Марокко",
+      "en": "Netherlands — Morocco"
+    },
+    "stage": {
+      "ru": "Плей-офф · 1/16 финала",
+      "en": "Knockout · Round of 32"
+    },
+    "venue": {
+      "ru": "Estadio BBVA, Монтеррей",
+      "en": "Estadio BBVA, Monterrey"
+    },
+    "weather": {
+      "ru": "Открытый стадион, тёплый вечер ~28-30°, высота ~540 м",
+      "en": "Open-air, warm evening ~28-30°C, ~540 m altitude"
+    },
+    "lede": {
+      "ru": "Вывеска дня: беговой контроль Нидерландов против организованного блока Марокко — полуфиналиста-2022 с Буну в воротах. Тёплый вечер Монтеррея и почти равная линия: Марокко реально живо и тянет к серии.",
+      "en": "The tie of the day: the Netherlands' controlled pressing against Morocco's organised block — the 2022 semifinalists with Bono in goal. A warm Monterrey evening and an almost level line: Morocco are genuinely alive and built to drag it to a shootout."
+    }
   },
   {
     "id": "ivorycoast-norway",
     "date": "2026-06-30",
     "timeMsk": "20:00",
-    "cc": ["ci", "no"],
-    "result": null,
-    "title": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"},
-    "stage": {"ru": "Плей-офф · 1/16 финала", "en": "Knockout · Round of 32"},
-    "venue": {"ru": "AT&T Stadium, Даллас", "en": "AT&T Stadium, Dallas"},
-    "weather": {"ru": "Крыша закрыта, кондиционер — климат нейтрален", "en": "Roof closed, air-conditioned — climate neutral"},
-    "lede": {"ru": "Дисциплинированный блок Кот-д'Ивуара без чистой девятки против вертикали Норвегии — Холанд и Эдегор свежие после ротации. Норвегия классом выше, но оборона течёт всем; модель видит близкий матч, а не разгром. Пахнет голами обеих и нервной концовкой.", "en": "Côte d'Ivoire's disciplined block with no out-and-out striker against Norway's vertical thrust — Haaland and Ødegaard fresh after a rest. Norway are the better side but leak to everyone; the model sees a tight game, not a rout. It smells of goals at both ends and a nervy finish."}
+    "cc": [
+      "ci",
+      "no"
+    ],
+    "result": "1:2 (0:1)",
+    "title": {
+      "ru": "Кот-д'Ивуар — Норвегия",
+      "en": "Côte d'Ivoire — Norway"
+    },
+    "stage": {
+      "ru": "Плей-офф · 1/16 финала",
+      "en": "Knockout · Round of 32"
+    },
+    "venue": {
+      "ru": "AT&T Stadium, Даллас",
+      "en": "AT&T Stadium, Dallas"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, кондиционер — климат нейтрален",
+      "en": "Roof closed, air-conditioned — climate neutral"
+    },
+    "lede": {
+      "ru": "Дисциплинированный блок Кот-д'Ивуара без чистой девятки против вертикали Норвегии — Холанд и Эдегор свежие после ротации. Норвегия классом выше, но оборона течёт всем; модель видит близкий матч, а не разгром. Пахнет голами обеих и нервной концовкой.",
+      "en": "Côte d'Ivoire's disciplined block with no out-and-out striker against Norway's vertical thrust — Haaland and Ødegaard fresh after a rest. Norway are the better side but leak to everyone; the model sees a tight game, not a rout. It smells of goals at both ends and a nervy finish."
+    }
   },
   {
     "id": "france-sweden",
     "date": "2026-07-01",
     "timeMsk": "00:00",
-    "cc": ["fr", "se"],
+    "cc": [
+      "fr",
+      "se"
+    ],
     "result": null,
-    "title": {"ru": "Франция — Швеция", "en": "France — Sweden"},
-    "stage": {"ru": "Плей-офф · 1/16 финала", "en": "Knockout · Round of 32"},
-    "venue": {"ru": "MetLife Stadium, Нью-Йорк", "en": "MetLife Stadium, New York"},
-    "weather": {"ru": "Открытый стадион, лето, ~30°", "en": "Open-air, summer, ~30°C"},
-    "lede": {"ru": "Франция прошла группу на максимум (9 очков, лучшая оборона), Мбаппе забивал в каждом матче. Швеция пролезла третьей с разгромом 1:5 от Нидерландов — атака есть (Исак, Гьёкереш), но оборона худшая среди вышедших, да ещё Хиен травмирован. Класс и голы — на стороне Франции.", "en": "France topped the group at full marks (9 points, the best defence), Mbappé scoring in every game. Sweden scraped through third after a 1-5 hammering by the Netherlands — the attack is there (Isak, Gyökeres), but their defence is the worst of any qualifier, and Hien is injured on top. Class and goals favour France."}
+    "title": {
+      "ru": "Франция — Швеция",
+      "en": "France — Sweden"
+    },
+    "stage": {
+      "ru": "Плей-офф · 1/16 финала",
+      "en": "Knockout · Round of 32"
+    },
+    "venue": {
+      "ru": "MetLife Stadium, Нью-Йорк",
+      "en": "MetLife Stadium, New York"
+    },
+    "weather": {
+      "ru": "Открытый стадион, лето, ~30°",
+      "en": "Open-air, summer, ~30°C"
+    },
+    "lede": {
+      "ru": "Франция прошла группу на максимум (9 очков, лучшая оборона), Мбаппе забивал в каждом матче. Швеция пролезла третьей с разгромом 1:5 от Нидерландов — атака есть (Исак, Гьёкереш), но оборона худшая среди вышедших, да ещё Хиен травмирован. Класс и голы — на стороне Франции.",
+      "en": "France topped the group at full marks (9 points, the best defence), Mbappé scoring in every game. Sweden scraped through third after a 1-5 hammering by the Netherlands — the attack is there (Isak, Gyökeres), but their defence is the worst of any qualifier, and Hien is injured on top. Class and goals favour France."
+    }
   },
   {
     "id": "mexico-ecuador",
     "date": "2026-07-01",
     "timeMsk": "04:00",
-    "cc": ["mx", "ec"],
+    "cc": [
+      "mx",
+      "ec"
+    ],
     "result": null,
-    "title": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"},
-    "stage": {"ru": "Плей-офф · 1/16 финала", "en": "Knockout · Round of 32"},
-    "venue": {"ru": "Estadio Azteca, Мехико", "en": "Estadio Azteca, Mexico City"},
-    "weather": {"ru": "Высота ~2240 м, вечер, хозяева на Ацтеке", "en": "Altitude ~2,240 m, evening, hosts at the Azteca"},
-    "lede": {"ru": "Две лучшие обороны турнира и две беззубые атаки. Мексика прошла группу с тремя сухарями (6:0), у Эквадора одна из крепчайших защит мира, но забивает он мало и не центрфорвардом. Высота Ацтеки Эквадору привычна (Кито 2850 м). Низ, ничья в основное и риск серии — базовый сценарий.", "en": "Two of the tournament's best defences and two toothless attacks. Mexico came through the group with three clean sheets (6-0); Ecuador have one of the meanest backlines in the world but score rarely and not via a centre-forward. The Azteca's altitude is familiar to Ecuador (Quito sits at 2,850 m). A low game, a regulation draw and shootout risk are the base case."}
+    "title": {
+      "ru": "Мексика — Эквадор",
+      "en": "Mexico — Ecuador"
+    },
+    "stage": {
+      "ru": "Плей-офф · 1/16 финала",
+      "en": "Knockout · Round of 32"
+    },
+    "venue": {
+      "ru": "Estadio Azteca, Мехико",
+      "en": "Estadio Azteca, Mexico City"
+    },
+    "weather": {
+      "ru": "Высота ~2240 м, вечер, хозяева на Ацтеке",
+      "en": "Altitude ~2,240 m, evening, hosts at the Azteca"
+    },
+    "lede": {
+      "ru": "Две лучшие обороны турнира и две беззубые атаки. Мексика прошла группу с тремя сухарями (6:0), у Эквадора одна из крепчайших защит мира, но забивает он мало и не центрфорвардом. Высота Ацтеки Эквадору привычна (Кито 2850 м). Низ, ничья в основное и риск серии — базовый сценарий.",
+      "en": "Two of the tournament's best defences and two toothless attacks. Mexico came through the group with three clean sheets (6-0); Ecuador have one of the meanest backlines in the world but score rarely and not via a centre-forward. The Azteca's altitude is familiar to Ecuador (Quito sits at 2,850 m). A low game, a regulation draw and shootout risk are the base case."
+    }
   }
 ]

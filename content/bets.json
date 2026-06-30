@@ -8056,7 +8056,7 @@
     "matchId": "southafrica-canada",
     "type": "ТС",
     "tier": "red",
-    "odds": 6.0,
+    "odds": 6,
     "stake": 500,
     "status": "win",
     "match": {
@@ -8079,7 +8079,7 @@
     "matchId": "southafrica-canada",
     "type": "Другое",
     "tier": "yellow",
-    "odds": 2.0,
+    "odds": 2,
     "stake": 1500,
     "status": "lose",
     "match": {
@@ -8152,8 +8152,14 @@
     "odds": 1.72,
     "stake": 3000,
     "status": "win",
-    "match": {"ru": "Бразилия — Япония", "en": "Brazil — Japan"},
-    "bet": {"ru": "Победа Бразилии", "en": "Brazil to win"},
+    "match": {
+      "ru": "Бразилия — Япония",
+      "en": "Brazil — Japan"
+    },
+    "bet": {
+      "ru": "Победа Бразилии",
+      "en": "Brazil to win"
+    },
     "note": {
       "ru": "✓ Бразилия 2:1 — волевая в основное время. Япония повела (Сано 29'), Каземиро (56') сравнял, Мартинелли (90+5') вырвал победу. Класс дожал без доп. времени — опора дня сыграла.",
       "en": "✓ Brazil 2-1 — a comeback in regulation. Japan led (Sano 29'), Casemiro (56') levelled, Martinelli (90+5') snatched it. Class told without extra time — the day's anchor landed."
@@ -8169,8 +8175,14 @@
     "odds": 2.15,
     "stake": 3000,
     "status": "win",
-    "match": {"ru": "Германия — Парагвай", "en": "Germany — Paraguay"},
-    "bet": {"ru": "Тотал меньше 2.5", "en": "Under 2.5"},
+    "match": {
+      "ru": "Германия — Парагвай",
+      "en": "Germany — Paraguay"
+    },
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5"
+    },
     "note": {
       "ru": "✓ В основное время 1:1 (всего 2 гола) — низ зашёл. Германия завязла об блок Парагвая ровно как закладывали; матч ушёл в доп. время и серию пенальти, но тотал считается по основному времени.",
       "en": "✓ 1-1 in regulation (just 2 goals) — the under landed. Germany got bogged down against Paraguay's block exactly as projected; the tie went to extra time and a shootout, but the total counts regulation only."
@@ -8186,8 +8198,14 @@
     "odds": 1.65,
     "stake": 3000,
     "status": "win",
-    "match": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"},
-    "bet": {"ru": "Двойной шанс: ничья или Марокко", "en": "Double chance: draw or Morocco"},
+    "match": {
+      "ru": "Нидерланды — Марокко",
+      "en": "Netherlands — Morocco"
+    },
+    "bet": {
+      "ru": "Двойной шанс: ничья или Марокко",
+      "en": "Double chance: draw or Morocco"
+    },
     "note": {
       "ru": "✓ В основное время 1:1 — Марокко не проиграло в 90 минут, опора ставки удержалась; затем вытянули серию пенальти 3:2 и прошли. Двойной шанс зашёл.",
       "en": "✓ 1-1 in regulation — Morocco didn't lose in 90 minutes, the anchor held; they then took the shootout 3-2 and advanced. The double chance landed."
@@ -8203,8 +8221,14 @@
     "odds": 4.8,
     "stake": 1500,
     "status": "win",
-    "match": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"},
-    "bet": {"ru": "Будет серия пенальти", "en": "Penalty shootout — yes"},
+    "match": {
+      "ru": "Нидерланды — Марокко",
+      "en": "Netherlands — Morocco"
+    },
+    "bet": {
+      "ru": "Будет серия пенальти",
+      "en": "Penalty shootout — yes"
+    },
     "note": {
       "ru": "✓ 1:1 в основное и доп. время → серия пенальти, Марокко 3:2 (Буну отбил у Саммервилла). Главная value-грань дня зашла по крупному кэфу.",
       "en": "✓ 1-1 through regulation and extra time → a shootout, Morocco 3-2 (Bono saved Summerville). The day's main value angle landed at a big price."
@@ -8216,15 +8240,48 @@
     "date": "2026-06-29",
     "type": "Система",
     "tier": "red",
-    "odds": 6.0,
+    "odds": 6,
     "stake": 500,
     "status": "lose",
-    "match": {"ru": "Система 2/3 · точные счета", "en": "System 2/3 · correct scores"},
-    "bet": {"ru": "точные счета по трём матчам", "en": "correct scores across three games"},
+    "match": {
+      "ru": "Система 2/3 · точные счета",
+      "en": "System 2/3 · correct scores"
+    },
+    "bet": {
+      "ru": "точные счета по трём матчам",
+      "en": "correct scores across three games"
+    },
     "legs": [
-      {"m": {"ru": "Бразилия — Япония", "en": "Brazil — Japan"}, "p": {"ru": "1:0 @6.00", "en": "1-0 @6.00"}},
-      {"m": {"ru": "Германия — Парагвай", "en": "Germany — Paraguay"}, "p": {"ru": "2:0 @6.00", "en": "2-0 @6.00"}},
-      {"m": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"}, "p": {"ru": "1:1 @5.50", "en": "1-1 @5.50"}}
+      {
+        "m": {
+          "ru": "Бразилия — Япония",
+          "en": "Brazil — Japan"
+        },
+        "p": {
+          "ru": "1:0 @6.00",
+          "en": "1-0 @6.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Германия — Парагвай",
+          "en": "Germany — Paraguay"
+        },
+        "p": {
+          "ru": "2:0 @6.00",
+          "en": "2-0 @6.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Нидерланды — Марокко",
+          "en": "Netherlands — Morocco"
+        },
+        "p": {
+          "ru": "1:1 @5.50",
+          "en": "1-1 @5.50"
+        }
+      }
     ],
     "note": {
       "ru": "✗ Система мертва: Бразилия 1:0 мимо (2:1) и Германия 2:0 мимо (1:1 + пенальти) — из трёх счетов промахнулись два, до нужных «двух из трёх» не добрать, исход Нидерланды — Марокко уже не важен.",
@@ -8242,8 +8299,14 @@
     "stake": 3000,
     "contest": true,
     "status": "win",
-    "match": {"ru": "Бразилия — Япония", "en": "Brazil — Japan"},
-    "bet": {"ru": "Гол в каждом тайме", "en": "A goal in each half"},
+    "match": {
+      "ru": "Бразилия — Япония",
+      "en": "Brazil — Japan"
+    },
+    "bet": {
+      "ru": "Гол в каждом тайме",
+      "en": "A goal in each half"
+    },
     "note": {
       "ru": "✓ Гол в 1-м тайме (Сано 29') и во 2-м (Каземиро 56', Мартинелли 90+5'). Сюжет инвертировался — первой забила Япония, отыгралась Бразилия, — но рынок зашёл.",
       "en": "✓ A goal in the first half (Sano 29') and the second (Casemiro 56', Martinelli 90+5'). The script was inverted — Japan scored first, Brazil fought back — but the market landed."
@@ -8260,8 +8323,14 @@
     "stake": 3000,
     "contest": true,
     "status": "lose",
-    "match": {"ru": "Германия — Парагвай", "en": "Germany — Paraguay"},
-    "bet": {"ru": "ИТ Германии больше 2.0", "en": "Germany individual total over 2.0"},
+    "match": {
+      "ru": "Германия — Парагвай",
+      "en": "Germany — Paraguay"
+    },
+    "bet": {
+      "ru": "ИТ Германии больше 2.0",
+      "en": "Germany individual total over 2.0"
+    },
     "note": {
       "ru": "✗ Германия забила всего 1 (Хаверц 54') — «лёгкой победы» не вышло, блок Парагвая и Гилл выстояли, немцы вылетели по пенальти. ИТ больше 2.0 не зашёл.",
       "en": "✗ Germany scored just 1 (Havertz 54') — no «easy win»: Paraguay's block and Gill held, the Germans went out on penalties. Over 2.0 didn't land."
@@ -8278,8 +8347,14 @@
     "stake": 3000,
     "contest": true,
     "status": "win",
-    "match": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"},
-    "bet": {"ru": "Обе забьют — да", "en": "Both teams to score — yes"},
+    "match": {
+      "ru": "Нидерланды — Марокко",
+      "en": "Netherlands — Morocco"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
     "note": {
       "ru": "✓ Гакпо (Нид, 72') и Диоп (Мар, 90+1') — обе забили в игровое время. Голов немного (1:1), как Паша и закладывал; обе забьют зашло.",
       "en": "✓ Gakpo (NED, 72') and Diop (MAR, 90+1') — both scored in normal time. Few goals (1-1) just as Pasha read it; BTTS landed."
@@ -8295,12 +8370,45 @@
     "stake": 500,
     "contest": true,
     "status": "lose",
-    "match": {"ru": "Экспресс 3 исхода (лютый красный)", "en": "3-fold accumulator (the wild red)"},
-    "bet": {"ru": "сухая победа + точные счёта по трём матчам", "en": "win to nil + correct-score groups across three games"},
+    "match": {
+      "ru": "Экспресс 3 исхода (лютый красный)",
+      "en": "3-fold accumulator (the wild red)"
+    },
+    "bet": {
+      "ru": "сухая победа + точные счёта по трём матчам",
+      "en": "win to nil + correct-score groups across three games"
+    },
     "legs": [
-      {"m": {"ru": "Германия — Парагвай", "en": "Germany — Paraguay"}, "p": {"ru": "Сухая победа Германии @2.14", "en": "Germany win to nil @2.14"}},
-      {"m": {"ru": "Бразилия — Япония", "en": "Brazil — Japan"}, "p": {"ru": "Точный счёт 1:0 / 2:0 / 3:0 @2.65", "en": "Correct score 1-0 / 2-0 / 3-0 @2.65"}},
-      {"m": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"}, "p": {"ru": "Точный счёт 1:2 / 1:3 / 1:4 @7.60", "en": "Correct score 1-2 / 1-3 / 1-4 @7.60"}}
+      {
+        "m": {
+          "ru": "Германия — Парагвай",
+          "en": "Germany — Paraguay"
+        },
+        "p": {
+          "ru": "Сухая победа Германии @2.14",
+          "en": "Germany win to nil @2.14"
+        }
+      },
+      {
+        "m": {
+          "ru": "Бразилия — Япония",
+          "en": "Brazil — Japan"
+        },
+        "p": {
+          "ru": "Точный счёт 1:0 / 2:0 / 3:0 @2.65",
+          "en": "Correct score 1-0 / 2-0 / 3-0 @2.65"
+        }
+      },
+      {
+        "m": {
+          "ru": "Нидерланды — Марокко",
+          "en": "Netherlands — Morocco"
+        },
+        "p": {
+          "ru": "Точный счёт 1:2 / 1:3 / 1:4 @7.60",
+          "en": "Correct score 1-2 / 1-3 / 1-4 @7.60"
+        }
+      }
     ],
     "note": {
       "ru": "✗ Сгорел уже на первом матче: Бразилия выиграла 2:1, а нужен был сухой счёт 1:0/2:0/3:0 — экспресс мёртв, остальные позиции не важны.",
@@ -8314,14 +8422,20 @@
     "matchId": "ivorycoast-norway",
     "type": "ОЗ",
     "tier": "green",
-    "odds": 1.70,
+    "odds": 1.7,
     "stake": 3000,
-    "status": "pending",
-    "match": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"},
-    "bet": {"ru": "Обе забьют — да", "en": "Both teams to score — yes"},
+    "status": "win",
+    "match": {
+      "ru": "Кот-д'Ивуар — Норвегия",
+      "en": "Côte d'Ivoire — Norway"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
     "note": {
-      "ru": "Оборона Норвегии течёт всем подряд (пропускали Ираку и Сенегалу), а Кот-д'Ивуар цепляется за свой гол даже против топов (Кессие Германии). xG почти равны, матч близкий — прямое выражение профиля обеих.",
-      "en": "Norway's defence leaks to everyone (conceded to Iraq and Senegal), and Côte d'Ivoire cling to a goal even against top sides (Kessié vs Germany). The xG are level and the game is tight — a direct read of both profiles."
+      "ru": "✓ обе забили: Диалло (74) у КИ, Нуса и Холанд у Норвегии — 1:2",
+      "en": "✓ both scored: Diallo (74) for CIV, Nusa & Haaland for Norway — 1:2"
     }
   },
   {
@@ -8334,8 +8448,14 @@
     "odds": 1.82,
     "stake": 3000,
     "status": "pending",
-    "match": {"ru": "Франция — Швеция", "en": "France — Sweden"},
-    "bet": {"ru": "Фора Франции −1.5", "en": "France −1.5 handicap"},
+    "match": {
+      "ru": "Франция — Швеция",
+      "en": "France — Sweden"
+    },
+    "bet": {
+      "ru": "Фора Франции −1.5",
+      "en": "France −1.5 handicap"
+    },
     "note": {
       "ru": "Пропасть в классе (1.30 против 11.0), у Швеции худшая оборона среди вышедших (1:5 Нидерландам, 7 пропущенных) + травмирован Хиен. Франция выиграла все матчи группы; модальный счёт 3:1/2:0 проходит фору.",
       "en": "A chasm in class (1.30 vs 11.0), Sweden the worst defence of any qualifier (1-5 to the Netherlands, 7 conceded) + Hien injured. France won every group game; a modal 3-1/2-0 covers the line."
@@ -8351,8 +8471,14 @@
     "odds": 1.75,
     "stake": 3000,
     "status": "pending",
-    "match": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"},
-    "bet": {"ru": "Тотал меньше 2.0", "en": "Under 2.0"},
+    "match": {
+      "ru": "Мексика — Эквадор",
+      "en": "Mexico — Ecuador"
+    },
+    "bet": {
+      "ru": "Тотал меньше 2.0",
+      "en": "Under 2.0"
+    },
     "note": {
       "ru": "Две топ-обороны (Мексика 3 сухаря, Эквадор 3 пропущенных за 14 матчей) и две беззубые атаки; консенсус трёх превью — 1:0/0:0. Целая линия 2.0 страхует возвратом при ровно 2 голах — 1:1 нас не убивает.",
       "en": "Two elite defences (Mexico three clean sheets, Ecuador 3 conceded in 14 games) and two toothless attacks; three previews agree on 1-0/0-0. The whole line of 2.0 refunds on exactly 2 goals — a 1-1 doesn't kill us."
@@ -8365,11 +8491,17 @@
     "matchId": "mexico-ecuador",
     "type": "Другое",
     "tier": "yellow",
-    "odds": 4.20,
+    "odds": 4.2,
     "stake": 1500,
     "status": "pending",
-    "match": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"},
-    "bet": {"ru": "Будет серия пенальти", "en": "Penalty shootout — yes"},
+    "match": {
+      "ru": "Мексика — Эквадор",
+      "en": "Mexico — Ecuador"
+    },
+    "bet": {
+      "ru": "Будет серия пенальти",
+      "en": "Penalty shootout — yes"
+    },
     "note": {
       "ru": "Гриндом в серию — профиль ровно как Нидерланды — Марокко (зашло @4.80). Слабейшие атаки слейта, обе обороны топ, ничья в основное весьма вероятна; рынок «не в осн. время» сам даёт 2.70.",
       "en": "A grind to a shootout — exactly the Netherlands — Morocco profile (which landed @4.80). The weakest attacks of the slate, two elite defences, a regulation draw very much in play; the market's own «not in 90» is 2.70."
@@ -8382,11 +8514,17 @@
     "matchId": "france-sweden",
     "type": "ТБ",
     "tier": "yellow",
-    "odds": 3.50,
+    "odds": 3.5,
     "stake": 1500,
     "status": "pending",
-    "match": {"ru": "Франция — Швеция", "en": "France — Sweden"},
-    "bet": {"ru": "Тотал больше 4.5", "en": "Over 4.5"},
+    "match": {
+      "ru": "Франция — Швеция",
+      "en": "France — Sweden"
+    },
+    "bet": {
+      "ru": "Тотал больше 4.5",
+      "en": "Over 4.5"
+    },
     "note": {
       "ru": "Гол-фест: огневая мощь Франции + катастрофа в обороне Швеции (Хиен выбыл) + своя атака шведов (Исак/Гьёкереш). Хвостовая позиция, но строго на профиле матча худшей обороны турнира.",
       "en": "A goal-fest: France's firepower + Sweden's defensive shambles (Hien out) + Sweden's own attack (Isak/Gyökeres). A tail bet, but squarely on the profile of the tournament's worst defence."
@@ -8398,19 +8536,52 @@
     "date": "2026-06-30",
     "type": "Система",
     "tier": "red",
-    "odds": 6.0,
+    "odds": 6,
     "stake": 500,
     "status": "pending",
-    "match": {"ru": "Система 2/3 · точные счета", "en": "System 2/3 · correct scores"},
-    "bet": {"ru": "точные счета по трём матчам", "en": "correct scores across three games"},
+    "match": {
+      "ru": "Система 2/3 · точные счета",
+      "en": "System 2/3 · correct scores"
+    },
+    "bet": {
+      "ru": "точные счета по трём матчам",
+      "en": "correct scores across three games"
+    },
     "legs": [
-      {"m": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"}, "p": {"ru": "1:2 (Норвегия) @8.50", "en": "1-2 (Norway) @8.50"}},
-      {"m": {"ru": "Франция — Швеция", "en": "France — Sweden"}, "p": {"ru": "2:1 @9.00", "en": "2-1 @9.00"}},
-      {"m": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"}, "p": {"ru": "1:0 @5.00", "en": "1-0 @5.00"}}
+      {
+        "m": {
+          "ru": "Кот-д'Ивуар — Норвегия",
+          "en": "Côte d'Ivoire — Norway"
+        },
+        "p": {
+          "ru": "1:2 (Норвегия) @8.50",
+          "en": "1-2 (Norway) @8.50"
+        }
+      },
+      {
+        "m": {
+          "ru": "Франция — Швеция",
+          "en": "France — Sweden"
+        },
+        "p": {
+          "ru": "2:1 @9.00",
+          "en": "2-1 @9.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Мексика — Эквадор",
+          "en": "Mexico — Ecuador"
+        },
+        "p": {
+          "ru": "1:0 @5.00",
+          "en": "1-0 @5.00"
+        }
+      }
     ],
     "note": {
-      "ru": "Постоянка слейта (ТС-система). Узкие нокаут-коридоры по одному счёту на матч; нужно ≥2 из 3 совпадений. Резолвится 01.07.",
-      "en": "The slate staple (correct-score system). Tight knockout corridors, one score per game; needs ≥2 of 3 to hit. Resolves on 01.07."
+      "ru": "Кот-д’Ивуар — Норвегия 1:2 — позиция зашла ТОЧНО; для прохода 2/3 нужен ещё один счёт (Франция 2:1 или Мексика 1:0)",
+      "en": "Côte d’Ivoire — Norway 1:2 — leg hit EXACTLY; for 2/3 one more score needed (France 2:1 or Mexico 1:0)"
     }
   },
   {
@@ -8423,16 +8594,49 @@
     "stake": 1500,
     "contest": true,
     "status": "pending",
-    "match": {"ru": "Экспресс 3 события (основные пики AI)", "en": "3-fold accumulator (AI's core picks)"},
-    "bet": {"ru": "три основных зелёных пика проходят", "en": "all three core green picks land"},
+    "match": {
+      "ru": "Экспресс 3 события (основные пики AI)",
+      "en": "3-fold accumulator (AI's core picks)"
+    },
+    "bet": {
+      "ru": "три основных зелёных пика проходят",
+      "en": "all three core green picks land"
+    },
     "legs": [
-      {"m": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"}, "p": {"ru": "Обе забьют — да @1.67", "en": "Both teams to score — yes @1.67"}},
-      {"m": {"ru": "Франция — Швеция", "en": "France — Sweden"}, "p": {"ru": "Фора Франции −1.5 @1.78", "en": "France handicap −1.5 @1.78"}},
-      {"m": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"}, "p": {"ru": "Тотал меньше 2.0 @1.77", "en": "Total under 2.0 @1.77"}}
+      {
+        "m": {
+          "ru": "Кот-д'Ивуар — Норвегия",
+          "en": "Côte d'Ivoire — Norway"
+        },
+        "p": {
+          "ru": "Обе забьют — да @1.67",
+          "en": "Both teams to score — yes @1.67"
+        }
+      },
+      {
+        "m": {
+          "ru": "Франция — Швеция",
+          "en": "France — Sweden"
+        },
+        "p": {
+          "ru": "Фора Франции −1.5 @1.78",
+          "en": "France handicap −1.5 @1.78"
+        }
+      },
+      {
+        "m": {
+          "ru": "Мексика — Эквадор",
+          "en": "Mexico — Ecuador"
+        },
+        "p": {
+          "ru": "Тотал меньше 2.0 @1.77",
+          "en": "Total under 2.0 @1.77"
+        }
+      }
     ],
     "note": {
-      "ru": "Сборка из трёх наших основных зелёных пиков — по одному на матч. Коэффициенты живые с Фонбета (чуть просели против ординаров: 1.67/1.78/1.77). Проходит только если сработают все три сценария дня; любая осечка гасит экспресс — потому жёлтый, не зелёный.",
-      "en": "An accumulator of our three core green picks — one per match. Live Fonbet odds (slightly down vs the singles: 1.67/1.78/1.77). It lands only if all three day scenarios play out; any slip kills it — hence yellow, not green."
+      "ru": "Позиция «обе забьют» в КИ-Норвегии зашла (1:2); ждём фору Франции −1.5 и тотал меньше 2.0 в Мексике",
+      "en": "BTTS leg in CI-Norway landed (1:2); waiting on France −1.5 and Mexico under 2.0"
     }
   },
   {
@@ -8445,8 +8649,14 @@
     "odds": 1.92,
     "contest": true,
     "status": "pending",
-    "match": {"ru": "Франция — Швеция", "en": "France — Sweden"},
-    "bet": {"ru": "Индивидуальный тотал Франции больше 2.5", "en": "France individual total over 2.5"},
+    "match": {
+      "ru": "Франция — Швеция",
+      "en": "France — Sweden"
+    },
+    "bet": {
+      "ru": "Индивидуальный тотал Франции больше 2.5",
+      "en": "France individual total over 2.5"
+    },
     "note": {
       "ru": "Паша: у Франции Мбаппе, Дембеле и Олисе сами оттягиваются и начинают атаку, а шведам можно колотить и издалека — жду сухую победу с тремя голами французов, не удивлюсь хет-трику звезды.",
       "en": "Pasha: Mbappé, Dembélé and Olise drop deep and start the attacks themselves, and you can shoot Sweden from distance too — he expects a clean win with three France goals, a star hat-trick wouldn't surprise him."
@@ -8462,8 +8672,14 @@
     "odds": 2.28,
     "contest": true,
     "status": "pending",
-    "match": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"},
-    "bet": {"ru": "Победа Мексики", "en": "Mexico win"},
+    "match": {
+      "ru": "Мексика — Эквадор",
+      "en": "Mexico — Ecuador"
+    },
+    "bet": {
+      "ru": "Победа Мексики",
+      "en": "Mexico win"
+    },
     "note": {
       "ru": "Паша: очевидно просящиеся 0:0, но не хочет идти за толпой — верит в фактор домашнего матча, Мексику погонят вперёд, а Эквадор будет стоять и бояться. Надеется на 1:0.",
       "en": "Pasha: an obvious 0-0 begs to be played, but he won't follow the crowd — he backs home-field factor, Mexico driven forward while Ecuador stand off and fear. He hopes for 1-0."
@@ -8476,14 +8692,20 @@
     "matchId": "ivorycoast-norway",
     "type": "ТБ",
     "tier": "green",
-    "odds": 1.90,
+    "odds": 1.9,
     "contest": true,
-    "status": "pending",
-    "match": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"},
-    "bet": {"ru": "Тотал больше 2.5", "en": "Over 2.5"},
+    "status": "win",
+    "match": {
+      "ru": "Кот-д'Ивуар — Норвегия",
+      "en": "Côte d'Ivoire — Norway"
+    },
+    "bet": {
+      "ru": "Тотал больше 2.5",
+      "en": "Over 2.5"
+    },
     "note": {
-      "ru": "Паша: африканцы просто сильнее, оборона Норвегии — дыра (видно по Сенегалу), а КИ забивают в каждом матче. В низовое 1:1 не верит, скорее 2:2 — потому рискует в тотал.",
-      "en": "Pasha: the Africans are simply stronger, Norway's defence is a sieve (see Senegal), and CIV score in every game. He doesn't buy a low 1-1, more like 2-2 — so he risks the over."
+      "ru": "✓ 1:2, три гола — больше 2.5 зашло",
+      "en": "✓ 1:2, three goals — over 2.5 landed"
     }
   },
   {
@@ -8496,16 +8718,49 @@
     "stake": 3000,
     "contest": true,
     "status": "pending",
-    "match": {"ru": "Экспресс 3 события (под возврат)", "en": "3-fold accumulator (push-protected)"},
-    "bet": {"ru": "три события под возврат проходят", "en": "three push-protected picks land"},
+    "match": {
+      "ru": "Экспресс 3 события (под возврат)",
+      "en": "3-fold accumulator (push-protected)"
+    },
+    "bet": {
+      "ru": "три события под возврат проходят",
+      "en": "three push-protected picks land"
+    },
     "legs": [
-      {"m": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"}, "p": {"ru": "Фора Мексики 0 — ничья возврат @1.50", "en": "Mexico handicap 0 (draw-no-bet) @1.50"}},
-      {"m": {"ru": "Франция — Швеция", "en": "France — Sweden"}, "p": {"ru": "ИТ Швеции меньше 1.0 (под возврат) @1.40", "en": "Sweden individual total under 1.0 (push-protected) @1.40"}},
-      {"m": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"}, "p": {"ru": "Тотал больше 2.0 (под возврат) @1.45", "en": "Over 2.0 (push-protected) @1.45"}}
+      {
+        "m": {
+          "ru": "Мексика — Эквадор",
+          "en": "Mexico — Ecuador"
+        },
+        "p": {
+          "ru": "Фора Мексики 0 — ничья возврат @1.50",
+          "en": "Mexico handicap 0 (draw-no-bet) @1.50"
+        }
+      },
+      {
+        "m": {
+          "ru": "Франция — Швеция",
+          "en": "France — Sweden"
+        },
+        "p": {
+          "ru": "ИТ Швеции меньше 1.0 (под возврат) @1.40",
+          "en": "Sweden individual total under 1.0 (push-protected) @1.40"
+        }
+      },
+      {
+        "m": {
+          "ru": "Кот-д'Ивуар — Норвегия",
+          "en": "Côte d'Ivoire — Norway"
+        },
+        "p": {
+          "ru": "Тотал больше 2.0 (под возврат) @1.45",
+          "en": "Over 2.0 (push-protected) @1.45"
+        }
+      }
     ],
     "note": {
-      "ru": "Паша: кэф чуть больше ×3, но все три позиции под возврат (фора 0, ИТ Швеции <1.0, тотал >2.0) — потому считает надёжным. Реальную ставку 5000 поставил у себя; на сайте по методологии — зелёный.",
-      "en": "Pasha: the odds are just over ×3, but all three legs are push-protected (handicap 0, Sweden under 1.0, over 2.0) — so he calls it reliable. He staked 5000 on his own book; on the site it's standardised green."
+      "ru": "Тотал больше 2.0 в КИ-Норвегии зашёл (3 гола); ждём фору Мексики 0 и ИТ Швеции меньше 1.0 — оба под возврат",
+      "en": "Over 2.0 in CI-Norway landed (3 goals); waiting on Mexico draw-no-bet and Sweden team total under 1.0 — both void-protected"
     }
   },
   {
@@ -8514,20 +8769,53 @@
     "date": "2026-06-30",
     "type": "Система",
     "tier": "red",
-    "odds": 8.0,
+    "odds": 8,
     "stake": 500,
     "contest": true,
     "status": "pending",
-    "match": {"ru": "Система 2/3 · точные счета", "en": "System 2/3 · correct scores"},
-    "bet": {"ru": "точные счета по трём матчам", "en": "correct scores across three games"},
+    "match": {
+      "ru": "Система 2/3 · точные счета",
+      "en": "System 2/3 · correct scores"
+    },
+    "bet": {
+      "ru": "точные счета по трём матчам",
+      "en": "correct scores across three games"
+    },
     "legs": [
-      {"m": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"}, "p": {"ru": "2:2 @12.00", "en": "2-2 @12.00"}},
-      {"m": {"ru": "Франция — Швеция", "en": "France — Sweden"}, "p": {"ru": "3:0 (Франция) @8.50", "en": "3-0 (France) @8.50"}},
-      {"m": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"}, "p": {"ru": "1:0 (Мексика) @5.50", "en": "1-0 (Mexico) @5.50"}}
+      {
+        "m": {
+          "ru": "Кот-д'Ивуар — Норвегия",
+          "en": "Côte d'Ivoire — Norway"
+        },
+        "p": {
+          "ru": "2:2 @12.00",
+          "en": "2-2 @12.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Франция — Швеция",
+          "en": "France — Sweden"
+        },
+        "p": {
+          "ru": "3:0 (Франция) @8.50",
+          "en": "3-0 (France) @8.50"
+        }
+      },
+      {
+        "m": {
+          "ru": "Мексика — Эквадор",
+          "en": "Mexico — Ecuador"
+        },
+        "p": {
+          "ru": "1:0 (Мексика) @5.50",
+          "en": "1-0 (Mexico) @5.50"
+        }
+      }
     ],
     "note": {
-      "ru": "Пашина ТС-система: счета 2:2 / 3:0 / 1:0, нужно ≥2 из 3 совпадений. Кэфы счетов с Фонбета (12.00/8.50/5.50); реальная выплата считается при резолве по числу попаданий.",
-      "en": "Pasha's correct-score system: 2-2 / 3-0 / 1-0, needs ≥2 of 3 to hit. Score odds off Fonbet (12.00/8.50/5.50); real payout computed at settlement by how many land."
+      "ru": "Кот-д’Ивуар — Норвегия 2:2 — мимо (факт 1:2); для прохода 2/3 теперь нужны ОБА оставшихся счёта (Франция 3:0 и Мексика 1:0)",
+      "en": "Côte d’Ivoire — Norway 2:2 — missed (actual 1:2); to cash 2/3 BOTH remaining scores must now hit (France 3:0 and Mexico 1:0)"
     }
   },
   {
@@ -8537,15 +8825,21 @@
     "matchId": "ivorycoast-norway",
     "type": "Другое",
     "tier": "red",
-    "odds": 6.30,
+    "odds": 6.3,
     "stake": 1000,
     "contest": true,
-    "status": "pending",
-    "match": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"},
-    "bet": {"ru": "Волевая победа любой из команд — да", "en": "Comeback win by either team — yes"},
+    "status": "lose",
+    "match": {
+      "ru": "Кот-д'Ивуар — Норвегия",
+      "en": "Côte d'Ivoire — Norway"
+    },
+    "bet": {
+      "ru": "Волевая победа любой из команд — да",
+      "en": "Comeback win by either team — yes"
+    },
     "note": {
-      "ru": "Пашин красный флаер: одним тикетом на Фонбете обе волевые в разные стороны (кто-то отыграется с поражения и победит) — в зачёте это две красные по 500, всего 1000 @6.30. Ждёт качели и камбэк в открытом матче, ровно под его «верх» по этой паре.",
-      "en": "Pasha's red flier: a single Fonbet ticket covering a comeback win for either side (a team trails, then wins) — scored as two reds of 500, 1000 total @6.30. He expects an end-to-end game with a comeback, in line with his «over» read of this tie."
+      "ru": "✗ волевой не было: Норвегия вела с 39, КИ сравняла (1:1), но проиграла; никто не отыгрался с поражения. В зачёте две красные по 500 = −1000",
+      "en": "✗ no comeback: Norway led from 39, CIV equalised (1:1) but lost; neither came from behind to win. Scored as two reds of 500 = −1000"
     }
   }
 ]

@@ -1,3 +1,13 @@
+## Result: Côte d'Ivoire — Norway 1:2 (0:1)
+
+Norway ground it out with a late goal and reached the World Cup knockout phase for the first time ever. Nusa opened the scoring on 39' (Ødegaard assist), Diallo levelled on 74' (Pépé assist), but on 86' Haaland tapped in Berg's cut-back to win it. Côte d'Ivoire, with no genuine striker, again couldn't finish the job: one goal and done — the story of their tournament. xG 1.36 — 2.02: Norway deserved it. Next up — Brazil (5 July, MetLife).
+
+**Settlement.** AI: 🟢 both teams to score — yes @1.70 — ✓ landed (1:2). Pasha: 🟢 over 2.5 @1.90 — ✓ (three goals); 🔴 comeback win by either team @6.30 — ✗ (Norway led from 39', nobody came from behind to win), −1000 (two reds of 500). Multi-match bets still live: the AI correct-score system nailed this match EXACTLY (1:2) — one more score of two needed (France 2:1 / Mexico 1:0); the AI accumulator and Pasha's accumulator are alive (their CI-Norway legs landed); Pasha's score system with 2:2 missed — both remaining scores must now hit.
+
+**Lesson.** "Comeback win by either side" is a pretty flier, but it needs an actual come-from-behind win; a match where the favourite leads from the first goal and only once lets it level doesn't cash it. The base profile (BTTS + over) did hit: Norway's leaky defence and CI's grit produced exactly the script we expected.
+
+---
+
 ## Côte d'Ivoire — Norway · 30.06, 20:00 MSK · AT&T Stadium, Dallas
 
 **A disciplined block with no out-and-out striker against Haaland's vertical thrust. Norway are the better side but leak to everyone, while Côte d'Ivoire reliably cling to their one goal. The model sees a tight game (xG almost level), not a rout — expect goals at both ends and a nervy finish.**
