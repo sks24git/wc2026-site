@@ -25,6 +25,4 @@ _(odds — Fonbet's live line, 30.06)_
 - 🔴 In the 2/3 correct-score system — **France 2-1**.
 - Counter-test: a straight France win @1.30 I pass (below the floor); BTTS-no I pass — Sweden have scorers.
 
-**Pasha:**
-- 🟢 **Both teams to score — yes @1.80** — for Pasha goals at both ends are inevitable: Isak and Gyökeres crack anyone, and France will pile them on regardless. Exact score: 3-1.
-- 🔴 In the day's "wild red" accumulator — **France win**.
+**Pasha:** _awaiting Pasha's real picks (Vlad will relay his messages) — only the AI side is published so far._

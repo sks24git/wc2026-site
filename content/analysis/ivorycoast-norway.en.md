@@ -23,6 +23,4 @@ _(odds — Fonbet's live line, 30.06)_
 - 🔴 In the 2/3 correct-score system — **Norway 2-1** (the model's modal score).
 - Counter-test: a straight Norway win and the −1.5 handicap I pass — the model gives only ~46%, the xG are level, CIV are the best block at their level. "Norway don't lose in regulation" is fragile in a closed game.
 
-**Pasha:**
-- 🟢 **Norway win @2.15** — for Pasha, class decides: Haaland and Ødegaard fresh, while the CIV attack without a striker is toothless. The charged-up Norwegians grind it out. Exact score: 2-1.
-- 🔴 In the day's "wild red" accumulator — **Norway win**.
+**Pasha:** _awaiting Pasha's real picks (Vlad will relay his messages) — only the AI side is published so far._

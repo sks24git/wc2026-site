@@ -24,6 +24,4 @@ _(odds — Fonbet's live line, 30.06)_
 - 🔴 In the 2/3 correct-score system — **Mexico 1-0**.
 - Counter-test: BTTS-no @1.60 I don't add separately — it almost fully overlaps the under (hidden duplication); I express the low through the total + the correct-score.
 
-**Pasha:**
-- 🟢 **Mexico win @2.25** — for Pasha, the hosts' class at the Azteca decides against a side that can't score (zero centre-forward goals all group stage). A narrow win. Exact score: 1-0.
-- 🔴 In the day's "wild red" accumulator — **Mexico win**.
+**Pasha:** _awaiting Pasha's real picks (Vlad will relay his messages) — only the AI side is published so far._
