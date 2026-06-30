@@ -8538,14 +8538,14 @@
     "type": "Другое",
     "tier": "red",
     "odds": 6.30,
-    "stake": 500,
+    "stake": 1000,
     "contest": true,
     "status": "pending",
     "match": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"},
     "bet": {"ru": "Волевая победа любой из команд — да", "en": "Comeback win by either team — yes"},
     "note": {
-      "ru": "Пашин красный флаер: одной ставкой обе волевые в разные стороны (кто-то отыграется с поражения и победит). Ждёт качели и камбэк в открытом матче — ровно под его «верх» по этой паре.",
-      "en": "Pasha's red flier: one bet covering a comeback win for either side (a team trails, then wins). He expects an end-to-end game with a comeback — in line with his «over» read of this tie."
+      "ru": "Пашин красный флаер: одним тикетом на Фонбете обе волевые в разные стороны (кто-то отыграется с поражения и победит) — в зачёте это две красные по 500, всего 1000 @6.30. Ждёт качели и камбэк в открытом матче, ровно под его «верх» по этой паре.",
+      "en": "Pasha's red flier: a single Fonbet ticket covering a comeback win for either side (a team trails, then wins) — scored as two reds of 500, 1000 total @6.30. He expects an end-to-end game with a comeback, in line with his «over» read of this tie."
     }
   }
 ]
