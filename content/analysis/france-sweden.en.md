@@ -25,4 +25,7 @@ _(odds — Fonbet's live line, 30.06)_
 - 🔴 In the 2/3 correct-score system — **France 2-1**.
 - Counter-test: a straight France win @1.30 I pass (below the floor); BTTS-no I pass — Sweden have scorers.
 
-**Pasha:** _awaiting Pasha's real picks (Vlad will relay his messages) — only the AI side is published so far._
+**Pasha:**
+- 🟢 **France individual total over 2.5 @1.92** — for Pasha France's stars (Mbappé, Dembélé, Olise) carry the attack themselves and you can shoot Sweden from distance; he expects a clean win with three France goals.
+- 🟢 In the day's push-protected accumulator — **Sweden individual total under 1.0**.
+- 🔴 In the 2/3 correct-score system — score **3-0** to France.

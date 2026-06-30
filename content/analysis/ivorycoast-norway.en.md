@@ -23,4 +23,8 @@ _(odds — Fonbet's live line, 30.06)_
 - 🔴 In the 2/3 correct-score system — **Norway 2-1** (the model's modal score).
 - Counter-test: a straight Norway win and the −1.5 handicap I pass — the model gives only ~46%, the xG are level, CIV are the best block at their level. "Norway don't lose in regulation" is fragile in a closed game.
 
-**Pasha:** _awaiting Pasha's real picks (Vlad will relay his messages) — only the AI side is published so far._
+**Pasha:**
+- 🟢 **Over 2.5 @1.90** — for Pasha the Africans are simply stronger, Norway's defence leaks (see Senegal), and CIV score in every game; he doesn't buy a low 1-1, more like 2-2.
+- 🟢 In the day's push-protected accumulator — **over 2.0**.
+- 🔴 **Comeback win by either team @6.30** — a flier: one bet covering a comeback for either side, expecting an end-to-end swing.
+- 🔴 In the 2/3 correct-score system — score **2-2**.

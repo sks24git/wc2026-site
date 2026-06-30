@@ -8434,5 +8434,118 @@
       "ru": "Сборка из трёх наших основных зелёных пиков — по одному на матч. Коэффициенты живые с Фонбета (чуть просели против ординаров: 1.67/1.78/1.77). Проходит только если сработают все три сценария дня; любая осечка гасит экспресс — потому жёлтый, не зелёный.",
       "en": "An accumulator of our three core green picks — one per match. Live Fonbet odds (slightly down vs the singles: 1.67/1.78/1.77). It lands only if all three day scenarios play out; any slip kills it — hence yellow, not green."
     }
+  },
+  {
+    "id": 305,
+    "side": "Паша",
+    "date": "2026-06-30",
+    "matchId": "france-sweden",
+    "type": "ИТ",
+    "tier": "green",
+    "odds": 1.92,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Франция — Швеция", "en": "France — Sweden"},
+    "bet": {"ru": "Индивидуальный тотал Франции больше 2.5", "en": "France individual total over 2.5"},
+    "note": {
+      "ru": "Паша: у Франции Мбаппе, Дембеле и Олисе сами оттягиваются и начинают атаку, а шведам можно колотить и издалека — жду сухую победу с тремя голами французов, не удивлюсь хет-трику звезды.",
+      "en": "Pasha: Mbappé, Dembélé and Olise drop deep and start the attacks themselves, and you can shoot Sweden from distance too — he expects a clean win with three France goals, a star hat-trick wouldn't surprise him."
+    }
+  },
+  {
+    "id": 306,
+    "side": "Паша",
+    "date": "2026-06-30",
+    "matchId": "mexico-ecuador",
+    "type": "П1",
+    "tier": "green",
+    "odds": 2.28,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"},
+    "bet": {"ru": "Победа Мексики", "en": "Mexico win"},
+    "note": {
+      "ru": "Паша: очевидно просящиеся 0:0, но не хочет идти за толпой — верит в фактор домашнего матча, Мексику погонят вперёд, а Эквадор будет стоять и бояться. Надеется на 1:0.",
+      "en": "Pasha: an obvious 0-0 begs to be played, but he won't follow the crowd — he backs home-field factor, Mexico driven forward while Ecuador stand off and fear. He hopes for 1-0."
+    }
+  },
+  {
+    "id": 307,
+    "side": "Паша",
+    "date": "2026-06-30",
+    "matchId": "ivorycoast-norway",
+    "type": "ТБ",
+    "tier": "green",
+    "odds": 1.90,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"},
+    "bet": {"ru": "Тотал больше 2.5", "en": "Over 2.5"},
+    "note": {
+      "ru": "Паша: африканцы просто сильнее, оборона Норвегии — дыра (видно по Сенегалу), а КИ забивают в каждом матче. В низовое 1:1 не верит, скорее 2:2 — потому рискует в тотал.",
+      "en": "Pasha: the Africans are simply stronger, Norway's defence is a sieve (see Senegal), and CIV score in every game. He doesn't buy a low 1-1, more like 2-2 — so he risks the over."
+    }
+  },
+  {
+    "id": 308,
+    "side": "Паша",
+    "date": "2026-06-30",
+    "type": "Экспресс",
+    "tier": "green",
+    "odds": 3.05,
+    "stake": 3000,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Экспресс 3 события (под возврат)", "en": "3-fold accumulator (push-protected)"},
+    "bet": {"ru": "три события под возврат проходят", "en": "three push-protected picks land"},
+    "legs": [
+      {"m": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"}, "p": {"ru": "Фора Мексики 0 — ничья возврат @1.50", "en": "Mexico handicap 0 (draw-no-bet) @1.50"}},
+      {"m": {"ru": "Франция — Швеция", "en": "France — Sweden"}, "p": {"ru": "ИТ Швеции меньше 1.0 (под возврат) @1.40", "en": "Sweden individual total under 1.0 (push-protected) @1.40"}},
+      {"m": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"}, "p": {"ru": "Тотал больше 2.0 (под возврат) @1.45", "en": "Over 2.0 (push-protected) @1.45"}}
+    ],
+    "note": {
+      "ru": "Паша: кэф чуть больше ×3, но все три позиции под возврат (фора 0, ИТ Швеции <1.0, тотал >2.0) — потому считает надёжным. Реальную ставку 5000 поставил у себя; на сайте по методологии — зелёный.",
+      "en": "Pasha: the odds are just over ×3, but all three legs are push-protected (handicap 0, Sweden under 1.0, over 2.0) — so he calls it reliable. He staked 5000 on his own book; on the site it's standardised green."
+    }
+  },
+  {
+    "id": 309,
+    "side": "Паша",
+    "date": "2026-06-30",
+    "type": "Система",
+    "tier": "red",
+    "odds": 8.0,
+    "stake": 500,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Система 2/3 · точные счета", "en": "System 2/3 · correct scores"},
+    "bet": {"ru": "точные счета по трём матчам", "en": "correct scores across three games"},
+    "legs": [
+      {"m": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"}, "p": {"ru": "2:2 @12.00", "en": "2-2 @12.00"}},
+      {"m": {"ru": "Франция — Швеция", "en": "France — Sweden"}, "p": {"ru": "3:0 (Франция) @8.50", "en": "3-0 (France) @8.50"}},
+      {"m": {"ru": "Мексика — Эквадор", "en": "Mexico — Ecuador"}, "p": {"ru": "1:0 (Мексика) @5.50", "en": "1-0 (Mexico) @5.50"}}
+    ],
+    "note": {
+      "ru": "Пашина ТС-система: счета 2:2 / 3:0 / 1:0, нужно ≥2 из 3 совпадений. Кэфы счетов с Фонбета (12.00/8.50/5.50); реальная выплата считается при резолве по числу попаданий.",
+      "en": "Pasha's correct-score system: 2-2 / 3-0 / 1-0, needs ≥2 of 3 to hit. Score odds off Fonbet (12.00/8.50/5.50); real payout computed at settlement by how many land."
+    }
+  },
+  {
+    "id": 310,
+    "side": "Паша",
+    "date": "2026-06-30",
+    "matchId": "ivorycoast-norway",
+    "type": "Другое",
+    "tier": "red",
+    "odds": 6.30,
+    "stake": 500,
+    "contest": true,
+    "status": "pending",
+    "match": {"ru": "Кот-д'Ивуар — Норвегия", "en": "Côte d'Ivoire — Norway"},
+    "bet": {"ru": "Волевая победа любой из команд — да", "en": "Comeback win by either team — yes"},
+    "note": {
+      "ru": "Пашин красный флаер: одной ставкой обе волевые в разные стороны (кто-то отыграется с поражения и победит). Ждёт качели и камбэк в открытом матче — ровно под его «верх» по этой паре.",
+      "en": "Pasha's red flier: one bet covering a comeback win for either side (a team trails, then wins). He expects an end-to-end game with a comeback — in line with his «over» read of this tie."
+    }
   }
 ]

@@ -24,4 +24,7 @@ _(odds — Fonbet's live line, 30.06)_
 - 🔴 In the 2/3 correct-score system — **Mexico 1-0**.
 - Counter-test: BTTS-no @1.60 I don't add separately — it almost fully overlaps the under (hidden duplication); I express the low through the total + the correct-score.
 
-**Pasha:** _awaiting Pasha's real picks (Vlad will relay his messages) — only the AI side is published so far._
+**Pasha:**
+- 🟢 **Mexico win @2.28** — Pasha goes against the crowd expecting 0-0: he backs home-field factor, Mexico driven forward while Ecuador play scared. He hopes for 1-0.
+- 🟢 In the day's push-protected accumulator — **Mexico handicap 0** (draw-no-bet).
+- 🔴 In the 2/3 correct-score system — score **1-0**.
