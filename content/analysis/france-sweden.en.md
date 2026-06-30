@@ -1,3 +1,13 @@
+## Result: France — Sweden 3:0 (1:0)
+
+France went through like a machine, no nerves required. Mbappé opened the scoring right before half-time (Dembélé assist), Barcola doubled it on 53' (Olise assist), and on 74' Mbappé bagged his brace — again teed up by Olise. xG 3.17 — 0.67, shots 25-8, possession 61% — total domination. Isak and Gyökeres never got near a chance of note. France next face the winner of Uruguay — Portugal.
+
+**Settlement.** AI: 🟢 France −1.5 @1.82 — ✓ covered comfortably (3-0); 🟡 over 4.5 @3.50 — ✗ only three goals, short of the line (−1500). Pasha: 🟢 France individual total over 2.5 @1.92 — ✓ three France goals (+2760). The multi-match bets are still live and now all hinge on Mexico: the AI accumulator is alive (France −1.5 landed, only Mexico-Ecuador under 2.0 left); Pasha's accumulator is alive (Sweden under 1.0 landed, only Mexico draw-no-bet left). Correct-score systems: AI nailed Côte d’Ivoire 1:2, Pasha nailed France 3:0 — both now pass only on a Mexico 1:0.
+
+**Lesson.** An "efficient" favourite with no value in the result can still pay — through the right market: the −1.5 handicap on class (1.30 vs 11.0, the tournament's worst defence) cashed, while the tail over 4.5 did not. France dominated but finished economically and didn't chase the margin. When a favourite leads 2-0 and controls the game, the goal-fest usually stops at three.
+
+---
+
 ## France — Sweden · 01.07, 00:00 MSK · MetLife Stadium, New York
 
 **A chasm in class. France topped the group at full marks (9 points, the best defence, Mbappé scoring in every game); Sweden scraped through third after a 1-5 hammering by the Netherlands. The Swedes have an attack (Isak, Gyökeres), but their defence is the worst of any qualifier, and Hien is injured on top. Expect a comfortable France and goals.**

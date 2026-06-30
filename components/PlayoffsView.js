@@ -34,7 +34,7 @@ export default function PlayoffsView() {
     M73: { ...P(T('ЮАР', 'South Africa', 'za'), T('Канада', 'Canada', 'ca'), 'b', '0:1', 'reg', 'medium'), fact: 'b', fscore: '0:1', fby: 'reg' },
     M74: { ...P(T('Германия', 'Germany', 'de'), T('Парагвай', 'Paraguay', 'py'), 'a', '2:1', 'reg', 'medium'), fact: 'b', fscore: '1:1, пен. 3:4', fby: 'pen' },
     M75: { ...P(T('Нидерланды', 'Netherlands', 'nl'), T('Марокко', 'Morocco', 'ma'), 'a', '2:1 (доп. время)', 'aet', 'low'), fact: 'b', fscore: '1:1, пен. 2:3', fby: 'pen' },
-    M77: P(T('Франция', 'France', 'fr'), T('Швеция', 'Sweden', 'se'), 'a', '3:1', 'reg', 'high'),
+    M77: { ...P(T('Франция', 'France', 'fr'), T('Швеция', 'Sweden', 'se'), 'a', '3:1', 'reg', 'high'), fact: 'a', fscore: '3:0', fby: 'reg' },
     M81: P(T('США', 'USA', 'us'), T('Босния', 'Bosnia', 'ba'), 'a', '2:1', 'reg', 'high'),
     M82: P(T('Бельгия', 'Belgium', 'be'), T('Сенегал', 'Senegal', 'sn'), 'a', '2:1', 'reg', 'medium'),
     M83: P(T('Португалия', 'Portugal', 'pt'), T('Хорватия', 'Croatia', 'hr'), 'a', '2:1', 'reg', 'medium'),

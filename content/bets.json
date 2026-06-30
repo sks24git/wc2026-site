@@ -8447,7 +8447,7 @@
     "tier": "green",
     "odds": 1.82,
     "stake": 3000,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Франция — Швеция",
       "en": "France — Sweden"
@@ -8457,8 +8457,8 @@
       "en": "France −1.5 handicap"
     },
     "note": {
-      "ru": "Пропасть в классе (1.30 против 11.0), у Швеции худшая оборона среди вышедших (1:5 Нидерландам, 7 пропущенных) + травмирован Хиен. Франция выиграла все матчи группы; модальный счёт 3:1/2:0 проходит фору.",
-      "en": "A chasm in class (1.30 vs 11.0), Sweden the worst defence of any qualifier (1-5 to the Netherlands, 7 conceded) + Hien injured. France won every group game; a modal 3-1/2-0 covers the line."
+      "ru": "✓ Франция 3:0 — фора −1.5 прошла с запасом",
+      "en": "✓ France 3-0 — −1.5 covered comfortably"
     }
   },
   {
@@ -8516,7 +8516,7 @@
     "tier": "yellow",
     "odds": 3.5,
     "stake": 1500,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Франция — Швеция",
       "en": "France — Sweden"
@@ -8526,8 +8526,8 @@
       "en": "Over 4.5"
     },
     "note": {
-      "ru": "Гол-фест: огневая мощь Франции + катастрофа в обороне Швеции (Хиен выбыл) + своя атака шведов (Исак/Гьёкереш). Хвостовая позиция, но строго на профиле матча худшей обороны турнира.",
-      "en": "A goal-fest: France's firepower + Sweden's defensive shambles (Hien out) + Sweden's own attack (Isak/Gyökeres). A tail bet, but squarely on the profile of the tournament's worst defence."
+      "ru": "✗ всего 3 гола (3:0) — до 4.5 не дотянуло",
+      "en": "✗ only 3 goals (3-0) — short of 4.5"
     }
   },
   {
@@ -8580,8 +8580,8 @@
       }
     ],
     "note": {
-      "ru": "Кот-д’Ивуар — Норвегия 1:2 — позиция зашла ТОЧНО; для прохода 2/3 нужен ещё один счёт (Франция 2:1 или Мексика 1:0)",
-      "en": "Côte d’Ivoire — Norway 1:2 — leg hit EXACTLY; for 2/3 one more score needed (France 2:1 or Mexico 1:0)"
+      "ru": "Кот-д’Ивуар 1:2 — попал точно; Франция 2:1 — мимо (3:0). Из 3 нужно 2 — проход только если Мексика 1:0",
+      "en": "Côte d’Ivoire 1:2 — exact hit; France 2:1 — missed (3-0). Needs 2 of 3 — passes only if Mexico 1:0"
     }
   },
   {
@@ -8635,8 +8635,8 @@
       }
     ],
     "note": {
-      "ru": "Позиция «обе забьют» в КИ-Норвегии зашла (1:2); ждём фору Франции −1.5 и тотал меньше 2.0 в Мексике",
-      "en": "BTTS leg in CI-Norway landed (1:2); waiting on France −1.5 and Mexico under 2.0"
+      "ru": "Обе забьют КИ-Нор и фора Франции −1.5 (3:0) зашли; жив — остался тотал меньше 2.0 в Мексика-Эквадор",
+      "en": "BTTS CI-Norway and France −1.5 (3-0) landed; alive — only Mexico-Ecuador under 2.0 remains"
     }
   },
   {
@@ -8648,7 +8648,7 @@
     "tier": "green",
     "odds": 1.92,
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Франция — Швеция",
       "en": "France — Sweden"
@@ -8658,8 +8658,8 @@
       "en": "France individual total over 2.5"
     },
     "note": {
-      "ru": "Паша: у Франции Мбаппе, Дембеле и Олисе сами оттягиваются и начинают атаку, а шведам можно колотить и издалека — жду сухую победу с тремя голами французов, не удивлюсь хет-трику звезды.",
-      "en": "Pasha: Mbappé, Dembélé and Olise drop deep and start the attacks themselves, and you can shoot Sweden from distance too — he expects a clean win with three France goals, a star hat-trick wouldn't surprise him."
+      "ru": "✓ Франция забила 3 (Мбаппе ×2, Барколя) — ИТ больше 2.5",
+      "en": "✓ France scored 3 (Mbappé ×2, Barcola) — individual total over 2.5"
     }
   },
   {
@@ -8759,8 +8759,8 @@
       }
     ],
     "note": {
-      "ru": "Тотал больше 2.0 в КИ-Норвегии зашёл (3 гола); ждём фору Мексики 0 и ИТ Швеции меньше 1.0 — оба под возврат",
-      "en": "Over 2.0 in CI-Norway landed (3 goals); waiting on Mexico draw-no-bet and Sweden team total under 1.0 — both void-protected"
+      "ru": "ИТ Швеции меньше 1.0 (0 голов) и тотал КИ-Нор больше 2.0 зашли; жив — осталась фора Мексики 0",
+      "en": "Sweden under 1.0 (0 goals) and CI-Norway over 2.0 landed; alive — only Mexico draw-no-bet remains"
     }
   },
   {
@@ -8814,8 +8814,8 @@
       }
     ],
     "note": {
-      "ru": "Кот-д’Ивуар — Норвегия 2:2 — мимо (факт 1:2); для прохода 2/3 теперь нужны ОБА оставшихся счёта (Франция 3:0 и Мексика 1:0)",
-      "en": "Côte d’Ivoire — Norway 2:2 — missed (actual 1:2); to cash 2/3 BOTH remaining scores must now hit (France 3:0 and Mexico 1:0)"
+      "ru": "Франция 3:0 — попал точно; Кот-д’Ивуар 2:2 — мимо (1:2). Из 3 нужно 2 — проход только если Мексика 1:0",
+      "en": "France 3-0 — exact hit; Côte d’Ivoire 2:2 — missed (1-2). Needs 2 of 3 — passes only if Mexico 1:0"
     }
   },
   {
