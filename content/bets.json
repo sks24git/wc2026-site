@@ -8208,12 +8208,12 @@
     "tier": "green",
     "odds": 1.65,
     "stake": 3000,
-    "status": "pending",
+    "status": "win",
     "match": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"},
     "bet": {"ru": "Двойной шанс: ничья или Марокко", "en": "Double chance: draw or Morocco"},
     "note": {
-      "ru": "Жара садит беговой прессинг Нидерландов, блок Марокко + Буну. Линия почти монетка (Нидерланды лишь 2.25) — «Марокко не проигрывает в основное время» опора матча.",
-      "en": "The heat saps the Dutch running press; Morocco's block plus Bono. The line is near a coin-flip (Netherlands just 2.25) — \"Morocco don't lose in regulation\" is the anchor."
+      "ru": "✓ В основное время 1:1 — Марокко не проиграло в 90 минут, опора ставки удержалась; затем вытянули серию пенальти 3:2 и прошли. Двойной шанс зашёл.",
+      "en": "✓ 1-1 in regulation — Morocco didn't lose in 90 minutes, the anchor held; they then took the shootout 3-2 and advanced. The double chance landed."
     }
   },
   {
@@ -8225,12 +8225,12 @@
     "tier": "yellow",
     "odds": 4.8,
     "stake": 1500,
-    "status": "pending",
+    "status": "win",
     "match": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"},
     "bet": {"ru": "Будет серия пенальти", "en": "Penalty shootout — yes"},
     "note": {
-      "ru": "Вязкий жаркий матч, блок Марокко и Буну-специалист, почти равная линия. «Не в основное время» ~35%, серия ~21% — рынок недооценивает шутаут под профиль матча.",
-      "en": "A sticky, hot game, Morocco's block and Bono the specialist, an almost level line. \"Not decided in 90\" ~35%, a shootout ~21% — the market underprices the shootout for this profile."
+      "ru": "✓ 1:1 в основное и доп. время → серия пенальти, Марокко 3:2 (Буну отбил у Саммервилла). Главная value-грань дня зашла по крупному кэфу.",
+      "en": "✓ 1-1 through regulation and extra time → a shootout, Morocco 3-2 (Bono saved Summerville). The day's main value angle landed at a big price."
     }
   },
   {
@@ -8300,12 +8300,12 @@
     "odds": 1.84,
     "stake": 3000,
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "match": {"ru": "Нидерланды — Марокко", "en": "Netherlands — Morocco"},
     "bet": {"ru": "Обе забьют — да", "en": "Both teams to score — yes"},
     "note": {
-      "ru": "Паша: для него Нидерланды — явный аутсайдер по игре и составу, медленно раскачиваются в жару. Чистую победу Марокко не берёт (могут уцепить ничью), но «забьют обе» — надёжно. Голов немного, максимум 3; точный счёт 1:2 (победа Марокко).",
-      "en": "Pasha: to him the Netherlands are the clear underdog by play and squad, slow to warm up in the heat. He avoids a straight Morocco win (they may nick a draw), but BTTS is solid. Few goals, 3 max; his exact score 1-2 (Morocco win)."
+      "ru": "✓ Гакпо (Нид, 72') и Диоп (Мар, 90+1') — обе забили в игровое время. Голов немного (1:1), как Паша и закладывал; обе забьют зашло.",
+      "en": "✓ Gakpo (NED, 72') and Diop (MAR, 90+1') — both scored in normal time. Few goals (1-1) just as Pasha read it; BTTS landed."
     }
   },
   {

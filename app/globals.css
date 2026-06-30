@@ -630,9 +630,10 @@ td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular
 .po-br-half.top .po-br-box.mb{border-left:3px solid var(--ai)}
 .po-br-half.bottom .po-br-box.mb{border-left:3px solid var(--lose)}
 .po-br-box.mb .po-br-tag{display:flex;align-items:center;gap:6px}
-.po-mb-score{margin-left:auto;font-size:9.5px;font-weight:800;color:var(--muted);letter-spacing:0;text-transform:none}
+.po-mb-score{margin-left:auto;font-size:9.5px;font-weight:800;color:var(--muted);letter-spacing:0;text-transform:none;font-variant-numeric:tabular-nums}
 .po-br-box.mb.pen .po-mb-score{color:var(--pasha)}
-.po-br-box.mb .po-team{font-size:12px;gap:6px;line-height:1.2;font-weight:600}
+.po-mb-score.hit{color:var(--green)}
+.po-br-box.mb .po-team{font-size:12px;gap:6px;line-height:1.2}
 .po-mb-meta{display:flex;align-items:center;gap:5px;font-size:8.5px;font-weight:600;color:var(--faint);line-height:1.1;margin:-1px 0 1px}
 .po-mb-dt{flex:none;font-variant-numeric:tabular-nums}
 .po-mb-venue{margin-left:auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -641,12 +642,27 @@ td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular
 .po-conf.tossup{background:rgba(190,18,60,.12);color:var(--lose)}
 .po-conf.low{background:rgba(217,119,6,.15);color:var(--pasha)}
 .po-br-box.mb .po-flag{width:18px;height:18px}
-.po-team.dim{opacity:.46}
-.po-team.w-ai{font-weight:800}
+/* сыгранный матч (FT): заливка + зелёный тэг */
+.po-br-box.mb.played{background:#f6f7f9;border-color:var(--hair-strong)}
+.po-br-box.mb.played .po-br-tag>span:first-child{color:var(--green)}
+.po-ft{font-style:normal;background:var(--green);color:#fff;font-size:8px;font-weight:800;line-height:1;padding:2px 5px;border-radius:5px;letter-spacing:.06em;flex:none}
+/* презенс-слой: насколько команда реально здесь */
+.po-team.real{color:var(--ink);font-weight:600}
+.po-team.proj{color:var(--faint);font-style:italic;font-weight:600}
+.po-team.proj .po-flag{opacity:.5}
+.po-team.proj .po-flag-tbd{opacity:1}
+.po-team.win{font-weight:800;color:var(--ink)}
+.po-team.win .po-tn{color:var(--green)}
+.po-team.out{opacity:.46}
+.po-through{font-size:8px;font-weight:800;color:var(--green);flex:none;letter-spacing:.02em;white-space:nowrap}
 .po-tn{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.po-chips{margin-left:auto;display:flex;gap:3px;align-items:center;flex:none}
+.po-chips{margin-left:auto;display:flex;gap:4px;align-items:center;flex:none}
 .po-chip{font-style:normal;font-size:9px;font-weight:800;line-height:1;padding:2px 4px;border-radius:5px;letter-spacing:.02em;color:#fff}
 .po-chip.ai{background:var(--ai)}
+.po-chip.ai.ghost{background:transparent;color:var(--ai);box-shadow:inset 0 0 0 1.2px var(--ai)}
+.po-chip.aiwin{background:var(--green);color:#fff}
+.po-chip.aimiss{background:transparent;color:var(--lose);box-shadow:inset 0 0 0 1.2px var(--lose)}
+.po-chip.aibust{background:transparent;color:var(--faint);box-shadow:inset 0 0 0 1.2px var(--hair-strong);text-decoration:line-through}
 .po-chip.pa{background:var(--pasha);color:#3a2a00}
 .po-chip.fact{background:var(--green)}
 /* финал-боксы */

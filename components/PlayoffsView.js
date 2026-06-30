@@ -24,21 +24,22 @@ export default function PlayoffsView() {
   const lang = useLang();
   const tr = (ru, en) => (lang === 'en' ? en : ru);
   const T = (ru, en, cc) => ({ t: tr(ru, en), cc });
+  const norm = (s) => (s || '').replace(/\s+/g, ' ').trim();
 
   // PRED[code] = { a, b, win:'a'|'b', score, by:'reg'|'aet'|'pen', conf, pasha?, fact? }
   // pasha/fact — позже: 'a'/'b' (кого ведёт Паша / кто реально прошёл).
   const P = (a, b, win, score, by, conf) => ({ a, b, win, score, by, conf });
   const PRED = {
     // ── 1/16 ──
-    M73: { ...P(T('ЮАР', 'South Africa', 'za'), T('Канада', 'Canada', 'ca'), 'b', '0:1', 'reg', 'medium'), fact: 'b' },
-    M74: { ...P(T('Германия', 'Germany', 'de'), T('Парагвай', 'Paraguay', 'py'), 'a', '1:1, пен. 3:4', 'pen', 'medium'), fact: 'b' },
-    M75: P(T('Нидерланды', 'Netherlands', 'nl'), T('Марокко', 'Morocco', 'ma'), 'a', '2:1 (доп. время)', 'aet', 'low'),
+    M73: { ...P(T('ЮАР', 'South Africa', 'za'), T('Канада', 'Canada', 'ca'), 'b', '0:1', 'reg', 'medium'), fact: 'b', fscore: '0:1', fby: 'reg' },
+    M74: { ...P(T('Германия', 'Germany', 'de'), T('Парагвай', 'Paraguay', 'py'), 'a', '2:1', 'reg', 'medium'), fact: 'b', fscore: '1:1, пен. 3:4', fby: 'pen' },
+    M75: { ...P(T('Нидерланды', 'Netherlands', 'nl'), T('Марокко', 'Morocco', 'ma'), 'a', '2:1 (доп. время)', 'aet', 'low'), fact: 'b', fscore: '1:1, пен. 2:3', fby: 'pen' },
     M77: P(T('Франция', 'France', 'fr'), T('Швеция', 'Sweden', 'se'), 'a', '3:1', 'reg', 'high'),
     M81: P(T('США', 'USA', 'us'), T('Босния', 'Bosnia', 'ba'), 'a', '2:1', 'reg', 'high'),
     M82: P(T('Бельгия', 'Belgium', 'be'), T('Сенегал', 'Senegal', 'sn'), 'a', '2:1', 'reg', 'medium'),
     M83: P(T('Португалия', 'Portugal', 'pt'), T('Хорватия', 'Croatia', 'hr'), 'a', '2:1', 'reg', 'medium'),
     M84: P(T('Испания', 'Spain', 'es'), T('Австрия', 'Austria', 'at'), 'a', '2:0', 'reg', 'high'),
-    M76: { ...P(T('Бразилия', 'Brazil', 'br'), T('Япония', 'Japan', 'jp'), 'a', '2:1', 'reg', 'medium'), fact: 'a' },
+    M76: { ...P(T('Бразилия', 'Brazil', 'br'), T('Япония', 'Japan', 'jp'), 'a', '2:1', 'reg', 'medium'), fact: 'a', fscore: '2:1', fby: 'reg' },
     M78: P(T('Кот-д’Ивуар', 'Côte d’Ivoire', 'ci'), T('Норвегия', 'Norway', 'no'), 'b', '1:2', 'reg', 'medium'),
     M79: P(T('Мексика', 'Mexico', 'mx'), T('Эквадор', 'Ecuador', 'ec'), 'a', '1:0', 'reg', 'medium'),
     M80: P(T('Англия', 'England', 'gb-eng'), T('ДР Конго', 'DR Congo', 'cd'), 'a', '2:0', 'reg', 'medium'),
@@ -110,17 +111,59 @@ export default function PlayoffsView() {
   const TOP = { side: 'top', r32: ['M74', 'M77', 'M73', 'M75', 'M83', 'M84', 'M81', 'M82'], r16: ['M89', 'M90', 'M93', 'M94'], qf: ['M97', 'M98'], sf: 'M101' };
   const BOTTOM = { side: 'bottom', r32: ['M76', 'M78', 'M79', 'M80', 'M86', 'M88', 'M85', 'M87'], r16: ['M91', 'M92', 'M95', 'M96'], qf: ['M99', 'M100'], sf: 'M102' };
 
-  function TeamRow({ team, side, p }) {
-    const ai = p.win === side, pa = p.pasha === side, fact = p.fact === side;
-    const dim = (p.fact ? !fact : !ai); // приглушаем «проигравшего» по факту (если есть) иначе по AI
+  // Фидер-граф: какой матч (победитель Wxx / проигравший Lxx) поставляет участника в слот [a,b].
+  const FEED = {
+    M89: ['M74', 'M77'], M90: ['M73', 'M75'], M93: ['M83', 'M84'], M94: ['M81', 'M82'],
+    M91: ['M76', 'M78'], M92: ['M79', 'M80'], M95: ['M86', 'M88'], M96: ['M85', 'M87'],
+    M97: ['M89', 'M90'], M98: ['M93', 'M94'], M99: ['M91', 'M92'], M100: ['M95', 'M96'],
+    M101: ['M97', 'M98'], M102: ['M99', 'M100'], M104: ['M101', 'M102'], M103: ['L101', 'L102'],
+  };
+  const feederRef = (code, side) => { const f = FEED[code]; return f ? f[side === 'a' ? 0 : 1] : null; };
+  // Реальный участник слота: если фидер сыгран — настоящий прошедший (рекурсивно), иначе прогноз AI (PRED[code][side]).
+  function slotModel(code, side) {
+    const p = PRED[code]; const ref = feederRef(code, side);
+    if (!ref) return { team: p[side], real: true };           // 1/16: обе команды всегда реальны
+    const w = boxOutcome(ref);
+    if (w.resolved) return { team: w.team, real: true };
+    return { team: p[side], real: false };                    // прогноз: фидер ещё не сыгран
+  }
+  // Победитель ('Mxx') или проигравший ('Lxx') бокса, если он уже сыгран.
+  function boxOutcome(ref) {
+    const loser = ref[0] === 'L'; const code = 'M' + ref.slice(1);
+    const p = PRED[code];
+    if (!p || !p.fact) return { team: null, resolved: false };
+    const side = loser ? (p.fact === 'a' ? 'b' : 'a') : p.fact;
+    return { team: slotModel(code, side).team, resolved: true };
+  }
+
+  function TeamRow({ code, side, p }) {
+    const sm = slotModel(code, side);
+    const team = sm.team || { t: '—', cc: null };
+    const played = !!p.fact;
+    const isWin = played && p.fact === side;
+    const isLose = played && p.fact !== side;
+    const aiPick = p.win === side;
+    // расхождение: реальный участник заменил спрогнозированную AI команду в этом слоте
+    const diverged = sm.real && !played && p[side] && team.cc && p[side].cc !== team.cc;
+    const cls = 'po-team' + (isWin ? ' win' : isLose ? ' out' : sm.real ? ' real' : ' proj');
+    let chip = null;
+    if (played) {
+      if (isWin) chip = aiPick ? <i className="po-chip aiwin" title={tr('AI угадал проход', 'AI called it')}>AI ✓</i> : <i className="po-chip fact" title={tr('прошёл', 'advanced')}>✓</i>;
+      else if (aiPick) chip = <i className="po-chip aimiss" title={tr('AI ошибся', 'AI missed')}>AI ✗</i>;
+    } else if (aiPick) {
+      chip = diverged
+        ? <i className="po-chip aibust" title={tr('пик AI не прошёл в этот раунд', 'AI pick did not reach this round')}>AI</i>
+        : <i className="po-chip ai ghost" title={tr('прогноз AI на победителя', 'AI pick to win')}>AI</i>;
+    }
+    const through = !played && sm.real && !!feederRef(code, side); // реально прошёл из предыдущего раунда, матч впереди (в 1/16 фидера нет)
     return (
-      <div className={'po-team' + (ai ? ' w-ai' : '') + (fact ? ' w-fact' : '') + (dim ? ' dim' : '')}>
+      <div className={cls}>
         <Flag cc={team.cc} />
         <span className="po-tn">{team.t}</span>
         <span className="po-chips">
-          {ai && <i className="po-chip ai" title="Прогноз AI">AI</i>}
-          {pa && <i className="po-chip pa" title="Прогноз Паши">П</i>}
-          {fact && <i className="po-chip fact" title="Факт">✓</i>}
+          {through && <span className="po-through" title={tr('команда реально прошла в этот раунд', 'team has really advanced here')}>✓ {tr('дальше', 'through')}</span>}
+          {p.pasha === side && <i className="po-chip pa" title={tr('Прогноз Паши', 'Pasha pick')}>П</i>}
+          {chip}
         </span>
       </div>
     );
@@ -130,14 +173,23 @@ export default function PlayoffsView() {
     const p = PRED[code];
     if (!p) return null;
     const m = META[code];
+    const played = !!p.fact;
+    const shownScore = played ? p.fscore : p.score;
+    const shownBy = played ? p.fby : p.by;
+    const hit = played && p.fscore && p.score && norm(p.fscore) === norm(p.score);
     return (
-      <div className={'po-br-box mb ' + kind + (p.by === 'pen' ? ' pen' : '')}>
+      <div className={'po-br-box mb ' + kind + (played ? ' played' : '') + (shownBy === 'pen' && !hit ? ' pen' : '')}>
         <div className="po-br-tag">
           <span>{code}</span>
-          {(p.conf === 'tossup' || p.conf === 'low') && (
+          {played && <span className="po-ft">FT</span>}
+          {!played && (p.conf === 'tossup' || p.conf === 'low') && (
             <span className={'po-conf ' + p.conf}>{p.conf === 'tossup' ? '50/50' : tr('слабо', 'soft')}</span>
           )}
-          {p.score && <span className="po-mb-score">{scoreText(p.score, lang)}</span>}
+          {shownScore && (
+            <span className={'po-mb-score' + (hit ? ' hit' : '')}>
+              {played ? (hit ? '✓ ' : '') : tr('прогноз ', 'proj. ')}{scoreText(shownScore, lang)}
+            </span>
+          )}
         </div>
         {m && (
           <div className="po-mb-meta">
@@ -145,8 +197,8 @@ export default function PlayoffsView() {
             <span className="po-mb-venue">{m.icon} {tr(m.ru, m.en)}{m.extra}</span>
           </div>
         )}
-        <TeamRow team={p.a} side="a" p={p} />
-        <TeamRow team={p.b} side="b" p={p} />
+        <TeamRow code={code} side="a" p={p} />
+        <TeamRow code={code} side="b" p={p} />
       </div>
     );
   }
@@ -223,8 +275,8 @@ export default function PlayoffsView() {
     <div>
       <h1>{tr('Плей-офф · прогноз AI', 'Playoffs · AI forecast')}</h1>
       <p className="po-intro">
-        {tr('Полный прогноз AI по всей сетке — матч за матчем, с учётом формы команд, стиля, умения вскрывать автобус, стадионов и серий пенальти. В каждом боксе подсвечен предсказанный победитель и счёт; «пен» — проход через серию. Метки: синяя AI — наш прогноз; янтарная П (прогноз Паши) и зелёная ✓ (факт) добавятся позже.',
-            'The full AI forecast across the whole bracket — match by match, weighing form, style, bus-breaking, stadiums and shootouts. Each box highlights the predicted winner and score; “pen” marks a shootout. Chips: blue AI is our pick; the amber П (Pasha) and green ✓ (actual result) will be added later.')}
+        {tr('Полный прогноз AI по всей сетке — матч за матчем. Сыгранные боксы заливаются и помечаются FT: прошедшая команда — жирная с зелёной ✓, счёт зеленеет, если точный счёт AI зашёл. Дальше по сетке сплошная тёмная команда — та, что реально прошла сюда, а бледный курсив — ещё не сыгранный прогноз (он сам подменяется фактом, как только нужный матч завершён).',
+            'The full AI forecast across the whole bracket — match by match. Played ties are filled and tagged FT: the team that advanced is bold with a green ✓, and the score turns green if AI nailed the exact scoreline. Deeper in the bracket a solid dark team is one that has really arrived, while faint italic is a not-yet-played forecast (it swaps itself for the real result as soon as the feeding tie finishes).')}
       </p>
 
       <div className="po-champ">
@@ -235,9 +287,15 @@ export default function PlayoffsView() {
       </div>
 
       <div className="po-legend">
-        <span><i className="po-chip ai">AI</i> {tr('прогноз AI', 'AI pick')}</span>
-        <span><i className="po-chip pa">П</i> {tr('Паша', 'Pasha')} <small>({tr('скоро', 'soon')})</small></span>
-        <span><i className="po-chip fact">✓</i> {tr('факт', 'result')} <small>({tr('после матчей', 'after matches')})</small></span>
+        <span><i className="po-chip ai ghost">AI</i> {tr('прогноз AI', 'AI pick')}</span>
+        <span className="po-team real" style={{ fontSize: '12px' }}>{tr('тёмный', 'solid')}<span className="po-through">✓ {tr('дальше', 'through')}</span></span> = {tr('реально прошёл', 'really advanced')}
+        <span className="po-team proj" style={{ fontSize: '12px' }}>{tr('бледный курсив', 'faint italic')}</span> = {tr('прогноз (матч не сыгран)', 'forecast (tie not played)')}
+      </div>
+      <div className="po-legend">
+        <span><i className="po-chip aiwin">AI ✓</i> {tr('AI угадал', 'AI right')}</span>
+        <span><i className="po-chip aimiss">AI ✗</i> {tr('AI мимо', 'AI missed')}</span>
+        <span><i className="po-chip fact">✓</i> {tr('прошёл', 'advanced')}</span>
+        <span><i className="po-ft">FT</i> {tr('сыгран · зелёный счёт = точный счёт AI зашёл', 'played · green score = AI nailed the scoreline')}</span>
       </div>
       <div className="po-legend mini">
         <span>🏟 {tr('крыша / кондиц.', 'roof / AC')}</span>

@@ -1,3 +1,22 @@
+## Result: Netherlands 1-1 Morocco (0-0) — Morocco win 3-2 on penalties, another upset
+
+**The second upset of the night: Morocco knocked the Netherlands out and reached the round of 16 to face Canada. 1-1 through regulation and extra time, 3-2 in the shootout. Gakpo put the Oranje ahead on 72', but Issa Diop struck on 90+1' to rescue Morocco. In the shootout Yassine Bono saved Summerville's kick and Ismael Saibari buried the decisive penalty. «Morocco don't lose in regulation» — exactly the thesis our double chance rode on — held up again.**
+
+- **Goals:** Gakpo 72' (NED, 1:0) → Issa Diop 90+1' (MAR, 1:1, his first for the national team). Extra time goalless.
+- **Shootout 3-2 Morocco:** Bono saved Summerville; Saibari scored the decisive fifth kick.
+- **Cards / VAR / xG:** no reliable data (sources without xG; no red cards or in-game penalties recorded).
+
+**Settlement (site battle):**
+- AI 🟢 **Double chance: draw or Morocco @1.65 — WIN** (+1950): 1-1 in regulation, Morocco didn't lose.
+- AI 🟡 **Penalty shootout — yes @4.80 — WIN** (+5700): the day's main value angle — a sticky tie went to a shootout.
+- AI 🔴 system CS 2/3 — already dead since match 2 (closed LOSE).
+- Pasha 🟢 **Both teams to score — yes @1.84 — WIN** (+2520): Gakpo and Diop.
+- Match points: **AI +7650, Pasha +2520.**
+
+**Lesson:** the upset profile fired on every front — a block + a top keeper + stickiness → a 1-1 in 90 and a shootout. A double chance on an underdog who «doesn't lose in regulation» and a bet on the shootout itself (at a big price) are two wrappers of one correct read, both landing. Pasha's BTTS also came in (Diop's late goal). A night of low scores and shootouts: both evening knockouts went 1-1 → penalties.
+
+---
+
 ## Netherlands — Morocco · 30.06, 04:00 MSK · Estadio BBVA, Monterrey
 
 **The tie of the round. The Netherlands' controlled pressing against Morocco's organised block — the 2022 semifinalists with Bono in goal. A warm Monterrey evening and an almost level line: Morocco are genuinely alive.**
