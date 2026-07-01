@@ -1,3 +1,20 @@
+## Result: England 2-1 DR Congo (HT 0-1)
+
+**Exactly the "the block holds, then breaks" script: Chipenga stunned England as early as the 7th — a Mbemba cross, a low finish past Pickford — and DR Congo comfortably played out the first half in front. But Gordon came on for the second half, and off his service Kane first equalised on 75', then scored the winner late on (~85'). 2-1, England move into the Round of 16, where Mexico await.**
+
+- Goals: 7′ Chipenga (DR Congo) · 75′ Kane (assist Gordon) · ~85′ Kane (assist Gordon). No penalties or red cards.
+- DR Congo again conceded on their usual "lose by exactly one" script, but this time couldn't hold it to the final whistle — unlike against Portugal, England eventually broke through once fresh legs came on.
+
+**Settlement:**
+- AI · DR Congo +1.5 (Asian handicap) 🟢 @1.90 — ✓ (lost by exactly one goal).
+- AI · correct-score system position, England 2-0 — ✗ (exact score missed: 2-1, not 2-0); the system's other two positions are still to come.
+- Pasha · England −1.5 handicap 🟢 @1.99 — ✗ (England won by only one goal, not two).
+- Pasha · 3-fold accumulator, "most productive half — 2nd" position @2.23 — ✓ (the 2nd half produced 2 goals against 1 in the first).
+
+**Lesson:** DR Congo's organised bus ran the exact same plan as against Portugal (concede one, stay compact) — but there they had enough left to hold on, while here England had fresh pace out wide (Gordon) that decided the game in the final 20 minutes. Against teams built to lose by exactly one goal, a +1.5 handicap on the underdog cashes more often than a −1.5/−2 handicap on the favourite — which is exactly how AI and Pasha split on the same match.
+
+---
+
 ## England — DR Congo · 01.07, 19:00 MSK · Mercedes-Benz Stadium, Atlanta
 
 **England are favourites at 1.30, but for the third time this tournament they run into an organised block: 0-0 with Ghana despite total possession, and against Panama they only scored in the second half. DR Congo are the same team that used the exact same plan (5-3-2, bus + counter + set piece) to snatch a 1-1 draw off Portugal. The Mercedes-Benz Stadium roof will be closed — Atlanta's heat is fully off the table, and this one gets decided by tactics alone.**

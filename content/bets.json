@@ -8850,7 +8850,7 @@
     "type": "АФ",
     "tier": "green",
     "odds": 1.9,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Англия — ДР Конго",
       "en": "England — DR Congo"
@@ -8858,6 +8858,10 @@
     "bet": {
       "ru": "ДР Конго +1.5 (азиатская фора)",
       "en": "DR Congo +1.5 (Asian handicap)"
+    },
+    "note": {
+      "ru": "✓ Англия выиграла 2:1 — ровно в один мяч, форы +1.5 достаточно. +1710 ₽.",
+      "en": "✓ England won 2-1 — exactly one goal, +1.5 handicap covers it. +1,710 ₽."
     }
   },
   {
@@ -8942,7 +8946,7 @@
     "type": "Экспресс",
     "tier": "yellow",
     "odds": 3.48,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Экспресс 2 события",
       "en": "2-fold accumulator"
@@ -8950,6 +8954,10 @@
     "bet": {
       "ru": "два события заходят",
       "en": "both picks land"
+    },
+    "note": {
+      "ru": "✗ СГОРЕЛ на 1-й позиции: Англия — ДР Конго закончилась 2:1 (3 гола) — тотал меньше 2.5 не прошёл. Матч США — Боснии ещё впереди, но проход уже математически недостижим. −1500 ₽.",
+      "en": "✗ LOSE on leg 1: England — DR Congo finished 2-1 (3 goals) — under 2.5 missed. USA — Bosnia is still ahead, but the accumulator is already mathematically dead. −1,500 ₽."
     },
     "legs": [
       {
@@ -8989,6 +8997,10 @@
     "bet": {
       "ru": "три зелёные позиции дня заходят",
       "en": "the day's three green picks land"
+    },
+    "note": {
+      "ru": "Позиция 1 (ДР Конго +1.5) — зашла ✓, Англия выиграла 2:1. Две позиции ещё впереди.",
+      "en": "Leg 1 (DR Congo +1.5) — landed ✓, England won 2-1. Two legs still to play."
     },
     "legs": [
       {
@@ -9081,7 +9093,7 @@
     "odds": 1.99,
     "tier": "green",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Англия — ДР Конго",
       "en": "England — DR Congo"
@@ -9089,6 +9101,10 @@
     "bet": {
       "ru": "Фора Англии −1.5 (азиатская фора)",
       "en": "England −1.5 handicap (Asian handicap)"
+    },
+    "note": {
+      "ru": "✗ Англия выиграла лишь 2:1 — фора −1.5 требовала победы в 2+ мяча. −3000 ₽.",
+      "en": "✗ England won by only 2-1 — the −1.5 handicap needed a win by 2+ goals. −3,000 ₽."
     }
   },
   {
@@ -9143,8 +9159,12 @@
       "en": "3-fold accumulator"
     },
     "bet": {
-      "ru": "три события по трём матчам слейта",
+      "ru": "три события по трём матчам дня",
       "en": "three picks across the day's three matches"
+    },
+    "note": {
+      "ru": "Позиция «результативный тайм Англии — 2-й» — зашла ✓ (2 гола во 2-м тайме против 1 в первом). Две позиции ещё впереди.",
+      "en": "The «England's most productive half — 2nd» leg — landed ✓ (2 goals in the 2nd half vs 1 in the 1st). Two legs still to play."
     },
     "legs": [
       {
