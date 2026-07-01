@@ -69,7 +69,7 @@
 
 **We don't take:**
 - Colombia win outright (1.40-1.44) — market overpays 9-10 pp vs Opta, no value
-- Colombia −1.5 Asian handicap — positional favourite against a bus; per strategy we don't back the favourite handicap
+- Colombia −1.5 handicap — positional favourite against a bus; per strategy we don't back the favourite handicap
 - Over 2.5 — goes against the xG projection and match type
 - BTTS No (~1.60-1.65) — below our confidence threshold for the signal
 - 1st-half totals — below green tier per strategy

@@ -6,7 +6,7 @@
 - DR Congo again conceded on their usual "lose by exactly one" script, but this time couldn't hold it to the final whistle — unlike against Portugal, England eventually broke through once fresh legs came on.
 
 **Settlement:**
-- AI · DR Congo +1.5 (Asian handicap) 🟢 @1.90 — ✓ (lost by exactly one goal).
+- AI · DR Congo +1.5 (handicap) 🟢 @1.90 — ✓ (lost by exactly one goal).
 - AI · correct-score system position, England 2-0 — ✗ (exact score missed: 2-1, not 2-0); the system's other two positions are still to come.
 - Pasha · England −1.5 handicap 🟢 @1.99 — ✗ (England won by only one goal, not two).
 - Pasha · 3-fold accumulator, "most productive half — 2nd" position @2.23 — ✓ (the 2nd half produced 2 goals against 1 in the first).
@@ -43,7 +43,7 @@
 ## Bets
 
 **AI:**
-- 🟢 **DR Congo +1.5 (Asian handicap) @1.90** — a direct repeat of a working calibration: the same opponent, running the same plan (5-3-2, bus + counter + set piece), already pulled a 1-1 off Portugal, a top-5 side. Against England — who didn't score at all against Ghana's block and only broke Panama down twice in the second half — DR Congo can realistically stay within one goal. Counter-test: if England's attack finally clicks from minute one (hasn't happened once this tournament), the handicap won't save it.
+- 🟢 **DR Congo +1.5 (handicap) @1.90** — a direct repeat of a working calibration: the same opponent, running the same plan (5-3-2, bus + counter + set piece), already pulled a 1-1 off Portugal, a top-5 side. Against England — who didn't score at all against Ghana's block and only broke Panama down twice in the second half — DR Congo can realistically stay within one goal. Counter-test: if England's attack finally clicks from minute one (hasn't happened once this tournament), the handicap won't save it.
 - 🟡 **Accumulator:** England team shots over 15.5 @1.70 + Senegal double chance (Belgium — Senegal match) @1.67 = **2.84** — two independent theses (England's territorial pressure without a quick rout, plus a shaky favourite in a parallel game).
 - 🔴 **Correct-score system position (2/3):** England **2-0** @5.00.
 

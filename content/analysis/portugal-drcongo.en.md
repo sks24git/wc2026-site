@@ -41,7 +41,7 @@
 | Market | Implied % | Model | Edge |
 |---|---|---|---|
 | Portugal win | 77-78% | 73.5% | ~4 pp (no value) |
-| Asian handicap −1.5 Portugal | ~52% | ~48% | ~4 pp (weak) |
+| Handicap −1.5 Portugal | ~52% | ~48% | ~4 pp (weak) |
 | Over 2.5 | ~59% | 56% | −3 pp (no value) |
 | BTTS Yes | ~38% | **42-45%** | ⚡ **+4-7 pp — value** |
 | Ronaldo anytime scorer | ~60% | ~46% | −14 pp (market overpriced) |
@@ -59,6 +59,6 @@
 **We don't take:**
 - Portugal win (-350) — no value, implied matches model
 - Ronaldo anytime (-140/-154) — sentiment-driven market overpay (−14 pp against us)
-- Asian handicap −1.5 Portugal — weak edge
+- Handicap −1.5 Portugal — weak edge
 - BTTS Yes (~2.50) — structurally justified as value, but the DR Congo +1.5 handicap is the primary play this game
 
