@@ -30,4 +30,5 @@
 - 🟡 **Accumulator:** England team shots over 15.5 @1.70 + Senegal double chance (Belgium — Senegal match) @1.67 = **2.84** — two independent theses (England's territorial pressure without a quick rout, plus a shaky favourite in a parallel game).
 - 🔴 **Correct-score system position (2/3):** England **2-0** @5.00.
 
-**Pasha:** waiting on his picks — will add once he sends his real ones.
+**Pasha:** 🟢 **England −1.5 handicap @1.99** — England is a personal trigger for Pasha: "one of the sides I dislike most — whatever I bet on them, it almost always misses." Setting that aside: DR Congo will bunker down — they've already jumped above their heads and are unlikely to be mentally ready for the knockouts, and that exact fear has undone Sweden, the Netherlands, South Africa before. England are too slow to break a low block on their own, but if Kane and Bellingham finally step up and a penalty for Africa is close to inevitable, it lands on a confident 2-0.
+- 🔴 **Three-fold accumulator:** Senegal double chance (Belgium — Senegal) @1.71 + England's most productive half — 2nd @2.23 + BTTS yes USA — Bosnia @1.91 = **7.28**.

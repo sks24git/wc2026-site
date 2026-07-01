@@ -30,4 +30,5 @@
 - 🟡 **Accumulator:** Senegal double chance @1.67 + England team shots over 15.5 (England — DR Congo match) @1.70 = **2.84**.
 - 🔴 **Correct-score system position (2/3):** Belgium **1-1** Senegal @6.00.
 
-**Pasha:** waiting on his picks — will add once he sends his real ones.
+**Pasha:** 🟢 **2nd half — Over 1.5 @2.06** — both sides looked shaky in the group, but the numbers are clear: of 22 goals in six matches for this pair, 18 came in the second half (6 for Belgium, 12 for Senegal). He doesn't buy an open, fast-starting knockout game: "BTTS is basically screaming at me, but I'll take it through the second-half total instead." He agrees with the machine that Senegal go through — just not sure whether in regulation or extra time.
+- 🔴 **Three-fold accumulator:** Senegal double chance @1.71 + England's most productive half (England — DR Congo) — 2nd @2.23 + BTTS yes USA — Bosnia @1.91 = **7.28**.

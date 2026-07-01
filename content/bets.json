@@ -9071,5 +9071,112 @@
         }
       }
     ]
+  },
+  {
+    "id": 318,
+    "side": "Паша",
+    "date": "2026-07-01",
+    "matchId": "england-drcongo",
+    "type": "АФ",
+    "odds": 1.99,
+    "tier": "green",
+    "contest": true,
+    "status": "pending",
+    "match": {
+      "ru": "Англия — ДР Конго",
+      "en": "England — DR Congo"
+    },
+    "bet": {
+      "ru": "Фора Англии −1.5 (азиатская фора)",
+      "en": "England −1.5 handicap (Asian handicap)"
+    }
+  },
+  {
+    "id": 319,
+    "side": "Паша",
+    "date": "2026-07-01",
+    "matchId": "belgium-senegal",
+    "type": "1Т-рынок",
+    "odds": 2.06,
+    "tier": "green",
+    "contest": true,
+    "status": "pending",
+    "match": {
+      "ru": "Бельгия — Сенегал",
+      "en": "Belgium — Senegal"
+    },
+    "bet": {
+      "ru": "2-й тайм — тотал больше 1.5",
+      "en": "2nd half — Over 1.5"
+    }
+  },
+  {
+    "id": 320,
+    "side": "Паша",
+    "date": "2026-07-01",
+    "matchId": "usa-bosnia",
+    "type": "ОЗ",
+    "odds": 1.97,
+    "tier": "green",
+    "contest": true,
+    "status": "pending",
+    "match": {
+      "ru": "США — Босния и Герцеговина",
+      "en": "USA — Bosnia and Herzegovina"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    }
+  },
+  {
+    "id": 321,
+    "side": "Паша",
+    "date": "2026-07-01",
+    "type": "Экспресс",
+    "odds": 7.28,
+    "tier": "red",
+    "contest": true,
+    "status": "pending",
+    "match": {
+      "ru": "Экспресс 3 события",
+      "en": "3-fold accumulator"
+    },
+    "bet": {
+      "ru": "три события по трём матчам слейта",
+      "en": "three picks across the day's three matches"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Бельгия — Сенегал",
+          "en": "Belgium — Senegal"
+        },
+        "p": {
+          "ru": "Двойной шанс Сенегал @1.71",
+          "en": "Senegal double chance @1.71"
+        }
+      },
+      {
+        "m": {
+          "ru": "Англия — ДР Конго",
+          "en": "England — DR Congo"
+        },
+        "p": {
+          "ru": "Результативный тайм — 2-й @2.23",
+          "en": "Most productive half — 2nd @2.23"
+        }
+      },
+      {
+        "m": {
+          "ru": "США — Босния и Герцеговина",
+          "en": "USA — Bosnia and Herzegovina"
+        },
+        "p": {
+          "ru": "Обе забьют — да @1.91",
+          "en": "Both teams to score — yes @1.91"
+        }
+      }
+    ]
   }
 ]

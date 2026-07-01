@@ -30,4 +30,5 @@
 - 🔴 **Correct-score system position (2/3):** USA **2-1** Bosnia @8.50.
 - 🔴 **Three-leg accumulator of the day's green picks:** DR Congo +1.5 @1.90 × Senegal double chance @1.67 × USA-Bosnia BTTS yes @2.03 = **6.44** — three independent theses from three different matches in one ticket.
 
-**Pasha:** waiting on his picks — will add once he sends his real ones.
+**Pasha:** 🟢 **Both teams to score — yes @1.97** — Bosnia scored in every group game, and USA are notorious for conceding; Pasha expects a repeat of their own Canada match. The knockouts add nerves: if USA go ahead, Bosnia will have to open up, and by his count the referees have already "missed" a clear penalty against USA twice this tournament — he expects the same tonight. His modal score is 2-1.
+- 🔴 **Three-fold accumulator:** Senegal double chance (Belgium — Senegal) @1.71 + England's most productive half (England — DR Congo) — 2nd @2.23 + BTTS yes @1.91 = **7.28**.
