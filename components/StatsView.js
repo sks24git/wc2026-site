@@ -148,6 +148,16 @@ function RecordsFor({ list }) {
       <div className="rec-lbl">{lbl}</div>
       <div className={'rec-v num ' + plCls(pl(b))}>{money(pl(b), lang)}</div>
       <div className="rec-d"><Tip hint={hintFor(b, lang)}>{L(b.bet, lang)}</Tip> — {L(b.match, lang)}</div>
+      {b.legs && (
+        <div className="rec-legs">
+          {b.legs.map((l, i) => (
+            <div key={i} className="rec-leg">
+              <span className="rec-leg-m">{L(l.m, lang)}</span>
+              <span className="rec-leg-p num">{L(l.p, lang)}</span>
+            </div>
+          ))}
+        </div>
+      )}
       <div className="rec-sub">{T('legend.odds')} {b.odds} · {rubFmt(stakeOf(b), lang)}</div>
     </div>
   );

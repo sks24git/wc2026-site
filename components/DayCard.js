@@ -47,11 +47,23 @@ export default function DayCard({ card }) {
                 {m && m.result && <span className="dc-match-score num">{m.result}</span>}
               </div>
               {byMatch[k].map((b) => (
-                <div key={b.id} className={'dc-bet ' + b.status}>
-                  <TierIcon tier={b.tier} size={15} lang={lang} />
-                  <span className="dc-bet-name">{L(b.bet, lang)}</span>
-                  <span className="dc-bet-odds num">{fmtOdds(b.odds)}</span>
-                  <Result bet={b} />
+                <div key={b.id} className="dc-bet-wrap">
+                  <div className={'dc-bet ' + b.status}>
+                    <TierIcon tier={b.tier} size={15} lang={lang} />
+                    <span className="dc-bet-name">{L(b.bet, lang)}</span>
+                    <span className="dc-bet-odds num">{fmtOdds(b.odds)}</span>
+                    <Result bet={b} />
+                  </div>
+                  {b.legs && (
+                    <div className="dc-legs">
+                      {b.legs.map((l, i) => (
+                        <div key={i} className="dc-leg">
+                          <span className="dc-leg-m">{L(l.m, lang)}</span>
+                          <span className="dc-leg-p num">{L(l.p, lang)}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
