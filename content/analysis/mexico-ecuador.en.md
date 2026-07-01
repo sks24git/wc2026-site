@@ -1,3 +1,13 @@
+## Result: Mexico — Ecuador 2:0 (2:0)
+
+Mexico ground it out at home and reached the Round of 16 with no late nerves. Both goals came in the first half within a nine-minute spell: Quiñones opened with a lovely finish into the corner (~22'), Jiménez doubled it on 31'. After the break the hosts saw it out on class, Ecuador never manufactured a chance of note, and in stoppage time they went down to ten — Hincapié sent off. Kick-off was delayed nearly an hour by an electrical storm over the Azteca. Mexico march on without conceding — next, the winner of England — DR Congo.
+
+**Settlement.** AI: 🟢 under 2.0 @1.75 — ↩ exactly 2 goals, whole line → push (P&L 0); 🟡 penalty shootout @4.20 — ✗ no extra time (−1500); correct-score system — ✗ of three scores only Côte d’Ivoire 1:2 hit, not enough for a 2/3 (−500); but the day's accumulator survived: BTTS CI-Norway and France −1.5 landed, and "under 2.0" was refunded — recalculated on the two legs, ✓ (eff. 2.97). Pasha: 🟢 Mexico win @2.28 — ✓ (+3840); push-protected accumulator @3.05 — ✓ all three (Mexico draw-no-bet, Sweden under 1.0, CI-Norway over 2.0), +6150; correct-score system — ✗ only France 3-0 hit (−500). The night belonged to Pasha: he pulled clear overall.
+
+**Lesson.** "Don't fade an unmotivated favourite" landed again from the other side: the base "low + draw + shootout" script failed — Mexico's class told at once, two goals before half-time at home. Meanwhile the whole-number "under 2.0" saved a loss on exactly two goals (push), and the multi-match accumulator showed the value of push-protected legs: one pushed leg doesn't sink the ticket, it just recalculates it.
+
+---
+
 ## Mexico — Ecuador · 01.07, 04:00 MSK · Estadio Azteca, Mexico City
 
 **Two of the tournament's best defences against two toothless attacks. Mexico came through the group with three clean sheets (6-0); Ecuador have one of the meanest backlines in the world — but score rarely and not via a centre-forward. The Azteca's altitude is familiar to Ecuador (Quito sits at 2,850 m), so the home bonus is smaller than usual. The base case is a low game, a regulation draw and shootout risk.**

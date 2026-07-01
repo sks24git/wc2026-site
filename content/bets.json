@@ -8470,7 +8470,7 @@
     "tier": "green",
     "odds": 1.75,
     "stake": 3000,
-    "status": "pending",
+    "status": "void",
     "match": {
       "ru": "Мексика — Эквадор",
       "en": "Mexico — Ecuador"
@@ -8480,8 +8480,8 @@
       "en": "Under 2.0"
     },
     "note": {
-      "ru": "Две топ-обороны (Мексика 3 сухаря, Эквадор 3 пропущенных за 14 матчей) и две беззубые атаки; консенсус трёх превью — 1:0/0:0. Целая линия 2.0 страхует возвратом при ровно 2 голах — 1:1 нас не убивает.",
-      "en": "Two elite defences (Mexico three clean sheets, Ecuador 3 conceded in 14 games) and two toothless attacks; three previews agree on 1-0/0-0. The whole line of 2.0 refunds on exactly 2 goals — a 1-1 doesn't kill us."
+      "ru": "↩ ровно 2 гола (2:0) — целая линия 2.0 → возврат",
+      "en": "↩ exactly 2 goals (2-0) — whole line 2.0 → push/refund"
     }
   },
   {
@@ -8493,7 +8493,7 @@
     "tier": "yellow",
     "odds": 4.2,
     "stake": 1500,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Мексика — Эквадор",
       "en": "Mexico — Ecuador"
@@ -8503,8 +8503,8 @@
       "en": "Penalty shootout — yes"
     },
     "note": {
-      "ru": "Гриндом в серию — профиль ровно как Нидерланды — Марокко (зашло @4.80). Слабейшие атаки слейта, обе обороны топ, ничья в основное весьма вероятна; рынок «не в осн. время» сам даёт 2.70.",
-      "en": "A grind to a shootout — exactly the Netherlands — Morocco profile (which landed @4.80). The weakest attacks of the slate, two elite defences, a regulation draw very much in play; the market's own «not in 90» is 2.70."
+      "ru": "✗ серии пенальти не было — Мексика выиграла 2:0 в основное",
+      "en": "✗ no shootout — Mexico won 2-0 in regulation"
     }
   },
   {
@@ -8538,7 +8538,7 @@
     "tier": "red",
     "odds": 6,
     "stake": 500,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Система 2/3 · точные счета",
       "en": "System 2/3 · correct scores"
@@ -8580,8 +8580,8 @@
       }
     ],
     "note": {
-      "ru": "Кот-д’Ивуар 1:2 — попал точно; Франция 2:1 — мимо (3:0). Из 3 нужно 2 — проход только если Мексика 1:0",
-      "en": "Côte d’Ivoire 1:2 — exact hit; France 2:1 — missed (3-0). Needs 2 of 3 — passes only if Mexico 1:0"
+      "ru": "✗ из трёх точных счетов попал только Кот-д’Ивуар 1:2; Франция (3:0) и Мексика (2:0) мимо — для системы 2/3 нужно 2",
+      "en": "✗ of three correct scores only Côte d’Ivoire 1:2 hit; France (3-0) and Mexico (2-0) missed — a 2/3 system needs two"
     }
   },
   {
@@ -8590,10 +8590,10 @@
     "date": "2026-06-30",
     "type": "Экспресс",
     "tier": "yellow",
-    "odds": 5.26,
+    "odds": 2.97,
     "stake": 1500,
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Экспресс 3 события (основные пики AI)",
       "en": "3-fold accumulator (AI's core picks)"
@@ -8635,8 +8635,8 @@
       }
     ],
     "note": {
-      "ru": "Обе забьют КИ-Нор и фора Франции −1.5 (3:0) зашли; жив — остался тотал меньше 2.0 в Мексика-Эквадор",
-      "en": "BTTS CI-Norway and France −1.5 (3-0) landed; alive — only Mexico-Ecuador under 2.0 remains"
+      "ru": "✓ обе забьют КИ-Нор и фора Франции −1.5 зашли; тотал меньше 2.0 в Мексике — возврат (ровно 2), экспресс пересчитан на две позиции (эфф. 2.97)",
+      "en": "✓ BTTS CI-Norway and France −1.5 landed; Mexico under 2.0 pushed (exactly 2), accumulator recalculated on the two legs (eff. 2.97)"
     }
   },
   {
@@ -8671,7 +8671,7 @@
     "tier": "green",
     "odds": 2.28,
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Мексика — Эквадор",
       "en": "Mexico — Ecuador"
@@ -8681,8 +8681,8 @@
       "en": "Mexico win"
     },
     "note": {
-      "ru": "Паша: очевидно просящиеся 0:0, но не хочет идти за толпой — верит в фактор домашнего матча, Мексику погонят вперёд, а Эквадор будет стоять и бояться. Надеется на 1:0.",
-      "en": "Pasha: an obvious 0-0 begs to be played, but he won't follow the crowd — he backs home-field factor, Mexico driven forward while Ecuador stand off and fear. He hopes for 1-0."
+      "ru": "✓ Мексика 2:0 (Киньонес, Хименес)",
+      "en": "✓ Mexico 2-0 (Quiñones, Jiménez)"
     }
   },
   {
@@ -8717,7 +8717,7 @@
     "odds": 3.05,
     "stake": 3000,
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Экспресс 3 события (под возврат)",
       "en": "3-fold accumulator (push-protected)"
@@ -8759,8 +8759,8 @@
       }
     ],
     "note": {
-      "ru": "ИТ Швеции меньше 1.0 (0 голов) и тотал КИ-Нор больше 2.0 зашли; жив — осталась фора Мексики 0",
-      "en": "Sweden under 1.0 (0 goals) and CI-Norway over 2.0 landed; alive — only Mexico draw-no-bet remains"
+      "ru": "✓ все три зашли: фора Мексики 0 (2:0), ИТ Швеции меньше 1.0 (0 голов), тотал КИ-Нор больше 2.0 (3 гола)",
+      "en": "✓ all three landed: Mexico draw-no-bet (2-0), Sweden under 1.0 (0 goals), CI-Norway over 2.0 (3 goals)"
     }
   },
   {
@@ -8772,7 +8772,7 @@
     "odds": 8,
     "stake": 500,
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Система 2/3 · точные счета",
       "en": "System 2/3 · correct scores"
@@ -8814,8 +8814,8 @@
       }
     ],
     "note": {
-      "ru": "Франция 3:0 — попал точно; Кот-д’Ивуар 2:2 — мимо (1:2). Из 3 нужно 2 — проход только если Мексика 1:0",
-      "en": "France 3-0 — exact hit; Côte d’Ivoire 2:2 — missed (1-2). Needs 2 of 3 — passes only if Mexico 1:0"
+      "ru": "✗ из трёх точных счетов попала только Франция 3:0; Кот-д’Ивуар (1:2) и Мексика (2:0) мимо — для системы 2/3 нужно 2",
+      "en": "✗ of three correct scores only France 3-0 hit; Côte d’Ivoire (1-2) and Mexico (2-0) missed — a 2/3 system needs two"
     }
   },
   {
