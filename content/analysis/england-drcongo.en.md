@@ -28,6 +28,6 @@
 **AI:**
 - 🟢 **DR Congo +1.5 (Asian handicap) @1.90** — a direct repeat of a working calibration: the same opponent, running the same plan (5-3-2, bus + counter + set piece), already pulled a 1-1 off Portugal, a top-5 side. Against England — who didn't score at all against Ghana's block and only broke Panama down twice in the second half — DR Congo can realistically stay within one goal. Counter-test: if England's attack finally clicks from minute one (hasn't happened once this tournament), the handicap won't save it.
 - 🟡 **Accumulator:** England team shots over 15.5 @1.70 + Senegal double chance (Belgium — Senegal match) @1.67 = **2.84** — two independent theses (England's territorial pressure without a quick rout, plus a shaky favourite in a parallel game).
-- 🔴 **Correct-score system position:** England **2-0** @5.00 (backup: 1-1 @11.00).
+- 🔴 **Correct-score system position (2/3):** England **2-0** @5.00.
 
 **Pasha:** waiting on his picks — will add once he sends his real ones.

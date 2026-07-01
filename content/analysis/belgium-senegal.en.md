@@ -28,6 +28,6 @@
 **AI:**
 - 🟢 **Double chance Senegal (draw or win) @1.67** — Belgium haven't structurally earned the right to be a clear favourite (Opta 45.6%, two goalless-from-open-play matches before routing a clear underdog); with xG at parity, the rule that a big backing of the favourite needs a ≥0.7 xG gap directly rules out backing Belgium outright. This is insurance via double chance, not an attack on Senegal to win outright. Counter-test: if De Bruyne finally finds partners without Lukaku starting and Belgium win clean — that's the exact scenario that already happened once, but with Lukaku in the side, who by the forecast isn't starting today.
 - 🟡 **Accumulator:** Senegal double chance @1.67 + England team shots over 15.5 (England — DR Congo match) @1.70 = **2.84**.
-- 🔴 **Correct-score system position:** Belgium **1-1** Senegal @6.00.
+- 🔴 **Correct-score system position (2/3):** Belgium **1-1** Senegal @6.00.
 
 **Pasha:** waiting on his picks — will add once he sends his real ones.

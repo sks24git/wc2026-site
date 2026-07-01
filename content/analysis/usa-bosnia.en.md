@@ -27,7 +27,7 @@
 **AI:**
 - 🟢 **Both teams to score — yes @2.03** — a fade of the market's mild lean to "no": USA's genuine defensive weakness (only 1 clean sheet in 5) meets Bosnia's proven aerial set-piece threat (a goal from a dead ball in almost every game where they haven't completely fallen apart). Counter-test: USA fully neutralise Bosnia's tall defenders at crosses and win clean, as they did against Australia (2-0, both goals in the first half).
 - 🟡 **Accumulator:** England — DR Congo match total under 2.5 @1.83 + USA individual total over 2 @1.90 = **3.48** — England-DRC's low-scoring script plus confidence in USA's output at home.
-- 🔴 **Correct-score system position:** USA **2-1** Bosnia @8.50.
+- 🔴 **Correct-score system position (2/3):** USA **2-1** Bosnia @8.50.
 - 🔴 **Three-leg accumulator of the day's green picks:** DR Congo +1.5 @1.90 × Senegal double chance @1.67 × USA-Bosnia BTTS yes @2.03 = **6.44** — three independent theses from three different matches in one ticket.
 
 **Pasha:** waiting on his picks — will add once he sends his real ones.

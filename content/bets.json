@@ -9032,12 +9032,12 @@
     "odds": 6,
     "status": "pending",
     "match": {
-      "ru": "Система 2/4 · точные счета",
-      "en": "System 2/4 · correct scores"
+      "ru": "Система 2/3 · точные счета",
+      "en": "System 2/3 · correct scores"
     },
     "bet": {
-      "ru": "точные счета по трём матчам (постоянка)",
-      "en": "correct scores across three games (standing system)"
+      "ru": "точные счета по трём матчам",
+      "en": "correct scores across three games"
     },
     "legs": [
       {
@@ -9048,16 +9048,6 @@
         "p": {
           "ru": "2:0 @5.00",
           "en": "2-0 @5.00"
-        }
-      },
-      {
-        "m": {
-          "ru": "Англия — ДР Конго",
-          "en": "England — DR Congo"
-        },
-        "p": {
-          "ru": "1:1 @11.00",
-          "en": "1-1 @11.00"
         }
       },
       {
