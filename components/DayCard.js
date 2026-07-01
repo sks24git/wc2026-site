@@ -1,6 +1,6 @@
 'use client';
 import { matches } from '@/lib/content';
-import { fmtOdds, money, formatDay } from '@/lib/calc';
+import { fmtOdds, money, rubFmt, formatDay } from '@/lib/calc';
 import { cardStatusLabel } from '@/lib/cards';
 import { L, sideLabel } from '@/lib/i18n';
 import { useLang, useT } from '@/app/providers';
@@ -32,7 +32,16 @@ export default function DayCard({ card }) {
         </div>
         <div className="dc-total">
           <div className="dc-total-lbl">{card.status === 'soon' ? T('daycard.atStake') : card.status === 'live' ? T('daycard.soFar') : T('daycard.dayTotal')}</div>
-          <div className={'dc-total-v num ' + plClass}>{card.status === 'soon' ? `${card.pending} ${T('common.stakeShort')}` : money(card.pl, lang)}</div>
+          <div className={'dc-total-v num ' + plClass}>{card.status === 'soon' ? rubFmt(card.atStake, lang) : money(card.pl, lang)}</div>
+          {card.status === 'soon' && (
+            <div className="dc-total-sub num">{card.pending} {T('common.stakeShort')}</div>
+          )}
+          {card.status === 'live' && card.atStake > 0 && (
+            <div className="dc-total-sub num">{T('daycard.stillIn')} {rubFmt(card.atStake, lang)}</div>
+          )}
+          {card.status === 'done' && card.staked > 0 && (
+            <div className="dc-total-sub num">{T('daycard.staked')} {rubFmt(card.staked, lang)}</div>
+          )}
         </div>
       </header>
 

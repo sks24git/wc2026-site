@@ -384,6 +384,7 @@ td.num,th.num{font-family:var(--font-num),monospace;font-variant-numeric:tabular
 .dc-total{margin-left:auto;text-align:right}
 .dc-total-lbl{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
 .dc-total-v{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:22px;font-weight:700}
+.dc-total-sub{font-size:11px;color:var(--faint);margin-top:1px;white-space:nowrap}
 .dc-body{padding:6px 20px 8px}
 .dc-match{padding:12px 0;border-bottom:1px solid var(--hair)}
 .dc-match:last-child{border-bottom:none}
