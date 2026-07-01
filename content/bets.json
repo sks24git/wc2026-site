@@ -8841,5 +8841,245 @@
       "ru": "✗ волевой не было: Норвегия вела с 39, КИ сравняла (1:1), но проиграла; никто не отыгрался с поражения. В зачёте две красные по 500 = −1000",
       "en": "✗ no comeback: Norway led from 39, CIV equalised (1:1) but lost; neither came from behind to win. Scored as two reds of 500 = −1000"
     }
+  },
+  {
+    "id": 311,
+    "side": "AI",
+    "date": "2026-07-01",
+    "matchId": "england-drcongo",
+    "type": "АФ",
+    "tier": "green",
+    "odds": 1.9,
+    "status": "pending",
+    "match": {
+      "ru": "Англия — ДР Конго",
+      "en": "England — DR Congo"
+    },
+    "bet": {
+      "ru": "ДР Конго +1.5 (азиатская фора)",
+      "en": "DR Congo +1.5 (Asian handicap)"
+    }
+  },
+  {
+    "id": 312,
+    "side": "AI",
+    "date": "2026-07-01",
+    "matchId": "belgium-senegal",
+    "type": "Х2",
+    "tier": "green",
+    "odds": 1.67,
+    "status": "pending",
+    "match": {
+      "ru": "Бельгия — Сенегал",
+      "en": "Belgium — Senegal"
+    },
+    "bet": {
+      "ru": "Двойной шанс Сенегал (ничья или победа)",
+      "en": "Senegal double chance (draw or win)"
+    }
+  },
+  {
+    "id": 313,
+    "side": "AI",
+    "date": "2026-07-01",
+    "matchId": "usa-bosnia",
+    "type": "ОЗ",
+    "tier": "green",
+    "odds": 2.03,
+    "status": "pending",
+    "match": {
+      "ru": "США — Босния и Герцеговина",
+      "en": "USA — Bosnia and Herzegovina"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    }
+  },
+  {
+    "id": 314,
+    "side": "AI",
+    "date": "2026-07-01",
+    "type": "Экспресс",
+    "tier": "yellow",
+    "odds": 2.84,
+    "status": "pending",
+    "match": {
+      "ru": "Экспресс 2 события",
+      "en": "2-fold accumulator"
+    },
+    "bet": {
+      "ru": "два события заходят",
+      "en": "both picks land"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Англия — ДР Конго",
+          "en": "England — DR Congo"
+        },
+        "p": {
+          "ru": "Тотал ударов Англии больше 15.5 @1.70",
+          "en": "England team total shots over 15.5 @1.70"
+        }
+      },
+      {
+        "m": {
+          "ru": "Бельгия — Сенегал",
+          "en": "Belgium — Senegal"
+        },
+        "p": {
+          "ru": "Двойной шанс Сенегал @1.67",
+          "en": "Senegal double chance @1.67"
+        }
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "side": "AI",
+    "date": "2026-07-01",
+    "type": "Экспресс",
+    "tier": "yellow",
+    "odds": 3.48,
+    "status": "pending",
+    "match": {
+      "ru": "Экспресс 2 события",
+      "en": "2-fold accumulator"
+    },
+    "bet": {
+      "ru": "два события заходят",
+      "en": "both picks land"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Англия — ДР Конго",
+          "en": "England — DR Congo"
+        },
+        "p": {
+          "ru": "Тотал меньше 2.5 @1.83",
+          "en": "Total under 2.5 @1.83"
+        }
+      },
+      {
+        "m": {
+          "ru": "США — Босния и Герцеговина",
+          "en": "USA — Bosnia and Herzegovina"
+        },
+        "p": {
+          "ru": "Индивидуальный тотал США больше 2 @1.90",
+          "en": "USA individual total over 2 @1.90"
+        }
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "side": "AI",
+    "date": "2026-07-01",
+    "type": "Экспресс",
+    "tier": "red",
+    "odds": 6.44,
+    "status": "pending",
+    "match": {
+      "ru": "Экспресс 3 события (основные пики AI)",
+      "en": "3-fold accumulator (AI main picks)"
+    },
+    "bet": {
+      "ru": "три зелёные позиции дня заходят",
+      "en": "the day's three green picks land"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Англия — ДР Конго",
+          "en": "England — DR Congo"
+        },
+        "p": {
+          "ru": "ДР Конго +1.5 @1.90",
+          "en": "DR Congo +1.5 @1.90"
+        }
+      },
+      {
+        "m": {
+          "ru": "Бельгия — Сенегал",
+          "en": "Belgium — Senegal"
+        },
+        "p": {
+          "ru": "Двойной шанс Сенегал @1.67",
+          "en": "Senegal double chance @1.67"
+        }
+      },
+      {
+        "m": {
+          "ru": "США — Босния и Герцеговина",
+          "en": "USA — Bosnia and Herzegovina"
+        },
+        "p": {
+          "ru": "Обе забьют — да @2.03",
+          "en": "Both teams to score — yes @2.03"
+        }
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "side": "AI",
+    "date": "2026-07-01",
+    "type": "Система",
+    "tier": "red",
+    "odds": 6,
+    "status": "pending",
+    "match": {
+      "ru": "Система 2/4 · точные счета",
+      "en": "System 2/4 · correct scores"
+    },
+    "bet": {
+      "ru": "точные счета по трём матчам (постоянка)",
+      "en": "correct scores across three games (standing system)"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Англия — ДР Конго",
+          "en": "England — DR Congo"
+        },
+        "p": {
+          "ru": "2:0 @5.00",
+          "en": "2-0 @5.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Англия — ДР Конго",
+          "en": "England — DR Congo"
+        },
+        "p": {
+          "ru": "1:1 @11.00",
+          "en": "1-1 @11.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Бельгия — Сенегал",
+          "en": "Belgium — Senegal"
+        },
+        "p": {
+          "ru": "1:1 @6.00",
+          "en": "1-1 @6.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "США — Босния и Герцеговина",
+          "en": "USA — Bosnia and Herzegovina"
+        },
+        "p": {
+          "ru": "2:1 @8.50",
+          "en": "2-1 @8.50"
+        }
+      }
+    ]
   }
 ]

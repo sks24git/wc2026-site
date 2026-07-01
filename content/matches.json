@@ -2316,5 +2316,95 @@
       "ru": "Две лучшие обороны турнира и две беззубые атаки. Мексика прошла группу с тремя сухарями (6:0), у Эквадора одна из крепчайших защит мира, но забивает он мало и не центрфорвардом. Высота Ацтеки Эквадору привычна (Кито 2850 м). Низ, ничья в основное и риск серии — базовый сценарий.",
       "en": "Two of the tournament's best defences and two toothless attacks. Mexico came through the group with three clean sheets (6-0); Ecuador have one of the meanest backlines in the world but score rarely and not via a centre-forward. The Azteca's altitude is familiar to Ecuador (Quito sits at 2,850 m). A low game, a regulation draw and shootout risk are the base case."
     }
+  },
+  {
+    "id": "england-drcongo",
+    "date": "2026-07-01",
+    "timeMsk": "19:00",
+    "cc": [
+      "gb-eng",
+      "cd"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Англия — ДР Конго",
+      "en": "England — DR Congo"
+    },
+    "stage": {
+      "ru": "Плей-офф · 1/16 финала",
+      "en": "Knockout · Round of 32"
+    },
+    "venue": {
+      "ru": "Mercedes-Benz Stadium, Атланта",
+      "en": "Mercedes-Benz Stadium, Atlanta"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, климат-контроль — жара не фактор",
+      "en": "Roof closed, climate-controlled — heat not a factor"
+    },
+    "lede": {
+      "ru": "Англия — фаворит (кэф 1.30), но третий раз за турнир упирается в организованный блок: 0:0 с Ганой, у Панамы забила лишь во 2-м тайме. ДР Конго тем же планом (5-3-2, автобус + контратака + стандарт) уже вырывала 1:1 у Португалии и вышла как одна из лучших третьих команд.",
+      "en": "England are favourites (1.30) but for the third time this tournament run into an organised block: 0-0 with Ghana, and only scored in the second half against Panama. DR Congo used the same plan (5-3-2, bus + counter + set piece) to snatch a 1-1 off Portugal and advanced as one of the best third-placed teams."
+    }
+  },
+  {
+    "id": "belgium-senegal",
+    "date": "2026-07-01",
+    "timeMsk": "23:00",
+    "cc": [
+      "be",
+      "sn"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Бельгия — Сенегал",
+      "en": "Belgium — Senegal"
+    },
+    "stage": {
+      "ru": "Плей-офф · 1/16 финала",
+      "en": "Knockout · Round of 32"
+    },
+    "venue": {
+      "ru": "Lumen Field, Сиэтл",
+      "en": "Lumen Field, Seattle"
+    },
+    "weather": {
+      "ru": "Открытый стадион, мягко, ~17-18°C",
+      "en": "Open-air, mild, ~17-18°C"
+    },
+    "lede": {
+      "ru": "Бельгия — самый шаткий фаворит слейта: 1:1 с Египтом через автогол, 0:0 с Ираном вдесятером, ожила лишь раз (5:1 Новой Зеландии с Лукаку). Opta даёт ей всего 45.6%. Сенегал сам не в форме, но дважды цеплял голы и разгромил Ирак 5:0 ради разницы мячей.",
+      "en": "Belgium are the slate's shakiest favourite: a 1-1 with Egypt via an own goal, a 0-0 with Iran down to ten men, and only one match where they came alive (5-1 over New Zealand with Lukaku on). Opta gives them just 45.6%. Senegal aren't in form either, but nicked goals twice and thumped Iraq 5-0 for goal difference."
+    }
+  },
+  {
+    "id": "usa-bosnia",
+    "date": "2026-07-02",
+    "timeMsk": "03:00",
+    "cc": [
+      "us",
+      "ba"
+    ],
+    "result": null,
+    "title": {
+      "ru": "США — Босния и Герцеговина",
+      "en": "USA — Bosnia and Herzegovina"
+    },
+    "stage": {
+      "ru": "Плей-офф · 1/16 финала",
+      "en": "Knockout · Round of 32"
+    },
+    "venue": {
+      "ru": "Levi's Stadium, Санта-Клара",
+      "en": "Levi's Stadium, Santa Clara"
+    },
+    "weather": {
+      "ru": "Открытый стадион, вечер, тёплое, но не жарко",
+      "en": "Open-air, evening, warm but not hot"
+    },
+    "lede": {
+      "ru": "США дома выиграли группу и в порядке, но оборона течёт — лишь 1 сухой матч из 5, дебютант в раме. Босния прошла как одна из лучших третьих и умеет забивать со стандартов через Джеко и Колашинаца даже слабым составом.",
+      "en": "USA are at home, won their group and are in good order, but the defence leaks — just 1 clean sheet in 5, a debutant in goal. Bosnia advanced as one of the best third-placed teams and can score at set pieces through Džeko and Kolašinac even with a weaker squad."
+    }
   }
 ]
