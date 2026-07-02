@@ -2199,7 +2199,7 @@
   },
   {
     "id": "netherlands-morocco",
-    "date": "2026-06-30",
+    "date": "2026-06-29",
     "timeMsk": "04:00",
     "cc": [
       "nl",
@@ -2259,7 +2259,7 @@
   },
   {
     "id": "france-sweden",
-    "date": "2026-07-01",
+    "date": "2026-06-30",
     "timeMsk": "00:00",
     "cc": [
       "fr",
@@ -2289,7 +2289,7 @@
   },
   {
     "id": "mexico-ecuador",
-    "date": "2026-07-01",
+    "date": "2026-06-30",
     "timeMsk": "04:00",
     "cc": [
       "mx",
@@ -2379,7 +2379,7 @@
   },
   {
     "id": "usa-bosnia",
-    "date": "2026-07-02",
+    "date": "2026-07-01",
     "timeMsk": "03:00",
     "cc": [
       "us",
@@ -2439,7 +2439,7 @@
   },
   {
     "id": "portugal-croatia",
-    "date": "2026-07-03",
+    "date": "2026-07-02",
     "timeMsk": "02:00",
     "cc": [
       "pt",
@@ -2469,7 +2469,7 @@
   },
   {
     "id": "switzerland-algeria",
-    "date": "2026-07-03",
+    "date": "2026-07-02",
     "timeMsk": "06:00",
     "cc": [
       "ch",

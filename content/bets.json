@@ -9244,7 +9244,7 @@
   {
     "id": 323,
     "side": "AI",
-    "date": "2026-07-03",
+    "date": "2026-07-02",
     "matchId": "portugal-croatia",
     "type": "ТМ",
     "tier": "green",
@@ -9262,7 +9262,7 @@
   {
     "id": 324,
     "side": "AI",
-    "date": "2026-07-03",
+    "date": "2026-07-02",
     "matchId": "switzerland-algeria",
     "type": "ОЗ",
     "tier": "green",
@@ -9280,7 +9280,7 @@
   {
     "id": 325,
     "side": "AI",
-    "date": "2026-07-03",
+    "date": "2026-07-02",
     "type": "Экспресс",
     "tier": "yellow",
     "odds": 3.54,
@@ -9319,7 +9319,7 @@
   {
     "id": 326,
     "side": "AI",
-    "date": "2026-07-03",
+    "date": "2026-07-02",
     "type": "Экспресс",
     "tier": "yellow",
     "odds": 4.22,
@@ -9358,7 +9358,7 @@
   {
     "id": 327,
     "side": "AI",
-    "date": "2026-07-03",
+    "date": "2026-07-02",
     "type": "Экспресс",
     "tier": "red",
     "odds": 7.47,
@@ -9407,7 +9407,7 @@
   {
     "id": 328,
     "side": "AI",
-    "date": "2026-07-03",
+    "date": "2026-07-02",
     "type": "Система",
     "tier": "red",
     "odds": 7,
