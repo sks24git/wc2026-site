@@ -4,7 +4,7 @@ import { money, rubFmt, groupBy, pl, stakeOf, TIERS, TIER_ORDER, tierLabel, tier
 import { groupLabel, groupHint, hintFor, marketGroup } from '@/lib/glossary';
 import { L, sideLabel } from '@/lib/i18n';
 import { useLang, useT } from '@/app/providers';
-import BattleBoard from '@/components/BattleBoard';
+import ScoreStrip from '@/components/ScoreStrip';
 import Tip from '@/components/Tip';
 import TierIcon from '@/components/TierIcon';
 
@@ -192,7 +192,7 @@ export default function StatsView() {
     <div>
       <h1>{T('stats.title')}</h1>
 
-      <BattleBoard />
+      <ScoreStrip />
 
       <div className="sect"><span className="sect-label">{T('stats.bankOverTime')}</span></div>
       <section className="block"><BankChart /></section>
