@@ -10028,5 +10028,123 @@
       "ru": "Вторая сторона той же страховки качелей: если Алжир забьёт первым, хозяева раунда умеют переворачивать поздним навалом со скамейки — волевая победа Швейцарии.",
       "en": "The other side of the same see-saw cover: if Algeria strike first, the round's 'hosts' can turn games with a late bench-fuelled surge — a Switzerland comeback win."
     }
+  },
+  {
+    "id": 337,
+    "side": "Паша",
+    "date": "2026-07-02",
+    "matchId": null,
+    "type": "Система",
+    "tier": "red",
+    "odds": 23,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Система 2/3 · точные счета",
+      "en": "System 2/3 · correct scores"
+    },
+    "bet": {
+      "ru": "дерзкие точные счета по трём матчам",
+      "en": "bold correct scores across three games"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Испания — Австрия",
+          "en": "Spain — Austria"
+        },
+        "p": {
+          "ru": "3:0 (Испания) @7.50",
+          "en": "3-0 (Spain) @7.50"
+        }
+      },
+      {
+        "m": {
+          "ru": "Португалия — Хорватия",
+          "en": "Portugal — Croatia"
+        },
+        "p": {
+          "ru": "3:1 (Португалия) @12.00",
+          "en": "3-1 (Portugal) @12.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Швейцария — Алжир",
+          "en": "Switzerland — Algeria"
+        },
+        "p": {
+          "ru": "2:3 (Алжир) @50.00",
+          "en": "2-3 (Algeria) @50.00"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Кэфы позиций — линия Фонбета на вечер среды, для ориентира",
+      "en": "Leg odds — Fonbet line as of Wednesday evening, for reference"
+    },
+    "why": {
+      "ru": "Дерзкий из двух вариантов — все сценарии дня на максималках: Испания сносит всухую 3:0, Португалия дожимает с обменом 3:1, а в Ванкувере качели с победой Алжира 2:3. Достаточно двух точных из трёх.",
+      "en": "The bolder of his two variants — the day's scripts at full volume: Spain cruise 3:0 to nil, Portugal grind out 3:1 with goals traded, and a Vancouver see-saw ends 2:3 to Algeria. Two exact hits out of three are enough."
+    }
+  },
+  {
+    "id": 338,
+    "side": "Паша",
+    "date": "2026-07-02",
+    "matchId": null,
+    "type": "Система",
+    "tier": "red",
+    "odds": 6.5,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Система 2/3 · точные счета",
+      "en": "System 2/3 · correct scores"
+    },
+    "bet": {
+      "ru": "тихие точные счета по трём матчам",
+      "en": "quiet correct scores across three games"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Испания — Австрия",
+          "en": "Spain — Austria"
+        },
+        "p": {
+          "ru": "2:0 (Испания) @6.50",
+          "en": "2-0 (Spain) @6.50"
+        }
+      },
+      {
+        "m": {
+          "ru": "Португалия — Хорватия",
+          "en": "Portugal — Croatia"
+        },
+        "p": {
+          "ru": "1:1 @7.00",
+          "en": "1-1 @7.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Швейцария — Алжир",
+          "en": "Switzerland — Algeria"
+        },
+        "p": {
+          "ru": "1:1 @6.00",
+          "en": "1-1 @6.00"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Кэфы позиций — линия Фонбета на вечер среды, для ориентира",
+      "en": "Leg odds — Fonbet line as of Wednesday evening, for reference"
+    },
+    "why": {
+      "ru": "Тихий вариант — те же сюжеты на сдержанных счетах: Испания побеждает 2:0, а оба поздних матча вязнут в 1:1 — хорватская тягомотина и качели, где никто не дожал. Достаточно двух точных из трёх.",
+      "en": "The quiet variant — same stories at lower volume: Spain win 2:0 while both late games bog down at 1-1 — Croatian treacle and a see-saw nobody wins. Two exact hits out of three are enough."
+    }
   }
 ]
