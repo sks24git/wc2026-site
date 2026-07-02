@@ -51,6 +51,7 @@ bets.forEach((b, i) => {
   if (!biln(b.match)) err.push(`bets[${i}] (id ${b.id}): «match» должно быть {ru,en}`);
   if (!biln(b.bet)) err.push(`bets[${i}] (id ${b.id}): «bet» должно быть {ru,en}`);
   if (b.note != null && !biln(b.note)) err.push(`bets[${i}] (id ${b.id}): «note» (если задано) должно быть {ru,en}`);
+  if (b.why != null && !biln(b.why)) err.push(`bets[${i}] (id ${b.id}): «why» (если задано) должно быть {ru,en}`);
   if (Array.isArray(b.legs)) b.legs.forEach((leg, k) => {
     if (!biln(leg.m)) err.push(`bets[${i}] (id ${b.id}): legs[${k}].m должно быть {ru,en}`);
     if (!biln(leg.p)) err.push(`bets[${i}] (id ${b.id}): legs[${k}].p должно быть {ru,en}`);

@@ -6,6 +6,7 @@ import { useLang } from '@/app/providers';
 import Tip from '@/components/Tip';
 import TierIcon from '@/components/TierIcon';
 import Result from '@/components/Result';
+import BetWhy from '@/components/BetWhy';
 
 // Компактный тикет для vs-колонки: без названия матча (оно в заголовке группы).
 // accent — короткая рукописная пометка «синей ручкой» (страница матча, купон Паши).
@@ -35,6 +36,7 @@ export default function VsTicket({ bet, accent }) {
           <Result bet={bet} />
         </div>
         {bet.note && <p className="vt-note">{L(bet.note, lang)}</p>}
+        <BetWhy bet={bet} />
       </div>
     </article>
   );

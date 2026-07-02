@@ -6,6 +6,7 @@ import { useLang } from '@/app/providers';
 import Tip from '@/components/Tip';
 import TierIcon from '@/components/TierIcon';
 import Result from '@/components/Result';
+import BetWhy from '@/components/BetWhy';
 
 // Полный тикет (с названием матча) — для главной, карточки матча, одиночных лент.
 export default function Ticket({ bet }) {
@@ -36,6 +37,7 @@ export default function Ticket({ bet }) {
           <Result bet={bet} />
         </div>
         {bet.note && <p className="vt-note">{L(bet.note, lang)}</p>}
+        <BetWhy bet={bet} />
       </div>
     </article>
   );

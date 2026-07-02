@@ -8047,6 +8047,10 @@
     "note": {
       "ru": "✅ 0:1 — всего 1 гол, низ зашёл с запасом. Опора дня сработала: ЮАР висела на нуле, Канада дожала лишь в компенсации.",
       "en": "✅ 0-1 — just 1 goal, the under landed comfortably. The anchor worked: South Africa held zero, Canada broke through only in stoppage time."
+    },
+    "why": {
+      "ru": "Опорная ставка на низ: ЮАР весь турнир сушит игру и ни разу не забивала больше одного, Канада тоже редко устраивает перестрелки. Нокаут, нервы и водопои дробят темп — ждём узкий счёт; ставка живёт и при победе Канады в одну калитку, и при ничьей с серией.",
+      "en": "Our anchor on a low-scoring game: South Africa have strangled every match and never scored more than once, and Canada rarely trade blows either. Knockout nerves and cooling breaks kill the tempo — Under works on a narrow Canada win or a draw that goes to penalties."
     }
   },
   {
@@ -8070,6 +8074,10 @@
     "note": {
       "ru": "🎯 В ТОЧКУ! 0:1 — ровно наш пик сетки и топ-счёт модели. Эустакио из-за штрафной на 90'+2. +2500₽.",
       "en": "🎯 NAILED IT! 0-1 — exactly our bracket pick and the model's top score. Eustáquio from outside the box at 90'+2. +2500₽."
+    },
+    "why": {
+      "ru": "Топ-счёт нашей модели: Канада сильнее на классе, но ЮАР в низком блоке отдаёт мало и сама почти не забивает. Классический сценарий нокаута — фаворит дожимает одним голом на сухих воротах.",
+      "en": "Our model's top correct score: Canada have the class, but South Africa's low block gives up little and barely scores itself. The classic knockout script — the favourite grinds out a single goal and keeps a clean sheet."
     }
   },
   {
@@ -8093,6 +8101,10 @@
     "note": {
       "ru": "✗ Всего 2 жёлтых (обе у Канады) — нужно было ≥4. «Строгий» Пиньейру в осторожном нокауте без открытой грубости карт почти не доставал. Урок: репутация судьи ≠ карты без фолового матча.",
       "en": "✗ Only 2 yellows (both Canada) — needed ≥4. The 'strict' Pinheiro barely reached for cards in a cautious knockout with no open roughness. Lesson: a referee's reputation ≠ cards without a foul-heavy game."
+    },
+    "why": {
+      "ru": "Судья Пиньейру строг — около пяти жёлтых за матч, а тут ещё нокаут-напряжение: ЮАР будет фолить, срывая канадский прессинг. Линия выглядит заниженной, и ставка не зависит от того, сколько забьют.",
+      "en": "Referee Pinheiro is strict — roughly five bookings a game — and knockout tension only adds fuel: South Africa will foul to break up Canada's press. The line looks too low, and the bet doesn't depend on goals at all."
     }
   },
   {
@@ -8116,6 +8128,10 @@
     "note": {
       "ru": "✗ Серии не было — Канада дожала в основное время (90'+2). Хедж от 0:1, и именно 0:1 зашло. −500₽.",
       "en": "✗ No shootout — Canada finished it in regulation (90'+2). This hedged the 0-1, and the 0-1 is exactly what landed. −500₽."
+    },
+    "why": {
+      "ru": "Козырь ЮАР — вратарь Уильямс, отбивший четыре удара в серии на Кубке Африки: весь их план — засушить матч и дотянуть до точки. Если Канада не дожмёт в основное время, живёт именно эта ветка сценария.",
+      "en": "South Africa's trump card is keeper Williams, who saved four in a shootout at AFCON: their whole plan is to strangle the game and drag it to spot kicks. If Canada can't force it in normal time, this branch of the script comes alive."
     }
   },
   {
@@ -8140,6 +8156,10 @@
     "note": {
       "ru": "✗ Канада забила всего 1 (0:1) — ИТБ 1.5 мимо. Простая победа Канады зашла бы; жадность на лишний кэф стоила дня. AI на тех же низах выиграл.",
       "en": "✗ Canada scored just 1 (0-1) — over 1.5 missed. A plain Canada win would have landed; chasing the extra price cost the day. AI won on the very same low script."
+    },
+    "why": {
+      "ru": "Паша сам признаётся, что жадничает: вместо простой победы Канады берёт их индивидуальный тотал. Его чтение — атака с Дэвидом и Лариным вскроет низкий блок ЮАР минимум на два гола.",
+      "en": "Pasha admits he's being greedy: instead of a plain Canada win he takes their team total. His read is that the David–Larin attack will crack South Africa's low block for at least two goals."
     }
   },
   {
@@ -8163,6 +8183,10 @@
     "note": {
       "ru": "✓ Бразилия 2:1 — волевая в основное время. Япония повела (Сано 29'), Каземиро (56') сравнял, Мартинелли (90+5') вырвал победу. Класс дожал без доп. времени — опора дня сыграла.",
       "en": "✓ Brazil 2-1 — a comeback in regulation. Japan led (Sano 29'), Casemiro (56') levelled, Martinelli (90+5') snatched it. Class told without extra time — the day's anchor landed."
+    },
+    "why": {
+      "ru": "Класс и глубина решают: Япония без Кубо, главного своего креатора, редко обыгрывает топов в основное время. Крыша в Хьюстоне закрыта — жара бразильский прессинг не съест. Опора дня.",
+      "en": "Class and squad depth should settle it: without Kubo, their main creator, Japan rarely beats a top side in regulation. The Houston roof is closed, so the heat won't sap Brazil's pressing. The day's anchor pick."
     }
   },
   {
@@ -8186,6 +8210,10 @@
     "note": {
       "ru": "✓ В основное время 1:1 (всего 2 гола) — низ зашёл. Германия завязла об блок Парагвая ровно как закладывали; матч ушёл в доп. время и серию пенальти, но тотал считается по основному времени.",
       "en": "✓ 1-1 in regulation (just 2 goals) — the under landed. Germany got bogged down against Paraguay's block exactly as projected; the tie went to extra time and a shootout, but the total counts regulation only."
+    },
+    "why": {
+      "ru": "Парагвай сушит игру — два сухаря подряд, а Германия регрессирует: проиграла Эквадору основой и потеряла Шлоттербека. Ждём вязкий матч, где фаворит долго возит низкий блок, — модель даёт низу около 60%.",
+      "en": "Paraguay grinds games down — two straight clean sheets — while Germany is regressing: a full-strength loss to Ecuador and no Schlotterbeck. We expect a sticky match with the favourite toiling against a low block; the model puts the Under near 60%."
     }
   },
   {
@@ -8209,6 +8237,10 @@
     "note": {
       "ru": "✓ В основное время 1:1 — Марокко не проиграло в 90 минут, опора ставки удержалась; затем вытянули серию пенальти 3:2 и прошли. Двойной шанс зашёл.",
       "en": "✓ 1-1 in regulation — Morocco didn't lose in 90 minutes, the anchor held; they then took the shootout 3-2 and advanced. The double chance landed."
+    },
+    "why": {
+      "ru": "Вечерняя жара Монтеррея садит беговой прессинг Нидерландов, а Марокко с блоком и Буну в воротах — классический профиль апсета. Линия почти равная, так что «Марокко не проигрывает в основное время» — опора матча.",
+      "en": "Monterrey's evening heat drains the Dutch running press, while Morocco with its block and Bounou in goal is a classic upset profile. With the line near even, 'Morocco doesn't lose in regulation' is the anchor of this match."
     }
   },
   {
@@ -8232,6 +8264,10 @@
     "note": {
       "ru": "✓ 1:1 в основное и доп. время → серия пенальти, Марокко 3:2 (Буну отбил у Саммервилла). Главная value-грань дня зашла по крупному кэфу.",
       "en": "✓ 1-1 through regulation and extra time → a shootout, Morocco 3-2 (Bono saved Summerville). The day's main value angle landed at a big price."
+    },
+    "why": {
+      "ru": "Главная value-идея дня: вязкий жаркий матч, почти равная линия и Буну — специалист по сериям. Такие нокауты чаще дотягивают до точки, чем решаются за 90 минут, а рынок этот сценарий недооценивает.",
+      "en": "The day's main value angle: a sticky match in the heat, a near coin-flip line and Bounou, a shootout specialist. Knockouts like this get dragged to spot kicks more often than settled in 90 minutes, and the market underprices that script."
     }
   },
   {
@@ -8286,6 +8322,10 @@
     "note": {
       "ru": "✗ Система мертва: Бразилия 1:0 мимо (2:1) и Германия 2:0 мимо (1:1 + пенальти) — из трёх счетов промахнулись два, до нужных «двух из трёх» не добрать, исход Нидерланды — Марокко уже не важен.",
       "en": "✗ System dead: Brazil 1-0 missed (2-1) and Germany 2-0 missed (1-1 + penalties) — two of the three scores are gone, the needed «two of three» is unreachable, so Netherlands — Morocco no longer matters."
+    },
+    "why": {
+      "ru": "Постоянная система точных счетов: по одному узкому нокаут-счёту на матч — Бразилия 1:0, Германия 2:0 и 1:1 в Нидерланды — Марокко. Все три — модальные счета плей-офф, где голов мало; для прохода хватит двух угаданных.",
+      "en": "Our standing correct-score system: one tight knockout scoreline per match — Brazil 1:0, Germany 2:0 and 1:1 in Netherlands vs Morocco. All three are modal low-scoring playoff results, and two correct picks are enough to cash."
     }
   },
   {
@@ -8310,6 +8350,10 @@
     "note": {
       "ru": "✓ Гол в 1-м тайме (Сано 29') и во 2-м (Каземиро 56', Мартинелли 90+5'). Сюжет инвертировался — первой забила Япония, отыгралась Бразилия, — но рынок зашёл.",
       "en": "✓ A goal in the first half (Sano 29') and the second (Casemiro 56', Martinelli 90+5'). The script was inverted — Japan scored first, Brazil fought back — but the market landed."
+    },
+    "why": {
+      "ru": "Паша ждёт фирменный сценарий: Бразилия решает вопросы в первом тайме, а Япония героически отвечает во втором. Чистую победу без Раффиньи брать не хочет — распределение голов по таймам кажется ему надёжнее исхода.",
+      "en": "Pasha expects the signature script: Brazil settles things in the first half while Japan fights back heroically in the second. Without Raphinha he won't take a straight win — goals spread across both halves feels safer to him than the result."
     }
   },
   {
@@ -8334,6 +8378,10 @@
     "note": {
       "ru": "✗ Германия забила всего 1 (Хаверц 54') — «лёгкой победы» не вышло, блок Парагвая и Гилл выстояли, немцы вылетели по пенальти. ИТ больше 2.0 не зашёл.",
       "en": "✗ Germany scored just 1 (Havertz 54') — no «easy win»: Paraguay's block and Gill held, the Germans went out on penalties. Over 2.0 didn't land."
+    },
+    "why": {
+      "ru": "По Паше, оборона Парагвая — «результат географии», а в Бостоне они спустились с гор: сядут в блок, и немцы спокойно раскатают. Ждёт лёгкую победу с тремя голами; целая линия страхует возвратом, если будет ровно два.",
+      "en": "Pasha calls Paraguay's defence 'a product of geography' — and in Boston they've come down from the mountains: they'll sit in a block and Germany will calmly pick them apart. He expects an easy win with three goals; the whole line refunds at exactly two."
     }
   },
   {
@@ -8358,6 +8406,10 @@
     "note": {
       "ru": "✓ Гакпо (Нид, 72') и Диоп (Мар, 90+1') — обе забили в игровое время. Голов немного (1:1), как Паша и закладывал; обе забьют зашло.",
       "en": "✓ Gakpo (NED, 72') and Diop (MAR, 90+1') — both scored in normal time. Few goals (1-1) just as Pasha read it; BTTS landed."
+    },
+    "why": {
+      "ru": "Паша видит Нидерланды аутсайдером по игре и составу: в жару они раскачиваются медленно, а Марокко своё создаст. Чистую победу марокканцев не берёт — голландцы могут уцепить ничью, — но «обе забьют» считает надёжной.",
+      "en": "Pasha sees the Netherlands as the weaker side on form and personnel: they warm up slowly in the heat, while Morocco will create their share. He won't take a straight Morocco win — the Dutch could cling to a draw — but BTTS feels solid to him."
     }
   },
   {
@@ -8413,6 +8465,10 @@
     "note": {
       "ru": "✗ Сгорел уже на первом матче: Бразилия выиграла 2:1, а нужен был сухой счёт 1:0/2:0/3:0 — экспресс мёртв, остальные позиции не важны.",
       "en": "✗ Dead on the first game: Brazil won 2-1, but it needed a 1-0/2-0/3-0 — the accumulator is gone, the other legs no longer matter."
+    },
+    "why": {
+      "ru": "Фирменный лютый красный на весь игровой день: Германия побеждает всухую, Бразилия закрывает японцев со счётом от 1:0 до 3:0, а Марокко берёт своё со счётом вида 1:2–1:4. Три смелых сценария в одном купоне — если день ляжет по Пашиному чтению, выстрелит всё сразу.",
+      "en": "Pasha's trademark long-shot parlay across the whole matchday: Germany wins to nil, Brazil shuts Japan out anywhere from 1:0 to 3:0, and Morocco takes it by a 1:2–1:4 scoreline. Three bold scripts in one slip — if the day follows his read, it all fires at once."
     }
   },
   {
@@ -8436,6 +8492,10 @@
     "note": {
       "ru": "✓ обе забили: Диалло (74) у КИ, Нуса и Холанд у Норвегии — 1:2",
       "en": "✓ both scored: Diallo (74) for CIV, Nusa & Haaland for Norway — 1:2"
+    },
+    "why": {
+      "ru": "Норвегия пропускает почти в каждом матче — забивали и Ирак, и Сенегал, — а Кот-д'Ивуар стабильно цепляется за свой гол даже против топов. По xG команды почти равны: ждали плотный матч с голами обеих, а не разгром.",
+      "en": "Norway concede in nearly every game — Iraq and Senegal both scored past them — while Ivory Coast reliably grab their goal even against top sides. On xG the teams are almost level: we expected a tight match with goals at both ends, not a blowout. BTTS is the purest read of both profiles."
     }
   },
   {
@@ -8459,6 +8519,10 @@
     "note": {
       "ru": "✓ Франция 3:0 — фора −1.5 прошла с запасом",
       "en": "✓ France 3-0 — −1.5 covered comfortably"
+    },
+    "why": {
+      "ru": "Пропасть в классе: Франция прошла группу на максимум с лучшей обороной, а Швеция пропустила больше всех среди вышедших и потеряла Хиена. Ждали уверенные 2:0/3:1 — фора платит заметно лучше почти гарантированной чистой победы.",
+      "en": "A gulf in class: France swept their group with the best defence in it, while Sweden shipped more goals than any other qualifier and lost Hien to injury. We expected a comfortable 2:0 or 3:1 — the Asian handicap pays far better than the near-certain straight win."
     }
   },
   {
@@ -8482,6 +8546,10 @@
     "note": {
       "ru": "↩ ровно 2 гола (2:0) — целая линия 2.0 → возврат",
       "en": "↩ exactly 2 goals (2-0) — whole line 2.0 → push/refund"
+    },
+    "why": {
+      "ru": "Две лучшие обороны турнира против двух беззубых атак — все превью сходились на 0:0/1:0. Целая линия 2.0 добавляет страховку: при 1:1 ставка не горит, а возвращается.",
+      "en": "The two best defences of the tournament against two toothless attacks — every preview pointed to 0:0 or 1:0. The whole 2.0 line adds insurance: at 1:1 the bet is refunded instead of lost."
     }
   },
   {
@@ -8505,6 +8573,10 @@
     "note": {
       "ru": "✗ серии пенальти не было — Мексика выиграла 2:0 в основное",
       "en": "✗ no shootout — Mexico won 2-0 in regulation"
+    },
+    "why": {
+      "ru": "Флаер под затяжной вечер: рынок верил в проход Мексики, но не в её победу за 90 минут. Слабейшие атаки игрового дня, профиль как у Нидерланды — Марокко, где всё решила серия. Ждали 0:0, доползающие до самих пенальти.",
+      "en": "A flier on a long, nervy night: the market believed Mexico would go through but not that they'd win it in 90 minutes. The weakest attacks of the day, the same profile as Netherlands — Morocco, which went all the way. We pictured a 0:0 crawling to a shootout."
     }
   },
   {
@@ -8528,6 +8600,10 @@
     "note": {
       "ru": "✗ всего 3 гола (3:0) — до 4.5 не дотянуло",
       "en": "✗ only 3 goals (3-0) — short of 4.5"
+    },
+    "why": {
+      "ru": "Хвост под гол-фест: огневая мощь Франции против худшей обороны среди вышедших, а у шведов впереди живые Исак и Гьёкереш — есть кому отвечать. Если Швеция забирает свой гол-другой, матч летит к 3:2/4:1.",
+      "en": "A tail bet on a goal-fest: France's firepower against the worst defence among the qualifiers, while Sweden still carry a real attack in Isak and Gyokeres. If the Swedes grab a goal or two of their own, this flies towards 3:2 or 4:1."
     }
   },
   {
@@ -8582,6 +8658,10 @@
     "note": {
       "ru": "✗ из трёх точных счетов попал только Кот-д’Ивуар 1:2; Франция (3:0) и Мексика (2:0) мимо — для системы 2/3 нужно 2",
       "en": "✗ of three correct scores only Côte d’Ivoire 1:2 hit; France (3-0) and Mexico (2-0) missed — a 2/3 system needs two"
+    },
+    "why": {
+      "ru": "Постоянная система на точные счета: берём модальный счёт модели по каждому матчу — победа Норвегии 1:2, Франция 2:1 и Мексика 1:0. Достаточно попасть в два счёта из трёх, чтобы билет сыграл.",
+      "en": "Our standing Correct score system: the model's most likely score in each match — Norway winning 1:2, France 2:1 and Mexico 1:0. Landing two exact scores out of three is enough for the ticket to pay."
     }
   },
   {
@@ -8637,6 +8717,10 @@
     "note": {
       "ru": "✓ обе забьют КИ-Нор и фора Франции −1.5 зашли; тотал меньше 2.0 в Мексике — возврат (ровно 2), экспресс пересчитан на две позиции (эфф. 2.97)",
       "en": "✓ BTTS CI-Norway and France −1.5 landed; Mexico under 2.0 pushed (exactly 2), accumulator recalculated on the two legs (eff. 2.97)"
+    },
+    "why": {
+      "ru": "Три главных пика дня в одном билете: голы обеих в Далласе, разгром от Франции и низ на Ацтеке. Три разных рынка по трём разным матчам — сценарии не завязаны друг на друга, перекоса в одну идею нет.",
+      "en": "The day's three main picks in one ticket: goals at both ends in Dallas, France winning big, and a low-scoring grind at the Azteca. Three different markets across three different matches — the scenarios don't hang on one idea."
     }
   },
   {
@@ -8660,6 +8744,10 @@
     "note": {
       "ru": "✓ Франция забила 3 (Мбаппе ×2, Барколя) — ИТ больше 2.5",
       "en": "✓ France scored 3 (Mbappé ×2, Barcola) — individual total over 2.5"
+    },
+    "why": {
+      "ru": "Пашино чтение: звёзды Франции — Мбаппе, Дембеле, Олисе — сами растащат шведскую оборону, колотить можно и издалека. Ждёт сухую победу с тремя голами французов, поэтому берёт именно их индивидуальный тотал.",
+      "en": "Pasha's read: France's stars — Mbappe, Dembele, Olise — will pull the Swedish defence apart on their own, striking from range if needed. He expects a clean win with three French goals, hence their team total Over."
     }
   },
   {
@@ -8683,6 +8771,10 @@
     "note": {
       "ru": "✓ Мексика 2:0 (Киньонес, Хименес)",
       "en": "✓ Mexico 2-0 (Quiñones, Jiménez)"
+    },
+    "why": {
+      "ru": "Паша идёт против толпы, ждущей 0:0: домашняя Ацтека погонит Мексику вперёд, а Эквадор приедет бояться. Его сценарий — хозяева продавливают минимальную победу, что-то вроде 1:0.",
+      "en": "Pasha goes against the crowd expecting 0:0: the home Azteca will drive Mexico forward while Ecuador arrive to sit and worry. His scenario — the hosts grind out a narrow win, something like 1:0."
     }
   },
   {
@@ -8706,6 +8798,10 @@
     "note": {
       "ru": "✓ 1:2, три гола — больше 2.5 зашло",
       "en": "✓ 1:2, three goals — over 2.5 landed"
+    },
+    "why": {
+      "ru": "Для Паши ивуарийцы просто сильнее, а оборона Норвегии дырявая — это было видно ещё по матчу с Сенегалом, при этом Кот-д'Ивуар забивает в каждой игре. В тихие 1:1 он не верит: ждёт открытый матч, ближе к 2:2.",
+      "en": "For Pasha the Ivorians are simply the stronger side, and Norway's defence leaks — the Senegal game showed as much — while Ivory Coast score in every match. He doesn't buy a quiet 1:1: he expects an open game closer to 2:2, so Over 2.5."
     }
   },
   {
@@ -8761,6 +8857,10 @@
     "note": {
       "ru": "✓ все три зашли: фора Мексики 0 (2:0), ИТ Швеции меньше 1.0 (0 голов), тотал КИ-Нор больше 2.0 (3 гола)",
       "en": "✓ all three landed: Mexico draw-no-bet (2-0), Sweden under 1.0 (0 goals), CI-Norway over 2.0 (3 goals)"
+    },
+    "why": {
+      "ru": "Страховочный билет Паши: каждое событие под возврат — фора Мексики 0, ИТ Швеции меньше 1.0 и верх в Далласе по целой линии. Пограничный исход не сжигает экспресс, а пересчитывает его; сам Паша: «не хочу падать в совсем мелкие кэфы».",
+      "en": "Pasha's safety-net accumulator: every leg carries push protection — Mexico draw no bet, Sweden team total Under 1.0 and the Over on a whole line in Dallas. A borderline result refunds a leg instead of killing the ticket; as Pasha put it, he 'didn't want to drop to tiny odds'."
     }
   },
   {
@@ -8816,6 +8916,10 @@
     "note": {
       "ru": "✗ из трёх точных счетов попала только Франция 3:0; Кот-д’Ивуар (1:2) и Мексика (2:0) мимо — для системы 2/3 нужно 2",
       "en": "✗ of three correct scores only France 3-0 hit; Côte d’Ivoire (1-2) and Mexico (2-0) missed — a 2/3 system needs two"
+    },
+    "why": {
+      "ru": "Пашины точные счета под его чтение дня: качели 2:2 в Далласе, сухой разгром 3:0 от Франции и минимальная 1:0 от Мексики дома. Система 2/3 — достаточно угадать два счёта из трёх.",
+      "en": "Pasha's exact scores for how he read the day: a see-saw 2:2 in Dallas, France winning 3:0 to nil and Mexico edging it 1:0 at home. A 2-of-3 system — hitting two of the three Correct scores is enough."
     }
   },
   {
@@ -8840,6 +8944,10 @@
     "note": {
       "ru": "✗ волевой не было: Норвегия вела с 39, КИ сравняла (1:1), но проиграла; никто не отыгрался с поражения. В зачёте две красные по 500 = −1000",
       "en": "✗ no comeback: Norway led from 39, CIV equalised (1:1) but lost; neither came from behind to win. Scored as two reds of 500 = −1000"
+    },
+    "why": {
+      "ru": "Флаер одной ставкой сразу на обе волевые — неважно, кто именно перевернёт. Паша ждёт качели: одна команда ведёт, другая отыгрывается и дожимает. Два равных соперника с дырявыми оборонами — идеальная почва для камбэка.",
+      "en": "A flier covering a comeback win by either side in a single ticket — it doesn't matter who turns it around. Pasha expected a see-saw game: one team leads, the other fights back and finishes the job. Two even sides with leaky defences — perfect ground for a comeback."
     }
   },
   {
@@ -8862,6 +8970,10 @@
     "note": {
       "ru": "✓ Англия выиграла 2:1 — ровно в один мяч, форы +1.5 достаточно. +2700 ₽.",
       "en": "✓ England won 2-1 — exactly one goal, +1.5 handicap covers it. +2,700 ₽."
+    },
+    "why": {
+      "ru": "ДР Конго тем же планом — низкий блок, контратаки, стандарты — уже вырвала ничью у Португалии. Англия весь турнир мучается с автобусами: Гане не забила вовсе, Панаму вскрыла лишь во втором тайме. Ждём, что конголезцы удержатся в пределах одного мяча.",
+      "en": "DR Congo already snatched a draw off Portugal with this exact plan — deep block, counters, set pieces. England have laboured against parked buses all tournament: nothing vs Ghana, Panama only cracked after the break. We expect Congo to stay within a one-goal margin."
     }
   },
   {
@@ -8884,6 +8996,10 @@
     "note": {
       "ru": "✓ Основное время — 2:2 (двойной шанс считается по 90 минутам): Сенегал вёл 2:0 до 85-й, Бельгия спаслась и дожала лишь в добавленное к доп. времени. +2010 ₽.",
       "en": "✓ Regulation ended 2-2 (double chance settles on 90 minutes): Senegal led 2-0 until 85', Belgium only rescued it late and won deep into extra time. +2,010 ₽."
+    },
+    "why": {
+      "ru": "Бельгия статус фаворита не доказала: два матча без гола с игры, а по модели силы примерно равны. Лукаку в старте не ждём. При таком паритете чистая победа Сенегала — слишком смело, поэтому страхуемся двойным шансом.",
+      "en": "Belgium haven't earned clear-favourite status: two matches without an open-play goal, and the model rates the sides as roughly even. We don't expect Lukaku to start. With that parity a straight Senegal win feels too bold, so the double chance is the safer route."
     }
   },
   {
@@ -8906,6 +9022,10 @@
     "note": {
       "ru": "✗ США 2:0 — Босния не забила даже против десятерых (США полчаса играли в меньшинстве после красной Балогуна). Джеко так и остался без гола. −3000 ₽.",
       "en": "✗ USA 2-0 — Bosnia failed to score even against ten men (USA played half an hour short-handed after Balogun's red). Džeko still goalless. −3,000 ₽."
+    },
+    "why": {
+      "ru": "Идём против рынка, который клонит к «нет»: у США лишь один сухой матч из пяти, а Босния наказывает со стандартов почти в каждой игре. Ждём, что хозяева забьют своё, а Босния ответит после подачи в штрафную.",
+      "en": "Going against the market lean towards 'no': the USA have kept just one clean sheet in five, while Bosnia punish from set pieces in almost every game. We expect the hosts to get theirs — and Bosnia to answer from a delivery into the box. BTTS it is."
     }
   },
   {
@@ -8949,7 +9069,11 @@
           "en": "Senegal double chance @1.67"
         }
       }
-    ]
+    ],
+    "why": {
+      "ru": "Две независимые темы из разных матчей: Англия против любого автобуса настреливает гору ударов (22 по Хорватии в первом туре) — даже когда голы не идут, а Бельгия так и не доказала право быть явным фаворитом. Давление Англии плюс страховка на Сенегал.",
+      "en": "Two independent angles from different matches: England rack up piles of shots against any bus (22 vs Croatia in round one) even when the goals don't come, while Belgium never proved they deserve clear-favourite status. England's pressure plus the Senegal double chance."
+    }
   },
   {
     "id": 315,
@@ -8992,7 +9116,11 @@
           "en": "USA individual total over 2 @1.90"
         }
       }
-    ]
+    ],
+    "why": {
+      "ru": "Низовой сценарий в Атланте: Англия вязнет в автобусе ДР Конго, как было с Ганой и Панамой, — голов мало. А в Санта-Кларе ждём, что хозяева дома накидают минимум три. Две разные оси риска в одном билете.",
+      "en": "A low-scoring script in Atlanta — England bogged down by DR Congo's bus, just like against Ghana and Panama — paired with the USA piling in at least three at home in Santa Clara. Under 2.5 plus the hosts' team total: two different risk axes in one ticket."
+    }
   },
   {
     "id": 316,
@@ -9045,7 +9173,11 @@
           "en": "Both teams to score — yes @2.03"
         }
       }
-    ]
+    ],
+    "why": {
+      "ru": "Все три главных тезиса дня в одном билете: ДР Конго держится в пределах мяча, Сенегал не проигрывает в основное время, а США и Босния обмениваются голами. Три независимых матча, три разных рынка — если день наш, билет платит крупно.",
+      "en": "All three of the day's main calls in one ticket: DR Congo staying within a goal, Senegal avoiding defeat in regulation, and goals at both ends in Santa Clara. Three independent matches, three different markets — if the day goes our way, this pays big."
+    }
   },
   {
     "id": 317,
@@ -9098,7 +9230,11 @@
           "en": "2-1 @8.50"
         }
       }
-    ]
+    ],
+    "why": {
+      "ru": "Наша постоянная система точных счетов: по каждому матчу берём самый вероятный сценарий — рабочая победа Англии 2:0, вязкие 1:1 Бельгии с Сенегалом и результативные 2:1 США. Достаточно угадать два счёта из трёх, чтобы билет заплатил.",
+      "en": "Our standing correct-score system: the most likely scenario for each match — a workmanlike 2:0 for England, a grinding 1:1 between Belgium and Senegal, and a lively 2:1 for the USA. Landing two scores out of three is enough for the ticket to pay."
+    }
   },
   {
     "id": 318,
@@ -9121,6 +9257,10 @@
     "note": {
       "ru": "✗ Англия выиграла лишь 2:1 — фора −1.5 требовала победы в 2+ мяча. −3000 ₽.",
       "en": "✗ England won by only 2-1 — the −1.5 handicap needed a win by 2+ goals. −3,000 ₽."
+    },
+    "why": {
+      "ru": "Паша ждёт, что ДР Конго сядет в глухую оборону: команда уже прыгнула выше головы и к плей-офф ментально вряд ли готова — на таком страхе сыпались и Швеция, и Голландия. Если Кейн с Беллингемом прибавят, а пенальти почти неизбежен, выходит уверенное 2:0.",
+      "en": "Pasha expects DR Congo to park the bus: the side has already overachieved and hardly looks mentally ready for the knockouts — Sweden and the Netherlands both crumbled under that kind of fear. If Kane and Bellingham step up, plus a near-inevitable penalty, it's a comfortable 2:0."
     }
   },
   {
@@ -9144,6 +9284,10 @@
     "note": {
       "ru": "✓ Пашина статистика «18 из 22 голов этой пары — после перерыва» отработала идеально: оба спасительных гола Бельгии влетели в концовке 2-го тайма (85'+) при счёте 2:2 к 90-й. +3180 ₽.",
       "en": "✓ Pasha's stat «18 of this pair's 22 goals came after the break» worked perfectly: both of Belgium's rescue goals flew in late in the 2nd half (85'+), 2-2 by the 90th. +3,180 ₽."
+    },
+    "why": {
+      "ru": "Статистика у Паши чёткая: из 22 голов Бельгии и Сенегала на турнире 18 забиты во вторых таймах. В открытый дебют плей-офф он не верит: «прям просится обе забьют, но беру через тотал второго тайма» — вся жизнь начнётся после перерыва.",
+      "en": "Pasha's stat is clear-cut: 18 of the 22 goals Belgium and Senegal have scored at this tournament came in second halves. He doesn't buy an open start to a knockout tie: 'BTTS is begging to be played, but I'll take it through the second-half total' — the action starts after the break."
     }
   },
   {
@@ -9167,6 +9311,10 @@
     "note": {
       "ru": "✗ США 2:0 — «Босния забивает всегда» закончилось ровно в плей-офф: ни гола даже против десятерых. −3000 ₽.",
       "en": "✗ USA 2-0 — «Bosnia always scores» ended right in the knockouts: no goal even against ten men. −3,000 ₽."
+    },
+    "why": {
+      "ru": "Босния забивала в каждом матче группы, а США славятся пропущенными — Паша ждёт повтора их игры с Канадой. В плей-офф добавится нервозность: поведут США — Боснии придётся раскрываться. Его модальный счёт — 2:1.",
+      "en": "Bosnia scored in every group game while the USA are known for conceding — Pasha expects a rerun of their match against Canada. Knockout nerves add to it: if the USA go ahead, Bosnia will have to open up. His modal score is 2:1."
     }
   },
   {
@@ -9221,7 +9369,11 @@
           "en": "Both teams to score — yes @1.91"
         }
       }
-    ]
+    ],
+    "why": {
+      "ru": "Три Пашиных чтения дня в одном билете: Сенегал не уступает Бельгии (по принципу Марокко — Голландии), голевой тайм у Англии — второй, ведь раскачивается она всегда после перерыва, и обе забивают в Санта-Кларе.",
+      "en": "Three of Pasha's reads in one ticket: Senegal avoiding defeat against Belgium (the Morocco–Netherlands principle), the second half as the higher-scoring one in the England game — they only wake up after the break — and BTTS in Santa Clara."
+    }
   },
   {
     "id": 322,
@@ -9239,6 +9391,10 @@
     "bet": {
       "ru": "Австрия не забьёт (индивидуальный тотал меньше 0.5)",
       "en": "Austria not to score (team total under 0.5)"
+    },
+    "why": {
+      "ru": "Лучшая оборона турнира против прессинга без чистой девятки: Испания душит соперника владением, Австрии почти нечем наказывать. Фавориты раунда побеждают скромно и сухо — потому «Австрия не забьёт», а не глубокая фора.",
+      "en": "The tournament's best defence against a pressing side with no true striker: Spain strangle games with the ball, Austria have little to punish with. This round's favourites win low-scoring and clean — hence 'Austria not to score' over a deep handicap."
     }
   },
   {
@@ -9257,6 +9413,10 @@
     "bet": {
       "ru": "Тотал меньше 2.5",
       "en": "Under 2.5 goals"
+    },
+    "why": {
+      "ru": "Жара и влажность на открытом стадионе Торонто вяжут темп, Роналду не забивал в плей-офф ЧМ, Модричу 40 — обе сыграют осторожно. Половина матчей раунда ушла в низ, а жару модели не считают. Ждём вязкие 1:0/1:1.",
+      "en": "Toronto's open-air heat and humidity slow the game; Ronaldo has never scored in a World Cup knockout and Modrić is 40 — both sides will play it safe. Half of this round went under, and heat is the models' blind spot. We expect a sticky 1-0/1-1."
     }
   },
   {
@@ -9275,6 +9435,10 @@
     "bet": {
       "ru": "Обе забьют — да",
       "en": "Both teams to score — yes"
+    },
+    "why": {
+      "ru": "Швейцария не отстояла ни одного сухаря в группе, а у Алжира редкий полный набор голевых механизмов: стандарты, класс Мареза, контратаки Гуири. Сами швейцарцы забивали всем. Модальный счёт — 2:1.",
+      "en": "Switzerland kept no clean sheet in the group, while Algeria bring a rare full scoring toolkit: set pieces, Mahrez's class, Gouiri's counters. The Swiss themselves scored against everyone. Modal score 2-1."
     }
   },
   {
@@ -9314,7 +9478,11 @@
           "en": "Switzerland team total over 1.5 @2.25"
         }
       }
-    ]
+    ],
+    "why": {
+      "ru": "Связка двух уверенных тезисов дня: сухость лучшей обороны турнира против беззубой Австрии и минимум два гола Швейцарии на «домашнем» Ванкувере против уставшего от перелёта Алжира. Ревью заменило здесь чистую победу Швейцарии: у неё 1 виктория в 90 минутах за 12 нокаутов.",
+      "en": "Two of the day's strongest reads combined: the tournament's best defence staying dry against toothless Austria, plus Switzerland scoring at least twice at their 'home' Vancouver against jet-lagged Algeria. A review swapped out the straight Swiss win here: 1 regulation-time victory in their last 12 knockouts."
+    }
   },
   {
     "id": 326,
@@ -9353,7 +9521,11 @@
           "en": "Under 2.5 goals @2.08"
         }
       }
-    ]
+    ],
+    "why": {
+      "ru": "Первый расширенный рынок в купоне: Испания в отборе стабильно настреливала 9+ ударов в створ, а прессинг Австрии оставляет пространство под удары. В связке с независимым низом Торонто — жара и осторожные Португалия с Хорватией.",
+      "en": "Our first extended-market ticket: Spain regularly racked up 9+ shots on target in qualifying, and Austria's press leaves room to shoot. Paired with an independent under in Toronto — heat plus a cautious Portugal and Croatia."
+    }
   },
   {
     "id": 327,
@@ -9402,7 +9574,11 @@
           "en": "BTTS yes @1.92"
         }
       }
-    ]
+    ],
+    "why": {
+      "ru": "Три зелёных тезиса дня одним билетом: сухарь Испании, вязкий низ в жарком Торонто и обмен голами в Ванкувере. Три разных матча и три разных рынка — красная цена за смелость собрать всё вместе.",
+      "en": "The day's three green calls in one ticket: a Spain clean sheet, a sticky under in sweltering Toronto and both teams scoring in Vancouver. Three matches, three different markets — a red-tier price for stacking them all."
+    }
   },
   {
     "id": 328,
@@ -9451,6 +9627,10 @@
           "en": "2-1 @9.50"
         }
       }
-    ]
+    ],
+    "why": {
+      "ru": "Постоянная система точных счетов: 7 из 10 сыгранных матчей раунда легли в коридор 2:0 / 1:1 / 2:1 — берём моду раунда по всем трём парам. Для выплаты достаточно двух попаданий из трёх.",
+      "en": "Our standing correct-score system: 7 of the round's 10 completed matches finished 2-0, 1-1 or 2-1 — we take the round's modal scores across all three ties. Two hits out of three pay."
+    }
   }
 ]
