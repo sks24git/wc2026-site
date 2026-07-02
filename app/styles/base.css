@@ -361,6 +361,8 @@ h1{
     linear-gradient(120deg, rgba(232,121,249,.13), rgba(96,165,250,.13) 38%, rgba(45,212,191,.11) 66%, rgba(250,204,21,.11)),
     linear-gradient(180deg,#232055,#15112f);
 }
+/* монограмма AI-карты: gradient-text здесь НАМЕРЕННО — это голографическая
+   фольга коллекционной карты (материал, не декор); единственное исключение */
 .ai-mono{
   font-family:var(--font-disp),sans-serif;font-weight:700;font-size:76px;line-height:1;
   background:linear-gradient(100deg,#e0e7ff 5%,#f5c6e8 30%,#a8dcf5 55%,#d3f0a8 78%,#e0e7ff 95%);

@@ -4,3 +4,8 @@ node_modules
 .vercel
 .DS_Store
 out
+
+# impeccable (эфемерное; config.json и live/config.json коммитим)
+.impeccable/live/sessions/
+.impeccable/screenshots/
+.impeccable/config.local.json

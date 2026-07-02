@@ -9222,5 +9222,235 @@
         }
       }
     ]
+  },
+  {
+    "id": 322,
+    "side": "AI",
+    "date": "2026-07-02",
+    "matchId": "spain-austria",
+    "type": "ИТ",
+    "tier": "green",
+    "odds": 1.87,
+    "status": "pending",
+    "match": {
+      "ru": "Испания — Австрия",
+      "en": "Spain — Austria"
+    },
+    "bet": {
+      "ru": "Австрия не забьёт (индивидуальный тотал меньше 0.5)",
+      "en": "Austria not to score (team total under 0.5)"
+    }
+  },
+  {
+    "id": 323,
+    "side": "AI",
+    "date": "2026-07-03",
+    "matchId": "portugal-croatia",
+    "type": "ТМ",
+    "tier": "green",
+    "odds": 2.08,
+    "status": "pending",
+    "match": {
+      "ru": "Португалия — Хорватия",
+      "en": "Portugal — Croatia"
+    },
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5 goals"
+    }
+  },
+  {
+    "id": 324,
+    "side": "AI",
+    "date": "2026-07-03",
+    "matchId": "switzerland-algeria",
+    "type": "ОЗ",
+    "tier": "green",
+    "odds": 1.92,
+    "status": "pending",
+    "match": {
+      "ru": "Швейцария — Алжир",
+      "en": "Switzerland — Algeria"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    }
+  },
+  {
+    "id": 325,
+    "side": "AI",
+    "date": "2026-07-03",
+    "type": "Экспресс",
+    "tier": "yellow",
+    "odds": 3.54,
+    "status": "pending",
+    "match": {
+      "ru": "Экспресс 2 события",
+      "en": "2-fold accumulator"
+    },
+    "bet": {
+      "ru": "два события заходят",
+      "en": "both picks land"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Испания — Австрия",
+          "en": "Spain — Austria"
+        },
+        "p": {
+          "ru": "Обе забьют — нет @1.75",
+          "en": "Both teams to score — no @1.75"
+        }
+      },
+      {
+        "m": {
+          "ru": "Швейцария — Алжир",
+          "en": "Switzerland — Algeria"
+        },
+        "p": {
+          "ru": "Победа Швейцарии @2.02",
+          "en": "Switzerland to win @2.02"
+        }
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "side": "AI",
+    "date": "2026-07-03",
+    "type": "Экспресс",
+    "tier": "yellow",
+    "odds": 4.22,
+    "status": "pending",
+    "match": {
+      "ru": "Экспресс 2 события",
+      "en": "2-fold accumulator"
+    },
+    "bet": {
+      "ru": "два события заходят",
+      "en": "both picks land"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Испания — Австрия",
+          "en": "Spain — Austria"
+        },
+        "p": {
+          "ru": "Удары Испании в створ больше 8.5 @2.03",
+          "en": "Spain shots on target over 8.5 @2.03"
+        }
+      },
+      {
+        "m": {
+          "ru": "Португалия — Хорватия",
+          "en": "Portugal — Croatia"
+        },
+        "p": {
+          "ru": "Тотал меньше 2.5 @2.08",
+          "en": "Under 2.5 goals @2.08"
+        }
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "side": "AI",
+    "date": "2026-07-03",
+    "type": "Экспресс",
+    "tier": "red",
+    "odds": 7.47,
+    "status": "pending",
+    "match": {
+      "ru": "Экспресс 3 события (основные пики AI)",
+      "en": "3-fold accumulator (AI main picks)"
+    },
+    "bet": {
+      "ru": "три зелёные позиции дня заходят",
+      "en": "the day's three green picks land"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Испания — Австрия",
+          "en": "Spain — Austria"
+        },
+        "p": {
+          "ru": "Австрия не забьёт @1.87",
+          "en": "Austria not to score @1.87"
+        }
+      },
+      {
+        "m": {
+          "ru": "Португалия — Хорватия",
+          "en": "Portugal — Croatia"
+        },
+        "p": {
+          "ru": "Тотал меньше 2.5 @2.08",
+          "en": "Under 2.5 @2.08"
+        }
+      },
+      {
+        "m": {
+          "ru": "Швейцария — Алжир",
+          "en": "Switzerland — Algeria"
+        },
+        "p": {
+          "ru": "Обе забьют — да @1.92",
+          "en": "BTTS yes @1.92"
+        }
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "side": "AI",
+    "date": "2026-07-03",
+    "type": "Система",
+    "tier": "red",
+    "odds": 7,
+    "status": "pending",
+    "match": {
+      "ru": "Система 2/3 · точные счета",
+      "en": "System 2/3 · correct scores"
+    },
+    "bet": {
+      "ru": "точные счета по трём матчам",
+      "en": "correct scores across three games"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Испания — Австрия",
+          "en": "Spain — Austria"
+        },
+        "p": {
+          "ru": "2:0 @6.00",
+          "en": "2-0 @6.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Португалия — Хорватия",
+          "en": "Portugal — Croatia"
+        },
+        "p": {
+          "ru": "1:1 @6.50",
+          "en": "1-1 @6.50"
+        }
+      },
+      {
+        "m": {
+          "ru": "Швейцария — Алжир",
+          "en": "Switzerland — Algeria"
+        },
+        "p": {
+          "ru": "2:1 @9.50",
+          "en": "2-1 @9.50"
+        }
+      }
+    ]
   }
 ]

@@ -2406,5 +2406,95 @@
       "ru": "США дома выиграли группу и в порядке, но оборона течёт — лишь 1 сухой матч из 5, дебютант в раме. Босния прошла как одна из лучших третьих и умеет забивать со стандартов через Джеко и Колашинаца даже слабым составом.",
       "en": "USA are at home, won their group and are in good order, but the defence leaks — just 1 clean sheet in 5, a debutant in goal. Bosnia advanced as one of the best third-placed teams and can score at set pieces through Džeko and Kolašinac even with a weaker squad."
     }
+  },
+  {
+    "id": "spain-austria",
+    "date": "2026-07-02",
+    "timeMsk": "22:00",
+    "cc": [
+      "es",
+      "at"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Испания — Австрия",
+      "en": "Spain — Austria"
+    },
+    "stage": {
+      "ru": "Плей-офф · 1/16 финала",
+      "en": "Knockout · Round of 32"
+    },
+    "venue": {
+      "ru": "SoFi Stadium, Лос-Анджелес",
+      "en": "SoFi Stadium, Los Angeles"
+    },
+    "weather": {
+      "ru": "Навес-крыша, ~22°C — жара не фактор",
+      "en": "Canopy roof, ~22°C — heat not a factor"
+    },
+    "lede": {
+      "ru": "Испания прошла группу без единого пропущенного (5:0 суммарно), но потеряла обоих запасных вингеров — против прессинга Австрии выйдет «однокрылой», с Ямалем и Баэной. Австрия Рангника в автобус не сядет — а против элитного владения сама почти не создаёт: с Аргентиной один удар в створ.",
+      "en": "Spain cruised through the group without conceding once (5-0 aggregate), but lost both backup wingers — against Austria's press they go in \"one-winged\", with Yamal and Baena. Rangnick's Austria won't park the bus — but against elite possession they create almost nothing: one shot on target against Argentina."
+    }
+  },
+  {
+    "id": "portugal-croatia",
+    "date": "2026-07-03",
+    "timeMsk": "02:00",
+    "cc": [
+      "pt",
+      "hr"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Португалия — Хорватия",
+      "en": "Portugal — Croatia"
+    },
+    "stage": {
+      "ru": "Плей-офф · 1/16 финала",
+      "en": "Knockout · Round of 32"
+    },
+    "venue": {
+      "ru": "BMO Field, Торонто",
+      "en": "BMO Field, Toronto"
+    },
+    "weather": {
+      "ru": "Открытый, ~31-33°C и духота — водопои почти гарантированы",
+      "en": "Open-air, ~31-33°C and humid — cooling breaks near-certain"
+    },
+    "lede": {
+      "ru": "Первая встреча Роналду (41) и Модрича (40) на ЧМ — и первый матч чемпионатов мира с двумя полевыми 40+. Обе команды пришли со вторых мест, обе любят владение, а Торонто накрыла жара с угрозой грозы. Роналду не забивал в плей-офф ЧМ ни разу — 8 матчей, 29 ударов.",
+      "en": "The first-ever World Cup meeting of Ronaldo (41) and Modrić (40) — and the first World Cup match with two outfield players over 40. Both sides finished second in their groups, both love the ball, and Toronto is under a heat warning with thunderstorms in the forecast. Ronaldo has never scored in a World Cup knockout — 8 games, 29 shots."
+    }
+  },
+  {
+    "id": "switzerland-algeria",
+    "date": "2026-07-03",
+    "timeMsk": "06:00",
+    "cc": [
+      "ch",
+      "dz"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Швейцария — Алжир",
+      "en": "Switzerland — Algeria"
+    },
+    "stage": {
+      "ru": "Плей-офф · 1/16 финала",
+      "en": "Knockout · Round of 32"
+    },
+    "venue": {
+      "ru": "BC Place, Ванкувер",
+      "en": "BC Place, Vancouver"
+    },
+    "weather": {
+      "ru": "Крыша раздвижная, прохладный вечер — климат нейтрален",
+      "en": "Retractable roof, cool evening — climate neutral"
+    },
+    "lede": {
+      "ru": "Швейцария играет на «домашней» арене — там же, где обыграла Канаду, без перелёта и с +3 днями отдыха. Но за ней тянется проклятие: одна победа в основное время за 12 последних плей-офф больших турниров. Алжир Петковича — тренера, семь лет строившего эту же Швейцарию, — умеет цепляться: 3:3 с Австрией, камбэк с Иорданией.",
+      "en": "Switzerland play at their \"home\" venue — the same stadium where they beat Canada, no flight, +3 extra rest days. But a curse follows them: one regulation-time win in their last 12 major-tournament knockouts. Petković's Algeria — coached by the man who spent seven years building this very Switzerland — knows how to cling on: 3-3 with Austria, a comeback against Jordan."
+    }
   }
 ]

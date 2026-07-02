@@ -12,25 +12,12 @@
 .po-br-round:not(.is-last) .po-br-cell:nth-child(odd)::before{content:'';position:absolute;right:0;top:50%;width:2px;height:50%;background:var(--hair-strong)}
 .po-br-round:not(.is-last) .po-br-cell:nth-child(even)::before{content:'';position:absolute;right:0;bottom:50%;width:2px;height:50%;background:var(--hair-strong)}
 .po-br-box{background:var(--card);border:1px solid #d5c9a4;padding:8px 11px;display:flex;flex-direction:column;gap:6px;box-shadow:3px 3px 0 var(--shadow-soft)}
-.po-br-half.bottom .po-br-box.r32{border-left:3px solid var(--lose)}
-.po-br-half.top .po-br-box.r32{border-left:3px solid var(--ai)}
-.po-br-box.r32.set{box-shadow:3px 3px 0 var(--shadow-soft),inset 0 0 0 1px rgba(21,128,61,.3)}
 .po-br-tag{font-family:var(--font-num),monospace;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
-.po-br-box.r32.set .po-br-tag{color:var(--win)}
-.po-br-box.future{align-items:center;justify-content:center;text-align:center;gap:2px;border:2px dashed var(--slot);background:transparent;min-height:48px;box-shadow:none}
-.po-br-flabel{font-size:13px;font-weight:800;color:var(--muted)}
-.po-br-fm{font-size:9.5px;font-weight:700;letter-spacing:.08em;color:var(--faint)}
 .po-br-final-wrap{display:flex;flex-direction:column;gap:10px;align-items:center}
 .po-br-box.final{min-width:248px;max-width:320px;border-color:var(--hair-strong);box-shadow:5px 6px 0 var(--shadow)}
 .po-br-box.final .po-team{color:var(--muted);font-weight:600}
-.po-tie{background:var(--card);border:1px solid #d5c9a4;padding:10px 12px;display:flex;flex-direction:column;gap:7px;box-shadow:3px 3px 0 var(--shadow-soft)}
-.po-tie.locked{box-shadow:3px 3px 0 var(--shadow-soft),inset 0 0 0 1px rgba(21,128,61,.3)}
-.po-tie-tag{font-family:var(--font-num),monospace;font-size:9.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
-.po-tie.locked .po-tie-tag{color:var(--win)}
 .po-team{display:flex;align-items:center;gap:9px;font-size:13.5px;font-weight:600;color:var(--ink);line-height:1.25}
 .po-br-box.mb{gap:5px;padding:7px 10px}
-.po-br-half.top .po-br-box.mb{border-left:3px solid var(--ai)}
-.po-br-half.bottom .po-br-box.mb{border-left:3px solid var(--lose)}
 .po-br-box.mb .po-br-tag{display:flex;align-items:center;gap:6px}
 .po-mb-score{margin-left:auto;font-size:9.5px;font-weight:800;color:var(--muted);letter-spacing:0;text-transform:none;font-variant-numeric:tabular-nums}
 .po-br-box.mb.pen .po-mb-score{color:var(--pasha-deep)}
@@ -40,9 +27,10 @@
 .po-mb-meta{display:flex;align-items:center;gap:5px;font-size:8.5px;font-weight:600;color:var(--faint);line-height:1.1;margin:-1px 0 1px}
 .po-mb-dt{flex:none;font-variant-numeric:tabular-nums}
 .po-mb-venue{margin-left:auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.po-conf{font-style:normal;font-size:8px;font-weight:800;line-height:1;padding:2px 4px;letter-spacing:.02em;flex:none}
-.po-conf.tossup{background:rgba(185,28,28,.12);color:var(--lose)}
-.po-conf.low{background:rgba(217,119,6,.14);color:var(--pasha-deep)}
+/* метки уверенности — контурные чипы (рецепт .po-chip.ghost), цвета из тир-токенов риска */
+.po-conf{font-style:normal;font-size:8px;font-weight:800;line-height:1;padding:2px 4px;letter-spacing:.02em;flex:none;background:transparent}
+.po-conf.tossup{color:var(--tier-risk);box-shadow:inset 0 0 0 1.2px var(--tier-risk)}
+.po-conf.low{color:var(--tier-mid);box-shadow:inset 0 0 0 1.2px var(--tier-mid)}
 /* флаги-наклейки в боксах: 18x13 в белой рамке 2px (локальная копия рецепта .flag из base.css) */
 .po-br-box .po-flag,.po-champ .po-flag{
   width:22px;height:17px;border:2px solid #fff;outline:1px solid #c9bd97;
@@ -95,7 +83,7 @@
 .po-champ{
   position:relative;display:flex;align-items:flex-start;gap:14px;width:fit-content;max-width:100%;
   margin:16px 0 12px;padding:13px 18px 14px 15px;
-  background:var(--card);border:1px solid #d5c9a4;border-left:3px solid var(--ai);
+  background:var(--card);border:1px solid #d5c9a4;
   box-shadow:5px 6px 0 var(--shadow);transform:rotate(-.6deg);
 }
 .po-champ-ic{flex:none;color:var(--ink);margin-top:6px}
@@ -126,33 +114,3 @@
 .po-thought:last-child{border-bottom:0}
 .po-thought-h{font-size:14.5px;font-weight:800;letter-spacing:-.01em;margin-bottom:3px}
 .po-thought-b{color:var(--muted);font-size:13.5px;line-height:1.55;max-width:64ch}
-
-/* ── Третьи места ── */
-.po-thirds{border:1px solid #d5c9a4;overflow:hidden;background:var(--card);box-shadow:4px 5px 0 var(--shadow)}
-.po-th-row{display:grid;grid-template-columns:24px 1fr 40px 1.5fr;align-items:center;gap:6px;padding:9px 12px;border-bottom:1px dotted var(--hair-dot);font-size:13.5px}
-.po-th-row:last-child{border-bottom:0}
-.po-th-head{font-family:var(--font-num),monospace;font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
-.po-th-row.safe{border-left:3px solid var(--win)}
-.po-th-row.edge{border-left:3px solid var(--pasha)}
-.po-th-rk{color:var(--faint);font-weight:700;font-variant-numeric:tabular-nums}
-.po-th-tm{display:flex;align-items:center;gap:8px;min-width:0}
-.po-th-tm b{font-weight:700}
-.po-th-tm small{color:var(--faint)}
-.po-th-tm .po-flag{width:20px;height:14px}
-.po-th-n{text-align:center;font-variant-numeric:tabular-nums;color:var(--muted)}
-.po-th-st{display:flex;align-items:center;justify-content:flex-end;gap:6px;min-width:0;font-size:12px;font-weight:600;color:var(--muted)}
-.po-th-st .po-flag{width:18px;height:13px;flex:none}
-.po-th-head .po-th-st{font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
-.po-th-cut{padding:7px 12px;font-size:10.5px;font-weight:700;letter-spacing:.04em;color:var(--faint);background:repeating-linear-gradient(90deg,var(--hair-strong),var(--hair-strong) 5px,transparent 5px,transparent 10px) bottom/100% 1px no-repeat}
-@media (max-width:560px){
-  .po-th-row{grid-template-columns:18px 1fr 22px 1.35fr;gap:4px;padding:8px 9px;font-size:12px}
-  .po-th-st .po-flag{width:15px;height:11px}
-  .po-th-rk{font-size:11px}
-  .po-th-tm{gap:6px}
-  .po-th-tm .po-flag{width:18px;height:13px}
-  .po-th-tm b{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .po-th-tm small{flex:none}
-  .po-th-head{font-size:8.5px;letter-spacing:.05em}
-  .po-th-st{font-size:10px}
-  .po-th-cut{font-size:9.5px;padding:7px 9px}
-}
