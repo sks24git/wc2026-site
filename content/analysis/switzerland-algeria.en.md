@@ -29,7 +29,7 @@
 
 **AI:**
 - 🟢 **Both teams to score — yes @1.92** — Switzerland without a single clean sheet against Algeria's full checklist of scoring mechanisms (set pieces + Mahrez + counters), while the Swiss themselves have scored against everyone. The USA — Bosnia lesson from last night is applied and weighed: Bosnia had ONE mechanism (Džeko's aerials) against the round's best defence by xG; Algeria have three, and the Swiss defence is the weakest among the day's favourites (conceded to every group opponent). Modal score 2-1 — the bet doesn't contradict it. Counter-test: without Amoura and with the goalkeeping chaos, Algeria may create nothing if Mahrez fades after the 60th.
-- 🟡 **Accumulator:** Spain clean sheet (BTTS no, Spain — Austria) @1.75 + Switzerland to win @2.02 = **3.54** — the tournament's best defence staying dry, plus class and "home" Vancouver against a jet-lagged Algeria.
+- 🟡 **Accumulator:** Spain clean sheet (BTTS no, Spain — Austria) @1.75 + Switzerland team total over 1.5 @2.25 = **3.94** — the tournament's best defence staying dry, plus class and "home" Vancouver against a jet-lagged Algeria. An independent review swapped out the 90-minute Switzerland win here: the Swiss have won just 1 of their last 12 major-tournament knockout matches inside 90 minutes, while "score at least twice" sits well with the modal 2-1 and survives a late push with a goal conceded.
 - 🔴 **Three-leg accumulator of the day's green picks:** Austria not to score @1.87 × Portugal — Croatia under 2.5 @2.08 × BTTS yes Switzerland — Algeria @1.92 = **7.47**.
 - 🔴 **Correct-score system position (2/3):** Switzerland **2-1** Algeria @9.50.
 

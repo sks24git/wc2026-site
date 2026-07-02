@@ -9283,7 +9283,7 @@
     "date": "2026-07-02",
     "type": "Экспресс",
     "tier": "yellow",
-    "odds": 3.54,
+    "odds": 3.94,
     "status": "pending",
     "match": {
       "ru": "Экспресс 2 события",
@@ -9310,8 +9310,8 @@
           "en": "Switzerland — Algeria"
         },
         "p": {
-          "ru": "Победа Швейцарии @2.02",
-          "en": "Switzerland to win @2.02"
+          "ru": "ИТ Швейцарии больше 1.5 @2.25",
+          "en": "Switzerland team total over 1.5 @2.25"
         }
       }
     ]
