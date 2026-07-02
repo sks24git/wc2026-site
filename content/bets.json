@@ -9784,5 +9784,249 @@
       "ru": "Постоянная система точных счетов: 7 из 10 сыгранных матчей раунда легли в коридор 2:0 / 1:1 / 2:1 — берём моду раунда по всем трём парам. Для выплаты достаточно двух попаданий из трёх.",
       "en": "Our standing correct-score system: 7 of the round's 10 completed matches finished 2-0, 1-1 or 2-1 — we take the round's modal scores across all three ties. Two hits out of three pay."
     }
+  },
+  {
+    "id": 329,
+    "date": "2026-07-02",
+    "matchId": "spain-austria",
+    "type": "АФ",
+    "odds": 1.83,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "match": {
+      "ru": "Испания — Австрия",
+      "en": "Spain — Austria"
+    },
+    "bet": {
+      "ru": "Фора Испании −1.5",
+      "en": "Spain −1.5 Asian handicap"
+    },
+    "why": {
+      "ru": "«Не вижу интриги — разные полюса, аналог Франции со Швецией»: высокий прессинг Австрии — то, что нужно игрокам Барселоны при владении. Уже в первом тайме ждёт 2:0, во втором — «голишко» открывшейся Австрии: по логике выходит 3:0.",
+      "en": "'No intrigue here — opposite poles, a rerun of France vs Sweden': Austria's high press is exactly what the Barcelona core loves playing through. He expects 2-0 by the break and one more past an opened-up Austria — 3-0 by his logic."
+    }
+  },
+  {
+    "id": 330,
+    "date": "2026-07-02",
+    "matchId": "portugal-croatia",
+    "type": "Другое",
+    "odds": 3.15,
+    "tier": "yellow",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "match": {
+      "ru": "Португалия — Хорватия",
+      "en": "Portugal — Croatia"
+    },
+    "bet": {
+      "ru": "Победа Португалии + обе забьют",
+      "en": "Portugal to win + BTTS"
+    },
+    "why": {
+      "ru": "Паша давит личную неприязнь («хорваты — мерзкая ничья, Роналду — якорь»): вчера с Англией пошёл против логики и погорел. Португалия по составу великолепна, Хорватия потеряла надёжность сзади, но свой гол цепляет раз за разом. А доп. время и серия — территория Хорватии: португальцы обязаны решать за 90 минут.",
+      "en": "Pasha overrides his own bias ('Croatia are a vile draw, Ronaldo an anchor') — yesterday he defied logic on England and paid. Portugal's squad is superb, Croatia have lost their defensive solidity yet keep nicking a goal. Extra time and shootouts are Croatian territory — Portugal must settle it inside 90."
+    }
+  },
+  {
+    "id": 331,
+    "date": "2026-07-02",
+    "matchId": "switzerland-algeria",
+    "type": "1Т-рынок",
+    "odds": 2.39,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "match": {
+      "ru": "Швейцария — Алжир",
+      "en": "Switzerland — Algeria"
+    },
+    "bet": {
+      "ru": "2-й тайм — тотал больше 1.5",
+      "en": "2nd half — over 1.5 goals"
+    },
+    "why": {
+      "ru": "Тот же приём, что с Бельгией и Сенегалом: из 22 голов в матчах этой пары 17 забиты во вторых таймах. Обе команды нестабильны, забивают и пропускают в каждом матче. «Жду во втором тайме минимум обе забьют и вообще три гола».",
+      "en": "The same trick as Belgium—Senegal: 17 of the 22 goals in these teams' matches came after the break. Both sides are streaky, scoring and conceding in every game. 'In the second half I expect BTTS at minimum, three goals overall.'"
+    }
+  },
+  {
+    "id": 332,
+    "date": "2026-07-02",
+    "type": "Экспресс",
+    "odds": 14.44,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "match": {
+      "ru": "Экспресс 3 события (мини-красная)",
+      "en": "3-fold accumulator (mini red)"
+    },
+    "bet": {
+      "ru": "три таймовых чтения одним билетом",
+      "en": "three half-based reads in one slip"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Португалия — Хорватия",
+          "en": "Portugal — Croatia"
+        },
+        "p": {
+          "ru": "Португалия забьёт в обоих таймах @2.55",
+          "en": "Portugal to score in both halves @2.55"
+        }
+      },
+      {
+        "m": {
+          "ru": "Испания — Австрия",
+          "en": "Spain — Austria"
+        },
+        "p": {
+          "ru": "1-й тайм — тотал больше 1.5 @2.37",
+          "en": "1st half — over 1.5 @2.37"
+        }
+      },
+      {
+        "m": {
+          "ru": "Швейцария — Алжир",
+          "en": "Switzerland — Algeria"
+        },
+        "p": {
+          "ru": "2-й тайм — тотал больше 1.5 @2.39",
+          "en": "2nd half — over 1.5 @2.39"
+        }
+      }
+    ],
+    "why": {
+      "ru": "«Лютейшая мини-красная»: Португалия забивает в обоих таймах, Испания решает всё до перерыва, а Швейцария с Алжиром просыпаются после. Три таймовых сценария дня в одном билете.",
+      "en": "'A ferocious mini red': Portugal scoring in both halves, Spain settling things before the break and Switzerland—Algeria waking up after it. The day's three half-based scripts in one slip."
+    }
+  },
+  {
+    "id": 333,
+    "date": "2026-07-02",
+    "type": "Экспресс",
+    "odds": 41,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "status": "pending",
+    "stake": 250,
+    "match": {
+      "ru": "Экспресс 3 события (лютый красный)",
+      "en": "3-fold accumulator (full red)"
+    },
+    "bet": {
+      "ru": "сенсация, ничья и разгром одним билетом",
+      "en": "an upset, a draw and a rout in one slip"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Швейцария — Алжир",
+          "en": "Switzerland — Algeria"
+        },
+        "p": {
+          "ru": "Победа Алжира @4.40",
+          "en": "Algeria to win @4.40"
+        }
+      },
+      {
+        "m": {
+          "ru": "Португалия — Хорватия",
+          "en": "Portugal — Croatia"
+        },
+        "p": {
+          "ru": "Ничья @3.85",
+          "en": "Draw @3.85"
+        }
+      },
+      {
+        "m": {
+          "ru": "Испания — Австрия",
+          "en": "Spain — Austria"
+        },
+        "p": {
+          "ru": "Фора Испании −2.0 @2.42",
+          "en": "Spain −2.0 handicap @2.42"
+        }
+      }
+    ],
+    "why": {
+      "ru": "«Сегодня лютуем красным»: Алжир обыгрывает Швейцарию (Петкович знает её изнутри), вязкая ничья в Торонто и Испания, закрывающая Австрию с запасом. Если день ляжет по-пашиному — билет платит за всё сразу.",
+      "en": "'Going full red today': Algeria beating Switzerland (Petković knows them inside out), a sticky draw in Toronto and Spain putting Austria away with room to spare. If the day follows Pasha's read, this slip pays for everything at once."
+    }
+  },
+  {
+    "id": 334,
+    "date": "2026-07-02",
+    "matchId": "switzerland-algeria",
+    "type": "Другое",
+    "odds": 8.6,
+    "tier": "red",
+    "side": "Паша",
+    "status": "pending",
+    "match": {
+      "ru": "Швейцария — Алжир",
+      "en": "Switzerland — Algeria"
+    },
+    "bet": {
+      "ru": "Победа Алжира + обе забьют",
+      "en": "Algeria to win + BTTS"
+    },
+    "why": {
+      "ru": "Вне конкурса: «Петкович, тренировавший Швейцарию семь лет, должен знать, как её побеждать» — тем более большая часть игроков, которых он сам тренировал, в составе сохранилась. Победа Алжира при обмене голами.",
+      "en": "Off-contest: 'Petković coached Switzerland for seven years — he should know how to beat them', especially with most of the players he coached still in the squad. Algeria to win with goals at both ends."
+    }
+  },
+  {
+    "id": 335,
+    "date": "2026-07-02",
+    "matchId": "switzerland-algeria",
+    "type": "Другое",
+    "odds": 27,
+    "tier": "red",
+    "side": "Паша",
+    "status": "pending",
+    "match": {
+      "ru": "Швейцария — Алжир",
+      "en": "Switzerland — Algeria"
+    },
+    "bet": {
+      "ru": "Волевая победа Алжира",
+      "en": "Algeria comeback win"
+    },
+    "why": {
+      "ru": "«И у них же кроем волевые»: две нестабильные команды, обе забивают и пропускают в каждом матче — идеальные качели. Здесь — камбэк Алжира: отыграться с пропущенного и дожать.",
+      "en": "'And we cover the comeback wins in this one': two streaky sides who score and concede in every game — perfect see-saw material. This one is the Algeria comeback: fall behind, come back, finish it."
+    }
+  },
+  {
+    "id": 336,
+    "date": "2026-07-02",
+    "matchId": "switzerland-algeria",
+    "type": "Другое",
+    "odds": 14,
+    "tier": "red",
+    "side": "Паша",
+    "status": "pending",
+    "match": {
+      "ru": "Швейцария — Алжир",
+      "en": "Switzerland — Algeria"
+    },
+    "bet": {
+      "ru": "Волевая победа Швейцарии",
+      "en": "Switzerland comeback win"
+    },
+    "why": {
+      "ru": "Вторая сторона той же страховки качелей: если Алжир забьёт первым, хозяева раунда умеют переворачивать поздним навалом со скамейки — волевая победа Швейцарии.",
+      "en": "The other side of the same see-saw cover: if Algeria strike first, the round's 'hosts' can turn games with a late bench-fuelled surge — a Switzerland comeback win."
+    }
   }
 ]

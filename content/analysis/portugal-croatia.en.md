@@ -32,4 +32,7 @@
 - 🟡 **Accumulator** (shared with Spain): Spain shots on target over 8.5 @2.03 + this under 2.5 @2.08 = **4.22**.
 - 🔴 **Correct-score system position (2/3):** Portugal — Croatia **1-1** @6.50 (the modal score of the sticky script; SportsGambler predicts exactly 1-1).
 
-**Pasha:** waiting for his picks — will add them when he sends.
+**Pasha:**
+- 🟡 **Portugal to win + BTTS @3.15** — he overrides his own bias ('Croatia are a vile draw, Ronaldo an anchor'): yesterday he defied logic on England and paid for it. Portugal's squad is superb and 'should take Croatia apart', while Croatia have lost their defensive solidity yet keep nicking a goal. Extra time and shootouts are Croatian territory — Portugal must settle it inside 90. His caveat: 'this World Cup is peak coaching impotence — I wouldn't be surprised if both sides trudge towards a draw from kick-off.'
+- 🔴 In the mini-red accumulator (@14.44) — **Portugal to score in both halves @2.55**; in the full-red (@41.0) — **draw @3.85**.
+- Pasha's correct scores: **3-1** (main) / **1-1** (second variant).

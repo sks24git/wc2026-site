@@ -32,4 +32,7 @@
 - 🟡 **Accumulator:** Spain shots on target over 8.5 (match) @2.03 + Portugal — Croatia under 2.5 @2.08 = **4.22** — Spain's territorial storm plus a sticky evening in Toronto.
 - 🔴 **Correct-score system position (2/3):** Spain **2-0** @6.00 (preview and Dimers-model consensus).
 
-**Pasha:** waiting for his picks — will add them when he sends.
+**Pasha:**
+- 🟢 **Spain −1.5 Asian handicap @1.83** — 'no intrigue here, opposite poles, a rerun of France vs Sweden': Austria's high press is exactly what the Barcelona core loves playing through. He expects 2-0 by the break (Spain settle games in first halves, Yamal gets protected), then one more past an opened-up Austria. His logic says 3-0; he skipped a deeper handicap fearing 3-1.
+- 🔴 In the mini-red accumulator (@14.44) — **1st half over 1.5 @2.37**; in the full-red (@41.0) — **Spain −2.0 handicap @2.42**.
+- Pasha's correct scores: **3-0** (main) / **2-0** (second variant).

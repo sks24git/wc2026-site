@@ -32,7 +32,7 @@ function sideValue(t, lang, inPlayTxt) {
 }
 
 /* ── Колонка одной стороны ── */
-function Column({ side, list, past }) {
+function Column({ side, list, past, full }) {
   const lang = useLang();
   const T = useT();
   const t = sideTally(list);
@@ -52,21 +52,21 @@ function Column({ side, list, past }) {
             <span>{past ? T('bets.noPick') : T('bets.waiting')}</span>
           </div>
         )
-        : list.map((b) => <VsTicket key={b.id} bet={b} />)}
+        : list.map((b) => (full ? <Ticket key={b.id} bet={b} /> : <VsTicket key={b.id} bet={b} />))}
     </div>
   );
 }
 
 /* ── Карточка группы с двумя колонками (Паша | AI) ── */
-function VsCard({ head, list, past }) {
+function VsCard({ head, list, past, full }) {
   const pasha = list.filter((b) => b.side === 'Паша');
   const ai = list.filter((b) => b.side === 'AI');
   return (
     <section className="vs-card">
       {head}
       <div className="vs-cols">
-        <Column side="Паша" list={pasha} past={past} />
-        <Column side="AI" list={ai} past={past} />
+        <Column side="Паша" list={pasha} past={past} full={full} />
+        <Column side="AI" list={ai} past={past} full={full} />
       </div>
     </section>
   );
@@ -186,11 +186,15 @@ function ByMatch({ list, single }) {
       {active.length > 0 && <div className="sect live"><span className="sect-label">{T('bets.inPlayCount', { n: active.length })}</span></div>}
       {active.map(renderCard)}
       {sysActive.length > 0 && <div className="sect"><span className="sect-label">{T('bets.sysInPlay')}</span></div>}
-      {sysActive.length > 0 && <section className="vs-card sys-list">{sysActive.map((b) => <Ticket key={b.id} bet={b} />)}</section>}
+      {sysActive.length > 0 && (single
+        ? <section className="vs-card sys-list">{sysActive.map((b) => <Ticket key={b.id} bet={b} />)}</section>
+        : <VsCard list={sysActive} past={false} full />)}
       {done.length > 0 && <div className="sect"><span className="sect-label">{T('bets.settledCount', { n: done.length })}</span></div>}
       {done.map(renderCard)}
       {sysDone.length > 0 && <div className="sect"><span className="sect-label">{T('bets.sysSettled')}</span></div>}
-      {sysDone.length > 0 && <section className="vs-card sys-list">{sysDone.map((b) => <Ticket key={b.id} bet={b} />)}</section>}
+      {sysDone.length > 0 && (single
+        ? <section className="vs-card sys-list">{sysDone.map((b) => <Ticket key={b.id} bet={b} />)}</section>
+        : <VsCard list={sysDone} past full />)}
     </>
   );
 }
@@ -211,7 +215,7 @@ function ByDay({ list, single }) {
     return (
       <Fragment key={d}>
         <VsCard head={head} list={matchB} past={past} />
-        {sysB.length > 0 && <section className="vs-card sys-list">{sysB.map((b) => <Ticket key={b.id} bet={b} />)}</section>}
+        {sysB.length > 0 && <VsCard list={sysB} past={past} full />}
       </Fragment>
     );
   });
