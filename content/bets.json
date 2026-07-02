@@ -9535,7 +9535,7 @@
     "type": "ИТ",
     "tier": "green",
     "odds": 1.87,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Испания — Австрия",
       "en": "Spain — Austria"
@@ -9547,6 +9547,10 @@
     "why": {
       "ru": "Лучшая оборона турнира против прессинга без чистой девятки: Испания душит соперника владением, Австрии почти нечем наказывать. Фавориты раунда побеждают скромно и сухо — потому «Австрия не забьёт», а не глубокая фора.",
       "en": "The tournament's best defence against a pressing side with no true striker: Spain strangle games with the ball, Austria have little to punish with. This round's favourites win low-scoring and clean — hence 'Austria not to score' over a deep handicap."
+    },
+    "note": {
+      "ru": "✓ Австрия за 90 минут ни разу не попала в створ — Унаи Симон остался без работы",
+      "en": "✓ Austria failed to hit the target once in 90 minutes — Unai Simón had nothing to do"
     }
   },
   {
@@ -9634,6 +9638,10 @@
     "why": {
       "ru": "Связка двух уверенных тезисов дня: сухость лучшей обороны турнира против беззубой Австрии и минимум два гола Швейцарии на «домашнем» Ванкувере против уставшего от перелёта Алжира. Ревью заменило здесь чистую победу Швейцарии: у неё 1 виктория в 90 минутах за 12 нокаутов.",
       "en": "Two of the day's strongest reads combined: the tournament's best defence staying dry against toothless Austria, plus Switzerland scoring at least twice at their 'home' Vancouver against jet-lagged Algeria. A review swapped out the straight Swiss win here: 1 regulation-time victory in their last 12 knockouts."
+    },
+    "note": {
+      "ru": "Испания: обе забьют — нет ✓ (3:0). Ждёт ИТ Швейцарии больше 1.5",
+      "en": "Spain: BTTS-no ✓ (3-0). Awaiting Switzerland team total over 1.5"
     }
   },
   {
@@ -9677,6 +9685,10 @@
     "why": {
       "ru": "Первый расширенный рынок в купоне: Испания в отборе стабильно настреливала 9+ ударов в створ, а прессинг Австрии оставляет пространство под удары. В связке с независимым низом Торонто — жара и осторожные Португалия с Хорватией.",
       "en": "Our first extended-market ticket: Spain regularly racked up 9+ shots on target in qualifying, and Austria's press leaves room to shoot. Paired with an independent under in Toronto — heat plus a cautious Portugal and Croatia."
+    },
+    "note": {
+      "ru": "Удары Испании в створ — 10, позиция ✓. Ждёт тотал меньше 2.5 в Торонто",
+      "en": "Spain shots on target — 10, leg ✓. Awaiting under 2.5 in Toronto"
     }
   },
   {
@@ -9730,6 +9742,10 @@
     "why": {
       "ru": "Три зелёных тезиса дня одним билетом: сухарь Испании, вязкий низ в жарком Торонто и обмен голами в Ванкувере. Три разных матча и три разных рынка — красная цена за смелость собрать всё вместе.",
       "en": "The day's three green calls in one ticket: a Spain clean sheet, a sticky under in sweltering Toronto and both teams scoring in Vancouver. Three matches, three different markets — a red-tier price for stacking them all."
+    },
+    "note": {
+      "ru": "Австрия не забила ✓. Ждут Торонто и Ванкувер",
+      "en": "Austria didn't score ✓. Toronto and Vancouver pending"
     }
   },
   {
@@ -9783,6 +9799,10 @@
     "why": {
       "ru": "Постоянная система точных счетов: 7 из 10 сыгранных матчей раунда легли в коридор 2:0 / 1:1 / 2:1 — берём моду раунда по всем трём парам. Для выплаты достаточно двух попаданий из трёх.",
       "en": "Our standing correct-score system: 7 of the round's 10 completed matches finished 2-0, 1-1 or 2-1 — we take the round's modal scores across all three ties. Two hits out of three pay."
+    },
+    "note": {
+      "ru": "2:0 Испании мимо (3:0). Для системы 2/3 теперь нужны оба оставшихся счёта",
+      "en": "Spain 2-0 missed (3-0). The 2/3 system now needs both remaining scores"
     }
   },
   {
@@ -9794,7 +9814,7 @@
     "tier": "green",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Испания — Австрия",
       "en": "Spain — Austria"
@@ -9806,6 +9826,10 @@
     "why": {
       "ru": "«Не вижу интриги — разные полюса, аналог Франции со Швецией»: высокий прессинг Австрии — то, что нужно игрокам Барселоны при владении. Уже в первом тайме ждёт 2:0, во втором — «голишко» открывшейся Австрии: по логике выходит 3:0.",
       "en": "'No intrigue here — opposite poles, a rerun of France vs Sweden': Austria's high press is exactly what the Barcelona core loves playing through. He expects 2-0 by the break and one more past an opened-up Austria — 3-0 by his logic."
+    },
+    "note": {
+      "ru": "✓ 3:0 — фора −1.5 прошла с запасом в целый мяч",
+      "en": "✓ 3-0 — the −1.5 handicap cleared with a goal to spare"
     }
   },
   {
@@ -9862,7 +9886,7 @@
     "tier": "red",
     "side": "Паша",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Экспресс 3 события (мини-красная)",
       "en": "3-fold accumulator (mini red)"
@@ -9906,6 +9930,10 @@
     "why": {
       "ru": "«Лютейшая мини-красная»: Португалия забивает в обоих таймах, Испания решает всё до перерыва, а Швейцария с Алжиром просыпаются после. Три таймовых сценария дня в одном билете.",
       "en": "'A ferocious mini red': Portugal scoring in both halves, Spain settling things before the break and Switzerland—Algeria waking up after it. The day's three half-based scripts in one slip."
+    },
+    "note": {
+      "ru": "✗ Первый тайм в Лос-Анджелесе дал один гол — позиция «1-й тайм ТБ1.5» сгорела и убила экспресс ещё до ночных матчей",
+      "en": "✗ The LA first half produced one goal — the '1st half over 1.5' position died and killed the express before the night games"
     }
   },
   {
@@ -9961,6 +9989,10 @@
     "why": {
       "ru": "«Сегодня лютуем красным»: Алжир обыгрывает Швейцарию (Петкович знает её изнутри), вязкая ничья в Торонто и Испания, закрывающая Австрию с запасом. Если день ляжет по-пашиному — билет платит за всё сразу.",
       "en": "'Going full red today': Algeria beating Switzerland (Petković knows them inside out), a sticky draw in Toronto and Spain putting Austria away with room to spare. If the day follows Pasha's read, this slip pays for everything at once."
+    },
+    "note": {
+      "ru": "Фора Испании −2.0 ✓ (3:0). Живы ничья в Торонто и Алжир",
+      "en": "Spain −2.0 handicap ✓ (3-0). The Toronto draw and Algeria still alive"
     }
   },
   {
@@ -10080,8 +10112,8 @@
       }
     ],
     "note": {
-      "ru": "Кэфы позиций — линия Фонбета на вечер среды, для ориентира",
-      "en": "Leg odds — Fonbet line as of Wednesday evening, for reference"
+      "ru": "3:0 Испании — точное попадание ✓. Для системы 2/3 хватит ещё одного счёта",
+      "en": "Spain 3-0 — exact hit ✓. One more score wins the 2/3 system"
     },
     "why": {
       "ru": "Дерзкий из двух вариантов — все сценарии дня на максималках: Испания сносит всухую 3:0, Португалия дожимает с обменом 3:1, а в Ванкувере качели с победой Алжира 2:3. Достаточно двух точных из трёх.",
@@ -10139,8 +10171,8 @@
       }
     ],
     "note": {
-      "ru": "Кэфы позиций — линия Фонбета на вечер среды, для ориентира",
-      "en": "Leg odds — Fonbet line as of Wednesday evening, for reference"
+      "ru": "2:0 Испании мимо (3:0). Теперь нужны обе ничьи 1:1",
+      "en": "Spain 2-0 missed (3-0). Both 1-1 draws now required"
     },
     "why": {
       "ru": "Тихий вариант — те же сюжеты на сдержанных счетах: Испания побеждает 2:0, а оба поздних матча вязнут в 1:1 — хорватская тягомотина и качели, где никто не дожал. Достаточно двух точных из трёх.",

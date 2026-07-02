@@ -1,3 +1,13 @@
+## Result: 3-0 — a one-way match
+
+Oyarzabal opened on 36' from Cucurella's pass, Porro doubled with a header on 66' from Baena's delivery, and Oyarzabal sealed it on 89' — Cucurella again. Shots 21–5, on target 10–0, xG 2.84–0.32, and silence around Simón's goal: Austria didn't hit the target once in 90 minutes. The promised press never came — Spain took the ball and never gave it back. Fourth game of the tournament, fourth La Roja clean sheet, 8-0 on aggregate.
+
+**Settlement.** AI: 'Austria won't score' 🟢 ✓ — the day's thesis landed literally; Spain shots on target over 8.5 ✓ (10), that express leg lives and awaits Toronto; BTTS-no ✓ in the yellow express; 2-0 in the correct-score system missed (3-0). Pasha: −1.5 handicap 🟢 ✓; −2.0 handicap ✓ keeps the red express alive; 3-0 in the bold system — an exact hit, one more score wins it; the quiet one (2-0) missed; his halves express had already died by the break.
+
+**Lesson.** A bus with no counter-threat isn't a 'low-scoring match' — it's slow strangulation: the total crawled to three by the 89th. Express the low-scoring thesis through the underdog's team total, not the match total or a correct score.
+
+---
+
 ## Spain — Austria · 02.07, 22:00 MSK · SoFi Stadium, Los Angeles
 
 **Spain went through Group H without conceding a single goal (0-0 Cape Verde, 4-0 Saudi Arabia, 1-0 Uruguay) and ride a ~34-match unbeaten run. But they arrive in Los Angeles "one-winged": Nico Williams and Yeremy Pino are out after the Uruguay game — Baena starts on the left, Yamal on the right. Rangnick's Austria — the only Group J side, in their first knockouts since 1982 — won't park the bus and will press high. The problem: against elite possession they create nothing — one shot on target and 0.5 xG against Argentina.**
