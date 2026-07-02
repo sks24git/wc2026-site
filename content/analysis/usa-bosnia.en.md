@@ -1,3 +1,21 @@
+## Result: USA 2-0 Bosnia and Herzegovina (HT 1-0)
+
+**A match in which Balogun lived an entire career in 19 minutes: on 45' he punished Radeljić's blunder to open the scoring (his 3rd of the tournament), and on 64' VAR called the referee to the monitor — a straight red for a studs-up tackle on Muharemović. Half an hour with ten men against a team that "always scores"? Bosnia created NOTHING (xG ~0.3), and on 82' Tillman killed the game with a direct free kick over the wall — 2-0. USA's first World Cup knockout win since 2002, only their second ever. Belgium await in Seattle in the Round of 16 — without the suspended Balogun.**
+
+- Goals: 45′ Balogun (after Radeljić's mistake) · 82′ Tillman (direct free kick). 🟥 ~64′ Balogun (straight red via VAR — a decision the press calls controversial). No penalties. Pulisic started — the calf held up.
+- Džeko (40) captained the side and again went without a goal — Bosnia head home having never scored in the knockouts.
+
+**Settlement:**
+- AI · both teams to score — yes 🟢 @2.03 — ✗ (Bosnia failed to score even with a man advantage).
+- AI · correct-score system 2/3, USA 2-1 position — ✗ (actual 2-0) → the whole system is dead: England 2-1 vs our 2-0, USA 2-0 vs our 2-1 — both scores right in spirit, wrong match.
+- AI · 3-fold accumulator (DRC +1.5 ✓ · Senegal DC · BTTS USA-Bosnia) — ✗ on this leg.
+- Pasha · both teams to score — yes 🟢 @1.97 — ✗ (his "Bosnia always scores" ended right in the knockouts).
+- Pasha · 3-fold accumulator — ✗ on the same leg.
+
+**Lesson:** "the underdog scored in every group game" is GROUP-stage context; in a knockout against a territorially dominant favourite, the underdog's goal profile must be re-weighed from scratch (set pieces were Bosnia's only remaining mechanism, and USA nullified them as plan item number one). The BTTS bet was a fade of the market consensus "no" — and the market was right.
+
+---
+
 ## USA — Bosnia and Herzegovina · 02.07, 03:00 MSK · Levi's Stadium, Santa Clara
 
 **USA are at home and in good order — they won Group D (4-1 Paraguay, 2-0 Australia), then calmly handed a dead rubber to Turkey with reserves. But the defence leaks: only 1 clean sheet in 5 games this year, and a debutant, Freese, in goal. Bosnia advanced as one of the best third-placed teams (4 points) and know how to score through Džeko and Kolašinac at set pieces even with a weaker squad. Santa Clara in the evening isn't hot — weather is neutral for both sides.**
@@ -16,7 +34,7 @@
 
 ## Extended markets (halves, shots, corners, penalties)
 
-- **Halves.** 1st-half result: USA 1.82 / Draw 2.45 / Bosnia 7.90. 1st-half total under 1.5 @1.50 — a moderately tight start is expected, though not as strongly as the slate's other two matches. Both teams to score in the 1st half — "no" @1.15 (implied ~87%) — a goal exchange before the break is almost ruled out.
+- **Halves.** 1st-half result: USA 1.82 / Draw 2.45 / Bosnia 7.90. 1st-half total under 1.5 @1.50 — a moderately tight start is expected, though not as strongly as the day's other two matches. Both teams to score in the 1st half — "no" @1.15 (implied ~87%) — a goal exchange before the break is almost ruled out.
 - **Corners.** USA are clear favourites in corners: result market 1.23 / draw 11.50 / Bosnia 4.70(!) — near-total corner dominance is expected. Total 9.5 (over @1.94 / under @1.77) — the market leans slightly to the under.
 - **Shots.** Match shots total sits between the 21.5 and 23.5 lines, centred on 22.5 (split evenly, 1.85/1.85); a USA shots handicap of −5.5 to −6.5 reflects territorial dominance. Shots on target sit around the 7.5 line (over @1.70 / under @2.03); first shot on target of the match favours USA @1.45 over Bosnia @2.55.
 - **Penalties.** A scored penalty in the match @3.40 (implied ~29.4%) — again a market baseline, no specific signal.

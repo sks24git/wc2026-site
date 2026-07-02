@@ -1,22 +1,13 @@
 import './globals.css';
-import { Manrope, JetBrains_Mono } from 'next/font/google';
 import { Providers } from '@/app/providers';
 import Masthead from '@/components/Masthead';
 import Nav from '@/components/Nav';
 
-const manrope = Manrope({
-  subsets: ['latin', 'cyrillic'],
-  weight: ['400', '500', '700', '800'],
-  variable: '--font-ui',
-  display: 'swap',
-});
-
-const mono = JetBrains_Mono({
-  subsets: ['latin', 'cyrillic'],
-  weight: ['500', '700'],
-  variable: '--font-num',
-  display: 'swap',
-});
+// Дизайн-система «АЛЬБОМ»: сайт = разворот коллекционного альбома дуэли.
+// Шрифты (Google Fonts, кириллица): Golos Text — текст; Oswald — капсы и
+// плашки наклеек; JetBrains Mono — «машинное»; Caveat — рукописные пометки.
+const FONTS_URL =
+  'https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Golos+Text:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Oswald:wght@500;600;700&display=swap';
 
 export const metadata = {
   title: { default: 'ЧМ-26 · Паша vs AI', template: '%s' },
@@ -24,7 +15,7 @@ export const metadata = {
 };
 
 export const viewport = {
-  themeColor: '#ffffff',
+  themeColor: '#463c2f',
   width: 'device-width',
   initialScale: 1,
 };
@@ -35,14 +26,22 @@ const langScript =
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ru" suppressHydrationWarning className={`${manrope.variable} ${mono.variable}`}>
+    <html lang="ru" suppressHydrationWarning>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="stylesheet" href={FONTS_URL} />
         <script dangerouslySetInnerHTML={{ __html: langScript }} />
       </head>
       <body>
         <Providers>
-          <Masthead />
-          <main id="content">{children}</main>
+          <div className="desk">
+            <div className="spread">
+              <span className="gutter" aria-hidden="true" />
+              <Masthead />
+              <main id="content">{children}</main>
+            </div>
+          </div>
           <Nav variant="bottom" />
         </Providers>
       </body>

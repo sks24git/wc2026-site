@@ -40,14 +40,25 @@ export default function HomeView() {
         <section className="g-battle"><BattleBoard /></section>
 
         <Link className="home-promo" href="/playoffs/">
-          <div className="hp-title">🏆 {lang === 'en' ? 'AI playoff forecast is in' : 'Прогноз AI на весь плей-офф готов'}</div>
-          <div className="hp-sub">
-            {lang === 'en' ? (
-              <>Final <b>Spain–Argentina</b>, champion <b>Argentina</b> — the full match-by-match bracket with scores, shootouts and pitfalls. <span className="hp-cta">Open the Playoffs tab →</span></>
-            ) : (
-              <>Финал <b>Испания–Аргентина</b>, чемпион <b>Аргентина</b> — вся сетка матч-за-матчем со счётами, сериями пенальти и «подводными камнями». <span className="hp-cta">Открыть вкладку «Плей-офф» →</span></>
-            )}
-          </div>
+          <span className="scotch s1" aria-hidden="true" />
+          <span className="scotch s2" aria-hidden="true" />
+          <span className="hp-ic" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" />
+              <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
+              <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+            </svg>
+          </span>
+          <span className="hp-body">
+            <span className="hp-title">{lang === 'en' ? 'AI playoff forecast is in' : 'Прогноз AI на весь плей-офф готов'}</span>
+            <span className="hp-sub">
+              {lang === 'en' ? (
+                <>Final <b>Spain–Argentina</b>, champion <b>Argentina</b> — the full match-by-match bracket with scores, shootouts and pitfalls. <span className="hp-cta">Open the Playoffs tab →</span></>
+              ) : (
+                <>Финал <b>Испания–Аргентина</b>, чемпион <b>Аргентина</b> — вся сетка матч-за-матчем со счётами, сериями пенальти и «подводными камнями». <span className="hp-cta">Открыть вкладку «Плей-офф» →</span></>
+              )}
+            </span>
+          </span>
         </Link>
 
         <section className="g-matches" aria-label={T('a11y.matchesAndBets')}>

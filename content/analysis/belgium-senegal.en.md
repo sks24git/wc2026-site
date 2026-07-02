@@ -1,6 +1,24 @@
+## Result: Belgium 3-2 Senegal (regulation 2-2, HT 0-1)
+
+**A match for the World Cup history books. Senegal did everything by their script: Diarra tapped in off the post on 25', Sarr doubled it on 51' — 2-0, and until the 85th minute Belgium had ZERO shots on target. Then Lukaku, on as a half-time substitute, brought the game back to life with his first touch on target (86'), and Tielemans headed in Trossard's cross two and a half minutes later (89') — 2-2 and extra time. The finale was on a knife's edge: VAR spent seven minutes on Tielemans going down (Camara's foul on 117'), referee Said Martínez pointed to the spot, and Tielemans converted on 125' (124:44 — the LATEST GOAL IN WORLD CUP HISTORY) for 3-2. Neville on air: "so 50-50"; Keane: "very, very harsh". Belgium face USA in Seattle in the Round of 16.**
+
+- Goals: 25′ Diarra · 51′ Sarr · 86′ Lukaku · 89′ Tielemans · 125′ Tielemans (penalty, ⚠️ controversial, VAR). Lukaku once again came off the bench (at half-time) and once again rescued Belgium — De Bruyne had been subbed off as early as 56'.
+- Belgium's second-ever comeback from 0-2 down in a World Cup knockout (after Japan 2018) — and, per the press, the first time in history a team trailing 2-0 at the 85th minute went on to win.
+
+**Settlement:**
+- AI · Senegal double chance (X2) 🟢 @1.67 — ✓ (double chance settles on regulation, which ended 2-2). +2,010 ₽.
+- AI · accumulator: England shots over 15.5 (16 in fact) + Senegal X2 🟡 @2.84 — ✓✓ both legs. +2,760 ₽.
+- AI · correct-score system 2/3, the 1-1 position — ✗ (regulation ended 2-2).
+- Pasha · 2nd half over 1.5 🟢 @2.06 — ✓ (three goals after the break: Sarr 51', Lukaku 86', Tielemans 89'). +3,180 ₽.
+- Pasha · accumulator: the Senegal X2 leg ✓ — but the ticket had already died on BTTS in USA — Bosnia.
+
+**Lesson:** the "Belgium only comes alive with Lukaku" thesis proved literal — zero shots on target before he came on, a four-minute comeback after. And the double-chance market saves you in knockouts precisely because it settles on 90 minutes: the "Senegal are no weaker" thesis survived even a lost tie. Plus the mirror of the playbook's §3: the favourite's class told not in a shootout but via a contentious VAR penalty — in knockouts the line between "through" and "out" is one whistle thin.
+
+---
+
 ## Belgium — Senegal · 01.07, 23:00 MSK · Lumen Field, Seattle
 
-**Belgium are the slate's shakiest favourite: a 1-1 draw with Egypt (via an own goal), a 0-0 with Iran down to ten men, and only one game where they came alive — a 5-1 rout of New Zealand once Lukaku finally got on. Opta gives them just 45.6% to win. Senegal aren't in form either (losses to France and Norway), but they nicked goals in both defeats and thumped Iraq 5-0 when they needed the goal difference. Seattle in summer is mild — weather is a non-factor for either side.**
+**Belgium are the day's shakiest favourite: a 1-1 draw with Egypt (via an own goal), a 0-0 with Iran down to ten men, and only one game where they came alive — a 5-1 rout of New Zealand once Lukaku finally got on. Opta gives them just 45.6% to win. Senegal aren't in form either (losses to France and Norway), but they nicked goals in both defeats and thumped Iraq 5-0 when they needed the goal difference. Seattle in summer is mild — weather is a non-factor for either side.**
 
 ## Key points
 
@@ -11,7 +29,7 @@
 
 ## Total and trends
 
-- **Line (Fonbet):** 1 2.20 / X 3.30 / 2 3.65 — the flattest line of the slate; the price on the "favourite" is unusually generous. Models disagree sharply: Opta gives Belgium just **45.6%**, the MARCA supercomputer 56.9%. Double chance (draw or Senegal) @1.67.
+- **Line (Fonbet):** 1 2.20 / X 3.30 / 2 3.65 — the flattest line of the day; the price on the "favourite" is unusually generous. Models disagree sharply: Opta gives Belgium just **45.6%**, the MARCA supercomputer 56.9%. Double chance (draw or Senegal) @1.67.
 - Match total 2.5: over @2.00 / under @1.82 — a coin flip. BTTS: yes @1.75 / no @2.10 (implied ~57% yes).
 - Both sides are slow starters: Belgium have zero goals from open play across their first two rounds, Senegal were 0-0 at half in both of their defeats.
 

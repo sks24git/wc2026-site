@@ -1,0 +1,129 @@
+/* СТАТИСТИКА: график банка, светофор, рынки, рекорды. /stats.
+   Страничные примитивы «АЛЬБОМА»: вклеенный лист миллиметровки (график),
+   мини-плашки сторон (копия .card-plate, компакт), бары P&L без скруглений. */
+
+/* ── График банка: вклеенный лист миллиметровки ──
+   Наклейка var(--card) + сетка: тонкие линии #e7ddbc каждые 6px,
+   жирнее каждые 30px (хексы — внутренние детали наклейки). */
+.chart-paste{
+  position:relative;
+  margin:16px 3px 8px;
+  padding:18px 16px 13px;
+  background:
+    repeating-linear-gradient(0deg, rgba(166,143,92,.30) 0 1px, transparent 1px 30px),
+    repeating-linear-gradient(90deg, rgba(166,143,92,.30) 0 1px, transparent 1px 30px),
+    repeating-linear-gradient(0deg, #e7ddbc 0 1px, transparent 1px 6px),
+    repeating-linear-gradient(90deg, #e7ddbc 0 1px, transparent 1px 6px),
+    var(--card);
+  border:1px solid #d5c9a4;
+  box-shadow:5px 6px 0 var(--shadow);
+  transform:rotate(-.4deg);
+}
+.chart-paste .scotch{width:64px;height:20px}
+.chart-sc1{top:-10px;left:7%;transform:rotate(-5deg)}
+.chart-sc2{top:-10px;right:7%;transform:rotate(4deg)}
+
+.chart-svg{width:100%;height:auto;display:block}
+.chart-tick{
+  font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;
+  font-size:9px;letter-spacing:.06em;fill:var(--faint);
+}
+.chart-legend{
+  display:flex;gap:22px;margin-top:10px;flex-wrap:wrap;
+  border-top:1px dotted var(--hair-dot);padding-top:8px;
+  font-family:var(--font-num),monospace;font-size:10.5px;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--muted);
+}
+.chart-legend span{display:inline-flex;align-items:center;gap:7px}
+.chart-legend i{width:14px;height:3px;flex:none}
+.chart-legend b{color:var(--ink);letter-spacing:0}
+.chart-legend .cl-pasha{color:var(--pasha-deep)}
+.chart-legend .cl-ai{color:var(--ai)}
+
+/* ── Кольца заходимости ── */
+.winring{display:block;flex:none}
+.winring-t{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-weight:800;font-size:11px}
+.market-row .winring{justify-self:center}
+
+/* ── Две колонки Паша | AI ── */
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:0 24px;margin-top:8px}
+.duo-col{min-width:0}
+.duo-col + .duo-col{border-left:1px solid var(--hair-strong);padding-left:24px}
+.duo-hd{margin-bottom:14px}
+/* мини-плашка стороны — компакт-копия .card-plate из base.css */
+.duo-plate{
+  display:inline-block;
+  font-family:var(--font-disp),sans-serif;font-weight:700;font-size:12px;
+  letter-spacing:.18em;text-transform:uppercase;text-align:center;
+  padding:4px 13px 3px;
+  box-shadow:2px 2px 0 var(--shadow-soft);
+  transform:rotate(-.6deg);
+}
+.duo-plate.pasha{
+  background:linear-gradient(180deg,#f6b93f,var(--pasha-plate));
+  color:#3b2405;border:1px solid #9a6206;
+}
+.duo-plate.ai{
+  background:#0f0c2b;color:#c7d2fe;border:1px solid #6366f1;
+  font-family:var(--font-num),monospace;font-size:10.5px;letter-spacing:.2em;
+  transform:rotate(.5deg);
+}
+.duo .empty.sm{font-size:12px;color:var(--faint);padding:6px 0;margin:0}
+
+/* ── Светофор ── */
+.tier-rows{display:flex;flex-direction:column;gap:15px}
+.tr{display:flex;align-items:center;gap:8px}
+.tr-nm{font-weight:700;font-size:12.5px}
+.tr-pl{font-size:13px;font-weight:700}
+.tr-wr{margin-left:auto;font-size:11px;color:var(--faint);min-width:30px;text-align:right}
+
+/* ── Рынки ── */
+.market{margin-top:6px}
+.market-row{
+  display:grid;grid-template-columns:minmax(92px,1fr) 46px auto;
+  align-items:center;gap:6px 14px;padding:11px 0;
+  border-bottom:1px dotted var(--hair-dot);
+}
+.market-row:last-child{border-bottom:none}
+.market-name{font-weight:700;font-size:13.5px}
+.market-name small{color:var(--faint);font-weight:500}
+.market-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-weight:700;font-size:13.5px;text-align:right;min-width:78px}
+/* бар P&L: без скруглений, краска = знак суммы */
+.market-bar{grid-column:1 / -1;height:5px;background:var(--paper-2);box-shadow:inset 0 0 0 1px var(--hair)}
+.market-bar i{display:block;height:100%}
+.market-bar i.w{background:var(--win)}
+.market-bar i.l{background:var(--lose)}
+.market-bar i.z{background:var(--hair-strong)}
+.duo .market{margin-top:0}
+.duo .market-row{grid-template-columns:minmax(64px,1fr) 44px auto;gap:5px 9px;padding:9px 0}
+.duo .market-pl{min-width:0;font-size:12.5px}
+.duo .market-name{font-size:12.5px}
+
+/* ── Рекорды ── */
+.records{display:grid;grid-template-columns:1fr 1fr;margin-top:8px}
+.rec{padding:2px 22px}
+.rec:first-child{padding-left:0}
+.rec + .rec{border-left:1px solid var(--hair-strong)}
+.rec-lbl{font-family:var(--font-num),monospace;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}
+.rec-vrow{display:flex;align-items:center;gap:12px;margin:6px 0}
+.rec-v{font-family:var(--font-disp),sans-serif;font-variant-numeric:tabular-nums;font-size:clamp(20px,5vw,26px);font-weight:600}
+.rec-d{font-size:13px;color:var(--ink);line-height:1.45}
+.rec-legs{margin:4px 0 0;padding-left:8px;border-left:1.5px solid var(--hair);display:flex;flex-direction:column;gap:2px}
+.rec-leg{display:flex;align-items:baseline;justify-content:space-between;gap:8px;font-size:11.5px;color:var(--muted)}
+.rec-leg-m{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rec-leg-p{font-weight:600;color:var(--ink);white-space:nowrap;flex:none}
+.rec-sub{font-family:var(--font-num),monospace;font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--faint);margin-top:2px}
+.duo-rec{grid-template-columns:1fr;margin-top:0}
+.duo-rec .rec{padding:0 0 14px}
+.duo-rec .rec + .rec{border-left:none;border-top:1px solid var(--hair);padding:14px 0 0}
+.duo-rec .rec-v{font-size:clamp(18px,4.5vw,22px)}
+
+@media (max-width:560px){
+  .duo{grid-template-columns:1fr;gap:0}
+  .duo-col + .duo-col{border-left:none;border-top:1px solid var(--hair);padding-left:0;padding-top:18px;margin-top:18px}
+  .duo .market-row{grid-template-columns:minmax(92px,1fr) 46px auto;gap:5px 14px}
+  .records{grid-template-columns:1fr}
+  .rec{padding:14px 0}
+  .rec + .rec{border-left:none;border-top:1px solid var(--hair)}
+  .chart-paste{margin:14px 0 6px;padding:14px 10px 10px}
+}

@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ПРОТОКОЛ — матчдей-ведомость · ЧМ-2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,700;0,800;1,700;1,800&family=Golos+Text:wght@400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap&subset=cyrillic" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f4f1e8;
+    --paper-dim:#ece8da;
+    --ink:#211d15;
+    --ink-soft:#4d4739;
+    --ink-faint:#8a8271;
+    --amber:#a35a00;
+    --amber-deep:#7c4400;
+    --indigo:#2b3a80;
+    --indigo-deep:#1f2b63;
+    --green:#1d6b3a;
+    --red:#a02824;
+    --hair:rgba(33,29,21,.35);
+    --dot:rgba(33,29,21,.5);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    background:var(--paper);
+    background-image:
+      repeating-linear-gradient(0deg, rgba(60,50,30,.018) 0 1px, transparent 1px 3px),
+      repeating-linear-gradient(90deg, rgba(60,50,30,.012) 0 1px, transparent 1px 4px);
+    color:var(--ink);
+    font-family:'Golos Text',sans-serif;
+    font-size:15px;
+    line-height:1.5;
+  }
+  img{vertical-align:middle;}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 28px 60px;}
+
+  /* ------ типографские линейки ------ */
+  .rule-dbl{height:6px;border-top:3px solid var(--ink);border-bottom:1px solid var(--ink);}
+  .rule-hair{border-top:1px solid var(--hair);}
+  .mono{font-family:'JetBrains Mono',monospace;}
+
+  /* ================= ШАПКА-НЕЙМПЛЕЙТ ================= */
+  .topline{
+    display:flex;justify-content:space-between;align-items:baseline;gap:16px;
+    padding:9px 2px 7px;
+    font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.06em;
+    border-bottom:1px solid var(--ink);
+  }
+  .topline .dateline{font-weight:700;text-transform:uppercase;}
+  .topline .ticker{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink-soft);min-width:0;max-width:100%;}
+  .topline .ticker b{color:var(--ink);font-weight:700;}
+  .tick-up{color:var(--green);font-weight:700;}
+  .tick-pasha{color:var(--amber-deep);font-weight:700;}
+  .tick-ai{color:var(--indigo);font-weight:700;}
+
+  .nameplate{
+    display:grid;grid-template-columns:1fr auto 1fr;align-items:end;gap:20px;
+    padding:22px 2px 14px;
+  }
+  .ear{font-size:10.5px;text-transform:uppercase;letter-spacing:.18em;color:var(--ink-soft);line-height:1.65;padding-bottom:10px;}
+  .ear.right{text-align:right;}
+  .ear b{color:var(--ink);}
+  .wordmark{text-align:center;}
+  .wordmark h1{
+    font-family:'Spectral',serif;font-weight:800;
+    font-size:88px;line-height:.92;letter-spacing:.045em;
+    text-transform:uppercase;
+  }
+  .wordmark h1 .nr{font-size:.34em;vertical-align:super;letter-spacing:0;font-weight:700;color:var(--amber-deep);}
+  .wordmark .slogan{
+    margin-top:8px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.42em;color:var(--ink-soft);
+  }
+  .under-plate{
+    display:flex;justify-content:space-between;align-items:center;gap:14px;
+    border-top:3px solid var(--ink);border-bottom:1px solid var(--ink);
+    padding:6px 2px;margin-bottom:0;
+    font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.14em;
+  }
+  .under-plate .mid{color:var(--ink-faint);letter-spacing:.3em;}
+
+  /* ================= СЕКЦИОННЫЕ РУБРИКИ ================= */
+  .sec-head{
+    display:flex;align-items:baseline;gap:14px;margin:34px 0 14px;
+  }
+  .sec-head h2{
+    font-family:'Spectral',serif;font-weight:800;font-size:21px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;
+  }
+  .sec-head .fill{flex:1;height:6px;border-top:3px solid var(--ink);border-bottom:1px solid var(--ink);transform:translateY(-3px);}
+  .sec-head .kicker{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-soft);white-space:nowrap;letter-spacing:.05em;}
+
+  /* ================= ДУЭЛЬ / TALE OF THE TAPE ================= */
+  .tape{
+    display:grid;grid-template-columns:1fr 46px 1fr;
+    border:1px solid var(--ink);
+    border-top:3px solid var(--ink);
+    background:linear-gradient(rgba(255,255,255,.28),rgba(255,255,255,0));
+  }
+  .corner{padding:20px 26px 18px;}
+  .corner .corner-tag{
+    font-size:10px;font-weight:800;letter-spacing:.3em;text-transform:uppercase;color:var(--ink-faint);
+  }
+  .corner h3{
+    font-family:'Spectral',serif;font-weight:800;font-size:44px;line-height:1;letter-spacing:.03em;text-transform:uppercase;margin:2px 0 2px;
+  }
+  .corner.pasha h3{color:var(--amber-deep);}
+  .corner.ai h3{color:var(--indigo-deep);}
+  .corner .sub{font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:var(--ink-soft);border-bottom:1px solid var(--hair);padding-bottom:10px;}
+  .balance{margin:16px 0 4px;}
+  .balance .lbl{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.26em;color:var(--ink-soft);}
+  .balance .val{
+    font-family:'Spectral',serif;font-weight:800;font-size:62px;line-height:1.02;letter-spacing:-.01em;
+    font-variant-numeric:tabular-nums;
+  }
+  .pos{color:var(--green);} .neg{color:var(--red);}
+  .ledger{margin-top:12px;}
+  .led{display:flex;align-items:baseline;gap:8px;padding:5px 0;font-size:13.5px;}
+  .led + .led{border-top:1px solid rgba(33,29,21,.14);}
+  .led .k{font-weight:600;text-transform:uppercase;letter-spacing:.1em;font-size:11.5px;color:var(--ink-soft);}
+  .led .dots{flex:1;border-bottom:2px dotted var(--dot);transform:translateY(-4px);min-width:24px;}
+  .led .v{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;white-space:nowrap;}
+  .vs-col{
+    position:relative;border-left:3px solid var(--ink);border-right:1px solid var(--ink);
+    background:
+      repeating-linear-gradient(45deg, rgba(33,29,21,.10) 0 1px, transparent 1px 6px);
+  }
+  .vs-col span{
+    position:absolute;top:50%;left:50%;
+    transform:translate(-50%,-50%) rotate(180deg);
+    writing-mode:vertical-rl;
+    font-family:'Spectral',serif;font-weight:800;font-size:17px;letter-spacing:.55em;text-transform:uppercase;
+    background:var(--paper);padding:14px 3px;color:var(--ink);
+  }
+  .tape-foot{
+    border:1px solid var(--ink);border-top:0;
+    display:flex;justify-content:space-between;align-items:baseline;gap:18px;
+    padding:10px 26px;background:var(--paper-dim);
+  }
+  .tape-foot .leader-line{
+    font-family:'Spectral',serif;font-style:italic;font-weight:700;font-size:21px;
+  }
+  .tape-foot .leader-line b{color:var(--amber-deep);font-style:normal;}
+  .tape-foot .note{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-soft);white-space:nowrap;}
+
+  /* ================= КАРТЫ ДНЯ — ЧЕКОВАЯ ЛЕНТА ================= */
+  .receipts{
+    display:grid;grid-template-columns:repeat(4,1fr);
+    border-top:2px dashed var(--ink);border-bottom:2px dashed var(--ink);
+  }
+  .receipt{
+    position:relative;padding:14px 16px 16px;
+  }
+  .receipt + .receipt{border-left:2px dashed rgba(33,29,21,.55);}
+  .receipt h4{
+    font-family:'Spectral',serif;font-weight:800;font-size:16px;text-transform:uppercase;letter-spacing:.06em;
+    padding-bottom:6px;border-bottom:1px solid var(--hair);margin-bottom:8px;
+  }
+  .receipt h4 small{font-family:'JetBrains Mono',monospace;font-weight:400;font-size:10px;color:var(--ink-faint);letter-spacing:.08em;display:block;}
+  .rrow{display:flex;align-items:baseline;gap:6px;padding:3px 0;font-size:12.5px;}
+  .rrow .who{font-weight:800;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;}
+  .rrow .who.p{color:var(--amber-deep);} .rrow .who.a{color:var(--indigo);}
+  .rrow .dots{flex:1;border-bottom:2px dotted var(--dot);transform:translateY(-3px);}
+  .rrow .v{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;white-space:nowrap;}
+  .rrow .cnt{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--ink-faint);white-space:nowrap;}
+  .stamp{
+    position:absolute;top:8px;right:12px;
+    transform:rotate(-4deg);
+    font-weight:800;font-size:12px;letter-spacing:.22em;text-transform:uppercase;
+    padding:3px 9px 2px 11px;
+    border:2px solid currentColor;outline:1px solid currentColor;outline-offset:2px;
+    opacity:.82;mix-blend-mode:multiply;pointer-events:none;
+  }
+  .stamp.ok{color:var(--green);}
+  .stamp.miss{color:var(--red);}
+  .stamp.live{color:var(--ink-soft);border-style:dashed;outline-style:dashed;}
+
+  /* ================= ОСНОВНАЯ ВЁРСТКА: МАТЧИ + ХРОНИКА ================= */
+  .cols{display:grid;grid-template-columns:1fr 336px;gap:0;margin-top:34px;}
+  .col-main{padding-right:28px;border-right:1px solid var(--ink);}
+  .col-side{padding-left:26px;}
+
+  .match{margin-bottom:34px;}
+  .match .meta{
+    display:flex;justify-content:space-between;gap:12px;align-items:baseline;
+    font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);
+    border-top:3px solid var(--ink);padding-top:6px;
+  }
+  .match .meta .stage{color:var(--ink);font-weight:700;}
+  .match h3{
+    font-family:'Spectral',serif;font-weight:800;font-size:44px;line-height:1.04;letter-spacing:.005em;
+    margin:8px 0 4px;
+  }
+  .match h3 img{width:34px;height:auto;border:1px solid var(--ink);box-shadow:2px 2px 0 rgba(33,29,21,.25);margin:0 4px;transform:translateY(-5px);}
+  .match .venue{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.22em;color:var(--ink-faint);margin-bottom:12px;}
+  .match .lead{
+    font-family:'Spectral',serif;font-size:17.5px;line-height:1.55;color:var(--ink);
+    border-top:1px solid var(--hair);padding-top:10px;
+  }
+  .match .lead::first-letter{
+    font-weight:800;font-size:52px;float:left;line-height:.82;padding:5px 8px 0 0;
+  }
+  .match.compact h3{font-size:29px;}
+  .match.compact h3 img{width:26px;transform:translateY(-3px);}
+  .match.compact .brief{font-size:13.5px;color:var(--ink-soft);border-top:1px solid var(--hair);padding-top:8px;}
+
+  .coupon{margin-top:14px;border:1px solid var(--ink);background:rgba(255,255,255,.32);}
+  .coupon .c-head{
+    display:flex;justify-content:space-between;align-items:baseline;
+    background:var(--ink);color:var(--paper);
+    font-size:10.5px;font-weight:800;letter-spacing:.28em;text-transform:uppercase;
+    padding:5px 12px;
+  }
+  .coupon .c-head .mono{letter-spacing:.06em;font-weight:400;color:rgba(244,241,232,.75);}
+  .pick{display:flex;align-items:baseline;gap:10px;padding:10px 12px;}
+  .pick + .pick{border-top:1px dashed rgba(33,29,21,.4);}
+  .pick .tag{
+    font-size:9.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;
+    border:1.5px solid currentColor;padding:2px 6px 1px;white-space:nowrap;transform:translateY(-1px);
+  }
+  .pick .tag.a{color:var(--indigo);} .pick .tag.p{color:var(--amber-deep);}
+  .pick .name{font-weight:600;font-size:14.5px;}
+  .pick .dots{flex:1;border-bottom:2px dotted var(--dot);transform:translateY(-4px);min-width:30px;}
+  .pick .coef{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:17px;white-space:nowrap;}
+  .pick .coef small{font-size:10px;font-weight:400;color:var(--ink-faint);}
+
+  /* ------ хроника ------ */
+  .chron-head{
+    font-family:'Spectral',serif;font-weight:800;font-size:19px;letter-spacing:.1em;text-transform:uppercase;
+    border-top:3px solid var(--ink);border-bottom:1px solid var(--ink);
+    padding:6px 0 5px;text-align:center;
+  }
+  .chron-item{padding:14px 0 15px;border-bottom:1px solid var(--hair);}
+  .chron-item .rubric{
+    font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px;
+  }
+  .chron-item .rubric .r-itog{color:var(--green);}
+  .chron-item .rubric .r-pasha{color:var(--amber-deep);}
+  .chron-item .rubric .dt{color:var(--ink-faint);font-weight:400;}
+  .chron-item p{font-size:13.5px;line-height:1.55;}
+  .chron-item p::first-letter{
+    font-family:'Spectral',serif;font-weight:800;font-size:34px;float:left;line-height:.85;padding:3px 6px 0 0;
+  }
+  .chron-more{
+    display:block;margin-top:12px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;color:var(--ink-soft);text-transform:uppercase;
+  }
+
+  /* ------ тиры ------ */
+  .tiers{margin-top:30px;border:1px solid var(--ink);}
+  .tiers .t-head{
+    background:var(--paper-dim);border-bottom:1px solid var(--ink);
+    font-size:10.5px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;padding:5px 12px;
+  }
+  .tier{display:flex;align-items:center;gap:12px;padding:9px 12px;}
+  .tier + .tier{border-top:1px solid var(--hair);}
+  .tier svg{flex:0 0 auto;display:block;}
+  .tier .t-name{font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.08em;}
+  .tier .t-desc{font-size:11.5px;color:var(--ink-soft);}
+  .tier .t-sum{margin-left:auto;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;white-space:nowrap;}
+
+  /* ------ подвал ------ */
+  footer{margin-top:44px;}
+  footer .colophon{
+    display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+    padding:8px 2px 0;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--ink-soft);letter-spacing:.05em;
+  }
+
+  /* ================= АДАПТИВ ================= */
+  @media (max-width:1020px){
+    .wordmark h1{font-size:64px;}
+    .cols{grid-template-columns:1fr;}
+    .col-main{padding-right:0;border-right:0;}
+    .col-side{padding-left:0;margin-top:36px;}
+    .receipts{grid-template-columns:1fr 1fr;}
+    .receipt:nth-child(3){border-left:0;}
+    .receipt:nth-child(n+3){border-top:2px dashed rgba(33,29,21,.55);}
+  }
+  @media (max-width:680px){
+    .wrap{padding:0 16px 44px;}
+    .nameplate{grid-template-columns:1fr;gap:4px;padding-top:16px;}
+    .ear{display:none;}
+    .wordmark h1{font-size:12.5vw;letter-spacing:.02em;}
+    .wordmark .slogan{letter-spacing:.22em;font-size:10px;}
+    .topline{flex-direction:column;gap:2px;align-items:flex-start;}
+    .topline .ticker{white-space:normal;}
+    .tape{grid-template-columns:1fr;}
+    .vs-col{display:none;}
+    .corner.ai{border-top:3px solid var(--ink);}
+    .balance .val{font-size:52px;}
+    .corner{padding:16px 16px 14px;}
+    .corner h3{font-size:36px;}
+    .tape-foot{flex-direction:column;gap:4px;padding:10px 16px;}
+    .tape-foot .note{white-space:normal;}
+    .receipts{grid-template-columns:1fr;}
+    .receipt + .receipt{border-left:0;border-top:2px dashed rgba(33,29,21,.55);}
+    .match h3{font-size:30px;}
+    .match h3 img{width:26px;}
+    .under-plate .mid{display:none;}
+    .sec-head .kicker{display:none;}
+    .pick{flex-wrap:wrap;}
+    .pick .dots{min-width:100%;order:3;display:none;}
+    .pick .coef{margin-left:auto;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ШАПКА -->
+  <header>
+    <div class="topline">
+      <span class="dateline">Среда, 1 июля 2026 · Матчдей 21</span>
+      <span class="ticker">КУРС ДУЭЛИ: <span class="tick-pasha">ПАША 123 730</span> <span class="tick-up">▲9%</span> · <span class="tick-ai">AI 108 308</span> <span class="tick-up">▲3%</span> · РАЗРЫВ <b>15 422 ₽</b></span>
+    </div>
+    <div class="nameplate">
+      <div class="ear">Ежедневная ведомость<br>ставок на чемпионат мира<br><b>Издаётся весь турнир</b></div>
+      <div class="wordmark">
+        <h1>Протокол<span class="nr">№21</span></h1>
+        <div class="slogan">Паша против машины · гроссбух дуэли</div>
+      </div>
+      <div class="ear right">Цена номера — одна ставка<br>Тираж — 2 экз.<br><b>Штаб · Сиэтл — Даллас</b></div>
+    </div>
+    <div class="under-plate">
+      <span>Плей-офф · 1/16 финала</span>
+      <span class="mid">✻ ✻ ✻</span>
+      <span class="mono">Старт у каждого: 100 000 ₽</span>
+    </div>
+  </header>
+
+  <!-- ДУЭЛЬ -->
+  <section>
+    <div class="sec-head">
+      <h2>Дуэль сезона</h2>
+      <div class="fill"></div>
+      <span class="kicker">TALE OF THE TAPE · день 21 из 39</span>
+    </div>
+
+    <div class="tape">
+      <div class="corner pasha">
+        <div class="corner-tag">Янтарный угол</div>
+        <h3>Паша</h3>
+        <div class="sub">Человек · чутьё и купоны из чата</div>
+        <div class="balance">
+          <div class="lbl">Баланс</div>
+          <div class="val pos">+23 730 ₽</div>
+        </div>
+        <div class="ledger">
+          <div class="led"><span class="k">Банк</span><span class="dots"></span><span class="v">123 730 ₽</span></div>
+          <div class="led"><span class="k">ROI</span><span class="dots"></span><span class="v pos">+9%</span></div>
+          <div class="led"><span class="k">Зашло</span><span class="dots"></span><span class="v">51 из 123</span></div>
+          <div class="led"><span class="k">В игре</span><span class="dots"></span><span class="v">3 ставки</span></div>
+        </div>
+      </div>
+
+      <div class="vs-col"><span>Против</span></div>
+
+      <div class="corner ai">
+        <div class="corner-tag">Индиговый угол</div>
+        <h3>AI</h3>
+        <div class="sub">Машина · xG-модель и холодный расчёт</div>
+        <div class="balance">
+          <div class="lbl">Баланс</div>
+          <div class="val pos">+8 308 ₽</div>
+        </div>
+        <div class="ledger">
+          <div class="led"><span class="k">Банк</span><span class="dots"></span><span class="v">108 308 ₽</span></div>
+          <div class="led"><span class="k">ROI</span><span class="dots"></span><span class="v pos">+3%</span></div>
+          <div class="led"><span class="k">Зашло</span><span class="dots"></span><span class="v">64 из 161</span></div>
+          <div class="led"><span class="k">В игре</span><span class="dots"></span><span class="v">5 ставок</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="tape-foot">
+      <div class="leader-line"><b>Паша впереди</b> на 15 422 ₽</div>
+      <div class="note">старт у каждого — 100 000 ₽ · счёт по текущему банку</div>
+    </div>
+  </section>
+
+  <!-- КАРТЫ ДНЯ -->
+  <section>
+    <div class="sec-head">
+      <h2>Карты дня</h2>
+      <div class="fill"></div>
+      <span class="kicker">кассовая лента · последние четыре смены</span>
+    </div>
+
+    <div class="receipts">
+      <article class="receipt">
+        <span class="stamp miss">Мимо</span>
+        <h4>Вс · 28 июня<small>смена № 18</small></h4>
+        <div class="rrow"><span class="who p">Паша</span><span class="dots"></span><span class="v neg">−3 000 ₽</span><span class="cnt">0/1</span></div>
+        <div class="rrow"><span class="who a">AI</span><span class="dots"></span><span class="v pos">+2 660 ₽</span><span class="cnt">2/4</span></div>
+      </article>
+      <article class="receipt">
+        <span class="stamp ok">Зашло</span>
+        <h4>Пн · 29 июня<small>смена № 19</small></h4>
+        <div class="rrow"><span class="who p">Паша</span><span class="dots"></span><span class="v pos">+1 900 ₽</span><span class="cnt">2/4</span></div>
+        <div class="rrow"><span class="who a">AI</span><span class="dots"></span><span class="v pos">+12 760 ₽</span><span class="cnt">4/5</span></div>
+      </article>
+      <article class="receipt">
+        <span class="stamp ok">Зашло</span>
+        <h4>Вт · 30 июня<small>смена № 20</small></h4>
+        <div class="rrow"><span class="who p">Паша</span><span class="dots"></span><span class="v pos">+13 950 ₽</span><span class="cnt">4/6</span></div>
+        <div class="rrow"><span class="who a">AI</span><span class="dots"></span><span class="v pos">+4 015 ₽</span><span class="cnt">3/6</span></div>
+      </article>
+      <article class="receipt">
+        <span class="stamp live">Идёт</span>
+        <h4>Ср · 1 июля<small>смена № 21 · матчи в игре</small></h4>
+        <div class="rrow"><span class="who p">Паша</span><span class="dots"></span><span class="v neg">−3 000 ₽</span><span class="cnt">3 ст.</span></div>
+        <div class="rrow"><span class="who a">AI</span><span class="dots"></span><span class="v pos">+1 200 ₽</span><span class="cnt">5 ст.</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- МАТЧИ + ХРОНИКА -->
+  <div class="cols">
+    <div class="col-main">
+      <div class="sec-head" style="margin-top:0;">
+        <h2>Афиша и купоны</h2>
+        <div class="fill"></div>
+        <span class="kicker">пики штаба на ближайшие свистки</span>
+      </div>
+
+      <!-- МАТЧ 1 -->
+      <article class="match">
+        <div class="meta">
+          <span class="stage">Плей-офф · 1/16 финала</span>
+          <span>ср, 1 июля · 23:00 GMT+3</span>
+        </div>
+        <h3><img src="https://flagcdn.com/w40/be.png" alt="Флаг Бельгии" width="34"> Бельгия — Сенегал <img src="https://flagcdn.com/w40/sn.png" alt="Флаг Сенегала" width="34"></h3>
+        <div class="venue">Lumen Field · Сиэтл</div>
+        <p class="lead">Бельгия — самый шаткий фаворит: 1:1 с Египтом через автогол, 0:0 с Ираном вдесятером, ожила лишь раз (5:1 Новой Зеландии с Лукаку). Opta даёт ей всего 45.6%. Сенегал сам не в форме, но дважды цеплял голы и разгромил Ирак 5:0.</p>
+        <div class="coupon">
+          <div class="c-head"><span>Купон · наши пики</span><span class="mono">№ 21-01</span></div>
+          <div class="pick">
+            <span class="tag a">AI</span>
+            <span class="name">Двойной шанс Сенегал (ничья или победа)</span>
+            <span class="dots"></span>
+            <span class="coef"><small>кэф</small> 1.67</span>
+          </div>
+          <div class="pick">
+            <span class="tag p">Паша</span>
+            <span class="name">2-й тайм — тотал больше 1.5</span>
+            <span class="dots"></span>
+            <span class="coef"><small>кэф</small> 2.06</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- МАТЧ 2 -->
+      <article class="match compact">
+        <div class="meta">
+          <span class="stage">Плей-офф · 1/16 финала</span>
+          <span>чт, 2 июля · 03:00 GMT+3</span>
+        </div>
+        <h3><img src="https://flagcdn.com/w40/us.png" alt="Флаг США" width="26"> США — Босния и Герцеговина <img src="https://flagcdn.com/w40/ba.png" alt="Флаг Боснии и Герцеговины" width="26"></h3>
+        <p class="brief">Ночной свисток — редкий случай, когда оба угла штаба сошлись на одном рынке.</p>
+        <div class="coupon">
+          <div class="c-head"><span>Купон · наши пики</span><span class="mono">№ 21-02</span></div>
+          <div class="pick">
+            <span class="tag a">AI</span>
+            <span class="name">Обе забьют — да</span>
+            <span class="dots"></span>
+            <span class="coef"><small>кэф</small> 2.03</span>
+          </div>
+          <div class="pick">
+            <span class="tag p">Паша</span>
+            <span class="name">Обе забьют — да</span>
+            <span class="dots"></span>
+            <span class="coef"><small>кэф</small> 1.97</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- ХРОНИКА -->
+    <aside class="col-side">
+      <div class="chron-head">Хроника</div>
+
+      <div class="chron-item">
+        <div class="rubric"><span class="r-itog">Итог · Штаб</span> <span class="dt">· 01.07 22:35</span></div>
+        <p>ДР Конго сделали именно то, что обещали — усадили автобус и захватили счёт уже на 7-й минуте через Чипенгу…</p>
+      </div>
+
+      <div class="chron-item">
+        <div class="rubric"><span class="r-pasha">Паша</span> <span class="dt">· 01.07 18:23</span></div>
+        <p>Паша прислал пики буквально перед свистком. По его словам — «как жахнут все три ничьи»…</p>
+      </div>
+
+      <span class="chron-more">→ вся хроника матчдея 21</span>
+
+      <!-- ТИРЫ -->
+      <div class="tiers">
+        <div class="t-head">Тиры надёжности</div>
+        <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+          <defs>
+            <pattern id="hatch" width="4" height="4" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+              <line x1="0" y1="0" x2="0" y2="4" stroke="#211d15" stroke-width="1.4"/>
+            </pattern>
+          </defs>
+        </svg>
+        <div class="tier">
+          <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 L21 5.2 V11 C21 17 17.4 21 12 23 C6.6 21 3 17 3 11 V5.2 Z" fill="url(#hatch)" stroke="#211d15" stroke-width="1.6"/></svg>
+          <div><div class="t-name">Щит · база</div><div class="t-desc">опорная ставка слота</div></div>
+          <div class="t-sum">3 000 ₽</div>
+        </div>
+        <div class="tier">
+          <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 L5 14 H10.6 L9 22 L19 9 H12.4 Z" fill="url(#hatch)" stroke="#211d15" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          <div><div class="t-name">Молния · риск</div><div class="t-desc">игра с переменным током</div></div>
+          <div class="t-sum">1 500 ₽</div>
+        </div>
+        <div class="tier">
+          <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 C13.5 6.5 8.5 8.5 8.5 13.5 A5 5 0 0 0 18.5 13.5 C18.5 10.5 16 9 15 5.5 C14.5 7.5 12.5 8 12 2 Z" fill="url(#hatch)" stroke="#211d15" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          <div><div class="t-name">Огонь · лотерея</div><div class="t-desc">длинный кэф, короткие деньги</div></div>
+          <div class="t-sum">500 ₽</div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- ПОДВАЛ -->
+  <footer>
+    <div class="rule-dbl"></div>
+    <div class="colophon">
+      <span>ПРОТОКОЛ · матчдей-ведомость дуэли</span>
+      <span>набор: Spectral · Golos Text · JetBrains Mono</span>
+      <span>отпечатано в штабе · тираж 2 экз.</span>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>

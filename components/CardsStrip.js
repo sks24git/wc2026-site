@@ -1,29 +1,36 @@
 'use client';
-import { Fragment, useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { buildDays, currentDayIndex, cardStatusLabel } from '@/lib/cards';
+import { buildDays, currentDayIndex } from '@/lib/cards';
 import { money, formatDay } from '@/lib/calc';
 import { useLang, useT } from '@/app/providers';
 
-function Cell({ card, cur, lang, T }) {
-  if (!card) return <div className="cmp-cell empty" aria-hidden="true">—</div>;
-  const cls = card.side === 'AI' ? 'ai' : 'pasha';
+// Карты дня на главной — полоса слотов альбома: сыгранные дни = вклеенные
+// мини-наклейки со штампами, текущий день = пустой слот «ждём наклейку»
+// с карандашными текущими суммами.
+function Row({ card, who, lang, T }) {
+  if (!card) {
+    return (
+      <span className="mrow">
+        <span className={'mwho ' + who}>{who === 'ai' ? 'AI' : lang === 'en' ? 'P' : 'П'}</span>
+        <span className="mval">—</span>
+      </span>
+    );
+  }
   const plClass = card.status === 'soon' ? '' : card.pl > 0 ? 'pos' : card.pl < 0 ? 'neg' : '';
   return (
-    <Link
-      data-cur={cur ? '1' : undefined}
-      className={'cmp-cell ' + cls + ' st-' + card.status + (cur ? ' cur' : '')}
-      href={'/cards/#' + card.date}
-    >
-      <span className={'cmp-pl num ' + plClass}>{card.status === 'soon' ? '—' : money(card.pl, lang)}</span>
-      <span className="cmp-meta">
-        {card.status === 'done' ? (
-          <>{T('cardsStrip.hit')} <span className="num">{card.wins}/{card.settled}</span></>
-        ) : (
-          <><span className={'cmp-st ' + card.status}>{cardStatusLabel(card.status, lang)}</span>{' · '}{card.pending} {T('common.stakeShort')}</>
-        )}
-      </span>
-    </Link>
+    <span className="mrow">
+      <span className={'mwho ' + who}>{who === 'ai' ? 'AI' : lang === 'en' ? 'P' : 'П'}</span>
+      <span className={'mval ' + plClass}>{card.status === 'soon' ? '—' : money(card.pl, lang)}</span>
+      {card.status === 'done' ? (
+        <>
+          <span className="mcnt num">{card.wins}/{card.settled}</span>
+          <span className={'stampword ' + (card.pl >= 0 ? 'hit' : 'miss')}>{T(card.pl >= 0 ? 'stamp.hit' : 'stamp.miss')}</span>
+        </>
+      ) : (
+        <span className="mcnt num">{card.pending} {T('common.stakeShort')}</span>
+      )}
+    </span>
   );
 }
 
@@ -31,7 +38,8 @@ export default function CardsStrip() {
   const lang = useLang();
   const T = useT();
   const days = buildDays();
-  const curDate = days[currentDayIndex(days)]?.date;
+  const curIdx = currentDayIndex(days);
+  const curDate = days[curIdx]?.date;
   const ref = useRef(null);
   const [ov, setOv] = useState({ l: false, r: false });
 
@@ -51,36 +59,52 @@ export default function CardsStrip() {
     return () => { c?.removeEventListener('scroll', refresh); window.removeEventListener('resize', refresh); };
   }, [refresh]);
 
-  const nudge = (dir) => ref.current?.scrollBy({ left: dir * 316, behavior: 'smooth' });
+  const nudge = (dir) => ref.current?.scrollBy({ left: dir * 320, behavior: 'smooth' });
 
   return (
     <div className="cmp-wrap">
       {(ov.l || ov.r) && (
         <div className="cmp-bar">
           <button type="button" className="cmp-nav" disabled={!ov.l} onClick={() => nudge(-1)} aria-label={T('cards.prevDay')}>
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6" /></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6" /></svg>
           </button>
           <button type="button" className="cmp-nav" disabled={!ov.r} onClick={() => nudge(1)} aria-label={T('cards.nextDay')}>
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18l6-6-6-6" /></svg>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18l6-6-6-6" /></svg>
           </button>
         </div>
       )}
 
       <div className="cmp" ref={ref}>
         <div className="cmp-grid">
-          {/* липкий столбец-подпись строк */}
-          <div className="cmp-lbl corner" aria-hidden="true" />
-          <div className="cmp-lbl"><span className="mc-av pasha" aria-hidden="true">{lang === 'en' ? 'P' : 'П'}</span></div>
-          <div className="cmp-lbl"><span className="mc-av ai" aria-hidden="true">AI</span></div>
-
-          {/* колонка на каждый день: дата · Паша · AI */}
-          {days.map((d) => (
-            <Fragment key={d.date}>
-              <div className={'cmp-date' + (d.date === curDate ? ' cur' : '')}>{formatDay(d.date, lang)}</div>
-              <Cell card={d.pasha} cur={d.date === curDate} lang={lang} T={T} />
-              <Cell card={d.ai} cur={d.date === curDate} lang={lang} T={T} />
-            </Fragment>
-          ))}
+          {days.map((d, i) => {
+            const cur = d.date === curDate;
+            const live = d.pasha?.status === 'live' || d.ai?.status === 'live';
+            return (
+              <div key={d.date} data-cur={cur ? '1' : undefined} className={'slot' + (cur ? ' cur' : '')}>
+                <span className="slot-no">
+                  {T('slot.n')}{i + 1}{cur ? ' · ' + T('slot.today') : ''}
+                </span>
+                {cur && live ? (
+                  <Link href={'/cards/#' + d.date} className="slot-cur-link">
+                    <span className="slot-day">{formatDay(d.date, lang)}</span>
+                    <p className="slot-note">{T('slot.waiting')}</p>
+                    <p className="slot-pencil">
+                      {(lang === 'en' ? 'P' : 'П')} {d.pasha ? money(d.pasha.pl, lang) : '—'}{d.pasha?.pending ? ` · ${d.pasha.pending} ${T('common.stakeShort')}` : ''}
+                      <br />
+                      AI {d.ai ? money(d.ai.pl, lang) : '—'}{d.ai?.pending ? ` · ${d.ai.pending} ${T('common.stakeShort')}` : ''}
+                    </p>
+                    <span className="ghost-no" aria-hidden="true">{i + 1}</span>
+                  </Link>
+                ) : (
+                  <Link className="mini" href={'/cards/#' + d.date}>
+                    <span className="mini-day">{formatDay(d.date, lang)}</span>
+                    <Row card={d.pasha} who="pasha" lang={lang} T={T} />
+                    <Row card={d.ai} who="ai" lang={lang} T={T} />
+                  </Link>
+                )}
+              </div>
+            );
+          })}
         </div>
       </div>
 

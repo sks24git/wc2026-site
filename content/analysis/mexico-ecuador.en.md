@@ -30,7 +30,7 @@ _(odds — Fonbet's live line, 30.06)_
 
 **AI:**
 - 🟢 **Under 2.0 @1.75** — two elite defences, toothless attacks, consensus on 1-0/0-0. The whole line of 2.0 refunds on exactly 2 goals — so a 1-1 doesn't kill us.
-- 🟡 **Penalty shootout — yes @4.20** — a grind to a shootout: exactly the Netherlands — Morocco profile (which landed @4.80). The weakest attacks of the slate + a draw very much in play.
+- 🟡 **Penalty shootout — yes @4.20** — a grind to a shootout: exactly the Netherlands — Morocco profile (which landed @4.80). The weakest attacks of the day + a draw very much in play.
 - 🔴 In the 2/3 correct-score system — **Mexico 1-0**.
 - Counter-test: BTTS-no @1.60 I don't add separately — it almost fully overlaps the under (hidden duplication); I express the low through the total + the correct-score.
 

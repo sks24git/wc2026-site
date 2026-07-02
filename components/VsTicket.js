@@ -7,8 +7,9 @@ import Tip from '@/components/Tip';
 import TierIcon from '@/components/TierIcon';
 import Result from '@/components/Result';
 
-// Компактный тикет для vs-колонки: без названия матча (оно в заголовке группы)
-export default function VsTicket({ bet }) {
+// Компактный тикет для vs-колонки: без названия матча (оно в заголовке группы).
+// accent — короткая рукописная пометка «синей ручкой» (страница матча, купон Паши).
+export default function VsTicket({ bet, accent }) {
   const lang = useLang();
   return (
     <article className={'vt ' + bet.status}>
@@ -17,6 +18,7 @@ export default function VsTicket({ bet }) {
         <div className="vt-top">
           <Tip className="vt-bet" hint={hintFor(bet, lang)}>{L(bet.bet, lang)}</Tip>
           <span className="vt-odds num">{fmtOdds(bet.odds)}</span>
+          {accent && <span className="vt-accent" aria-hidden="true">{accent}</span>}
         </div>
         {bet.legs && (
           <div className="vt-legs">

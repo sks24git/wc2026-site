@@ -14,6 +14,7 @@ export default function Legend() {
           <div key={k} className="legend-row">
             <TierIcon tier={k} lang={lang} />
             <span className="legend-sum num">{rubFmt(tier.sum, lang)}</span>
+            <span className="leader" aria-hidden="true" />
             <span className="legend-note">{t('legend.odds')} {tier.odds} · {tierNote(k, lang)}</span>
           </div>
         );

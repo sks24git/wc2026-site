@@ -20,6 +20,44 @@ function Flag({ cc }) {
   );
 }
 
+/* Штриховые мини-иконки (эмодзи в хроме запрещены дизайн-системой).
+   VenueIcon: roof (крыша/кондиц) · alt (высота) · sun/cloud/rain (открытый + погода). */
+const VENUE_PATHS = {
+  roof: <path d="M3.5 10.5 12 4.5l8.5 6M5.5 10.5V19h13v-8.5" />,
+  alt: <path d="M3 18.5 9.5 8l4 6.2 2-3L21 18.5z" />,
+  sun: <><circle cx="12" cy="12" r="4" /><path d="M12 3.5V6M12 18v2.5M3.5 12H6M18 12h2.5M6 6l1.7 1.7M16.3 16.3 18 18M18 6l-1.7 1.7M7.7 16.3 6 18" /></>,
+  cloud: <path d="M6.5 18a4 4 0 0 1-.4-8 5.4 5.4 0 0 1 10.6-.6A4.3 4.3 0 0 1 17.2 18z" />,
+  rain: <><path d="M6.5 14.5a4 4 0 0 1-.4-8 5.4 5.4 0 0 1 10.6-.6 4.3 4.3 0 0 1 .5 8.4" /><path d="M8.5 17.5l-1 2.6M12.5 17.5l-1 2.6M16.5 17.5l-1 2.6" /></>,
+};
+function VenueIcon({ k, size = 12 }) {
+  if (!VENUE_PATHS[k]) return null;
+  return (
+    <svg className="po-vic" viewBox="0 0 24 24" width={size} height={size} fill="none"
+      stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      {VENUE_PATHS[k]}
+    </svg>
+  );
+}
+function TrophyIcon({ size = 32 }) {
+  return (
+    <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke="currentColor"
+      strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M7 3.5h10V9a5 5 0 0 1-10 0z" />
+      <path d="M7 5H3.5a3.5 3.5 0 0 0 3.6 3.5M17 5h3.5A3.5 3.5 0 0 1 16.9 8.5" />
+      <path d="M12 14v3.5M8.5 20.5h7M10 17.5h4" />
+    </svg>
+  );
+}
+/* Светофор рисков (вместо 🔴/🟡): штриховой кружок цветом тира */
+function RiskDot({ lvl }) {
+  return (
+    <svg className={'po-risk ' + lvl} viewBox="0 0 12 12" width="11" height="11" fill="none"
+      stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+      <circle cx="6" cy="6" r="4.4" />
+    </svg>
+  );
+}
+
 // счёт: пер-перевод хвостов для EN
 function scoreText(s, lang) {
   if (!s || lang !== 'en') return s;
@@ -39,14 +77,14 @@ const PRED = {
   M74: { ...P(T('Германия', 'Germany', 'de'), T('Парагвай', 'Paraguay', 'py'), 'a', '2:1', 'reg', 'medium'), fact: 'b', fscore: '1:1, пен. 3:4', fby: 'pen' },
   M75: { ...P(T('Нидерланды', 'Netherlands', 'nl'), T('Марокко', 'Morocco', 'ma'), 'a', '2:1 (доп. время)', 'aet', 'low'), fact: 'b', fscore: '1:1, пен. 2:3', fby: 'pen' },
   M77: { ...P(T('Франция', 'France', 'fr'), T('Швеция', 'Sweden', 'se'), 'a', '3:1', 'reg', 'high'), fact: 'a', fscore: '3:0', fby: 'reg' },
-  M81: P(T('США', 'USA', 'us'), T('Босния', 'Bosnia', 'ba'), 'a', '2:1', 'reg', 'high'),
-  M82: P(T('Бельгия', 'Belgium', 'be'), T('Сенегал', 'Senegal', 'sn'), 'a', '2:1', 'reg', 'medium'),
+  M81: { ...P(T('США', 'USA', 'us'), T('Босния', 'Bosnia', 'ba'), 'a', '2:1', 'reg', 'high'), fact: 'a', fscore: '2:0', fby: 'reg' },
+  M82: { ...P(T('Бельгия', 'Belgium', 'be'), T('Сенегал', 'Senegal', 'sn'), 'a', '2:1', 'reg', 'medium'), fact: 'a', fscore: '2:2, доп. время 3:2', fby: 'aet' },
   M83: P(T('Португалия', 'Portugal', 'pt'), T('Хорватия', 'Croatia', 'hr'), 'a', '2:1', 'reg', 'medium'),
   M84: P(T('Испания', 'Spain', 'es'), T('Австрия', 'Austria', 'at'), 'a', '2:0', 'reg', 'high'),
   M76: { ...P(T('Бразилия', 'Brazil', 'br'), T('Япония', 'Japan', 'jp'), 'a', '2:1', 'reg', 'medium'), fact: 'a', fscore: '2:1', fby: 'reg' },
   M78: { ...P(T('Кот-д’Ивуар', 'Côte d’Ivoire', 'ci'), T('Норвегия', 'Norway', 'no'), 'b', '1:2', 'reg', 'medium'), fact: 'b', fscore: '1:2', fby: 'reg' },
   M79: { ...P(T('Мексика', 'Mexico', 'mx'), T('Эквадор', 'Ecuador', 'ec'), 'a', '1:0', 'reg', 'medium'), fact: 'a', fscore: '2:0', fby: 'reg' },
-  M80: P(T('Англия', 'England', 'gb-eng'), T('ДР Конго', 'DR Congo', 'cd'), 'a', '2:0', 'reg', 'medium'),
+  M80: { ...P(T('Англия', 'England', 'gb-eng'), T('ДР Конго', 'DR Congo', 'cd'), 'a', '2:0', 'reg', 'medium'), fact: 'a', fscore: '2:1', fby: 'reg' },
   M85: P(T('Швейцария', 'Switzerland', 'ch'), T('Алжир', 'Algeria', 'dz'), 'a', '2:1', 'reg', 'medium'),
   M86: P(T('Аргентина', 'Argentina', 'ar'), T('Кабо-Верде', 'Cape Verde', 'cv'), 'a', '3:0', 'reg', 'high'),
   M87: P(T('Колумбия', 'Colombia', 'co'), T('Гана', 'Ghana', 'gh'), 'a', '2:0', 'reg', 'medium'),
@@ -74,41 +112,41 @@ const PRED = {
 };
 
 // META[code] = дата+время (МСК), значок арены и погода.
-// icon: 🏟 крыша/кондиц · ⛰ высота · ☀/⛅/🌧 открытый+погода. extra: высота/температура.
+// icon (ключ VenueIcon): roof крыша/кондиц · alt высота · sun/cloud/rain открытый+погода. extra: высота/температура.
 const V = (date, time, icon, ru, en, extra) => ({ date, time, icon, ru, en, extra });
 const META = {
-  M73: V('28.06', '22:00', '🏟', 'Лос-Анджелес', 'Los Angeles', ''),
-  M74: V('29.06', '23:30', '🌧', 'Бостон', 'Boston', ' · 26°'),
-  M75: V('30.06', '04:00', '☀', 'Монтеррей', 'Monterrey', ' · 35°'),
-  M76: V('29.06', '20:00', '🏟', 'Хьюстон', 'Houston', ''),
-  M77: V('01.07', '00:00', '⛅', 'Нью-Йорк', 'New York', ' · 30°'),
-  M78: V('30.06', '20:00', '🏟', 'Даллас', 'Dallas', ''),
-  M79: V('01.07', '04:00', '⛰', 'Мехико', 'Mexico City', ' · 2200м'),
-  M80: V('01.07', '19:00', '🏟', 'Атланта', 'Atlanta', ''),
-  M81: V('02.07', '03:00', '☀', 'Санта-Клара', 'Santa Clara', ' · 27°'),
-  M82: V('01.07', '23:00', '⛅', 'Сиэтл', 'Seattle', ' · 24°'),
-  M83: V('03.07', '02:00', '🌧', 'Торонто', 'Toronto', ' · 26°'),
-  M84: V('02.07', '22:00', '🏟', 'Лос-Анджелес', 'Los Angeles', ''),
-  M85: V('03.07', '06:00', '🏟', 'Ванкувер', 'Vancouver', ''),
-  M86: V('04.07', '01:00', '🌧', 'Майами', 'Miami', ' · 32°'),
-  M87: V('04.07', '04:30', '🌧', 'Канзас-Сити', 'Kansas City', ' · 32°'),
-  M88: V('03.07', '21:00', '🏟', 'Даллас', 'Dallas', ''),
-  M89: V('05.07', '00:00', '🌧', 'Филадельфия', 'Philadelphia', ' · 31°'),
-  M90: V('04.07', '20:00', '🏟', 'Хьюстон', 'Houston', ''),
-  M91: V('05.07', '23:00', '⛅', 'Нью-Йорк', 'New York', ' · 30°'),
-  M92: V('06.07', '03:00', '⛰', 'Мехико', 'Mexico City', ' · 2200м'),
-  M93: V('06.07', '22:00', '🏟', 'Даллас', 'Dallas', ''),
-  M94: V('07.07', '03:00', '⛅', 'Сиэтл', 'Seattle', ' · 24°'),
-  M95: V('07.07', '19:00', '🏟', 'Атланта', 'Atlanta', ''),
-  M96: V('07.07', '23:00', '🏟', 'Ванкувер', 'Vancouver', ''),
-  M97: V('09.07', '23:00', '🌧', 'Бостон', 'Boston', ' · 26°'),
-  M98: V('10.07', '22:00', '🏟', 'Лос-Анджелес', 'Los Angeles', ''),
-  M99: V('12.07', '00:00', '🌧', 'Майами', 'Miami', ' · 32°'),
-  M100: V('12.07', '04:00', '🌧', 'Канзас-Сити', 'Kansas City', ' · 32°'),
-  M101: V('14.07', '22:00', '🏟', 'Даллас', 'Dallas', ''),
-  M102: V('15.07', '22:00', '🏟', 'Атланта', 'Atlanta', ''),
-  M103: V('19.07', '00:00', '🌧', 'Майами', 'Miami', ' · 32°'),
-  M104: V('19.07', '22:00', '⛅', 'Нью-Йорк', 'New York', ' · 30°'),
+  M73: V('28.06', '22:00', 'roof', 'Лос-Анджелес', 'Los Angeles', ''),
+  M74: V('29.06', '23:30', 'rain', 'Бостон', 'Boston', ' · 26°'),
+  M75: V('30.06', '04:00', 'sun', 'Монтеррей', 'Monterrey', ' · 35°'),
+  M76: V('29.06', '20:00', 'roof', 'Хьюстон', 'Houston', ''),
+  M77: V('01.07', '00:00', 'cloud', 'Нью-Йорк', 'New York', ' · 30°'),
+  M78: V('30.06', '20:00', 'roof', 'Даллас', 'Dallas', ''),
+  M79: V('01.07', '04:00', 'alt', 'Мехико', 'Mexico City', ' · 2200м'),
+  M80: V('01.07', '19:00', 'roof', 'Атланта', 'Atlanta', ''),
+  M81: V('02.07', '03:00', 'sun', 'Санта-Клара', 'Santa Clara', ' · 27°'),
+  M82: V('01.07', '23:00', 'cloud', 'Сиэтл', 'Seattle', ' · 24°'),
+  M83: V('03.07', '02:00', 'rain', 'Торонто', 'Toronto', ' · 26°'),
+  M84: V('02.07', '22:00', 'roof', 'Лос-Анджелес', 'Los Angeles', ''),
+  M85: V('03.07', '06:00', 'roof', 'Ванкувер', 'Vancouver', ''),
+  M86: V('04.07', '01:00', 'rain', 'Майами', 'Miami', ' · 32°'),
+  M87: V('04.07', '04:30', 'rain', 'Канзас-Сити', 'Kansas City', ' · 32°'),
+  M88: V('03.07', '21:00', 'roof', 'Даллас', 'Dallas', ''),
+  M89: V('05.07', '00:00', 'rain', 'Филадельфия', 'Philadelphia', ' · 31°'),
+  M90: V('04.07', '20:00', 'roof', 'Хьюстон', 'Houston', ''),
+  M91: V('05.07', '23:00', 'cloud', 'Нью-Йорк', 'New York', ' · 30°'),
+  M92: V('06.07', '03:00', 'alt', 'Мехико', 'Mexico City', ' · 2200м'),
+  M93: V('06.07', '22:00', 'roof', 'Даллас', 'Dallas', ''),
+  M94: V('07.07', '03:00', 'cloud', 'Сиэтл', 'Seattle', ' · 24°'),
+  M95: V('07.07', '19:00', 'roof', 'Атланта', 'Atlanta', ''),
+  M96: V('07.07', '23:00', 'roof', 'Ванкувер', 'Vancouver', ''),
+  M97: V('09.07', '23:00', 'rain', 'Бостон', 'Boston', ' · 26°'),
+  M98: V('10.07', '22:00', 'roof', 'Лос-Анджелес', 'Los Angeles', ''),
+  M99: V('12.07', '00:00', 'rain', 'Майами', 'Miami', ' · 32°'),
+  M100: V('12.07', '04:00', 'rain', 'Канзас-Сити', 'Kansas City', ' · 32°'),
+  M101: V('14.07', '22:00', 'roof', 'Даллас', 'Dallas', ''),
+  M102: V('15.07', '22:00', 'roof', 'Атланта', 'Atlanta', ''),
+  M103: V('19.07', '00:00', 'rain', 'Майами', 'Miami', ' · 32°'),
+  M104: V('19.07', '22:00', 'cloud', 'Нью-Йорк', 'New York', ' · 30°'),
 };
 
 // Раскладка полусеток (порядок ячеек = соседство пар для линий)
@@ -231,7 +269,7 @@ function MatchBox({ code, kind, lang }) {
       {m && (
         <div className="po-mb-meta">
           <span className="po-mb-dt">{m.date} · {m.time}</span>
-          <span className="po-mb-venue">{m.icon} {trL(lang, m.ru, m.en)}{m.extra}</span>
+          <span className="po-mb-venue"><VenueIcon k={m.icon} size={11} /> {trL(lang, m.ru, m.en)}{m.extra}</span>
         </div>
       )}
       <TeamRow code={code} side="a" p={p} lang={lang} />
@@ -302,20 +340,21 @@ export default function PlayoffsView() {
   ];
 
   // Подводные камни — по урокам апсетов 3 последних ЧМ (research/upsets).
+  // Первый элемент — уровень светофора ('red'/'mid'), рисуется штриховым кружком RiskDot (эмодзи в хроме запрещены).
   const RISKS = [
-    [tr('🔴 Испания в финале — самый хрупкий «уверенный» узел', '🔴 Spain in the final — the most fragile «confident» node'),
+    ['red', tr('Испания в финале — самый хрупкий «уверенный» узел', 'Spain in the final — the most fragile «confident» node'),
      tr('Профиль стерильного владения без вертикали — ровно тот, что вылетел в 2018 (Россия) и 2022 (Марокко) от плотного блока и пенальти. Мы ведём Испанию в финал — исторически это красная зона.',
         'A sterile-possession profile with no vertical thrust — exactly what went out in 2018 (Russia) and 2022 (Morocco) to a deep block and penalties. We have Spain reaching the final — historically a red zone.')],
-    [tr('🟡 Чемпион-Аргентина — против Opta', '🟡 Champion Argentina — against Opta'),
+    ['mid', tr('Чемпион-Аргентина — против Opta', 'Champion Argentina — against Opta'),
      tr('Наш чемпион совпал с Elo-моделями (там Аргентина №1), но Opta и рынок фаворитом считают Испанию/Францию — Аргентина лишь 4-я (~10%). ChatGPT даёт ту же финальную пару, но победителем — Испанию. Титул Аргентины — ставка на Elo-семью и фактор Дибу, а не на консенсус.',
         'Our champion matches the Elo models (Argentina #1 there), but Opta and the market favour Spain/France — Argentina only 4th (~10%). ChatGPT has the same final but with Spain winning. An Argentina title backs the Elo family and the Dibu factor, not the consensus.')],
-    [tr('🟡 Шесть серий пенальти — это монетки', '🟡 Six shootouts — coin-flips'),
+    ['mid', tr('Шесть серий пенальти — это монетки', 'Six shootouts — coin-flips'),
      tr('После калибровки у нас ≈6 серий (под линию буков 5.5). Но даже шесть монеток означают: 1–2 лягут иначе и сдвинут полуфиналистов или чемпиона. «Класс в серии» не гарантирует ничего — Дибу, Ливакович, Буну решали вопреки классу.',
         'After calibration we have ≈6 shootouts (matching the bookmaker line of 5.5). But even six coin-flips mean 1–2 land differently and shift the semifinalists or the champion. «Class in a shootout» guarantees nothing — Dibu, Livaković, Bono decided games against the odds.')],
-    [tr('🟡 Мексика на Ацтеке — высота + хозяева', '🟡 Mexico at the Azteca — altitude + hosts'),
+    ['mid', tr('Мексика на Ацтеке — высота + хозяева', 'Mexico at the Azteca — altitude + hosts'),
      tr('Наш пик «Англия по пенальти в Мехико» идёт против 2200 м и фактора поля. Хозяин под грузом нации хрупок (Бразилия-2014), но высота и трибуны — реальный бамп Мексике.',
         'Our pick «England on penalties in Mexico City» runs against 2,200 m and home advantage. A host under the weight of a nation is fragile (Brazil-2014), but altitude and the crowd are a real bump for Mexico.')],
-    [tr('🟡 Фавориты, ведущие и «садящиеся» на счёт', '🟡 Favourites who lead and «sit» on it'),
+    ['mid', tr('Фавориты, ведущие и «садящиеся» на счёт', 'Favourites who lead and «sit» on it'),
      tr('Аргентина 2:0, Испания 2:0: после двух мячей фавориты часто отдают инициативу (Аргентина–Нидерланды-2022, камбэк до 2:2) → поздний гол и «обе забьют» у соперника недооценены.',
         'Argentina 2-0, Spain 2-0: two goals up, favourites often cede the initiative (Argentina–Netherlands 2022, pegged back to 2-2) → a late goal and the opponent’s BTTS are underrated.')],
   ];
@@ -344,37 +383,43 @@ export default function PlayoffsView() {
             'The full AI forecast across the whole bracket — match by match. Played ties are filled and tagged FT: the team that advanced is bold with a green ✓, and the score turns green if AI nailed the exact scoreline. Tap a played box — the card flips to show AI’s original pre-match pick (who it backed, what score it called). Deeper in the bracket a solid dark team is one that has really arrived, while faint italic is a not-yet-played forecast (it swaps itself for the real result as soon as the feeding tie finishes).')}
       </p>
 
+      {/* Финальная наклейка чемпиона: белая, офсетная тень, лёгкий наклон, штриховой кубок слева */}
       <div className="po-champ">
-        <span className="po-champ-cap">{tr('Прогноз AI', 'AI forecast')}</span>
-        <span className="po-champ-row"><b>🏆 {tr('Чемпион', 'Champion')}:</b> <Flag cc="ar" /> {tr('Аргентина', 'Argentina')}</span>
-        <span className="po-champ-row sub"><b>{tr('Финал', 'Final')}:</b> {tr('Испания', 'Spain')} 1:1 {tr('Аргентина', 'Argentina')} · {tr('пен 3:4', 'pens 3:4')}</span>
-        <span className="po-champ-row sub"><b>{tr('3-е место', 'Third')}:</b> <Flag cc="fr" /> {tr('Франция', 'France')}</span>
+        <i className="scotch" aria-hidden="true" style={{ top: '-10px', left: '50%', transform: 'translateX(-50%) rotate(-2deg)' }} />
+        <span className="po-champ-ic"><TrophyIcon size={34} /></span>
+        <div className="po-champ-body">
+          <span className="po-champ-cap">{tr('Прогноз AI · итог сетки', 'AI forecast · bracket call')}</span>
+          <span className="po-champ-row"><b>{tr('Чемпион', 'Champion')}</b> <Flag cc="ar" /> {tr('Аргентина', 'Argentina')}</span>
+          <span className="po-champ-row sub"><b>{tr('Финал', 'Final')}</b> {tr('Испания', 'Spain')} <span className="num">1:1</span> {tr('Аргентина', 'Argentina')} · {tr('пен', 'pens')} <span className="num">3:4</span></span>
+          <span className="po-champ-row sub"><b>{tr('3-е место', 'Third')}</b> <Flag cc="fr" /> {tr('Франция', 'France')}</span>
+        </div>
       </div>
 
-      <div className="po-legend">
-        <span><i className="po-chip ai ghost">AI</i> {tr('прогноз AI', 'AI pick')}</span>
-        <span className="po-team real" style={{ fontSize: '12px' }}>{tr('тёмный', 'solid')}<span className="po-through">✓ {tr('дальше', 'through')}</span></span> = {tr('реально прошёл', 'really advanced')}
-        <span className="po-team proj" style={{ fontSize: '12px' }}>{tr('бледный курсив', 'faint italic')}</span> = {tr('прогноз (матч не сыгран)', 'forecast (tie not played)')}
-      </div>
-      <div className="po-legend">
-        <span><i className="po-chip aiwin">AI ✓</i> {tr('AI угадал проход', 'AI called the winner')}</span>
-        <span><i className="po-chip aimiss">AI ✗</i> {tr('AI мимо с победителем', 'AI missed the winner')}</span>
-        <span><i className="po-chip fact">✓</i> {tr('прошёл', 'advanced')}</span>
-        <span><i className="po-ft">FT</i> {tr('сыгран · зелёный счёт = точный счёт AI зашёл', 'played · green score = AI nailed the scoreline')}</span>
-      </div>
-      <div className="po-legend">
-        <span className="po-mb-score hit" style={{ fontSize: '12px' }}>✓ 2:0</span> {tr('зелёный счёт с ✓ — AI угадал точный результат', 'green score with a ✓ — AI nailed the exact result')}
-        <span className="po-mb-score miss" style={{ fontSize: '12px' }}>✗ 2:0</span> {tr('счёт не совпал — нажми на сыгранную карточку, увидишь, какой звали', 'score missed — tap a played card to see what AI called')}
-      </div>
-      <div className="po-legend mini">
-        <span>🏟 {tr('крыша / кондиц.', 'roof / AC')}</span>
-        <span>⛰ {tr('высота', 'altitude')}</span>
-        <span>☀ ⛅ 🌧 {tr('погода — открытый стадион · время МСК', 'weather — open-air · times MSK')}</span>
-      </div>
-      <div className="po-legend mini">
-        <span><i className="po-conf tossup">50/50</i> {tr('серия пенальти / равный матч', 'shootout / even tie')}</span>
-        <span><i className="po-conf low">{tr('слабо', 'soft')}</i> {tr('шаткий прогноз', 'shaky pick')}</span>
-        <span>{tr('без метки — уверенный/склонный прогноз', 'no tag — confident/leaning pick')}</span>
+      {/* Легенда альбома: условные обозначения одной моно-плашкой, элементы через точечные отбивки */}
+      <div className="po-key">
+        <span className="po-key-cap">{tr('Условные обозначения', 'Key')}</span>
+        <div className="po-key-row">
+          <span className="po-lg"><i className="po-chip ai ghost">AI</i>{tr('прогноз AI на победителя', 'AI pick to win')}</span>
+          <span className="po-lg"><i className="po-chip aiwin">AI ✓</i>{tr('угадал проход', 'called the winner')}</span>
+          <span className="po-lg"><i className="po-chip aimiss">AI ✗</i>{tr('мимо с победителем', 'missed the winner')}</span>
+          <span className="po-lg"><i className="po-chip fact">✓</i>{tr('прошёл', 'advanced')}</span>
+          <span className="po-lg"><i className="po-ft">FT</i>{tr('матч сыгран', 'tie played')}</span>
+        </div>
+        <div className="po-key-row">
+          <span className="po-lg"><b className="po-lg-solid">{tr('тёмный', 'solid')}</b>{tr('реально дошёл сюда', 'really advanced here')}</span>
+          <span className="po-lg"><i className="po-lg-proj">{tr('бледный курсив', 'faint italic')}</i>{tr('прогноз, матч впереди', 'forecast, tie not played')}</span>
+          <span className="po-lg"><span className="po-mb-score hit">✓ 2:0</span>{tr('точный счёт AI зашёл', 'AI nailed the score')}</span>
+          <span className="po-lg"><span className="po-mb-score miss">✗ 2:0</span>{tr('счёт мимо — нажми карточку, там прогноз', 'score missed — tap the card for the pick')}</span>
+        </div>
+        <div className="po-key-row">
+          <span className="po-lg"><VenueIcon k="roof" />{tr('крыша / кондиц.', 'roof / AC')}</span>
+          <span className="po-lg"><VenueIcon k="alt" />{tr('высота', 'altitude')}</span>
+          <span className="po-lg"><VenueIcon k="sun" /><VenueIcon k="cloud" /><VenueIcon k="rain" />{tr('погода — открытый стадион', 'weather — open-air')}</span>
+          <span className="po-lg">{tr('время МСК', 'times MSK')}</span>
+          <span className="po-lg"><i className="po-conf tossup">50/50</i>{tr('серия пенальти / равный матч', 'shootout / even tie')}</span>
+          <span className="po-lg"><i className="po-conf low">{tr('слабо', 'soft')}</i>{tr('шаткий прогноз', 'shaky pick')}</span>
+          <span className="po-lg">{tr('без метки — уверенный прогноз', 'no tag — confident pick')}</span>
+        </div>
       </div>
 
       <div className="sect"><span className="sect-label">{tr('Верхняя половина', 'Top half')}</span></div>
@@ -398,9 +443,9 @@ export default function PlayoffsView() {
           {tr('Прогноз честно «по фаворитам». Один узел флипнули по согласию моделей и истории — Бразилию в 1/4 убрала Англия. Остальные монетки оставили модально (метки «50/50»/«слабо»), а число серий пенальти откалибровали под статистику. Вот где сетка всё ещё тоньше всего.',
               'The forecast is honestly «chalk». We flipped one node on the agreement of the models and history — England knock Brazil out in the quarters. The other coin-flips stay modal (tagged «50/50»/«soft»), and we calibrated the number of shootouts to the stats. Here is where the bracket is still thinnest.')}
         </p>
-        {RISKS.map(([h, b], i) => (
+        {RISKS.map(([lvl, h, b], i) => (
           <div key={i} className="po-thought">
-            <div className="po-thought-h">{h}</div>
+            <div className="po-thought-h"><RiskDot lvl={lvl} />{h}</div>
             <div className="po-thought-b">{b}</div>
           </div>
         ))}

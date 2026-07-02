@@ -1,0 +1,177 @@
+/* СТАВКИ И МАТЧИ: легенда тиров, сегменты-фильтры, группы матчей,
+   колонки Паша|AI, тикеты ставок, страница матча «два голоса».
+   Страницы /bets, /matches, /matches/[id]. */
+
+/* ── Легенда Светофор: «легенда альбома» с точечными отбивками ── */
+.legend{margin:10px 0 2px;padding:12px 0 13px;border-top:3px double var(--rule);border-bottom:3px double var(--rule)}
+.legend-row{display:flex;align-items:baseline;gap:10px;padding:6px 0}
+.legend-row .tier-ic{align-self:center;margin-top:0}
+.legend-sum{font-family:var(--font-disp),sans-serif;font-weight:600;font-size:14px;min-width:74px}
+.legend-note{font-size:12.5px;color:var(--muted);text-align:right;max-width:64%}
+.legend-cap{font-size:11.5px;color:var(--faint);margin-top:9px}
+@media (max-width:520px){.legend-note{max-width:none;text-align:right}}
+
+/* ── Переключатели (сегменты) ── */
+.controls{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;margin:26px 0 14px}
+.seg{display:inline-flex;background:var(--paper-2);border:1px solid var(--hair-strong);padding:3px;gap:2px}
+.seg-btn{
+  font-family:var(--font-disp),sans-serif;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--muted);background:transparent;border:none;
+  padding:7px 14px;cursor:pointer;white-space:nowrap;transition:background .12s,color .12s;
+}
+.seg-btn:hover{color:var(--ink)}
+.seg-btn.on{background:var(--ink);color:var(--paper)}
+.seg-btn.on.t-pasha{background:var(--pasha-deep)}
+.seg-btn.on.t-ai{background:var(--ai-deep)}
+@media (max-width:520px){.controls{flex-direction:column;gap:8px}.seg{width:100%}.seg-btn{flex:1;text-align:center;padding:8px 4px}}
+
+/* ── Заголовок группы матчей ── */
+.vs-card{margin-bottom:30px}
+.mg-head{padding-bottom:10px}
+.mg-when{font-family:var(--font-num),monospace;font-size:10.5px;letter-spacing:.06em;color:var(--dim);margin-bottom:3px;text-transform:uppercase}
+.mg-headline{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+a.mg-head-link{display:block}
+a.mg-head-link:hover .mg-title{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px;text-decoration-color:var(--hair-strong)}
+.mg-title{font-family:var(--font-disp),sans-serif;font-size:18px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+.mg-title.cap{font-size:12px;font-weight:600;letter-spacing:.16em;color:var(--muted)}
+.mg-score{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:16px;font-weight:700;color:var(--muted)}
+.mg-meta{font-size:11px;color:var(--faint);font-family:var(--font-num),monospace}
+.mg-head .mg-meta,.mg-head .mg-score:last-child{margin-left:auto}
+
+/* ── Две колонки Паша | AI ── */
+.vs-cols{display:grid;grid-template-columns:1fr 1fr;position:relative}
+.vs-cols::before{content:'';position:absolute;top:34px;bottom:8px;left:50%;width:1px;background:var(--hair-strong);transform:translateX(-.5px)}
+.vs-col{min-width:0}
+.vs-col.pasha{padding-right:18px}
+.vs-col.ai{padding-left:18px}
+.vs-col-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-bottom:8px;border-bottom:1px solid var(--hair);margin-bottom:4px}
+/* мини-плашки сторон (копия стиля .card-plate дуэли, хексы = внутренние
+   детали наклейки): Паша — янтарная жесть, AI — тёмный индиго-чип */
+.vs-col-who{
+  display:inline-flex;align-items:center;height:23px;padding:1px 10px 0;
+  font-family:var(--font-disp),sans-serif;font-weight:700;font-size:10.5px;
+  letter-spacing:.16em;text-transform:uppercase;
+  box-shadow:2px 2px 0 var(--shadow-soft);
+}
+.vs-col.pasha .vs-col-who{
+  background:linear-gradient(180deg,#f6b93f,var(--pasha-plate));
+  color:#3b2405;border:1px solid #9a6206;
+}
+.vs-col.ai .vs-col-who{
+  background:#0f0c2b;color:#c7d2fe;border:1px solid #6366f1;
+  font-family:var(--font-num),monospace;font-size:9.5px;letter-spacing:.2em;
+}
+.vs-col-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:14px;font-weight:700}
+.vs-col-pl.idle{color:var(--faint);font-weight:500}
+.vs-col-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:26px 0;color:var(--faint);text-align:center;border:2px dashed var(--slot);margin-top:8px}
+.vs-col-empty svg{opacity:.5}
+.vs-col-empty span{font-family:var(--font-num),monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase}
+
+/* тикет: иконка тира + тело */
+.vt{display:grid;grid-template-columns:20px 1fr;gap:10px;padding:12px 0;border-bottom:1px dotted var(--hair-dot)}
+.vt:last-child{border-bottom:none}
+.vt.void{opacity:.6}
+.vt.lose .vt-bet{color:var(--muted)}
+.vt-body{min-width:0}
+.vt-match{font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-bottom:2px}
+.vt-top{display:flex;align-items:baseline;gap:8px}
+.vt-bet{font-weight:700;font-size:14.5px;min-width:0}
+.vt-bet.tip{white-space:normal;overflow:visible}
+.vt-odds{margin-left:auto;font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:13.5px;font-weight:700;color:var(--muted)}
+/* рукописная пометка Паши у ставки (короткий акцент, 1 слово) */
+.vt-accent{
+  flex:none;font-family:var(--font-hand),cursive;font-weight:700;font-size:19px;
+  line-height:1;color:var(--pen);transform:rotate(-6deg);
+}
+.vt-bot{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:4px}
+.vt-stake{font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--faint)}
+.vt-stake .side-pasha{color:var(--pasha-deep);font-weight:700}
+.vt-stake .side-ai{color:var(--ai);font-weight:700}
+.vt-note{font-size:11.5px;line-height:1.45;color:var(--faint);margin-top:5px}
+
+/* мини-таблица позиций системы/экспресса */
+.vt-legs{margin:6px 0 2px;border-top:1px solid var(--hair)}
+.vt-leg{display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:4px 0;border-bottom:1px solid var(--hair);font-size:13px}
+.vt-leg:last-child{border-bottom:none}
+.vt-leg-m{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vt-leg-p{font-weight:700;color:var(--ink);white-space:nowrap}
+
+.ticket-meta{display:flex;gap:12px;flex-wrap:wrap;font-size:10.5px;letter-spacing:.08em;color:var(--faint);margin-top:3px;text-transform:uppercase;font-weight:700}
+.ticket-meta .pasha{color:var(--pasha-deep)}
+.ticket-meta .ai{color:var(--ai)}
+.ticket-meta .contest{color:var(--gold)}
+.ticket-right{text-align:right}
+.ticket-odds{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:14.5px;font-weight:700;color:var(--muted)}
+.ticket-pl{font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;font-size:15px;font-weight:700;margin-top:2px}
+.ticket-pl.idle{color:var(--faint);font-weight:500}
+
+/* ══ СТРАНИЦА МАТЧА: шапка-наклейка и «два голоса» ══
+   AI = чек терминала (лента матричного принтера, перфорация),
+   Паша = купон от руки (обрывок в линейку, рваные края).
+   Хексы ниже — внутренние детали этих вклеек. */
+.mv-hero{padding:20px 0 12px}
+.mv-hero .fixture-head{margin-top:8px;transform:rotate(-.6deg)}
+.mv-hero h1{margin:0}
+.mv-score{
+  font-family:var(--font-num),monospace;font-variant-numeric:tabular-nums;
+  font-size:clamp(26px,6vw,38px);font-weight:700;letter-spacing:.04em;margin:10px 0 4px;
+}
+.mv-hero .fixture-venue{margin-top:2px}
+
+.mv-cols::before{display:none}
+.mv-cols .vs-col.pasha{padding-right:12px}
+.mv-cols .vs-col.ai{padding-left:12px}
+.mv-voice{position:relative;margin-top:10px}
+
+/* чек терминала (AI) */
+.mv-receipt{
+  transform:rotate(.8deg);
+  background:
+    repeating-linear-gradient(0deg, rgba(43,37,25,.028) 0 1px, transparent 1px 3px),
+    #fdfbef;
+  border-top:2px dashed #c2b58e;border-bottom:2px dashed #c2b58e;
+  padding:12px 30px 14px;
+  box-shadow:5px 6px 0 var(--shadow);
+}
+.mv-receipt::before,.mv-receipt::after{
+  content:"";position:absolute;top:6px;bottom:6px;width:18px;pointer-events:none;
+  background:radial-gradient(circle at 9px 9px, var(--paper) 3px, rgba(60,45,20,.28) 3.6px, transparent 4.4px);
+  background-size:18px 18px;
+}
+.mv-receipt::before{left:2px;border-right:1px dashed #d8cca4}
+.mv-receipt::after{right:2px;border-left:1px dashed #d8cca4}
+.mv-rec-head{
+  display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap;
+  font-family:var(--font-num),monospace;font-size:9.5px;font-weight:700;letter-spacing:.1em;
+  color:var(--dim);text-transform:uppercase;
+  padding-bottom:8px;border-bottom:1px dashed #c2b58e;
+}
+.mv-receipt .vt-odds,.mv-receipt .vt-bet{font-family:var(--font-num),monospace}
+.mv-receipt .vt-bet{font-size:13.5px}
+
+/* купон Паши (обрывок от руки) */
+.mv-scrap{
+  transform:rotate(-1deg);
+  background:
+    repeating-linear-gradient(180deg, transparent 0 26px, rgba(38,67,166,.10) 26px 27px),
+    #fbf5e0;
+  padding:15px 16px 18px;
+  filter:drop-shadow(5px 6px 0 var(--shadow));
+  clip-path:polygon(1% 6%,6% 1%,21% 3%,37% 0,54% 4%,70% 1%,86% 5%,99% 2%,100% 92%,94% 99%,78% 96%,60% 100%,41% 97%,22% 100%,8% 96%,0 99%);
+}
+.mv-scrap-head{
+  display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap;
+  font-family:var(--font-num),monospace;font-size:9.5px;font-weight:700;letter-spacing:.14em;
+  color:var(--pasha-deep);text-transform:uppercase;
+  padding-bottom:7px;border-bottom:1px solid rgba(38,67,166,.28);
+}
+.mv-voice .vs-col-empty{border:none;padding:22px 0 14px}
+
+@media (max-width:560px){
+  .vs-cols{grid-template-columns:1fr}
+  .vs-cols::before{display:none}
+  .vs-col.pasha,.mv-cols .vs-col.pasha{padding-right:0}
+  .vs-col.ai,.mv-cols .vs-col.ai{padding-left:0;margin-top:18px}
+  .mv-cols .vs-col.ai{margin-top:24px}
+  .mv-receipt{padding:12px 26px 14px}
+}

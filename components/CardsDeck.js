@@ -27,9 +27,13 @@ export default function CardsDeck({ days }) {
   return (
     <div className="deck">
       <div className="deck-top">
-        <button className="deck-arrow" aria-label={T('cards.prevDay')} onClick={() => go(-1)} disabled={days.length < 2}>‹</button>
+        <button className="deck-arrow" aria-label={T('cards.prevDay')} onClick={() => go(-1)} disabled={days.length < 2}>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6" /></svg>
+        </button>
         <div className="deck-day">{formatDay(day.date, lang)}</div>
-        <button className="deck-arrow" aria-label={T('cards.nextDay')} onClick={() => go(1)} disabled={days.length < 2}>›</button>
+        <button className="deck-arrow" aria-label={T('cards.nextDay')} onClick={() => go(1)} disabled={days.length < 2}>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6" /></svg>
+        </button>
       </div>
 
       <div className="deck-pair">

@@ -8,7 +8,6 @@ import TierIcon from '@/components/TierIcon';
 import Result from '@/components/Result';
 
 const matchMeta = (id) => matches.find((m) => m.id === id) || null;
-const avatarText = (side, lang) => (side === 'AI' ? 'AI' : lang === 'en' ? 'P' : 'П');
 
 export default function DayCard({ card }) {
   const lang = useLang();
@@ -24,24 +23,28 @@ export default function DayCard({ card }) {
 
   return (
     <article className={'daycard ' + cls + ' st-' + card.status}>
+      <span className="scotch dc-scotch-l" aria-hidden="true" />
+      <span className="scotch dc-scotch-r" aria-hidden="true" />
       <header className="dc-head">
-        <span className={'dc-av ' + cls} aria-hidden="true">{avatarText(card.side, lang)}</span>
-        <div className="dc-hl">
-          <div className="dc-who">{sideLabel(card.side, lang)} <span className={'dc-chip ' + card.status}>{cardStatusLabel(card.status, lang)}</span></div>
-          <div className="dc-date">{formatDay(card.date, lang)}</div>
-        </div>
-        <div className="dc-total">
-          <div className="dc-total-lbl">{card.status === 'soon' ? T('daycard.atStake') : card.status === 'live' ? T('daycard.soFar') : T('daycard.dayTotal')}</div>
-          <div className={'dc-total-v num ' + plClass}>{card.status === 'soon' ? rubFmt(card.atStake, lang) : money(card.pl, lang)}</div>
-          {card.status === 'soon' && (
-            <div className="dc-total-sub num">{card.pending} {T('common.stakeShort')}</div>
-          )}
-          {card.status === 'live' && card.atStake > 0 && (
-            <div className="dc-total-sub num">{T('daycard.stillIn')} {rubFmt(card.atStake, lang)}</div>
-          )}
-          {card.status === 'done' && card.staked > 0 && (
-            <div className="dc-total-sub num">{T('daycard.staked')} {rubFmt(card.staked, lang)}</div>
-          )}
+        <div className="dc-plate">{sideLabel(card.side, lang)}</div>
+        <div className="dc-headrow">
+          <div className="dc-hl">
+            <span className={'stampword dc-stamp ' + card.status}>{cardStatusLabel(card.status, lang)}</span>
+            <div className="dc-date">{formatDay(card.date, lang)}</div>
+          </div>
+          <div className="dc-total">
+            <div className="dc-total-lbl">{card.status === 'soon' ? T('daycard.atStake') : card.status === 'live' ? T('daycard.soFar') : T('daycard.dayTotal')}</div>
+            <div className={'dc-total-v ' + plClass}>{card.status === 'soon' ? rubFmt(card.atStake, lang) : money(card.pl, lang)}</div>
+            {card.status === 'soon' && (
+              <div className="dc-total-sub">{card.pending} {T('common.stakeShort')}</div>
+            )}
+            {card.status === 'live' && card.atStake > 0 && (
+              <div className="dc-total-sub">{T('daycard.stillIn')} {rubFmt(card.atStake, lang)}</div>
+            )}
+            {card.status === 'done' && card.staked > 0 && (
+              <div className="dc-total-sub">{T('daycard.staked')} {rubFmt(card.staked, lang)}</div>
+            )}
+          </div>
         </div>
       </header>
 
@@ -94,18 +97,13 @@ export function EmptyDayCard({ side, past }) {
   const cls = side === 'AI' ? 'ai' : 'pasha';
   return (
     <article className={'daycard ' + cls + ' st-empty'}>
-      <header className="dc-head">
-        <span className={'dc-av ' + cls} aria-hidden="true">{avatarText(side, lang)}</span>
-        <div className="dc-hl">
-          <div className="dc-who">{sideLabel(side, lang)}</div>
-          <div className="dc-date">{past ? T('daycard.notPlayed') : T('daycard.noBetsYet')}</div>
-        </div>
-      </header>
+      <span className="dc-slot-no">{sideLabel(side, lang)}</span>
       <div className="dc-empty">
-        <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
           <path d="M5 22h14M5 2h14M6 2v5a6 6 0 0 0 12 0V2M6 22v-5a6 6 0 0 1 12 0v5" />
         </svg>
-        <span>{past ? T('bets.noPick') : T('bets.waiting')}</span>
+        <span className="pencil dc-empty-note">{past ? T('daycard.notPlayed') : T('daycard.noBetsYet')}</span>
+        <span className="dc-empty-sub">{past ? T('bets.noPick') : T('bets.waiting')}</span>
       </div>
     </article>
   );
