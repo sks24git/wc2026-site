@@ -35,7 +35,7 @@
 **BTTS — No 🟢** — §8 lesson: Canada's ML is low (~1.30), the −1.5 handicap is fragile (a blowout isn't guaranteed against a bus). BTTS-No covers both a 1:0 and a 2:0 win — a robust expression of "Canada controls, Qatar won't score".
 
 ## Pasha's bets
-- 🟢 **Canada handicap (−1.5) @1.88** (contest) — expects a comfortable 2:0, loads the outcome into a handicap. Leg of his 3/4 singles system.
+- 🟢 **Canada handicap (−1.5) @1.88** — expects a comfortable 2:0, loads the outcome into a handicap. Leg of his 3/4 singles system.
 - Predicted score (2/4 CS system leg): **2:0**.
 
 **Duel:** both back Canada to dominate. ⚔️ Risk divergence: Pasha takes the aggressive −1.5 (needs a 2-goal margin), AI takes the robust BTTS-No (covers a 1:0 win too). If Canada wins 1:0 — Pasha's handicap loses, AI's BTTS-No wins.

@@ -35,7 +35,7 @@
 
 **Pasha:**
 - 🟢 **2nd half — over 1.5 goals @2.39** — the same trick as Belgium—Senegal: 17 of the 22 goals in these teams' matches came after the break. 'In the second half I expect BTTS at minimum, three goals overall.'
-- 🔴 **Off-contest: Algeria to win + BTTS @8.6** — 'Petković coached Switzerland for seven years, he should know how to beat them', especially with most of his old players still in the squad.
+- 🔴 **Algeria to win + BTTS @8.6** — 'Petković coached Switzerland for seven years, he should know how to beat them', especially with most of his old players still in the squad.
 - 🔴 **Comeback wins covered both ways:** an Algeria comeback @27 and a Switzerland comeback @14 — two streaky sides, perfect see-saw material.
 - 🔴 In the full-red accumulator (@41.0) — **Algeria to win @4.40**; in the mini-red (@14.44) — **2nd half over 1.5 @2.39**.
 - Pasha's correct scores: **2-3** (main) / **1-1** (second variant).

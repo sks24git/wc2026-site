@@ -36,7 +36,7 @@
 **Draw 🟡** — both on 3 points, a draw virtually sends both through (incentive for caution). Opta gives the draw 26% vs the market's 31%, but @3.40 is a good price for the "neither risks it" scenario. We do NOT take the straight Mexico win (market is efficient).
 
 ## Pasha's bets
-- 🟢 **BTTS — Yes @1.99** (contest) — full agreement with AI: "MD1 form screams BTTS", though he fears altitude/hosts' status. Leg of his 3/4 singles system.
+- 🟢 **BTTS — Yes @1.99** — full agreement with AI: "MD1 form screams BTTS", though he fears altitude/hosts' status. Leg of his 3/4 singles system.
 - Predicted score (2/4 CS system leg): **3:2**.
 
 **Duel:** 🤝 AI and Pasha AGREE on BTTS-Yes. AI adds the yellow draw (market overprices the hosts), Pasha loads BTTS into a system and expects a high-scoring 3:2.

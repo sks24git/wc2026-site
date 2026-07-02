@@ -41,7 +41,7 @@
 **§8 lesson (robust outcome):** Czechia structurally superior, RSA missing two starters. Taking pure ML over handicap.
 
 ## Pasha's bets
-- 🟢 **Czechia win @1.85** (contest) + a leg of his 3/4 singles system.
+- 🟢 **Czechia win @1.85** + a leg of his 3/4 singles system.
 - Predicted score (2/4 CS system leg): **2:1**.
 
 **Duel:** AI and Pasha AGREE on the outcome (Czechia win). AI adds a low-scoring combo hedge, Pasha loads the outcome into a system.

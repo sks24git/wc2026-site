@@ -29,7 +29,7 @@
 **Switzerland Win 🟢** — §8 lesson: pure outcome safer than a handicap. We expect Switzerland to break the bus (3.24 xG in MD1 = finishing regression), but a blowout isn't guaranteed (−1 is dangerous, Bosnia grind 1:1 draws). Odds approximate (European line ~1.62, US ~1.55); clears the 1.6 floor.
 
 ## Pasha's bets
-- 🟢 **Switzerland win + Over 1.5 @1.80** (contest) + a leg of his 3/4 singles system.
+- 🟢 **Switzerland win + Over 1.5 @1.80** + a leg of his 3/4 singles system.
 - Predicted score (2/4 CS system leg): **2:1**.
 
 **Duel:** both back Switzerland. Pasha strengthens it with Over 1.5 (believes in 2+ Swiss goals), AI takes the pure outcome — a difference in bet form, not thesis.
