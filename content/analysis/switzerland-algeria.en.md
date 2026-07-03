@@ -1,3 +1,13 @@
+## Result: 2-0 (1-0) — no Petković magic as Switzerland break the curse
+
+**Embolo** punished a defensive lapse as early as the 10th minute; **Ndoye** added the second straight after the break (46'). Petković's Algeria never created a thing: 0.73 xG, zero genuine threat. Switzerland won a World Cup knockout game for the first time in 88 years.
+
+**Settlement:** our 🟡 double 'Spain BTTS-no + Switzerland team total over 1.5' @3.94 landed exactly. Everything built on goals at both ends burned — our 🟢 BTTS-yes and all of Pasha's red Algeria plays (win+BTTS, comeback specials, the upset leg of his express). Pasha's 🟢 second-half over 1.5 fell cruelly: the goals came on 10 and 46, leaving the second half exactly one.
+
+**Lesson:** 'the coach knows his old team inside out' is a narrative, not a factor — squad class broke it inside ten minutes. Same trap as fading an unmotivated favourite.
+
+---
+
 ## Switzerland — Algeria · 03.07, 06:00 MSK · BC Place, Vancouver
 
 **Switzerland play their Round of 32 at a "home" venue — the same BC Place where they beat host Canada a week ago: zero flights, +3 rest days over Algeria's five, the whole tournament spent in the Pacific time zone. But a knockout curse hangs over them: one regulation-time win in their last 12 major-tournament knockouts (5 draws, 6 defeats) and seven straight World Cup eliminations. Algeria are led by Petković — the coach who spent seven years building this very Switzerland: he knows Yakin's system from the inside.**

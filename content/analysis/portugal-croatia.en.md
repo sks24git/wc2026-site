@@ -1,3 +1,13 @@
+## Result: 2-1 (0-0) — Portugal snatch it on 90+4
+
+A sticky goalless first half, then a three-act drama: **Perišić** struck on 53, **Ronaldo** levelled from the spot on 68, and on 90+4 **Gonçalo Ramos** headed in Leão's cross to win it. Croatia even had a late equaliser ruled out for offside — a cruel night for Modrić and co.
+
+**Settlement:** Pasha's 🟡 'Portugal to win + both teams to score' @3.15 landed beautifully — he alone called the comeback with goals traded. Our 🟢 Under 2.5 burned in the final minute (the third goal in stoppage time), taking the expresses and both 1-1 correct-score positions down with it.
+
+**Lesson:** in the knockouts a low-scoring game is not over on 85 minutes — this World Cup's long stoppage time keeps killing unders that looked safe all match.
+
+---
+
 ## Portugal — Croatia · 03.07, 02:00 MSK · BMO Field, Toronto
 
 **The first-ever World Cup meeting between these nations — and the first World Cup match with two outfield players over 40: Ronaldo (41) vs Modrić (40). Both arrived as group runners-up: Portugal never cracked Colombia (0-0 off 24 shots), Croatia crawled through a 2-4 loss to England. Toronto is under a heat warning — ~31-33°C and humid (humidex 44) at kickoff on an open-air ground, with an evening thunderstorm risk. Cooling breaks are near-certain; the tempo is in question.**
