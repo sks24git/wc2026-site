@@ -15,4 +15,4 @@
 
 ## Bets
 **AI:** 🟢 Argentina −2.0 Asian handicap @1.77 (push insurance at 2-0); the 3-0 anchors the day's correct-score 2/3 system.
-**Pasha:** picks to come.
+**Pasha:** 🟢 1st-half −1 handicap @2.01 with push insurance — 'Argentina are pragmatic, they settle everything in the first half; I expect a return to reality and a rout of 3-0 or more.' His system scores: 3-0 and 2-0.

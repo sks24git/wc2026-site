@@ -10378,5 +10378,252 @@
       "ru": "Урок вчерашней системы («везде на гол мимо») учтён: калибруем на гол смелее. Разгром Аргентины, сухие 2:0 Колумбии и вязкие 1:1 в Арлингтоне — три модальных счёта наших разборов. Достаточно двух попаданий из трёх.",
       "en": "Yesterday's system missed by exactly one goal everywhere — so we calibrate a goal bolder. An Argentina rout, a dry Colombia 2-0 and a sticky 1-1 in Arlington are the three modal scores of our previews. Two hits out of three is enough."
     }
+  },
+  {
+    "id": 345,
+    "side": "Паша",
+    "date": "2026-07-03",
+    "matchId": "australia-egypt",
+    "type": "ОЗ",
+    "odds": 1.69,
+    "tier": "green",
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Австралия — Египет",
+      "en": "Australia — Egypt"
+    },
+    "bet": {
+      "ru": "Обе забьют — нет",
+      "en": "Both teams to score — no"
+    },
+    "why": {
+      "ru": "«Худший матч дня: мусорная Австралия будет насиловать глаза антифутболом. Египет слаб, но точно сильнее». Есть ужасный риск 0:0 — поэтому не сухая победа Египта, а ОЗ-нет по минимальному кэфу: слишком кривой матч для чего-то осмысленнее.",
+      "en": "'The worst game of the day: junk Australia assaulting our eyes with anti-football. Egypt are weak but clearly stronger.' The 0-0 risk is horrific — so instead of an Egypt win-to-nil it is BTTS-no at the shortest price: too crooked a game for anything smarter."
+    }
+  },
+  {
+    "id": 346,
+    "side": "Паша",
+    "date": "2026-07-03",
+    "matchId": "argentina-capeverde",
+    "type": "1Т-рынок",
+    "odds": 2.01,
+    "tier": "green",
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Аргентина — Кабо-Верде",
+      "en": "Argentina — Cape Verde"
+    },
+    "bet": {
+      "ru": "1-й тайм: фора Аргентины −1",
+      "en": "1st half: Argentina −1 handicap"
+    },
+    "why": {
+      "ru": "«Аргентина прагматична — решает всё в первом тайме, это стиль команды; с учётом плей-офф баловаться не станет». Пиар Возиньи Пашу раздражает: «полный ноль, но очень популярный». Фора тайма под возврат — и ожидание разгрома не менее 3:0.",
+      "en": "'Argentina are pragmatic — they settle everything in the first half, it is simply their style; in the knockouts they will not mess around.' The Vozinha hype irritates Pasha: 'a complete zero, yet wildly popular.' A first-half handicap with push insurance — and a rout of 3-0 or more expected."
+    }
+  },
+  {
+    "id": 347,
+    "side": "Паша",
+    "date": "2026-07-03",
+    "matchId": "colombia-ghana",
+    "type": "Другое",
+    "odds": 2.07,
+    "tier": "green",
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Колумбия — Гана",
+      "en": "Colombia — Ghana"
+    },
+    "bet": {
+      "ru": "Сухая победа Колумбии",
+      "en": "Colombia to win to nil"
+    },
+    "why": {
+      "ru": "«Гана, как и Австралия, — лишний пассажир, зайцем прыгнувший в плей-офф: полное отсутствие игры. Колумбия получила халявного соперника — не знаю, какое помутнение рассудка должно произойти, чтобы не взять сухую победу». Ждёт 2:0.",
+      "en": "'Ghana, like Australia, are a stowaway passenger in the knockouts: no football whatsoever. Colombia got a freebie opponent — I cannot imagine what lapse of reason it would take not to win to nil.' He expects 2-0."
+    }
+  },
+  {
+    "id": 348,
+    "side": "Паша",
+    "date": "2026-07-03",
+    "matchId": null,
+    "type": "Система",
+    "odds": 3.69,
+    "tier": "yellow",
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Система 2/3 · основные пики",
+      "en": "System 2/3 · main picks"
+    },
+    "bet": {
+      "ru": "три главных прогноза одной системой",
+      "en": "his three main calls in one system"
+    },
+    "note": {
+      "ru": "Эффективный кэф при трёх попаданиях; ориентировочно",
+      "en": "Effective odds if all three land; indicative"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Австралия — Египет",
+          "en": "Australia — Egypt"
+        },
+        "p": {
+          "ru": "ОЗ-нет @1.69",
+          "en": "BTTS no @1.69"
+        }
+      },
+      {
+        "m": {
+          "ru": "Аргентина — Кабо-Верде",
+          "en": "Argentina — Cape Verde"
+        },
+        "p": {
+          "ru": "1Т фора −1 @2.01",
+          "en": "1H handicap −1 @2.01"
+        }
+      },
+      {
+        "m": {
+          "ru": "Колумбия — Гана",
+          "en": "Colombia — Ghana"
+        },
+        "p": {
+          "ru": "Сухая победа @2.07",
+          "en": "Win to nil @2.07"
+        }
+      }
+    ],
+    "why": {
+      "ru": "Те же три тезиса, собранные страховочной сеткой: достаточно двух попаданий из трёх, чтобы система заплатила.",
+      "en": "The same three theses woven into a safety net: two hits out of three make the system pay."
+    }
+  },
+  {
+    "id": 349,
+    "side": "Паша",
+    "date": "2026-07-03",
+    "matchId": null,
+    "type": "Система",
+    "odds": 15,
+    "tier": "red",
+    "stake": 445,
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Система 2/3 · точные счета, вариант 1",
+      "en": "System 2/3 · correct scores, variant 1"
+    },
+    "bet": {
+      "ru": "точные счета по трём матчам",
+      "en": "correct scores across three games"
+    },
+    "note": {
+      "ru": "Счета зафиксированы по ходу матча в Арлингтоне (0:1 к перерыву)",
+      "en": "Scores locked mid-game in Arlington (0-1 at the break)"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Австралия — Египет",
+          "en": "Australia — Egypt"
+        },
+        "p": {
+          "ru": "0:1 (Египет) @6.00",
+          "en": "0-1 (Egypt) @6.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Колумбия — Гана",
+          "en": "Colombia — Ghana"
+        },
+        "p": {
+          "ru": "2:0 (Колумбия) @5.50",
+          "en": "2-0 (Colombia) @5.50"
+        }
+      },
+      {
+        "m": {
+          "ru": "Аргентина — Кабо-Верде",
+          "en": "Argentina — Cape Verde"
+        },
+        "p": {
+          "ru": "3:0 (Аргентина) @5.50",
+          "en": "3-0 (Argentina) @5.50"
+        }
+      }
+    ],
+    "why": {
+      "ru": "Первый вариант счётов: Египет дожимает минимально, Колумбия сушит 2:0, Аргентина оформляет разгром 3:0.",
+      "en": "Score set one: Egypt edge it minimally, Colombia dry out a 2-0, Argentina complete the 3-0 rout."
+    }
+  },
+  {
+    "id": 350,
+    "side": "Паша",
+    "date": "2026-07-03",
+    "matchId": null,
+    "type": "Система",
+    "odds": 20,
+    "tier": "red",
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Система 2/3 · точные счета, вариант 2",
+      "en": "System 2/3 · correct scores, variant 2"
+    },
+    "bet": {
+      "ru": "точные счета по трём матчам",
+      "en": "correct scores across three games"
+    },
+    "note": {
+      "ru": "Счета зафиксированы по ходу матча в Арлингтоне (0:1 к перерыву)",
+      "en": "Scores locked mid-game in Arlington (0-1 at the break)"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Аргентина — Кабо-Верде",
+          "en": "Argentina — Cape Verde"
+        },
+        "p": {
+          "ru": "2:0 (Аргентина) @5.00",
+          "en": "2-0 (Argentina) @5.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Австралия — Египет",
+          "en": "Australia — Egypt"
+        },
+        "p": {
+          "ru": "0:2 (Египет) @9.50",
+          "en": "0-2 (Egypt) @9.50"
+        }
+      },
+      {
+        "m": {
+          "ru": "Колумбия — Гана",
+          "en": "Colombia — Ghana"
+        },
+        "p": {
+          "ru": "2:0 (Колумбия) @5.50",
+          "en": "2-0 (Colombia) @5.50"
+        }
+      }
+    ],
+    "why": {
+      "ru": "Второй вариант: Египет добавляет второй, Аргентине хватает 2:0, Колумбия та же — 2:0.",
+      "en": "Score set two: Egypt add a second, Argentina settle for 2-0, Colombia unchanged at 2-0."
+    }
   }
 ]

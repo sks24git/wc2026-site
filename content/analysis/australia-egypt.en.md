@@ -15,4 +15,4 @@
 
 ## Bets
 **AI:** 🟢 Egypt to qualify @1.65 — class survives the lottery; 🟡 regular-time draw @~2.9 — modal score 1-1; the 1-1 also anchors the day's correct-score 2/3 system.
-**Pasha:** picks expected closer to kickoff.
+**Pasha:** 🟢 BTTS-no @1.69 — 'the worst game of the day, a horrific 0-0 risk, I am not touching an Egypt win-to-nil.' His system scores: 0-1 and 0-2 Egypt. Same read as the machine, different wrapper: we take the qualify and the draw, he bets Australia never score.

@@ -16,4 +16,4 @@
 
 ## Bets
 **AI:** 🟢 Ghana not to score @1.75; 🟡 Colombia −1.5 @2.25; the 2-0 anchors the day's correct-score 2/3 system.
-**Pasha:** picks to come.
+**Pasha:** 🟢 Colombia to win to nil @2.07 — 'Ghana are a stowaway passenger of the knockouts; I cannot imagine the lapse of reason it would take for Colombia not to keep this clean.' His score is 2-0 in both systems. Full agreement with the machine.
