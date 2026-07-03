@@ -1,3 +1,13 @@
+## Result: 1-1, pens 2-4 (0-1) — Egypt survive the lottery
+
+The preview script played out word for word: an early **Ashour** goal (13'), a comic reply — **Hany** slicing a free kick into his own net (55') — then 65 minutes of caution, a goalless extra time and a shootout where Egypt stood firmer: 4-2, with Australia's teenager rattling the crossbar.
+
+**Settlement:** a double hit for the machine — 🟢 Egypt to qualify @1.65 and 🟡 the regular-time draw @2.90 (modal score 1-1, on the nose), plus the 1-1 leg of the correct-score system. Pasha's BTTS-no @1.69 died to the own goal — the one goal Australia never actually scored; the 0-1/0-2 scores in his systems never came.
+
+**Lesson:** between two buses, 'underdog not to score' carries hidden set-piece and own-goal risk — the draw and qualify markets express the same thesis without that fragility.
+
+---
+
 ## Australia — Egypt · Jul 3 · AT&T Stadium, Arlington
 
 **The rarest kind of knockout: both teams want to give the ball away. A sticky under where Salah's class is the only argument against a lottery.**

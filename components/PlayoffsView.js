@@ -88,7 +88,7 @@ const PRED = {
   M85: { ...P(T('Швейцария', 'Switzerland', 'ch'), T('Алжир', 'Algeria', 'dz'), 'a', '2:1', 'reg', 'medium'), fact: 'a', fscore: '2:0', fby: 'reg' },
   M86: P(T('Аргентина', 'Argentina', 'ar'), T('Кабо-Верде', 'Cape Verde', 'cv'), 'a', '3:0', 'reg', 'high'),
   M87: P(T('Колумбия', 'Colombia', 'co'), T('Гана', 'Ghana', 'gh'), 'a', '2:0', 'reg', 'medium'),
-  M88: P(T('Австралия', 'Australia', 'au'), T('Египет', 'Egypt', 'eg'), 'b', '1:1 (2:4 пен)', 'pen', 'low'),
+  M88: { ...P(T('Австралия', 'Australia', 'au'), T('Египет', 'Egypt', 'eg'), 'b', '1:1 (2:4 пен)', 'pen', 'low'), fact: 'b', fscore: '1:1, пен. 2:4', fby: 'pen' },
   // ── 1/8 ──
   M89: P(T('Германия', 'Germany', 'de'), T('Франция', 'France', 'fr'), 'b', '1:2', 'reg', 'medium'),
   M90: P(T('Канада', 'Canada', 'ca'), T('Нидерланды', 'Netherlands', 'nl'), 'b', '1:2', 'reg', 'medium'),

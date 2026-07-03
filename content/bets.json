@@ -10215,7 +10215,7 @@
     "type": "Другое",
     "odds": 1.65,
     "tier": "green",
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Австралия — Египет",
       "en": "Australia — Egypt"
@@ -10227,6 +10227,10 @@
     "why": {
       "ru": "Обе команды играют один и тот же футбол — блок и контратаки, — но у Египта выше класс исполнителей: Салах и Мармуш против обороны без Леки. Вязкий матч, который Египет должен пережить любым способом — хоть в 90 минут, хоть в серии. Рынок «проход» выражает тезис точнее, чем П2.",
       "en": "Both sides play the same football — block and counter — but Egypt's talent runs deeper: Salah and Marmoush against a weakened defence. A sticky game Egypt should survive one way or another — in 90 minutes or in a shootout. The qualify market states that thesis better than a straight win."
+    },
+    "note": {
+      "ru": "✓ Как и прочерчено: 1:1 за 120 минут — и Египет хладнокровнее в серии (4:2)",
+      "en": "✓ Exactly as drawn up: 1-1 through 120 minutes — and Egypt the cooler side in the shootout (4-2)"
     }
   },
   {
@@ -10303,7 +10307,7 @@
     "type": "Х",
     "odds": 2.9,
     "tier": "yellow",
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Австралия — Египет",
       "en": "Australia — Egypt"
@@ -10313,8 +10317,8 @@
       "en": "Draw in regular time"
     },
     "note": {
-      "ru": "Кэф ориентировочный — сверим с линией перед стартом",
-      "en": "Indicative odds — to be checked against the line before kickoff"
+      "ru": "✓ Модальный счёт 1:1 попал: Ашур на 13-й, автогол Хани на 55-й — и ничья в основное время",
+      "en": "✓ The modal 1-1 landed: Ashour on 13, a Hany own goal on 55 — a regular-time draw"
     },
     "why": {
       "ru": "Редчайший случай: обе команды хотят отдать мяч сопернику. Тоталы у буков открыты на 1.5 — рынок сам кричит «вязко». База нокаутов: в равных низовых парах ничья в основное время — самый недооценённый исход (38% матчей уходят в овертайм). Наш модальный счёт 1:1.",
@@ -10339,8 +10343,8 @@
       "en": "correct scores across three games"
     },
     "note": {
-      "ru": "Кэфы позиций ориентировочные — фиксируем при постановке",
-      "en": "Leg odds indicative — locked at placement"
+      "ru": "Позиция 1:1 в Арлингтоне зашла — для системы 2/3 нужна ещё одна из двух (3:0 Аргентины или 2:0 Колумбии)",
+      "en": "The Arlington 1-1 landed — one more of two needed for the 2/3 system (Argentina 3-0 or Colombia 2-0)"
     },
     "legs": [
       {
@@ -10387,7 +10391,7 @@
     "type": "ОЗ",
     "odds": 1.69,
     "tier": "green",
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Австралия — Египет",
@@ -10400,6 +10404,10 @@
     "why": {
       "ru": "«Худший матч дня: мусорная Австралия будет насиловать глаза антифутболом. Египет слаб, но точно сильнее». Есть ужасный риск 0:0 — поэтому не сухая победа Египта, а ОЗ-нет по минимальному кэфу: слишком кривой матч для чего-то осмысленнее.",
       "en": "'The worst game of the day: junk Australia assaulting our eyes with anti-football. Egypt are weak but clearly stronger.' The 0-0 risk is horrific — so instead of an Egypt win-to-nil it is BTTS-no at the shortest price: too crooked a game for anything smarter."
+    },
+    "note": {
+      "ru": "✗ Обе «забили» — второй гол Австралии подарил автогол Хани после штрафного",
+      "en": "✗ Both teams 'scored' — Australia's goal was gifted by Hany's own goal from a free kick"
     }
   },
   {
@@ -10467,8 +10475,8 @@
       "en": "his three main calls in one system"
     },
     "note": {
-      "ru": "Эффективный кэф при трёх попаданиях; ориентировочно",
-      "en": "Effective odds if all three land; indicative"
+      "ru": "ОЗ-нет сгорела на автоголе — системе нужны обе оставшиеся позиции",
+      "en": "BTTS-no burned on the own goal — the system now needs both remaining picks"
     },
     "legs": [
       {
@@ -10527,8 +10535,8 @@
       "en": "correct scores across three games"
     },
     "note": {
-      "ru": "Счета зафиксированы по ходу матча в Арлингтоне (0:1 к перерыву)",
-      "en": "Scores locked mid-game in Arlington (0-1 at the break)"
+      "ru": "0:1 не случился (1:1) — нужны оба оставшихся счёта: 2:0 Колумбии и 3:0 Аргентины",
+      "en": "The 0-1 did not happen (1-1) — both remaining scores needed: Colombia 2-0 and Argentina 3-0"
     },
     "legs": [
       {
@@ -10586,8 +10594,8 @@
       "en": "correct scores across three games"
     },
     "note": {
-      "ru": "Счета зафиксированы по ходу матча в Арлингтоне (0:1 к перерыву)",
-      "en": "Scores locked mid-game in Arlington (0-1 at the break)"
+      "ru": "0:2 не случился (1:1) — нужны оба оставшихся счёта: 2:0 Аргентины и 2:0 Колумбии",
+      "en": "The 0-2 did not happen (1-1) — both remaining scores needed: Argentina 2-0 and Colombia 2-0"
     },
     "legs": [
       {
