@@ -10206,5 +10206,177 @@
       "ru": "Тихий вариант — те же сюжеты на сдержанных счетах: Испания побеждает 2:0, а оба поздних матча вязнут в 1:1 — хорватская тягомотина и качели, где никто не дожал. Достаточно двух точных из трёх.",
       "en": "The quiet variant — same stories at lower volume: Spain win 2:0 while both late games bog down at 1-1 — Croatian treacle and a see-saw nobody wins. Two exact hits out of three are enough."
     }
+  },
+  {
+    "id": 339,
+    "side": "AI",
+    "date": "2026-07-03",
+    "matchId": "australia-egypt",
+    "type": "Другое",
+    "odds": 1.65,
+    "tier": "green",
+    "status": "pending",
+    "match": {
+      "ru": "Австралия — Египет",
+      "en": "Australia — Egypt"
+    },
+    "bet": {
+      "ru": "Проход Египта (с ОТ и пенальти)",
+      "en": "Egypt to qualify (incl. ET and penalties)"
+    },
+    "why": {
+      "ru": "Обе команды играют один и тот же футбол — блок и контратаки, — но у Египта выше класс исполнителей: Салах и Мармуш против обороны без Леки. Вязкий матч, который Египет должен пережить любым способом — хоть в 90 минут, хоть в серии. Рынок «проход» выражает тезис точнее, чем П2.",
+      "en": "Both sides play the same football — block and counter — but Egypt's talent runs deeper: Salah and Marmoush against a weakened defence. A sticky game Egypt should survive one way or another — in 90 minutes or in a shootout. The qualify market states that thesis better than a straight win."
+    }
+  },
+  {
+    "id": 340,
+    "side": "AI",
+    "date": "2026-07-03",
+    "matchId": "argentina-capeverde",
+    "type": "АФ",
+    "odds": 1.77,
+    "tier": "green",
+    "status": "pending",
+    "match": {
+      "ru": "Аргентина — Кабо-Верде",
+      "en": "Argentina — Cape Verde"
+    },
+    "bet": {
+      "ru": "Фора Аргентины −2.0",
+      "en": "Argentina −2.0 Asian handicap"
+    },
+    "why": {
+      "ru": "Класс несопоставим: Месси с шестью голами против команды, чей потолок — отбиться. Блок Кабо-Верде выстоял против Испании, но такого креатива ещё не видел. Азиатская −2 со страховкой: при 2:0 возврат, при 3:0 и крупнее — победа. Наш модальный счёт — 3:0.",
+      "en": "The class gap is enormous: a six-goal Messi against a side whose ceiling is survival. The Cape Verde block held Spain, but has never seen creativity like this. The Asian −2 comes with insurance: push at 2-0, win at 3-0 or bigger. Our modal score is 3-0."
+    }
+  },
+  {
+    "id": 341,
+    "side": "AI",
+    "date": "2026-07-03",
+    "matchId": "colombia-ghana",
+    "type": "ИТ",
+    "odds": 1.75,
+    "tier": "green",
+    "status": "pending",
+    "match": {
+      "ru": "Колумбия — Гана",
+      "en": "Colombia — Ghana"
+    },
+    "bet": {
+      "ru": "Гана не забьёт (индивидуальный тотал меньше 0.5)",
+      "en": "Ghana not to score (team total under 0.5)"
+    },
+    "why": {
+      "ru": "У Ганы один гол с игры за три матча, а теперь ещё и без Кудуса с Салису — созидать некому. Колумбия пропустила один мяч за группу и сушила Португалию. Тот же рецепт, что вчера с Австрией: автобус без механизма гола против лучшей обороны стадии.",
+      "en": "Ghana have one open-play goal in three games — and now no Kudus or Salisu to create. Colombia conceded once all group and blanked Portugal. Same recipe as Austria yesterday: a bus with no scoring mechanism against the round's meanest defence."
+    }
+  },
+  {
+    "id": 342,
+    "side": "AI",
+    "date": "2026-07-03",
+    "matchId": "colombia-ghana",
+    "type": "АФ",
+    "odds": 2.25,
+    "tier": "yellow",
+    "status": "pending",
+    "match": {
+      "ru": "Колумбия — Гана",
+      "en": "Colombia — Ghana"
+    },
+    "bet": {
+      "ru": "Фора Колумбии −1.5",
+      "en": "Colombia −1.5 handicap"
+    },
+    "why": {
+      "ru": "Продолжение того же сценария на дистанции матча: если Гана не забивает, Колумбии хватит двух мячей — а Луис Диас в такой форме, что второй гол выглядит вопросом времени. Модальный счёт 2:0.",
+      "en": "The same script taken one step further: if Ghana do not score, two goals win this by the required margin — and Luis Díaz is in the kind of form that makes the second feel inevitable. Modal score 2-0."
+    }
+  },
+  {
+    "id": 343,
+    "side": "AI",
+    "date": "2026-07-03",
+    "matchId": "australia-egypt",
+    "type": "Х",
+    "odds": 2.9,
+    "tier": "yellow",
+    "status": "pending",
+    "match": {
+      "ru": "Австралия — Египет",
+      "en": "Australia — Egypt"
+    },
+    "bet": {
+      "ru": "Ничья в основное время",
+      "en": "Draw in regular time"
+    },
+    "note": {
+      "ru": "Кэф ориентировочный — сверим с линией перед стартом",
+      "en": "Indicative odds — to be checked against the line before kickoff"
+    },
+    "why": {
+      "ru": "Редчайший случай: обе команды хотят отдать мяч сопернику. Тоталы у буков открыты на 1.5 — рынок сам кричит «вязко». База нокаутов: в равных низовых парах ничья в основное время — самый недооценённый исход (38% матчей уходят в овертайм). Наш модальный счёт 1:1.",
+      "en": "A rare case: both teams want the opponent to have the ball. Books opened the total at 1.5 — the market itself is shouting deadlock. Knockout base rates: in even low-scoring pairs the regular-time draw is the most underpriced outcome (38% of ties go to extra time). Our modal score is 1-1."
+    }
+  },
+  {
+    "id": 344,
+    "side": "AI",
+    "date": "2026-07-03",
+    "matchId": null,
+    "type": "Система",
+    "odds": 7,
+    "tier": "red",
+    "status": "pending",
+    "match": {
+      "ru": "Система 2/3 · точные счета",
+      "en": "System 2/3 · correct scores"
+    },
+    "bet": {
+      "ru": "точные счета по трём матчам",
+      "en": "correct scores across three games"
+    },
+    "note": {
+      "ru": "Кэфы позиций ориентировочные — фиксируем при постановке",
+      "en": "Leg odds indicative — locked at placement"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Аргентина — Кабо-Верде",
+          "en": "Argentina — Cape Verde"
+        },
+        "p": {
+          "ru": "3:0 (Аргентина)",
+          "en": "3-0 (Argentina)"
+        }
+      },
+      {
+        "m": {
+          "ru": "Колумбия — Гана",
+          "en": "Colombia — Ghana"
+        },
+        "p": {
+          "ru": "2:0 (Колумбия)",
+          "en": "2-0 (Colombia)"
+        }
+      },
+      {
+        "m": {
+          "ru": "Австралия — Египет",
+          "en": "Australia — Egypt"
+        },
+        "p": {
+          "ru": "1:1",
+          "en": "1-1"
+        }
+      }
+    ],
+    "why": {
+      "ru": "Урок вчерашней системы («везде на гол мимо») учтён: калибруем на гол смелее. Разгром Аргентины, сухие 2:0 Колумбии и вязкие 1:1 в Арлингтоне — три модальных счёта наших разборов. Достаточно двух попаданий из трёх.",
+      "en": "Yesterday's system missed by exactly one goal everywhere — so we calibrate a goal bolder. An Argentina rout, a dry Colombia 2-0 and a sticky 1-1 in Arlington are the three modal scores of our previews. Two hits out of three is enough."
+    }
   }
 ]

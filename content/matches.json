@@ -2496,5 +2496,95 @@
       "ru": "Швейцария играет на «домашней» арене — там же, где обыграла Канаду, без перелёта и с +3 днями отдыха. Но за ней тянется проклятие: одна победа в основное время за 12 последних плей-офф больших турниров. Алжир Петковича — тренера, семь лет строившего эту же Швейцарию, — умеет цепляться: 3:3 с Австрией, камбэк с Иорданией.",
       "en": "Switzerland play at their \"home\" venue — the same stadium where they beat Canada, no flight, +3 extra rest days. But a curse follows them: one regulation-time win in their last 12 major-tournament knockouts. Petković's Algeria — coached by the man who spent seven years building this very Switzerland — knows how to cling on: 3-3 with Austria, a comeback against Jordan."
     }
+  },
+  {
+    "id": "australia-egypt",
+    "date": "2026-07-03",
+    "timeMsk": "21:00",
+    "cc": [
+      "au",
+      "eg"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Австралия — Египет",
+      "en": "Australia — Egypt"
+    },
+    "stage": {
+      "ru": "1/16 финала",
+      "en": "Round of 32"
+    },
+    "venue": {
+      "ru": "AT&T Stadium, Арлингтон",
+      "en": "AT&T Stadium, Arlington"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, кондиционер — жара Техаса за бортом",
+      "en": "Roof closed, air-conditioned — Texas heat stays outside"
+    },
+    "lede": {
+      "ru": "Две команды с одинаковой ДНК — низкий блок и контратаки. Кто-то обязан пройти, и очень вероятно, что решится не за 90 минут.",
+      "en": "Two teams with identical DNA — deep block and counters. Someone must advance, and there is every chance it will not be settled in 90 minutes."
+    }
+  },
+  {
+    "id": "argentina-capeverde",
+    "date": "2026-07-03",
+    "timeMsk": "01:00",
+    "cc": [
+      "ar",
+      "cv"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Аргентина — Кабо-Верде",
+      "en": "Argentina — Cape Verde"
+    },
+    "stage": {
+      "ru": "1/16 финала",
+      "en": "Round of 32"
+    },
+    "venue": {
+      "ru": "Hard Rock Stadium, Майами",
+      "en": "Hard Rock Stadium, Miami"
+    },
+    "weather": {
+      "ru": "Вечерняя жара и влажность Флориды, навес не спасает поле",
+      "en": "Miami evening heat and humidity; the canopy shades stands, not the pitch"
+    },
+    "lede": {
+      "ru": "Чемпион мира и Месси в пиковой форме против самой маленькой страны в истории плей-офф, прошедшей группу без единого поражения.",
+      "en": "The world champions and a peaking Messi against the smallest nation ever to reach the knockouts — through the group stage unbeaten."
+    }
+  },
+  {
+    "id": "colombia-ghana",
+    "date": "2026-07-03",
+    "timeMsk": "04:30",
+    "cc": [
+      "co",
+      "gh"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Колумбия — Гана",
+      "en": "Colombia — Ghana"
+    },
+    "stage": {
+      "ru": "1/16 финала",
+      "en": "Round of 32"
+    },
+    "venue": {
+      "ru": "Arrowhead Stadium, Канзас-Сити",
+      "en": "Arrowhead Stadium, Kansas City"
+    },
+    "weather": {
+      "ru": "Экстремальная жара (~34°C с духотой) и риск гроз — открытый стадион",
+      "en": "Extreme heat warning (~34°C, oppressive humidity) and thunderstorm risk — open-air stadium"
+    },
+    "lede": {
+      "ru": "Кейруш выводит Гану против сборной, которую сам тренировал. Его автобус без Кудуса и Салису — против лучшей обороны и Луиса Диаса.",
+      "en": "Queiroz leads Ghana out against the team he once coached. His bus, missing Kudus and Salisu, faces the group stage's meanest defence and Luis Díaz."
+    }
   }
 ]
