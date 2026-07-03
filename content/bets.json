@@ -10633,5 +10633,27 @@
       "ru": "Второй вариант: Египет добавляет второй, Аргентине хватает 2:0, Колумбия та же — 2:0.",
       "en": "Score set two: Egypt add a second, Argentina settle for 2-0, Colombia unchanged at 2-0."
     }
+  },
+  {
+    "id": 351,
+    "side": "AI",
+    "date": "2026-07-03",
+    "matchId": "argentina-capeverde",
+    "type": "Другое",
+    "odds": 1.77,
+    "tier": "green",
+    "status": "pending",
+    "match": {
+      "ru": "Аргентина — Кабо-Верде",
+      "en": "Argentina — Cape Verde"
+    },
+    "bet": {
+      "ru": "Удары в створ в матче — больше 8.5",
+      "en": "Match shots on target — over 8.5"
+    },
+    "why": {
+      "ru": "Стат-шаблон вчерашней Испании: против такого же автобуса она одна настреляла 10 в створ. Аргентина с Месси и Лаутаро в старте бьёт не меньше, а Кабо-Верде добавит свои редкие контры. Честная цена овера ближе к 1.55.",
+      "en": "The stat template from Spain yesterday: against the same kind of bus they hit 10 on target alone. Argentina with Messi and Lautaro starting shoot no less, and Cape Verde add their occasional counters. Fair price for the over is nearer 1.55."
+    }
   }
 ]
