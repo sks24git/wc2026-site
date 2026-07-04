@@ -2586,5 +2586,245 @@
       "ru": "Кейруш выводит Гану против сборной, которую сам тренировал. Его автобус без Кудуса и Салису — против лучшей обороны и Луиса Диаса.",
       "en": "Queiroz leads Ghana out against the team he once coached. His bus, missing Kudus and Salisu, faces the group stage's meanest defence and Luis Díaz."
     }
+  },
+  {
+    "id": "canada-morocco",
+    "date": "2026-07-04",
+    "timeMsk": "20:00",
+    "cc": [
+      "ca",
+      "ma"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Канада — Марокко",
+      "en": "Canada — Morocco"
+    },
+    "stage": {
+      "ru": "1/8 финала",
+      "en": "Round of 16"
+    },
+    "venue": {
+      "ru": "NRG Stadium, Хьюстон",
+      "en": "NRG Stadium, Houston"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, кондиционер — техасская жара снаружи",
+      "en": "Roof closed, air-conditioned — the Texas heat stays outside"
+    },
+    "lede": {
+      "ru": "Хозяева турнира против лучшей обороны турнира. Канада отдыхала шесть дней, Марокко везёт из Монтеррея 120 минут, серию пенальти и перелёт — но с Буну за спиной и скальпом Нидерландов в кармане фаворит здесь всё равно африканский.",
+      "en": "Tournament hosts against the tournament’s best defence. Canada have rested six days; Morocco carry 120 minutes, a shootout and a flight out of Monterrey — but with Bounou behind them and the Dutch scalp in the bag, the favourite here is still the African one."
+    }
+  },
+  {
+    "id": "paraguay-france",
+    "date": "2026-07-04",
+    "timeMsk": "00:00",
+    "cc": [
+      "py",
+      "fr"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Парагвай — Франция",
+      "en": "Paraguay — France"
+    },
+    "stage": {
+      "ru": "1/8 финала",
+      "en": "Round of 16"
+    },
+    "venue": {
+      "ru": "Lincoln Financial Field, Филадельфия",
+      "en": "Lincoln Financial Field, Philadelphia"
+    },
+    "weather": {
+      "ru": "Открытый стадион, около 31°, возможен дождь",
+      "en": "Open-air, around 31°C, rain possible"
+    },
+    "lede": {
+      "ru": "Парагвай пересидел Германию и выиграл бостонскую рулетку — но Франция не Германия: вместо стерильного владения здесь вертикаль Мбаппе и Барколя, об которую автобусы ломаются.",
+      "en": "Paraguay out-sat Germany and won the Boston roulette — but France are not Germany: instead of sterile possession, the vertical running of Mbappé and Barcola, the kind buses break against."
+    }
+  },
+  {
+    "id": "brazil-norway",
+    "date": "2026-07-05",
+    "timeMsk": "23:00",
+    "cc": [
+      "br",
+      "no"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Бразилия — Норвегия",
+      "en": "Brazil — Norway"
+    },
+    "stage": {
+      "ru": "1/8 финала",
+      "en": "Round of 16"
+    },
+    "venue": {
+      "ru": "MetLife Stadium, Ист-Ратерфорд",
+      "en": "MetLife Stadium, East Rutherford"
+    },
+    "weather": {
+      "ru": "Открытый стадион, около 30°",
+      "en": "Open-air, around 30°C"
+    },
+    "lede": {
+      "ru": "Самая открытая пара раунда: вертикальная Норвегия Холанда против бразильской атаки и бразильской же привычки не добивать соперника. Единственная встреча этих сборных закончилась победой Норвегии — на ЧМ-1998.",
+      "en": "The most open tie of the round: Haaland’s vertical Norway against Brazil’s attack — and Brazil’s habit of not finishing teams off. The only previous meeting ended in a Norwegian win, at the 1998 World Cup."
+    }
+  },
+  {
+    "id": "mexico-england",
+    "date": "2026-07-05",
+    "timeMsk": "03:00",
+    "cc": [
+      "mx",
+      "gb-eng"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Мексика — Англия",
+      "en": "Mexico — England"
+    },
+    "stage": {
+      "ru": "1/8 финала",
+      "en": "Round of 16"
+    },
+    "venue": {
+      "ru": "Эстадио Ацтека, Мехико (высота ~2250 м)",
+      "en": "Estadio Azteca, Mexico City (altitude ~2250 m)"
+    },
+    "weather": {
+      "ru": "Высота 2200+ метров, вечерняя прохлада",
+      "en": "2,200+ metres of altitude, a cool evening"
+    },
+    "lede": {
+      "ru": "Единственный матч раунда, где одна из команд дома — и какой дом: Ацтека, под девяносто тысяч и высота, на которой прессинг Англии живёт минут шестьдесят. Дальше — территория нервов и, возможно, точки.",
+      "en": "The only tie of the round where one side is at home — and what a home: the Azteca, ninety-odd thousand, and an altitude where England’s press lives for about sixty minutes. After that it is nerve territory — and possibly the spot."
+    }
+  },
+  {
+    "id": "portugal-spain",
+    "date": "2026-07-06",
+    "timeMsk": "22:00",
+    "cc": [
+      "pt",
+      "es"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Португалия — Испания",
+      "en": "Portugal — Spain"
+    },
+    "stage": {
+      "ru": "1/8 финала",
+      "en": "Round of 16"
+    },
+    "venue": {
+      "ru": "AT&T Stadium, Арлингтон (Даллас)",
+      "en": "AT&T Stadium, Arlington (Dallas)"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, кондиционер",
+      "en": "Roof closed, air-conditioned"
+    },
+    "lede": {
+      "ru": "Иберийское дерби уже в 1/8 — подарок сетки. Испания свежее на день отдыха и заметно свежее по игре; Португалия везёт из Торонто войну с Хорватией и вопрос, сколько осталось в ногах у её ветеранов.",
+      "en": "The Iberian derby as early as the round of 16 — a gift from the bracket. Spain are a day fresher and much fresher on the pitch; Portugal carry a war with Croatia out of Toronto, and a question of how much is left in their veterans’ legs."
+    }
+  },
+  {
+    "id": "usa-belgium",
+    "date": "2026-07-06",
+    "timeMsk": "03:00",
+    "cc": [
+      "us",
+      "be"
+    ],
+    "result": null,
+    "title": {
+      "ru": "США — Бельгия",
+      "en": "USA — Belgium"
+    },
+    "stage": {
+      "ru": "1/8 финала",
+      "en": "Round of 16"
+    },
+    "venue": {
+      "ru": "Lumen Field, Сиэтл",
+      "en": "Lumen Field, Seattle"
+    },
+    "weather": {
+      "ru": "Открытый стадион, прохладные ~24°",
+      "en": "Open-air, a cool ~24°C"
+    },
+    "lede": {
+      "ru": "Бельгия никуда не улетает — снова Сиэтл, но с налогом за овертайм с Сенегалом. США дома, на кураже и без дисквалифицированного Балогуна впереди. Пара, которая громче всех просит дополнительное время.",
+      "en": "Belgium stay put — Seattle again, but with an overtime tax from the Senegal game. The USA are at home, riding the wave, and missing the suspended Balogun up front. No tie in the round asks for extra time louder."
+    }
+  },
+  {
+    "id": "argentina-egypt",
+    "date": "2026-07-07",
+    "timeMsk": "19:00",
+    "cc": [
+      "ar",
+      "eg"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Аргентина — Египет",
+      "en": "Argentina — Egypt"
+    },
+    "stage": {
+      "ru": "1/8 финала",
+      "en": "Round of 16"
+    },
+    "venue": {
+      "ru": "Mercedes-Benz Stadium, Атланта",
+      "en": "Mercedes-Benz Stadium, Atlanta"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, кондиционер",
+      "en": "Roof closed, air-conditioned"
+    },
+    "lede": {
+      "ru": "Аргентина только что отмучилась 120 минут с автобусом Кабо-Верде — и получает автобус посерьёзнее: Египту на этом турнире никто не забил больше одного, а оба пропущенных его вратарь может записать на чужие автоголы.",
+      "en": "Argentina have just survived 120 minutes against the Cape Verde bus — and now get a sturdier one: nobody at this tournament has scored more than once against Egypt, and both goals they conceded were own goals."
+    }
+  },
+  {
+    "id": "switzerland-colombia",
+    "date": "2026-07-07",
+    "timeMsk": "23:00",
+    "cc": [
+      "ch",
+      "co"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Швейцария — Колумбия",
+      "en": "Switzerland — Colombia"
+    },
+    "stage": {
+      "ru": "1/8 финала",
+      "en": "Round of 16"
+    },
+    "venue": {
+      "ru": "BC Place, Ванкувер",
+      "en": "BC Place, Vancouver"
+    },
+    "weather": {
+      "ru": "Крыша закрыта",
+      "en": "Roof closed"
+    },
+    "lede": {
+      "ru": "Швейцария де-факто дома — третий матч подряд в Ванкувере. Но Колумбия приезжает с серией сухарей, многоканальной атакой Диаса и Хамеса и репутацией команды, которую на этом турнире ещё никто не вскрыл.",
+      "en": "Switzerland are de facto at home — a third straight game in Vancouver. But Colombia arrive with a clean-sheet streak, the multi-channel attack of Díaz and James, and the reputation of a side nobody at this tournament has cracked open yet."
+    }
   }
 ]
