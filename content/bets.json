@@ -10689,7 +10689,7 @@
     "type": "ТМ",
     "odds": 1.75,
     "tier": "green",
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Канада — Марокко",
       "en": "Canada — Morocco"
@@ -10701,6 +10701,10 @@
     "why": {
       "ru": "Лучшая цена рынка на низ: обе обороны пропускают ~0.7 xG, Марокко везёт 120 минут и серию из Монтеррея, у обеих 0:0 к перерыву в трёх последних. Модальный счёт — 1:1.",
       "en": "The market's best price on the under: both defences concede ~0.7 xG, Morocco carry 120 minutes and a shootout out of Monterrey, and both sides hit half-time 0-0 in their last three. Modal score 1-1."
+    },
+    "note": {
+      "ru": "✓ Всего 2 гола (0:2) — тихий низ по нашему сценарию.",
+      "en": "✓ Just 2 goals (0-2) — the quiet under we called."
     }
   },
   {
@@ -10711,7 +10715,7 @@
     "type": "1Т-рынок",
     "odds": 2.08,
     "tier": "green",
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Канада — Марокко",
       "en": "Canada — Morocco"
@@ -10723,6 +10727,10 @@
     "why": {
       "ru": "Канада против полных составов не забивала в первых таймах вообще, у обеих 0:0 к перерыву в трёх последних матчах — все голы приходят после перерыва.",
       "en": "Canada have not scored in a first half against a full-strength side all tournament, and both teams hit half-time at 0-0 in each of their last three — every goal has come after the break."
+    },
+    "note": {
+      "ru": "✓ Первый тайм 0:0 — как и ждали, все голы во втором.",
+      "en": "✓ Half-time 0-0 — as expected, all goals after the break."
     }
   },
   {
@@ -10733,7 +10741,7 @@
     "type": "Другое",
     "odds": 1.87,
     "tier": "green",
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Канада — Марокко",
       "en": "Canada — Morocco"
@@ -10745,6 +10753,10 @@
     "why": {
       "ru": "Гол в этом окне был во всех четырёх матчах Канады (все её голы против полных составов — 76-я и позже), Марокко тоже забивает блокам в концовках, а компенсации на этом ЧМ длинные.",
       "en": "A goal in that window happened in all four Canada games (all their goals against full-strength sides came on 76+), Morocco also score late against blocks, and stoppage time at this World Cup runs long."
+    },
+    "note": {
+      "ru": "✓ Второй гол Унаи на 82-й — поздний гол зашёл.",
+      "en": "✓ Ounahi’s second on 82 — the late goal landed."
     }
   },
   {
@@ -10755,7 +10767,7 @@
     "type": "Другое",
     "odds": 3.2,
     "tier": "yellow",
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Канада — Марокко",
       "en": "Canada — Morocco"
@@ -10767,6 +10779,10 @@
     "why": {
       "ru": "Ставка на цену, не на исход: рынок перегрел Марокко после серии с Нидерландами и не заложил усталость (120 минут + перелёт против шести дней отдыха). Путь Канады — ничья, овертайм и далее, где решает свежесть.",
       "en": "A bet on the price, not the outcome: the market overheated on Morocco after the Netherlands shootout and never priced the fatigue (120 minutes plus a flight versus six days of rest). Canada's path is a draw, extra time and beyond — where freshness decides."
+    },
+    "note": {
+      "ru": "✗ Прошло Марокко (0:2 в основное время) — ставка на перегрет рынка не сыграла.",
+      "en": "✗ Morocco advanced (0-2 in regulation) — the bet on an overheated market did not land."
     }
   },
   {
@@ -10821,7 +10837,7 @@
     "type": "Экспресс",
     "odds": 48.75,
     "tier": "red",
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Канада — Марокко + Парагвай — Франция",
       "en": "Canada — Morocco + Paraguay — France"
@@ -10855,6 +10871,10 @@
     "why": {
       "ru": "Постоянная красная конструкция дня: на два матча — экспресс из двух модальных счетов. Хьюстон вязнет в 1:1, Филадельфия закрывается минимальной победой Франции.",
       "en": "The day's standing red build: with two matches, an accumulator of the two modal scores. Houston bogs down at 1-1, Philadelphia closes with a minimal France win."
+    },
+    "note": {
+      "ru": "✗ Канада — Марокко 0:2, счёт 1:1 не зашёл — экспресс сгорел.",
+      "en": "✗ Canada — Morocco 0-2, the 1-1 leg missed — the acca is dead."
     }
   },
   {
@@ -10865,7 +10885,7 @@
     "type": "Другое",
     "odds": 1.92,
     "tier": "green",
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Канада — Марокко",
@@ -10878,6 +10898,10 @@
     "why": {
       "ru": "Паша: обе команды не про мёртвую оборону, а про скоростные атаки. Уставшее Марокко попробует открыть счёт уже в первом тайме — и если Канада поплывёт под грузом трибун, забьют в обоих таймах.",
       "en": "Pasha: neither side is about a dead block — both play fast attacking football. A tired Morocco will try to open the scoring in the first half already, and if Canada wobble under the crowd, goals come in both halves."
+    },
+    "note": {
+      "ru": "✗ В первом тайме голов не было (0:0) — гол в каждом тайме не прошёл.",
+      "en": "✗ No goals in the first half (0-0) — a goal in each half failed."
     }
   },
   {
@@ -10888,7 +10912,7 @@
     "type": "ОЗ",
     "odds": 1.9,
     "tier": "green",
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Канада — Марокко",
@@ -10901,6 +10925,10 @@
     "why": {
       "ru": "Паша (19:35): «ОЗ да ещё зелёная, ставим». Логика та же — открытая пара скоростных атак, а не оборонительная стенка.",
       "en": "Pasha (19:35): «BTTS-yes is still green, we take it». Same logic — an open pairing of fast attacks, not a defensive wall."
+    },
+    "note": {
+      "ru": "✗ Канада не забила — обе не сыграла.",
+      "en": "✗ Canada did not score — BTTS failed."
     }
   },
   {
@@ -10911,7 +10939,7 @@
     "type": "Другое",
     "odds": 7,
     "tier": "red",
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Канада — Марокко",
@@ -10924,6 +10952,10 @@
     "why": {
       "ru": "Паша, красная: кто-то по ходу матча уступит в счёте и всё равно вытащит победу. Ставка на нервный, качельный сценарий с ранним голом Марокко и ответом хозяев.",
       "en": "Pasha, red: one of the teams falls behind at some point and still wins. A bet on a nervy, swinging script with an early Morocco goal and a hosts' response."
+    },
+    "note": {
+      "ru": "✗ Марокко вело с 50-й и не отдавало — волевой не случилось.",
+      "en": "✗ Morocco led from the 50th and never let go — no comeback."
     }
   },
   {
@@ -10957,7 +10989,7 @@
     "type": "Экспресс",
     "odds": 58.5,
     "tier": "red",
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Канада — Марокко + Парагвай — Франция",
@@ -10992,6 +11024,10 @@
     "why": {
       "ru": "Паша: Марокко дожимает 2:1 в свою пользу после раскачки, Франция катком 3:0 в сухую. Два его точных счёта — красным экспрессом.",
       "en": "Pasha: Morocco edge it 2-1 after the slow build, France steamroll a dry 3-0. His two correct scores as a red accumulator."
+    },
+    "note": {
+      "ru": "✗ 0:2 вместо 1:2 — точный счёт мимо, экспресс сгорел.",
+      "en": "✗ 0-2 not 1-2 — correct score missed, the acca is dead."
     }
   }
 ]
