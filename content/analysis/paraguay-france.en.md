@@ -1,3 +1,13 @@
+## Result: Paraguay 0:1 France (0:0)
+
+**Our engine's modal score was 0:1 — bang on. For an hour and a half France stalled against Paraguay's reference block in the Philadelphia furnace (nearly 50°C pitchside), but on ~70' Doué won a penalty via VAR, Mbappé buried it — and one goal was enough. None of the three-goal show the market wanted: the heat, the bus, no Tchouaméni and Deschamps's economy mode did exactly what we'd priced in. France into the quarters — where Morocco await.**
+
+**Settlement. AI — two of two.** ✓ Only France to score @1.75 (France scored, Paraguay blanked) and ✓ France team total under 2.5 @1.90 (exactly one goal) both landed cleanly. A direct monetisation of the thesis that the market had over-extrapolated France's streak, and against an organised block in the heat they'd scrape the minimum. **Pasha:** France −2 handicap @2.03 missed (a one-goal win); his correct-score acca had already died on the first leg.
+
+**Lesson.** Fading the linear streak extrapolation worked: France's five straight 3+ goal games were built against open or reshuffled defences, while the only genuine block on their route (Senegal in the group) they chiselled at until the 66th — and here it repeated almost to the minute. When the market extends a run in a straight line but the structure of the game (a bus opponent + heat + a lost pivot) screams otherwise, the under on the team total is the honest call, not the "show".
+
+---
+
 ## Paraguay — France · 05.07, 00:00 MSK · Lincoln Financial Field, Philadelphia
 
 **The best defensive block of qualifying against the tournament's best attack — in a furnace, under a storm threat, and without Tchouaméni. The market expects a goal show; our engine sees a game France win with two.**

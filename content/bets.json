@@ -10793,7 +10793,7 @@
     "type": "Другое",
     "odds": 1.75,
     "tier": "green",
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Парагвай — Франция",
       "en": "Paraguay — France"
@@ -10805,6 +10805,10 @@
     "why": {
       "ru": "Атака Парагвая — метроном на ~0.5 xG против кого угодно, а Франция забивала во всех матчах. Прямая обёртка модальных счетов 0:1 и 0:2.",
       "en": "Paraguay's attack is a ~0.5 xG metronome against anyone, while France have scored in every game. A direct wrapper of the 0-1 and 0-2 modal scores."
+    },
+    "note": {
+      "ru": "✓ Франция вскрыла блок Парагвая с пенальти Мбаппе (~70'), 1:0 — забила только она, Парагвай сухой.",
+      "en": "✓ France cracked the Paraguay block via a Mbappé penalty (~70'), 1:0 — only France scored, Paraguay kept scoreless."
     }
   },
   {
@@ -10815,7 +10819,7 @@
     "type": "ИТ",
     "odds": 1.9,
     "tier": "green",
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Парагвай — Франция",
       "en": "Paraguay — France"
@@ -10827,6 +10831,10 @@
     "why": {
       "ru": "Фейд стрика «3+ в пяти матчах»: он набит об открытые обороны, а против единственного блока (Сенегал) Франция мучилась до 66-й. Плюс жара за 35°, минус Чуамени — а кэф выставлен до этой новости.",
       "en": "Fading the «three-plus in five straight» streak: it was built against open defences, and against the only true block (Senegal) France laboured until the 66th. Add 35°C heat, subtract Tchouaméni — with the price set before that news."
+    },
+    "note": {
+      "ru": "✓ Ровно 1 гол Франции — рынок ждал шоу на три, машина ставила ниже (жара, блок, минус Чуамени). Модаль 0:1 в точку.",
+      "en": "✓ Exactly one France goal — the market wanted a three-goal show, the engine went lower (heat, block, no Tchouaméni). Modal 0:1 spot on."
     }
   },
   {
@@ -10966,7 +10974,7 @@
     "type": "АФ",
     "odds": 2.03,
     "tier": "green",
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Парагвай — Франция",
@@ -10979,6 +10987,10 @@
     "why": {
       "ru": "Паша: Франции достался удобный автобус, а не выдающийся Парагвай (это лишь слабость Германии). Скоростной атаке стоящий блок удобен — расстрел Дембеле или забег Мбаппе. Видит лёгкие 3:0, берёт фору под возврат за неимением кэфа ~2 на другом рынке.",
       "en": "Pasha: France drew a convenient bus, not an outstanding Paraguay (that's merely Germany's weakness). A stationary block suits a fast attack — a Dembélé shooting gallery or an Mbappé run. He sees an easy 3-0 and takes the handicap with a push cushion, lacking a ~2.0 price elsewhere."
+    },
+    "note": {
+      "ru": "✗ Франция выиграла в один мяч (1:0) — форы −2 не хватило.",
+      "en": "✗ France won by a single goal (1:0) — the −2 handicap fell short."
     }
   },
   {
