@@ -50,8 +50,16 @@ export default function CardsStrip() {
   }, []);
 
   useEffect(() => {
-    const el = ref.current?.querySelector('[data-cur="1"]');
-    if (el) el.scrollIntoView({ inline: 'center', block: 'nearest' });
+    // Центрируем текущий день только по горизонтали внутри полосы:
+    // scrollIntoView здесь нельзя — он прокручивает и страницу по вертикали,
+    // из-за чего главная открывалась «съехавшей» вниз к картам дня.
+    const box = ref.current;
+    const el = box?.querySelector('[data-cur="1"]');
+    if (box && el) {
+      const b = box.getBoundingClientRect();
+      const e = el.getBoundingClientRect();
+      box.scrollLeft += e.left - b.left - (b.width - e.width) / 2;
+    }
     refresh();
     const c = ref.current;
     c?.addEventListener('scroll', refresh, { passive: true });
