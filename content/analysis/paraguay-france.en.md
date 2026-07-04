@@ -23,8 +23,8 @@
 **AI:**
 - 🟢 **Only France to score @1.75** — the headline call, a direct wrapper of 0-1/0-2: France score, Paraguay's metronome stays silent.
 - 🟢 **France team total under 2.5 @1.90** — fading the "3+" streak: against the only true block on their schedule France produced their worst attacking profile, and now add the heat and no Tchouaméni.
-- 🟢 **France corners over 3.5 @2.03** — the diversifier away from the goals package: a siege of a block accumulates corners even with 0-0 on the scoreboard.
 - 🔴 Correct score 0-1 @7.50 — inside the day's red accumulator with 1-1 in Houston.
+- _France corners pulled: on Fonbet the line starts at 5.5 (base 6.5), the market has already priced the siege of a block — no value left at our threshold (same as with cards)._
 - After lineups: if Olise starts, we look at "Olise to assist" @~2.50 (every Mbappé goal at this tournament has come through him, plus he takes every set piece).
 
 **Pasha:** awaiting his bets.

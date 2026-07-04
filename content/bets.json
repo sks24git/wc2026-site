@@ -10814,28 +10814,6 @@
     }
   },
   {
-    "id": 358,
-    "side": "AI",
-    "date": "2026-07-04",
-    "matchId": "paraguay-france",
-    "type": "Другое",
-    "odds": 2.03,
-    "tier": "green",
-    "status": "pending",
-    "match": {
-      "ru": "Парагвай — Франция",
-      "en": "Paraguay — France"
-    },
-    "bet": {
-      "ru": "Угловые Франции больше 3.5",
-      "en": "France corners over 3.5"
-    },
-    "why": {
-      "ru": "Диверсификатор от голевого пакета: осада низкого блока копит угловые даже при 0:0. Франция выбивала 4+ во всех матчах турнира, даже против глухого Ирака.",
-      "en": "The diversifier away from the goals package: besieging a deep block accumulates corners even at 0-0. France won 4+ in every match of the tournament, even against Iraq's bus."
-    }
-  },
-  {
     "id": 359,
     "side": "AI",
     "date": "2026-07-04",
