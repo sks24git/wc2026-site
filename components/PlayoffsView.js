@@ -91,7 +91,7 @@ const PRED = {
   M88: { ...P(T('Австралия', 'Australia', 'au'), T('Египет', 'Egypt', 'eg'), 'b', '1:1 (2:4 пен)', 'pen', 'low'), fact: 'b', fscore: '1:1, пен. 2:4', fby: 'pen' },
   // ── 1/8 ── (пересобрано после 1/16: воркфлоу ресёрч+адверсариальная проверка, 04.07)
   M89: P(T('Парагвай', 'Paraguay', 'py'), T('Франция', 'France', 'fr'), 'b', '0:2', 'reg', 'medium'),
-  M90: { ...P(T('Канада', 'Canada', 'ca'), T('Марокко', 'Morocco', 'ma'), 'b', '0:1', 'reg', 'medium'), fact: 'b', fscore: '0:2', fby: 'reg' },
+  M90: { ...P(T('Канада', 'Canada', 'ca'), T('Марокко', 'Morocco', 'ma'), 'b', '0:1', 'reg', 'medium'), fact: 'b', fscore: '0:3', fby: 'reg' },
   M93: P(T('Португалия', 'Portugal', 'pt'), T('Испания', 'Spain', 'es'), 'b', '1:2', 'reg', 'medium'),
   M94: P(T('США', 'USA', 'us'), T('Бельгия', 'Belgium', 'be'), 'a', '1:1 (4:3 пен)', 'pen', 'tossup'),
   M91: P(T('Бразилия', 'Brazil', 'br'), T('Норвегия', 'Norway', 'no'), 'a', '2:1', 'reg', 'medium'),

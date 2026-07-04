@@ -10689,7 +10689,7 @@
     "type": "ТМ",
     "odds": 1.75,
     "tier": "green",
-    "status": "win",
+    "status": "lose",
     "match": {
       "ru": "Канада — Марокко",
       "en": "Canada — Morocco"
@@ -10703,8 +10703,8 @@
       "en": "The market's best price on the under: both defences concede ~0.7 xG, Morocco carry 120 minutes and a shootout out of Monterrey, and both sides hit half-time 0-0 in their last three. Modal score 1-1."
     },
     "note": {
-      "ru": "✓ Всего 2 гола (0:2) — тихий низ по нашему сценарию.",
-      "en": "✓ Just 2 goals (0-2) — the quiet under we called."
+      "ru": "✗ Третий гол Марокко на 90+7 (0:3) — всего 3 гола, тотал меньше 2.5 сгорел в компенсированное время.",
+      "en": "✗ Morocco’s third at 90+7 (0-3) — three goals total, the under 2.5 burned in stoppage time."
     }
   },
   {
@@ -10755,8 +10755,8 @@
       "en": "A goal in that window happened in all four Canada games (all their goals against full-strength sides came on 76+), Morocco also score late against blocks, and stoppage time at this World Cup runs long."
     },
     "note": {
-      "ru": "✓ Второй гол Унаи на 82-й — поздний гол зашёл.",
-      "en": "✓ Ounahi’s second on 82 — the late goal landed."
+      "ru": "✓ Голы на 82-й и 90+7 — поздний гол зашёл с запасом.",
+      "en": "✓ Goals on 82 and 90+7 — the late goal landed with room to spare."
     }
   },
   {
@@ -10873,8 +10873,8 @@
       "en": "The day's standing red build: with two matches, an accumulator of the two modal scores. Houston bogs down at 1-1, Philadelphia closes with a minimal France win."
     },
     "note": {
-      "ru": "✗ Канада — Марокко 0:2, счёт 1:1 не зашёл — экспресс сгорел.",
-      "en": "✗ Canada — Morocco 0-2, the 1-1 leg missed — the acca is dead."
+      "ru": "✗ Канада — Марокко 0:3, счёт 1:1 не зашёл — экспресс сгорел.",
+      "en": "✗ Canada — Morocco 0-3, the 1-1 leg missed — the acca is dead."
     }
   },
   {
@@ -11026,8 +11026,8 @@
       "en": "Pasha: Morocco edge it 2-1 after the slow build, France steamroll a dry 3-0. His two correct scores as a red accumulator."
     },
     "note": {
-      "ru": "✗ 0:2 вместо 1:2 — точный счёт мимо, экспресс сгорел.",
-      "en": "✗ 0-2 not 1-2 — correct score missed, the acca is dead."
+      "ru": "✗ 0:3 вместо 1:2 — точный счёт мимо, экспресс сгорел.",
+      "en": "✗ 0-3 not 1-2 — correct score missed, the acca is dead."
     }
   }
 ]

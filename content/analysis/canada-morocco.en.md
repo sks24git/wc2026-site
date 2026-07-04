@@ -1,10 +1,10 @@
-## Result: Canada 0:2 Morocco (0:0)
+## Result: Canada 0:3 Morocco (0:0)
 
-**Houston played out exactly to our under script. Half-time 0:0, as expected. On 50', Hakimi cut it back for Ounahi to open the scoring; on 82' the same man finished off a tired Canada on the counter. A brace, a clean-sheet win, Morocco into the quarters — and none of the extra time the market so eagerly priced in.**
+**For an hour and a half Houston ran strictly to our under script — then the finish broke it. Half-time 0:0, as expected. On 50', Hakimi cut it back for Ounahi to open the scoring; on 82' the same man finished Canada off on the counter. And at 90+8 **Rahimi**, slipped in by Diaz, added a third, turning our «under» into an «over»: 0:3, a clean-sheet win, Morocco into the quarters — with none of the extra time the market priced in.**
 
-**Settlement. AI:** the quiet under hit three of four — ✓ under 2.5, ✓ first-half draw (0:0), ✓ goal after the 76th (Ounahi, 82'). Canada to qualify @3.20 burned — a value bet on an overheated market that didn't land, as Morocco saw the job through. The day's correct-score acca died on the 1-1 leg (actual 0-2). **Pasha** flopped on Houston: a goal in each half, both teams to score and a comeback win all missed (Canada never got on the board, Morocco led throughout); his 1-2 correct score also fell short. A clean point to the machine in the battle: our goals-modal («quiet, a late goal») read truer than Pasha's «open exchange with an early goal».
+**Settlement. AI — two of four.** ✓ First-half draw (0:0) and ✓ goal after the 76th (goals on 82 and 90+7, comfortably) landed perfectly. But ✗ under 2.5 burned right at the flag — the stoppage-time third pushed it over 2.5. ✗ Canada to qualify @3.20 — Morocco saw the job through. The correct-score acca died on the 1-1 leg (actual 0-3). A modest plus on Houston for the night. **Pasha** flopped clean: a goal in each half, both teams to score, a comeback win and a 1-2 correct score all missed (Canada never scored, Morocco led from the 50th).
 
-**Lesson:** the fatigue-overheat bet (Canada to qualify) was fair on price, but Morocco's class and structure overrode physiology inside 90 minutes — fatigue tends to bite late in an even game, not when the favourite is simply better. The bracket pick (Morocco advance) proved sounder than the value fork.
+**Lessons.** (1) The fatigue-overheat bet (Canada to qualify) was fair on price, but Morocco's class and structure overrode physiology — fatigue tends to bite late in an even game, not when the favourite is simply better. (2) Under 2.5 against a side that led 2:0 into the 82nd and kept pressing is a late-third-goal risk: a comfortable favourite doesn't sit in a deep block, and Canada opened up chasing. At 2:0 with eight minutes left the 2.5 line hung by a thread — and it snapped.
 
 ---
 
