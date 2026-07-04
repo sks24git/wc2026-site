@@ -86,8 +86,8 @@ const PRED = {
   M79: { ...P(T('Мексика', 'Mexico', 'mx'), T('Эквадор', 'Ecuador', 'ec'), 'a', '1:0', 'reg', 'medium'), fact: 'a', fscore: '2:0', fby: 'reg' },
   M80: { ...P(T('Англия', 'England', 'gb-eng'), T('ДР Конго', 'DR Congo', 'cd'), 'a', '2:0', 'reg', 'medium'), fact: 'a', fscore: '2:1', fby: 'reg' },
   M85: { ...P(T('Швейцария', 'Switzerland', 'ch'), T('Алжир', 'Algeria', 'dz'), 'a', '2:1', 'reg', 'medium'), fact: 'a', fscore: '2:0', fby: 'reg' },
-  M86: P(T('Аргентина', 'Argentina', 'ar'), T('Кабо-Верде', 'Cape Verde', 'cv'), 'a', '3:0', 'reg', 'high'),
-  M87: P(T('Колумбия', 'Colombia', 'co'), T('Гана', 'Ghana', 'gh'), 'a', '2:0', 'reg', 'medium'),
+  M86: { ...P(T('Аргентина', 'Argentina', 'ar'), T('Кабо-Верде', 'Cape Verde', 'cv'), 'a', '3:0', 'reg', 'high'), fact: 'a', fscore: '1:1, доп. время 3:2', fby: 'aet' },
+  M87: { ...P(T('Колумбия', 'Colombia', 'co'), T('Гана', 'Ghana', 'gh'), 'a', '2:0', 'reg', 'medium'), fact: 'a', fscore: '1:0', fby: 'reg' },
   M88: { ...P(T('Австралия', 'Australia', 'au'), T('Египет', 'Egypt', 'eg'), 'b', '1:1 (2:4 пен)', 'pen', 'low'), fact: 'b', fscore: '1:1, пен. 2:4', fby: 'pen' },
   // ── 1/8 ──
   M89: P(T('Германия', 'Germany', 'de'), T('Франция', 'France', 'fr'), 'b', '1:2', 'reg', 'medium'),

@@ -10241,7 +10241,7 @@
     "type": "АФ",
     "odds": 1.77,
     "tier": "green",
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Аргентина — Кабо-Верде",
       "en": "Argentina — Cape Verde"
@@ -10253,6 +10253,10 @@
     "why": {
       "ru": "Класс несопоставим: Месси с шестью голами против команды, чей потолок — отбиться. Блок Кабо-Верде выстоял против Испании, но такого креатива ещё не видел. Азиатская −2 со страховкой: при 2:0 возврат, при 3:0 и крупнее — победа. Наш модальный счёт — 3:0.",
       "en": "The class gap is enormous: a six-goal Messi against a side whose ceiling is survival. The Cape Verde block held Spain, but has never seen creativity like this. The Asian −2 comes with insurance: push at 2-0, win at 3-0 or bigger. Our modal score is 3-0."
+    },
+    "note": {
+      "ru": "✗ Дуарте сравнял на 59-й, и основное время закончилось 1:1 — фора умерла задолго до спасения в овертайме",
+      "en": "✗ Duarte levelled on 59 and regular time ended 1-1 — the handicap was dead long before the extra-time rescue"
     }
   },
   {
@@ -10263,7 +10267,7 @@
     "type": "ИТ",
     "odds": 1.75,
     "tier": "green",
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Колумбия — Гана",
       "en": "Colombia — Ghana"
@@ -10275,6 +10279,10 @@
     "why": {
       "ru": "У Ганы один гол с игры за три матча, а теперь ещё и без Кудуса с Салису — созидать некому. Колумбия пропустила один мяч за группу и сушила Португалию. Тот же рецепт, что вчера с Австрией: автобус без механизма гола против лучшей обороны стадии.",
       "en": "Ghana have one open-play goal in three games — and now no Kudus or Salisu to create. Colombia conceded once all group and blanked Portugal. Same recipe as Austria yesterday: a bus with no scoring mechanism against the round's meanest defence."
+    },
+    "note": {
+      "ru": "✓ Ноль ударов Ганы в створ за весь матч — сухарь читался от и до",
+      "en": "✓ Zero Ghana shots on target all game — the shutout read start to finish"
     }
   },
   {
@@ -10285,7 +10293,7 @@
     "type": "АФ",
     "odds": 2.25,
     "tier": "yellow",
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Колумбия — Гана",
       "en": "Colombia — Ghana"
@@ -10297,6 +10305,10 @@
     "why": {
       "ru": "Продолжение того же сценария на дистанции матча: если Гана не забивает, Колумбии хватит двух мячей — а Луис Диас в такой форме, что второй гол выглядит вопросом времени. Модальный счёт 2:0.",
       "en": "The same script taken one step further: if Ghana do not score, two goals win this by the required margin — and Luis Díaz is in the kind of form that makes the second feel inevitable. Modal score 2-0."
+    },
+    "note": {
+      "ru": "✗ Колумбии хватило гола Ариаса на 14-й: гол Диаса отменили по офсайду, второго не случилось",
+      "en": "✗ Arias scored on 14 and that was all Colombia needed: the Díaz strike was ruled offside and a second never came"
     }
   },
   {
@@ -10333,7 +10345,7 @@
     "type": "Система",
     "odds": 7,
     "tier": "red",
-    "status": "pending",
+    "status": "lose",
     "match": {
       "ru": "Система 2/3 · точные счета",
       "en": "System 2/3 · correct scores"
@@ -10343,8 +10355,8 @@
       "en": "correct scores across three games"
     },
     "note": {
-      "ru": "Позиция 1:1 в Арлингтоне зашла — для системы 2/3 нужна ещё одна из двух (3:0 Аргентины или 2:0 Колумбии)",
-      "en": "The Arlington 1-1 landed — one more of two needed for the 2/3 system (Argentina 3-0 or Colombia 2-0)"
+      "ru": "✗ Только 1:1 Арлингтона попал: Аргентину увезли в овертайм (1:1 за 90), Колумбия остановилась на 1:0",
+      "en": "✗ Only the Arlington 1-1 hit: Argentina were dragged to extra time (1-1 in 90) and Colombia stopped at 1-0"
     },
     "legs": [
       {
@@ -10418,7 +10430,7 @@
     "type": "1Т-рынок",
     "odds": 2.01,
     "tier": "green",
-    "status": "pending",
+    "status": "void",
     "contest": true,
     "match": {
       "ru": "Аргентина — Кабо-Верде",
@@ -10431,6 +10443,10 @@
     "why": {
       "ru": "«Аргентина прагматична — решает всё в первом тайме, это стиль команды; с учётом плей-офф баловаться не станет». Пиар Возиньи Пашу раздражает: «полный ноль, но очень популярный». Фора тайма под возврат — и ожидание разгрома не менее 3:0.",
       "en": "'Argentina are pragmatic — they settle everything in the first half, it is simply their style; in the knockouts they will not mess around.' The Vozinha hype irritates Pasha: 'a complete zero, yet wildly popular.' A first-half handicap with push insurance — and a rout of 3-0 or more expected."
+    },
+    "note": {
+      "ru": "↩ Возврат: 1:0 к перерыву — победа ровно в один мяч на целой форе",
+      "en": "↩ Push: 1-0 at the break — a one-goal half on the whole-number handicap"
     }
   },
   {
@@ -10441,7 +10457,7 @@
     "type": "Другое",
     "odds": 2.07,
     "tier": "green",
-    "status": "pending",
+    "status": "win",
     "contest": true,
     "match": {
       "ru": "Колумбия — Гана",
@@ -10454,6 +10470,10 @@
     "why": {
       "ru": "«Гана, как и Австралия, — лишний пассажир, зайцем прыгнувший в плей-офф: полное отсутствие игры. Колумбия получила халявного соперника — не знаю, какое помутнение рассудка должно произойти, чтобы не взять сухую победу». Ждёт 2:0.",
       "en": "'Ghana, like Australia, are a stowaway passenger in the knockouts: no football whatsoever. Colombia got a freebie opponent — I cannot imagine what lapse of reason it would take not to win to nil.' He expects 2-0."
+    },
+    "note": {
+      "ru": "✓ Лучший пик Паши: Ариас на 14-й и ноль ударов Ганы в створ — сухая победа как по заказу",
+      "en": "✓ The best Pasha pick: Arias on 14 and zero Ghana shots on target — a win to nil made to order"
     }
   },
   {
@@ -10462,9 +10482,9 @@
     "date": "2026-07-03",
     "matchId": null,
     "type": "Система",
-    "odds": 3.69,
+    "odds": 0.69,
     "tier": "yellow",
-    "status": "pending",
+    "status": "win",
     "contest": true,
     "match": {
       "ru": "Система 2/3 · основные пики",
@@ -10475,8 +10495,8 @@
       "en": "his three main calls in one system"
     },
     "note": {
-      "ru": "ОЗ-нет сгорела на автоголе — системе нужны обе оставшиеся позиции",
-      "en": "BTTS-no burned on the own goal — the system now needs both remaining picks"
+      "ru": "Частичный возврат: ОЗ-нет сгорела, 1Т фора — возврат (кэф 1.00), сухарь зашёл — единственный живой дабл 1.00×2.07 вернул 1035 из 1500",
+      "en": "Partial return: BTTS-no burned, the 1H handicap pushed (1.00) and the win-to-nil landed — the one live double 1.00×2.07 returned 1,035 of 1,500"
     },
     "legs": [
       {
@@ -10524,7 +10544,7 @@
     "odds": 15,
     "tier": "red",
     "stake": 445,
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Система 2/3 · точные счета, вариант 1",
@@ -10535,8 +10555,8 @@
       "en": "correct scores across three games"
     },
     "note": {
-      "ru": "0:1 не случился (1:1) — нужны оба оставшихся счёта: 2:0 Колумбии и 3:0 Аргентины",
-      "en": "The 0-1 did not happen (1-1) — both remaining scores needed: Colombia 2-0 and Argentina 3-0"
+      "ru": "✗ Ни один из трёх счетов: 1:1 в Арлингтоне, 1:0 Колумбии, 3:2 Аргентины в овертайме",
+      "en": "✗ None of the three scores: 1-1 in Arlington, Colombia 1-0, Argentina 3-2 in extra time"
     },
     "legs": [
       {
@@ -10583,7 +10603,7 @@
     "type": "Система",
     "odds": 20,
     "tier": "red",
-    "status": "pending",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Система 2/3 · точные счета, вариант 2",
@@ -10594,8 +10614,8 @@
       "en": "correct scores across three games"
     },
     "note": {
-      "ru": "0:2 не случился (1:1) — нужны оба оставшихся счёта: 2:0 Аргентины и 2:0 Колумбии",
-      "en": "The 0-2 did not happen (1-1) — both remaining scores needed: Argentina 2-0 and Colombia 2-0"
+      "ru": "✗ Все три счёта мимо — день, когда фавориты выиграли, но не так, как рисовалось",
+      "en": "✗ All three scores missed — a day when the favourites won, just not the way it was drawn"
     },
     "legs": [
       {
@@ -10642,7 +10662,7 @@
     "type": "Другое",
     "odds": 1.77,
     "tier": "green",
-    "status": "pending",
+    "status": "win",
     "match": {
       "ru": "Аргентина — Кабо-Верде",
       "en": "Argentina — Cape Verde"
@@ -10654,6 +10674,10 @@
     "why": {
       "ru": "Стат-шаблон вчерашней Испании: против такого же автобуса она одна настреляла 10 в створ. Аргентина с Месси и Лаутаро в старте бьёт не меньше, а Кабо-Верде добавит свои редкие контры. Честная цена овера ближе к 1.55.",
       "en": "The stat template from Spain yesterday: against the same kind of bus they hit 10 on target alone. Argentina with Messi and Lautaro starting shoot no less, and Cape Verde add their occasional counters. Fair price for the over is nearer 1.55."
+    },
+    "note": {
+      "ru": "✓ Десять ударов в створ за основное время (8 Аргентины + 2 Кабо-Верде) — шаблон «фаворит против автобуса» снова заплатил",
+      "en": "✓ Ten shots on target in regular time (Argentina 8 + Cape Verde 2) — the favourite-versus-bus template paid again"
     }
   }
 ]
