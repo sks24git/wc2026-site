@@ -10680,5 +10680,203 @@
       "ru": "✓ Десять ударов в створ за основное время (8 Аргентины + 2 Кабо-Верде) — шаблон «фаворит против автобуса» снова заплатил",
       "en": "✓ Ten shots on target in regular time (Argentina 8 + Cape Verde 2) — the favourite-versus-bus template paid again"
     }
+  },
+  {
+    "id": 352,
+    "side": "AI",
+    "date": "2026-07-04",
+    "matchId": "canada-morocco",
+    "type": "ТМ",
+    "odds": 1.75,
+    "tier": "green",
+    "status": "pending",
+    "match": {
+      "ru": "Канада — Марокко",
+      "en": "Canada — Morocco"
+    },
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5"
+    },
+    "why": {
+      "ru": "Лучшая цена рынка на низ: обе обороны пропускают ~0.7 xG, Марокко везёт 120 минут и серию из Монтеррея, у обеих 0:0 к перерыву в трёх последних. Модальный счёт — 1:1.",
+      "en": "The market's best price on the under: both defences concede ~0.7 xG, Morocco carry 120 minutes and a shootout out of Monterrey, and both sides hit half-time 0-0 in their last three. Modal score 1-1."
+    }
+  },
+  {
+    "id": 353,
+    "side": "AI",
+    "date": "2026-07-04",
+    "matchId": "canada-morocco",
+    "type": "1Т-рынок",
+    "odds": 2.08,
+    "tier": "green",
+    "status": "pending",
+    "match": {
+      "ru": "Канада — Марокко",
+      "en": "Canada — Morocco"
+    },
+    "bet": {
+      "ru": "Ничья в первом тайме",
+      "en": "First half draw"
+    },
+    "why": {
+      "ru": "Канада против полных составов не забивала в первых таймах вообще, у обеих 0:0 к перерыву в трёх последних матчах — все голы приходят после перерыва.",
+      "en": "Canada have not scored in a first half against a full-strength side all tournament, and both teams hit half-time at 0-0 in each of their last three — every goal has come after the break."
+    }
+  },
+  {
+    "id": 354,
+    "side": "AI",
+    "date": "2026-07-04",
+    "matchId": "canada-morocco",
+    "type": "Другое",
+    "odds": 1.87,
+    "tier": "green",
+    "status": "pending",
+    "match": {
+      "ru": "Канада — Марокко",
+      "en": "Canada — Morocco"
+    },
+    "bet": {
+      "ru": "Гол с 76-й минуты и позже — да",
+      "en": "Goal from minute 76 onwards — yes"
+    },
+    "why": {
+      "ru": "Гол в этом окне был во всех четырёх матчах Канады (все её голы против полных составов — 76-я и позже), Марокко тоже забивает блокам в концовках, а компенсации на этом ЧМ длинные.",
+      "en": "A goal in that window happened in all four Canada games (all their goals against full-strength sides came on 76+), Morocco also score late against blocks, and stoppage time at this World Cup runs long."
+    }
+  },
+  {
+    "id": 355,
+    "side": "AI",
+    "date": "2026-07-04",
+    "matchId": "canada-morocco",
+    "type": "Другое",
+    "odds": 3.2,
+    "tier": "yellow",
+    "status": "pending",
+    "match": {
+      "ru": "Канада — Марокко",
+      "en": "Canada — Morocco"
+    },
+    "bet": {
+      "ru": "Канада пройдёт в 1/4 (с учётом ОТ и пенальти)",
+      "en": "Canada to qualify (extra time and penalties included)"
+    },
+    "why": {
+      "ru": "Ставка на цену, не на исход: рынок перегрел Марокко после серии с Нидерландами и не заложил усталость (120 минут + перелёт против шести дней отдыха). Путь Канады — ничья, овертайм и далее, где решает свежесть.",
+      "en": "A bet on the price, not the outcome: the market overheated on Morocco after the Netherlands shootout and never priced the fatigue (120 minutes plus a flight versus six days of rest). Canada's path is a draw, extra time and beyond — where freshness decides."
+    }
+  },
+  {
+    "id": 356,
+    "side": "AI",
+    "date": "2026-07-04",
+    "matchId": "paraguay-france",
+    "type": "Другое",
+    "odds": 1.75,
+    "tier": "green",
+    "status": "pending",
+    "match": {
+      "ru": "Парагвай — Франция",
+      "en": "Paraguay — France"
+    },
+    "bet": {
+      "ru": "Забьёт только Франция",
+      "en": "Only France to score"
+    },
+    "why": {
+      "ru": "Атака Парагвая — метроном на ~0.5 xG против кого угодно, а Франция забивала во всех матчах. Прямая обёртка модальных счетов 0:1 и 0:2.",
+      "en": "Paraguay's attack is a ~0.5 xG metronome against anyone, while France have scored in every game. A direct wrapper of the 0-1 and 0-2 modal scores."
+    }
+  },
+  {
+    "id": 357,
+    "side": "AI",
+    "date": "2026-07-04",
+    "matchId": "paraguay-france",
+    "type": "ИТ",
+    "odds": 1.9,
+    "tier": "green",
+    "status": "pending",
+    "match": {
+      "ru": "Парагвай — Франция",
+      "en": "Paraguay — France"
+    },
+    "bet": {
+      "ru": "Инд. тотал Франции меньше 2.5",
+      "en": "France team total under 2.5"
+    },
+    "why": {
+      "ru": "Фейд стрика «3+ в пяти матчах»: он набит об открытые обороны, а против единственного блока (Сенегал) Франция мучилась до 66-й. Плюс жара за 35°, минус Чуамени — а кэф выставлен до этой новости.",
+      "en": "Fading the «three-plus in five straight» streak: it was built against open defences, and against the only true block (Senegal) France laboured until the 66th. Add 35°C heat, subtract Tchouaméni — with the price set before that news."
+    }
+  },
+  {
+    "id": 358,
+    "side": "AI",
+    "date": "2026-07-04",
+    "matchId": "paraguay-france",
+    "type": "Другое",
+    "odds": 2.03,
+    "tier": "green",
+    "status": "pending",
+    "match": {
+      "ru": "Парагвай — Франция",
+      "en": "Paraguay — France"
+    },
+    "bet": {
+      "ru": "Угловые Франции больше 3.5",
+      "en": "France corners over 3.5"
+    },
+    "why": {
+      "ru": "Диверсификатор от голевого пакета: осада низкого блока копит угловые даже при 0:0. Франция выбивала 4+ во всех матчах турнира, даже против глухого Ирака.",
+      "en": "The diversifier away from the goals package: besieging a deep block accumulates corners even at 0-0. France won 4+ in every match of the tournament, even against Iraq's bus."
+    }
+  },
+  {
+    "id": 359,
+    "side": "AI",
+    "date": "2026-07-04",
+    "matchId": null,
+    "type": "Экспресс",
+    "odds": 48.75,
+    "tier": "red",
+    "status": "pending",
+    "match": {
+      "ru": "Канада — Марокко + Парагвай — Франция",
+      "en": "Canada — Morocco + Paraguay — France"
+    },
+    "bet": {
+      "ru": "Экспресс · точные счета дня",
+      "en": "Accumulator (acca) · correct scores of the day"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Канада — Марокко",
+          "en": "Canada — Morocco"
+        },
+        "p": {
+          "ru": "Точный счёт 1:1 @6.50",
+          "en": "Correct score 1-1 @6.50"
+        }
+      },
+      {
+        "m": {
+          "ru": "Парагвай — Франция",
+          "en": "Paraguay — France"
+        },
+        "p": {
+          "ru": "Точный счёт 0:1 @7.50",
+          "en": "Correct score 0-1 @7.50"
+        }
+      }
+    ],
+    "why": {
+      "ru": "Постоянная красная конструкция дня: на два матча — экспресс из двух модальных счетов. Хьюстон вязнет в 1:1, Филадельфия закрывается минимальной победой Франции.",
+      "en": "The day's standing red build: with two matches, an accumulator of the two modal scores. Houston bogs down at 1-1, Philadelphia closes with a minimal France win."
+    }
   }
 ]
