@@ -10482,9 +10482,9 @@
     "date": "2026-07-03",
     "matchId": null,
     "type": "Система",
-    "odds": 0.69,
+    "odds": 3.69,
     "tier": "yellow",
-    "status": "win",
+    "status": "lose",
     "contest": true,
     "match": {
       "ru": "Система 2/3 · основные пики",
@@ -10495,8 +10495,8 @@
       "en": "his three main calls in one system"
     },
     "note": {
-      "ru": "Частичный возврат: ОЗ-нет сгорела, 1Т фора — возврат (кэф 1.00), сухарь зашёл — единственный живой дабл 1.00×2.07 вернул 1035 из 1500",
-      "en": "Partial return: BTTS-no burned, the 1H handicap pushed (1.00) and the win-to-nil landed — the one live double 1.00×2.07 returned 1,035 of 1,500"
+      "ru": "Частичный возврат: сухарь Колумбии зашёл, 1Т фора — возврат, ОЗ-нет сгорела. Единственный живой дабл вернул 1035 из 1500 — чистый минус 465 (он и учтён в балансе)",
+      "en": "Partial return: the Colombia win-to-nil landed, the 1H handicap pushed, BTTS-no burned. The one live double returned 1,035 of 1,500 — a net loss of 465, which is what the balance counts"
     },
     "legs": [
       {
@@ -10533,7 +10533,8 @@
     "why": {
       "ru": "Те же три тезиса, собранные страховочной сеткой: достаточно двух попаданий из трёх, чтобы система заплатила.",
       "en": "The same three theses woven into a safety net: two hits out of three make the system pay."
-    }
+    },
+    "stake": 465
   },
   {
     "id": 349,
