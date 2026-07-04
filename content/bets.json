@@ -10856,5 +10856,142 @@
       "ru": "Постоянная красная конструкция дня: на два матча — экспресс из двух модальных счетов. Хьюстон вязнет в 1:1, Филадельфия закрывается минимальной победой Франции.",
       "en": "The day's standing red build: with two matches, an accumulator of the two modal scores. Houston bogs down at 1-1, Philadelphia closes with a minimal France win."
     }
+  },
+  {
+    "id": 360,
+    "side": "Паша",
+    "date": "2026-07-04",
+    "matchId": "canada-morocco",
+    "type": "Другое",
+    "odds": 1.92,
+    "tier": "green",
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Канада — Марокко",
+      "en": "Canada — Morocco"
+    },
+    "bet": {
+      "ru": "Гол в каждом тайме",
+      "en": "A goal in each half"
+    },
+    "why": {
+      "ru": "Паша: обе команды не про мёртвую оборону, а про скоростные атаки. Уставшее Марокко попробует открыть счёт уже в первом тайме — и если Канада поплывёт под грузом трибун, забьют в обоих таймах.",
+      "en": "Pasha: neither side is about a dead block — both play fast attacking football. A tired Morocco will try to open the scoring in the first half already, and if Canada wobble under the crowd, goals come in both halves."
+    }
+  },
+  {
+    "id": 361,
+    "side": "Паша",
+    "date": "2026-07-04",
+    "matchId": "canada-morocco",
+    "type": "ОЗ",
+    "odds": 1.9,
+    "tier": "green",
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Канада — Марокко",
+      "en": "Canada — Morocco"
+    },
+    "bet": {
+      "ru": "Обе забьют",
+      "en": "Both teams to score"
+    },
+    "why": {
+      "ru": "Паша (19:35): «ОЗ да ещё зелёная, ставим». Логика та же — открытая пара скоростных атак, а не оборонительная стенка.",
+      "en": "Pasha (19:35): «BTTS-yes is still green, we take it». Same logic — an open pairing of fast attacks, not a defensive wall."
+    }
+  },
+  {
+    "id": 362,
+    "side": "Паша",
+    "date": "2026-07-04",
+    "matchId": "canada-morocco",
+    "type": "Другое",
+    "odds": 7,
+    "tier": "red",
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Канада — Марокко",
+      "en": "Canada — Morocco"
+    },
+    "bet": {
+      "ru": "Волевая победа любой из команд",
+      "en": "A comeback win by either team"
+    },
+    "why": {
+      "ru": "Паша, красная: кто-то по ходу матча уступит в счёте и всё равно вытащит победу. Ставка на нервный, качельный сценарий с ранним голом Марокко и ответом хозяев.",
+      "en": "Pasha, red: one of the teams falls behind at some point and still wins. A bet on a nervy, swinging script with an early Morocco goal and a hosts' response."
+    }
+  },
+  {
+    "id": 363,
+    "side": "Паша",
+    "date": "2026-07-04",
+    "matchId": "paraguay-france",
+    "type": "АФ",
+    "odds": 2.03,
+    "tier": "green",
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Парагвай — Франция",
+      "en": "Paraguay — France"
+    },
+    "bet": {
+      "ru": "Фора Франции −2",
+      "en": "France handicap −2"
+    },
+    "why": {
+      "ru": "Паша: Франции достался удобный автобус, а не выдающийся Парагвай (это лишь слабость Германии). Скоростной атаке стоящий блок удобен — расстрел Дембеле или забег Мбаппе. Видит лёгкие 3:0, берёт фору под возврат за неимением кэфа ~2 на другом рынке.",
+      "en": "Pasha: France drew a convenient bus, not an outstanding Paraguay (that's merely Germany's weakness). A stationary block suits a fast attack — a Dembélé shooting gallery or an Mbappé run. He sees an easy 3-0 and takes the handicap with a push cushion, lacking a ~2.0 price elsewhere."
+    }
+  },
+  {
+    "id": 364,
+    "side": "Паша",
+    "date": "2026-07-04",
+    "matchId": null,
+    "type": "Экспресс",
+    "odds": 58.5,
+    "tier": "red",
+    "status": "pending",
+    "contest": true,
+    "match": {
+      "ru": "Канада — Марокко + Парагвай — Франция",
+      "en": "Canada — Morocco + Paraguay — France"
+    },
+    "bet": {
+      "ru": "Экспресс · точные счета Паши",
+      "en": "Accumulator (acca) · Pasha's correct scores"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Канада — Марокко",
+          "en": "Canada — Morocco"
+        },
+        "p": {
+          "ru": "Точный счёт 1:2 @9.00",
+          "en": "Correct score 1-2 @9.00"
+        }
+      },
+      {
+        "m": {
+          "ru": "Парагвай — Франция",
+          "en": "Paraguay — France"
+        },
+        "p": {
+          "ru": "Точный счёт 0:3 @6.50",
+          "en": "Correct score 0-3 @6.50"
+        }
+      }
+    ],
+    "why": {
+      "ru": "Паша: Марокко дожимает 2:1 в свою пользу после раскачки, Франция катком 3:0 в сухую. Два его точных счёта — красным экспрессом.",
+      "en": "Pasha: Morocco edge it 2-1 after the slow build, France steamroll a dry 3-0. His two correct scores as a red accumulator."
+    }
   }
 ]
