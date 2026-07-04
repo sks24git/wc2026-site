@@ -250,7 +250,9 @@ function MatchBox({ code, kind, lang }) {
   const played = !!p.fact;
   const shownScore = played ? p.fscore : p.score;
   const shownBy = played ? p.fby : p.by;
-  const hit = played && p.fscore && p.score && norm(p.fscore) === norm(p.score);
+  // сравниваем не строки (форматы прогноза и факта различаются), а цифры счёта + способ развязки
+  const scoreKey = (s, by) => (by || 'reg') + '|' + (((s || '').match(/\d+/g)) || []).join(':');
+  const hit = played && p.fscore && p.score && scoreKey(p.score, p.by) === scoreKey(p.fscore, p.fby);
 
   const front = (
     <>
