@@ -11150,5 +11150,114 @@
       "ru": "Красный экспресс из 2 точных счетов — модальные счета обоих матчей. Кэф ориентировочный.",
       "en": "Red accumulator of two correct scores — the modal score of each match. Odds indicative."
     }
+  },
+  {
+    "id": 369,
+    "matchId": "portugal-spain",
+    "match": {
+      "ru": "Португалия — Испания",
+      "en": "Portugal — Spain"
+    },
+    "bet": {
+      "ru": "Ничья в основное время",
+      "en": "Draw in regulation"
+    },
+    "type": "Х",
+    "odds": 3.7,
+    "tier": "yellow",
+    "side": "AI",
+    "date": "2026-07-06",
+    "status": "pending",
+    "note": {
+      "ru": "Флагман дня: модель даёт ничью ~35-39% против ~26% в линии — крупнейшая расходимость с рынком. Иберийское дерби сжимает класс (паттерн J), у Испании нет обоих скоростных вингеров, судья Тэйлор рвёт ритм.",
+      "en": "Day s headline: the model has the draw at ~35-39% vs ~26% implied — the biggest market gap. The Iberian derby compresses class (pattern J), Spain miss both quick wingers, referee Taylor breaks the rhythm."
+    }
+  },
+  {
+    "id": 370,
+    "matchId": "portugal-spain",
+    "match": {
+      "ru": "Португалия — Испания",
+      "en": "Portugal — Spain"
+    },
+    "bet": {
+      "ru": "Проход Португалии (осн. время + ОТ + пенальти)",
+      "en": "Portugal to qualify (incl. extra time + penalties)"
+    },
+    "type": "Другое",
+    "odds": 2.65,
+    "tier": "yellow",
+    "side": "AI",
+    "date": "2026-07-06",
+    "status": "pending",
+    "note": {
+      "ru": "Ориентировочный — сверить спецрынок Фонбета. Если дерби дотянет до серии, крен на Кошту и прямой прецедент финала Лиги наций 2025 (2:2, пен 5:3). Рынок прохода шире и ценнее чистого П1 @4.10.",
+      "en": "Indicative — confirm the Fonbet special market. If the derby reaches a shootout, the lean is on Costa and the direct 2025 Nations League final precedent (2:2, 5:3 pens). The to-qualify market is wider and better value than a straight Portugal win @4.10."
+    }
+  },
+  {
+    "id": 371,
+    "matchId": "usa-belgium",
+    "match": {
+      "ru": "США — Бельгия",
+      "en": "USA — Belgium"
+    },
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5"
+    },
+    "type": "ТМ",
+    "odds": 2.1,
+    "tier": "green",
+    "side": "AI",
+    "date": "2026-07-06",
+    "status": "pending",
+    "note": {
+      "ru": "Обе атаки обескровлены (дисквал Балогуна у США, Лукаку в запасе у Бельгии), оба вратаря сильны, обе прошли 1/16 низово, кэджи pick-em. Не крупно: Бельгия способна взорваться.",
+      "en": "Both attacks drained (Balogun suspended for the USA, Lukaku benched for Belgium), both keepers strong, both through the round of 32 low-scoring, a cagey pick em. Not big: Belgium can explode."
+    }
+  },
+  {
+    "id": 372,
+    "match": {
+      "ru": "Португалия — Испания + США — Бельгия",
+      "en": "Portugal — Spain + USA — Belgium"
+    },
+    "bet": {
+      "ru": "Экспресс · точные счета дня",
+      "en": "Accumulator · scores of the day"
+    },
+    "type": "Экспресс",
+    "odds": 67.5,
+    "tier": "red",
+    "side": "AI",
+    "date": "2026-07-06",
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Португалия — Испания",
+          "en": "Portugal — Spain"
+        },
+        "p": {
+          "ru": "Точный счёт 1:1",
+          "en": "Correct score 1:1"
+        }
+      },
+      {
+        "m": {
+          "ru": "США — Бельгия",
+          "en": "USA — Belgium"
+        },
+        "p": {
+          "ru": "Точный счёт 0:0",
+          "en": "Correct score 0:0"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Красный экспресс из 2 точных счетов — модали обоих матчей (дерби размочит по разу; США-Бельгия — глухо и в серию). Кэф ориентировочный.",
+      "en": "Red accumulator of two correct scores — each match s modal (the derby trades one apiece; USA-Belgium cagey into a shootout). Odds indicative."
+    }
   }
 ]
