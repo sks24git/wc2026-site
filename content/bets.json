@@ -11067,45 +11067,24 @@
   {
     "id": 366,
     "match": {
-      "ru": "Бразилия — Норвегия + Мексика — Англия",
-      "en": "Brazil — Norway + Mexico — England"
+      "ru": "Бразилия — Норвегия",
+      "en": "Brazil — Norway"
     },
     "bet": {
-      "ru": "Экспресс · ОЗ-да + двойной шанс 1X",
-      "en": "Accumulator · BTTS-yes + double chance 1X"
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
     },
-    "type": "Экспресс",
-    "odds": 2.29,
+    "type": "ОЗ",
+    "odds": 1.53,
     "tier": "green",
     "side": "AI",
     "date": "2026-07-05",
     "status": "pending",
     "note": {
-      "ru": "Оба тезиса по реальным кэфам Фонбета проваливались под наш пол одиночками (1.53 и 1.50) — связали в один зелёный экспресс. Направления сохранены.",
-      "en": "At real Fonbet prices both theses were sub-floor as singles (1.53 and 1.50) — bundled into one green accumulator. Directions preserved."
+      "ru": "Основной прогноз матча. Норвегия с Холандом лезет вперёд, а не в автобус, Бразилия транжирит-но-забивает — обе отличаются. Кэф сверен с Фонбетом (ниже нашего пола, но держим как обязательную зелёную на матч).",
+      "en": "Match headline. Norway push forward with Haaland rather than parking the bus, Brazil are wasteful-but-scoring — both find the net. Odds checked against Fonbet (below our floor, but kept as the mandatory green for the match)."
     },
-    "legs": [
-      {
-        "m": {
-          "ru": "Бразилия — Норвегия",
-          "en": "Brazil — Norway"
-        },
-        "p": {
-          "ru": "Обе забьют — да",
-          "en": "Both teams to score — yes"
-        }
-      },
-      {
-        "m": {
-          "ru": "Мексика — Англия",
-          "en": "Mexico — England"
-        },
-        "p": {
-          "ru": "Двойной шанс 1X (Мексика или ничья)",
-          "en": "Double chance 1X (Mexico or draw)"
-        }
-      }
-    ]
+    "matchId": "brazil-norway"
   },
   {
     "id": 368,
@@ -11659,6 +11638,28 @@
     "note": {
       "ru": "Ориентировочный кэф. Логика Паши: результативная ничья у Бразилии и тесная у Мексики.",
       "en": "Indicative odds. Pasha’s logic: a high-scoring draw for Brazil and a tight one for Mexico."
+    },
+    "status": "pending",
+    "date": "2026-07-05"
+  },
+  {
+    "id": 388,
+    "match": {
+      "ru": "Мексика — Англия",
+      "en": "Mexico — England"
+    },
+    "matchId": "mexico-england",
+    "bet": {
+      "ru": "Двойной шанс 1X (Мексика или ничья)",
+      "en": "Double chance 1X (Mexico or draw)"
+    },
+    "type": "1Х",
+    "odds": 1.5,
+    "tier": "green",
+    "side": "AI",
+    "note": {
+      "ru": "Основной прогноз матча. Высота Ацтеки, перелёт и расшатанная оборона Англии плюс модель ниже рынка — фаворита не грузим. Кэф сверен (ниже пола, но обязательная зелёная на матч).",
+      "en": "Match headline. Azteca altitude, travel and England shaky defence plus a model below the market — we do not back the favourite outright. Odds checked (below floor, but the mandatory green for the match)."
     },
     "status": "pending",
     "date": "2026-07-05"
