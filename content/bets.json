@@ -11050,63 +11050,62 @@
       "en": "Brazil — Norway"
     },
     "bet": {
-      "ru": "Обе забьют — да",
-      "en": "Both teams to score — yes"
+      "ru": "Винисиус — удары всего больше 3.5",
+      "en": "Vinícius — total shots over 3.5"
     },
-    "type": "ОЗ",
-    "odds": 1.7,
+    "type": "Игрок",
+    "odds": 1.9,
     "tier": "green",
     "side": "AI",
     "date": "2026-07-05",
     "status": "pending",
     "note": {
-      "ru": "Ориентировочный кэф — сверить живую линию Фонбета. Профиль пары: две текущие обороны, Холанд с Эдегором, транжирящая-но-забивная Бразилия.",
-      "en": "Indicative odds — confirm the live Fonbet line. The tie profile: two leaky defences, Haaland with Ødegaard, a wasteful-but-scoring Brazil."
+      "ru": "Сверено с живой линией Фонбета. С Неймаром, Рафиньей и Пакетой на банке Винисиус тянет ударную нагрузку Бразилии на себя — высокий объём.",
+      "en": "Checked against the live Fonbet line. With Neymar, Raphinha and Paquetá benched, Vinícius carries Brazil’s shooting load — high volume."
     }
   },
   {
     "id": 366,
-    "matchId": "mexico-england",
     "match": {
-      "ru": "Мексика — Англия",
-      "en": "Mexico — England"
+      "ru": "Бразилия — Норвегия + Мексика — Англия",
+      "en": "Brazil — Norway + Mexico — England"
     },
     "bet": {
-      "ru": "Двойной шанс 1X (Мексика или ничья)",
-      "en": "Double chance 1X (Mexico or draw)"
+      "ru": "Экспресс · ОЗ-да + двойной шанс 1X",
+      "en": "Accumulator · BTTS-yes + double chance 1X"
     },
-    "type": "1Х",
-    "odds": 1.6,
+    "type": "Экспресс",
+    "odds": 2.29,
     "tier": "green",
     "side": "AI",
     "date": "2026-07-05",
     "status": "pending",
     "note": {
-      "ru": "Высота Ацтеки, перелёт и расшатанная оборона Англии + модель ниже рынка — фаворита не грузим. Из де-вигнутых П1/Х Фонбета.",
-      "en": "Azteca altitude, travel and a patched England defence + model below market — we don t load the favourite. Derived from de-vigged Fonbet home/draw."
-    }
-  },
-  {
-    "id": 367,
-    "matchId": "mexico-england",
-    "match": {
-      "ru": "Мексика — Англия",
-      "en": "Mexico — England"
+      "ru": "Оба тезиса по реальным кэфам Фонбета проваливались под наш пол одиночками (1.53 и 1.50) — связали в один зелёный экспресс. Направления сохранены.",
+      "en": "At real Fonbet prices both theses were sub-floor as singles (1.53 and 1.50) — bundled into one green accumulator. Directions preserved."
     },
-    "bet": {
-      "ru": "Инд. тотал угловых Англии больше 5.5",
-      "en": "England team corners over 5.5"
-    },
-    "type": "Другое",
-    "odds": 1.8,
-    "tier": "yellow",
-    "side": "AI",
-    "date": "2026-07-05",
-    "status": "pending",
-    "note": {
-      "ru": "Ориентировочный — сверить линию угловых Фонбета. Эдж рынка ушёл в тотал голов, угловые не заложены; Англия с мячом, Мексика вторым номером. Минимальный размер.",
-      "en": "Indicative — confirm the Fonbet corners line. The market s edge went into goals; corners unpriced; England on the ball, Mexico sitting in. Minimal stake."
-    }
+    "legs": [
+      {
+        "m": {
+          "ru": "Бразилия — Норвегия",
+          "en": "Brazil — Norway"
+        },
+        "p": {
+          "ru": "Обе забьют — да",
+          "en": "Both teams to score — yes"
+        }
+      },
+      {
+        "m": {
+          "ru": "Мексика — Англия",
+          "en": "Mexico — England"
+        },
+        "p": {
+          "ru": "Двойной шанс 1X (Мексика или ничья)",
+          "en": "Double chance 1X (Mexico or draw)"
+        }
+      }
+    ]
   },
   {
     "id": 368,
@@ -11368,5 +11367,300 @@
       "ru": "Красный экспресс из 2 точных счетов — модали обоих матчей (Аргентина дожимает разбитую оборону 2:1; Швейцария клинично 1:0). Кэф ориентировочный.",
       "en": "Red accumulator of two correct scores — each match s modal (Argentina grinds down the broken defence 2:1; Switzerland clinical 1:0). Odds indicative."
     }
+  },
+  {
+    "id": 377,
+    "match": {
+      "ru": "Бразилия — Норвегия",
+      "en": "Brazil — Norway"
+    },
+    "matchId": "brazil-norway",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.53,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Норвегия с Холандом и Эдегором лезет вперёд, а не в автобус — обе должны отличиться.",
+      "en": "Norway push forward with Haaland and Ødegaard rather than parking the bus — both should score."
+    },
+    "status": "pending",
+    "date": "2026-07-05"
+  },
+  {
+    "id": 378,
+    "match": {
+      "ru": "Бразилия — Норвегия",
+      "en": "Brazil — Norway"
+    },
+    "matchId": "brazil-norway",
+    "bet": {
+      "ru": "Первый тайм — больше 1.5",
+      "en": "First half — over 1.5"
+    },
+    "type": "1Т-рынок",
+    "odds": 2.4,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Ориентировочный кэф. Обе атакующие, старт бодрый — Паша ждёт два гола уже до перерыва.",
+      "en": "Indicative odds. Both attacking, lively start — Pasha expects two goals before the break."
+    },
+    "status": "pending",
+    "date": "2026-07-05"
+  },
+  {
+    "id": 379,
+    "match": {
+      "ru": "Бразилия — Норвегия",
+      "en": "Brazil — Norway"
+    },
+    "matchId": "brazil-norway",
+    "bet": {
+      "ru": "Обе половины — больше 1.5",
+      "en": "Both halves — over 1.5"
+    },
+    "type": "Другое",
+    "odds": 4.5,
+    "tier": "yellow",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Ориентировочный кэф. Голы в каждом из таймов.",
+      "en": "Indicative odds. Goals in each half."
+    },
+    "status": "pending",
+    "date": "2026-07-05"
+  },
+  {
+    "id": 380,
+    "match": {
+      "ru": "Бразилия — Норвегия",
+      "en": "Brazil — Norway"
+    },
+    "matchId": "brazil-norway",
+    "bet": {
+      "ru": "Пенальти в матче — да",
+      "en": "Penalty awarded in the match — yes"
+    },
+    "type": "Другое",
+    "odds": 2.3,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Ориентировочный кэф. Открытая игра плюс щедрый на 11-метровые VAR этого ЧМ.",
+      "en": "Indicative odds. Open game plus this World Cup’s VAR being generous with penalties."
+    },
+    "status": "pending",
+    "date": "2026-07-05"
+  },
+  {
+    "id": 381,
+    "match": {
+      "ru": "Бразилия — Норвегия",
+      "en": "Brazil — Norway"
+    },
+    "matchId": "brazil-norway",
+    "bet": {
+      "ru": "Тотал матча — больше 3.0",
+      "en": "Match total — over 3.0"
+    },
+    "type": "ТБ",
+    "odds": 2.05,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Ориентировочный кэф. Ставка на результативную игру двух атак. Целая линия: ровно 3 гола — возврат.",
+      "en": "Indicative odds. Backing a high-scoring game between two attacks. Whole line: exactly 3 goals — push."
+    },
+    "status": "pending",
+    "date": "2026-07-05"
+  },
+  {
+    "id": 382,
+    "match": {
+      "ru": "Бразилия — Норвегия",
+      "en": "Brazil — Norway"
+    },
+    "matchId": "brazil-norway",
+    "bet": {
+      "ru": "Угловые матча — больше 9.5",
+      "en": "Match corners — over 9.5"
+    },
+    "type": "Другое",
+    "odds": 1.88,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Норвегия — навесная команда (9+9+17 угловых в группе), Бразилия давит соперника — на двоих десятка набьётся.",
+      "en": "Norway are a crossing side (9+9+17 corners in the group) and Brazil pin opponents back — ten between them is on."
+    },
+    "status": "pending",
+    "date": "2026-07-05"
+  },
+  {
+    "id": 383,
+    "match": {
+      "ru": "Мексика — Англия",
+      "en": "Mexico — England"
+    },
+    "matchId": "mexico-england",
+    "bet": {
+      "ru": "Ничья в основное время",
+      "en": "Draw in regulation"
+    },
+    "type": "Х",
+    "odds": 3,
+    "tier": "yellow",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Паша держится своих слов: медленная Англия, Мексика дома на высоте — ничья в 90 минут.",
+      "en": "Pasha sticks to his word: slow England, Mexico at home at altitude — a draw in 90."
+    },
+    "status": "pending",
+    "date": "2026-07-05"
+  },
+  {
+    "id": 384,
+    "match": {
+      "ru": "Мексика — Англия",
+      "en": "Mexico — England"
+    },
+    "matchId": "mexico-england",
+    "bet": {
+      "ru": "Тотал матча — меньше 2.5",
+      "en": "Match total — under 2.5"
+    },
+    "type": "ТМ",
+    "odds": 1.7,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Ориентировочный кэф. Осторожная Англия в нокауте плюс высота Ацтеки давят темп.",
+      "en": "Indicative odds. Cautious knockout England plus the Azteca altitude suppress the tempo."
+    },
+    "status": "pending",
+    "date": "2026-07-05"
+  },
+  {
+    "id": 385,
+    "match": {
+      "ru": "Мексика — Англия",
+      "en": "Mexico — England"
+    },
+    "matchId": "mexico-england",
+    "bet": {
+      "ru": "Угловые — фора Англии −1.5",
+      "en": "Corners — England handicap −1.5"
+    },
+    "type": "АФ",
+    "odds": 1.9,
+    "tier": "green",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Англия с мячом против низкого блока Мексики копит угловые — берёт по угловым с запасом.",
+      "en": "England with the ball against Mexico’s low block rack up corners — win the corner count comfortably."
+    },
+    "status": "pending",
+    "date": "2026-07-05"
+  },
+  {
+    "id": 386,
+    "match": {
+      "ru": "Бразилия — Норвегия + Мексика — Англия",
+      "en": "Brazil — Norway + Mexico — England"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Бразилия — Норвегия",
+          "en": "Brazil — Norway"
+        },
+        "p": {
+          "ru": "Ничья",
+          "en": "Draw"
+        }
+      },
+      {
+        "m": {
+          "ru": "Мексика — Англия",
+          "en": "Mexico — England"
+        },
+        "p": {
+          "ru": "Ничья",
+          "en": "Draw"
+        }
+      }
+    ],
+    "bet": {
+      "ru": "Экспресс · две ничьи в основное время",
+      "en": "Accumulator · two draws in regulation"
+    },
+    "type": "Экспресс",
+    "odds": 10.5,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Ориентировочный кэф. Обе пары, по чтению Паши, тянут к ничьей в основное время.",
+      "en": "Indicative odds. Both ties, in Pasha’s read, lean to a regulation draw."
+    },
+    "status": "pending",
+    "date": "2026-07-05"
+  },
+  {
+    "id": 387,
+    "match": {
+      "ru": "Бразилия — Норвегия + Мексика — Англия",
+      "en": "Brazil — Norway + Mexico — England"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Бразилия — Норвегия",
+          "en": "Brazil — Norway"
+        },
+        "p": {
+          "ru": "Точный счёт 2:2",
+          "en": "Correct score 2:2"
+        }
+      },
+      {
+        "m": {
+          "ru": "Мексика — Англия",
+          "en": "Mexico — England"
+        },
+        "p": {
+          "ru": "Точный счёт 1:1",
+          "en": "Correct score 1:1"
+        }
+      }
+    ],
+    "bet": {
+      "ru": "Экспресс · точные счета 2:2 и 1:1",
+      "en": "Accumulator · correct scores 2:2 and 1:1"
+    },
+    "type": "Экспресс",
+    "odds": 90,
+    "tier": "red",
+    "side": "Паша",
+    "contest": true,
+    "note": {
+      "ru": "Ориентировочный кэф. Логика Паши: результативная ничья у Бразилии и тесная у Мексики.",
+      "en": "Indicative odds. Pasha’s logic: a high-scoring draw for Brazil and a tight one for Mexico."
+    },
+    "status": "pending",
+    "date": "2026-07-05"
   }
 ]
