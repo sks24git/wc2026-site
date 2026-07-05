@@ -11041,5 +11041,114 @@
       "ru": "✗ 0:3 вместо 1:2 — точный счёт мимо, экспресс сгорел.",
       "en": "✗ 0-3 not 1-2 — correct score missed, the acca is dead."
     }
+  },
+  {
+    "id": 365,
+    "matchId": "brazil-norway",
+    "match": {
+      "ru": "Бразилия — Норвегия",
+      "en": "Brazil — Norway"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.7,
+    "tier": "green",
+    "side": "AI",
+    "date": "2026-07-05",
+    "status": "pending",
+    "note": {
+      "ru": "Ориентировочный кэф — сверить живую линию Фонбета. Профиль пары: две текущие обороны, Холанд с Эдегором, транжирящая-но-забивная Бразилия.",
+      "en": "Indicative odds — confirm the live Fonbet line. The tie profile: two leaky defences, Haaland with Ødegaard, a wasteful-but-scoring Brazil."
+    }
+  },
+  {
+    "id": 366,
+    "matchId": "mexico-england",
+    "match": {
+      "ru": "Мексика — Англия",
+      "en": "Mexico — England"
+    },
+    "bet": {
+      "ru": "Двойной шанс 1X (Мексика или ничья)",
+      "en": "Double chance 1X (Mexico or draw)"
+    },
+    "type": "1Х",
+    "odds": 1.6,
+    "tier": "green",
+    "side": "AI",
+    "date": "2026-07-05",
+    "status": "pending",
+    "note": {
+      "ru": "Высота Ацтеки, перелёт и расшатанная оборона Англии + модель ниже рынка — фаворита не грузим. Из де-вигнутых П1/Х Фонбета.",
+      "en": "Azteca altitude, travel and a patched England defence + model below market — we don t load the favourite. Derived from de-vigged Fonbet home/draw."
+    }
+  },
+  {
+    "id": 367,
+    "matchId": "mexico-england",
+    "match": {
+      "ru": "Мексика — Англия",
+      "en": "Mexico — England"
+    },
+    "bet": {
+      "ru": "Инд. тотал угловых Англии больше 5.5",
+      "en": "England team corners over 5.5"
+    },
+    "type": "Другое",
+    "odds": 1.8,
+    "tier": "yellow",
+    "side": "AI",
+    "date": "2026-07-05",
+    "status": "pending",
+    "note": {
+      "ru": "Ориентировочный — сверить линию угловых Фонбета. Эдж рынка ушёл в тотал голов, угловые не заложены; Англия с мячом, Мексика вторым номером. Минимальный размер.",
+      "en": "Indicative — confirm the Fonbet corners line. The market s edge went into goals; corners unpriced; England on the ball, Mexico sitting in. Minimal stake."
+    }
+  },
+  {
+    "id": 368,
+    "match": {
+      "ru": "Бразилия — Норвегия + Мексика — Англия",
+      "en": "Brazil — Norway + Mexico — England"
+    },
+    "bet": {
+      "ru": "Экспресс · точные счета дня",
+      "en": "Accumulator · scores of the day"
+    },
+    "type": "Экспресс",
+    "odds": 48.75,
+    "tier": "red",
+    "side": "AI",
+    "date": "2026-07-05",
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Бразилия — Норвегия",
+          "en": "Brazil — Norway"
+        },
+        "p": {
+          "ru": "Точный счёт 2:1",
+          "en": "Correct score 2:1"
+        }
+      },
+      {
+        "m": {
+          "ru": "Мексика — Англия",
+          "en": "Mexico — England"
+        },
+        "p": {
+          "ru": "Точный счёт 1:1",
+          "en": "Correct score 1:1"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Красный экспресс из 2 точных счетов — модальные счета обоих матчей. Кэф ориентировочный.",
+      "en": "Red accumulator of two correct scores — the modal score of each match. Odds indicative."
+    }
   }
 ]
