@@ -11382,13 +11382,13 @@
       "en": "First half — over 1.5"
     },
     "type": "1Т-рынок",
-    "odds": 2.4,
+    "odds": 2.45,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "Ориентировочный кэф. Обе атакующие, старт бодрый — Паша ждёт два гола уже до перерыва.",
-      "en": "Indicative odds. Both attacking, lively start — Pasha expects two goals before the break."
+      "ru": "По линии Фонбета. Обе атакующие, старт бодрый — Паша ждёт два гола уже до перерыва.",
+      "en": "Per the Fonbet line. Both attacking, lively start — Pasha expects two goals before the break."
     },
     "status": "pending",
     "date": "2026-07-05"
@@ -11410,8 +11410,8 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "Ориентировочный кэф. Голы в каждом из таймов.",
-      "en": "Indicative odds. Goals in each half."
+      "ru": "По линии Фонбета. Голы в каждом из таймов.",
+      "en": "Per the Fonbet line. Goals in each half."
     },
     "status": "pending",
     "date": "2026-07-05"
@@ -11428,13 +11428,13 @@
       "en": "Penalty awarded in the match — yes"
     },
     "type": "Другое",
-    "odds": 2.3,
-    "tier": "green",
+    "odds": 2.9,
+    "tier": "yellow",
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "Ориентировочный кэф. Открытая игра плюс щедрый на 11-метровые VAR этого ЧМ.",
-      "en": "Indicative odds. Open game plus this World Cup’s VAR being generous with penalties."
+      "ru": "По линии Фонбета. Открытая игра плюс щедрый на 11-метровые VAR этого ЧМ.",
+      "en": "Per the Fonbet line. Open game plus this World Cup VAR being generous with penalties."
     },
     "status": "pending",
     "date": "2026-07-05"
@@ -11451,13 +11451,13 @@
       "en": "Match total — over 3.0"
     },
     "type": "ТБ",
-    "odds": 2.05,
+    "odds": 2.15,
     "tier": "green",
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "Ориентировочный кэф. Ставка на результативную игру двух атак. Целая линия: ровно 3 гола — возврат.",
-      "en": "Indicative odds. Backing a high-scoring game between two attacks. Whole line: exactly 3 goals — push."
+      "ru": "По линии Фонбета. Ставка на результативную игру двух атак. Целая линия: ровно 3 гола — возврат.",
+      "en": "Per the Fonbet line. Backing a high-scoring game between two attacks. Whole line: exactly 3 goals — push."
     },
     "status": "pending",
     "date": "2026-07-05"
