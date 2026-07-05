@@ -1,3 +1,13 @@
+## Result: Brazil 1:2 Norway — a shock, Haaland dumps Brazil out
+
+**A brace from Erling Haaland (79' with a header, ~90' from 20 yards) knocked Brazil out of the round of 16. Neymar pulled one back from the spot in stoppage time (90+10'), but too late. Half-time was 0:0. The pivotal moment: Bruno Guimarães's missed penalty at 14' (saved by Nyland); the second penalty, at the death, Neymar converted. Corners 5:5. Norway reach a World Cup quarter-final for the first time in decades — where the Mexico — England winner awaits.**
+
+**Settlement.** Ours: 🟢 both-to-score — landed ✓; 🟢 Vinícius over 3.5 shots — missed (just 1 shot, Brazil were smothered); 🔴 correct-score accumulator — gone (score not 2:1). Cross-match legs await Mexico: the BTTS + 1X accumulator (the BTTS leg already landed). Pasha's: 🟢 both-to-score ✓, 🟡 penalty in the match ✓ (there were two), total over 3.0 — push (exactly 3 goals); first half over 1.5 and "both halves over 1.5" — lost (half 0:0); the "two draws" and "correct scores 2:2 and 1:1" accumulators — lost; the corners accumulator awaits England (the Brazil — Norway leg landed — 10 corners).
+
+**Lesson.** The shock fits our own pattern exactly: an organised Norway with vertical thrust and a clinical striker took out a wasteful Brazil (patterns F+I), and the missed 14' penalty was that very Brazilian game-management. The bet on "Vinícius's shot volume" collapsed to zero: against a compact block and without Neymar and Raphinha there was no supply — one shot all game. Lesson: don't overrate an individual's "volume" when his team is pinned back.
+
+---
+
 ## Brazil — Norway · 05.07, 23:00 MSK · MetLife Stadium, East Rutherford
 
 **The most open tie of the round: a clinical Haaland and a goal-happy Norway against Brazil's attack — and Brazil's habit of not putting a game to bed. Both scraped through the round of 32 with a late goal, both leak at the back. The market expects goals — and so do we, not through the result but through both teams scoring.**

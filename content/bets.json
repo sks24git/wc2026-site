@@ -11058,10 +11058,10 @@
     "tier": "green",
     "side": "AI",
     "date": "2026-07-05",
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Сверено с живой линией Фонбета. С Неймаром, Рафиньей и Пакетой на банке Винисиус тянет ударную нагрузку Бразилии на себя — высокий объём.",
-      "en": "Checked against the live Fonbet line. With Neymar, Raphinha and Paquetá benched, Vinícius carries Brazil’s shooting load — high volume."
+      "ru": "✗ Винисиус нанёс всего 1 удар (40-я мин, парировал Нюланд) — Бразилию задавили, а не наоборот.",
+      "en": "✗ Vinícius managed only 1 shot (40 min, saved by Nyland) — Brazil were smothered, not the other way round."
     }
   },
   {
@@ -11079,10 +11079,10 @@
     "tier": "green",
     "side": "AI",
     "date": "2026-07-05",
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Основной прогноз матча. Норвегия с Холандом лезет вперёд, а не в автобус, Бразилия транжирит-но-забивает — обе отличаются. Кэф сверен с Фонбетом (ниже нашего пола, но держим как обязательную зелёную на матч).",
-      "en": "Match headline. Norway push forward with Haaland rather than parking the bus, Brazil are wasteful-but-scoring — both find the net. Odds checked against Fonbet (below our floor, but kept as the mandatory green for the match)."
+      "ru": "✓ Обе забили — Норвегия 2, Бразилия 1 (пенальти Неймара).",
+      "en": "✓ Both scored — Norway 2, Brazil 1 (Neymar penalty)."
     },
     "matchId": "brazil-norway"
   },
@@ -11101,7 +11101,7 @@
     "tier": "red",
     "side": "AI",
     "date": "2026-07-05",
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -11125,8 +11125,8 @@
       }
     ],
     "note": {
-      "ru": "Красный экспресс из 2 точных счетов — модальные счета обоих матчей. Кэф ориентировочный.",
-      "en": "Red accumulator of two correct scores — the modal score of each match. Odds indicative."
+      "ru": "✗ Бразилия — Норвегия 1:2, не 2:1 — экспресс точных счетов сгорел.",
+      "en": "✗ Brazil — Norway 1:2, not 2:1 — the correct-score accumulator is gone."
     }
   },
   {
@@ -11364,10 +11364,10 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "Норвегия с Холандом и Эдегором лезет вперёд, а не в автобус — обе должны отличиться.",
-      "en": "Norway push forward with Haaland and Ødegaard rather than parking the bus — both should score."
+      "ru": "✓ Обе забили — Норвегия 2, Бразилия 1 (пенальти Неймара).",
+      "en": "✓ Both scored — Norway 2, Brazil 1 (Neymar penalty)."
     },
-    "status": "pending",
+    "status": "win",
     "date": "2026-07-05"
   },
   {
@@ -11387,10 +11387,10 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "По линии Фонбета. Обе атакующие, старт бодрый — Паша ждёт два гола уже до перерыва.",
-      "en": "Per the Fonbet line. Both attacking, lively start — Pasha expects two goals before the break."
+      "ru": "✗ Первый тайм 0:0 — до перерыва голов не было.",
+      "en": "✗ First half 0:0 — no goals before the break."
     },
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-05"
   },
   {
@@ -11410,10 +11410,10 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "По линии Фонбета. Голы в каждом из таймов.",
-      "en": "Per the Fonbet line. Goals in each half."
+      "ru": "✗ В первом тайме голов не было (0:0).",
+      "en": "✗ No goals in the first half (0:0)."
     },
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-05"
   },
   {
@@ -11433,10 +11433,10 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "Кэф Паши 2.75. Открытая игра плюс щедрый на 11-метровые VAR этого ЧМ.",
-      "en": "Pasha odds 2.75. Open game plus this World Cup VAR being generous with penalties."
+      "ru": "✓ Назначались два пенальти: Бруно не забил на 14-й, Неймар реализовал на 90+10-й.",
+      "en": "✓ Two penalties awarded: Bruno missed at 14 min, Neymar scored at 90+10."
     },
-    "status": "pending",
+    "status": "win",
     "date": "2026-07-05"
   },
   {
@@ -11456,10 +11456,10 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "По линии Фонбета. Ставка на результативную игру двух атак. Целая линия: ровно 3 гола — возврат.",
-      "en": "Per the Fonbet line. Backing a high-scoring game between two attacks. Whole line: exactly 3 goals — push."
+      "ru": "↩ Ровно 3 гола — целая линия 3.0, возврат ставки.",
+      "en": "↩ Exactly 3 goals — whole line 3.0, stake returned."
     },
-    "status": "pending",
+    "status": "void",
     "date": "2026-07-05"
   },
   {
@@ -11546,10 +11546,10 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "По линии Фонбета (ничья Мек 3.15 × ничья Бра 3.75). Обе пары, по чтению Паши, тянут к ничьей в основное время.",
-      "en": "Per the Fonbet line (Mex draw 3.15 × Bra draw 3.75). Both ties, in Pasha reading, lean to a regulation draw."
+      "ru": "✗ Бразилия — Норвегия не вничью (1:2) — экспресс сгорел.",
+      "en": "✗ Brazil — Norway not a draw (1:2) — accumulator lost."
     },
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-05"
   },
   {
@@ -11590,10 +11590,10 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "Ориентировочный кэф. Логика Паши: результативная ничья у Бразилии и тесная у Мексики.",
-      "en": "Indicative odds. Pasha’s logic: a high-scoring draw for Brazil and a tight one for Mexico."
+      "ru": "✗ Бразилия — Норвегия 1:2, не 2:2 — экспресс сгорел.",
+      "en": "✗ Brazil — Norway 1:2, not 2:2 — accumulator lost."
     },
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-05"
   },
   {
@@ -11655,8 +11655,8 @@
       }
     ],
     "note": {
-      "ru": "Оба наших основных прогноза дня в одной ставке — усиление сверху к одиночкам.",
-      "en": "Both our headline calls of the day in one bet — a booster on top of the singles."
+      "ru": "Позиция «обе забьют» зашла. Ждём двойной шанс 1X в Мексика—Англия.",
+      "en": "BTTS-yes leg landed. Awaiting the 1X double chance in Mexico — England."
     },
     "status": "pending",
     "date": "2026-07-05"
@@ -11699,8 +11699,8 @@
       }
     ],
     "note": {
-      "ru": "Паша объединил угловые обоих матчей: навесная Норвегия плюс перевес Англии над низким блоком Мексики. Отдельной зелёной угловые Бразилии не берёт.",
-      "en": "Pasha combined both games corners: crossing Norway plus England edge over Mexico low block. He does not take Brazil corners as a standalone green."
+      "ru": "Позиция Бра—Нор зашла (угловых 10, больше 9.5). Ждём угловые Мексика—Англия (фора Англии −1.5).",
+      "en": "Brazil — Norway leg landed (10 corners, over 9.5). Awaiting Mexico — England corners (England −1.5)."
     },
     "status": "pending",
     "date": "2026-07-05"
