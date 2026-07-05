@@ -11259,5 +11259,114 @@
       "ru": "Красный экспресс из 2 точных счетов — модали обоих матчей (дерби размочит по разу; США-Бельгия — глухо и в серию). Кэф ориентировочный.",
       "en": "Red accumulator of two correct scores — each match s modal (the derby trades one apiece; USA-Belgium cagey into a shootout). Odds indicative."
     }
+  },
+  {
+    "id": 373,
+    "matchId": "argentina-egypt",
+    "match": {
+      "ru": "Аргентина — Египет",
+      "en": "Argentina — Egypt"
+    },
+    "bet": {
+      "ru": "Инд. тотал Аргентины больше 1.5",
+      "en": "Argentina team total over 1.5"
+    },
+    "type": "ИТ",
+    "odds": 1.65,
+    "tier": "green",
+    "side": "AI",
+    "date": "2026-07-07",
+    "status": "pending",
+    "note": {
+      "ru": "Эдж против рынка: Аргентина забивает 2+ в 4 из 5, оборона Египта разбита травмами (опорник в ЦЗ, оба ЛЗ вне игры, 2 автогола). Рынок клонит в низ — фейдим. Безопаснее форы −1.5. Кэф ориентировочный.",
+      "en": "Edge vs market: Argentina score 2+ in 4 of 5, Egypt s defence broken by injuries (a DM at CB, both LBs out, 2 own goals). The market leans under — we fade it. Safer than −1.5. Odds indicative."
+    }
+  },
+  {
+    "id": 374,
+    "matchId": "argentina-egypt",
+    "match": {
+      "ru": "Аргентина — Египет",
+      "en": "Argentina — Egypt"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 2.5,
+    "tier": "yellow",
+    "side": "AI",
+    "date": "2026-07-07",
+    "status": "pending",
+    "note": {
+      "ru": "Египет ОЗ-да во всех 4 матчах ЧМ + Салах на контратаке против протекающей обороны Аргентины (2 гола от Кабо-Верде). Рынок ошибочно закладывает сухую победу. Ориентировочный; если снап <2.5 — зелёная.",
+      "en": "Egypt BTTS in all 4 games + Salah on the break against Argentina s leaky defence (2 goals shipped to Cape Verde). The market wrongly prices a clean sheet. Indicative; if the snap is <2.5, it s green."
+    }
+  },
+  {
+    "id": 375,
+    "matchId": "switzerland-colombia",
+    "match": {
+      "ru": "Швейцария — Колумбия",
+      "en": "Switzerland — Colombia"
+    },
+    "bet": {
+      "ru": "Двойной шанс 1X (Швейцария или ничья)",
+      "en": "Double chance 1X (Switzerland or draw)"
+    },
+    "type": "1Х",
+    "odds": 1.65,
+    "tier": "green",
+    "side": "AI",
+    "date": "2026-07-07",
+    "status": "pending",
+    "note": {
+      "ru": "Эдж модель↔рынок: Швейцария по модели 34% против ~26% в линии. Вся логистика за неё (ноль перелётов, +день отдыха, третий матч в Ванкувере), реактивно-клинический стиль. Рынок переоценил Колумбию. Кэф ориентировочный.",
+      "en": "Model-vs-market edge: Switzerland 34% on the model vs ~26% implied. All logistics favour them (zero travel, +1 rest day, third match in Vancouver), a reactive-clinical style. The market overrated Colombia. Odds indicative."
+    }
+  },
+  {
+    "id": 376,
+    "match": {
+      "ru": "Аргентина — Египет + Швейцария — Колумбия",
+      "en": "Argentina — Egypt + Switzerland — Colombia"
+    },
+    "bet": {
+      "ru": "Экспресс · точные счета дня",
+      "en": "Accumulator · scores of the day"
+    },
+    "type": "Экспресс",
+    "odds": 59.5,
+    "tier": "red",
+    "side": "AI",
+    "date": "2026-07-07",
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Аргентина — Египет",
+          "en": "Argentina — Egypt"
+        },
+        "p": {
+          "ru": "Точный счёт 2:1",
+          "en": "Correct score 2:1"
+        }
+      },
+      {
+        "m": {
+          "ru": "Швейцария — Колумбия",
+          "en": "Switzerland — Colombia"
+        },
+        "p": {
+          "ru": "Точный счёт 1:0",
+          "en": "Correct score 1:0"
+        }
+      }
+    ],
+    "note": {
+      "ru": "Красный экспресс из 2 точных счетов — модали обоих матчей (Аргентина дожимает разбитую оборону 2:1; Швейцария клинично 1:0). Кэф ориентировочный.",
+      "en": "Red accumulator of two correct scores — each match s modal (Argentina grinds down the broken defence 2:1; Switzerland clinical 1:0). Odds indicative."
+    }
   }
 ]
