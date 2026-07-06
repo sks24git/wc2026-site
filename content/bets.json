@@ -11906,7 +11906,8 @@
     "why": {
       "ru": "В дерби на вылет кто-то наверняка отыграется из-за спины — Паша ставит на волевой сюжет.",
       "en": "In a knockout derby someone likely comes from behind — Pasha bets on the comeback story."
-    }
+    },
+    "stake": 1000
   },
   {
     "id": 400,
@@ -11929,7 +11930,8 @@
     "why": {
       "ru": "Открытый матч с качелями — Паша ждёт, что уступающая по ходу команда перевернёт игру.",
       "en": "A swingy, open game — Pasha expects the trailing side to turn it around."
-    }
+    },
+    "stake": 1000
   },
   {
     "id": 401,
