@@ -11699,10 +11699,10 @@
       }
     ],
     "note": {
-      "ru": "Позиция Бра—Нор зашла (угловых 10, больше 9.5). Ждём угловые Мексика—Англия (фора Англии −1.5).",
-      "en": "Brazil — Norway leg landed (10 corners, over 9.5). Awaiting Mexico — England corners (England −1.5)."
+      "ru": "✗ Позиция Бра—Нор зашла (10 угловых), но Англия вдесятером подала лишь 2 угловых против 12 у Мексики — фора Англии −1.5 не зашла, экспресс сгорел.",
+      "en": "✗ The Bra-Nor leg landed (10 corners), but England, a man down, had just 2 corners to Mexico's 12 — the England -1.5 corner handicap failed, accumulator lost."
     },
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-05"
   }
 ]
