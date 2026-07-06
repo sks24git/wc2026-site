@@ -11479,10 +11479,10 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "По линии Фонбета. Паша держится своих слов: медленная Англия, Мексика дома на высоте — ничья в 90 минут.",
-      "en": "Per the Fonbet line. Pasha sticks to his word: slow England, Mexico at home at altitude — a draw in 90."
+      "ru": "✗ Не ничья — Англия победила 3:2.",
+      "en": "✗ Not a draw — England won 3:2."
     },
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-05"
   },
   {
@@ -11502,10 +11502,10 @@
     "side": "Паша",
     "contest": true,
     "note": {
-      "ru": "По линии Фонбета. Осторожная Англия в нокауте плюс высота Ацтеки давят темп.",
-      "en": "Per the Fonbet line. Cautious knockout England plus the Azteca altitude suppress the tempo."
+      "ru": "✗ Пять голов в матче (2:3) — тотал вышел за 2.5.",
+      "en": "✗ Five goals in the game (2:3) — total went over 2.5."
     },
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-05"
   },
   {
@@ -11612,10 +11612,10 @@
     "tier": "green",
     "side": "AI",
     "note": {
-      "ru": "Основной прогноз матча. Высота Ацтеки, перелёт и расшатанная оборона Англии плюс модель ниже рынка — фаворита не грузим. Кэф сверен (ниже пола, но обязательная зелёная на матч).",
-      "en": "Match headline. Azteca altitude, travel and England shaky defence plus a model below the market — we do not back the favourite outright. Odds checked (below floor, but the mandatory green for the match)."
+      "ru": "✗ Англия выиграла 3:2 в основное время — двойной шанс на Мексику/ничью не зашёл.",
+      "en": "✗ England won 3:2 in regulation — the double chance on Mexico/draw did not land."
     },
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-05"
   },
   {
@@ -11655,10 +11655,10 @@
       }
     ],
     "note": {
-      "ru": "Позиция «обе забьют» зашла. Ждём двойной шанс 1X в Мексика—Англия.",
-      "en": "BTTS-yes leg landed. Awaiting the 1X double chance in Mexico — England."
+      "ru": "✗ Позиция «обе забьют» (Бра—Нор) зашла, но 1X в Мексика—Англия проиграл (3:2) — экспресс сгорел.",
+      "en": "✗ The both-to-score leg (Bra-Nor) landed, but the 1X in Mexico — England lost (3:2) — accumulator gone."
     },
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-05"
   },
   {

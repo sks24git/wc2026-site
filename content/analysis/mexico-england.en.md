@@ -1,3 +1,13 @@
+## Result: Mexico 2:3 England — a thriller at the Azteca, Bellingham delivers with ten men
+
+**No low-scoring game at all: five goals and chaos. A Jude Bellingham brace in two minutes (36', 38') plus a Quiñones goal on 42' made it 1:2 at the break. On 54' Quansah was sent off (VAR), but England saw it out even a man down: Kane's penalty on 60' (foul on Gordon) made it 1:3, Jiménez's penalty in reply revived the tie (2:3), but Mexico could not rescue it. No extra time — England into the quarter-final, where Norway await. A rout of our low-scoring read: the lineups (two attacking trios, leaky defences) worked exactly against us.**
+
+**Settlement.** All ours missed: 🟢 1X (Mexico/draw) — ❌ (England 3:2); 🟡 the BTTS × 1X accumulator — ❌ (the BTTS leg landed, but 1X lost). Pasha's: draw — ❌, Under 2.5 — ❌ (five goals); his corners accumulator awaits the split corner counts (the Bra-Nor leg already landed). Both sides' red correct-score accumulators (with this game's score in them) had already gone on Brazil.
+
+**Lesson.** A classic low-consensus failure: we rightly did NOT load the favourite on the result, but we went into draw/1X/Under — and the lineups screamed the opposite. The official XIs (Mexico with two strikers and no Álvarez shield + England's improvised right flank) I myself flagged as a shift toward BTTS-yes @1.95 — and BTTS-yes is exactly what would have landed, yet we passed on it precisely because it "fought our low read." Lesson: when team-news clearly exposes both defences, trust that signal against your own prepared narrative rather than waving it away. Also, the red card did not save Mexico — England beat them even a man down: class plus two penalties.
+
+---
+
 ## Mexico — England · 06.07, 03:00 MSK · Estadio Azteca, Mexico City (altitude ~2250 m)
 
 **The Azteca, 2,241 metres — and England arrive with no altitude acclimatisation against a host on four straight clean sheets. A tight, low-scoring game, but the value isn't in loading the favourite: the model holds England below the market, the modal score is 1:1, and beyond that lies the land of nerves and, possibly, a shootout.**
