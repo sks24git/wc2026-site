@@ -11440,29 +11440,6 @@
     "date": "2026-07-05"
   },
   {
-    "id": 381,
-    "match": {
-      "ru": "Бразилия — Норвегия",
-      "en": "Brazil — Norway"
-    },
-    "matchId": "brazil-norway",
-    "bet": {
-      "ru": "Тотал матча — больше 3.0",
-      "en": "Match total — over 3.0"
-    },
-    "type": "ТБ",
-    "odds": 2.15,
-    "tier": "green",
-    "side": "Паша",
-    "contest": true,
-    "note": {
-      "ru": "↩ Ровно 3 гола — целая линия 3.0, возврат ставки.",
-      "en": "↩ Exactly 3 goals — whole line 3.0, stake returned."
-    },
-    "status": "void",
-    "date": "2026-07-05"
-  },
-  {
     "id": 383,
     "match": {
       "ru": "Мексика — Англия",
@@ -11481,29 +11458,6 @@
     "note": {
       "ru": "✗ Не ничья — Англия победила 3:2.",
       "en": "✗ Not a draw — England won 3:2."
-    },
-    "status": "lose",
-    "date": "2026-07-05"
-  },
-  {
-    "id": 384,
-    "match": {
-      "ru": "Мексика — Англия",
-      "en": "Mexico — England"
-    },
-    "matchId": "mexico-england",
-    "bet": {
-      "ru": "Тотал матча — меньше 2.5",
-      "en": "Match total — under 2.5"
-    },
-    "type": "ТМ",
-    "odds": 1.58,
-    "tier": "green",
-    "side": "Паша",
-    "contest": true,
-    "note": {
-      "ru": "✗ Пять голов в матче (2:3) — тотал вышел за 2.5.",
-      "en": "✗ Five goals in the game (2:3) — total went over 2.5."
     },
     "status": "lose",
     "date": "2026-07-05"
@@ -11701,6 +11655,50 @@
     "note": {
       "ru": "✗ Позиция Бра—Нор зашла (10 угловых), но Англия вдесятером подала лишь 2 угловых против 12 у Мексики — фора Англии −1.5 не зашла, экспресс сгорел.",
       "en": "✗ The Bra-Nor leg landed (10 corners), but England, a man down, had just 2 corners to Mexico's 12 — the England -1.5 corner handicap failed, accumulator lost."
+    },
+    "status": "lose",
+    "date": "2026-07-05"
+  },
+  {
+    "id": 391,
+    "match": {
+      "ru": "Бразилия — Норвегия + Мексика — Англия",
+      "en": "Brazil — Norway + Mexico — England"
+    },
+    "bet": {
+      "ru": "Экспресс · ТБ 3.0 (Бра—Нор) + ТМ 2.5 (Мек—Англ)",
+      "en": "Accumulator · Over 3.0 (Bra-Nor) + Under 2.5 (Mex-Eng)"
+    },
+    "type": "Экспресс",
+    "odds": 3.4,
+    "tier": "yellow",
+    "side": "Паша",
+    "contest": true,
+    "legs": [
+      {
+        "m": {
+          "ru": "Бразилия — Норвегия",
+          "en": "Brazil — Norway"
+        },
+        "p": {
+          "ru": "Тотал больше 3.0",
+          "en": "Total over 3.0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Мексика — Англия",
+          "en": "Mexico — England"
+        },
+        "p": {
+          "ru": "Тотал меньше 2.5",
+          "en": "Total under 2.5"
+        }
+      }
+    ],
+    "note": {
+      "ru": "✗ Позиция ТБ3.0 (Бра—Нор) — возврат (ровно 3 гола, кэф 1.0), но ТМ2.5 (Мек—Англ) проиграла (5 голов) → экспресс сгорел. Поправлено: изначально ошибочно стояло двумя одиночками.",
+      "en": "✗ The Over 3.0 leg (Bra-Nor) was a push (exactly 3 goals, odds 1.0), but Under 2.5 (Mex-Eng) lost (5 goals) → the accumulator is gone. Corrected: it was wrongly published as two singles."
     },
     "status": "lose",
     "date": "2026-07-05"
