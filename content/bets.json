@@ -11702,5 +11702,277 @@
     },
     "status": "lose",
     "date": "2026-07-05"
+  },
+  {
+    "id": 392,
+    "match": {
+      "ru": "Португалия — Испания",
+      "en": "Portugal — Spain"
+    },
+    "matchId": "portugal-spain",
+    "bet": {
+      "ru": "Испания — фора −1",
+      "en": "Spain −1 handicap"
+    },
+    "type": "АФ",
+    "odds": 2.65,
+    "tier": "green",
+    "side": "Паша",
+    "date": "2026-07-06",
+    "contest": true,
+    "status": "pending",
+    "why": {
+      "ru": "Испания сильнее по всем линиям и должна проходить Португалию уверенно — Паша берёт победу с запасом в два мяча.",
+      "en": "Spain is stronger across the board and should get past Portugal comfortably — Pasha backs a two-goal winning margin."
+    }
+  },
+  {
+    "id": 393,
+    "match": {
+      "ru": "Португалия — Испания",
+      "en": "Portugal — Spain"
+    },
+    "matchId": "portugal-spain",
+    "bet": {
+      "ru": "Тотал жёлтых карточек — больше 2.5",
+      "en": "Total yellow cards — Over 2.5"
+    },
+    "type": "Другое",
+    "odds": 1.67,
+    "tier": "green",
+    "side": "Паша",
+    "date": "2026-07-06",
+    "contest": true,
+    "status": "pending",
+    "why": {
+      "ru": "Пиренейское дерби на вылет — нервы, жёсткие стыки, споры с судьёй: Паша ждёт минимум три горчичника.",
+      "en": "A knockout Iberian derby — nerves, hard tackles, arguments with the ref: Pasha expects at least three bookings."
+    }
+  },
+  {
+    "id": 394,
+    "match": {
+      "ru": "Португалия — Испания",
+      "en": "Portugal — Spain"
+    },
+    "matchId": "portugal-spain",
+    "bet": {
+      "ru": "Гол в каждом тайме",
+      "en": "A goal in each half"
+    },
+    "type": "Другое",
+    "odds": 1.6,
+    "tier": "green",
+    "side": "Паша",
+    "date": "2026-07-06",
+    "contest": true,
+    "status": "pending",
+    "why": {
+      "ru": "Две сильные атаки и высокая цена ошибки — Паша ждёт, что мяч зайдёт и до перерыва, и после.",
+      "en": "Two strong attacks and high stakes — Pasha expects the ball in the net before and after the break."
+    }
+  },
+  {
+    "id": 395,
+    "match": {
+      "ru": "США — Бельгия",
+      "en": "USA — Belgium"
+    },
+    "matchId": "usa-belgium",
+    "bet": {
+      "ru": "2-й тайм — больше 1.5",
+      "en": "Second half — Over 1.5"
+    },
+    "type": "1Т-рынок",
+    "odds": 1.8,
+    "tier": "green",
+    "side": "Паша",
+    "date": "2026-07-06",
+    "contest": true,
+    "status": "pending",
+    "why": {
+      "ru": "К концовке игра на вылет раскрывается — Паша ждёт как минимум два гола после перерыва.",
+      "en": "Knockout games open up late — Pasha expects at least two goals after the interval."
+    }
+  },
+  {
+    "id": 396,
+    "match": {
+      "ru": "США — Бельгия",
+      "en": "USA — Belgium"
+    },
+    "matchId": "usa-belgium",
+    "bet": {
+      "ru": "Гол в каждом тайме",
+      "en": "A goal in each half"
+    },
+    "type": "Другое",
+    "odds": 1.53,
+    "tier": "green",
+    "side": "Паша",
+    "date": "2026-07-06",
+    "contest": true,
+    "status": "pending",
+    "why": {
+      "ru": "Обе команды и забивают, и пропускают — Паша рассчитывает на голы в обеих половинах.",
+      "en": "Both sides score and concede — Pasha counts on goals in both halves."
+    }
+  },
+  {
+    "id": 397,
+    "match": {
+      "ru": "США — Бельгия",
+      "en": "USA — Belgium"
+    },
+    "matchId": "usa-belgium",
+    "bet": {
+      "ru": "Ничья в основное время",
+      "en": "Draw (regular time)"
+    },
+    "type": "Х",
+    "odds": 3.5,
+    "tier": "yellow",
+    "side": "Паша",
+    "date": "2026-07-06",
+    "contest": true,
+    "status": "pending",
+    "why": {
+      "ru": "Равный по силам матч на вылет вполне может доехать до серии пенальти — Паша страхуется ничьёй в основное время.",
+      "en": "An evenly matched knockout could well go to penalties — Pasha covers the regulation draw."
+    }
+  },
+  {
+    "id": 398,
+    "match": {
+      "ru": "Португалия — Испания + США — Бельгия",
+      "en": "Portugal — Spain + USA — Belgium"
+    },
+    "bet": {
+      "ru": "Экспресс · оба матча — больше 2.5",
+      "en": "Accumulator · both matches Over 2.5"
+    },
+    "type": "Экспресс",
+    "odds": 2.97,
+    "tier": "yellow",
+    "side": "Паша",
+    "date": "2026-07-06",
+    "contest": true,
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Португалия — Испания",
+          "en": "Portugal — Spain"
+        },
+        "p": {
+          "ru": "Больше 2.5",
+          "en": "Over 2.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "США — Бельгия",
+          "en": "USA — Belgium"
+        },
+        "p": {
+          "ru": "Больше 2.5",
+          "en": "Over 2.5"
+        }
+      }
+    ],
+    "why": {
+      "ru": "Паша верит в результативный вечер и связывает тоталы обоих матчей в один экспресс.",
+      "en": "Pasha backs a high-scoring night and ties both totals into one accumulator."
+    }
+  },
+  {
+    "id": 399,
+    "match": {
+      "ru": "Португалия — Испания",
+      "en": "Portugal — Spain"
+    },
+    "matchId": "portugal-spain",
+    "bet": {
+      "ru": "Волевая победа любой из команд",
+      "en": "A comeback win by either team"
+    },
+    "type": "Другое",
+    "odds": 5.9,
+    "tier": "red",
+    "side": "Паша",
+    "date": "2026-07-06",
+    "contest": true,
+    "status": "pending",
+    "why": {
+      "ru": "В дерби на вылет кто-то наверняка отыграется из-за спины — Паша ставит на волевой сюжет.",
+      "en": "In a knockout derby someone likely comes from behind — Pasha bets on the comeback story."
+    }
+  },
+  {
+    "id": 400,
+    "match": {
+      "ru": "США — Бельгия",
+      "en": "USA — Belgium"
+    },
+    "matchId": "usa-belgium",
+    "bet": {
+      "ru": "Волевая победа любой из команд",
+      "en": "A comeback win by either team"
+    },
+    "type": "Другое",
+    "odds": 5.4,
+    "tier": "red",
+    "side": "Паша",
+    "date": "2026-07-06",
+    "contest": true,
+    "status": "pending",
+    "why": {
+      "ru": "Открытый матч с качелями — Паша ждёт, что уступающая по ходу команда перевернёт игру.",
+      "en": "A swingy, open game — Pasha expects the trailing side to turn it around."
+    }
+  },
+  {
+    "id": 401,
+    "match": {
+      "ru": "Португалия — Испания + США — Бельгия",
+      "en": "Portugal — Spain + USA — Belgium"
+    },
+    "bet": {
+      "ru": "Экспресс · обе ничьи в основное время",
+      "en": "Accumulator · both draws in regulation"
+    },
+    "type": "Экспресс",
+    "odds": 12.6,
+    "tier": "red",
+    "side": "Паша",
+    "date": "2026-07-06",
+    "contest": true,
+    "status": "pending",
+    "legs": [
+      {
+        "m": {
+          "ru": "Португалия — Испания",
+          "en": "Portugal — Spain"
+        },
+        "p": {
+          "ru": "Ничья в основное время",
+          "en": "Draw in regulation"
+        }
+      },
+      {
+        "m": {
+          "ru": "США — Бельгия",
+          "en": "USA — Belgium"
+        },
+        "p": {
+          "ru": "Ничья в основное время",
+          "en": "Draw in regulation"
+        }
+      }
+    ],
+    "why": {
+      "ru": "Смелый экспресс Паши: оба равных матча тянут в основное время к ничьей и серии пенальти.",
+      "en": "Pasha’s bold accumulator — both even ties drift to a regulation draw and penalties."
+    }
   }
 ]
