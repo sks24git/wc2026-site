@@ -1,3 +1,13 @@
+## Result: Portugal 0:1 Spain (0:0)
+
+**Spain edged the derby right at the death: Merino 90+1' (assist Ferran Torres).** Half-time 0:0, and the whole match was a grinding possession battle with few chances, settled by one late strike. No extra time, no penalties — **Spain into the quarter-finals**. xG 0.60–1.77: Spain earned it; the derby only looked even.
+
+**Settlement.** AI read the match as a draw into penalties leaning Portugal — and the day fell flat: the **regulation draw** and **Portugal to qualify** both burned, and the **1:1** correct score in the accumulator missed too. For Pasha only **total yellow cards over 2.5** landed (three in the match); **a goal in each half** lost (dry first half), and the **comeback win** lost too (Spain led from their only goal, nobody trailed and came back); **Spain −1** was a push — a win by exactly one goal. Both of the day's accumulators that carried this match (both draws, both overs) closed early.
+
+**Lesson.** The model overrated "derby = draw" and the H2H (Portugal had never beaten Spain at a World Cup), when the real signal was the xG asymmetry — Spain created nearly three times as much. When one side dominates the chances that heavily, betting the level game is betting against the run of play, not against the market. The late goal (90+1') was exactly the long-stoppage scenario we'd flagged ourselves — but we'd bet the other way.
+
+---
+
 ## Portugal — Spain · 06.07, 22:00 MSK · AT&T Stadium, Arlington
 
 **Not a comfortable Spain win but a tight Iberian derby that pulls toward a draw and beyond — and on penalties there's a slight lean to Portugal. Spain are favourites on class and defence (nil conceded all tournament), but without both quick wingers their edge over a low block narrows, and the market underrates how drawish a derby is.**

@@ -11145,10 +11145,10 @@
     "tier": "yellow",
     "side": "AI",
     "date": "2026-07-06",
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Флагман дня: модель даёт ничью ~35-39% против ~26% в линии — крупнейшая расходимость с рынком. Иберийское дерби сжимает класс (паттерн J), у Испании нет обоих скоростных вингеров, судья Тэйлор рвёт ритм.",
-      "en": "Day s headline: the model has the draw at ~35-39% vs ~26% implied — the biggest market gap. The Iberian derby compresses class (pattern J), Spain miss both quick wingers, referee Taylor breaks the rhythm."
+      "ru": "✗ Матч 0:1 — не ничья, Испания дожала на 90+1'.",
+      "en": "✗ Match ended 0:1 — no draw, Spain nicked it at 90+1'."
     }
   },
   {
@@ -11167,10 +11167,10 @@
     "tier": "yellow",
     "side": "AI",
     "date": "2026-07-06",
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Ориентировочный — сверить спецрынок Фонбета. Если дерби дотянет до серии, крен на Кошту и прямой прецедент финала Лиги наций 2025 (2:2, пен 5:3). Рынок прохода шире и ценнее чистого П1 @4.10.",
-      "en": "Indicative — confirm the Fonbet special market. If the derby reaches a shootout, the lean is on Costa and the direct 2025 Nations League final precedent (2:2, 5:3 pens). The to-qualify market is wider and better value than a straight Portugal win @4.10."
+      "ru": "✗ Испания выиграла в основное время и прошла — без серии.",
+      "en": "✗ Spain won in regulation and advanced — no shootout."
     }
   },
   {
@@ -11210,7 +11210,7 @@
     "tier": "red",
     "side": "AI",
     "date": "2026-07-06",
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -11234,8 +11234,8 @@
       }
     ],
     "note": {
-      "ru": "Красный экспресс из 2 точных счетов — модали обоих матчей (дерби размочит по разу; США-Бельгия — глухо и в серию). Кэф ориентировочный.",
-      "en": "Red accumulator of two correct scores — each match s modal (the derby trades one apiece; USA-Belgium cagey into a shootout). Odds indicative."
+      "ru": "✗ Позиция Португалия — Испания (нужен был 1:1) не зашла: 0:1 → экспресс сгорел досрочно.",
+      "en": "✗ The Portugal — Spain leg (needed 1:1) missed at 0:1 → accumulator dead early."
     }
   },
   {
@@ -11720,10 +11720,14 @@
     "side": "Паша",
     "date": "2026-07-06",
     "contest": true,
-    "status": "pending",
+    "status": "void",
     "why": {
       "ru": "Испания сильнее по всем линиям и должна проходить Португалию уверенно — Паша берёт победу с запасом в два мяча.",
       "en": "Spain is stronger across the board and should get past Portugal comfortably — Pasha backs a two-goal winning margin."
+    },
+    "note": {
+      "ru": "↩︎ Испания победила ровно в один мяч (0:1) — фора −1 в возврат.",
+      "en": "↩︎ Spain won by exactly one goal (0:1) — the −1 handicap is a push (void)."
     }
   },
   {
@@ -11743,10 +11747,14 @@
     "side": "Паша",
     "date": "2026-07-06",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "why": {
       "ru": "Пиренейское дерби на вылет — нервы, жёсткие стыки, споры с судьёй: Паша ждёт минимум три горчичника.",
       "en": "A knockout Iberian derby — nerves, hard tackles, arguments with the ref: Pasha expects at least three bookings."
+    },
+    "note": {
+      "ru": "✓ Три жёлтых в матче (Португалия 2, Испания 1) — больше 2.5.",
+      "en": "✓ Three yellows in the match (Portugal 2, Spain 1) — over 2.5."
     }
   },
   {
@@ -11766,10 +11774,14 @@
     "side": "Паша",
     "date": "2026-07-06",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "why": {
       "ru": "Две сильные атаки и высокая цена ошибки — Паша ждёт, что мяч зайдёт и до перерыва, и после.",
       "en": "Two strong attacks and high stakes — Pasha expects the ball in the net before and after the break."
+    },
+    "note": {
+      "ru": "✗ Первый тайм сухой (0:0) — гол только на 90+1', второе условие не выполнено.",
+      "en": "✗ Goalless first half (0:0) — the only goal came at 90+1', so not a goal in each half."
     }
   },
   {
@@ -11857,7 +11869,7 @@
     "side": "Паша",
     "date": "2026-07-06",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -11883,6 +11895,10 @@
     "why": {
       "ru": "Паша верит в результативный вечер и связывает тоталы обоих матчей в один экспресс.",
       "en": "Pasha backs a high-scoring night and ties both totals into one accumulator."
+    },
+    "note": {
+      "ru": "✗ Португалия — Испания всего 1 гол (меньше 2.5) → экспресс сгорел досрочно.",
+      "en": "✗ Portugal — Spain had just 1 goal (under 2.5) → accumulator dead early."
     }
   },
   {
@@ -11902,12 +11918,16 @@
     "side": "Паша",
     "date": "2026-07-06",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "why": {
       "ru": "В дерби на вылет кто-то наверняка отыграется из-за спины — Паша ставит на волевой сюжет.",
       "en": "In a knockout derby someone likely comes from behind — Pasha bets on the comeback story."
     },
-    "stake": 1000
+    "stake": 1000,
+    "note": {
+      "ru": "✗ Испания вела с единственного гола — волевой победы ни у кого не было.",
+      "en": "✗ Spain led from their only goal — no comeback by either side."
+    }
   },
   {
     "id": 400,
@@ -11949,7 +11969,7 @@
     "side": "Паша",
     "date": "2026-07-06",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -11975,6 +11995,10 @@
     "why": {
       "ru": "Смелый экспресс Паши: оба равных матча тянут в основное время к ничьей и серии пенальти.",
       "en": "Pasha’s bold accumulator — both even ties drift to a regulation draw and penalties."
+    },
+    "note": {
+      "ru": "✗ Португалия — Испания не ничья (0:1) → экспресс на две ничьи сгорел досрочно.",
+      "en": "✗ Portugal — Spain wasn't a draw (0:1) → the two-draw accumulator is dead early."
     }
   }
 ]
