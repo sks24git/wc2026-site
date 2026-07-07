@@ -11298,10 +11298,10 @@
     "tier": "green",
     "side": "AI",
     "date": "2026-07-07",
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Эдж модель↔рынок: Швейцария по модели 34% против ~26% в линии. Вся логистика за неё (ноль перелётов, +день отдыха, третий матч в Ванкувере), реактивно-клинический стиль. Рынок переоценил Колумбию. Кэф ориентировочный.",
-      "en": "Model-vs-market edge: Switzerland 34% on the model vs ~26% implied. All logistics favour them (zero travel, +1 rest day, third match in Vancouver), a reactive-clinical style. The market overrated Colombia. Odds indicative."
+      "ru": "✓ Основное время 0:0 — ничья, двойной шанс 1X зашёл.",
+      "en": "✓ Regulation ended 0:0 — a draw, the double chance 1X landed."
     }
   },
   {
@@ -12021,7 +12021,7 @@
     "side": "Паша",
     "date": "2026-07-07",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "id": 402,
     "tier": "green",
     "odds": 2.48,
@@ -12059,13 +12059,17 @@
     "why": {
       "ru": "Паша уверен в проходе Колумбии и в результативной Аргентине — связывает двух фаворитов в один экспресс.",
       "en": "Pasha trusts Colombia to go through and a scoring Argentina — tying two favourites into one accumulator."
+    },
+    "note": {
+      "ru": "✗ Прошла Швейцария (пенальти 4:3), а не Колумбия → экспресс сгорел.",
+      "en": "✗ Switzerland advanced (4:3 on penalties), not Colombia → accumulator dead."
     }
   },
   {
     "side": "Паша",
     "date": "2026-07-07",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "id": 403,
     "tier": "green",
     "odds": 2.15,
@@ -12082,6 +12086,10 @@
     "why": {
       "ru": "Осторожный старт и раскрытие к концовке — Паша ждёт, что голы придут во второй половине.",
       "en": "A cautious start and an open finish — Pasha expects the goals to come in the second half."
+    },
+    "note": {
+      "ru": "✗ 0:0 весь матч — второй тайм не результативнее первого.",
+      "en": "✗ 0:0 throughout — the second half didn't outscore the first."
     }
   },
   {
@@ -12142,7 +12150,7 @@
     "side": "Паша",
     "date": "2026-07-07",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "id": 406,
     "tier": "yellow",
     "odds": 3.1,
@@ -12159,6 +12167,10 @@
     "why": {
       "ru": "Равный матч на вылет — Паша страхуется ничьёй в основное время с прицелом на серию.",
       "en": "An even knockout — Pasha covers the regulation draw with a shootout in mind."
+    },
+    "note": {
+      "ru": "✓ Основное время 0:0 — ничья.",
+      "en": "✓ Regulation ended 0:0 — a draw."
     }
   },
   {
@@ -12261,7 +12273,7 @@
     "side": "Паша",
     "date": "2026-07-07",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "id": 409,
     "tier": "red",
     "odds": 9.23,
@@ -12299,6 +12311,10 @@
     "why": {
       "ru": "Дерзкий красный экспресс Паши: обе игры результативные, но с победой Аргентины.",
       "en": "Pasha's bold red accumulator: both games high-scoring, with Argentina winning."
+    },
+    "note": {
+      "ru": "✗ Матч Колумбии 0:0 — ни обе забьют, ни больше 2.5 → экспресс сгорел.",
+      "en": "✗ Colombia's game was 0:0 — neither BTTS nor over 2.5 → accumulator dead."
     }
   },
   {

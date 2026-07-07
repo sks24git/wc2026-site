@@ -97,12 +97,12 @@ const PRED = {
   M91: { ...P(T('Бразилия', 'Brazil', 'br'), T('Норвегия', 'Norway', 'no'), 'a', '2:1', 'reg', 'medium'), fact: 'b', fscore: '1:2', fby: 'reg' },
   M92: { ...P(T('Мексика', 'Mexico', 'mx'), T('Англия', 'England', 'gb-eng'), 'b', '1:1 (3:4 пен)', 'pen', 'low'), fact: 'b', fscore: '2:3', fby: 'reg' },
   M95: { ...P(T('Аргентина', 'Argentina', 'ar'), T('Египет', 'Egypt', 'eg'), 'a', '1:0', 'reg', 'medium'), fact: 'a', fscore: '3:2', fby: 'reg' },
-  M96: P(T('Швейцария', 'Switzerland', 'ch'), T('Колумбия', 'Colombia', 'co'), 'b', '0:1', 'reg', 'medium'),
+  M96: { ...P(T('Швейцария', 'Switzerland', 'ch'), T('Колумбия', 'Colombia', 'co'), 'b', '0:1', 'reg', 'medium'), fact: 'a', fscore: '0:0, пен. 4:3', fby: 'pen' },
   // ── 1/4 ──
   M97: P(T('Франция', 'France', 'fr'), T('Марокко', 'Morocco', 'ma'), 'a', '2:0', 'reg', 'medium'),
   M98: P(T('Испания', 'Spain', 'es'), T('Бельгия', 'Belgium', 'be'), 'a', '2:0', 'reg', 'medium'),
   M99: P(T('Норвегия', 'Norway', 'no'), T('Англия', 'England', 'gb-eng'), 'b', '1:2', 'reg', 'tossup'),
-  M100: P(T('Аргентина', 'Argentina', 'ar'), T('Колумбия', 'Colombia', 'co'), 'a', '1:0 (доп. время)', 'aet', 'medium'),
+  M100: P(T('Аргентина', 'Argentina', 'ar'), T('Швейцария', 'Switzerland', 'ch'), 'a', '1:0 (доп. время)', 'aet', 'medium'),
   // ── 1/2 ──
   M101: P(T('Франция', 'France', 'fr'), T('Испания', 'Spain', 'es'), 'b', '1:2', 'reg', 'low'),
   M102: P(T('Англия', 'England', 'gb-eng'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:2 (доп. время)', 'aet', 'medium'),

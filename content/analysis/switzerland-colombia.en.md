@@ -1,3 +1,13 @@
+## Result: Switzerland 0:0 Colombia, pens 4:3
+
+**A goalless 120-minute grind settled on nerves.** Not a single goal all match — both defences held and Kobel stood tall. In the shootout Switzerland were the steadier: **4:3**, the decisive kick from substitute **Rubén Vargas**, while **Davinson Sánchez** hit the bar. **Switzerland reach the quarter-finals for the first time since 1954**, where Argentina await.
+
+**Settlement.** My value edge landed: the **double chance 1X** (Switzerland or draw) hit — a goalless draw in regulation — and the logistics thesis "Switzerland de facto at home and going through" was vindicated to the letter. For Pasha the **regulation draw** landed, but the rest of his card on this game crumbled: **Colombia to advance** (Switzerland went through), **second half outscoring the first** (0=0) and the goals accumulators (BTTS + over 2.5) all missed in a dry 0:0; his 1:1 exact score didn't land either.
+
+**Lesson.** The tight, low-scoring profile plus Switzerland's injuries (Rubén Vargas and Manzambi out) produced exactly the scenario we'd kept in mind: a weakened Switzerland sat deeper, Colombia took the ball but their perennial finishing flaw let them down again (Sánchez off the bar). "Draw / Switzerland to advance" via the double chance proved more robust than betting on goals: against two clean-sheet sides with strong keepers, goals markets are the risk and the under/draw is the base. Colombia kept three straight clean sheets and went out having barely tested the goal.
+
+---
+
 ## Switzerland — Colombia · 07.07, 23:00 MSK · BC Place, Vancouver
 
 **Colombia are the nominal favourite on the line, but the model sees an almost even game — and all the logistics favour Switzerland. An indoor arena removes the weather, both teams arrive on clean sheets and play on the counter: this is a tight, low-scoring match where the market has overrated the visitors.**
