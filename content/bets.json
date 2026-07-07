@@ -11189,10 +11189,10 @@
     "tier": "green",
     "side": "AI",
     "date": "2026-07-06",
-    "status": "pending",
+    "status": "lose",
     "note": {
-      "ru": "Балогуна вернули (FIFA сняла дисквалификацию) — атака США снова в сборе, поэтому низ теперь держится на слабой атаке Бельгии (Лукаку в запасе) + сильных вратарях + осторожном нокауте. Эдж тоньше, но остаётся; не крупно.",
-      "en": "Balogun reinstated (FIFA lifted the ban) — the USA attack is whole again, so the under now leans on Belgium s weak attack (Lukaku benched) + strong keepers + a cautious knockout. The edge is thinner but holds; not big."
+      "ru": "✗ Пять голов в матче (1:4) — тотал больше, низ не сыграл.",
+      "en": "✗ Five goals (1:4) — the over hit, the under missed."
     }
   },
   {
@@ -11801,10 +11801,14 @@
     "side": "Паша",
     "date": "2026-07-06",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "why": {
       "ru": "К концовке игра на вылет раскрывается — Паша ждёт как минимум два гола после перерыва.",
       "en": "Knockout games open up late — Pasha expects at least two goals after the interval."
+    },
+    "note": {
+      "ru": "✓ Во 2-м тайме два гола (Ванакен 57', Лукаку 90+3') — больше 1.5.",
+      "en": "✓ Two second-half goals (Vanaken 57', Lukaku 90+3') — over 1.5."
     }
   },
   {
@@ -11824,10 +11828,14 @@
     "side": "Паша",
     "date": "2026-07-06",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "why": {
       "ru": "Обе команды и забивают, и пропускают — Паша рассчитывает на голы в обеих половинах.",
       "en": "Both sides score and concede — Pasha counts on goals in both halves."
+    },
+    "note": {
+      "ru": "✓ Забивали в обоих таймах: 1-й — три гола, 2-й — два.",
+      "en": "✓ Goals in both halves: three in the first, two in the second."
     }
   },
   {
@@ -11847,10 +11855,14 @@
     "side": "Паша",
     "date": "2026-07-06",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "why": {
       "ru": "Равный по силам матч на вылет вполне может доехать до серии пенальти — Паша страхуется ничьёй в основное время.",
       "en": "An evenly matched knockout could well go to penalties — Pasha covers the regulation draw."
+    },
+    "note": {
+      "ru": "✗ 1:4 — не ничья, Бельгия уверенно выиграла в основное.",
+      "en": "✗ 1:4 — no draw, Belgium won comfortably in regulation."
     }
   },
   {
@@ -11946,12 +11958,16 @@
     "side": "Паша",
     "date": "2026-07-06",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "why": {
       "ru": "Открытый матч с качелями — Паша ждёт, что уступающая по ходу команда перевернёт игру.",
       "en": "A swingy, open game — Pasha expects the trailing side to turn it around."
     },
-    "stake": 1000
+    "stake": 1000,
+    "note": {
+      "ru": "✗ Бельгия вела с 9-й минуты и не отставала — волевой победы не было.",
+      "en": "✗ Belgium led from the 9th minute and never trailed — no comeback win."
+    }
   },
   {
     "id": 401,

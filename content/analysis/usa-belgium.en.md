@@ -1,3 +1,13 @@
+## Result: USA 1:4 Belgium (1:2)
+
+**Belgium tore the hosts apart even after benching De Bruyne, Doku and Lukaku.** De Ketelaere struck twice (9', 33'), with Tillman levelling from a free-kick in between (31'); after the break Vanaken punished a Freese error (57') and substitute Lukaku sealed it in stoppage time (90+3'). xG 0.67–2.15 — a deserved rout, no extra time or penalties, **Belgium into the quarters against Spain**.
+
+**Settlement.** The night flipped our pre-match read: **AI** expected a stingy game and extra time, backed the under — and it burned (five goals). **Pasha** took the evening with his goals card: **a goal in each half** and **second half over 1.5** both landed; his **draw** and **comeback win** missed (Belgium led from the 9th minute and never looked back).
+
+**Lesson.** Rotating a top side ≠ a weak attack. We read the De Bruyne/Doku/Lukaku bench as an under signal — but Belgium's depth produced four, with De Ketelaere shredding the defence as a false nine. We even flagged in the preview that "Belgium can explode (5:2 USA in March)" — and still sat on the under. Class and depth beat missing stars: "stars on the bench" ≠ "nothing to play with" (an echo of the unmotivated-favourite lesson).
+
+---
+
 ## USA — Belgium · 07.07, 03:00 MSK · Lumen Field, Seattle
 
 **A rematch of the 2014 round of 16 and a pure pick'em: FIFA reinstated the suspended Balogun at the last moment — the USA attack is whole again, against a tired Belgian golden generation without a battering-ram striker. Both keepers are strong, both scraped through the round of 32 low-scoring. The tie begs loudest for extra time — and there the freshness of the USA and a penalty-specialist keeper give the hosts an underrated edge.**
