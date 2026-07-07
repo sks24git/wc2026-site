@@ -1,3 +1,13 @@
+## Result: Argentina 3:2 Egypt (0:1)
+
+**A comeback from the abyss: Argentina trailed 0:2 and snatched it late.** Yasser Ibrahim (15') and Zico (67') put Egypt ahead, but Romero (79'), Messi (83') and Enzo Fernández in stoppage time (90+2') turned it around. Messi also missed a penalty (saved by Shoubir). No extra time — **Argentina into the quarters**.
+
+**Settlement.** AI's core reads landed: **Argentina team total over 1.5** (they scored three) and **both teams to score** both hit — the call for a high-scoring game against the market's under was vindicated. The exact **2:1** in the accumulator missed (it finished 3:2 via a comeback) — that accumulator is closed. For Pasha: **a goal in each half** landed; **first half over 1.0** is a push (exactly one goal in the first half); the "Argentina to score in each half" and "Argentina win to nil" accumulators burned — Argentina didn't score in the first half and conceded twice. The accumulators involving the Colombia match, where the Argentina leg survived (Colombia to advance + team total; Argentina win + BTTS), await the evening game.
+
+**Lesson.** The headline thesis — "class of the favourite + two leaky defences = goals, not a clean sheet" — worked perfectly (team total + BTTS). But the exact score was again "a goal or two off": we expected 2:1, it finished 3:2 via a comeback from 0:2 — score derivatives are fragile even when the match's character is read right. And Argentina showed their trademark comeback: the rearguard leaks, but the class up front finishes.
+
+---
+
 ## Argentina — Egypt · 07.07, 19:00 MSK · Mercedes-Benz Stadium, Atlanta
 
 **Argentina are a grandmaster with a leaky rearguard; Egypt a stubborn underdog with a broken defence and Salah on the counter. The market is selling a narrow clean-sheet win, but both defences leak — so goals arrive at both ends, and this looks more like 2:1 than a dry 1:0.**

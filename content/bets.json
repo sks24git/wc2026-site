@@ -11254,10 +11254,10 @@
     "tier": "green",
     "side": "AI",
     "date": "2026-07-07",
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Эдж против рынка: Аргентина забивает 2+ в 4 из 5, оборона Египта разбита травмами (опорник в ЦЗ, оба ЛЗ вне игры, 2 автогола). Рынок клонит в низ — фейдим. Безопаснее форы −1.5. Кэф ориентировочный.",
-      "en": "Edge vs market: Argentina score 2+ in 4 of 5, Egypt s defence broken by injuries (a DM at CB, both LBs out, 2 own goals). The market leans under — we fade it. Safer than −1.5. Odds indicative."
+      "ru": "✓ Аргентина забила три (3:2) — инд. тотал больше 1.5.",
+      "en": "✓ Argentina scored three (3:2) — team total over 1.5."
     }
   },
   {
@@ -11276,10 +11276,10 @@
     "tier": "yellow",
     "side": "AI",
     "date": "2026-07-07",
-    "status": "pending",
+    "status": "win",
     "note": {
-      "ru": "Египет ОЗ-да во всех 4 матчах ЧМ + Салах на контратаке против протекающей обороны Аргентины (2 гола от Кабо-Верде). Рынок ошибочно закладывает сухую победу. Ориентировочный; если снап <2.5 — зелёная.",
-      "en": "Egypt BTTS in all 4 games + Salah on the break against Argentina s leaky defence (2 goals shipped to Cape Verde). The market wrongly prices a clean sheet. Indicative; if the snap is <2.5, it s green."
+      "ru": "✓ Забили обе: Аргентина 3, Египет 2.",
+      "en": "✓ Both scored: Argentina 3, Egypt 2."
     }
   },
   {
@@ -11319,7 +11319,7 @@
     "tier": "red",
     "side": "AI",
     "date": "2026-07-07",
-    "status": "pending",
+    "status": "lose",
     "legs": [
       {
         "m": {
@@ -11343,8 +11343,8 @@
       }
     ],
     "note": {
-      "ru": "Красный экспресс из 2 точных счетов — модали обоих матчей (Аргентина дожимает разбитую оборону 2:1; Швейцария клинично 1:0). Кэф подтверждён по линии Фонбета.",
-      "en": "Red accumulator of two correct scores — each match's modal (Argentina grinds down the broken defence 2:1; Switzerland clinical 1:0). Odds confirmed on the Fonbet line."
+      "ru": "✗ Аргентина — Египет 3:2, а не 2:1 → экспресс точных счетов сгорел.",
+      "en": "✗ Argentina — Egypt finished 3:2, not 2:1 → the correct-scores accumulator is dead."
     }
   },
   {
@@ -12088,7 +12088,7 @@
     "side": "Паша",
     "date": "2026-07-07",
     "contest": true,
-    "status": "pending",
+    "status": "void",
     "id": 404,
     "tier": "green",
     "odds": 1.78,
@@ -12105,13 +12105,17 @@
     "why": {
       "ru": "Аргентина обычно быстро включается — Паша ждёт активный первый тайм с голами.",
       "en": "Argentina usually start fast — Pasha expects a lively, goal-filled first half."
+    },
+    "note": {
+      "ru": "↩︎ В 1-м тайме ровно один гол (0:1) — целая линия 1.0, возврат.",
+      "en": "↩︎ Exactly one first-half goal (0:1) — whole line 1.0, stake returned."
     }
   },
   {
     "side": "Паша",
     "date": "2026-07-07",
     "contest": true,
-    "status": "pending",
+    "status": "win",
     "id": 405,
     "tier": "green",
     "odds": 1.73,
@@ -12128,6 +12132,10 @@
     "why": {
       "ru": "Аргентина забивает волнами — Паша рассчитывает на голы и до перерыва, и после.",
       "en": "Argentina score in waves — Pasha counts on goals before and after the break."
+    },
+    "note": {
+      "ru": "✓ Забивали в обоих таймах: 1-й — гол Египта (15'), 2-й — четыре гола.",
+      "en": "✓ Goals in both halves: Egypt in the first (15'), four goals in the second."
     }
   },
   {
@@ -12157,7 +12165,7 @@
     "side": "Паша",
     "date": "2026-07-07",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "id": 407,
     "tier": "yellow",
     "odds": 4.23,
@@ -12195,13 +12203,17 @@
     "why": {
       "ru": "Ставка на результативность обоих матчей: голы Аргентины по таймам и открытая игра у Колумбии.",
       "en": "A bet on goals in both games: Argentina scoring in each half and an open Colombia match."
+    },
+    "note": {
+      "ru": "✗ Аргентина не забила в 1-м тайме (все три её гола во 2-м) → экспресс сгорел.",
+      "en": "✗ Argentina didn't score in the first half (all three goals came after the break) → accumulator dead."
     }
   },
   {
     "side": "Паша",
     "date": "2026-07-07",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "id": 408,
     "tier": "yellow",
     "odds": 4.66,
@@ -12239,6 +12251,10 @@
     "why": {
       "ru": "Паша ждёт, что Аргентина не пропустит и победит, а матч Колумбии раскроется во второй половине.",
       "en": "Pasha expects Argentina to keep a clean sheet and win, while the Colombia match opens up after the break."
+    },
+    "note": {
+      "ru": "✗ Аргентина пропустила два (3:2) — сухой победы не было → экспресс сгорел.",
+      "en": "✗ Argentina conceded twice (3:2) — no win to nil → accumulator dead."
     }
   },
   {
@@ -12290,7 +12306,7 @@
     "side": "Паша",
     "date": "2026-07-07",
     "contest": true,
-    "status": "pending",
+    "status": "lose",
     "tier": "red",
     "odds": 30.25,
     "type": "Экспресс",
@@ -12327,6 +12343,10 @@
     "why": {
       "ru": "Паша ставит на сухую победу Аргентины 2:0 и ничью в матче Колумбии 1:1 — два точных счёта одним смелым билетом.",
       "en": "Pasha calls a 2:0 Argentina win to nil and a 1:1 in the Colombia match — two exact scores in one bold ticket."
+    },
+    "note": {
+      "ru": "✗ Аргентина — Египет 3:2, а не 2:0 → экспресс точных счетов сгорел.",
+      "en": "✗ Argentina — Egypt finished 3:2, not 2:0 → the correct-scores accumulator is dead."
     }
   }
 ]
