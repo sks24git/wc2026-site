@@ -11315,7 +11315,7 @@
       "en": "Accumulator · scores of the day"
     },
     "type": "Экспресс",
-    "odds": 59.5,
+    "odds": 95,
     "tier": "red",
     "side": "AI",
     "date": "2026-07-07",
@@ -11343,8 +11343,8 @@
       }
     ],
     "note": {
-      "ru": "Красный экспресс из 2 точных счетов — модали обоих матчей (Аргентина дожимает разбитую оборону 2:1; Швейцария клинично 1:0). Кэф ориентировочный.",
-      "en": "Red accumulator of two correct scores — each match s modal (Argentina grinds down the broken defence 2:1; Switzerland clinical 1:0). Odds indicative."
+      "ru": "Красный экспресс из 2 точных счетов — модали обоих матчей (Аргентина дожимает разбитую оборону 2:1; Швейцария клинично 1:0). Кэф подтверждён по линии Фонбета.",
+      "en": "Red accumulator of two correct scores — each match's modal (Argentina grinds down the broken defence 2:1; Switzerland clinical 1:0). Odds confirmed on the Fonbet line."
     }
   },
   {
@@ -12283,6 +12283,50 @@
     "why": {
       "ru": "Дерзкий красный экспресс Паши: обе игры результативные, но с победой Аргентины.",
       "en": "Pasha's bold red accumulator: both games high-scoring, with Argentina winning."
+    }
+  },
+  {
+    "id": 410,
+    "side": "Паша",
+    "date": "2026-07-07",
+    "contest": true,
+    "status": "pending",
+    "tier": "red",
+    "odds": 30.25,
+    "type": "Экспресс",
+    "match": {
+      "ru": "Аргентина — Египет + Швейцария — Колумбия",
+      "en": "Argentina — Egypt + Switzerland — Colombia"
+    },
+    "bet": {
+      "ru": "Экспресс · точные счета дня",
+      "en": "Accumulator · scores of the day"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Аргентина — Египет",
+          "en": "Argentina — Egypt"
+        },
+        "p": {
+          "ru": "Точный счёт 2:0",
+          "en": "Correct score 2:0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Швейцария — Колумбия",
+          "en": "Switzerland — Colombia"
+        },
+        "p": {
+          "ru": "Точный счёт 1:1",
+          "en": "Correct score 1:1"
+        }
+      }
+    ],
+    "why": {
+      "ru": "Паша ставит на сухую победу Аргентины 2:0 и ничью в матче Колумбии 1:1 — два точных счёта одним смелым билетом.",
+      "en": "Pasha calls a 2:0 Argentina win to nil and a 1:1 in the Colombia match — two exact scores in one bold ticket."
     }
   }
 ]
