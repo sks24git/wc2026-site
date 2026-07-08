@@ -197,13 +197,11 @@ function TeamRow({ code, side, p, lang }) {
       ? <i className="po-chip aibust" title={trL(lang, 'пик AI не прошёл в этот раунд', 'AI pick did not reach this round')}>AI</i>
       : <i className="po-chip ai ghost" title={trL(lang, 'прогноз AI на победителя', 'AI pick to win')}>AI</i>;
   }
-  const through = !played && sm.real && !!feederRef(code, side); // реально прошёл из предыдущего раунда, матч впереди (в 1/16 фидера нет)
   return (
     <div className={cls}>
       <Flag cc={team.cc} />
       <span className="po-tn">{teamLabel(team, lang)}</span>
       <span className="po-chips">
-        {through && <span className="po-through" title={trL(lang, 'команда реально прошла в этот раунд', 'team has really advanced here')}>✓ {trL(lang, 'дальше', 'through')}</span>}
         {p.pasha === side && <i className="po-chip pa" title={trL(lang, 'Прогноз Паши', 'Pasha pick')}>П</i>}
         {chip}
       </span>
