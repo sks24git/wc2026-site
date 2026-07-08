@@ -18,8 +18,8 @@
 ## Bets
 
 **AI:**
-- 🟢 **Both teams to score — yes @1.76** — both defences leak systemically, Quansah's ban and the patched flank against Norway's vertical game and wingers, Kane and Bellingham near-certain to score. A pair profile independent of who wins (the Brazil-Norway lesson: in an even knockout, back the profile, not the winner).
-- 🟡 **Over 2.5 @1.93** — a ~26 pp model-vs-market gap toward the over, combined xG toward 3, two vertical sides. Moderate size: Miami heat in the second half is the models' blind spot (risk that an ill Norway sits back). *(correlates with BTTS-yes)*
-- Killed: a straight England win in regulation @1.95 (minus Quansah, leaky defence, Haaland the killer, shootout risk — take advance @1.50, not a 90-minute win); fading England (a fired-up favourite breaks through even down a man — a trap); overrating Norway's form (the Brazil win was largely the opponent's profligacy).
+- 🟢 **Both teams to score — yes @1.68** — both defences leak systemically, Quansah's ban stands (appeal unresolved) and the patched flank faces Norway's vertical game, with Kane and Bellingham near-certain to score. A pair profile independent of who wins; plus a head-to-head Golden Boot duel — Haaland (7) against Kane (6).
+- 🟡 **England to win & both teams to score @3.10** — the modal 2:1-to-England script in one market: class tells, but England won't keep a clean sheet without Quansah. We skip the bare Over 2.5 @1.70: the market has already shifted to the over, and stage history (2.0 goals a game) argues against a fat over — we pay only for the script.
+- Killed: a straight England win in regulation @1.80 (minus Quansah, Haaland the killer, shootout risk); the bare Over 2.5 @1.70 (the price has drifted, and the stage is historically dry); fading England (a fired-up favourite breaks through even down a man — a trap); overrating Norway's form (the Brazil win was largely the opponent's profligacy).
 
 England to advance @1.50 is a banker to keep in mind (below the floor for a standalone bet).

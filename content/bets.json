@@ -12372,7 +12372,7 @@
     "date": "2026-07-09",
     "matchId": "france-morocco",
     "tier": "green",
-    "odds": 1.87,
+    "odds": 1.8,
     "type": "ТМ",
     "match": {
       "ru": "Франция — Марокко",
@@ -12394,23 +12394,19 @@
     "date": "2026-07-09",
     "matchId": "france-morocco",
     "tier": "yellow",
-    "odds": 2.4,
-    "type": "Х2",
+    "odds": 3.9,
+    "type": "Другое",
     "match": {
       "ru": "Франция — Марокко",
       "en": "France — Morocco"
     },
     "bet": {
-      "ru": "Марокко не проиграет в основное время (X2)",
-      "en": "Morocco not to lose in regulation (X2)"
-    },
-    "note": {
-      "ru": "Кэф ориентировочный — сверить с линией Фонбета.",
-      "en": "Odds indicative — to confirm on the Fonbet line."
+      "ru": "Проход Марокко (осн. время + ОТ + пенальти)",
+      "en": "Morocco to qualify (incl. ET & penalties)"
     },
     "why": {
-      "ru": "Франция не громит лучшую оборону турнира, Марокко 34 матча без поражений и тянет к своей лотерее — берём, что оно не проиграет в основное.",
-      "en": "France won't rout the best defence of the tournament; Morocco are 34 unbeaten and drag it to their lottery — backing them not to lose in regulation."
+      "ru": "Франция не громит лучшую оборону стадии, а Марокко 34 матча без поражений и сознательно тянет игру к своей лотерее, где Буну уже выносил гигантов. Ветка серии недооценена рынком.",
+      "en": "France don't rout the best defence of the round, while Morocco are 34 unbeaten and deliberately drag games to their lottery, where Bounou has slain giants before. The shootout branch is underpriced."
     }
   },
   {
@@ -12420,7 +12416,7 @@
     "date": "2026-07-10",
     "matchId": "spain-belgium",
     "tier": "green",
-    "odds": 1.94,
+    "odds": 1.95,
     "type": "ОЗ",
     "match": {
       "ru": "Испания — Бельгия",
@@ -12441,8 +12437,8 @@
     "id": 414,
     "date": "2026-07-10",
     "matchId": "spain-belgium",
-    "tier": "yellow",
-    "odds": 2,
+    "tier": "green",
+    "odds": 2.03,
     "type": "ТМ",
     "match": {
       "ru": "Испания — Бельгия",
@@ -12453,13 +12449,14 @@
       "en": "Under 2.5"
     },
     "note": {
-      "ru": "Коррелирует с «обе не забьют» — не в один экспресс.",
-      "en": "Correlates with BTTS-no — not in the same accumulator."
+      "ru": "Размер срезан до 1500: рынок коррелирует с «обе не забьют» на этом же матче.",
+      "en": "Stake trimmed to 1500: the market correlates with BTTS-no on the same match."
     },
     "why": {
       "ru": "Модель даёт низ куда вероятнее рынка: Испания душит владением, Куртуа тащит, распахнутой игры не будет.",
       "en": "The model rates the under far higher than the market: Spain smother possession, Courtois stands tall, and there'll be no open game."
-    }
+    },
+    "stake": 1500
   },
   {
     "side": "AI",
@@ -12468,7 +12465,7 @@
     "date": "2026-07-11",
     "matchId": "norway-england",
     "tier": "green",
-    "odds": 1.76,
+    "odds": 1.68,
     "type": "ОЗ",
     "match": {
       "ru": "Норвегия — Англия",
@@ -12490,23 +12487,19 @@
     "date": "2026-07-11",
     "matchId": "norway-england",
     "tier": "yellow",
-    "odds": 1.93,
-    "type": "ТБ",
+    "odds": 3.1,
+    "type": "Другое",
     "match": {
       "ru": "Норвегия — Англия",
       "en": "Norway — England"
     },
     "bet": {
-      "ru": "Тотал больше 2.5",
-      "en": "Over 2.5"
-    },
-    "note": {
-      "ru": "Коррелирует с «обе забьют» — не в один экспресс.",
-      "en": "Correlates with BTTS-yes — not in the same accumulator."
+      "ru": "Англия побеждает + обе забьют",
+      "en": "England to win & both teams to score"
     },
     "why": {
-      "ru": "Консенсус моделей резко выше рынка по голам, обе команды результативны и текут сзади, суммарный xG к трём.",
-      "en": "Model consensus is well above the market on goals; both sides are potent and leak, with combined xG toward three."
+      "ru": "Класс Кейна и Беллингема должен перевесить, но латаная оборона без Куансы почти наверняка пропустит от Холанда — модальный сценарий 2:1 в пользу Англии одним рынком.",
+      "en": "Kane and Bellingham's class should tell, but a patched defence without Quansah will almost surely concede to Haaland — the modal 2:1-to-England script in one market."
     }
   },
   {
@@ -12516,7 +12509,7 @@
     "date": "2026-07-11",
     "matchId": "argentina-switzerland",
     "tier": "green",
-    "odds": 1.9,
+    "odds": 1.65,
     "type": "ТМ",
     "match": {
       "ru": "Аргентина — Швейцария",
@@ -12527,8 +12520,8 @@
       "en": "Under 2.5"
     },
     "note": {
-      "ru": "Кэф ориентировочный — сверить с линией Фонбета.",
-      "en": "Odds indicative — to confirm on the Fonbet line."
+      "ru": "Рынок сам сильно на низе — эдж тоньше, чем закладывали, но тезис прямой.",
+      "en": "The market itself leans hard to the under — a thinner edge than projected, but the thesis is direct."
     },
     "why": {
       "ru": "Швейцарский автобус с Кобелем, жара Канзас-Сити и узкий поздний профиль Аргентины против блока — ждём мало голов.",
@@ -12541,7 +12534,7 @@
     "id": 418,
     "date": "2026-07-11",
     "tier": "red",
-    "odds": 8,
+    "odds": 8.1,
     "type": "Система",
     "match": {
       "ru": "Четвертьфиналы — точные счета",
@@ -12552,8 +12545,8 @@
       "en": "Correct-scores system 2/4"
     },
     "note": {
-      "ru": "Постоянная система дня; точные кэфы счетов уточняются по линии Фонбета (ориентировочный).",
-      "en": "The day's standing system; exact correct-score odds to be confirmed on the Fonbet line (indicative)."
+      "ru": "Кэфы счетов по линии Фонбета: Франция 1:0 @6.50 · Испания 1:0 @7.50 · Норвегия—Англия 1:2 @8.50 · Аргентина 1:0 @5.50; эфф. кэф ~8.1 при двух попаданиях.",
+      "en": "Correct-score odds on the Fonbet line: France 1:0 @6.50 · Spain 1:0 @7.50 · Norway—England 1:2 @8.50 · Argentina 1:0 @5.50; effective ~8.1 with two hits."
     },
     "legs": [
       {
@@ -12600,6 +12593,28 @@
     "why": {
       "ru": "Постоянная система точных счетов по четырём модальным исходам 1/4 — узкие низовые коридоры.",
       "en": "The standing correct-scores system across four modal quarter-final outcomes — narrow, low-scoring corridors."
+    }
+  },
+  {
+    "id": 419,
+    "side": "AI",
+    "status": "pending",
+    "date": "2026-07-09",
+    "matchId": "france-morocco",
+    "tier": "yellow",
+    "odds": 2.8,
+    "type": "Другое",
+    "match": {
+      "ru": "Франция — Марокко",
+      "en": "France — Morocco"
+    },
+    "bet": {
+      "ru": "Тотал жёлтых карточек — больше 3.5",
+      "en": "Total yellow cards — over 3.5"
+    },
+    "why": {
+      "ru": "Судит Факундо Тельо — один из самых карточных арбитров, дождь и вязкий блок Марокко обещают рубку, а цена нокаут-ошибки добавляет нервов. Ждём четыре горчичника и больше.",
+      "en": "Facundo Tello referees — one of the most card-happy officials; rain and Morocco's grinding block promise a scrap, and knockout stakes fray nerves. Four bookings or more expected."
     }
   }
 ]

@@ -19,6 +19,7 @@
 ## Bets
 
 **AI:**
-- 🟢 **Under 2.5 @1.87** — a low-scoring profile for both, France prising it open narrowly, no natural nine for Morocco, a wet pitch. The market itself leans slightly to the under.
-- 🟡 **Morocco not to lose in regulation (double chance X2) @2.40** *(odds indicative — confirm on Fonbet)* — France won't rout the best defence of the round (zero blowouts in the round of 16), Morocco are 34 unbeaten and drag it toward a shootout; a wider tree than a straight "penalties" bet.
-- Killed: a big France handicap −1/−1.5 (zero blowouts this round, Morocco's block); a straight France win @1.57 (market = model, no edge); France to advance @1.24 (below the 1.6 floor); a bare BTTS-no (Morocco's late surge is a systemic risk).
+- 🟢 **Under 2.5 @1.80** — a low-scoring profile for both, France prising it open narrowly, no natural nine for Morocco, a wet pitch. Four World Cups of stage history: 2.0 goals a game and the under landing 62% of the time.
+- 🟡 **Morocco to qualify (incl. ET and penalties) @3.90** — France won't rout the best defence of the round, Morocco are 34 unbeaten and deliberately drag games to their lottery, where Bounou has slain giants; the shootout branch is underpriced (no edge on the X2 double chance @2.35 — the value sits in "to qualify").
+- 🟡 **Total yellow cards over 3.5 @2.80** — Tello is one of the most card-happy referees; rain, a grinding block and knockout stakes; a cards total on this profile already landed in the round of 16.
+- Killed: a big France handicap −1/−1.5 (zero blowouts this round, Morocco's block); a straight France win @1.60 (market = model, no edge); France to advance @1.25 (below the 1.6 floor); the X2 double chance @2.35 (the market already prices the model); a bare BTTS-no @1.80 (Morocco's late surge is a systemic risk).

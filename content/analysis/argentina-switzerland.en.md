@@ -18,6 +18,6 @@
 ## Bets
 
 **AI:**
-- 🟢 **Under 2.5 @1.90** *(odds indicative — to confirm)* — a low-scoring profile for both, the best block of the season for Argentina, heat and rain smothering the tempo, a bus that won't chase. The market itself sits on the under.
+- 🟢 **Under 2.5 @1.65** — a low-scoring profile for both, the best block of the season for Argentina, heat and rain smothering the tempo, a bus that won't chase. The market itself leans hard to the under (a thinner edge than projected), but stage history — 2.0 goals a game — carries the thesis. Messi, by the way, has 8 goals and has scored in six straight World Cup knockouts — but the Swiss dry games up better than anyone.
 - Argentina to advance @1.31 is a banker to keep in mind (below the floor for a standalone bet): Argentina win every route and the physical/climate edge props up a late finish — but the whole bet rests on a shootout, where Kobel is elite and Messi just missed from the spot.
 - Killed: a big Argentina handicap −1.5/−2 (zero champion blowouts in the knockouts, a bus that yields none, H2H 1:0); Argentina team total over 1.5 as a base (recent hits came against weak Egypt/Cape Verde defences; this one is a level higher); pairing Under 2.5 + Argentina team total over 1.5 + BTTS (they meet on one narrow score). Trigger — Switzerland's XI: a pure bus or a counter option with Vargas/Ndoye (which revives Argentina's holes and a 2:1).

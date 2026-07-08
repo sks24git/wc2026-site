@@ -18,6 +18,6 @@
 ## Bets
 
 **AI:**
-- 🟢 **Both teams to score — no @1.94** — Spain haven't conceded once all tournament, Belgium stall against an organised possession side without open space, and with the stars benched their creation is lower still. A direct expression of the "wall" thesis.
-- 🟡 **Under 2.5 @2.00** — the model is 22 pp below the market; Spain smother with a low xG, Courtois stands tall, Belgium don't open up against control. Moderate size: the xG is borderline and long stoppage time bites. *(correlates with BTTS-no — not in the same accumulator)*
+- 🟢 **Both teams to score — no @1.95** — Spain haven't conceded once all tournament, Belgium stall against an organised possession side without open space, and with the stars benched their creation is lower still. A direct expression of the "wall" thesis; losing Onana (ACL tear) hurts the pivot and adds nothing to Belgium's creation.
+- 🟢 **Under 2.5 @2.03** *(stake trimmed to yellow size)* — the model is 22 pp below the market; Spain smother with a low xG, Courtois stands tall, and stage history runs at 2.0 goals a game. Moderate size: it correlates with BTTS-no, so they don't share a ticket.
 - Killed: a big Spain handicap −1.5/−2 (they score little and late); Spain team total over 1.5 (same conversion ceiling); a straight Spain win @1.61 (market = model); pairing BTTS-no with Spain team total over 1.5 (they meet on one narrow score — a hidden contradiction). Review trigger — if García restores Belgium's full front three: a livelier game and a higher BTTS-yes chance.
