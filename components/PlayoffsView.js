@@ -101,8 +101,8 @@ const PRED = {
   // ── 1/4 ──
   M97: P(T('Франция', 'France', 'fr'), T('Марокко', 'Morocco', 'ma'), 'a', '1:0', 'reg', 'medium'),
   M98: P(T('Испания', 'Spain', 'es'), T('Бельгия', 'Belgium', 'be'), 'a', '1:0', 'reg', 'medium'),
-  M99: P(T('Норвегия', 'Norway', 'no'), T('Англия', 'England', 'gb-eng'), 'b', '1:2', 'reg', 'tossup'),
-  M100: P(T('Аргентина', 'Argentina', 'ar'), T('Швейцария', 'Switzerland', 'ch'), 'a', '1:0 (доп. время)', 'aet', 'medium'),
+  M99: P(T('Норвегия', 'Norway', 'no'), T('Англия', 'England', 'gb-eng'), 'b', '1:2', 'reg', 'medium'),
+  M100: P(T('Аргентина', 'Argentina', 'ar'), T('Швейцария', 'Switzerland', 'ch'), 'a', '1:0', 'reg', 'medium'),
   // ── 1/2 ──
   M101: P(T('Франция', 'France', 'fr'), T('Испания', 'Spain', 'es'), 'b', '1:2', 'reg', 'low'),
   M102: P(T('Англия', 'England', 'gb-eng'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:2 (доп. время)', 'aet', 'medium'),
