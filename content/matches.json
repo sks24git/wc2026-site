@@ -2826,5 +2826,125 @@
       "ru": "Швейцария де-факто дома — третий матч подряд в Ванкувере. Но Колумбия приезжает с серией сухарей, многоканальной атакой Диаса и Хамеса и репутацией команды, которую на этом турнире ещё никто не вскрыл.",
       "en": "Switzerland are de facto at home — a third straight game in Vancouver. But Colombia arrive with a clean-sheet streak, the multi-channel attack of Díaz and James, and the reputation of a side nobody at this tournament has cracked open yet."
     }
+  },
+  {
+    "id": "france-morocco",
+    "date": "2026-07-09",
+    "timeMsk": "23:00",
+    "cc": [
+      "fr",
+      "ma"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Франция — Марокко",
+      "en": "France — Morocco"
+    },
+    "stage": {
+      "ru": "1/4 финала",
+      "en": "Quarter-final"
+    },
+    "venue": {
+      "ru": "Gillette Stadium, Фоксборо (Бостон)",
+      "en": "Gillette Stadium, Foxborough (Boston)"
+    },
+    "weather": {
+      "ru": "Открытый, дождь ~26°",
+      "en": "Open-air, rain ~26°"
+    },
+    "lede": {
+      "ru": "Первый в истории Марокко четвертьфинал против машины Франции. Африканцы прошли Канаду сухо и не проигрывают 34 матча; Франция — фаворит турнира, но грызёт блоки, а не разбивает их, и осталась без Чуамени. В Бостоне вероятен дождь.",
+      "en": "Morocco's first-ever quarter-final against the French machine. The Africans saw off Canada cleanly and are 34 unbeaten; France are the tournament favourite but grind blocks down rather than smashing them, and are without Tchouaméni. Rain is likely in Boston."
+    }
+  },
+  {
+    "id": "spain-belgium",
+    "date": "2026-07-10",
+    "timeMsk": "22:00",
+    "cc": [
+      "es",
+      "be"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Испания — Бельгия",
+      "en": "Spain — Belgium"
+    },
+    "stage": {
+      "ru": "1/4 финала",
+      "en": "Quarter-final"
+    },
+    "venue": {
+      "ru": "SoFi Stadium, Лос-Анджелес",
+      "en": "SoFi Stadium, Los Angeles"
+    },
+    "weather": {
+      "ru": "Крыша закрыта, кондиционер",
+      "en": "Roof closed, air-conditioned"
+    },
+    "lede": {
+      "ru": "Непробиваемая Испания — ноль пропущенных за турнир — против глубины Бельгии, которая и без Де Брёйне с Лукаку разнесла США. Вопрос один: вскроет ли кто-нибудь эту оборону под крышей Лос-Анджелеса.",
+      "en": "An impenetrable Spain — zero conceded all tournament — against a Belgium whose depth thrashed the USA even without De Bruyne and Lukaku. One question: can anyone breach that defence under the Los Angeles roof."
+    }
+  },
+  {
+    "id": "norway-england",
+    "date": "2026-07-11",
+    "timeMsk": "00:00",
+    "cc": [
+      "no",
+      "gb-eng"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Норвегия — Англия",
+      "en": "Norway — England"
+    },
+    "stage": {
+      "ru": "1/4 финала",
+      "en": "Quarter-final"
+    },
+    "venue": {
+      "ru": "Hard Rock Stadium, Майами",
+      "en": "Hard Rock Stadium, Miami"
+    },
+    "weather": {
+      "ru": "Открытый, жара/влажность ~32°",
+      "en": "Open-air, hot & humid ~32°"
+    },
+    "lede": {
+      "ru": "Холанд, только что снявший Бразилию, против латаной Англии — без дисквалифицированного Куансы и с вирусом в норвежском лагере. Две вертикали и две дырявые обороны в пекле Майами: похоже на голы.",
+      "en": "Haaland, fresh from knocking out Brazil, against a patched England — without the suspended Quansah and with a bug in the Norway camp. Two vertical sides and two leaky defences in the Miami heat: it smells of goals."
+    }
+  },
+  {
+    "id": "argentina-switzerland",
+    "date": "2026-07-11",
+    "timeMsk": "04:00",
+    "cc": [
+      "ar",
+      "ch"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Аргентина — Швейцария",
+      "en": "Argentina — Switzerland"
+    },
+    "stage": {
+      "ru": "1/4 финала",
+      "en": "Quarter-final"
+    },
+    "venue": {
+      "ru": "Arrowhead Stadium, Канзас-Сити",
+      "en": "Arrowhead Stadium, Kansas City"
+    },
+    "weather": {
+      "ru": "Открытый, жара/дождь ~34°",
+      "en": "Open-air, hot/rain ~34°"
+    },
+    "lede": {
+      "ru": "Дырявая сзади, но классная впереди Аргентина против швейцарского автобуса с Кобелем. Швейцария впервые вылезает из прохладного Ванкувера в пекло Канзас-Сити после 120 минут с Колумбией. H2H — калька 2014-го: 1:0 в дополнительное.",
+      "en": "A leaky-but-classy Argentina against the Swiss bus and Kobel. Switzerland leave cool Vancouver for the Kansas City furnace for the first time, after 120 minutes against Colombia. The H2H is a 2014 template: 1:0 after extra time."
+    }
   }
 ]

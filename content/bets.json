@@ -12364,5 +12364,242 @@
       "ru": "✗ Аргентина — Египет 3:2, а не 2:0 → экспресс точных счетов сгорел.",
       "en": "✗ Argentina — Egypt finished 3:2, not 2:0 → the correct-scores accumulator is dead."
     }
+  },
+  {
+    "side": "AI",
+    "status": "pending",
+    "id": 411,
+    "date": "2026-07-09",
+    "matchId": "france-morocco",
+    "tier": "green",
+    "odds": 1.87,
+    "type": "ТМ",
+    "match": {
+      "ru": "Франция — Марокко",
+      "en": "France — Morocco"
+    },
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5"
+    },
+    "why": {
+      "ru": "Обе прошли 1/8 низово, Франция вскрывает лучшую оборону стадии узко, у Марокко нет чистой девятки, в Бостоне дождь — ждём мало голов.",
+      "en": "Both came through the round of 16 low-scoring; France prise the best defence of the round open narrowly, Morocco lack a natural nine, and rain is due in Boston — few goals expected."
+    }
+  },
+  {
+    "side": "AI",
+    "status": "pending",
+    "id": 412,
+    "date": "2026-07-09",
+    "matchId": "france-morocco",
+    "tier": "yellow",
+    "odds": 2.4,
+    "type": "Х2",
+    "match": {
+      "ru": "Франция — Марокко",
+      "en": "France — Morocco"
+    },
+    "bet": {
+      "ru": "Марокко не проиграет в основное время (X2)",
+      "en": "Morocco not to lose in regulation (X2)"
+    },
+    "note": {
+      "ru": "Кэф ориентировочный — сверить с линией Фонбета.",
+      "en": "Odds indicative — to confirm on the Fonbet line."
+    },
+    "why": {
+      "ru": "Франция не громит лучшую оборону турнира, Марокко 34 матча без поражений и тянет к своей лотерее — берём, что оно не проиграет в основное.",
+      "en": "France won't rout the best defence of the tournament; Morocco are 34 unbeaten and drag it to their lottery — backing them not to lose in regulation."
+    }
+  },
+  {
+    "side": "AI",
+    "status": "pending",
+    "id": 413,
+    "date": "2026-07-10",
+    "matchId": "spain-belgium",
+    "tier": "green",
+    "odds": 1.94,
+    "type": "ОЗ",
+    "match": {
+      "ru": "Испания — Бельгия",
+      "en": "Spain — Belgium"
+    },
+    "bet": {
+      "ru": "Обе забьют — нет",
+      "en": "Both teams to score — no"
+    },
+    "why": {
+      "ru": "Испания не пропустила ни разу за турнир, а Бельгия без открытых зон против контроля буксует — ждём сухие ворота хотя бы с одной стороны.",
+      "en": "Spain haven't conceded once all tournament, and Belgium stall against control without open space — expecting at least one clean sheet."
+    }
+  },
+  {
+    "side": "AI",
+    "status": "pending",
+    "id": 414,
+    "date": "2026-07-10",
+    "matchId": "spain-belgium",
+    "tier": "yellow",
+    "odds": 2,
+    "type": "ТМ",
+    "match": {
+      "ru": "Испания — Бельгия",
+      "en": "Spain — Belgium"
+    },
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5"
+    },
+    "note": {
+      "ru": "Коррелирует с «обе не забьют» — не в один экспресс.",
+      "en": "Correlates with BTTS-no — not in the same accumulator."
+    },
+    "why": {
+      "ru": "Модель даёт низ куда вероятнее рынка: Испания душит владением, Куртуа тащит, распахнутой игры не будет.",
+      "en": "The model rates the under far higher than the market: Spain smother possession, Courtois stands tall, and there'll be no open game."
+    }
+  },
+  {
+    "side": "AI",
+    "status": "pending",
+    "id": 415,
+    "date": "2026-07-11",
+    "matchId": "norway-england",
+    "tier": "green",
+    "odds": 1.76,
+    "type": "ОЗ",
+    "match": {
+      "ru": "Норвегия — Англия",
+      "en": "Norway — England"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "why": {
+      "ru": "Две вертикали и две дырявые обороны, у Англии дисквалифицирован Куанса — ждём, что забьют обе, независимо от того, кто победит.",
+      "en": "Two vertical sides and two leaky defences, and England are without the suspended Quansah — expecting both to score, whoever wins."
+    }
+  },
+  {
+    "side": "AI",
+    "status": "pending",
+    "id": 416,
+    "date": "2026-07-11",
+    "matchId": "norway-england",
+    "tier": "yellow",
+    "odds": 1.93,
+    "type": "ТБ",
+    "match": {
+      "ru": "Норвегия — Англия",
+      "en": "Norway — England"
+    },
+    "bet": {
+      "ru": "Тотал больше 2.5",
+      "en": "Over 2.5"
+    },
+    "note": {
+      "ru": "Коррелирует с «обе забьют» — не в один экспресс.",
+      "en": "Correlates with BTTS-yes — not in the same accumulator."
+    },
+    "why": {
+      "ru": "Консенсус моделей резко выше рынка по голам, обе команды результативны и текут сзади, суммарный xG к трём.",
+      "en": "Model consensus is well above the market on goals; both sides are potent and leak, with combined xG toward three."
+    }
+  },
+  {
+    "side": "AI",
+    "status": "pending",
+    "id": 417,
+    "date": "2026-07-11",
+    "matchId": "argentina-switzerland",
+    "tier": "green",
+    "odds": 1.9,
+    "type": "ТМ",
+    "match": {
+      "ru": "Аргентина — Швейцария",
+      "en": "Argentina — Switzerland"
+    },
+    "bet": {
+      "ru": "Тотал меньше 2.5",
+      "en": "Under 2.5"
+    },
+    "note": {
+      "ru": "Кэф ориентировочный — сверить с линией Фонбета.",
+      "en": "Odds indicative — to confirm on the Fonbet line."
+    },
+    "why": {
+      "ru": "Швейцарский автобус с Кобелем, жара Канзас-Сити и узкий поздний профиль Аргентины против блока — ждём мало голов.",
+      "en": "The Swiss bus with Kobel, Kansas City heat and Argentina's narrow late profile against a block — few goals expected."
+    }
+  },
+  {
+    "side": "AI",
+    "status": "pending",
+    "id": 418,
+    "date": "2026-07-11",
+    "tier": "red",
+    "odds": 8,
+    "type": "Система",
+    "match": {
+      "ru": "Четвертьфиналы — точные счета",
+      "en": "Quarter-finals — correct scores"
+    },
+    "bet": {
+      "ru": "Система точных счетов 2/4",
+      "en": "Correct-scores system 2/4"
+    },
+    "note": {
+      "ru": "Постоянная система дня; точные кэфы счетов уточняются по линии Фонбета (ориентировочный).",
+      "en": "The day's standing system; exact correct-score odds to be confirmed on the Fonbet line (indicative)."
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Франция — Марокко",
+          "en": "France — Morocco"
+        },
+        "p": {
+          "ru": "Точный счёт 1:0",
+          "en": "Correct score 1:0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Испания — Бельгия",
+          "en": "Spain — Belgium"
+        },
+        "p": {
+          "ru": "Точный счёт 1:0",
+          "en": "Correct score 1:0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Аргентина — Швейцария",
+          "en": "Argentina — Switzerland"
+        },
+        "p": {
+          "ru": "Точный счёт 1:0",
+          "en": "Correct score 1:0"
+        }
+      },
+      {
+        "m": {
+          "ru": "Норвегия — Англия",
+          "en": "Norway — England"
+        },
+        "p": {
+          "ru": "Точный счёт 1:2",
+          "en": "Correct score 1:2"
+        }
+      }
+    ],
+    "why": {
+      "ru": "Постоянная система точных счетов по четырём модальным исходам 1/4 — узкие низовые коридоры.",
+      "en": "The standing correct-scores system across four modal quarter-final outcomes — narrow, low-scoring corridors."
+    }
   }
 ]
