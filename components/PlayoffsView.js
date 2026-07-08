@@ -325,20 +325,20 @@ export default function PlayoffsView() {
   // Третьи места — ОКОНЧАТЕЛЬНО: 8 лучших третьих посеяны.
   const THOUGHTS = [
     [tr('Прогноз AI: чемпион — Аргентина', 'AI forecast: champion — Argentina'),
-     tr('После 1/16 сетку пересобрали заново — и чемпион устоял: машина ведёт Аргентину через Египет, Колумбию (в доп. время, эхо финала Копы-2024) и Англию — к финалу с Испанией, который решает серия пенальти и Дибу Мартинес. По Elo Аргентина — №1 (выше Франции и Испании), у Opta её шансы на титул выросли сильнее всех после группы.',
-        'After the round of 32 we rebuilt the bracket from scratch — and the champion held: the model takes Argentina past Egypt, Colombia (in extra time, an echo of the Copa 2024 final) and England, to a final against Spain settled by a shootout and Dibu Martínez. Elo ranks Argentina #1 (above France and Spain), and Opta’s title chances for them grew more than anyone’s after the groups.')],
+     tr('Сетка дошла до 1/4, и чемпион устоял: машина ведёт Аргентину мимо Египта (уже пройден — камбэк 3:2), Швейцарии и Англии — к финалу с Испанией, где всё решают серия пенальти и Дибу Мартинес. По Elo Аргентина — №1 (выше Франции и Испании), у Opta её шансы на титул выросли сильнее всех после группы.',
+        'The bracket has reached the quarters and the champion held: the model takes Argentina past Egypt (already done — a 3:2 comeback), Switzerland and England, to a final against Spain settled by a shootout and Dibu Martínez. Elo ranks Argentina #1 (above France and Spain), and Opta’s title chances for them grew more than anyone’s after the groups.')],
     [tr('Пенальти и доп. время — по статистике', 'Penalties and extra time — calibrated'),
-     tr('Три серии пенальти уже случились в 1/16 — и обе сенсации родились именно там. Впереди по прогнозу ещё четыре (Мексика–Англия, США–Бельгия, Бразилия–Англия в 1/4 и финал) плюс два овертайма — это ровно историческая норма: 38% нокаут-матчей не укладываются в 90 минут. Серия — почти монетка: решают вратарь и нервы, поэтому все наши «пенальтийные» узлы помечены низкой уверенностью.',
-        'Three shootouts already happened in the round of 32 — and both upsets were born there. Our forecast has four more ahead (Mexico–England, USA–Belgium, the Brazil–England quarter and the final) plus two extra-time finishes — exactly the historical norm: 38% of knockout games outlive the 90 minutes. A shootout is near a coin-flip — keeper and nerve decide, so all our shootout nodes carry low confidence.')],
+     tr('Плей-офф уже дал серию сенсаций через пенальти — в 1/16 (Марокко и Парагвай прошли с точки) и в 1/8 (Швейцария выбила Колумбию 4:3 после сухого 0:0). Впереди лотерея снова маячит в Аргентина–Швейцария и в финале — это историческая норма: 38% нокаутов не укладываются в 90 минут. Серия — почти монетка: решают вратарь и нервы, поэтому все наши «пенальтийные» узлы помечены низкой уверенностью.',
+        'The knockouts have already produced a run of shootout upsets — in the round of 32 (Morocco and Paraguay went through from the spot) and the round of 16 (Switzerland knocked Colombia out 4:3 after a dry 0:0). The lottery looms again in Argentina–Switzerland and the final — the historical norm: 38% of knockout games outlive the 90 minutes. A shootout is near a coin-flip — keeper and nerve decide, so all our shootout nodes carry low confidence.')],
     [tr('Сенсации по версии AI', 'Upsets per the model'),
-     tr('Марокко своё уже забрало — Нидерланды дома. Дальше машина ждёт: США выбивают Бельгию по пенальти (Фриз в серии Голд Капа-2025 взял три удара — а Куртуа серии за сборную не выигрывал); Англия снимает Бразилию в 1/4 — тоже с точки (Пикфорд против бразильского проклятия серий); Колумбия проходит Швейцарию без всякой лотереи — 1:0 в основное время, четвёртый сухарь подряд.',
-        'Morocco already cashed theirs — the Netherlands are home. Next the model expects: the USA knock Belgium out on penalties (Freese saved three in the 2025 Gold Cup shootout — while Courtois has never won one for the national team); England take Brazil down in the quarters, from the spot again (Pickford against Brazil’s shootout curse); and Colombia see off Switzerland with no lottery at all — 1-0 in regulation, a fourth straight clean sheet.')],
+     tr('Сетку изрядно перетряхнуло: Португалия, Бразилия, США, Колумбия — все уже дома. Дальше машина ждёт осторожно: Швейцария (лучший автобус стадии) способна дотащить Аргентину до пенальти, как в 2014-м; Марокко с Буну — реальная угроза Франции в серии; а Норвегия Холанда, уже снявшая Бразилию, — самый живой андердог против латаной Англии.',
+        'The bracket has been shaken up hard: Portugal, Brazil, the USA and Colombia are all home. From here the model treads carefully: Switzerland (the best bus of the round) can drag Argentina to penalties as in 2014; Morocco with Bounou are a real shootout threat to France; and Haaland’s Norway, already conquerors of Brazil, are the liveliest underdog against a patched England.')],
     [tr('Две половины — два мира', 'Two halves, two worlds'),
-     tr('Нижняя половина — мясорубка: Бразилия, Аргентина, Англия, Колумбия. Верхняя мягче: Франция, Испания, Марокко, США. Поэтому наш финал — победитель верхней (Испания, через реванш Евро-2024 у Франции) против выжившего из нижней (Аргентина).',
-        'The bottom half is a mincer: Brazil, Argentina, England, Colombia. The top half is kinder: France, Spain, Morocco, USA. Hence our final — the top-half winner (Spain, via a Euro 2024 rematch with France) against the bottom-half survivor (Argentina).')],
+     tr('Верхняя половина мягче: Франция, Марокко, Испания, Бельгия. Нижняя жёстче: Норвегия Холанда, Англия, Аргентина, Швейцария. Поэтому наш финал — победитель верхней (Испания, через полуфинал-реванш Евро-2024 с Францией) против выжившего из нижней (Аргентина).',
+        'The top half is kinder: France, Morocco, Spain, Belgium. The bottom half is tougher: Haaland’s Norway, England, Argentina, Switzerland. Hence our final — the top-half winner (Spain, via a Euro 2024 rematch semi with France) against the bottom-half survivor (Argentina).')],
     [tr('Рынок перегрел Францию', 'The market has overheated France'),
-     tr('После разгрома Швеции рынок даёт Франции треть всех шансов на титул — а модели (Opta, Squawka) видят вдвое скромнее. Наш полуфинал Франция–Испания идёт против рыночного фаворита: Испания свежее, глубже и по Elo выше. Второй недооценённый — Колумбия: шестая команда мира по Elo, которую рынок держит в дальнем углу.',
-        'Since the Sweden demolition the market hands France a third of all title equity — while the models (Opta, Squawka) see half that. Our France–Spain semi goes against the market favourite: Spain are fresher, deeper and higher on Elo. The other underpriced side is Colombia — sixth in the world by Elo, kept in the market’s far corner.')],
+     tr('Рынок держит Францию главным фаворитом на титул — а модели (Opta, Elo) видят вдвое скромнее и выше ставят Испанию. Наш полуфинал Франция–Испания идёт против рыночного фаворита: Испания свежее, глубже и не пропустила ни разу за турнир. Аргентина по Elo — №1, но у рынка лишь вторая-третья.',
+        'The market keeps France the clear title favourite — while the models (Opta, Elo) see half that and rate Spain higher. Our France–Spain semi goes against the market favourite: Spain are fresher, deeper and haven’t conceded once all tournament. Argentina are Elo #1 but only second or third with the market.')],
   ];
 
   // Подводные камни — по урокам апсетов 3 последних ЧМ (research/upsets).
@@ -350,15 +350,15 @@ export default function PlayoffsView() {
     ['mid', tr('Чемпион-Аргентина — против рынка', 'Champion Argentina — against the market'),
      tr('Наш чемпион совпал с Elo (там Аргентина №1) и с трендом Opta (самый большой рост шансов после группы), но рынок фаворитом держит Францию с большим отрывом, Аргентина — вторая (~18%). Титул Аргентины — ставка на Elo-семью и фактор Дибу, а не на рыночный консенсус.',
         'Our champion matches Elo (Argentina #1 there) and Opta’s trend (the biggest post-group jump in title chances), but the market keeps France a clear favourite with Argentina second (~18%). An Argentina title backs the Elo family and the Dibu factor, not the market consensus.')],
-    ['mid', tr('Семь серий пенальти — это монетки', 'Seven shootouts — coin-flips'),
-     tr('Три серии уже сыграны в 1/16 (обе сенсации — оттуда), впереди по прогнозу ещё четыре. Даже если частота угадана идеально, сами монетки могут лечь иначе и сдвинуть полуфиналистов или чемпиона. «Класс в серии» не гарантирует ничего — Дибу, Ливакович, Буну решали вопреки классу.',
-        'Three shootouts are already played in the round of 32 (both upsets came from them), and our forecast has four more ahead. Even with the frequency called perfectly, the coins themselves can land differently and shift the semifinalists or the champion. «Class in a shootout» guarantees nothing — Dibu, Livaković, Bono decided games against the odds.')],
-    ['mid', tr('Мексика на Ацтеке — высота + хозяева', 'Mexico at the Azteca — altitude + hosts'),
-     tr('Наш пик «Англия по пенальти в Мехико» идёт против 2200 м и фактора поля. Хозяин под грузом нации хрупок (Бразилия-2014), но высота и трибуны — реальный бамп Мексике.',
-        'Our pick «England on penalties in Mexico City» runs against 2,200 m and home advantage. A host under the weight of a nation is fragile (Brazil-2014), but altitude and the crowd are a real bump for Mexico.')],
+    ['mid', tr('Серии пенальти — это монетки', 'Shootouts are coin-flips'),
+     tr('Серии сыпались весь плей-офф, и почти все сенсации родом оттуда (последняя — Швейцария 4:3 Колумбия). Впереди лотерея снова живая — в 1/4 и в финале. Даже если частоту угадали, монетки могут лечь иначе и сдвинуть полуфиналистов или чемпиона. «Класс в серии» не гарантирует ничего — Дибу, Ливакович, Буну решали вопреки классу.',
+        'Shootouts have punctuated the whole knockout run, and almost every upset came from one (the latest: Switzerland 4:3 Colombia). The lottery is live again — in the quarters and the final. Even with the frequency called right, the coins can land differently and shift the semifinalists or the champion. «Class in a shootout» guarantees nothing — Dibu, Livaković, Bono won against the odds.')],
+    ['mid', tr('Норвегия Холанда — против латаной Англии', 'Haaland’s Norway — against a patched England'),
+     tr('Наш пик — проход Англии, но она без дисквалифицированного Куансы и с латаной правой бровкой ловит вертикаль Холанда в пекле Майами. Норвегия только что сняла Бразилию — апсет-магия реальна; серия упирается в Пикфорда, но 90 минут открыты.',
+        'Our pick is England to advance, but without the suspended Quansah and with a patched right flank they must contain Haaland’s vertical game in the Miami heat. Norway have just knocked out Brazil — the upset magic is real; a shootout runs into Pickford, but the 90 minutes are open.')],
     ['mid', tr('Аргентина и низкие блоки — хроническая мука', 'Argentina against deep blocks — a chronic struggle'),
-     tr('Кабо-Верде уже показало рецепт: автобус + вратарь в форме = 1:1 к 90-й. Египет с Шобейром (никто не забил ему больше одного, оба пропущенных — автоголы) и Колумбия с четырьмя сухарями — тот же профиль. Мы ведём Аргентину через оба узла минимальным счётом, но каждый из них — живой кандидат дотащить её до лотереи.',
-        'Cape Verde already showed the recipe: a bus plus an in-form keeper equals 1-1 at the 90th. Egypt with Shobeir in goal (nobody has scored more than one past him, both goals conceded were own goals) and Colombia with four straight clean sheets fit the same profile. We take Argentina through both nodes by the narrowest of margins — but each is a live candidate to drag them into the lottery.')],
+     tr('Кабо-Верде и Египет уже показали рецепт против Аргентины: автобус плюс вратарь — и она горит, а потом вытягивает на классе (0:2 → 3:2 с Египтом). Теперь Швейцария Кобеля — лучший блок из всех: сухой 0:0 с Колумбией и проход по пенальти. Мы ведём Аргентину дальше минимальным счётом, но это живой кандидат дотащить её до лотереи.',
+        'Cape Verde and Egypt already showed the recipe against Argentina: a bus plus a keeper, and they wobble before rescuing it on class (0:2 → 3:2 vs Egypt). Now Kobel’s Switzerland are the best block yet: a dry 0:0 with Colombia and a shootout win. We take Argentina through by the narrowest margin, but it’s a live candidate to drag them into the lottery.')],
   ];
 
   // Как считали + что заметили (кухня прогноза).
@@ -427,7 +427,7 @@ export default function PlayoffsView() {
       <div className="sect"><span className="sect-label">{tr('Верхняя половина', 'Top half')}</span></div>
       <Half cfg={TOP} lang={lang} />
 
-      <div className="sect"><span className="sect-label">{tr('Нижняя половина · мясорубка', 'Bottom half · the mincer')}</span></div>
+      <div className="sect"><span className="sect-label">{tr('Нижняя половина · жёстче', 'Bottom half · tougher')}</span></div>
       <Half cfg={BOTTOM} lang={lang} />
 
       <div className="sect"><span className="sect-label">{tr('Финал · MetLife · 19 июля', 'Final · MetLife · Jul 19')}</span></div>
@@ -442,8 +442,8 @@ export default function PlayoffsView() {
       <div className="sect"><span className="sect-label">{tr('Подводные камни · уроки прошлых ЧМ', 'Pitfalls · lessons from past World Cups')}</span></div>
       <section className="block po-thoughts">
         <p className="po-intro" style={{ marginTop: 0 }}>
-          {tr('Прогноз честно «по фаворитам». Один узел флипнули по согласию моделей и истории — Бразилию в 1/4 убрала Англия. Остальные монетки оставили модально (метки «50/50»/«слабо»), а число серий пенальти откалибровали под статистику. Вот где сетка всё ещё тоньше всего.',
-              'The forecast is honestly «chalk». We flipped one node on the agreement of the models and history — England knock Brazil out in the quarters. The other coin-flips stay modal (tagged «50/50»/«soft»), and we calibrated the number of shootouts to the stats. Here is where the bracket is still thinnest.')}
+          {tr('Прогноз честно «по фаворитам»: где можем — ведём сильнейшего, а монетки оставляем модально (метки «50/50»/«слабо»), число серий пенальти откалибровано под статистику. Вот где сетка всё ещё тоньше всего.',
+              'The forecast is honestly «chalk»: where we can we back the stronger side, the coin-flips stay modal (tagged «50/50»/«soft»), and the number of shootouts is calibrated to the stats. Here is where the bracket is still thinnest.')}
         </p>
         {RISKS.map(([lvl, h, b], i) => (
           <div key={i} className="po-thought">
