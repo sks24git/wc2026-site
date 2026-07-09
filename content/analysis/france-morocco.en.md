@@ -1,8 +1,8 @@
 ## Result: France — Morocco 2:0 (0:0)
 
-Goals: Mbappe 60', Dembele 66'. Shots 22-5 (on target 9-1), possession 48-52, corners 5-5, yellows 0-1.
+Goals: Mbappe 60', Dembele 66'. Shots 22-5 (on target 9-1), xG 3.05—0.14, possession 48-52, corners 5-5, yellows 0-1.
 
-For an hour the game walked the tightrope between our branches: 0:0, Morocco's wall holding, France — without Tchouameni — probing with moments rather than positional play. On 60 Mbappe settled the moment, and six minutes later Dembele killed the tie. Morocco managed one shot on target all night: the stage's best defence never converted into counter-threat.
+For an hour the game walked the tightrope between our branches: 0:0, Morocco's wall holding, France — without Tchouameni — probing with moments rather than positional play. On 28 Bounou saved Mbappe's penalty (his first World Cup miss — a run of 15 converted ended), and the lottery seemed to be pulling Morocco's way again. But on 60 Mbappe settled it from open play, six minutes later Dembele killed the tie, and on 77 Mbappe went off after a heavy challenge — a worrying note before the semi-final. Morocco managed one shot on target all night: the stage's best defence (and a record 39-match unbeaten run) never converted into counter-threat.
 
 **Settlement.** AI: Under 2.5 @1.80 ✓ (exactly 2 — the under logic held); Morocco to qualify @3.95 ✗ (the shootout value branch never reached the lottery); over 3.5 yellows @2.80 ✗ (one card all game — the match profile beat the referee's numbers); the "France 1:0" position in the correct-score system missed. Pasha: 2nd half higher scoring @2.10 ✓ and corners over 9.5 @1.80 ✓ (exactly 10), the draw @3.90 ✗ and BTTS @1.90 ✗.
 
