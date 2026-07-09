@@ -12616,5 +12616,93 @@
       "ru": "Судит Факундо Тельо — один из самых карточных арбитров, дождь и вязкий блок Марокко обещают рубку, а цена нокаут-ошибки добавляет нервов. Ждём четыре горчичника и больше.",
       "en": "Facundo Tello referees — one of the most card-happy officials; rain and Morocco's grinding block promise a scrap, and knockout stakes fray nerves. Four bookings or more expected."
     }
+  },
+  {
+    "match": {
+      "ru": "Франция — Марокко",
+      "en": "France — Morocco"
+    },
+    "matchId": "france-morocco",
+    "date": "2026-07-09",
+    "side": "Паша",
+    "status": "pending",
+    "id": 420,
+    "bet": {
+      "ru": "Ничья (основное время)",
+      "en": "Draw (regulation)"
+    },
+    "type": "Х",
+    "odds": 3.9,
+    "tier": "yellow",
+    "why": {
+      "ru": "Марокко — лучшая оборона турнира и уже валило Францию по пенальти: Паша ждёт вязкий равный матч, где фаворит так и не дожмёт за 90 минут.",
+      "en": "Morocco own the tournament's best defence and have already taken France to penalties before: Pasha expects a tight, even game the favourites never quite break open in 90 minutes."
+    }
+  },
+  {
+    "match": {
+      "ru": "Франция — Марокко",
+      "en": "France — Morocco"
+    },
+    "matchId": "france-morocco",
+    "date": "2026-07-09",
+    "side": "Паша",
+    "status": "pending",
+    "id": 421,
+    "bet": {
+      "ru": "2-й тайм результативнее 1-го",
+      "en": "2nd half higher scoring than 1st"
+    },
+    "type": "Другое",
+    "odds": 2.1,
+    "tier": "green",
+    "why": {
+      "ru": "Осторожное начало, разведка и жара — а вся развязка после перерыва, когда открываются пространства и идут замены.",
+      "en": "A cautious opening and the heat keep the first half quiet — the drama comes after the break, when spaces open and the subs arrive."
+    }
+  },
+  {
+    "match": {
+      "ru": "Франция — Марокко",
+      "en": "France — Morocco"
+    },
+    "matchId": "france-morocco",
+    "date": "2026-07-09",
+    "side": "Паша",
+    "status": "pending",
+    "id": 422,
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "type": "ОЗ",
+    "odds": 1.9,
+    "tier": "green",
+    "why": {
+      "ru": "Франция забивает всегда, а Марокко в нокаутах научилось отвечать — Паша верит в размен голами.",
+      "en": "France always score, and Morocco have learned to answer in the knockouts — Pasha backs an exchange of goals."
+    }
+  },
+  {
+    "match": {
+      "ru": "Франция — Марокко",
+      "en": "France — Morocco"
+    },
+    "matchId": "france-morocco",
+    "date": "2026-07-09",
+    "side": "Паша",
+    "status": "pending",
+    "id": 423,
+    "bet": {
+      "ru": "Угловые: тотал больше 9.5",
+      "en": "Corners: total over 9.5"
+    },
+    "type": "Другое",
+    "odds": 1.8,
+    "tier": "green",
+    "why": {
+      "ru": "Франция будет расшатывать низкий блок навесами и стандартами, Марокко огрызаться контратаками — навал даёт угловые с обеих сторон.",
+      "en": "France will batter the low block with crosses and set pieces while Morocco break out on the counter — that siege pattern racks up corners at both ends."
+    }
   }
 ]
