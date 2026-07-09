@@ -1,3 +1,15 @@
+## Result: France — Morocco 2:0 (0:0)
+
+Goals: Mbappe 60', Dembele 66'. Shots 22-5 (on target 9-1), possession 48-52, corners 5-5, yellows 0-1.
+
+For an hour the game walked the tightrope between our branches: 0:0, Morocco's wall holding, France — without Tchouameni — probing with moments rather than positional play. On 60 Mbappe settled the moment, and six minutes later Dembele killed the tie. Morocco managed one shot on target all night: the stage's best defence never converted into counter-threat.
+
+**Settlement.** AI: Under 2.5 @1.80 ✓ (exactly 2 — the under logic held); Morocco to qualify @3.95 ✗ (the shootout value branch never reached the lottery); over 3.5 yellows @2.80 ✗ (one card all game — the match profile beat the referee's numbers); the "France 1:0" position in the correct-score system missed. Pasha: 2nd half higher scoring @2.10 ✓ and corners over 9.5 @1.80 ✓ (exactly 10), the draw @3.90 ✗ and BTTS @1.90 ✗.
+
+**Lesson.** A cards total built on the referee and the "cost of a mistake" burns against the match profile: a technical favourite plus a disciplined, non-cynical block = 22 fouls and a single yellow. The referee amplifies a foul-ridden game — he doesn't create one.
+
+---
+
 ## France — Morocco · 09.07, 23:00 MSK · Gillette Stadium, Foxborough (Boston)
 
 **France are the tournament favourite after Portugal's exit, but they prise sides open with a moment, not with positional play. Morocco are the best defence of the round and a 34-match unbeaten run that drags games toward its own lottery. Rain in Boston and Tchouaméni's absence narrow the favourite's edge: this is a low-scoring match with a very live shootout branch.**

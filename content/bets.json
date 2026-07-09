@@ -12367,7 +12367,7 @@
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "win",
     "id": 411,
     "date": "2026-07-09",
     "matchId": "france-morocco",
@@ -12385,11 +12385,15 @@
     "why": {
       "ru": "Обе прошли 1/8 низово, Франция вскрывает лучшую оборону стадии узко, у Марокко нет чистой девятки, в Бостоне дождь — ждём мало голов.",
       "en": "Both came through the round of 16 low-scoring; France prise the best defence of the round open narrowly, Morocco lack a natural nine, and rain is due in Boston — few goals expected."
+    },
+    "note": {
+      "ru": "✓ 2 гола — низ сыграл, как и писала модель",
+      "en": "✓ 2 goals — the under landed, just as the model called"
     }
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "id": 412,
     "date": "2026-07-09",
     "matchId": "france-morocco",
@@ -12407,6 +12411,10 @@
     "why": {
       "ru": "Франция не громит лучшую оборону стадии, а Марокко 34 матча без поражений и сознательно тянет игру к своей лотерее, где Буну уже выносил гигантов. Ветка серии недооценена рынком.",
       "en": "France don't rout the best defence of the round, while Morocco are 34 unbeaten and deliberately drag games to their lottery, where Bounou has slain giants before. The shootout branch is underpriced."
+    },
+    "note": {
+      "ru": "✗ Франция прошла 2:0 — класс перебил стену",
+      "en": "✗ France went through 2:0 — class beat the wall"
     }
   },
   {
@@ -12545,8 +12553,8 @@
       "en": "Correct-scores system 2/4"
     },
     "note": {
-      "ru": "Кэфы счетов по линии Фонбета: Франция 1:0 @6.50 · Испания 1:0 @7.50 · Норвегия—Англия 1:2 @8.50 · Аргентина 1:0 @5.50; эфф. кэф ~8.1 при двух попаданиях.",
-      "en": "Correct-score odds on the Fonbet line: France 1:0 @6.50 · Spain 1:0 @7.50 · Norway—England 1:2 @8.50 · Argentina 1:0 @5.50; effective ~8.1 with two hits."
+      "ru": "Кэфы счетов по линии Фонбета: Франция 1:0 @6.50 · Испания 1:0 @7.50 · Норвегия—Англия 1:2 @8.50 · Аргентина 1:0 @5.50; эфф. кэф ~8.1 при двух попаданиях. Франция 1:0 — мимо (2:0): нужны 2 попадания из трёх оставшихся.",
+      "en": "Correct-score odds per Fonbet: France 1:0 @6.50 · Spain 1:0 @7.50 · Norway—England 1:2 @8.50 · Argentina 1:0 @5.50; effective odds ~8.1 with two hits. France 1:0 missed (2:0): now needs 2 hits from the remaining three."
     },
     "legs": [
       {
@@ -12598,7 +12606,7 @@
   {
     "id": 419,
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-09",
     "matchId": "france-morocco",
     "tier": "yellow",
@@ -12615,6 +12623,10 @@
     "why": {
       "ru": "Судит Факундо Тельо — один из самых карточных арбитров, дождь и вязкий блок Марокко обещают рубку, а цена нокаут-ошибки добавляет нервов. Ждём четыре горчичника и больше.",
       "en": "Facundo Tello referees — one of the most card-happy officials; rain and Morocco's grinding block promise a scrap, and knockout stakes fray nerves. Four bookings or more expected."
+    },
+    "note": {
+      "ru": "✗ всего 1 жёлтая: техничный матч без грубости, судейский фактор не сработал",
+      "en": "✗ just 1 yellow: a technical match without cynicism, the referee factor never fired"
     }
   },
   {
@@ -12625,7 +12637,7 @@
     "matchId": "france-morocco",
     "date": "2026-07-09",
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "id": 420,
     "bet": {
       "ru": "Ничья (основное время)",
@@ -12637,6 +12649,10 @@
     "why": {
       "ru": "Марокко — лучшая оборона турнира и уже валило Францию по пенальти: Паша ждёт вязкий равный матч, где фаворит так и не дожмёт за 90 минут.",
       "en": "Morocco own the tournament's best defence and have already taken France to penalties before: Pasha expects a tight, even game the favourites never quite break open in 90 minutes."
+    },
+    "note": {
+      "ru": "✗ Франция дожала во 2-м тайме — 2:0",
+      "en": "✗ France broke through in the 2nd half — 2:0"
     }
   },
   {
@@ -12647,7 +12663,7 @@
     "matchId": "france-morocco",
     "date": "2026-07-09",
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "id": 421,
     "bet": {
       "ru": "2-й тайм результативнее 1-го",
@@ -12659,6 +12675,10 @@
     "why": {
       "ru": "Осторожное начало, разведка и жара — а вся развязка после перерыва, когда открываются пространства и идут замены.",
       "en": "A cautious opening and the heat keep the first half quiet — the drama comes after the break, when spaces open and the subs arrive."
+    },
+    "note": {
+      "ru": "✓ 0:0 к перерыву, оба гола после — точное чтение сценария",
+      "en": "✓ 0:0 at the break, both goals after — the script read perfectly"
     }
   },
   {
@@ -12669,7 +12689,7 @@
     "matchId": "france-morocco",
     "date": "2026-07-09",
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "id": 422,
     "bet": {
       "ru": "Обе забьют — да",
@@ -12681,6 +12701,10 @@
     "why": {
       "ru": "Франция забивает всегда, а Марокко в нокаутах научилось отвечать — Паша верит в размен голами.",
       "en": "France always score, and Morocco have learned to answer in the knockouts — Pasha backs an exchange of goals."
+    },
+    "note": {
+      "ru": "✗ Марокко так и не забило — сухарь Франции",
+      "en": "✗ Morocco never scored — a French clean sheet"
     }
   },
   {
@@ -12691,7 +12715,7 @@
     "matchId": "france-morocco",
     "date": "2026-07-09",
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "id": 423,
     "bet": {
       "ru": "Угловые: тотал больше 9.5",
@@ -12703,6 +12727,10 @@
     "why": {
       "ru": "Франция будет расшатывать низкий блок навесами и стандартами, Марокко огрызаться контратаками — навал даёт угловые с обеих сторон.",
       "en": "France will batter the low block with crosses and set pieces while Morocco break out on the counter — that siege pattern racks up corners at both ends."
+    },
+    "note": {
+      "ru": "✓ ровно 10 угловых (5-5) — навал на автобус дал углы с обеих сторон",
+      "en": "✓ exactly 10 corners (5-5) — the siege brought corners at both ends"
     }
   }
 ]
