@@ -21,3 +21,9 @@
 - 🟢 **Both teams to score — no @1.95** — Spain haven't conceded once all tournament, Belgium stall against an organised possession side without open space, and with the stars benched their creation is lower still. A direct expression of the "wall" thesis; losing Onana (ACL tear) hurts the pivot and adds nothing to Belgium's creation.
 - 🟢 **Under 2.5 @2.03** *(stake trimmed to yellow size)* — the model is 22 pp below the market; Spain smother with a low xG, Courtois stands tall, and stage history runs at 2.0 goals a game. Moderate size: it correlates with BTTS-no, so they don't share a ticket.
 - Killed: a big Spain handicap −1.5/−2 (they score little and late); Spain team total over 1.5 (same conversion ceiling); a straight Spain win @1.61 (market = model); pairing BTTS-no with Spain team total over 1.5 (they meet on one narrow score — a hidden contradiction). Review trigger — if García restores Belgium's full front three: a livelier game and a higher BTTS-yes chance.
+
+**Pasha:**
+- 🟢 **Corners: total over 9.5 @1.80** — "both sides are strong on corners, a safe one."
+- 🟢 **Goal in each half @1.60** — a lively match, no goalless sparring.
+
+Head-on again: AI plays Spain's dry under (BTTS-no + Under 2.5 built around 1:0), Pasha needs a goal in both halves — meaning at least two and an open game. The views only reconcile on a late 1:0 with a goalless first half — then the machine wins; on 2:1 it's Pasha.

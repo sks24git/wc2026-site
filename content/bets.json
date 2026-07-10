@@ -12732,5 +12732,49 @@
       "ru": "✓ ровно 10 угловых (5-5) — навал на автобус дал углы с обеих сторон",
       "en": "✓ exactly 10 corners (5-5) — the siege brought corners at both ends"
     }
+  },
+  {
+    "match": {
+      "ru": "Испания — Бельгия",
+      "en": "Spain — Belgium"
+    },
+    "matchId": "spain-belgium",
+    "date": "2026-07-10",
+    "side": "Паша",
+    "status": "pending",
+    "id": 424,
+    "bet": {
+      "ru": "Угловые: тотал больше 9.5",
+      "en": "Corners: total over 9.5"
+    },
+    "type": "Другое",
+    "odds": 1.8,
+    "tier": "green",
+    "why": {
+      "ru": "Обе команды хороши по угловым: Испания давит позиционкой и флангами, Бельгия отвечает стандартами — навесов и рикошетов хватит с обеих сторон.",
+      "en": "Both sides generate corners: Spain press through positional play and the flanks, Belgium answer with set pieces — crosses and deflections will pile up at both ends."
+    }
+  },
+  {
+    "match": {
+      "ru": "Испания — Бельгия",
+      "en": "Spain — Belgium"
+    },
+    "matchId": "spain-belgium",
+    "date": "2026-07-10",
+    "side": "Паша",
+    "status": "pending",
+    "id": 425,
+    "bet": {
+      "ru": "Гол в каждом тайме",
+      "en": "Goal in each half"
+    },
+    "type": "Другое",
+    "odds": 1.6,
+    "tier": "green",
+    "why": {
+      "ru": "Паша не верит в сухую разведку: класс атак с обеих сторон должен распечатать и первый, и второй тайм.",
+      "en": "Pasha doesn't buy a goalless stalemate: the attacking class on both sides should unlock both the first half and the second."
+    }
   }
 ]
