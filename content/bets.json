@@ -12748,7 +12748,7 @@
       "en": "Corners: total over 9.5"
     },
     "type": "Другое",
-    "odds": 1.8,
+    "odds": 1.93,
     "tier": "green",
     "why": {
       "ru": "Обе команды хороши по угловым: Испания давит позиционкой и флангами, Бельгия отвечает стандартами — навесов и рикошетов хватит с обеих сторон.",
@@ -12775,6 +12775,50 @@
     "why": {
       "ru": "Паша не верит в сухую разведку: класс атак с обеих сторон должен распечатать и первый, и второй тайм.",
       "en": "Pasha doesn't buy a goalless stalemate: the attacking class on both sides should unlock both the first half and the second."
+    }
+  },
+  {
+    "match": {
+      "ru": "Испания — Бельгия",
+      "en": "Spain — Belgium"
+    },
+    "matchId": "spain-belgium",
+    "date": "2026-07-10",
+    "side": "Паша",
+    "status": "pending",
+    "id": 426,
+    "bet": {
+      "ru": "Победа Испании + обе забьют",
+      "en": "Spain to win & both teams to score"
+    },
+    "type": "Другое",
+    "odds": 3.15,
+    "tier": "yellow",
+    "why": {
+      "ru": "«Давай всё-таки победа + ОЗ»: Испания дожмёт, но бельгийская атака своё возьмёт — сценарий 2:1 одним билетом.",
+      "en": "\"Let's take the win plus BTTS after all\": Spain grind it out, but Belgium's attack gets its goal — the 2:1 script in a single ticket."
+    }
+  },
+  {
+    "match": {
+      "ru": "Испания — Бельгия",
+      "en": "Spain — Belgium"
+    },
+    "matchId": "spain-belgium",
+    "date": "2026-07-10",
+    "side": "Паша",
+    "status": "pending",
+    "id": 427,
+    "bet": {
+      "ru": "Испания забьёт в каждом тайме",
+      "en": "Spain to score in each half"
+    },
+    "type": "Другое",
+    "odds": 2.35,
+    "tier": "green",
+    "why": {
+      "ru": "Испания давит все 90 минут и не останавливается после первого гола — по голу до и после перерыва.",
+      "en": "Spain press for the full 90 and don't stop after the opener — a goal either side of the break."
     }
   }
 ]

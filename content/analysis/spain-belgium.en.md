@@ -23,7 +23,9 @@
 - Killed: a big Spain handicap −1.5/−2 (they score little and late); Spain team total over 1.5 (same conversion ceiling); a straight Spain win @1.61 (market = model); pairing BTTS-no with Spain team total over 1.5 (they meet on one narrow score — a hidden contradiction). Review trigger — if García restores Belgium's full front three: a livelier game and a higher BTTS-yes chance.
 
 **Pasha:**
-- 🟢 **Corners: total over 9.5 @1.80** — "both sides are strong on corners, a safe one."
+- 🟢 **Corners: total over 9.5 @1.93** — "both sides are strong on corners, a safe one."
 - 🟢 **Goal in each half @1.60** — a lively match, no goalless sparring.
+- 🟡 **Spain to win & both teams to score @3.15** — "let's take the win plus BTTS after all": the 2:1 script in one ticket.
+- 🟢 **Spain to score in each half @2.35** — pressure across the full 90.
 
 Head-on again: AI plays Spain's dry under (BTTS-no + Under 2.5 built around 1:0), Pasha needs a goal in both halves — meaning at least two and an open game. The views only reconcile on a late 1:0 with a goalless first half — then the machine wins; on 2:1 it's Pasha.
