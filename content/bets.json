@@ -12419,7 +12419,7 @@
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "id": 413,
     "date": "2026-07-10",
     "matchId": "spain-belgium",
@@ -12437,11 +12437,15 @@
     "why": {
       "ru": "Испания не пропустила ни разу за турнир, а Бельгия без открытых зон против контроля буксует — ждём сухие ворота хотя бы с одной стороны.",
       "en": "Spain haven't conceded once all tournament, and Belgium stall against control without open space — expecting at least one clean sheet."
+    },
+    "note": {
+      "ru": "✗ Де Кетеларе на 41-й — первый пропущенный Испании за весь турнир",
+      "en": "✗ De Ketelaere on 41 — Spain's first goal conceded all tournament"
     }
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "id": 414,
     "date": "2026-07-10",
     "matchId": "spain-belgium",
@@ -12457,8 +12461,8 @@
       "en": "Under 2.5"
     },
     "note": {
-      "ru": "Размер срезан до 1500: рынок коррелирует с «обе не забьют» на этом же матче.",
-      "en": "Stake trimmed to 1500: the market correlates with BTTS-no on the same match."
+      "ru": "✗ три гола — поздний размен перебил модельный низ",
+      "en": "✗ three goals — the late exchange beat the modelled under"
     },
     "why": {
       "ru": "Модель даёт низ куда вероятнее рынка: Испания душит владением, Куртуа тащит, распахнутой игры не будет.",
@@ -12553,8 +12557,8 @@
       "en": "Correct-scores system 2/4"
     },
     "note": {
-      "ru": "Кэфы счетов по линии Фонбета: Франция 1:0 @6.50 · Испания 1:0 @7.50 · Норвегия—Англия 1:2 @8.50 · Аргентина 1:0 @5.50; эфф. кэф ~8.1 при двух попаданиях. Франция 1:0 — мимо (2:0): нужны 2 попадания из трёх оставшихся.",
-      "en": "Correct-score odds per Fonbet: France 1:0 @6.50 · Spain 1:0 @7.50 · Norway—England 1:2 @8.50 · Argentina 1:0 @5.50; effective odds ~8.1 with two hits. France 1:0 missed (2:0): now needs 2 hits from the remaining three."
+      "ru": "Кэфы счетов по линии Фонбета: Франция 1:0 @6.50 · Испания 1:0 @7.50 · Норвегия—Англия 1:2 @8.50 · Аргентина 1:0 @5.50; эфф. кэф ~8.1 при двух попаданиях. Франция 1:0 (итог 2:0) и Испания 1:0 (итог 2:1) — мимо: система жива только при попадании ОБОИХ оставшихся счетов.",
+      "en": "Fonbet line for the scores: France 1:0 @6.50 · Spain 1:0 @7.50 · Norway—England 1:2 @8.50 · Argentina 1:0 @5.50; effective odds ~8.1 with two hits. France 1:0 (ended 2:0) and Spain 1:0 (ended 2:1) missed: the system survives only if BOTH remaining scores land."
     },
     "legs": [
       {
@@ -12741,7 +12745,7 @@
     "matchId": "spain-belgium",
     "date": "2026-07-10",
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "id": 424,
     "bet": {
       "ru": "Угловые: тотал больше 9.5",
@@ -12753,6 +12757,10 @@
     "why": {
       "ru": "Обе команды хороши по угловым: Испания давит позиционкой и флангами, Бельгия отвечает стандартами — навесов и рикошетов хватит с обеих сторон.",
       "en": "Both sides generate corners: Spain press through positional play and the flanks, Belgium answer with set pieces — crosses and deflections will pile up at both ends."
+    },
+    "note": {
+      "ru": "✗ всего 6 угловых (5-1)",
+      "en": "✗ just 6 corners (5-1)"
     }
   },
   {
@@ -12763,7 +12771,7 @@
     "matchId": "spain-belgium",
     "date": "2026-07-10",
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "id": 425,
     "bet": {
       "ru": "Гол в каждом тайме",
@@ -12775,6 +12783,10 @@
     "why": {
       "ru": "Паша не верит в сухую разведку: класс атак с обеих сторон должен распечатать и первый, и второй тайм.",
       "en": "Pasha doesn't buy a goalless stalemate: the attacking class on both sides should unlock both the first half and the second."
+    },
+    "note": {
+      "ru": "✓ 30-я и 41-я в первом тайме, 88-я во втором",
+      "en": "✓ goals on 30 and 41 in the first half, 88 in the second"
     }
   },
   {
@@ -12785,7 +12797,7 @@
     "matchId": "spain-belgium",
     "date": "2026-07-10",
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "id": 426,
     "bet": {
       "ru": "Победа Испании + обе забьют",
@@ -12797,6 +12809,10 @@
     "why": {
       "ru": "«Давай всё-таки победа + ОЗ»: Испания дожмёт, но бельгийская атака своё возьмёт — сценарий 2:1 одним билетом.",
       "en": "\"Let's take the win plus BTTS after all\": Spain grind it out, but Belgium's attack gets its goal — the 2:1 script in a single ticket."
+    },
+    "note": {
+      "ru": "✓ ровно сценарий 2:1 — победа с ответным голом Бельгии",
+      "en": "✓ the exact 2:1 script — the win with Belgium scoring back"
     }
   },
   {
@@ -12807,7 +12823,7 @@
     "matchId": "spain-belgium",
     "date": "2026-07-10",
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "id": 427,
     "bet": {
       "ru": "Испания забьёт в каждом тайме",
@@ -12819,6 +12835,10 @@
     "why": {
       "ru": "Испания давит все 90 минут и не останавливается после первого гола — по голу до и после перерыва.",
       "en": "Spain press for the full 90 and don't stop after the opener — a goal either side of the break."
+    },
+    "note": {
+      "ru": "✓ Фабиан Руис в первом тайме, Мерино на 88-й во втором",
+      "en": "✓ Fabián Ruiz in the first half, Merino on 88 in the second"
     }
   }
 ]

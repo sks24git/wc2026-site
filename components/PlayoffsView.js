@@ -100,7 +100,7 @@ const PRED = {
   M96: { ...P(T('Швейцария', 'Switzerland', 'ch'), T('Колумбия', 'Colombia', 'co'), 'b', '0:1', 'reg', 'medium'), fact: 'a', fscore: '0:0, пен. 4:3', fby: 'pen' },
   // ── 1/4 ──
   M97: { ...P(T('Франция', 'France', 'fr'), T('Марокко', 'Morocco', 'ma'), 'a', '1:0', 'reg', 'medium'), fact: 'a', fscore: '2:0', fby: 'reg' },
-  M98: P(T('Испания', 'Spain', 'es'), T('Бельгия', 'Belgium', 'be'), 'a', '1:0', 'reg', 'medium'),
+  M98: { ...P(T('Испания', 'Spain', 'es'), T('Бельгия', 'Belgium', 'be'), 'a', '1:0', 'reg', 'medium'), fact: 'a', fscore: '2:1', fby: 'reg' },
   M99: P(T('Норвегия', 'Norway', 'no'), T('Англия', 'England', 'gb-eng'), 'b', '1:2', 'reg', 'medium'),
   M100: P(T('Аргентина', 'Argentina', 'ar'), T('Швейцария', 'Switzerland', 'ch'), 'a', '1:0', 'reg', 'medium'),
   // ── 1/2 ──

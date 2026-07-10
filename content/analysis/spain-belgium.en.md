@@ -1,3 +1,15 @@
+## Result: Spain — Belgium 2:1 (1:1)
+
+Goals: Fabián Ruiz 30', De Ketelaere 41', Merino 88'. Shots 17-5 (on target 8-2), xG 2.08—0.37, possession 68-32, corners 5-1, yellows 2-2.
+
+The review trigger we wrote into our own preview fired against us: García restored De Bruyne and Doku to the XI — and the game came alive. Spain dominated everything (17 shots, 68% possession), Ruiz opened the scoring on 30 with a rebound, but on 41 Castagne crossed and De Ketelaere nodded in — the first goal Spain had conceded all tournament, ending the record run of six clean sheets and Simón's 609 minutes. In the second half Courtois kept Belgium alive (four saves, three off Yamal) until he left the pitch in tears on 71 with a hamstring injury; the bench decided it: debutant Lammens parried Cubarsí's long-range shot straight out, and Merino — on since the 86th — buried the rebound on 88, a second straight late winner off the bench. Spain reach only their second World Cup semi-final ever (the first, in 2010, ended with the trophy); Belgium go home with 0.37 xG.
+
+**Settlement.** AI: both teams to score — no @1.98 ✗ (De Ketelaere on 41); Under 2.5 @2.05 ✗ (three goals); the "Spain 1:0" position in the correct-score system missed (2:1). Pasha: goal in each half @1.60 ✓, Spain to win & BTTS @3.15 ✓ (the exact 2:1 script he ordered), Spain to score in each half @2.35 ✓; corners over 9.5 @1.93 ✗ (just 6). Three of four — Pasha's night, and the lead in the war changes hands.
+
+**Lesson.** A clean-sheet run is an extreme, not a forecast: against an opponent with real creation it takes one accurate cross to end it (Belgium needed 0.37 xG). And crucially: our own review trigger ("if the front three return, BTTS-yes rises") came true in the official line-ups — with the bets already placed. When the thesis-killer depends on team sheets, wait for the team sheets; the BTTS-no price wasn't going anywhere.
+
+---
+
 ## Spain — Belgium · 10.07, 22:00 MSK · SoFi Stadium, Los Angeles
 
 **An impenetrable Spain — zero conceded all tournament — against a Belgium whose depth thrashed the USA even without De Bruyne, Doku and Lukaku. The roof removes the weather, and it comes down to one question: can anyone breach that defence. The model screams "under."**
