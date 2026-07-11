@@ -12840,5 +12840,344 @@
       "ru": "✓ Фабиан Руис в первом тайме, Мерино на 88-й во втором",
       "en": "✓ Fabián Ruiz in the first half, Merino on 88 in the second"
     }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "date": "2026-07-11",
+    "id": 428,
+    "match": {
+      "ru": "Норвегия — Англия",
+      "en": "Norway — England"
+    },
+    "matchId": "norway-england",
+    "type": "Другое",
+    "odds": 1.55,
+    "tier": "green",
+    "bet": {
+      "ru": "Гол в каждом тайме",
+      "en": "Goal in each half"
+    },
+    "why": {
+      "ru": "Обе обороны текут — вечер без пустых таймов: гол до перерыва и после.",
+      "en": "Both defences leak — no empty halves: a goal before the break and after."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "date": "2026-07-11",
+    "id": 429,
+    "match": {
+      "ru": "Аргентина — Швейцария",
+      "en": "Argentina — Switzerland"
+    },
+    "matchId": "argentina-switzerland",
+    "type": "Другое",
+    "odds": 1.98,
+    "tier": "green",
+    "bet": {
+      "ru": "Гол в каждом тайме",
+      "en": "Goal in each half"
+    },
+    "why": {
+      "ru": "Автобус тоже огрызается, а Аргентина дожимает поздно — по голу в каждой половине.",
+      "en": "The bus bites back and Argentina finish late — a goal in each half."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "date": "2026-07-11",
+    "id": 430,
+    "match": {
+      "ru": "Норвегия — Англия",
+      "en": "Norway — England"
+    },
+    "matchId": "norway-england",
+    "type": "Другое",
+    "odds": 2.05,
+    "tier": "green",
+    "bet": {
+      "ru": "2-й тайм результативнее 1-го",
+      "en": "2nd half higher scoring than 1st"
+    },
+    "why": {
+      "ru": "Разведка до перерыва, развязка после — классика нокаутов.",
+      "en": "Cautious before the break, the payoff after — knockout classic."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "date": "2026-07-11",
+    "id": 431,
+    "match": {
+      "ru": "Аргентина — Швейцария",
+      "en": "Argentina — Switzerland"
+    },
+    "matchId": "argentina-switzerland",
+    "type": "Другое",
+    "odds": 2.12,
+    "tier": "green",
+    "bet": {
+      "ru": "2-й тайм результативнее 1-го",
+      "en": "2nd half higher scoring than 1st"
+    },
+    "why": {
+      "ru": "Автобус держится тайм, а потом устаёт — голы приходят после перерыва.",
+      "en": "The bus holds for a half, then tires — the goals come after the break."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "date": "2026-07-11",
+    "id": 432,
+    "match": {
+      "ru": "Норвегия — Англия",
+      "en": "Norway — England"
+    },
+    "matchId": "norway-england",
+    "type": "ОЗ",
+    "odds": 1.6,
+    "tier": "green",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "why": {
+      "ru": "Англия пропускала во всех нокаутах, у Норвегии «обе забьют» шесть матчей подряд.",
+      "en": "England have conceded in every knockout game and Norway have six straight BTTS."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "date": "2026-07-11",
+    "id": 433,
+    "match": {
+      "ru": "Аргентина — Швейцария",
+      "en": "Argentina — Switzerland"
+    },
+    "matchId": "argentina-switzerland",
+    "type": "Другое",
+    "odds": 1.88,
+    "tier": "green",
+    "stake": 2500,
+    "bet": {
+      "ru": "Жёлтые карточки: тотал больше 3",
+      "en": "Yellow cards: total over 3"
+    },
+    "note": {
+      "ru": "Собрано из двух линий: больше 2.5 @1.58 (1500) + больше 3.5 @2.33 (1000); ровно 3 карточки — почти возврат",
+      "en": "Built from two lines: over 2.5 @1.58 (1500) + over 3.5 @2.33 (1000); exactly 3 cards is a near push"
+    },
+    "why": {
+      "ru": "Кубковая рубка с автобусом: фолы копятся, карточки придут.",
+      "en": "A cup grind against the bus: fouls pile up, the cards will come."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "date": "2026-07-11",
+    "id": 434,
+    "match": {
+      "ru": "Экспресс дня",
+      "en": "Daily accumulator"
+    },
+    "type": "Экспресс",
+    "odds": 4.95,
+    "tier": "yellow",
+    "bet": {
+      "ru": "Экспресс · верх в обоих матчах ночи",
+      "en": "Accumulator · overs in both night games"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Норвегия — Англия",
+          "en": "Norway — England"
+        },
+        "p": {
+          "ru": "Тотал больше 3",
+          "en": "Over 3"
+        }
+      },
+      {
+        "m": {
+          "ru": "Аргентина — Швейцария",
+          "en": "Argentina — Switzerland"
+        },
+        "p": {
+          "ru": "Тотал больше 2.5",
+          "en": "Over 2.5"
+        }
+      }
+    ],
+    "why": {
+      "ru": "Обе ночи раскроются: у Англии с Норвегией перестрелка, а швейцарский автобус не выстоит все 90.",
+      "en": "Both nights open up: a shootout in Norway—England, and the Swiss bus won’t hold for the full 90."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "date": "2026-07-11",
+    "id": 435,
+    "match": {
+      "ru": "Экспресс дня",
+      "en": "Daily accumulator"
+    },
+    "type": "Экспресс",
+    "odds": 4.53,
+    "tier": "yellow",
+    "bet": {
+      "ru": "Экспресс · оба вторых тайма больше 1.5",
+      "en": "Accumulator · both 2nd halves over 1.5"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Норвегия — Англия",
+          "en": "Norway — England"
+        },
+        "p": {
+          "ru": "2-й тайм: больше 1.5",
+          "en": "2nd half: over 1.5"
+        }
+      },
+      {
+        "m": {
+          "ru": "Аргентина — Швейцария",
+          "en": "Argentina — Switzerland"
+        },
+        "p": {
+          "ru": "2-й тайм: больше 1.5",
+          "en": "2nd half: over 1.5"
+        }
+      }
+    ],
+    "why": {
+      "ru": "Вся ночь решается после перерывов — по два мяча во вторых таймах.",
+      "en": "The whole night is decided after the breaks — two goals in each second half."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "date": "2026-07-11",
+    "id": 436,
+    "match": {
+      "ru": "Норвегия — Англия",
+      "en": "Norway — England"
+    },
+    "matchId": "norway-england",
+    "type": "Другое",
+    "odds": 3.2,
+    "tier": "yellow",
+    "bet": {
+      "ru": "Победа Англии + обе забьют",
+      "en": "England to win & both teams to score"
+    },
+    "why": {
+      "ru": "Класс Англии перевешивает, но сухой она не уйдёт — сценарий 2:1 одним билетом.",
+      "en": "England’s class tells, but they won’t keep a clean sheet — the 2:1 script in one ticket."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "date": "2026-07-11",
+    "id": 437,
+    "match": {
+      "ru": "Норвегия — Англия",
+      "en": "Norway — England"
+    },
+    "matchId": "norway-england",
+    "type": "Другое",
+    "odds": 2.35,
+    "tier": "yellow",
+    "stake": 3000,
+    "bet": {
+      "ru": "Будет гол головой",
+      "en": "A headed goal — yes"
+    },
+    "note": {
+      "ru": "Категория Паши — жёлтая («хоть кэф и зелёный»), размер — зелёный",
+      "en": "Pasha files it yellow (\"even if the odds are green\"), the stake is green-sized"
+    },
+    "why": {
+      "ru": "Навесы на Кейна и рослые на стандартах — в этой паре головой забивают.",
+      "en": "Crosses for Kane and big men on set pieces — this pairing scores headers."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "date": "2026-07-11",
+    "id": 438,
+    "match": {
+      "ru": "Экспресс дня",
+      "en": "Daily accumulator"
+    },
+    "type": "Экспресс",
+    "odds": 14.02,
+    "tier": "red",
+    "stake": 1000,
+    "bet": {
+      "ru": "Экспресс · ничьи в обоих матчах (осн. время)",
+      "en": "Accumulator · draws in both games (regulation)"
+    },
+    "legs": [
+      {
+        "m": {
+          "ru": "Норвегия — Англия",
+          "en": "Norway — England"
+        },
+        "p": {
+          "ru": "Ничья (осн. время)",
+          "en": "Draw (regulation)"
+        }
+      },
+      {
+        "m": {
+          "ru": "Аргентина — Швейцария",
+          "en": "Argentina — Switzerland"
+        },
+        "p": {
+          "ru": "Ничья (осн. время)",
+          "en": "Draw (regulation)"
+        }
+      }
+    ],
+    "why": {
+      "ru": "Страховочный: нокауты любят лотерею — обе пары могут закрыться в 90 минут.",
+      "en": "The insurance ticket: knockouts love the shootout — both ties can lock up over 90 minutes."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "date": "2026-07-11",
+    "id": 439,
+    "match": {
+      "ru": "Норвегия — Англия",
+      "en": "Norway — England"
+    },
+    "matchId": "norway-england",
+    "type": "Другое",
+    "odds": 5.9,
+    "tier": "red",
+    "stake": 1000,
+    "bet": {
+      "ru": "Волевая победа любой из команд",
+      "en": "Comeback win by either team"
+    },
+    "why": {
+      "ru": "Матч-качели: та, что уступит по ходу, способна перевернуть и дожать.",
+      "en": "A see-saw match: whoever falls behind can flip it and close it out."
+    }
   }
 ]

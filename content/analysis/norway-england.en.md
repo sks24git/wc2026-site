@@ -23,3 +23,14 @@
 - Killed: a straight England win in regulation @1.80 (minus Quansah, Haaland the killer, shootout risk); the bare Over 2.5 @1.70 (the price has drifted, and the stage is historically dry); fading England (a fired-up favourite breaks through even down a man — a trap); overrating Norway's form (the Brazil win was largely the opponent's profligacy).
 
 England to advance @1.50 is a banker to keep in mind (below the floor for a standalone bet).
+
+**Pasha:**
+- 🟢 **Goal in each half @1.55** — a night with no empty halves.
+- 🟢 **2nd half higher scoring than 1st @2.05** — probing before the break, the payoff after.
+- 🟢 **Both teams to score — yes @1.60** — the same pair profile AI holds.
+- 🟡 **England to win & both teams to score @3.20** — the 2:1 script in one ticket (AI has the same at @3.10).
+- 🟡 **A headed goal @2.35** — crosses for Kane and big men on set pieces; "yellow, even if the odds are green" (the stake is green-sized).
+- 🔴 **Comeback win by either team @5.90** — "covering the comeback": a see-saw where the trailing side flips it.
+- Cross-match accumulators of the night: overs in both games (Over 3 + Over 2.5) @4.95 🟡, both second halves over 1.5 @4.53 🟡, the insurance ticket on both draws @14.02 🔴.
+
+A rare sight: on this one Pasha and AI sing in unison — BTTS and "England with an exchange" sit on both cards. The one split: Pasha buys the fat over (Over 3 in the accumulator) and the header, the machine wouldn't chase it.
