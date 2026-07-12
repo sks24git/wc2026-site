@@ -1,3 +1,15 @@
+## Result: Argentina — Switzerland 1:1, AET 3:1 (1:0)
+
+Goals: Mac Allister 10' (header, Messi corner), Ndoye 67', Álvarez 112', Lautaro Martínez 120+1'. Shots 22-11 (on target 7-5), xG 2.00—0.53, possession 59-41, corners 8-2, fouls 14-18, one yellow in 90 minutes (plus Embolo's second), red — Embolo 72'.
+
+The script followed the preview almost line by line: a sticky under, an early set piece, and a bus that held to the end. Mac Allister headed in Messi's corner on 10, Ndoye answered off a one-two on 67 — and in between came the turning point: Embolo collapsed theatrically on 72, VAR rescinded Paredes' yellow and booked the striker a second time for simulation — Switzerland played nearly 50 minutes a man down and still dragged it to extra time, where Em. Martínez smothered a one-on-one, Álvarez arrowed into the far top corner on 112 and Lautaro finished a break on 120+1. Messi, at 39, played all 120 minutes: goalless for the first time this tournament (his nine-match World Cup scoring streak died), but with a record tenth World Cup assist. Switzerland's ceiling held: still no semi-final after 2026. Next: Argentina — England, 15.07.
+
+**Settlement.** AI: Under 2.5 @1.65 ✓ (exactly two in 90 minutes — the modal script). Pasha: goal in each half @1.98 ✓; 2nd half higher scoring @2.12 ✗ (halves finished 1:1); yellow cards over 3 @1.88 ✗ (both sides' discipline proved literal: one clean yellow in 90 minutes, all of Argentina's bookings came in extra time); and above all — **the insurance accumulator on both draws @14.02 ✓✓**: 1:1 in Miami and 1:1 in Kansas City, a thousand became fourteen. Pasha closed the night near even after a brutal first match — the insurance worked exactly as designed.
+
+**Lesson.** Pasha's counter-accumulator insurance is a risk-management exemplar: a dozen-ticket over package hedged by one opposite scenario at big odds turns a worst-case night into a livable one. For us: Under 2.5 against the bus in a knockout — fifth confirmation that the stage squeezes totals; and a cards total bought on "cup grind" burns against discipline yet again — the Tello rule works even without a referee argument.
+
+---
+
 ## Argentina — Switzerland · 12.07, 04:00 MSK · Arrowhead Stadium, Kansas City
 
 **A leaky-at-the-back but classy-up-front Argentina against the best bus they've faced in the knockouts. This isn't a shootout — it's a grinding, low-scoring match the champions will probably force late or in a shootout. The H2H is a template: 2014, 1:0 after extra time.**

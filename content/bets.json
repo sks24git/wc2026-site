@@ -12524,7 +12524,7 @@
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "win",
     "id": 417,
     "date": "2026-07-11",
     "matchId": "argentina-switzerland",
@@ -12540,8 +12540,8 @@
       "en": "Under 2.5"
     },
     "note": {
-      "ru": "Рынок сам сильно на низе — эдж тоньше, чем закладывали, но тезис прямой.",
-      "en": "The market itself leans hard to the under — a thinner edge than projected, but the thesis is direct."
+      "ru": "✓ два гола за 90 минут — вязкий низ, как и заказывали",
+      "en": "✓ two goals in 90 minutes — the grind we ordered"
     },
     "why": {
       "ru": "Швейцарский автобус с Кобелем, жара Канзас-Сити и узкий поздний профиль Аргентины против блока — ждём мало голов.",
@@ -12877,7 +12877,7 @@
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "date": "2026-07-11",
     "id": 429,
     "match": {
@@ -12895,6 +12895,10 @@
     "why": {
       "ru": "Автобус тоже огрызается, а Аргентина дожимает поздно — по голу в каждой половине.",
       "en": "The bus bites back and Argentina finish late — a goal in each half."
+    },
+    "note": {
+      "ru": "✓ Мак Аллистер на 10-й, Ндой на 67-й",
+      "en": "✓ Mac Allister on 10, Ndoye on 67"
     }
   },
   {
@@ -12925,7 +12929,7 @@
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-11",
     "id": 431,
     "match": {
@@ -12943,6 +12947,10 @@
     "why": {
       "ru": "Автобус держится тайм, а потом устаёт — голы приходят после перерыва.",
       "en": "The bus holds for a half, then tires — the goals come after the break."
+    },
+    "note": {
+      "ru": "✗ по таймам 1:1 — равенство, а не перевес второго",
+      "en": "✗ halves finished 1:1 — level, not a second-half edge"
     }
   },
   {
@@ -12973,7 +12981,7 @@
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-11",
     "id": 433,
     "match": {
@@ -12990,8 +12998,8 @@
       "en": "Yellow cards: total over 3"
     },
     "note": {
-      "ru": "Собрано из двух линий: больше 2.5 @1.58 (1500) + больше 3.5 @2.33 (1000); ровно 3 карточки — почти возврат",
-      "en": "Built from two lines: over 2.5 @1.58 (1500) + over 3.5 @2.33 (1000); exactly 3 cards is a near push"
+      "ru": "✗ за 90 минут — жёлтая Эмболо и его же вторая; карточку Паредеса отменил VAR, а три горчичника Аргентины пришли уже в доп. времени",
+      "en": "✗ in 90 minutes just Embolo’s yellow and his second one; Paredes’ card was overturned by VAR, and Argentina’s three bookings came in extra time"
     },
     "why": {
       "ru": "Кубковая рубка с автобусом: фолы копятся, карточки придут.",
@@ -13147,7 +13155,7 @@
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "date": "2026-07-11",
     "id": 438,
     "match": {
@@ -13189,8 +13197,8 @@
       "en": "The insurance ticket: knockouts love the shootout — both ties can lock up over 90 minutes."
     },
     "note": {
-      "ru": "Первая позиция зашла: Норвегия — Англия 1:1 в основное время. Решает ничья в матче Аргентина — Швейцария",
-      "en": "The first leg landed: Norway — England 1:1 in regulation. It all rests on a draw in Argentina — Switzerland"
+      "ru": "✓✓ обе пары — ничьи в 90 минут (1:1 и 1:1): страховочный билет выстрелил на все деньги",
+      "en": "✓✓ both ties drew after 90 (1:1 and 1:1): the insurance ticket cashed in full"
     }
   },
   {
