@@ -41,7 +41,7 @@ England to advance @1.50 is a banker to keep in mind (below the floor for a stan
 - 🟢 **2nd half higher scoring than 1st @2.05** — probing before the break, the payoff after.
 - 🟢 **Both teams to score — yes @1.60** — the same pair profile AI holds.
 - 🟡 **England to win & both teams to score @3.20** — the 2:1 script in one ticket (AI has the same at @3.10).
-- 🟡 **A headed goal @2.35** — crosses for Kane and big men on set pieces; "yellow, even if the odds are green" (the stake is green-sized).
+- 🟡 **A headed goal @2.35** — crosses for Kane and big men on set pieces; "yellow, even if the odds are green".
 - 🔴 **Comeback win by either team @5.90** — "covering the comeback": a see-saw where the trailing side flips it.
 - Cross-match accumulators of the night: overs in both games (Over 3 + Over 2.5) @4.95 🟡, both second halves over 1.5 @4.53 🟡, the insurance ticket on both draws @14.02 🔴.
 

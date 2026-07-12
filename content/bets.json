@@ -13139,14 +13139,13 @@
     "type": "Другое",
     "odds": 2.35,
     "tier": "yellow",
-    "stake": 3000,
     "bet": {
       "ru": "Будет гол головой",
       "en": "A headed goal — yes"
     },
     "note": {
-      "ru": "✗ головой не забивали: обводка, удар с вратарской и добивание",
-      "en": "✗ no headers: a chip, a close-range strike and a rebound"
+      "ru": "Категория Паши — жёлтая («хоть кэф и зелёный»)",
+      "en": "Pasha files it yellow (\"even if the odds are green\")"
     },
     "why": {
       "ru": "Навесы на Кейна и рослые на стандартах — в этой паре головой забивают.",
