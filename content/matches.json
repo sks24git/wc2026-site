@@ -2946,5 +2946,65 @@
       "ru": "Дырявая сзади, но классная впереди Аргентина против швейцарского автобуса с Кобелем. Швейцария впервые вылезает из прохладного Ванкувера в пекло Канзас-Сити после 120 минут с Колумбией. H2H — калька 2014-го: 1:0 в дополнительное.",
       "en": "A leaky-but-classy Argentina against the Swiss bus and Kobel. Switzerland leave cool Vancouver for the Kansas City furnace for the first time, after 120 minutes against Colombia. The H2H is a 2014 template: 1:0 after extra time."
     }
+  },
+  {
+    "id": "france-spain",
+    "date": "2026-07-14",
+    "timeMsk": "22:00",
+    "cc": [
+      "fr",
+      "es"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Франция — Испания",
+      "en": "France — Spain"
+    },
+    "stage": {
+      "ru": "1/2 финала",
+      "en": "Semi-final"
+    },
+    "venue": {
+      "ru": "AT&T Stadium, Арлингтон (Даллас)",
+      "en": "AT&T Stadium, Arlington (Dallas)"
+    },
+    "weather": {
+      "ru": "Крыша, климат-контроль",
+      "en": "Roof, climate-controlled"
+    },
+    "lede": {
+      "ru": "Реванш за полуфинал Евро-2024 и первая пара турнира, где элитны обе машины: контроль Испании против переходов Мбаппе. Две лучшие обороны ЧМ — но друг для друга это первые настоящие атаки на пути.",
+      "en": "A rematch of the Euro 2024 semi-final and the first pairing of the tournament where both machines are elite: Spain’s control against Mbappé’s transitions. The two best defences of the World Cup — facing the first real attacks on their path."
+    }
+  },
+  {
+    "id": "england-argentina",
+    "date": "2026-07-15",
+    "timeMsk": "22:00",
+    "cc": [
+      "gb-eng",
+      "ar"
+    ],
+    "result": null,
+    "title": {
+      "ru": "Англия — Аргентина",
+      "en": "England — Argentina"
+    },
+    "stage": {
+      "ru": "1/2 финала",
+      "en": "Semi-final"
+    },
+    "venue": {
+      "ru": "Mercedes-Benz Stadium, Атланта",
+      "en": "Mercedes-Benz Stadium, Atlanta"
+    },
+    "weather": {
+      "ru": "Крыша, климат-контроль",
+      "en": "Roof, climate-controlled"
+    },
+    "lede": {
+      "ru": "Сорок лет после «руки бога»: Месси впервые в карьере против Англии — и сразу за место в финале. Обе пропускают в каждом нокауте; Аргентина везёт 240 минут овертаймов, Англия — без Куансы.",
+      "en": "Forty years after the Hand of God: Messi faces England for the first time in his career — straight away for a place in the final. Both concede in every knockout; Argentina carry 240 minutes of extra time, England are without Quansah."
+    }
   }
 ]
