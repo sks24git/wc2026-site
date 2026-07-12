@@ -12472,7 +12472,7 @@
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "win",
     "id": 415,
     "date": "2026-07-11",
     "matchId": "norway-england",
@@ -12490,11 +12490,15 @@
     "why": {
       "ru": "Две вертикали и две дырявые обороны, у Англии дисквалифицирован Куанса — ждём, что забьют обе, независимо от того, кто победит.",
       "en": "Two vertical sides and two leaky defences, and England are without the suspended Quansah — expecting both to score, whoever wins."
+    },
+    "note": {
+      "ru": "✓ Шельдеруп на 36-й и Беллингем на 45+2 — обе забили в основное время",
+      "en": "✓ Schjelderup on 36 and Bellingham on 45+2 — both scored in regulation"
     }
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "id": 416,
     "date": "2026-07-11",
     "matchId": "norway-england",
@@ -12512,6 +12516,10 @@
     "why": {
       "ru": "Класс Кейна и Беллингема должен перевесить, но латаная оборона без Куансы почти наверняка пропустит от Холанда — модальный сценарий 2:1 в пользу Англии одним рынком.",
       "en": "Kane and Bellingham's class should tell, but a patched defence without Quansah will almost surely concede to Haaland — the modal 2:1-to-England script in one market."
+    },
+    "note": {
+      "ru": "✗ в 90 минут — ничья 1:1, Англия дожала лишь в дополнительное",
+      "en": "✗ level 1:1 after 90 — England only forced it in extra time"
     }
   },
   {
@@ -12542,7 +12550,7 @@
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "id": 418,
     "date": "2026-07-11",
     "tier": "red",
@@ -12557,8 +12565,8 @@
       "en": "Correct-scores system 2/4"
     },
     "note": {
-      "ru": "Кэфы счетов по линии Фонбета: Франция 1:0 @6.50 · Испания 1:0 @7.50 · Норвегия—Англия 1:2 @8.50 · Аргентина 1:0 @5.50; эфф. кэф ~8.1 при двух попаданиях. Франция 1:0 (итог 2:0) и Испания 1:0 (итог 2:1) — мимо: система жива только при попадании ОБОИХ оставшихся счетов.",
-      "en": "Fonbet line for the scores: France 1:0 @6.50 · Spain 1:0 @7.50 · Norway—England 1:2 @8.50 · Argentina 1:0 @5.50; effective odds ~8.1 with two hits. France 1:0 (ended 2:0) and Spain 1:0 (ended 2:1) missed: the system survives only if BOTH remaining scores land."
+      "ru": "✗ три промаха из четырёх (Франция 2:0, Испания 2:1, Норвегия—Англия 1:1 в основное) — двух попаданий уже не собрать, Аргентина ничего не решает",
+      "en": "✗ three misses out of four (France 2:0, Spain 2:1, Norway—England 1:1 in regulation) — two hits are no longer possible, Argentina is moot"
     },
     "legs": [
       {
@@ -12843,7 +12851,7 @@
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-11",
     "id": 428,
     "match": {
@@ -12861,6 +12869,10 @@
     "why": {
       "ru": "Обе обороны текут — вечер без пустых таймов: гол до перерыва и после.",
       "en": "Both defences leak — no empty halves: a goal before the break and after."
+    },
+    "note": {
+      "ru": "✗ оба гола до перерыва, второй тайм сухой",
+      "en": "✗ both goals before the break, a goalless second half"
     }
   },
   {
@@ -12887,7 +12899,7 @@
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-11",
     "id": 430,
     "match": {
@@ -12905,6 +12917,10 @@
     "why": {
       "ru": "Разведка до перерыва, развязка после — классика нокаутов.",
       "en": "Cautious before the break, the payoff after — knockout classic."
+    },
+    "note": {
+      "ru": "✗ вся результативность — в первом тайме (2:0 по таймам)",
+      "en": "✗ all the scoring came in the first half (2:0 by halves)"
     }
   },
   {
@@ -12931,7 +12947,7 @@
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "date": "2026-07-11",
     "id": 432,
     "match": {
@@ -12949,6 +12965,10 @@
     "why": {
       "ru": "Англия пропускала во всех нокаутах, у Норвегии «обе забьют» шесть матчей подряд.",
       "en": "England have conceded in every knockout game and Norway have six straight BTTS."
+    },
+    "note": {
+      "ru": "✓ обе забили до перерыва",
+      "en": "✓ both scored before the break"
     }
   },
   {
@@ -12980,7 +13000,7 @@
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-11",
     "id": 434,
     "match": {
@@ -13019,11 +13039,15 @@
     "why": {
       "ru": "Обе ночи раскроются: у Англии с Норвегией перестрелка, а швейцарский автобус не выстоит все 90.",
       "en": "Both nights open up: a shootout in Norway—England, and the Swiss bus won’t hold for the full 90."
+    },
+    "note": {
+      "ru": "✗ у Англии лишь 2 гола в основное время — экспресс закрыт досрочно",
+      "en": "✗ only 2 regulation goals in the England game — settled early"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-11",
     "id": 435,
     "match": {
@@ -13062,11 +13086,15 @@
     "why": {
       "ru": "Вся ночь решается после перерывов — по два мяча во вторых таймах.",
       "en": "The whole night is decided after the breaks — two goals in each second half."
+    },
+    "note": {
+      "ru": "✗ второй тайм в Майами — 0:0, экспресс закрыт досрочно",
+      "en": "✗ the second half in Miami finished 0:0 — settled early"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-11",
     "id": 436,
     "match": {
@@ -13084,11 +13112,15 @@
     "why": {
       "ru": "Класс Англии перевешивает, но сухой она не уйдёт — сценарий 2:1 одним билетом.",
       "en": "England’s class tells, but they won’t keep a clean sheet — the 2:1 script in one ticket."
+    },
+    "note": {
+      "ru": "✗ обе забили, но 90 минут закончились вничью",
+      "en": "✗ both scored, but 90 minutes ended level"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-11",
     "id": 437,
     "match": {
@@ -13105,8 +13137,8 @@
       "en": "A headed goal — yes"
     },
     "note": {
-      "ru": "Категория Паши — жёлтая («хоть кэф и зелёный»), размер — зелёный",
-      "en": "Pasha files it yellow (\"even if the odds are green\"), the stake is green-sized"
+      "ru": "✗ головой не забивали: обводка, удар с вратарской и добивание",
+      "en": "✗ no headers: a chip, a close-range strike and a rebound"
     },
     "why": {
       "ru": "Навесы на Кейна и рослые на стандартах — в этой паре головой забивают.",
@@ -13155,11 +13187,15 @@
     "why": {
       "ru": "Страховочный: нокауты любят лотерею — обе пары могут закрыться в 90 минут.",
       "en": "The insurance ticket: knockouts love the shootout — both ties can lock up over 90 minutes."
+    },
+    "note": {
+      "ru": "Первая позиция зашла: Норвегия — Англия 1:1 в основное время. Решает ничья в матче Аргентина — Швейцария",
+      "en": "The first leg landed: Norway — England 1:1 in regulation. It all rests on a draw in Argentina — Switzerland"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "date": "2026-07-11",
     "id": 439,
     "match": {
@@ -13178,6 +13214,10 @@
     "why": {
       "ru": "Матч-качели: та, что уступит по ходу, способна перевернуть и дожать.",
       "en": "A see-saw match: whoever falls behind can flip it and close it out."
+    },
+    "note": {
+      "ru": "✗ Англия отыгралась с 0:1, но победила лишь в доп. времени — в 90 минут ничья",
+      "en": "✗ England came back from 0:1 but only won in extra time — level after 90"
     }
   }
 ]

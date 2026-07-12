@@ -1,3 +1,15 @@
+## Result: Norway — England 1:1, AET 1:2 (1:1)
+
+Goals: Schjelderup 36', Bellingham 45+2', Bellingham 93' (ET). Shots on target 4-8, xG 0.81—1.12, possession 48-52, corners 7-4, fouls 10-8, one yellow (Ajer, 117').
+
+The over the models screamed for (a 26 pp gap!) never came: the knockout choked the shootout down to two goals in 90 minutes. Schjelderup punished a Kane giveaway on 36, Bellingham answered from the six-yard line on 45+2 — and that was it: a goalless second half, VAR chalking off Heggem's goal for Norway (a Haaland foul on Anderson at the corner) and an England penalty on 102. In extra time Rogers hit from range, Nyland spilled it — and Bellingham buried the rebound on 93: a brace, 1:2, England's first World Cup semi-final since 2018. Haaland went off on 105 without a goal on his biggest night against the country of his birth: stuck on seven — Mbappé (8) ahead, Bellingham (6) level with Kane.
+
+**Settlement.** AI: both teams to score — yes @1.68 ✓ (the night's lone surviving single); England to win & BTTS @3.10 ✗ (level after 90); the correct-score system closed early ✗ — three misses out of four, and the final 1:2 only teases: regulation ended 1:1. Pasha: BTTS @1.60 ✓; goal in each half @1.55 ✗, 2nd half higher scoring @2.05 ✗, England & BTTS @3.20 ✗, a headed goal @2.35 ✗ (not one nod in 120 minutes), the comeback @5.90 ✗ (England came back but only closed it in extra time), both over accumulators ✗. Still alive: the insurance ticket on two draws @14.02 — 1:1 in Miami banks the first leg, now it's down to Argentina.
+
+**Lesson.** The knockout squeezes the over harder than models learn: a pair with a near-absolute BTTS profile and an Over consensus produced exactly 2 goals in 90 minutes. Discount "model vs market" total signals harder in the knockouts — while expressing the thesis through BTTS instead of a bare over (our choice, and Pasha's) survived the goalless second half. Profile markets over score-derived ones, confirmation number four.
+
+---
+
 ## Norway — England · 12.07, 00:00 MSK · Hard Rock Stadium, Miami
 
 **Two vertical sides and two leaky defences in the Miami heat. Norway with Haaland have just knocked out Brazil; England beat Mexico down to ten men but lost Quansah and have a patched right flank. This is an open match — the base is goals, not a clean sheet for either side.**
