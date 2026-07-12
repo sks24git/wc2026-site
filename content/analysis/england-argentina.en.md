@@ -25,6 +25,6 @@
 - 🟡 **Draw in regulation @3.10** — the direct expression of the modal "1:1 at 90" script: both quarter-final pairs of this half of the bracket finished regulation 1:1, and semi-final stakes weigh against anyone forcing it late.
 - Killed: the bare Under 2.5 @1.62 (the market has already squeezed the under, and our thesis is goals, not drought); yellow cards over 2.5 @1.55 (the derby narrative against the data: both are disciplined sides, and buying cards on "knockout grit" has burned three times running); a straight Argentina win @3.15 (an even match is not a straight-result market); player props before official team sheets (Rice/James resolve in the XI).
 
-Correct scores of the night (🔴, a 2×2 coverage of four doubles): the corridors 1:1 @5.50 and 1:2 @12.00 from this match — each paired with 1:1 @6.00 and 1:2 @11.00 from France—Spain; four narrow corridors of two sticky semi-finals.
+Double of the night (🟡): “both teams to score + under 3.5” from this match (@2.85) and from France—Spain (@2.95), combined odds 8.41 — one ticket on the twin script of two sticky semi-finals, covering 1:1, 1:2 and 2:1 in each.
 
 **Pasha:** awaiting his picks.

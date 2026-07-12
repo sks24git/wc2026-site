@@ -13384,27 +13384,26 @@
   {
     "side": "AI",
     "status": "pending",
+    "id": 451,
     "date": "2026-07-15",
-    "tier": "red",
-    "stake": 125,
+    "tier": "yellow",
+    "odds": 8.41,
     "type": "Экспресс",
     "match": {
-      "ru": "Полуфиналы — точные счета",
-      "en": "Semi-finals — correct scores"
+      "ru": "Полуфиналы (оба матча)",
+      "en": "Semi-finals (both matches)"
     },
-    "note": {
-      "ru": "Четверть покрытия 2×2: четыре двойника по 125 ₽ на коридоры 1:1/1:2 обоих полуфиналов",
-      "en": "One quarter of the 2×2 coverage: four 125 ₽ doubles across the 1:1/1:2 corridors of both semi-finals"
-    },
-    "id": 447,
-    "odds": 33,
     "bet": {
-      "ru": "Экспресс точных счетов: Франция—Испания 1:1 + Англия—Аргентина 1:1",
-      "en": "Correct-score double: France—Spain 1:1 + England—Argentina 1:1"
+      "ru": "Экспресс: обе забьют и тотал меньше 3.5 — в обоих полуфиналах",
+      "en": "Double: BTTS and under 3.5 goals — in both semi-finals"
     },
     "why": {
-      "ru": "Ветка «оба полуфинала уезжают в дополнительное время»: две вязкие пары приходят к 90-й минуте с 1:1. Часть покрытия 2×2 узких коридоров счетов.",
-      "en": "The “both semi-finals go to extra time” branch: two sticky pairings reach the 90th minute at 1:1. Part of the 2×2 coverage of narrow score corridors."
+      "ru": "Оба полуфинала читаем одинаково: элитные пары обмениваются голами, но нокаут не даёт разгрома — счета из коридора 1:1, 1:2, 2:1. Один билет на сдвоенный сценарий: тот же тезис вязкого обмена, что и россыпь точных счетов, но с куда более широким покрытием.",
+      "en": "We read both semi-finals the same way: elite pairings trade goals, yet knockout football denies a rout — scores from the 1:1, 1:2, 2:1 corridor. One ticket on the twin script: the same sticky-exchange thesis as a spread of correct scores, with far wider coverage."
+    },
+    "note": {
+      "ru": "Кэфы сняты с реальной линии 12.07 (11:38); каждая позиция «ОЗ + ТМ 3.5» накрывает счета 1:1, 1:2 и 2:1",
+      "en": "Odds taken from the live line on 12.07 (11:38); each “BTTS + under 3.5” position covers 1:1, 1:2 and 2:1"
     },
     "legs": [
       {
@@ -13413,8 +13412,8 @@
           "en": "France — Spain"
         },
         "p": {
-          "ru": "Точный счёт 1:1 (осн. время) @6.00",
-          "en": "Correct score 1:1 (regulation) @6.00"
+          "ru": "Обе забьют + тотал меньше 3.5 @2.95",
+          "en": "BTTS + under 3.5 goals @2.95"
         }
       },
       {
@@ -13423,152 +13422,8 @@
           "en": "England — Argentina"
         },
         "p": {
-          "ru": "Точный счёт 1:1 (осн. время) @5.50",
-          "en": "Correct score 1:1 (regulation) @5.50"
-        }
-      }
-    ]
-  },
-  {
-    "side": "AI",
-    "status": "pending",
-    "date": "2026-07-15",
-    "tier": "red",
-    "stake": 125,
-    "type": "Экспресс",
-    "match": {
-      "ru": "Полуфиналы — точные счета",
-      "en": "Semi-finals — correct scores"
-    },
-    "note": {
-      "ru": "Четверть покрытия 2×2: четыре двойника по 125 ₽ на коридоры 1:1/1:2 обоих полуфиналов",
-      "en": "One quarter of the 2×2 coverage: four 125 ₽ doubles across the 1:1/1:2 corridors of both semi-finals"
-    },
-    "id": 448,
-    "odds": 72,
-    "bet": {
-      "ru": "Экспресс точных счетов: Франция—Испания 1:1 + Англия—Аргентина 1:2",
-      "en": "Correct-score double: France—Spain 1:1 + England—Argentina 1:2"
-    },
-    "why": {
-      "ru": "Франция и Испания расходятся 1:1 и играют овертайм, а Аргентина дожимает Англию в основное время. Часть покрытия 2×2 узких коридоров счетов.",
-      "en": "France and Spain finish 1:1 and head to extra time, while Argentina put England away in regulation. Part of the 2×2 coverage of narrow score corridors."
-    },
-    "legs": [
-      {
-        "m": {
-          "ru": "Франция — Испания",
-          "en": "France — Spain"
-        },
-        "p": {
-          "ru": "Точный счёт 1:1 (осн. время) @6.00",
-          "en": "Correct score 1:1 (regulation) @6.00"
-        }
-      },
-      {
-        "m": {
-          "ru": "Англия — Аргентина",
-          "en": "England — Argentina"
-        },
-        "p": {
-          "ru": "Точный счёт 1:2 (осн. время) @12.00",
-          "en": "Correct score 1:2 (regulation) @12.00"
-        }
-      }
-    ]
-  },
-  {
-    "side": "AI",
-    "status": "pending",
-    "date": "2026-07-15",
-    "tier": "red",
-    "stake": 125,
-    "type": "Экспресс",
-    "match": {
-      "ru": "Полуфиналы — точные счета",
-      "en": "Semi-finals — correct scores"
-    },
-    "note": {
-      "ru": "Четверть покрытия 2×2: четыре двойника по 125 ₽ на коридоры 1:1/1:2 обоих полуфиналов",
-      "en": "One quarter of the 2×2 coverage: four 125 ₽ doubles across the 1:1/1:2 corridors of both semi-finals"
-    },
-    "id": 449,
-    "odds": 60.5,
-    "bet": {
-      "ru": "Экспресс точных счетов: Франция—Испания 1:2 + Англия—Аргентина 1:1",
-      "en": "Correct-score double: France—Spain 1:2 + England—Argentina 1:1"
-    },
-    "why": {
-      "ru": "Модальная ветка нашей сетки: Испания забирает реванш 1:2 поздним дожимом, а дерби в Атланте вязнет на 1:1 и уезжает в овертайм. Часть покрытия 2×2.",
-      "en": "The modal branch of our bracket: Spain take the rematch 1:2 with a late squeeze, while the Atlanta derby sticks at 1:1 and goes to extra time. Part of the 2×2 coverage."
-    },
-    "legs": [
-      {
-        "m": {
-          "ru": "Франция — Испания",
-          "en": "France — Spain"
-        },
-        "p": {
-          "ru": "Точный счёт 1:2 (осн. время) @11.00",
-          "en": "Correct score 1:2 (regulation) @11.00"
-        }
-      },
-      {
-        "m": {
-          "ru": "Англия — Аргентина",
-          "en": "England — Argentina"
-        },
-        "p": {
-          "ru": "Точный счёт 1:1 (осн. время) @5.50",
-          "en": "Correct score 1:1 (regulation) @5.50"
-        }
-      }
-    ]
-  },
-  {
-    "side": "AI",
-    "status": "pending",
-    "date": "2026-07-15",
-    "tier": "red",
-    "stake": 125,
-    "type": "Экспресс",
-    "match": {
-      "ru": "Полуфиналы — точные счета",
-      "en": "Semi-finals — correct scores"
-    },
-    "note": {
-      "ru": "Четверть покрытия 2×2: четыре двойника по 125 ₽ на коридоры 1:1/1:2 обоих полуфиналов",
-      "en": "One quarter of the 2×2 coverage: four 125 ₽ doubles across the 1:1/1:2 corridors of both semi-finals"
-    },
-    "id": 450,
-    "odds": 132,
-    "bet": {
-      "ru": "Экспресс точных счетов: Франция—Испания 1:2 + Англия—Аргентина 1:2",
-      "en": "Correct-score double: France—Spain 1:2 + England—Argentina 1:2"
-    },
-    "why": {
-      "ru": "Ветка «оба андердога рынка решают всё в основное время»: Испания и Аргентина побеждают 1:2 без овертаймов. Часть покрытия 2×2 узких коридоров счетов.",
-      "en": "The “both market underdogs settle it in regulation” branch: Spain and Argentina win 1:2 with no extra time. Part of the 2×2 coverage of narrow score corridors."
-    },
-    "legs": [
-      {
-        "m": {
-          "ru": "Франция — Испания",
-          "en": "France — Spain"
-        },
-        "p": {
-          "ru": "Точный счёт 1:2 (осн. время) @11.00",
-          "en": "Correct score 1:2 (regulation) @11.00"
-        }
-      },
-      {
-        "m": {
-          "ru": "Англия — Аргентина",
-          "en": "England — Argentina"
-        },
-        "p": {
-          "ru": "Точный счёт 1:2 (осн. время) @12.00",
-          "en": "Correct score 1:2 (regulation) @12.00"
+          "ru": "Обе забьют + тотал меньше 3.5 @2.85",
+          "en": "BTTS + under 3.5 goals @2.85"
         }
       }
     ]

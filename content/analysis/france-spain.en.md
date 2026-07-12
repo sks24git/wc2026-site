@@ -25,6 +25,6 @@
 - 🟡 **Yellow cards: total under 2.5 @2.40** — the stat value spot of the day: France's matches average ~1 yellow a game (zero for France in four of six), Spain play clean, and the market prices a "semi-final battle". Discipline beat the cards narrative all playoff long — now we play it ourselves.
 - Killed: the bare Over 2.5 @1.90 (the knockout throttles the over — five straight confirmations, and these are the tournament's two best defences); France −1 @3.35 and the straight France win @2.35 (an even match, and against our own bracket); corners over/under 9.5 (the line sits exactly on the profile: Spain generate 5–6 corners from 68% possession — short build-up, not bombardment); offsides over 3.5 @1.70 (the "Spain's trap versus Mbappé's runs" narrative is already priced in, while France's matches average two offsides and their last two produced none at all).
 
-Correct scores of the night (🔴, a 2×2 coverage of four doubles): the corridors **1:1 @6.00** and **1:2 @11.00** from here — each paired with 1:1 @5.50 and 1:2 @12.00 from England—Argentina.
+Double of the night (🟡): “both teams to score + under 3.5” here (@2.95) and in England—Argentina (@2.85), combined odds 8.41 — one ticket on the twin script, covering 1:1, 1:2 and 2:1 in both semi-finals.
 
 **Pasha:** awaiting his picks.
