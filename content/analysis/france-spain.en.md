@@ -1,3 +1,13 @@
+## Result: France 0:2 Spain (0:1) — Spain into the final
+
+**Goals: Oyarzabal 22′ (penalty), Pedro Porro 58′.** Spain took their Euro 2024 revenge with no shootout of blows: they went ahead from the spot and doubled it after the break through an unexpected scorer — right-back Porro. France ran up the numbers (14 shots to 10, 7 corners to 1) but only 4 on target to 2, and the tournament's best defence kept its clean sheet. Deschamps' final tournament ended goalless in the semi; Spain's run is 34 matches before the World Cup plus seven here.
+
+**Settlement.** AI: ✓ Spain in regulation @3.30 (the lone but big one: +3450); ✗ both teams to score @1.70 (France never beat Simón), ✗ cards under 2.5 @2.40 (three yellows), ✗ double of the night @8.41 (killed by leg one). Pasha: ✓✓✓ Spain to score in both halves @3.70, Spain individual total over 1.5 @2.45, Spain to qualify @2.20 — three of six, the entire Spain block landed; ✗ both teams to score, ✗ comeback @5.80, ✗ correct score 2:2. **Pasha read the match better: backing Spain's attack won him the day, while a single bracket pick rescued the machine.**
+
+**Lesson.** Our modal script (Spain 1:2 with a late squeeze) came true in spirit — Spain won — but there was no exchange of goals: the "clean sheets don't transfer" thesis failed because France, without a goal from an opponent coming forward, mustered 14 shots and only 4 on target. Both-teams-to-score as "the most robust expression of a goals thesis" burns for the second knockout running against an elite defence (after Spain—Belgium): at a stage decided by one defence and one moment, BTTS is no safer than a straight result.
+
+---
+
 ## France — Spain · 14.07, 22:00 MSK · AT&T Stadium, Arlington (Dallas)
 
 **A rematch of the Euro 2024 semi-final and the first meeting of two elite machines at this World Cup: Spain's control against France's transition verticality. The two best defences of the tournament (two and one goals conceded across six matches) — but neither has yet seen an attack of this class. The base case is an exchange of goals and a late Spanish squeeze.**

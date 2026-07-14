@@ -13229,7 +13229,7 @@
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "id": 440,
     "date": "2026-07-14",
     "matchId": "france-spain",
@@ -13247,11 +13247,15 @@
     "why": {
       "ru": "Первый матч турнира, где обе машины элитные: контроль Испании против переходов Мбаппе. Обороны-сухари друг для друга — первые настоящие атаки на пути; на Евро-2024 эта пара дала 2:1.",
       "en": "The first match of the tournament where both machines are elite: Spain’s control against Mbappé’s transitions. Both defences face their first real attacks — at Euro 2024 this pairing produced 2:1."
+    },
+    "note": {
+      "ru": "✗ Франция не забила (0:2) — обе не сошлись",
+      "en": "✗ France failed to score (0:2) — BTTS missed"
     }
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "win",
     "id": 441,
     "date": "2026-07-14",
     "matchId": "france-spain",
@@ -13269,11 +13273,15 @@
     "why": {
       "ru": "Сеточный пик прямым рынком: рифма полуфинала Евро-2024, беспроигрышная серия Испании и вязкий центр Франции без Чуамени — Испания дожимает поздно, как во всех своих нокаутах.",
       "en": "The bracket pick by the most direct market: the Euro 2024 semi-final rhyme, Spain’s unbeaten run and France’s sticky midfield without Tchouaméni — Spain force it late, as in all their knockouts."
+    },
+    "note": {
+      "ru": "✓ Испания 2:0 в основное — Ойярсабаль (пен.) и Педро Порро",
+      "en": "✓ Spain 2:0 in regulation — Oyarzabal (pen) and Pedro Porro"
     }
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "id": 442,
     "date": "2026-07-14",
     "matchId": "france-spain",
@@ -13291,6 +13299,10 @@
     "why": {
       "ru": "Стат-валуй: в матчах Франции в среднем ~1 жёлтая на игру (в четырёх из шести — у неё ноль), Испания тоже техничная — а рынок закладывает «полуфинальную рубку». Дисциплина бьёт нарратив третий раз подряд.",
       "en": "A stat value spot: France’s matches average ~1 yellow a game (zero for France in four of six), Spain are just as technical — while the market prices a “semi-final battle”. Discipline beats the narrative three times running."
+    },
+    "note": {
+      "ru": "✗ 3 жёлтых (Франция 2 + Испания 1) — тотал взял верх",
+      "en": "✗ 3 yellows (France 2 + Spain 1) — the over prevailed"
     }
   },
   {
@@ -13383,7 +13395,7 @@
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "id": 451,
     "date": "2026-07-15",
     "tier": "yellow",
@@ -13402,8 +13414,8 @@
       "en": "We read both semi-finals the same way: elite pairings trade goals, yet knockout football denies a rout — scores from the 1:1, 1:2, 2:1 corridor. One ticket on the twin script: the same sticky-exchange thesis as a spread of correct scores, with far wider coverage."
     },
     "note": {
-      "ru": "Кэфы сняты с реальной линии 12.07 (11:38); каждая позиция «ОЗ + ТМ 3.5» накрывает счета 1:1, 1:2 и 2:1",
-      "en": "Odds taken from the live line on 12.07 (11:38); each “BTTS + under 3.5” position covers 1:1, 1:2 and 2:1"
+      "ru": "✗ Убит первой позицией: во Франция—Испания обе не забили (0:2), проход невозможен",
+      "en": "✗ Killed by leg one: BTTS failed in France—Spain (0:2), the double cannot land"
     },
     "legs": [
       {
@@ -13430,7 +13442,7 @@
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "matchId": "france-spain",
     "date": "2026-07-14",
     "match": {
@@ -13448,11 +13460,15 @@
     "why": {
       "ru": "Паша идёт против собственной логики (сам считает, что тут низ): ставит на голы обеих сугубо из любви к Испании и нелюбви к Франции — почти без аналитики, на чутьё.",
       "en": "Pasha goes against his own logic (he thinks it is a low-scorer): he backs goals both ways purely out of love for Spain and dislike for France — almost no analysis, all gut."
+    },
+    "note": {
+      "ru": "✗ Франция не забила (0:2) — обе не сошлись",
+      "en": "✗ France failed to score (0:2) — BTTS missed"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "matchId": "france-spain",
     "date": "2026-07-14",
     "match": {
@@ -13470,11 +13486,15 @@
     "why": {
       "ru": "Ставка на то, что Испания заряжена весь матч: раскрывается с первых минут и додавливает во втором тайме, забивая в обоих.",
       "en": "A bet on Spain being switched on all game: firing from the opening minutes and pressing on after the break, scoring in both halves."
+    },
+    "note": {
+      "ru": "✓ Испания забила в обоих таймах — 22′ и 58′",
+      "en": "✓ Spain scored in both halves — 22′ and 58′"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "matchId": "france-spain",
     "date": "2026-07-14",
     "match": {
@@ -13492,11 +13512,15 @@
     "why": {
       "ru": "Вера в атаку Испании: минимум два своих гола за матч.",
       "en": "Faith in Spain’s attack: at least two goals of their own in the match."
+    },
+    "note": {
+      "ru": "✓ Два гола Испании — индивидуальный тотал больше 1.5",
+      "en": "✓ Spain scored twice — individual total over 1.5"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "matchId": "france-spain",
     "date": "2026-07-14",
     "match": {
@@ -13514,11 +13538,15 @@
     "why": {
       "ru": "Итоговый прогноз Паши: Испания выбивает Францию и идёт в финал (проход — в основное, доп. время или пенальти).",
       "en": "Pasha’s bottom line: Spain knock France out and reach the final (qualification via regulation, extra time or penalties)."
+    },
+    "note": {
+      "ru": "✓ Испания 2:0 — в финале ЧМ",
+      "en": "✓ Spain 2:0 — into the World Cup final"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "id": 456,
     "matchId": "france-spain",
     "date": "2026-07-14",
@@ -13534,8 +13562,8 @@
       "en": "Either team to trail during the match and win — yes"
     },
     "note": {
-      "ru": "Единый рынок волевой (любая из команд) — кэф с живой линии Фонбета",
-      "en": "Single comeback market (either team) — odds from the live Fonbet line"
+      "ru": "✗ Волевой не было: Испания вела с 22′ и не проигрывала по ходу",
+      "en": "✗ No comeback: Spain led from the 22nd and never trailed"
     },
     "why": {
       "ru": "Прикрытие: Паша боится, что «не играющая первый тайм» Франция пропустит первой, а потом вытащит матч волевой — этот рынок закрывает камбэк любой из команд.",
@@ -13544,7 +13572,7 @@
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "matchId": "france-spain",
     "date": "2026-07-14",
     "match": {
@@ -13560,8 +13588,8 @@
       "en": "Correct score 2:2"
     },
     "note": {
-      "ru": "Прикрытие точным счётом вместо 1:1; Паша сам отмечает, что такой тотал маловероятен",
-      "en": "A correct-score cover instead of 1:1; Pasha himself notes such a total is unlikely"
+      "ru": "✗ Счёт 0:2, не 2:2",
+      "en": "✗ Final 0:2, not 2:2"
     },
     "why": {
       "ru": "Дешёвое прикрытие на редкий результативный обмен 2:2.",
