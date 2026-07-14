@@ -13519,53 +13519,27 @@
   {
     "side": "Паша",
     "status": "pending",
-    "matchId": "france-spain",
-    "date": "2026-07-14",
-    "match": {
-      "ru": "Франция — Испания",
-      "en": "France — Spain"
-    },
     "id": 456,
-    "tier": "red",
-    "odds": 6.5,
-    "type": "Волевая",
-    "bet": {
-      "ru": "Волевая победа Испании",
-      "en": "Spain comeback win"
-    },
-    "note": {
-      "ru": "Рынок волевой на Фонбете в пре-матче не представлен — кэф ориентировочный",
-      "en": "The comeback market is not offered pre-match on Fonbet — odds are indicative"
-    },
-    "why": {
-      "ru": "Прикрытие: если Испания сначала пропустит, а потом всё равно вытащит матч.",
-      "en": "A cover: if Spain concede first and still turn the match around."
-    }
-  },
-  {
-    "side": "Паша",
-    "status": "pending",
     "matchId": "france-spain",
     "date": "2026-07-14",
+    "tier": "red",
+    "odds": 5.8,
+    "type": "Волевая",
     "match": {
       "ru": "Франция — Испания",
       "en": "France — Spain"
     },
-    "id": 457,
-    "tier": "red",
-    "odds": 7.5,
-    "type": "Волевая",
     "bet": {
-      "ru": "Волевая победа Франции",
-      "en": "France comeback win"
+      "ru": "Любая из команд проигрывает по ходу матча и победит — да",
+      "en": "Either team to trail during the match and win — yes"
     },
     "note": {
-      "ru": "Рынок волевой на Фонбете в пре-матче не представлен — кэф ориентировочный",
-      "en": "The comeback market is not offered pre-match on Fonbet — odds are indicative"
+      "ru": "Единый рынок волевой (любая из команд) — кэф с живой линии Фонбета",
+      "en": "Single comeback market (either team) — odds from the live Fonbet line"
     },
     "why": {
-      "ru": "Второе прикрытие и одновременно страх Паши: Франция «не играет первый тайм», поэтому именно волевой и может пройти.",
-      "en": "A second cover and Pasha’s own fear: France “don’t turn up in the first half”, so a comeback is exactly how they might go through."
+      "ru": "Прикрытие: Паша боится, что «не играющая первый тайм» Франция пропустит первой, а потом вытащит матч волевой — этот рынок закрывает камбэк любой из команд.",
+      "en": "A cover: Pasha fears a France side that \"doesn’t turn up in the first half\" concedes first and then wins from behind — this market covers a comeback by either team."
     }
   },
   {
