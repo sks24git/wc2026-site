@@ -27,4 +27,10 @@
 
 Double of the night (🟡): “both teams to score + under 3.5” here (@2.95) and in England—Argentina (@2.85), combined odds 8.41 — one ticket on the twin script, covering 1:1, 1:2 and 2:1 in both semi-finals.
 
-**Pasha:** awaiting his picks.
+**Pasha:** goes "against the logic" — he senses a low-scorer himself, but bets on goals out of love for Spain and dislike for France, almost without analysis.
+- 🟢 **Both teams to score — yes @1.72** — a "green" on gut.
+- 🟡 **Spain to score in both halves @3.70** and 🟡 **Spain individual total over 1.5 @2.45** — a belief that Spain are switched on all game.
+- **Spain to qualify for the final @2.20** — his bottom line for the night.
+- Covers (🔴): **Spain comeback win** and **France comeback win** (the market is not offered pre-match on Fonbet, odds indicative — Pasha himself fears that a France side that "doesn't turn up in the first half" goes through exactly via a comeback) + **correct score 2:2 @11.00** (he admits such a total is unlikely).
+
+Where they meet: both machines and Pasha land on both-teams-to-score and Spain to qualify. Where they differ in emphasis: AI takes the discipline stat value (cards under 2.5) and holds the draw as the modal, while Pasha loads Spain's attack (score in both halves, individual total over 1.5) and hedges with comeback wins.
