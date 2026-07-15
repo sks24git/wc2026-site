@@ -13307,7 +13307,7 @@
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "win",
     "id": 443,
     "date": "2026-07-15",
     "matchId": "england-argentina",
@@ -13325,11 +13325,15 @@
     "why": {
       "ru": "Во всех шести нокаут-матчах пары обе забивали в основное время: фланг Англии без Куансы против Месси, возрастные тылы Аргентины после 240 минут овертаймов — против Кейна и Беллингема.",
       "en": "In all six of the pair’s knockout matches both sides scored in regulation: England’s flank without Quansah against Messi, Argentina’s ageing rearguard after 240 extra minutes — against Kane and Bellingham."
+    },
+    "note": {
+      "ru": "✓ Гордон 55′ + Энцо 85′ и Лаутаро 90+2′ — обе забили",
+      "en": "✓ Gordon 55′ + Enzo 85′ and Lautaro 90+2′ — both scored"
     }
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "win",
     "id": 444,
     "date": "2026-07-15",
     "matchId": "england-argentina",
@@ -13347,11 +13351,15 @@
     "why": {
       "ru": "Рынок ставит Англию фаворитом — наша сетка ведёт чемпиона: класс Месси в решающей стадии, свежая пара центральных и Эм. Мартинес в возможной серии. Проход покрывает основное время, овертайм и пенальти.",
       "en": "The market makes England favourites — our bracket backs the champions: Messi’s class at the sharp end, a fresh centre-back pairing and Em. Martínez in a potential shootout. “To qualify” covers regulation, extra time and penalties."
+    },
+    "note": {
+      "ru": "✓ Аргентина сделала камбэк 1:2 в основное время и вышла в финал",
+      "en": "✓ Argentina came back to win 1:2 in regulation and reached the final"
     }
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "id": 445,
     "date": "2026-07-15",
     "matchId": "england-argentina",
@@ -13369,11 +13377,15 @@
     "why": {
       "ru": "Модальный сценарий — 1:1 к 90-й и развязка в дополнительное: обе четвертьфинальные пары этой половины сетки закончили основное время вничью, а цена ошибки полуфинала давит на добивание.",
       "en": "The modal script — 1:1 at 90 and a decision in extra time: both quarter-final ties in this half of the bracket finished regulation level, and semi-final stakes weigh against forcing it."
+    },
+    "note": {
+      "ru": "✗ Ничьей не случилось: Аргентина дожала 1:2 к 90+2′",
+      "en": "✗ No draw: Argentina forced it to 1:2 by 90+2′"
     }
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "win",
     "id": 446,
     "date": "2026-07-15",
     "matchId": "england-argentina",
@@ -13391,6 +13403,10 @@
     "why": {
       "ru": "Стат-валуй: Аргентина попадается в офсайд минимум дважды в каждом из шести матчей турнира — вертикаль Месси обязана искать разрезы за спину высокой линии Стоунза и Гехи.",
       "en": "A stat value spot: Argentina have been caught offside at least twice in every one of their six matches — Messi’s vertical passing must probe behind Stones and Guéhi’s high line."
+    },
+    "note": {
+      "ru": "✓ 3 офсайда Аргентины (линия Стоунза ловила, но не спасла)",
+      "en": "✓ 3 Argentina offsides (Stones’ line kept catching them, but it didn’t save England)"
     }
   },
   {
@@ -13598,7 +13614,7 @@
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "id": 459,
     "matchId": "england-argentina",
     "date": "2026-07-15",
@@ -13618,13 +13634,13 @@
       "en": "The France—Spain semi-final lesson: at this stage, concentrating on one correct scenario beats spreading thin. Our modal read of this derby is a sticky 1:1 by the 90th, then Argentina in extra time. We back the modal score by the direct market instead of diluting."
     },
     "note": {
-      "ru": "Кэф с живой линии Фонбета (пре-матч 15.07)",
-      "en": "Odds from the live Fonbet line (pre-match 15.07)"
+      "ru": "✗ Модаль 1:1 держался до 85-й — Энцо и Лаутаро сломали счёт",
+      "en": "✗ The 1:1 modal held until the 85th — Enzo and Lautaro broke the score"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "id": 460,
     "matchId": "england-argentina",
     "date": "2026-07-15",
@@ -13642,11 +13658,15 @@
     "why": {
       "ru": "«Ну сегодня точно ОЗ» — обе пропускают в каждом нокауте этого ЧМ, Паша не сомневается.",
       "en": "\"Definitely BTTS today\" — both sides have conceded in every knockout of this World Cup, Pasha has no doubts."
+    },
+    "note": {
+      "ru": "✓ Обе забили: Гордон 55′, Энцо 85′, Лаутаро 90+2′",
+      "en": "✓ Both scored: Gordon 55′, Enzo 85′, Lautaro 90+2′"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "id": 461,
     "matchId": "england-argentina",
     "date": "2026-07-15",
@@ -13664,11 +13684,15 @@
     "why": {
       "ru": "По симпатиям и рисунку игры: Аргентина любит брать своё в первом тайме и в концовке второго — на два гола партии Месси и компании должно хватить.",
       "en": "A sympathy pick backed by the pattern: Argentina like to strike in the first half and late in the second — Messi and co. should be good for two goals."
+    },
+    "note": {
+      "ru": "✓ Аргентина забила дважды — Энцо 85′ и Лаутаро 90+2′",
+      "en": "✓ Argentina scored twice — Enzo 85′ and Lautaro 90+2′"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "id": 462,
     "matchId": "england-argentina",
     "date": "2026-07-15",
@@ -13686,11 +13710,15 @@
     "why": {
       "ru": "Страховка на модальный счёт этого дерби — вязкая ничья к 90-й.",
       "en": "Insurance on the modal score of this derby — a sticky draw by the 90th."
+    },
+    "note": {
+      "ru": "✗ Счёт 1:1 не дожил до свистка — 1:2 к 90+2′",
+      "en": "✗ 1:1 didn’t survive to the whistle — 1:2 by 90+2′"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "id": 463,
     "matchId": "england-argentina",
     "date": "2026-07-15",
@@ -13708,11 +13736,15 @@
     "why": {
       "ru": "Полуфинал такого накала обязан дать рубку — карточный тотал именно на аргентинскую сторону.",
       "en": "A semi-final this heated has to bring a physical edge — the card total lands on the Argentina side specifically."
+    },
+    "note": {
+      "ru": "✓ 3 жёлтых у Аргентины (у Англии всего 1)",
+      "en": "✓ 3 Argentina yellows (England only 1)"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "id": 464,
     "matchId": "england-argentina",
     "date": "2026-07-15",
@@ -13731,11 +13763,15 @@
     "why": {
       "ru": "«Кроем волевые» — прикрытие на камбэк любой из сторон, если игра пойдёт не по сценарию.",
       "en": "\"Covering the comeback\" — a hedge on either side rallying from behind if the match doesn’t go to script."
+    },
+    "note": {
+      "ru": "✓ Есть волевая! Аргентина горела 0:1 с 55-й и вырвала 2:1 к 90+2′",
+      "en": "✓ Comeback landed! Argentina trailed from the 55th and snatched it 2:1 by 90+2′"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "id": 465,
     "matchId": "england-argentina",
     "date": "2026-07-15",
@@ -13753,6 +13789,10 @@
     "why": {
       "ru": "«Ну и проход аргов» — базовый пик дуэли, повтор вчерашней логики: класс Месси решает в моменте истины.",
       "en": "\"And Argentina to go through\" — the core pick of the duel, repeating yesterday’s logic: Messi’s class decides when it matters."
+    },
+    "note": {
+      "ru": "✓ Аргентина в финале — камбэк в основное время",
+      "en": "✓ Argentina are in the final — a regulation-time comeback"
     }
   },
   {
@@ -13776,6 +13816,10 @@
     "why": {
       "ru": "«Должна играть рубка» — после 240 минут овертаймов Аргентины и жёсткого дерби медбригаде найдётся работа больше одного раза.",
       "en": "\"There has to be some rough stuff\" — after Argentina’s 240 extra-time minutes and a hard derby, the medics should be called out more than once."
+    },
+    "note": {
+      "ru": "Проверяем число выходов медбригады по хронике матча",
+      "en": "Verifying the number of medical-staff call-outs from the match log"
     }
   }
 ]

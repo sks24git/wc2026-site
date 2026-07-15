@@ -1,5 +1,16 @@
 ## England — Argentina · 15.07, 22:00 MSK · Mercedes-Benz Stadium, Atlanta
 
+## Result: 1:2 (0:0) — Argentina's regulation-time comeback, Messi reaches the final
+
+Forty years waiting for revenge — and Argentina took it without extra time. The first half followed our sticky-derby script (0:0), but on 55 minutes **Gordon** put England ahead. Then came classic Scaloni: Argentina, with 64% possession and a 14:6 shot count, ground England down. **Enzo Fernández** equalised on 85 and **Lautaro Martínez** snatched the winner at 90+2 — England collapsed inside seven minutes. **Messi**, at 39, beat England for the first time in his career and reached his third World Cup final. Spain await.
+
+**Settlement.** For the AI: both teams to score (Gordon + Enzo/Lautaro), Argentina to qualify and the offsides bet (Argentina caught 3 times) all landed; the draw and correct score 1:1 burned — the modal held until the 85th, then the comeback broke both. For Pasha, a festival: BTTS, Argentina team total over 1.5 (two goals), Argentina cards (3 yellows), qualification — and the jewel of the slip: "covering the comeback" — Argentina trailed from the 55th and won. His correct score 1:1 burned too; the medics bet is being verified.
+
+**Lesson.** "Draw insurance + correct score 1:1" and "the comeback" were bets on DIFFERENT endings of the same script — and Pasha's ending was right: with a favourite of Argentina's class, a sticky 1:1 at the 85th breaks more often than it survives. Covering the comeback in a derby with a clear "possession vs low block" contrast is an underpriced market.
+
+---
+
+
 **Forty years after the Hand of God — England against Argentina again, now for a place in the final. Messi, at 39, faces England for the first time in his career; England are fresher by one period of extra time but miss Quansah and have a poorly Rice. Both concede in every knockout round — the base case is an exchange of goals and a sticky 90 minutes without a winner.**
 
 ## Key points
