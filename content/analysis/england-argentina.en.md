@@ -29,4 +29,11 @@
 
 The double of the night “BTTS + under 3.5 ×2” (🟡 @8.41) has already gone down: France—Spain finished 0:2 with only one team scoring, so the double settled as a loss before this match — only the singles stand tonight.
 
-**Pasha:** awaiting his picks.
+**Pasha:**
+- **Both teams to score — yes @1.83** — "definitely BTTS today": both sides have conceded in every knockout of this World Cup.
+- **Argentina team total goals over 1.5 @2.80** — a sympathy pick backed by the pattern: Argentina strike in the first half and late in the second.
+- **Correct score 1:1 (regulation) @5.50** — insurance on the derby's sticky modal score.
+- **Argentina team total yellow cards over 1.5 @1.70** — a semi-final this heated has to bring a physical edge, specifically on Argentina's side.
+- **Either team to trail during the match and win — yes @6.80** — "covering the comeback": a hedge in case the match doesn't go to script.
+- **Argentina to qualify @2.00** — the core pick of the duel, repeating yesterday's logic: Messi's class decides when it matters.
+- **Medical staff on the pitch over 1.5 times @2.65** — after Argentina's 240 extra-time minutes and a hard-fought derby, the medics should be called out more than once.

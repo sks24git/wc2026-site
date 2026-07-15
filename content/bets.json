@@ -13621,5 +13621,161 @@
       "ru": "Кэф с живой линии Фонбета (пре-матч 15.07)",
       "en": "Odds from the live Fonbet line (pre-match 15.07)"
     }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "id": 460,
+    "matchId": "england-argentina",
+    "date": "2026-07-15",
+    "tier": "green",
+    "odds": 1.83,
+    "type": "ОЗ",
+    "match": {
+      "ru": "Англия — Аргентина",
+      "en": "England — Argentina"
+    },
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "why": {
+      "ru": "«Ну сегодня точно ОЗ» — обе пропускают в каждом нокауте этого ЧМ, Паша не сомневается.",
+      "en": "\"Definitely BTTS today\" — both sides have conceded in every knockout of this World Cup, Pasha has no doubts."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "id": 461,
+    "matchId": "england-argentina",
+    "date": "2026-07-15",
+    "tier": "yellow",
+    "odds": 2.8,
+    "type": "ИТБ",
+    "match": {
+      "ru": "Англия — Аргентина",
+      "en": "England — Argentina"
+    },
+    "bet": {
+      "ru": "Индивидуальный тотал Аргентины больше 1.5",
+      "en": "Argentina team total goals over 1.5"
+    },
+    "why": {
+      "ru": "По симпатиям и рисунку игры: Аргентина любит брать своё в первом тайме и в концовке второго — на два гола партии Месси и компании должно хватить.",
+      "en": "A sympathy pick backed by the pattern: Argentina like to strike in the first half and late in the second — Messi and co. should be good for two goals."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "id": 462,
+    "matchId": "england-argentina",
+    "date": "2026-07-15",
+    "tier": "yellow",
+    "odds": 5.5,
+    "type": "ТС",
+    "match": {
+      "ru": "Англия — Аргентина",
+      "en": "England — Argentina"
+    },
+    "bet": {
+      "ru": "Точный счёт 1:1 (основное время)",
+      "en": "Correct score 1:1 (regulation)"
+    },
+    "why": {
+      "ru": "Страховка на модальный счёт этого дерби — вязкая ничья к 90-й.",
+      "en": "Insurance on the modal score of this derby — a sticky draw by the 90th."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "id": 463,
+    "matchId": "england-argentina",
+    "date": "2026-07-15",
+    "tier": "green",
+    "odds": 1.7,
+    "type": "ИТБ ЖК",
+    "match": {
+      "ru": "Англия — Аргентина",
+      "en": "England — Argentina"
+    },
+    "bet": {
+      "ru": "Индивидуальный тотал жёлтых карточек Аргентины больше 1.5",
+      "en": "Argentina team total yellow cards over 1.5"
+    },
+    "why": {
+      "ru": "Полуфинал такого накала обязан дать рубку — карточный тотал именно на аргентинскую сторону.",
+      "en": "A semi-final this heated has to bring a physical edge — the card total lands on the Argentina side specifically."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "id": 464,
+    "matchId": "england-argentina",
+    "date": "2026-07-15",
+    "tier": "red",
+    "odds": 6.8,
+    "stake": 1000,
+    "type": "Волевая",
+    "match": {
+      "ru": "Англия — Аргентина",
+      "en": "England — Argentina"
+    },
+    "bet": {
+      "ru": "Любая из команд проигрывает по ходу матча и победит — да",
+      "en": "Either team to trail during the match and win — yes"
+    },
+    "why": {
+      "ru": "«Кроем волевые» — прикрытие на камбэк любой из сторон, если игра пойдёт не по сценарию.",
+      "en": "\"Covering the comeback\" — a hedge on either side rallying from behind if the match doesn’t go to script."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "id": 465,
+    "matchId": "england-argentina",
+    "date": "2026-07-15",
+    "tier": "green",
+    "odds": 2,
+    "type": "Проход",
+    "match": {
+      "ru": "Англия — Аргентина",
+      "en": "England — Argentina"
+    },
+    "bet": {
+      "ru": "Проход Аргентины",
+      "en": "Argentina to qualify"
+    },
+    "why": {
+      "ru": "«Ну и проход аргов» — базовый пик дуэли, повтор вчерашней логики: класс Месси решает в моменте истины.",
+      "en": "\"And Argentina to go through\" — the core pick of the duel, repeating yesterday’s logic: Messi’s class decides when it matters."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "id": 466,
+    "matchId": "england-argentina",
+    "date": "2026-07-15",
+    "tier": "yellow",
+    "odds": 2.65,
+    "stake": 1500,
+    "type": "Спецрынок",
+    "match": {
+      "ru": "Англия — Аргентина",
+      "en": "England — Argentina"
+    },
+    "bet": {
+      "ru": "Выходы медицинской бригады на поле больше 1.5",
+      "en": "Medical staff on the pitch over 1.5 times"
+    },
+    "why": {
+      "ru": "«Должна играть рубка» — после 240 минут овертаймов Аргентины и жёсткого дерби медбригаде найдётся работа больше одного раза.",
+      "en": "\"There has to be some rough stuff\" — after Argentina’s 240 extra-time minutes and a hard derby, the medics should be called out more than once."
+    }
   }
 ]
