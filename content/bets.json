@@ -13618,7 +13618,7 @@
     "id": 459,
     "matchId": "england-argentina",
     "date": "2026-07-15",
-    "tier": "yellow",
+    "tier": "red",
     "odds": 5.5,
     "type": "ТС",
     "match": {
@@ -13696,7 +13696,7 @@
     "id": 462,
     "matchId": "england-argentina",
     "date": "2026-07-15",
-    "tier": "yellow",
+    "tier": "red",
     "odds": 5.5,
     "type": "ТС",
     "match": {
@@ -13797,13 +13797,13 @@
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "id": 466,
     "matchId": "england-argentina",
     "date": "2026-07-15",
     "tier": "yellow",
-    "odds": 2.65,
-    "stake": 1500,
+    "odds": 2.55,
+    "stake": 2000,
     "type": "Спецрынок",
     "match": {
       "ru": "Англия — Аргентина",
@@ -13818,8 +13818,8 @@
       "en": "\"There has to be some rough stuff\" — after Argentina’s 240 extra-time minutes and a hard derby, the medics should be called out more than once."
     },
     "note": {
-      "ru": "Подтверждён 1 выход медиков (Стоунз, 89-я, столкновение с Пикфордом); счётчик «2 остановки» есть лишь у одного источника. Ждём, как рассчитал Фонбет по билету Паши.",
-      "en": "One medics call-out confirmed (Stones, 89th, collision with Pickford); the \"2 stoppages\" counter appears in only one source. Waiting on how Fonbet settled Pasha's ticket."
+      "ru": "✗ Медбригада вышла на поле лишь раз (Стоунз, 89′, столкновение с Пикфордом) — меньше 1.5",
+      "en": "✗ The medics came on just once (Stones, 89′, collision with Pickford) — under 1.5"
     }
   }
 ]
