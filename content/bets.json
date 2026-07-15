@@ -13595,5 +13595,31 @@
       "ru": "Дешёвое прикрытие на редкий результативный обмен 2:2.",
       "en": "A cheap cover for a rare high-scoring 2:2 exchange."
     }
+  },
+  {
+    "side": "AI",
+    "status": "pending",
+    "id": 459,
+    "matchId": "england-argentina",
+    "date": "2026-07-15",
+    "tier": "yellow",
+    "odds": 5.5,
+    "type": "ТС",
+    "match": {
+      "ru": "Англия — Аргентина",
+      "en": "England — Argentina"
+    },
+    "bet": {
+      "ru": "Точный счёт 1:1 (основное время)",
+      "en": "Correct score 1:1 (regulation)"
+    },
+    "why": {
+      "ru": "Урок полуфинала Франция—Испания: на этой стадии концентрация на одном верном сценарии бьёт распыление. Наш модаль по этому дерби — вязкие 1:1 к 90-й, дальше Аргентина в дополнительное. Ставим модальный счёт прямым рынком, а не размазываем.",
+      "en": "The France—Spain semi-final lesson: at this stage, concentrating on one correct scenario beats spreading thin. Our modal read of this derby is a sticky 1:1 by the 90th, then Argentina in extra time. We back the modal score by the direct market instead of diluting."
+    },
+    "note": {
+      "ru": "Кэф с живой линии Фонбета (пре-матч 15.07)",
+      "en": "Odds from the live Fonbet line (pre-match 15.07)"
+    }
   }
 ]

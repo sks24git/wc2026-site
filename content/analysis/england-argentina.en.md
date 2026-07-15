@@ -23,8 +23,10 @@
 - 🟢 **Both teams to score — yes @1.95** — BTTS has landed in regulation in all six of the pair's knockouts: England's patched right flank without Quansah against Messi and an in-form Álvarez; Argentina's ageing rearguard after 240 extra minutes against Kane, Bellingham and a deep bench. The market prices "semi-final dryness" — both profiles say exchange.
 - 🟢 **Argentina to qualify @2.13** — the bracket pick expressed by the most direct market: the market makes England favourites, our model backs the champions. Messi's class at the sharp end, a fresh centre-back pairing and Em. Martínez in a potential shootout; "to qualify" covers regulation, extra time and penalties alike.
 - 🟡 **Draw in regulation @3.10** — the direct expression of the modal "1:1 at 90" script: both quarter-final pairs of this half of the bracket finished regulation 1:1, and semi-final stakes weigh against anyone forcing it late.
+- 🟡 **Correct score 1:1 in regulation @5.50** — the same modal by the direct market. The France—Spain semi-final lesson: at this stage concentrating on one correct scenario beats spreading thin, so we back the modal score as its own single rather than only through the draw.
+- 🟡 **Argentina offsides over 1.5 @2.03** — the stat value: Argentina are caught offside 2+ times in every one of their six matches (average 2.7); their runs in behind against the high line of Stones and Gehi have to keep probing.
 - Killed: the bare Under 2.5 @1.62 (the market has already squeezed the under, and our thesis is goals, not drought); yellow cards over 2.5 @1.55 (the derby narrative against the data: both are disciplined sides, and buying cards on "knockout grit" has burned three times running); a straight Argentina win @3.15 (an even match is not a straight-result market); player props before official team sheets (Rice/James resolve in the XI).
 
-Double of the night (🟡): “both teams to score + under 3.5” from this match (@2.85) and from France—Spain (@2.95), combined odds 8.41 — one ticket on the twin script of two sticky semi-finals, covering 1:1, 1:2 and 2:1 in each.
+The double of the night “BTTS + under 3.5 ×2” (🟡 @8.41) has already gone down: France—Spain finished 0:2 with only one team scoring, so the double settled as a loss before this match — only the singles stand tonight.
 
 **Pasha:** awaiting his picks.
