@@ -3006,5 +3006,65 @@
       "ru": "Сорок лет после «руки бога»: Месси впервые в карьере против Англии — и сразу за место в финале. Обе пропускают в каждом нокауте; Аргентина везёт 240 минут овертаймов, Англия — без Куансы.",
       "en": "Forty years after the Hand of God: Messi faces England for the first time in his career — straight away for a place in the final. Both concede in every knockout; Argentina carry 240 minutes of extra time, England are without Quansah."
     }
+  },
+  {
+    "id": "france-england",
+    "date": "2026-07-18",
+    "timeMsk": "00:00",
+    "cc": [
+      "fr",
+      "gb-eng"
+    ],
+    "title": {
+      "ru": "Франция — Англия",
+      "en": "France — England"
+    },
+    "stage": {
+      "ru": "Матч за 3-е место",
+      "en": "Third-place play-off"
+    },
+    "venue": {
+      "ru": "Hard Rock Stadium, Майами",
+      "en": "Hard Rock Stadium, Miami"
+    },
+    "weather": {
+      "ru": "открытый, ~32°, влажно, риск гроз",
+      "en": "open air, ~32°C, humid, storm risk"
+    },
+    "lede": {
+      "ru": "Матч, который никто не хотел играть — и который может решить гонку бутсы: у Мбаппе 8 голов, у Кейна 6, и оба выходят на сутки раньше Месси.",
+      "en": "The match nobody wanted to play — and it may decide the Golden Boot race: Mbappé has 8, Kane 6, and both play a day before Messi."
+    },
+    "result": null
+  },
+  {
+    "id": "spain-argentina",
+    "date": "2026-07-19",
+    "timeMsk": "22:00",
+    "cc": [
+      "es",
+      "ar"
+    ],
+    "title": {
+      "ru": "Испания — Аргентина",
+      "en": "Spain — Argentina"
+    },
+    "stage": {
+      "ru": "Финал",
+      "en": "Final"
+    },
+    "venue": {
+      "ru": "MetLife Stadium, Нью-Джерси",
+      "en": "MetLife Stadium, New Jersey"
+    },
+    "weather": {
+      "ru": "открытый, ~30°, дневной матч (15:00 местного)",
+      "en": "open air, ~30°C, afternoon kick-off (3pm local)"
+    },
+    "lede": {
+      "ru": "Чемпион Европы против чемпиона мира: машина Де ла Фуэнте, не проигравшая никому два года, против последнего танца Месси в 39.",
+      "en": "The European champions against the world champions: De la Fuente’s two-year unbeaten machine versus Messi’s last dance at 39."
+    },
+    "result": null
   }
 ]
