@@ -27,4 +27,10 @@
 
 **Triggers:** press conferences on the 17th (the depth of Deschamps'/Tuchel's rotation is the key to everything); the status of Saliba (France) and Stones (England); official line-ups → **Mbappé anytime scorer** (the Boot incentive) as a separate update. The $29m third-place prize and Deschamps' send-off are enough to keep France from going through the motions.
 
-**Pasha:** awaiting his picks.
+**Pasha:**
+- **A headed goal in the match — yes @1.95** — a special: someone scores with the head (crosses/set pieces in an open game).
+- **A brace to be scored — yes @3.20** — a player nets 2+ (a nod to a rampant Mbappé).
+- **Each team over 1.5 goals — yes @3.75** — both net 2+: he expects a high-scoring, open bronze final.
+- **Comeback (either team) — yes @5.00** — "a red for fun" to cover a rally from behind.
+
+_The duel:_ both sides bet on goals, but differently. **AI** backs France's goals specifically (Mbappé + win, France team total), because England fielded a half-reserve side unlikely to net 2+. **Pasha** is bolder — he wants a two-way shoot-out (each team over 1.5, a brace, a headed goal). The argument hinges on whether a weakened England scores its two.

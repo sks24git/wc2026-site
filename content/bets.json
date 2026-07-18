@@ -13997,5 +13997,96 @@
       "ru": "После официальных составов: Мбаппе вышел в старте И с капитанской повязкой — Дешам выпустил его добивать голы в гонке за Золотой бутсой (8, в одном голе от рекорда), играет за сутки до финала Месси. А Англия посадила Кейна, Беллингема, Стоунза и Пикфорда — полурезерв, слабая ротированная оборона (Хендерсон в раме, Конса/Гехи в центре). И гол Мбаппе, и победа Франции — оба тезиса разом.",
       "en": "After the official line-ups: Mbappé starts AND wears the captain’s armband — Deschamps sent him out to pad goals in the Golden Boot race (8, one from the record), playing a day before Messi’s final. England benched Kane, Bellingham, Stones and Pickford — a half-reserve side with a weak rotated defence (Henderson in goal, Konsa/Guéhi at centre-back). Both a Mbappé goal and a France win in one."
     }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "matchId": "france-england",
+    "date": "2026-07-18",
+    "match": {
+      "ru": "Франция — Англия",
+      "en": "France — England"
+    },
+    "id": 474,
+    "tier": "green",
+    "odds": 1.95,
+    "type": "Спецрынок",
+    "bet": {
+      "ru": "Гол головой в матче — да",
+      "en": "A goal scored with the head — yes"
+    },
+    "why": {
+      "ru": "Спецставка Паши: в матче забьют головой. Расчёт на навесы и стандарты в открытом бронзовом матче.",
+      "en": "Pasha’s special: a headed goal in the match. Banking on crosses and set pieces in an open bronze final."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "matchId": "france-england",
+    "date": "2026-07-18",
+    "match": {
+      "ru": "Франция — Англия",
+      "en": "France — England"
+    },
+    "id": 475,
+    "tier": "yellow",
+    "odds": 3.2,
+    "stake": 1500,
+    "type": "Спецрынок",
+    "bet": {
+      "ru": "Будет дубль (игрок забьёт 2+) — да",
+      "en": "A brace to be scored (a player nets 2+) — yes"
+    },
+    "why": {
+      "ru": "Паша ждёт, что кто-то оформит дубль — намёк на Мбаппе, который заряжен добивать гонку бутсы.",
+      "en": "Pasha expects someone to grab a brace — a nod to Mbappé, primed to pad the Boot race."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "matchId": "france-england",
+    "date": "2026-07-18",
+    "match": {
+      "ru": "Франция — Англия",
+      "en": "France — England"
+    },
+    "id": 476,
+    "tier": "yellow",
+    "odds": 3.75,
+    "stake": 1500,
+    "type": "Другое",
+    "bet": {
+      "ru": "Каждая команда забьёт больше 1.5 (обе по 2+)",
+      "en": "Each team to score over 1.5 (both net 2+)"
+    },
+    "why": {
+      "ru": "«Обе команды больше 1.5 как ставка, это жёлтая» — Паша ждёт результативную открытую бронзу с голами в обе стороны.",
+      "en": "\"Both teams over 1.5, that’s a yellow\" — Pasha expects a high-scoring, open bronze final with goals both ways."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "matchId": "france-england",
+    "date": "2026-07-18",
+    "match": {
+      "ru": "Франция — Англия",
+      "en": "France — England"
+    },
+    "id": 477,
+    "tier": "red",
+    "odds": 5,
+    "stake": 1000,
+    "type": "Волевая",
+    "bet": {
+      "ru": "Любая из команд проигрывает по ходу матча и победит — да",
+      "en": "Either team to trail during the match and win — yes"
+    },
+    "why": {
+      "ru": "«По приколу красной покрыть волевые» — дешёвое прикрытие на камбэк любой из сторон.",
+      "en": "\"A red for fun to cover the comeback\" — a cheap hedge on either side rallying from behind."
+    }
   }
 ]
