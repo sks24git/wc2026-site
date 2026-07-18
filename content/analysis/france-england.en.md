@@ -1,5 +1,15 @@
 ## France — England · 18.07, 00:00 MSK · Hard Rock Stadium, Miami
 
+## Result: France 4:6 England (0:4) — a record for bronze matches in World Cup history
+
+**10 goals — the highest-scoring third-place match ever** (the previous record of 9 stood since 1958). England's "half-reserves" tore France apart in one half: Rice's screamer on 3, **Konsa's header** from a corner on 18, and **Saka** with two before the break — 0:4. After half-time Deschamps sent on Dembélé and Barcola — and France nearly pulled off the greatest bronze comeback: **Mbappé's brace** (48', 66') and Barcola made it 3:4. On 87 **Saka completed his hat-trick from the spot** (the 2nd Englishman with a World Cup knockout hat-trick after Hurst in 1966), and stoppage time brought one more exchange — Dembélé, then super-sub **Bellingham** at 90+8. England claim **their first World Cup medals in 60 years**; the Deschamps era ends without a trophy, but his **Mbappé took the all-time record: 22 career World Cup goals** (passing Messi's 21) and, on 10 for the tournament, nearly sealed the Boot — Messi now needs a final hat-trick.
+
+**Settlement.** AI +2400 −3500: ✓ France team total over 1.5 @1.80 (scored 4) · ✗ Mbappé + France win @2.00 (the brace came, the win didn't) · ✗ correct-score express @49.50 closed early (the "France 2:1" leg died). Pasha +9275: ✓ headed goal @1.95 (Konsa) · ✓ a brace @3.20 (Saka's hat-trick AND Mbappé's brace) · ✓ each team over 1.5 @3.75 (4:6!) · ✗ comeback @5.00 (England never trailed for a second). **Lesson:** Pasha read the match's GENRE (bronze = a defence-free party), the machine only read the matchup ("England's half-reserves won't score 2+" — they scored 6). In the consolation final, genre beats line-ups.
+
+---
+
+**Pre-match analysis (archive):**
+
 **The third-place play-off — "the consolation final nobody wanted." Deschamps takes charge for the last time after 14 years; Mbappé is one goal from the Golden Boot and plays a day before Messi's final. History screams "goals" (no third-place match in World Cup history has ever finished goalless), but England-2018 is a reminder that a top favourite's rotation can also produce a dull 2:0.**
 
 ## Key points

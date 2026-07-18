@@ -108,7 +108,7 @@ const PRED = {
   M102: { ...P(T('Англия', 'England', 'gb-eng'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:2 (доп. время)', 'aet', 'medium'), fact: 'b', fscore: '1:2', fby: 'reg' },
   // ── Финал + 3-е место ──
   M104: P(T('Испания', 'Spain', 'es'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:1 (3:4 пен)', 'pen', 'tossup'),
-  M103: P(T('Франция', 'France', 'fr'), T('Англия', 'England', 'gb-eng'), 'a', '2:1', 'reg', 'medium'),
+  M103: { ...P(T('Франция', 'France', 'fr'), T('Англия', 'England', 'gb-eng'), 'a', '2:1', 'reg', 'medium'), fact: 'b', fscore: '4:6', fby: 'reg' },
 };
 
 // META[code] = дата+время (МСК), значок арены и погода.
