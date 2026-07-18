@@ -13873,19 +13873,19 @@
     "matchId": "spain-argentina",
     "date": "2026-07-19",
     "tier": "yellow",
-    "odds": 1.9,
-    "type": "ИТБ ЖК",
+    "odds": 1.8,
+    "type": "ЖК",
     "match": {
       "ru": "Испания — Аргентина",
       "en": "Spain — Argentina"
     },
     "bet": {
-      "ru": "Индивидуальный тотал жёлтых карточек Аргентины больше 1.5",
-      "en": "Argentina team total yellow cards over 1.5"
+      "ru": "Тотал жёлтых карточек матча больше 3.5",
+      "en": "Match total yellow cards over 3.5"
     },
     "why": {
-      "ru": "Стат-валуй под профиль: Аргентина грязна именно в финалах (5 жёлтых в финале ЧМ-2022) и только что собрала 3 карточки в полуфинале с Англией. Против владения Испании она сядет в блок и будет тактически фолить — тот же рынок зашёл вчера у Паши.",
-      "en": "A profile-driven stat value: Argentina are dirty specifically in finals (5 yellows in the 2022 World Cup final) and just picked up 3 cards in the semi against England. Against Spain’s possession they will sit in a block and foul tactically — the same market landed for Pasha yesterday."
+      "ru": "Стат-валуй под жаркий финал: за 5 последних финалов (ЧМ+Евро+Копа) 4 из 5 дали 4+ жёлтых (ЧМ-2022 — целых 8), при этом Аргентина грязна именно в финалах и сядет в блок против владения Испании, фолящий тактически. Линия 3.5 при историческом среднем ~5 — с запасом. (Замена: ИТБ ЖК Аргентины >1.5 сняли — реальный кэф Фонбета 1.40 ниже нашего пола 1.6.)",
+      "en": "A stat value for a heated final: across the last 5 finals (WC+Euro+Copa) 4 of 5 produced 4+ yellows (the 2022 World Cup final had 8), while Argentina are dirty specifically in finals and will sit in a block against Spain’s possession, fouling tactically. The 3.5 line against a historical average of ~5 has a cushion. (Replaces Argentina team-total cards over 1.5, pulled because Fonbet’s real price of 1.40 is below our 1.6 floor.)"
     }
   },
   {
@@ -13895,7 +13895,7 @@
     "matchId": "spain-argentina",
     "date": "2026-07-19",
     "tier": "yellow",
-    "odds": 1.73,
+    "odds": 1.67,
     "type": "Углы",
     "match": {
       "ru": "Испания — Аргентина",
@@ -13974,6 +13974,28 @@
     "why": {
       "ru": "Лотерейный красный экспресс, кодирующий оба наших сеточных модаля разом: вязкий 1:1 в финале (развязка в овертайме) и голевая победа Франции 2:1 в матче за 3-е место. Минимальный размер под большой кэф — как счёт-производная позиция дня.",
       "en": "A lottery red express encoding both our bracket modals at once: a sticky 1:1 in the final (decided in extra time) and a 2:1 France win in the third-place play-off. Minimum stake for a big price — the score-derived position of the weekend."
+    }
+  },
+  {
+    "side": "AI",
+    "status": "pending",
+    "id": 473,
+    "matchId": "france-england",
+    "date": "2026-07-18",
+    "tier": "green",
+    "odds": 2,
+    "type": "Другое",
+    "match": {
+      "ru": "Франция — Англия",
+      "en": "France — England"
+    },
+    "bet": {
+      "ru": "Мбаппе забьёт + победа Франции",
+      "en": "Mbappé to score + France to win"
+    },
+    "why": {
+      "ru": "После официальных составов: Мбаппе вышел в старте И с капитанской повязкой — Дешам выпустил его добивать голы в гонке за Золотой бутсой (8, в одном голе от рекорда), играет за сутки до финала Месси. А Англия посадила Кейна, Беллингема, Стоунза и Пикфорда — полурезерв, слабая ротированная оборона (Хендерсон в раме, Конса/Гехи в центре). И гол Мбаппе, и победа Франции — оба тезиса разом.",
+      "en": "After the official line-ups: Mbappé starts AND wears the captain’s armband — Deschamps sent him out to pad goals in the Golden Boot race (8, one from the record), playing a day before Messi’s final. England benched Kane, Bellingham, Stones and Pickford — a half-reserve side with a weak rotated defence (Henderson in goal, Konsa/Guéhi at centre-back). Both a Mbappé goal and a France win in one."
     }
   }
 ]

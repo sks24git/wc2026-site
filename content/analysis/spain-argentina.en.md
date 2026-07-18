@@ -22,8 +22,8 @@
 **AI:**
 - 🟡 **Argentina to lift the cup @2.55** — our bracket pick and headline bet. The model backs Spain (56%), but their edge is control, not blowouts; the low-scoring profile drags this toward extra time / a lottery, where Dibu Martínez (5/5 in shootouts) and "Scaloni never loses finals" outweigh 56% on paper. The bet covers regulation, extra time and penalties alike. Plus Messi's last dance.
 - 🟡 **Draw in regulation @3.00** — the direct expression of the "0:0 at half → decided after 90" script: both teams' recent finals started goalless, and World Cup finals go to extra time 3/5. It feeds the same branch as the Argentina-trophy bet.
-- 🟡 **Argentina team total yellow cards over 1.5 @1.90** — a stat value: Argentina are dirty specifically in finals (5 yellows in 2022) and took 3 cards in the semi; in a low block against Spain's possession they will foul tactically.
-- 🟡 **Match total corners under 8.5 @1.73** — a stat value built on Spain's profile (few crosses despite huge possession) plus Argentina in a block who won't manufacture corners.
+- 🟡 **Match total yellow cards over 3.5 @1.80** — a stat value: across the last 5 finals (WC+Euro+Copa) 4 of 5 produced 4+ yellows (the 2022 World Cup final had 8); Argentina are dirty specifically in finals and in a low block against Spain's possession they will foul tactically.
+- 🟡 **Match total corners under 8.5 @1.67** — a stat value built on Spain's profile (few crosses despite huge possession) plus Argentina in a block who won't manufacture corners.
 - 🔴 **Correct-score express ×2 @49.50** (500): final 1:1 + third-place France 2:1 — a lottery red encoding both our bracket modals.
 - Killed: bare Under 2.5 @1.57 (below the floor and the under is already squeezed); a straight Argentina regulation win @3.65 (it misses extra time / penalties, exactly where Argentina are strong — we take the whole trophy instead); player props before official team sheets.
 
