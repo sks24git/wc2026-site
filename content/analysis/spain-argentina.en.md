@@ -29,4 +29,12 @@
 
 **Triggers:** official line-ups (~20:45 MSK) — Spain's rotation and the freshness of Messi / Argentina's midfield; after kickoff — anytime scorer (Oyarzabal/Lautaro/Messi). No suspensions on either side.
 
-**Pasha:** awaiting his picks.
+**Pasha:**
+- **Both teams to score — yes @1.83** — true to form: this much attacking class beats even these defences.
+- **Comeback (either team) — yes @6.70** — his signature cover: Argentina have spent the whole tournament rescuing burning games.
+- **Correct score 2:2 @14.00** — a lottery score for a goal-trading final.
+- **Penalties in the match over 0.5 @2.90** — VAR-era finals reliably produce pens (2018 — 1, 2022 — 3).
+- **Spain team total over 1.5 @2.45** — Spain to score two against a tired Argentina defence.
+- **Match corners over 8.5 @2.27** — a head-on counter to the machine.
+
+_The duel:_ a rare case — the sides sit on **opposite** markets. The machine expects a sticky under (draw, corners UNDER 8.5, Argentina's trophy via the lottery); Pasha a goal-trading final (BTTS, 2:2, Spain 2+, corners OVER 8.5). Corners are a head-on clash: under 8.5 @1.67 vs over 8.5 @2.27. The final will decide whose final it is — the "profile final" or the "shoot-out final," as in the bronze match, where Pasha's genre routed the machine's matchup.

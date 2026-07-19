@@ -14116,5 +14116,138 @@
       "ru": "✗ Англия повела на 3-й и не проигрывала ни секунды; камбэк Франции с 0:4 не дожат",
       "en": "✗ England led from the 3rd and never trailed; France’s comeback from 0:4 fell short"
     }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "matchId": "spain-argentina",
+    "date": "2026-07-19",
+    "match": {
+      "ru": "Испания — Аргентина",
+      "en": "Spain — Argentina"
+    },
+    "id": 478,
+    "tier": "green",
+    "odds": 1.83,
+    "type": "ОЗ",
+    "bet": {
+      "ru": "Обе забьют — да",
+      "en": "Both teams to score — yes"
+    },
+    "why": {
+      "ru": "Паша верен себе: обе в финале забьют — класс атак пробьёт даже эти обороны.",
+      "en": "Pasha stays true to form: both score in the final — this much attacking class beats even these defences."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "matchId": "spain-argentina",
+    "date": "2026-07-19",
+    "match": {
+      "ru": "Испания — Аргентина",
+      "en": "Spain — Argentina"
+    },
+    "id": 479,
+    "tier": "red",
+    "odds": 6.7,
+    "stake": 1000,
+    "type": "Волевая",
+    "bet": {
+      "ru": "Любая из команд проигрывает по ходу матча и победит — да",
+      "en": "Either team to trail during the match and win — yes"
+    },
+    "why": {
+      "ru": "Фирменное прикрытие камбэка — Аргентина весь турнир вытаскивает горящие матчи.",
+      "en": "His signature comeback cover — Argentina have spent the whole tournament rescuing burning games."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "matchId": "spain-argentina",
+    "date": "2026-07-19",
+    "match": {
+      "ru": "Испания — Аргентина",
+      "en": "Spain — Argentina"
+    },
+    "id": 480,
+    "tier": "red",
+    "odds": 14,
+    "type": "ТС",
+    "bet": {
+      "ru": "Точный счёт 2:2 (основное время)",
+      "en": "Correct score 2:2 (regulation)"
+    },
+    "why": {
+      "ru": "Лотерейный счёт на результативный обмен ударами в финале.",
+      "en": "A lottery score for a goal-trading final."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "matchId": "spain-argentina",
+    "date": "2026-07-19",
+    "match": {
+      "ru": "Испания — Аргентина",
+      "en": "Spain — Argentina"
+    },
+    "id": 481,
+    "tier": "yellow",
+    "odds": 2.9,
+    "type": "Спецрынок",
+    "bet": {
+      "ru": "Количество пенальти в матче больше 0.5",
+      "en": "Penalties in the match over 0.5"
+    },
+    "why": {
+      "ru": "«Пенка будет»: финалы ЧМ VAR-эпохи стабильно дают пенальти (2018 — 1, 2022 — 3).",
+      "en": "\"There will be a pen\": VAR-era World Cup finals reliably produce penalties (2018 — 1, 2022 — 3)."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "matchId": "spain-argentina",
+    "date": "2026-07-19",
+    "match": {
+      "ru": "Испания — Аргентина",
+      "en": "Spain — Argentina"
+    },
+    "id": 482,
+    "tier": "green",
+    "odds": 2.45,
+    "type": "ИТБ",
+    "bet": {
+      "ru": "Индивидуальный тотал Испании больше 1.5",
+      "en": "Spain team total goals over 1.5"
+    },
+    "why": {
+      "ru": "Испания забьёт два: машина с 13 голами на турнире против уставшей и текущей третьей нокаут подряд обороны Аргентины.",
+      "en": "Spain to score two: a 13-goal machine against a tired Argentina defence leaking for a third straight knockout."
+    }
+  },
+  {
+    "side": "Паша",
+    "status": "pending",
+    "matchId": "spain-argentina",
+    "date": "2026-07-19",
+    "match": {
+      "ru": "Испания — Аргентина",
+      "en": "Spain — Argentina"
+    },
+    "id": 483,
+    "tier": "green",
+    "odds": 2.27,
+    "type": "Углы",
+    "bet": {
+      "ru": "Тотал угловых матча больше 8.5",
+      "en": "Match total corners over 8.5"
+    },
+    "why": {
+      "ru": "Прямая контра машине: Паша ждёт, что финальное давление Испании конвертируется в угловые.",
+      "en": "A head-on counter to the machine: Pasha expects Spain’s final-day pressure to convert into corners."
+    }
   }
 ]
