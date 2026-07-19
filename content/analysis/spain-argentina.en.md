@@ -24,10 +24,11 @@
 - 🟡 **Draw in regulation @3.00** — the direct expression of the "0:0 at half → decided after 90" script: both teams' recent finals started goalless, and World Cup finals go to extra time 3/5. It feeds the same branch as the Argentina-trophy bet.
 - 🟡 **Match total yellow cards over 3.5 @1.80** — a stat value: across the last 5 finals (WC+Euro+Copa) 4 of 5 produced 4+ yellows (the 2022 World Cup final had 8); Argentina are dirty specifically in finals and in a low block against Spain's possession they will foul tactically.
 - 🟡 **Match total corners under 8.5 @1.67** — a stat value built on Spain's profile (few crosses despite huge possession) plus Argentina in a block who won't manufacture corners.
-- 🔴 **Correct-score express ×2 @49.50** (500): final 1:1 + third-place France 2:1 — a lottery red encoding both our bracket modals.
+- 🔴 **Correct-score express ×2 @49.50** (500): final 1:1 + third-place France 2:1 — died with the bronze match (4:6).
+- 🔴 **Correct score 1:1 (regulation) @5.50** — the modal as its own single: 40 minutes before kickoff the market itself made 1:1 the shortest-priced score (cheaper than 0:0 @7.20). Pre-kickoff stat re-scan: corners under 8.5 now 1.58 (our price 1.67 — the line came to us), cards over 3.5 @1.85, offsides fully priced — no new value.
 - Killed: bare Under 2.5 @1.57 (below the floor and the under is already squeezed); a straight Argentina regulation win @3.65 (it misses extra time / penalties, exactly where Argentina are strong — we take the whole trophy instead); player props before official team sheets.
 
-**Triggers:** official line-ups (~20:45 MSK) — Spain's rotation and the freshness of Messi / Argentina's midfield; after kickoff — anytime scorer (Oyarzabal/Lautaro/Messi). No suspensions on either side.
+**Line-ups (official):** Spain unrotated — Simón; Porro, Cubarsí, Laporte, Cucurella; Rodri, Fabián Ruiz; Yamal (shook off a thigh knock), Olmo, Baena; Oyarzabal. Pedri, Nico Williams and **Merino on the bench: the super-sub mechanism is intact** (our "late goal off the bench" profile lives). Argentina: Dibu; Montiel, Romero, Lisandro Martínez, Tagliafico; De Paul, Enzo, Mac Allister, Nico González (a surprise over Simeone); **Messi (captain) and Álvarez** — Lautaro benched as the strike joker. Referee — **Slavko Vinčić** (career ~4.1 yellows/match, but softer at this World Cup — 2.33). Weather: ~27°C, no heat, but a **storm risk** over the roofless MetLife.
 
 **Pasha:**
 - **Both teams to score — yes @1.83** — true to form: this much attacking class beats even these defences.

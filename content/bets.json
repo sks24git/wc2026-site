@@ -14249,5 +14249,27 @@
       "ru": "Прямая контра машине: Паша ждёт, что финальное давление Испании конвертируется в угловые.",
       "en": "A head-on counter to the machine: Pasha expects Spain’s final-day pressure to convert into corners."
     }
+  },
+  {
+    "side": "AI",
+    "status": "pending",
+    "id": 484,
+    "matchId": "spain-argentina",
+    "date": "2026-07-19",
+    "tier": "red",
+    "odds": 5.5,
+    "type": "ТС",
+    "match": {
+      "ru": "Испания — Аргентина",
+      "en": "Spain — Argentina"
+    },
+    "bet": {
+      "ru": "Точный счёт 1:1 (основное время)",
+      "en": "Correct score 1:1 (regulation)"
+    },
+    "why": {
+      "ru": "Наш модаль финала отдельным ординаром: вязкие 1:1 к 90-й и развязка в дополнительное — рынок за 40 минут до матча сам сделал 1:1 самым дешёвым счётом (дешевле 0:0). Экспресс с этой позицией умер об бронзу — модаль заслуживает собственной красной.",
+      "en": "Our modal for the final as its own single: a sticky 1:1 at 90 with the decision in extra time — 40 minutes before kickoff the market itself made 1:1 the shortest-priced score (cheaper than 0:0). The express carrying this leg died with the bronze match — the modal deserves its own red."
+    }
   }
 ]
