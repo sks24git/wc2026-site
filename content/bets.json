@@ -13824,7 +13824,7 @@
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "id": 467,
     "matchId": "spain-argentina",
     "date": "2026-07-19",
@@ -13842,11 +13842,15 @@
     "why": {
       "ru": "Наш сеточный пик и главная ставка финала. Модель даёт Испанию 56%, но её edge — контроль, а не убийство: Франция создала 0.31 xG и всё равно 0:2 — но Испания забивает поздно и мало. Аргентина Скалони НЕ проигрывает финалы (Копа-21, ЧМ-22, Копа-24), Дибу Мартинес 5/5 серий за карьеру, Испания — худшая серийная команда ЧМ (1-4), а низовой профиль тянет матч к овертайму/лотерее, где чемпион — фаворит. Плюс last dance Месси в 39.",
       "en": "Our bracket pick and the final’s headline bet. The model makes Spain 56%, but their edge is control, not killing games: France generated 0.31 xG and still lost 0:2 — yet Spain score late and sparingly. Scaloni’s Argentina do NOT lose finals (Copa-21, WC-22, Copa-24), Dibu Martínez is 5/5 in shootouts, Spain are the World Cup’s worst shootout side (1-4), and the low-scoring profile drags this toward extra time / a lottery where the champions are favourites. Plus Messi’s last dance at 39."
+    },
+    "note": {
+      "ru": "✗ Кубок взяла Испания — 1:0 в дополнительное время (Ферран Торрес, 106′)",
+      "en": "✗ Spain lifted the cup — 1:0 in extra time (Ferran Torres, 106′)"
     }
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "win",
     "id": 468,
     "matchId": "spain-argentina",
     "date": "2026-07-19",
@@ -13864,11 +13868,15 @@
     "why": {
       "ru": "Оба свежих финала ОБЕИХ команд (Евро-24 Испании, Копа-24 Аргентины) начинались 0:0 к перерыву, а финалы ЧМ уходят в овертайм 3 раза из 5. Две эталонные обороны + дневная жара в Нью-Джерси + цена ошибки = вязкие 90 минут без победителя. Прямое выражение сценария «развязка после 90-й», который питает и ставку на трофей Аргентины.",
       "en": "Both teams’ most recent finals (Spain’s Euro-24, Argentina’s Copa-24) were 0:0 at half-time, and World Cup finals go to extra time in 3 of the last 5. Two elite defences + New Jersey afternoon heat + the cost of a mistake = a sticky, winnerless 90. The direct expression of the “decided after 90” script that also feeds the Argentina-trophy bet."
+    },
+    "note": {
+      "ru": "✓ 0:0 в основное время — развязка ушла в дополнительное, как и читали",
+      "en": "✓ 0:0 in regulation — the decision went to extra time, as read"
     }
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "win",
     "id": 469,
     "matchId": "spain-argentina",
     "date": "2026-07-19",
@@ -13886,11 +13894,15 @@
     "why": {
       "ru": "Стат-валуй под жаркий финал: за 5 последних финалов (ЧМ+Евро+Копа) 4 из 5 дали 4+ жёлтых (ЧМ-2022 — целых 8), при этом Аргентина грязна именно в финалах и сядет в блок против владения Испании, фолящий тактически. Линия 3.5 при историческом среднем ~5 — с запасом. (Замена: ИТБ ЖК Аргентины >1.5 сняли — реальный кэф Фонбета 1.40 ниже нашего пола 1.6.)",
       "en": "A stat value for a heated final: across the last 5 finals (WC+Euro+Copa) 4 of 5 produced 4+ yellows (the 2022 World Cup final had 8), while Argentina are dirty specifically in finals and will sit in a block against Spain’s possession, fouling tactically. The 3.5 line against a historical average of ~5 has a cushion. (Replaces Argentina team-total cards over 1.5, pulled because Fonbet’s real price of 1.40 is below our 1.6 floor.)"
+    },
+    "note": {
+      "ru": "✓ 5 жёлтых за основное время — все у Аргентины (Лисандро 41′, Паредес, Энцо ×2, Ромеро)",
+      "en": "✓ 5 yellows in regulation — all Argentina’s (Lisandro 41′, Paredes, Enzo ×2, Romero)"
     }
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "id": 470,
     "matchId": "spain-argentina",
     "date": "2026-07-19",
@@ -13908,6 +13920,10 @@
     "why": {
       "ru": "Стат-валуй под уникальный профиль Испании: при 65%+ владения она подаёт МАЛО угловых (короткий пас вместо навесов — 5 угловых при 68% с Бельгией), а Аргентина в низком блоке добровольно углы не создаёт. Мало переходов и навесов с обеих сторон — коридор угловых сжат.",
       "en": "A stat value built on Spain’s unique profile: with 65%+ possession they win FEW corners (short passing instead of crosses — 5 corners at 68% vs Belgium), and Argentina in a low block won’t manufacture corners either. Few transitions and crosses on both sides squeeze the corner count."
+    },
+    "note": {
+      "ru": "✗ 10+ угловых за основное время (Испания одна подала 9) — финальное давление сломало профиль «мало навесов»",
+      "en": "✗ 10+ corners in regulation (Spain alone took 9) — final-day pressure broke the “few crosses” profile"
     }
   },
   {
@@ -14119,7 +14135,7 @@
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "matchId": "spain-argentina",
     "date": "2026-07-19",
     "match": {
@@ -14137,11 +14153,15 @@
     "why": {
       "ru": "Паша верен себе: обе в финале забьют — класс атак пробьёт даже эти обороны.",
       "en": "Pasha stays true to form: both score in the final — this much attacking class beats even these defences."
+    },
+    "note": {
+      "ru": "✗ 0:0 в основное время: не забил никто, у Аргентины 0 ударов в створ за 120 минут",
+      "en": "✗ 0:0 in regulation: nobody scored, Argentina had 0 shots on target in 120 minutes"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "matchId": "spain-argentina",
     "date": "2026-07-19",
     "match": {
@@ -14160,11 +14180,15 @@
     "why": {
       "ru": "Фирменное прикрытие камбэка — Аргентина весь турнир вытаскивает горящие матчи.",
       "en": "His signature comeback cover — Argentina have spent the whole tournament rescuing burning games."
+    },
+    "note": {
+      "ru": "✗ Волевой не было: Испания не проигрывала ни секунды",
+      "en": "✗ No comeback: Spain never trailed for a second"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "matchId": "spain-argentina",
     "date": "2026-07-19",
     "match": {
@@ -14182,11 +14206,15 @@
     "why": {
       "ru": "Лотерейный счёт на результативный обмен ударами в финале.",
       "en": "A lottery score for a goal-trading final."
+    },
+    "note": {
+      "ru": "✗ 0:0, не 2:2",
+      "en": "✗ 0:0, not 2:2"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "matchId": "spain-argentina",
     "date": "2026-07-19",
     "match": {
@@ -14204,11 +14232,15 @@
     "why": {
       "ru": "«Пенка будет»: финалы ЧМ VAR-эпохи стабильно дают пенальти (2018 — 1, 2022 — 3).",
       "en": "\"There will be a pen\": VAR-era World Cup finals reliably produce penalties (2018 — 1, 2022 — 3)."
+    },
+    "note": {
+      "ru": "✗ Пенальти в игре не назначался",
+      "en": "✗ No in-game penalty was awarded"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "lose",
     "matchId": "spain-argentina",
     "date": "2026-07-19",
     "match": {
@@ -14226,11 +14258,15 @@
     "why": {
       "ru": "Испания забьёт два: машина с 13 голами на турнире против уставшей и текущей третьей нокаут подряд обороны Аргентины.",
       "en": "Spain to score two: a 13-goal machine against a tired Argentina defence leaking for a third straight knockout."
+    },
+    "note": {
+      "ru": "✗ Испания забила 0 за основное время (1 за 120 минут)",
+      "en": "✗ Spain scored 0 in regulation (1 in 120 minutes)"
     }
   },
   {
     "side": "Паша",
-    "status": "pending",
+    "status": "win",
     "matchId": "spain-argentina",
     "date": "2026-07-19",
     "match": {
@@ -14248,11 +14284,15 @@
     "why": {
       "ru": "Прямая контра машине: Паша ждёт, что финальное давление Испании конвертируется в угловые.",
       "en": "A head-on counter to the machine: Pasha expects Spain’s final-day pressure to convert into corners."
+    },
+    "note": {
+      "ru": "✓ 10+ угловых — давление Испании в концовке; лобовая дуэль углов у Паши",
+      "en": "✓ 10+ corners — Spain’s late pressure; Pasha takes the head-on corners duel"
     }
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "lose",
     "id": 484,
     "matchId": "spain-argentina",
     "date": "2026-07-19",
@@ -14270,11 +14310,15 @@
     "why": {
       "ru": "Наш модаль финала отдельным ординаром: вязкие 1:1 к 90-й и развязка в дополнительное — рынок за 40 минут до матча сам сделал 1:1 самым дешёвым счётом (дешевле 0:0). Экспресс с этой позицией умер об бронзу — модаль заслуживает собственной красной.",
       "en": "Our modal for the final as its own single: a sticky 1:1 at 90 with the decision in extra time — 40 minutes before kickoff the market itself made 1:1 the shortest-priced score (cheaper than 0:0). The express carrying this leg died with the bronze match — the modal deserves its own red."
+    },
+    "note": {
+      "ru": "✗ 0:0 в основное время, не 1:1",
+      "en": "✗ 0:0 in regulation, not 1:1"
     }
   },
   {
     "side": "AI",
-    "status": "pending",
+    "status": "win",
     "id": 485,
     "matchId": "spain-argentina",
     "date": "2026-07-19",
@@ -14292,6 +14336,10 @@
     "why": {
       "ru": "Профильный край из глубокой росписи: три из пяти последних больших финалов — сухой первый тайм, а у Испании и Аргентины ОБА свежих финала были 0:0 к перерыву. Вязкое начало при такой цене ошибки — почти константа, и ставка живёт при любом исходе: хоть ничья, хоть поздняя победа любой из сторон.",
       "en": "A profile edge from the deep market list: three of the last five major finals had a goalless first half, and BOTH of Spain’s and Argentina’s most recent finals were 0:0 at the break. A sticky start at these stakes is near-constant, and the bet lives under any result — a draw or a late win for either side."
+    },
+    "note": {
+      "ru": "✓ Первый тайм 0:0 — профиль «финалы стартуют всухую» отработал идеально",
+      "en": "✓ First half 0:0 — the “finals start dry” profile worked perfectly"
     }
   }
 ]

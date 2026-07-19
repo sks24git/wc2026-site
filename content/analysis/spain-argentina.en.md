@@ -1,5 +1,17 @@
 ## Spain — Argentina · 19.07, 22:00 MSK · MetLife Stadium, New Jersey
 
+## Result: 0:0, then 1:0 in extra time — Spain are world champions
+
+**Déjà vu of 2010 in every detail: 0:0 after 90 again, and again a substitute's goal in extra time** — Iniesta on 116 back then, **Ferran Torres on 106** now (on since the 62nd, assisted by fellow sub Nico Williams). Spain strangled the final: shots 20:2, on target 12:0 — Argentina managed **zero shots on target in 120 minutes** and took every card in the match (5 yellows in regulation; Enzo Fernández's second yellow at 90+3 — a red). **Dibu Martínez** performed like on his best nights (~10 saves, including Yamal's free kick at 90+), but Argentina never crawled as far as his lottery. **Messi, at 39** — the oldest outfield player in a World Cup final — finished without a goal or the back-to-back, but per media reports took a record **third Golden Ball**. **The Golden Boot goes to Mbappé** (10 goals, the first since Gerd Müller). Spain hold Euro 2024 and the 2026 World Cup simultaneously, having conceded once all tournament.
+
+**Settlement.** AI +6250 (3W/3L): ✓ regulation draw @3.00 · ✓ cards over 3.5 @1.80 (5 on Argentina) · ✓ goalless first half @2.45 · ✗ Argentina trophy @2.55 · ✗ corners under 8.5 @1.67 (10+ — Spain's pressure broke the profile) · ✗ CS 1:1 @5.50. Pasha −5190 (1W/5L): ✓ corners over 8.5 @2.27 (he takes the head-on corners duel) · ✗ BTTS, comeback, 2:2, penalty, Spain team total. **The machine's profile package delivered: a sticky 0:0, a dry first half, Argentina's cards — revenge for the bronze.**
+
+⚔️ **The war is over. Full-tournament result: Pasha 128,765 (W82/L133) — AI 114,273 (W91/L136). Pasha wins by 14,492 ₽.**
+
+---
+
+**Pre-match analysis (archive):**
+
 **The 2026 World Cup final: the European champions against the world champions. Spain are 37 matches unbeaten and reached the final barely conceding to anyone; Scaloni's Argentina never lose finals and drag them into the closing minutes and the lottery, where Dibu Martínez is the gold standard. The model backs Spain, the finals profile and Messi's last dance back Argentina. The base case is a sticky low-scorer decided after 90.**
 
 ## Key points

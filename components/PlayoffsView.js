@@ -107,7 +107,7 @@ const PRED = {
   M101: { ...P(T('Франция', 'France', 'fr'), T('Испания', 'Spain', 'es'), 'b', '1:2', 'reg', 'low'), fact: 'b', fscore: '0:2', fby: 'reg' },
   M102: { ...P(T('Англия', 'England', 'gb-eng'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:2 (доп. время)', 'aet', 'medium'), fact: 'b', fscore: '1:2', fby: 'reg' },
   // ── Финал + 3-е место ──
-  M104: P(T('Испания', 'Spain', 'es'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:1 (3:4 пен)', 'pen', 'tossup'),
+  M104: { ...P(T('Испания', 'Spain', 'es'), T('Аргентина', 'Argentina', 'ar'), 'b', '1:1 (3:4 пен)', 'pen', 'tossup'), fact: 'a', fscore: '1:0 (доп. время)', fby: 'aet' },
   M103: { ...P(T('Франция', 'France', 'fr'), T('Англия', 'England', 'gb-eng'), 'a', '2:1', 'reg', 'medium'), fact: 'b', fscore: '4:6', fby: 'reg' },
 };
 
