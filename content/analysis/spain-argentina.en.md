@@ -25,6 +25,7 @@
 - 🟢 **Match total yellow cards over 3.5 @1.80** — a stat value: across the last 5 finals (WC+Euro+Copa) 4 of 5 produced 4+ yellows (the 2022 World Cup final had 8); Argentina are dirty specifically in finals and in a low block against Spain's possession they will foul tactically.
 - 🟡 **Match total corners under 8.5 @1.67** — a stat value built on Spain's profile (few crosses despite huge possession) plus Argentina in a block who won't manufacture corners.
 - 🔴 **Correct-score express ×2 @49.50** (500): final 1:1 + third-place France 2:1 — died with the bronze match (4:6).
+- 🟢 **First half: no goal @2.45** — a profile edge from the deep list: 3 of the last 5 major finals had a goalless first half, and both teams' most recent finals were 0:0 at the break; it lives under any result.
 - 🔴 **Correct score 1:1 (regulation) @5.50** — the modal as its own single: 40 minutes before kickoff the market itself made 1:1 the shortest-priced score (cheaper than 0:0 @7.20). Pre-kickoff stat re-scan: corners under 8.5 now 1.58 (our price 1.67 — the line came to us), cards over 3.5 @1.85, offsides fully priced — no new value.
 - Killed: bare Under 2.5 @1.57 (below the floor and the under is already squeezed); a straight Argentina regulation win @3.65 (it misses extra time / penalties, exactly where Argentina are strong — we take the whole trophy instead); player props before official team sheets.
 

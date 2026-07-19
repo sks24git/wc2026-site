@@ -14271,5 +14271,27 @@
       "ru": "Наш модаль финала отдельным ординаром: вязкие 1:1 к 90-й и развязка в дополнительное — рынок за 40 минут до матча сам сделал 1:1 самым дешёвым счётом (дешевле 0:0). Экспресс с этой позицией умер об бронзу — модаль заслуживает собственной красной.",
       "en": "Our modal for the final as its own single: a sticky 1:1 at 90 with the decision in extra time — 40 minutes before kickoff the market itself made 1:1 the shortest-priced score (cheaper than 0:0). The express carrying this leg died with the bronze match — the modal deserves its own red."
     }
+  },
+  {
+    "side": "AI",
+    "status": "pending",
+    "id": 485,
+    "matchId": "spain-argentina",
+    "date": "2026-07-19",
+    "tier": "green",
+    "odds": 2.45,
+    "type": "1Т ТМ",
+    "match": {
+      "ru": "Испания — Аргентина",
+      "en": "Spain — Argentina"
+    },
+    "bet": {
+      "ru": "1-й тайм: гола не будет",
+      "en": "First half: no goal"
+    },
+    "why": {
+      "ru": "Профильный край из глубокой росписи: три из пяти последних больших финалов — сухой первый тайм, а у Испании и Аргентины ОБА свежих финала были 0:0 к перерыву. Вязкое начало при такой цене ошибки — почти константа, и ставка живёт при любом исходе: хоть ничья, хоть поздняя победа любой из сторон.",
+      "en": "A profile edge from the deep market list: three of the last five major finals had a goalless first half, and BOTH of Spain’s and Argentina’s most recent finals were 0:0 at the break. A sticky start at these stakes is near-constant, and the bet lives under any result — a draw or a late win for either side."
+    }
   }
 ]
