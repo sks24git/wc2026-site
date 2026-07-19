@@ -13876,7 +13876,7 @@
   },
   {
     "side": "AI",
-    "status": "win",
+    "status": "lose",
     "id": 469,
     "matchId": "spain-argentina",
     "date": "2026-07-19",
@@ -13896,8 +13896,8 @@
       "en": "A stat value for a heated final: across the last 5 finals (WC+Euro+Copa) 4 of 5 produced 4+ yellows (the 2022 World Cup final had 8), while Argentina are dirty specifically in finals and will sit in a block against Spain’s possession, fouling tactically. The 3.5 line against a historical average of ~5 has a cushion. (Replaces Argentina team-total cards over 1.5, pulled because Fonbet’s real price of 1.40 is below our 1.6 floor.)"
     },
     "note": {
-      "ru": "✓ 5 жёлтых за основное время — все у Аргентины (Лисандро 41′, Паредес, Энцо ×2, Ромеро)",
-      "en": "✓ 5 yellows in regulation — all Argentina’s (Lisandro 41′, Paredes, Enzo ×2, Romero)"
+      "ru": "✗ По расчёту: 3 жёлтых (0:3) — вторая жёлтая Энцо в карточный тотал не входит, 3 < 3.5",
+      "en": "✗ Settled at 3 yellows (0:3) — Enzo’s second yellow doesn’t count toward the card total, 3 < 3.5"
     }
   },
   {
