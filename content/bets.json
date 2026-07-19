@@ -46,7 +46,7 @@
       "ru": "Волевая победа Кореи (хедж)",
       "en": "South Korea comeback win (hedge)"
     },
-    "type": "Другое",
+    "type": "Волевая",
     "odds": 17,
     "tier": "red",
     "side": "Паша",
@@ -210,7 +210,7 @@
       "ru": "Пенальти в матче — да",
       "en": "Penalty in the match — yes"
     },
-    "type": "Другое",
+    "type": "Спецрынок",
     "odds": 2.6,
     "tier": "yellow",
     "side": "Паша",
@@ -729,7 +729,7 @@
       "ru": "Швейцария победит всухую",
       "en": "Switzerland to win and keep a clean sheet"
     },
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 1.82,
     "tier": "green",
     "side": "Паша",
@@ -1365,7 +1365,7 @@
       "ru": "Фолы — больше 25.5",
       "en": "Fouls — over 25.5"
     },
-    "type": "Другое",
+    "type": "Стата",
     "odds": 1.85,
     "tier": "green",
     "side": "Паша",
@@ -2848,7 +2848,7 @@
       "ru": "Победа Колумбии + ТМ 3.5",
       "en": "Colombia win + Under 3.5"
     },
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 1.83,
     "tier": "green",
     "side": "Паша",
@@ -2949,7 +2949,7 @@
       "ru": "Победа Швейцарии + ТБ 1.5",
       "en": "Switzerland win + Over 1.5"
     },
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 1.8,
     "tier": "green",
     "side": "Паша",
@@ -3258,7 +3258,7 @@
       "ru": "Победа Чехии + ТМ 3.5",
       "en": "Czechia win + Under 3.5"
     },
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 2.45,
     "tier": "yellow",
     "side": "AI",
@@ -3607,7 +3607,7 @@
       "ru": "Победа Марокко",
       "en": "Morocco win"
     },
-    "type": "1X2",
+    "type": "П2",
     "odds": 1.72,
     "tier": "green",
     "side": "Паша",
@@ -3630,7 +3630,7 @@
       "ru": "Победа Турции",
       "en": "Turkey win"
     },
-    "type": "1X2",
+    "type": "П1",
     "odds": 2.07,
     "tier": "green",
     "side": "Паша",
@@ -4239,7 +4239,7 @@
       "ru": "Кот-д’Ивуар забьёт первым + победа Германии",
       "en": "Ivory Coast score first + Germany win"
     },
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 8.5,
     "tier": "red",
     "side": "Паша",
@@ -4506,7 +4506,7 @@
       "ru": "Гол в каждом тайме — да",
       "en": "A goal in each half — yes"
     },
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 1.69,
     "tier": "green",
     "side": "Паша",
@@ -4529,7 +4529,7 @@
       "ru": "Сухая победа Уругвая",
       "en": "Uruguay to win to nil"
     },
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 2,
     "tier": "green",
     "side": "Паша",
@@ -4728,7 +4728,7 @@
       "ru": "Победа Франции и тотал больше 3.5",
       "en": "France win and over 3.5 goals"
     },
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 2,
     "tier": "green",
     "side": "AI",
@@ -4861,7 +4861,7 @@
       "ru": "Тотал жёлтых карточек больше 3.5",
       "en": "Over 3.5 yellow cards"
     },
-    "type": "Другое",
+    "type": "Карточки",
     "odds": 2.5,
     "tier": "yellow",
     "side": "AI",
@@ -5442,7 +5442,7 @@
       "ru": "Победа Португалии + тотал больше 3.5",
       "en": "Portugal win + over 3.5 goals"
     },
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 2.14,
     "tier": "green",
     "side": "Паша",
@@ -5488,7 +5488,7 @@
       "ru": "Обе забьют + тотал больше 2.5",
       "en": "Both teams to score + over 2.5"
     },
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 2.12,
     "tier": "green",
     "side": "Паша",
@@ -5511,7 +5511,7 @@
       "ru": "Победа Колумбии + тотал меньше 3.5",
       "en": "Colombia win + under 3.5 goals"
     },
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 1.93,
     "tier": "green",
     "side": "Паша",
@@ -5959,7 +5959,7 @@
       "ru": "Сухая победа Марокко (П1 + ОЗ-нет)",
       "en": "Morocco to win to nil"
     },
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 1.66,
     "tier": "green",
     "side": "Паша",
@@ -6005,7 +6005,7 @@
       "ru": "Чехия не проиграет + ТМ 2.5 (1Х+ТМ)",
       "en": "Czechia not to lose + Under 2.5"
     },
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 2.6,
     "tier": "yellow",
     "side": "Паша",
@@ -7086,7 +7086,7 @@
       "ru": "Сенегал забьёт в каждом тайме",
       "en": "Senegal to score in each half"
     },
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 1.77,
     "tier": "green",
     "side": "Паша",
@@ -7140,7 +7140,7 @@
       "ru": "Гол в каждом тайме (обе половины ТБ 0.5)",
       "en": "A goal in each half (both halves over 0.5)"
     },
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 1.87,
     "tier": "green",
     "side": "Паша",
@@ -8237,7 +8237,7 @@
     "side": "AI",
     "date": "2026-06-28",
     "matchId": "southafrica-canada",
-    "type": "Другое",
+    "type": "Карточки",
     "tier": "yellow",
     "odds": 2,
     "stake": 1500,
@@ -8264,7 +8264,7 @@
     "side": "AI",
     "date": "2026-06-28",
     "matchId": "southafrica-canada",
-    "type": "Другое",
+    "type": "Спецрынок",
     "tier": "red",
     "odds": 5.7,
     "stake": 500,
@@ -8400,7 +8400,7 @@
     "side": "AI",
     "date": "2026-06-29",
     "matchId": "netherlands-morocco",
-    "type": "Другое",
+    "type": "Спецрынок",
     "tier": "yellow",
     "odds": 4.8,
     "stake": 1500,
@@ -8709,7 +8709,7 @@
     "side": "AI",
     "date": "2026-06-30",
     "matchId": "mexico-ecuador",
-    "type": "Другое",
+    "type": "Спецрынок",
     "tier": "yellow",
     "odds": 4.2,
     "stake": 1500,
@@ -9079,7 +9079,7 @@
     "side": "Паша",
     "date": "2026-06-30",
     "matchId": "ivorycoast-norway",
-    "type": "Другое",
+    "type": "Волевая",
     "tier": "red",
     "odds": 6.3,
     "stake": 1000,
@@ -9844,7 +9844,7 @@
     "id": 330,
     "date": "2026-07-02",
     "matchId": "portugal-croatia",
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 3.15,
     "tier": "yellow",
     "side": "Паша",
@@ -10015,7 +10015,7 @@
     "id": 334,
     "date": "2026-07-02",
     "matchId": "switzerland-algeria",
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 8.6,
     "tier": "red",
     "side": "Паша",
@@ -10041,7 +10041,7 @@
     "id": 335,
     "date": "2026-07-02",
     "matchId": "switzerland-algeria",
-    "type": "Другое",
+    "type": "Волевая",
     "odds": 27,
     "tier": "red",
     "side": "Паша",
@@ -10067,7 +10067,7 @@
     "id": 336,
     "date": "2026-07-02",
     "matchId": "switzerland-algeria",
-    "type": "Другое",
+    "type": "Волевая",
     "odds": 14,
     "tier": "red",
     "side": "Паша",
@@ -10212,7 +10212,7 @@
     "side": "AI",
     "date": "2026-07-03",
     "matchId": "australia-egypt",
-    "type": "Другое",
+    "type": "Проход",
     "odds": 1.65,
     "tier": "green",
     "status": "win",
@@ -10454,7 +10454,7 @@
     "side": "Паша",
     "date": "2026-07-03",
     "matchId": "colombia-ghana",
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 2.07,
     "tier": "green",
     "status": "win",
@@ -10660,7 +10660,7 @@
     "side": "AI",
     "date": "2026-07-03",
     "matchId": "argentina-capeverde",
-    "type": "Другое",
+    "type": "Стата",
     "odds": 1.77,
     "tier": "green",
     "status": "win",
@@ -10738,7 +10738,7 @@
     "side": "AI",
     "date": "2026-07-04",
     "matchId": "canada-morocco",
-    "type": "Другое",
+    "type": "Спецрынок",
     "odds": 1.87,
     "tier": "green",
     "status": "win",
@@ -10764,7 +10764,7 @@
     "side": "AI",
     "date": "2026-07-04",
     "matchId": "canada-morocco",
-    "type": "Другое",
+    "type": "Проход",
     "odds": 3.2,
     "tier": "yellow",
     "status": "lose",
@@ -10790,7 +10790,7 @@
     "side": "AI",
     "date": "2026-07-04",
     "matchId": "paraguay-france",
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 1.75,
     "tier": "green",
     "status": "win",
@@ -10890,7 +10890,7 @@
     "side": "Паша",
     "date": "2026-07-04",
     "matchId": "canada-morocco",
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 1.92,
     "tier": "green",
     "status": "lose",
@@ -10944,7 +10944,7 @@
     "side": "Паша",
     "date": "2026-07-04",
     "matchId": "canada-morocco",
-    "type": "Другое",
+    "type": "Волевая",
     "odds": 7,
     "tier": "red",
     "status": "lose",
@@ -11162,7 +11162,7 @@
       "ru": "Проход Португалии (осн. время + ОТ + пенальти)",
       "en": "Portugal to qualify (incl. extra time + penalties)"
     },
-    "type": "Другое",
+    "type": "Проход",
     "odds": 2.65,
     "tier": "yellow",
     "side": "AI",
@@ -11404,7 +11404,7 @@
       "ru": "Обе половины — больше 1.5",
       "en": "Both halves — over 1.5"
     },
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 4.5,
     "tier": "yellow",
     "side": "Паша",
@@ -11427,7 +11427,7 @@
       "ru": "Пенальти в матче — да",
       "en": "Penalty awarded in the match — yes"
     },
-    "type": "Другое",
+    "type": "Спецрынок",
     "odds": 2.75,
     "tier": "yellow",
     "side": "Паша",
@@ -11741,7 +11741,7 @@
       "ru": "Тотал жёлтых карточек — больше 2.5",
       "en": "Total yellow cards — Over 2.5"
     },
-    "type": "Другое",
+    "type": "Карточки",
     "odds": 1.67,
     "tier": "green",
     "side": "Паша",
@@ -11768,7 +11768,7 @@
       "ru": "Гол в каждом тайме",
       "en": "A goal in each half"
     },
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 1.6,
     "tier": "green",
     "side": "Паша",
@@ -11822,7 +11822,7 @@
       "ru": "Гол в каждом тайме",
       "en": "A goal in each half"
     },
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 1.53,
     "tier": "green",
     "side": "Паша",
@@ -11924,7 +11924,7 @@
       "ru": "Волевая победа любой из команд",
       "en": "A comeback win by either team"
     },
-    "type": "Другое",
+    "type": "Волевая",
     "odds": 5.9,
     "tier": "red",
     "side": "Паша",
@@ -11952,7 +11952,7 @@
       "ru": "Волевая победа любой из команд",
       "en": "A comeback win by either team"
     },
-    "type": "Другое",
+    "type": "Волевая",
     "odds": 5.4,
     "tier": "red",
     "side": "Паша",
@@ -12073,7 +12073,7 @@
     "id": 403,
     "tier": "green",
     "odds": 2.15,
-    "type": "Другое",
+    "type": "Таймы",
     "matchId": "switzerland-colombia",
     "match": {
       "ru": "Швейцария — Колумбия",
@@ -12127,7 +12127,7 @@
     "id": 405,
     "tier": "green",
     "odds": 1.73,
-    "type": "Другое",
+    "type": "Таймы",
     "matchId": "argentina-egypt",
     "match": {
       "ru": "Аргентина — Египет",
@@ -12399,7 +12399,7 @@
     "matchId": "france-morocco",
     "tier": "yellow",
     "odds": 3.95,
-    "type": "Другое",
+    "type": "Проход",
     "match": {
       "ru": "Франция — Марокко",
       "en": "France — Morocco"
@@ -12504,7 +12504,7 @@
     "matchId": "norway-england",
     "tier": "yellow",
     "odds": 3.1,
-    "type": "Другое",
+    "type": "Комбо",
     "match": {
       "ru": "Норвегия — Англия",
       "en": "Norway — England"
@@ -12623,7 +12623,7 @@
     "matchId": "france-morocco",
     "tier": "yellow",
     "odds": 2.8,
-    "type": "Другое",
+    "type": "Карточки",
     "match": {
       "ru": "Франция — Марокко",
       "en": "France — Morocco"
@@ -12681,7 +12681,7 @@
       "ru": "2-й тайм результативнее 1-го",
       "en": "2nd half higher scoring than 1st"
     },
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 2.1,
     "tier": "green",
     "why": {
@@ -12733,7 +12733,7 @@
       "ru": "Угловые: тотал больше 9.5",
       "en": "Corners: total over 9.5"
     },
-    "type": "Другое",
+    "type": "Угловые",
     "odds": 1.8,
     "tier": "green",
     "why": {
@@ -12759,7 +12759,7 @@
       "ru": "Угловые: тотал больше 9.5",
       "en": "Corners: total over 9.5"
     },
-    "type": "Другое",
+    "type": "Угловые",
     "odds": 1.93,
     "tier": "green",
     "why": {
@@ -12785,7 +12785,7 @@
       "ru": "Гол в каждом тайме",
       "en": "Goal in each half"
     },
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 1.6,
     "tier": "green",
     "why": {
@@ -12811,7 +12811,7 @@
       "ru": "Победа Испании + обе забьют",
       "en": "Spain to win & both teams to score"
     },
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 3.15,
     "tier": "yellow",
     "why": {
@@ -12837,7 +12837,7 @@
       "ru": "Испания забьёт в каждом тайме",
       "en": "Spain to score in each half"
     },
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 2.35,
     "tier": "green",
     "why": {
@@ -12859,7 +12859,7 @@
       "en": "Norway — England"
     },
     "matchId": "norway-england",
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 1.55,
     "tier": "green",
     "bet": {
@@ -12885,7 +12885,7 @@
       "en": "Argentina — Switzerland"
     },
     "matchId": "argentina-switzerland",
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 1.98,
     "tier": "green",
     "bet": {
@@ -12911,7 +12911,7 @@
       "en": "Norway — England"
     },
     "matchId": "norway-england",
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 2.05,
     "tier": "green",
     "bet": {
@@ -12937,7 +12937,7 @@
       "en": "Argentina — Switzerland"
     },
     "matchId": "argentina-switzerland",
-    "type": "Другое",
+    "type": "Таймы",
     "odds": 2.12,
     "tier": "green",
     "bet": {
@@ -12989,7 +12989,7 @@
       "en": "Argentina — Switzerland"
     },
     "matchId": "argentina-switzerland",
-    "type": "Другое",
+    "type": "Карточки",
     "odds": 1.88,
     "tier": "green",
     "stake": 2500,
@@ -13110,7 +13110,7 @@
       "en": "Norway — England"
     },
     "matchId": "norway-england",
-    "type": "Другое",
+    "type": "Комбо",
     "odds": 3.2,
     "tier": "yellow",
     "bet": {
@@ -13136,7 +13136,7 @@
       "en": "Norway — England"
     },
     "matchId": "norway-england",
-    "type": "Другое",
+    "type": "Спецрынок",
     "odds": 2.35,
     "tier": "yellow",
     "bet": {
@@ -13210,7 +13210,7 @@
       "en": "Norway — England"
     },
     "matchId": "norway-england",
-    "type": "Другое",
+    "type": "Волевая",
     "odds": 5.9,
     "tier": "red",
     "stake": 1000,
@@ -13287,7 +13287,7 @@
     "matchId": "france-spain",
     "tier": "yellow",
     "odds": 2.4,
-    "type": "Другое",
+    "type": "Карточки",
     "match": {
       "ru": "Франция — Испания",
       "en": "France — Spain"
@@ -13339,7 +13339,7 @@
     "matchId": "england-argentina",
     "tier": "green",
     "odds": 2.13,
-    "type": "Другое",
+    "type": "Проход",
     "match": {
       "ru": "Англия — Аргентина",
       "en": "England — Argentina"
@@ -13391,7 +13391,7 @@
     "matchId": "england-argentina",
     "tier": "yellow",
     "odds": 2.03,
-    "type": "Другое",
+    "type": "Стата",
     "match": {
       "ru": "Англия — Аргентина",
       "en": "England — Argentina"
@@ -13494,7 +13494,7 @@
     "id": 453,
     "tier": "yellow",
     "odds": 3.7,
-    "type": "Другое",
+    "type": "Таймы",
     "bet": {
       "ru": "Испания забьёт в каждом тайме",
       "en": "Spain to score in both halves"
@@ -13546,7 +13546,7 @@
     "id": 455,
     "tier": "green",
     "odds": 2.2,
-    "type": "Другое",
+    "type": "Проход",
     "bet": {
       "ru": "Испания пройдёт в финал",
       "en": "Spain to qualify for the final"
@@ -13672,7 +13672,7 @@
     "date": "2026-07-15",
     "tier": "yellow",
     "odds": 2.8,
-    "type": "ИТБ",
+    "type": "ИТ",
     "match": {
       "ru": "Англия — Аргентина",
       "en": "England — Argentina"
@@ -13724,7 +13724,7 @@
     "date": "2026-07-15",
     "tier": "green",
     "odds": 1.7,
-    "type": "ИТБ ЖК",
+    "type": "Карточки",
     "match": {
       "ru": "Англия — Аргентина",
       "en": "England — Argentina"
@@ -13830,7 +13830,7 @@
     "date": "2026-07-19",
     "tier": "yellow",
     "odds": 2.55,
-    "type": "Другое",
+    "type": "Проход",
     "match": {
       "ru": "Испания — Аргентина",
       "en": "Spain — Argentina"
@@ -13882,7 +13882,7 @@
     "date": "2026-07-19",
     "tier": "green",
     "odds": 1.8,
-    "type": "ЖК",
+    "type": "Карточки",
     "match": {
       "ru": "Испания — Аргентина",
       "en": "Spain — Argentina"
@@ -13908,7 +13908,7 @@
     "date": "2026-07-19",
     "tier": "yellow",
     "odds": 1.67,
-    "type": "Углы",
+    "type": "Угловые",
     "match": {
       "ru": "Испания — Аргентина",
       "en": "Spain — Argentina"
@@ -13934,7 +13934,7 @@
     "date": "2026-07-18",
     "tier": "green",
     "odds": 1.8,
-    "type": "ИТБ",
+    "type": "ИТ",
     "match": {
       "ru": "Франция — Англия",
       "en": "France — England"
@@ -14008,7 +14008,7 @@
     "date": "2026-07-18",
     "tier": "green",
     "odds": 2,
-    "type": "Другое",
+    "type": "Комбо",
     "match": {
       "ru": "Франция — Англия",
       "en": "France — England"
@@ -14092,7 +14092,7 @@
     "tier": "yellow",
     "odds": 3.75,
     "stake": 1500,
-    "type": "Другое",
+    "type": "ИТ",
     "bet": {
       "ru": "Каждая команда забьёт больше 1.5 (обе по 2+)",
       "en": "Each team to score over 1.5 (both net 2+)"
@@ -14250,7 +14250,7 @@
     "id": 482,
     "tier": "green",
     "odds": 2.45,
-    "type": "ИТБ",
+    "type": "ИТ",
     "bet": {
       "ru": "Индивидуальный тотал Испании больше 1.5",
       "en": "Spain team total goals over 1.5"
@@ -14276,7 +14276,7 @@
     "id": 483,
     "tier": "green",
     "odds": 2.27,
-    "type": "Углы",
+    "type": "Угловые",
     "bet": {
       "ru": "Тотал угловых матча больше 8.5",
       "en": "Match total corners over 8.5"
@@ -14324,7 +14324,7 @@
     "date": "2026-07-19",
     "tier": "green",
     "odds": 2.45,
-    "type": "1Т ТМ",
+    "type": "1Т-рынок",
     "match": {
       "ru": "Испания — Аргентина",
       "en": "Spain — Argentina"
