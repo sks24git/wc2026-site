@@ -64,8 +64,8 @@ const MARKS = [
   { d: '2026-06-11', side: 'P', ru: 'Волевая Кореи @17', en: 'Korea comeback @17' },
   { d: '2026-06-19', side: 'A', ru: 'Система точных счетов @21', en: 'Correct-score system @21' },
   { d: '2026-06-24', side: 'A', ru: 'Дно машины −49 000', en: 'Machine bottoms out −49,000' },
-  { d: '2026-06-30', side: 'A', ru: 'Камбэк: AI выходит в плюс', en: 'Comeback: AI in the black' },
-  { d: '2026-07-07', side: 'P', ru: 'Паша проваливается в минус', en: 'Pasha dips below zero' },
+  { d: '2026-06-30', side: 'A', dy: 36, anchor: 'end', ru: 'Камбэк: AI выходит в плюс', en: 'Comeback: AI in the black' },
+  { d: '2026-07-07', side: 'P', dy: -24, anchor: 'end', ru: 'Паша проваливается в минус', en: 'Pasha dips below zero' },
   { d: '2026-07-11', side: 'P', ru: 'Экспресс ничьих @14', en: 'Draws double @14' },
   { d: '2026-07-18', side: 'P', ru: 'Бронза 4:6 — жанр бьёт машину', en: 'Bronze 4:6 — genre beats machine' },
 ];
@@ -97,21 +97,21 @@ function WarChart({ series, cut, lang }) {
       <g clipPath="url(#repcut)">
         <path d={path('A')} fill="none" stroke="var(--ai)" strokeWidth="3" strokeLinejoin="round" />
         <path d={path('P')} fill="none" stroke="var(--pasha)" strokeWidth="3" strokeLinejoin="round" />
-        {MARKS.map((m, i) => {
-          const idx = series.findIndex((s) => s.d === m.d);
-          if (idx < 0) return null;
-          const v = m.side === 'P' ? series[idx].P : series[idx].A;
-          const up = m.side === 'P' ? -14 : 20;
-          return (
-            <g key={i} className="rep-mark">
-              <circle cx={x(idx)} cy={y(v)} r="5" fill={m.side === 'P' ? 'var(--pasha)' : 'var(--ai)'} stroke="var(--card)" strokeWidth="2" />
-              <text x={Math.min(x(idx), W - PAD - 4)} y={y(v) + up} textAnchor={idx > n * 0.62 ? 'end' : 'start'} className="rep-mark-t">
-                {lang === 'en' ? m.en : m.ru}
-              </text>
-            </g>
-          );
-        })}
       </g>
+      {MARKS.map((m, i) => {
+        const idx = series.findIndex((s) => s.d === m.d);
+        if (idx < 0 || idx >= upto) return null;
+        const v = m.side === 'P' ? series[idx].P : series[idx].A;
+        const up = m.dy ?? (m.side === 'P' ? -14 : 20);
+        return (
+          <g key={i} className="rep-mark">
+            <circle cx={x(idx)} cy={y(v)} r="5" fill={m.side === 'P' ? 'var(--pasha)' : 'var(--ai)'} stroke="var(--card)" strokeWidth="2" />
+            <text x={Math.min(x(idx), W - PAD - 4)} y={y(v) + up} textAnchor={m.anchor ?? (idx > n * 0.62 ? 'end' : 'start')} className="rep-mark-t">
+              {lang === 'en' ? m.en : m.ru}
+            </text>
+          </g>
+        );
+      })}
       <g style={{ transition: 'opacity .4s' }}>
         <rect x={cutX - 3.5} y={y(last.P) - 3.5} width="7" height="7" fill="var(--pasha)" />
         <rect x={cutX - 3.5} y={y(last.A) - 3.5} width="7" height="7" fill="var(--ai)" />
@@ -218,6 +218,128 @@ function SceneVerdict({ tot, best, lang }) {
   );
 }
 
+/* ══════════════ дуэли матчей ══════════════ */
+
+const DUELS_P = [
+  {
+    m: { ru: 'Канада — Босния · 1:1', en: 'Canada — Bosnia · 1:1' },
+    p: { pl: 7050, ru: 'обе забьют + ничья', en: 'BTTS + draw' },
+    a: { pl: -4610, ru: 'победа Канады, 1Т 0:0, точный счёт', en: 'Canada win, 1H 0:0, correct score' },
+    why: { ru: 'человек прочитал боевую ничью — машина упёрлась в фаворита', en: 'the man read a fighting draw — the machine leaned on the favourite' },
+  },
+  {
+    m: { ru: 'Испания — Бельгия · 2:1', en: 'Spain — Belgium · 2:1' },
+    p: { pl: 6075, ru: '«Испания забьёт в каждом тайме», победа + обе забьют', en: '"Spain score each half", win + BTTS' },
+    a: { pl: -4500, ru: 'обе не забьют + тотал меньше', en: 'BTTS-no + under' },
+    why: { ru: 'Паша поверил в голы — машина в сухарь; оборона умерла на 41-й', en: 'Pasha backed goals — the machine a clean sheet; it died on 41' },
+  },
+  {
+    m: { ru: 'Франция — Англия (бронза) · 4:6', en: 'France — England (bronze) · 4:6' },
+    p: { pl: 9275, ru: 'гол головой, дубль, обе по 2+', en: 'headed goal, a brace, both 2+' },
+    a: { pl: -600, ru: 'Мбаппе + победа Франции', en: 'Mbappé + France win' },
+    why: { ru: 'жанр «гулянки без обороны» против матчап-логики — разгром', en: '"defence-free party" genre vs matchup logic — a rout' },
+  },
+];
+
+const DUELS_A = [
+  {
+    m: { ru: 'Колумбия — Португалия · 0:0', en: 'Colombia — Portugal · 0:0' },
+    a: { pl: 7575, ru: 'тотал меньше + ничья @3.95', en: 'under + draw @3.95' },
+    p: { pl: -3000, ru: 'голы в первом тайме', en: 'first-half goals' },
+    why: { ru: 'xG-профиль кричал «низ» — машина услышала, человек ждал праздника', en: 'the xG profile screamed "under" — the machine listened, the man waited for a party' },
+  },
+  {
+    m: { ru: 'Кабо-Верде — Саудовская Аравия · 0:0', en: 'Cape Verde — Saudi Arabia · 0:0' },
+    a: { pl: 5685, ru: 'тотал меньше + ничья @3.35', en: 'under + draw @3.35' },
+    p: { pl: -3000, ru: 'гол в каждом тайме', en: 'a goal in each half' },
+    why: { ru: 'тот же рецепт: слабые атаки + жара = ноль; ничья — золотая жила камбэка', en: 'same recipe: weak attacks + heat = nil; draws were the comeback goldmine' },
+  },
+  {
+    m: { ru: 'Норвегия — Англия · 1:2 д.в.', en: 'Norway — England · 1:2 AET' },
+    a: { pl: 540, ru: 'скромное «обе забьют»', en: 'a modest BTTS' },
+    p: { pl: -8200, ru: 'шесть ставок на голы и тайм-сценарии', en: 'six bets on goals and half-scripts' },
+    why: { ru: 'худший день Паши: вязкий нокаут съел все верховые сценарии разом', en: "Pasha's worst day: a sticky knockout ate every over-script at once" },
+  },
+];
+
+const LESSONS = [
+  {
+    ru: { t: 'Ничья — недооценённый рынок', e: 'кэфы 3.3–4.0 на равные пары кормили весь камбэк', ok: true },
+    en: { t: 'The draw is underpriced', e: 'odds 3.3–4.0 on even pairs fed the whole comeback', ok: true },
+  },
+  {
+    ru: { t: 'Система точных счетов 2/4 — постоянка', e: '+9980 одним вечером; дисциплина вместо вдохновения', ok: true },
+    en: { t: 'Correct-score system 2/4 — a staple', e: '+9,980 in one evening; discipline over inspiration', ok: true },
+  },
+  {
+    ru: { t: 'Точный счёт на кэфе ~5+ — только красным', e: 'дисперсию режем размером: дважды спасло по 1000', ok: true },
+    en: { t: 'Correct score at ~5+ odds — reds only', e: 'variance cut by stake: saved 1,000 twice', ok: true },
+  },
+  {
+    ru: { t: 'Не фейдить «незаряженного» фаворита', e: 'класс пробивает мотивацию — Мексика и Бразилия наказали', ok: false },
+    en: { t: "Don't fade an 'unmotivated' favourite", e: 'class beats motivation — Mexico and Brazil punished it', ok: false },
+  },
+  {
+    ru: { t: 'Жанр матча сильнее матчапа', e: 'куплен кровью бронзы 4:6 — резервы тоже умеют в перестрелку', ok: false },
+    en: { t: 'Match genre beats the matchup', e: 'bought with the 4:6 bronze — reserves can shoot out too', ok: false },
+  },
+  {
+    ru: { t: 'Вторая жёлтая не считается в тотале', e: 'финал: 5 карточек по протоколу, 3 по расчёту', ok: false },
+    en: { t: "A second yellow doesn't count in totals", e: 'the final: 5 cards on paper, 3 at settlement', ok: false },
+  },
+];
+
+function SceneDuels({ list, topSide, lang }) {
+  const en = lang === 'en';
+  return (
+    <div className="rep-scene">
+      <div className="rep-duels">
+        {list.map((d, i) => (
+          <div key={i} className="rep-duel">
+            <div className="rep-duel-m">{en ? d.m.en : d.m.ru}</div>
+            <div className="rep-duel-rows">
+              <div className={'rep-duel-row ' + (topSide === 'P' ? 'lead' : '')}>
+                <span className="rep-side-tag pasha">{sideLabel('Паша', lang)}</span>
+                <span className="rep-duel-bet">{en ? d.p.en : d.p.ru}</span>
+                <b className={'num ' + (d.p.pl >= 0 ? 'pos' : 'neg')}>{money(d.p.pl, lang)}</b>
+              </div>
+              <div className={'rep-duel-row ' + (topSide === 'A' ? 'lead' : '')}>
+                <span className="rep-side-tag ai">{sideLabel('AI', lang)}</span>
+                <span className="rep-duel-bet">{en ? d.a.en : d.a.ru}</span>
+                <b className={'num ' + (d.a.pl >= 0 ? 'pos' : 'neg')}>{money(d.a.pl, lang)}</b>
+              </div>
+            </div>
+            <div className="rep-duel-why pencil">{en ? d.why.en : d.why.ru}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function SceneLessons({ lang }) {
+  const en = lang === 'en';
+  return (
+    <div className="rep-scene">
+      <div className="rep-lessons">
+        <div className="rep-lessons-hd">{en ? "THE MACHINE'S NOTEBOOK" : 'ТЕТРАДЬ МАШИНЫ'}</div>
+        {LESSONS.map((l, i) => {
+          const L2 = en ? l.en : l.ru;
+          return (
+            <div key={i} className="rep-lesson">
+              <span className={'stampword ' + (L2.ok ? 'hit' : 'miss')}>{L2.ok ? (en ? 'PAID' : 'ОКУПИЛСЯ') : (en ? 'COST US' : 'КРОВЬЮ')}</span>
+              <div>
+                <b>{L2.t}</b>
+                <small>{L2.e}</small>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 /* ══════════════ главы ══════════════ */
 
 const CHAPTERS = [
@@ -266,6 +388,17 @@ const CHAPTERS = [
     },
   },
   {
+    id: 'duels-a', scene: { type: 'duels', side: 'A' },
+    ru: {
+      k: 'Дуэли · машина', h: 'Коронки машины',
+      t: 'Её почерк вблизи. Рецепт один: слабые атаки плюс полуденная жара — и **Колумбия** с Португалией, а следом **Кабо-Верде** с саудовцами дают по нулям. «Тотал меньше» и ничья платят дважды, пока человек в тех же матчах ждёт праздника. А вязкая **Норвегия — Англия** стала худшим матчем Паши за всю войну: шесть голевых сценариев сгорели за один вечер.',
+    },
+    en: {
+      k: 'Duels · machine', h: "The machine's signature wins",
+      t: "Its handwriting up close. One recipe: weak attacks plus midday heat — **Colombia** vs Portugal, then **Cape Verde** vs the Saudis, both finish goalless. Under-plus-draw pays twice while the man waits for a party in the same games. And the sticky **Norway — England** became Pasha's worst match of the whole war: six goal scripts burned in a single evening.",
+    },
+  },
+  {
     id: 'week', scene: { type: 'chart', until: '2026-07-18' },
     ru: {
       k: 'Глава 4 · плей-офф', h: 'Неделя человека',
@@ -274,6 +407,17 @@ const CHAPTERS = [
     en: {
       k: 'Ch. 4 · playoffs', h: "The human's week",
       t: "The playoffs swung it back. The **draws double @14** — a jackpot; **Argentina's** comeback against England — his genre again; and the bronze match, a 4:6 shoot-out of reserves, Pasha read cover to cover: headed goal, a brace, goals both ways. The machine kept leaning on matchups — and kept burning.",
+    },
+  },
+  {
+    id: 'duels-p', scene: { type: 'duels', side: 'P' },
+    ru: {
+      k: 'Дуэли · человек', h: 'Где Паша бил на голову',
+      t: 'Три разгрома вблизи. **Канада — Босния**: Паша прочитал боевую ничью — машина упёрлась в фаворита и сгорела по всем пунктам. **Испания — Бельгия**: он верил в голы, она — в сухарь; оборона умерла ещё до перерыва. И бронза **Франция — Англия** 4:6 — его шедевр: гол головой, дубль, перестрелка с двух сторон — всё зашло, пока машина пересчитывала матчапы.',
+    },
+    en: {
+      k: 'Duels · human', h: 'Where Pasha won by a mile',
+      t: "Three routs up close. **Canada — Bosnia**: Pasha read a fighting draw — the machine leaned on the favourite and burned on every line. **Spain — Belgium**: he backed goals, it backed a clean sheet; the defence died before the break. And the **France — England** bronze, 4:6 — his masterpiece: headed goal, a brace, a shoot-out both ways — everything landed while the machine was still crunching matchups.",
     },
   },
   {
@@ -307,6 +451,17 @@ const CHAPTERS = [
     en: {
       k: 'Breakdown', h: 'The traffic light',
       t: "Greens — the workhorse for both. Yellows — where the machine kept discipline and the man took risks. And **reds were Pasha's turf**: 17.0 comebacks and draw doubles made his days, while the machine's reds mostly burned on correct-score lotteries.",
+    },
+  },
+  {
+    id: 'lessons', scene: { type: 'lessons' },
+    ru: {
+      k: 'Тетрадь', h: 'Чему научилась машина',
+      t: 'Половина тетради окупилась ещё по ходу войны: недооценённые **ничьи** кормили камбэк, система точных счетов стала постоянкой, а урезанный размер на лотерейных кэфах дважды сберёг деньги. Вторая половина куплена кровью: класс фаворита пробивает «нет мотивации», жанр матча сильнее матчапа, а вторая жёлтая, как выяснилось в финале, вообще не считается.',
+    },
+    en: {
+      k: 'The notebook', h: 'What the machine learned',
+      t: "Half the notebook paid for itself mid-war: underpriced **draws** fed the comeback, the correct-score system became a staple, and cutting stakes on lottery odds saved money twice. The other half was bought in blood: a favourite's class beats 'no motivation', match genre beats the matchup, and a second yellow — as the final revealed — doesn't count at all.",
     },
   },
   {
@@ -394,6 +549,8 @@ export default function ReportView() {
             <span className="scotch rep-sc2" aria-hidden="true" />
             {scene.type === 'intro' && <SceneIntro tot={data.tot} nBets={data.nBets} lang={lang} />}
             {scene.type === 'chart' && <WarChart series={data.series} cut={cutIdx} lang={lang} />}
+            {scene.type === 'duels' && <SceneDuels list={scene.side === 'P' ? DUELS_P : DUELS_A} topSide={scene.side} lang={lang} />}
+            {scene.type === 'lessons' && <SceneLessons lang={lang} />}
             {scene.type === 'markets' && <SceneMarkets markets={data.markets} lang={lang} />}
             {scene.type === 'tiers' && <SceneTiers tiers={data.tiers} lang={lang} />}
             {scene.type === 'verdict' && <SceneVerdict tot={data.tot} best={data.best} lang={lang} />}
@@ -404,6 +561,10 @@ export default function ReportView() {
           </div>
         </div>
       </div>
+
+      <p className="rep-fin pencil">
+        {lang === 'en' ? 'the album is glued shut — rematch at Euro 2028' : 'альбом доклеен — реванш на Евро-2028'}
+      </p>
     </div>
   );
 }

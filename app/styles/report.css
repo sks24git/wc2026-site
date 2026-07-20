@@ -8,11 +8,11 @@
 .rep-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 28px; align-items: start; }
 
 /* ── левая колонка: главы ── */
-.rep-story { display: flex; flex-direction: column; gap: 42vh; padding: 12vh 0 30vh; }
+.rep-story { display: flex; flex-direction: column; gap: 30vh; padding: 8vh 0 8vh; }
 .rep-step {
   background: var(--card); border: 1px solid #d5c9a4; box-shadow: 4px 5px 0 var(--shadow);
   padding: 18px 20px 16px; transform: rotate(-0.6deg);
-  opacity: 0.42; transition: opacity .35s ease, transform .35s ease;
+  opacity: 0.5; transition: opacity .35s ease, transform .35s ease;
 }
 .rep-step:nth-child(even) { transform: rotate(0.5deg); }
 .rep-step.on { opacity: 1; transform: rotate(0deg) scale(1.012); }
@@ -88,6 +88,37 @@
 .rep-tier-cell.pos { color: var(--win); }
 .rep-tier-cell.neg { color: var(--lose); }
 
+/* дуэли матчей */
+.rep-duels { display: flex; flex-direction: column; gap: 13px; }
+.rep-duel {
+  background: var(--card); border: 1px solid #d5c9a4; box-shadow: 3px 4px 0 var(--shadow);
+  padding: 10px 12px 9px; transform: rotate(-0.5deg);
+}
+.rep-duel:nth-child(even) { transform: rotate(0.5deg); }
+.rep-duel-m {
+  font-family: var(--font-disp); font-weight: 600; font-size: 13px; letter-spacing: .06em;
+  text-transform: uppercase; border-bottom: 2px solid var(--rule); padding-bottom: 4px; margin-bottom: 6px;
+}
+.rep-duel-row { display: grid; grid-template-columns: 46px 1fr auto; gap: 8px; align-items: baseline; padding: 3px 0; }
+.rep-duel-bet { font-size: 12.5px; color: var(--muted); line-height: 1.4; }
+.rep-duel-row.lead .rep-duel-bet { color: var(--ink); }
+.rep-duel-row b { font-size: 13.5px; white-space: nowrap; }
+.rep-duel-row b.pos { color: var(--win); }
+.rep-duel-row b.neg { color: var(--lose); }
+.rep-duel-why { font-family: var(--font-hand); font-size: 15.5px; margin-top: 4px; transform: rotate(-0.4deg); }
+
+/* тетрадь уроков */
+.rep-lessons { display: flex; flex-direction: column; gap: 11px; }
+.rep-lessons-hd {
+  text-align: center; font-family: var(--font-disp); font-weight: 600; font-size: 12px;
+  letter-spacing: .24em; text-transform: uppercase; color: var(--muted);
+  border-bottom: 2px solid var(--rule); padding-bottom: 6px; margin-bottom: 2px;
+}
+.rep-lesson { display: grid; grid-template-columns: 86px 1fr; gap: 10px; align-items: start; }
+.rep-lesson .stampword { font-size: 10px; padding: 2px 5px; justify-self: start; transform: rotate(-2deg); margin-top: 2px; }
+.rep-lesson b { display: block; font-size: 13.5px; line-height: 1.35; }
+.rep-lesson small { display: block; font-size: 12px; color: var(--muted); line-height: 1.45; margin-top: 1px; }
+
 /* вердикт */
 .rep-verdict { text-align: center; }
 .rep-stamp { font-size: 20px; padding: 8px 16px; transform: rotate(-3deg); display: inline-block; margin-bottom: 14px; }
@@ -102,17 +133,25 @@
 .rep-v-col p em { font-style: normal; color: var(--ink); }
 .rep-verdict-note { font-family: var(--font-hand); font-size: 16px; color: var(--pencil); }
 
+/* подпись-концовка */
+.rep-fin { text-align: center; font-size: 21px; margin: 34px 0 0; transform: rotate(-1deg); }
+
 /* ── мобайл: панель сверху, главы под ней ── */
 @media (max-width: 860px) {
   .rep-grid { grid-template-columns: 1fr; gap: 0; }
   .rep-panel-wrap { position: sticky; top: 52px; z-index: 5; order: -1; }
   .rep-panel { min-height: 0; padding: 12px 10px 8px; }
   .rep-chart { max-height: 46vh; }
-  .rep-story { gap: 26vh; padding: 8vh 0 46vh; }
+  .rep-story { gap: 20vh; padding: 5vh 0 16vh; }
   .rep-step h2 { font-size: 19px; }
   .rep-step p { font-size: 13.5px; }
   .rep-panel-legend { margin-top: 6px; }
   .rep-tier-cell { font-size: 15px; }
   .rep-verdict-grid { max-width: 100%; }
   .rep-intro-facts { max-width: 100%; }
+  .rep-duel { padding: 8px 9px 7px; }
+  .rep-duel-why { font-size: 14px; }
+  .rep-duel-bet { font-size: 11.5px; }
+  .rep-lesson { grid-template-columns: 74px 1fr; gap: 8px; }
+  .rep-fin { font-size: 18px; margin-top: 22px; }
 }
