@@ -28,6 +28,10 @@ const TABS = [
     href: '/playoffs/', key: 'nav.playoffs',
     icon: <path d="M4 5h5v6H4M4 13h5v6H4M9 8h4v8h4M17 12h3" />,
   },
+  {
+    href: '/report/', key: 'nav.report',
+    icon: <path d="M6 3h9l4 4v14H6zM15 3v4h4M9 12h7M9 16h7M9 8h3" />,
+  },
 ];
 
 export default function Nav({ variant }) {
